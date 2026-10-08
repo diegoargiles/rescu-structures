@@ -1,5 +1,7 @@
 # RescU foam-core / GFRP preliminary candidate
 
+**CAD audit update, 2026-10-08:** Current Assembly 2 has a 30-degree V-tail (code: 35 degrees), and the extracted wing profile differs materially from SD7037. Earlier V3 sizing results and skin/core schedules are not validated for this CAD. Read [the measurement audit](CAD_MEASUREMENT_AUDIT.md) before using those results. Analysis inputs remain unchanged pending resolution of profile, chord, area and attachment definitions.
+
 Engineering screening dated 2026-10-07. This is a reproducible candidate for CAD refinement and testing, not an established flightworthy design. V2 is retained unchanged. V3 removes internal wing spars, wing ribs and the aft CFRP spine from the candidate's accounted structure. External CFRP motor arms and the aluminum payload plate remain.
 
 ## Proposed wing and tail construction
