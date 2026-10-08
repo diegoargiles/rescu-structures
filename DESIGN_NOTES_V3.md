@@ -1,6 +1,8 @@
 # RescU foam-core / GFRP preliminary candidate
 
-**CAD audit update, 2026-10-08:** Current Assembly 2 has a 30-degree V-tail (code: 35 degrees), and the extracted wing profile differs materially from SD7037. Earlier V3 sizing results and skin/core schedules are not validated for this CAD. Read [the measurement audit](CAD_MEASUREMENT_AUDIT.md) before using those results. Analysis inputs remain unchanged pending resolution of profile, chord, area and attachment definitions.
+**Confirmed battery update, 2026-10-08:** V3 now uses the revised report's **900 g battery**, explicitly confirmed by Diego. V2 remains unchanged at 650 g. V3 has its own copied input dictionary and passes it to inherited mass/CG helpers. Numerical results below are updated for 900 g. The five-ply candidate **fails the 70%-stiffness wing deflection screen**; nominal case passes are not a complete candidate acceptance. Geometry/joint gates remain unresolved.
+
+**CAD audit update, 2026-10-08:** Current Assembly 2 has a 30-degree V-tail (code: 35 degrees), and the extracted wing profile differs materially from SD7037. V3 sizing results and skin/core schedules are not validated for the original CAD. Diego subsequently selected SD7037 for the new wing candidate and the CAD's 30-degree tail angle. The local STEP candidate follows those choices; V3 geometry inputs have not yet incorporated the complete CAD reconciliation. Read [the measurement audit](CAD_MEASUREMENT_AUDIT.md) before using results. Profile, chord, area and attachment definitions still require reconciliation.
 
 Engineering screening dated 2026-10-07. This is a reproducible candidate for CAD refinement and testing, not an established flightworthy design. V2 is retained unchanged. V3 removes internal wing spars, wing ribs and the aft CFRP spine from the candidate's accounted structure. External CFRP motor arms and the aluminum payload plate remain.
 
@@ -24,14 +26,14 @@ The model uses Diab Rev19 minimum shear modulus and strength: H60 density 60 kg/
 
 Eight uniform wing candidates were compared, re-calculating aircraft sizing mass for each. Using the reduced-stiffness check, H60 wing deflections are approximately:
 
-- Three 163 gsm plies [0,45,0], 0.537 mm: **50.4 mm**.
-- Four [0,45,45,0], 0.716 mm: **44.3 mm**.
-- Five [0,0,45,0,0], 0.895 mm: **34.5 mm**.
-- Six [0,0,45,45,0,0], 1.074 mm: **32.9 mm**.
+- Three 163 gsm plies [0,45,0], 0.537 mm: **54.2 mm**.
+- Four [0,45,45,0], 0.716 mm: **47.5 mm**.
+- Five [0,0,45,0,0], 0.895 mm: **36.9 mm**.
+- Six [0,0,45,45,0,0], 1.074 mm: **35.1 mm**.
 
-The proposed preliminary screen is 5% of the 0.700 m half-span, or 35 mm, plus 2 degrees tip twist at limit load. These are engineering screening criteria, not approved team requirements. Five plies are the lightest tested stack that meets both nominal and 30%-reduced stiffness checks. Margin against 35 mm is small; further load/property changes can reject this choice. Six plies add approximately 117 g to the wing for limited extra bending benefit. Other fabrics, mixed stacks or localized reinforcement have not been optimized.
+The proposed preliminary screen is 5% of the 0.700 m half-span, or 35 mm, plus 2 degrees tip twist at limit load. These are engineering screening criteria, not approved team requirements. The prior 650 g battery case selected five plies; with the confirmed 900 g battery, none of the tested H60 uniform stacks meets the 35 mm reduced-stiffness screen. The five-ply construction is retained as a comparison candidate, not an accepted design. Six plies add approximately 117 g to the wing for limited extra bending benefit. Other fabrics, mixed stacks or localized reinforcement have not been optimized.
 
-H80 lowers five-ply reduced-stiffness deflection to about 33.8 mm, adding about 24 g of wing core mass. It improves core shear margin but does not resolve the main skin-bending or propulsion-budget constraints. Local H80 or denser inserts may be useful at mounts only after the load path and contact geometry are known. There is no direct evidence here that another similar UAV's foam grade validates this RescU construction.
+H80 lowers five-ply reduced-stiffness deflection to about 36.2 mm, still above 35 mm, adding about 24 g of wing core mass. The tested six-ply H80 stack reaches about 34.2 mm but adds mass and does not solve the 2.76 kg target. It improves core shear margin but does not resolve the main skin-bending or propulsion-budget constraints. Local H80 or denser inserts may be useful at mounts only after the load path and contact geometry are known. There is no direct evidence here that another similar UAV's foam grade validates this RescU construction.
 
 ## Model and property assumptions
 
@@ -47,22 +49,22 @@ Loads include provisional +3g limit/+4.5g ultimate, assumed -1.5g limit with 1.5
 
 ## Current calculated results and mission conflict
 
-Under the selected five-ply H60 candidate:
+Under the five-ply H60 comparison candidate:
 
-- Wing +3g limit tip deflection **24.14 mm**, tip twist **0.68 degrees** in magnitude. With reduced stiffness and shear center varied from 25% to 45% chord, maxima are **34.49 mm** and **1.29 degrees**.
-- Ultimate global maximum face stress **27.56 MPa**, maximum ply stress utilization **0.418**, core shear utilization **0.291**. Utilization <=1 passes the stated assumed material screen, not every failure mode.
+- Wing +3g limit tip deflection **25.82 mm**, tip twist **0.70 degrees** in magnitude. With reduced stiffness and shear center varied from 25% to 45% chord, maxima are **36.89 mm** and **1.33 degrees**.
+- Ultimate global maximum face stress **29.48 MPa**, maximum ply stress utilization **0.447**, core shear utilization **0.311**. Utilization <=1 passes the stated assumed material screen, not every failure mode.
 - Tail limit tip deflection **3.89 mm** under the stated assumed tail load.
-- Six load cases pass the four computed screens: ply maximum stress, core shear, limit deflection and limit twist. **Overall aircraft status remains UNRESOLVED.**
+- Six load cases pass the four computed screens: ply maximum stress, core shear, limit deflection and limit twist. The reduced-stiffness deflection screen fails. **Overall aircraft status remains UNRESOLVED.**
 
-Accounted aircraft mass is **3.400 kg**, a lower bound because actual fuselage foam and connection construction are unknown. A separate provisional **0.200 kg** reserve produces **3.600 kg** load sizing mass. This is not a complete takeoff mass. A sensitivity with +20% cured skin areal mass and +10% foam density raises the sizing mass to **3.748 kg**; the reserve is not a validated uncertainty allowance.
+Accounted aircraft mass is **3.650 kg**, a lower bound because actual fuselage foam and connection construction are unknown. A separate provisional **0.200 kg** reserve produces **3.850 kg** load sizing mass. This is not a complete takeoff mass. A sensitivity with +20% cured skin areal mass and +10% foam density raises the sizing mass to **3.998 kg**; the reserve is not a validated uncertainty allowance.
 
-At 3.600 kg, 40 N total VTOL thrust gives **thrust/weight=1.133**. The old 2.669 kg team target and propulsion budget are inconsistent with this uniformly reinforced sparless candidate. A proposed 1.5 thrust/weight screen would require about **53.0 N**, or mass <=2.72 kg at 40 N. That ratio is an engineering comparison, not a regulatory requirement. This model does not validate end-of-battery thrust, control authority, endurance or transition. A stronger propulsion option would also require updating motor loads and masses. Do not release the current candidate for manufacture/flight until the team resolves this conflict.
+At 3.850 kg, 40 N total VTOL thrust gives **thrust/weight=1.060**. The old 2.669 kg team target and propulsion budget are inconsistent with this uniformly reinforced sparless candidate. A proposed 1.5 thrust/weight screen would require about **56.6 N**, or mass <=2.72 kg at 40 N. That ratio is an engineering comparison, not a regulatory requirement. This model does not validate end-of-battery thrust, control authority, endurance or transition. A stronger propulsion option would also require updating motor loads and masses. Do not release the current candidate for manufacture/flight until the team resolves this conflict.
 
-Provisional battery centre is x=0.248 m from the nose using accounted components alone. Missing masses and actual compartment fit can change it; it is not a finalized CG or battery installation.
+Provisional battery centre is x=0.289 m from the nose using accounted components alone. Missing masses and actual compartment fit can change it; it is not a finalized CG or battery installation.
 
 ## What validation has and has not been done
 
-Seventeen automated checks cover independent uniform-load and point-load beam solutions, shear deflection and torsion integration, rectangular area/inertia and closed-tube torsion, isotropic laminate rotation, woven orientation behavior, profile closure, section/span mesh convergence, load linearity, and removal of old member mass. These verify the numerical implementation. They do not measure materials or validate the aircraft.
+Eighteen automated checks cover independent uniform-load and point-load beam solutions, shear deflection and torsion integration, rectangular area/inertia and closed-tube torsion, isotropic laminate rotation, woven orientation behavior, profile closure, section/span mesh convergence, load linearity, removal of old member mass, and an independent first-moment check for the confirmed 900 g battery without mutating V2. These verify the numerical implementation. They do not measure materials or validate the aircraft.
 
 NASA's wrinkling survey explains that orthotropic laminate wrinkling requires laminate **bending** stiffness and applicable core/facesheet assumptions. V3 deliberately does not claim a wrinkling pass by inserting extensional effective modulus into an isotropic formula. Skin wrinkling, local buckling, debond/peel, inserts/crushing/pull-out, control-surface interruptions, aft shell, gust/landing cases and aeroelasticity remain unresolved.
 

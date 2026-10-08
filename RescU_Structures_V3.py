@@ -18,7 +18,9 @@ import argparse
 import RescU_Structures_V2 as v2
 
 ROOT = Path(__file__).resolve().parent
-P = v2.P
+# V3 keeps its own inputs so approved changes never alter the preserved V2.
+# Battery mass: revised report, confirmed by Diego on 2026-10-08.
+P = {**v2.P, "battery_mass_kg": .900}
 
 
 @dataclass(frozen=True)
@@ -366,7 +368,7 @@ def panel_mass(s, foam, shape="SD7037", n=200):
 
 
 def aircraft_mass(wing_skin=WING_SKIN, tail_skin=TAIL_SKIN, foam=FOAMS["H60"]):
-    _, old = v2.compute_structural_masses()
+    _, old = v2.compute_structural_masses(p=P)
     retained = {"Fuselage shell", "Motor arm R", "Motor arm L", "Payload mount plate"}
     parts = [p for p in old if p.name in retained]
     for name, skin, shape in (("Wing",wing_skin,"SD7037"),("V-tail",tail_skin,"NACA0010")):
@@ -377,8 +379,8 @@ def aircraft_mass(wing_skin=WING_SKIN, tail_skin=TAIL_SKIN, foam=FOAMS["H60"]):
             parts.append(v2.PointMass(name+" "+suffix,m[key],xpos,0.,0.,"V3 screening"))
     hardware = .10*sum(p.mass_kg for p in parts)
     parts.append(v2.PointMass("Provisional local hardware",hardware,.45,0.,0.,"ASSUMPTION 10%; NOT a designed attachment"))
-    parts += v2.propulsion_point_masses()+v2.nonstructural_nonbattery_point_masses()
-    battery_x = v2.solve_battery_x_for_target_cg(parts)
+    parts += v2.propulsion_point_masses(p=P)+v2.nonstructural_nonbattery_point_masses(p=P)
+    battery_x = v2.solve_battery_x_for_target_cg(parts,p=P)
     parts.append(v2.PointMass("Battery",float(P["battery_mass_kg"]),battery_x,0.,0.,"PROVISIONAL; unknown masses excluded"))
     known = sum(p.mass_kg for p in parts)
     # Explicit reserve, separate from calculated known mass. Does not invent CAD.
@@ -406,8 +408,8 @@ def cases(s=WING_SKIN, foam=FOAMS["H60"], tail_skin=TAIL_SKIN, n=200):
     # Existing external arms retained; two 10 N motors per side. Their net wing
     # load is 20 N at y=.265, with eccentric torque about an ASSUMED .35c SC.
     yarm = float(P["arm_y_abs_m"])
-    c = v2.wing_local_chord(yarm)
-    xsc = v2.wing_local_le_x(yarm)+.35*c
+    c = v2.wing_local_chord(yarm,p=P)
+    xsc = v2.wing_local_le_x(yarm,p=P)+.35*c
     motorforce = float(P["team_max_vtol_thrust_total_N"])/int(P["n_vtol_motors"])
     thrust_factor = float(P["vtol_structural_thrust_factor"])
     torque = motorforce*(float(P["front_motor_x_m"])+float(P["rear_motor_x_m"])-2*xsc)
@@ -419,7 +421,7 @@ def cases(s=WING_SKIN, foam=FOAMS["H60"], tail_skin=TAIL_SKIN, n=200):
                       points=((yarm,motorforce,motorforce*(float(P["rear_motor_x_m"])-xsc)),))
     # Panel-normal force, two identical tail panels. This does not use V-tail
     # projected horizontal area or divide vertical force by cos(dihedral).
-    tailarea = v2.derive_vtail_geometry()["vtail_area_total_m2"]
+    tailarea = v2.derive_vtail_geometry(p=P)["vtail_area_total_m2"]
     tailforce = .5*v2.RHO_AIR*float(P["top_speed_mps"])**2*tailarea*SCREEN["tail_panel_normal_CL"]/2
     tail = panel_case(f"V-tail: panel-normal CL={SCREEN['tail_panel_normal_CL']:g} at {P['top_speed_mps']:g} m/s",tail_skin,foam,
                       tailforce,ultimate_factor,shape="NACA0010",n=n)
@@ -450,15 +452,22 @@ def run(output):
     process_tail=replace(TAIL_SKIN,ply_mass=TAIL_SKIN.ply_mass*1.20)
     process_foam=replace(FOAMS["H60"],density=FOAMS["H60"].density*1.10)
     process_mass=aircraft_mass(process_skin,process_tail,process_foam)
+    worst_soft_tip=max(abs(c["tip_total_limit_mm"]) for c in sens
+                       if c["stiffness_scale"]==SCREEN["soft_stiffness_scale"])
+    wing_deflection_limit_mm=SCREEN["deflection_halfspan_fraction"]*float(P["wingspan_m"])/2*1000
+    soft_status="PASS" if worst_soft_tip<=wing_deflection_limit_mm else "FAIL"
     result = {"overall_status":"UNRESOLVED - preliminary candidate only", "assumptions":SCREEN,
+              "confirmed_battery_mass_kg":float(P["battery_mass_kg"]),
+              "reduced_stiffness_wing_deflection":{"status":soft_status,
+                    "worst_tip_mm":worst_soft_tip,"limit_mm":wing_deflection_limit_mm},
               "wing_skin":vars(WING_SKIN),"tail_skin":vars(TAIL_SKIN),
               "foam":vars(FOAMS["H60"]),"mass":mass,"cases":basecases,
               "vtol_thrust_to_sizing_weight":float(P["team_max_vtol_thrust_total_N"])/(mass["sizing_mass_kg"]*v2.G),
               "process_mass_sensitivity":process_mass,
               "thrust_for_proposed_margin_N":mass["sizing_mass_kg"]*v2.G*SCREEN["proposed_vtol_thrust_weight"],
               "sweep":sweep,"sensitivity":sens,
-              "external_arm_screen":v2.motor_arm_analysis(),
-              "payload_plate_screen":v2.payload_plate_analysis(),
+              "external_arm_screen":v2.motor_arm_analysis(p=P),
+              "payload_plate_screen":v2.payload_plate_analysis(p=P),
               "gates":["CAD actual profile, sweep/twist and intact torsion closure",
                        "Measured laminate modulus/strength and foam orientation",
                        "Skin wrinkling/local buckling and adhesive peel/debonding",
@@ -475,6 +484,7 @@ def run(output):
            f"Wing: {WING_SKIN.angles}, {WING_SKIN.thickness*1000:.3f} mm per face",
            f"Tail: {TAIL_SKIN.angles}, {TAIL_SKIN.thickness*1000:.3f} mm per face",
            "Foam: Divinycell H60; fuselage exterior preserved at 0.400 mm GFRP",
+           f"Battery: {float(P['battery_mass_kg'])*1000:.0f} g (confirmed revised report)",
            f"Known mass lower bound: {mass['known_mass_lower_bound_kg']:.3f} kg",
            f"Load sizing mass: {mass['sizing_mass_kg']:.3f} kg",
            f"Unallocated reserve: {mass['unallocated_reserve_kg']:.3f} kg",
@@ -484,7 +494,8 @@ def run(output):
     for c in basecases:
         lines += [c["case"],f"  {c['screen_status']}: tip {c['tip_total_limit_mm']:.2f} mm; twist {c['tip_twist_limit_deg']:.2f} deg; "
                   f"ply FI {c['ply_failure_index_ultimate']:.3f}; core shear {c['core_shear_utilization_ultimate']:.3f}"]
-    lines += ["", f"{SCREEN['deflection_halfspan_fraction']*100:g}% half-span deflection and {SCREEN['twist_deg']:g} deg twist are proposed engineering screens, not team requirements.",
+    lines += ["", f"Wing at {SCREEN['soft_stiffness_scale']*100:g}% assumed stiffness: {soft_status}; worst tip {worst_soft_tip:.2f} mm / {wing_deflection_limit_mm:.2f} mm limit.",
+              f"{SCREEN['deflection_halfspan_fraction']*100:g}% half-span deflection and {SCREEN['twist_deg']:g} deg twist are proposed engineering screens, not team requirements.",
               "PASS refers only to four calculated screens. No overall structural pass is issued.",
               "Excluded: internal wing spar/ribs/aft spine. Retained: external CFRP arms and payload plate.",
               "Fuselage foam and actual joints are not modeled; known mass is a lower bound.",

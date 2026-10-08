@@ -95,6 +95,19 @@ class LaminateChecks(unittest.TestCase):
 
 
 class DesignChecks(unittest.TestCase):
+    def test_confirmed_battery_mass_and_independent_cg(self):
+        self.assertIsNot(model.P,model.v2.P)
+        self.assertEqual(model.P["battery_mass_kg"],.900)
+        self.assertEqual(model.v2.P["battery_mass_kg"],.650)
+        mass=model.aircraft_mass()
+        parts=mass["components"]
+        battery=next(p for p in parts if p["name"]=="Battery")
+        self.assertEqual(battery["mass_kg"],.900)
+        # Direct first moment checks that the helper did not retain V2's 650g.
+        cg=sum(p["mass_kg"]*p["x_m"] for p in parts)/sum(p["mass_kg"] for p in parts)
+        target=model.P["x_main_wing_le_m"]+model.P["cg_target_aft_of_wing_le_m"]
+        self.assertAlmostEqual(cg,target,places=12)
+
     def test_force_deflection_linearity(self):
         a=model.panel_case("check",model.WING_SKIN,model.FOAMS["H60"],20.,1.5,n=100)
         b=model.panel_case("check",model.WING_SKIN,model.FOAMS["H60"],40.,1.5,n=100)

@@ -6,6 +6,8 @@ This is a conceptual/preliminary model. Inputs marked as assumptions need confir
 
 ## Foam-core candidate (V3)
 
+V3 uses the **confirmed 900 g battery** from the revised report. V2 keeps its historical 650 g input. Current V3 known mass is about **3.650 kg**, sizing mass **3.850 kg**, and the five-ply wing **fails** the 70%-stiffness deflection check. The printed report shows that failure separately from nominal load-case passes. Run `explore_mass_target.py` for the updated 2.76 kg budget and read [mass-target exploration](MASS_TARGET_EXPLORATION.md).
+
 The `foam-core-gfrp` branch adds a separate **preliminary, unresolved** sparless foam/GFRP screening model. V2 remains unchanged. Read [engineering choices and validation limits](DESIGN_NOTES_V3.md) and [the CAD checklist](CAD_REQUEST_V3.md) first. The candidate adds substantial skin mass and does **not** establish compatibility with the current VTOL propulsion budget.
 
 ```powershell
