@@ -4,6 +4,19 @@ Python code for the RescU senior design VTOL fixed-wing UAV's preliminary struct
 
 This is a conceptual/preliminary model. Inputs marked as assumptions need confirmation as CAD, materials, joints, and subsystem locations are finalized.
 
+## Foam-core candidate (V3)
+
+The `foam-core-gfrp` branch adds a separate **preliminary, unresolved** sparless foam/GFRP screening model. V2 remains unchanged. Read [engineering choices and validation limits](DESIGN_NOTES_V3.md) and [the CAD checklist](CAD_REQUEST_V3.md) first. The candidate adds substantial skin mass and does **not** establish compatibility with the current VTOL propulsion budget.
+
+```powershell
+python RescU_Structures_V3.py
+python -m unittest test_v3 -v
+```
+
+Reports and CSV/JSON outputs appear in `results/v3/`, or a folder chosen with `--output`. Generated results are ignored by Git; the code, airfoil data, tests and design notes preserve the reproducible version. No external Python packages are needed. `WING_SKIN`, `TAIL_SKIN`, `FOAMS`, and the visible `SCREEN` assumptions are the main V3 inputs; inherited team geometry/equipment are read from V2. Update the notes when changing an assumption or design choice.
+
+For V3 work in GitHub Desktop, select branch **foam-core-gfrp**, review changes, commit to that branch, then **Push origin**. A commit creates the local checkpoint; a push backs it up to GitHub. Saving the Python file alone does neither. Continue using the original `main` branch for the preserved V2 reference until a replacement is reviewed.
+
 ## Run the analysis
 
 Use Python 3.10 or newer. No third-party packages are required.
