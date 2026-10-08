@@ -20,3 +20,6 @@ ENV/
 /RescU_Structures_V2_Report.txt
 /RescU_Structures_V2_Component_Masses.csv
 /RescU_Structures_V2_Battery_Sweep.csv
+
+# Reproducible V3 generated reports
+/results/
