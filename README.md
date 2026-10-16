@@ -1,5 +1,11 @@
 # RescU Structural Analysis
 
+## New Ravatherm V3 configuration (2026-10-16)
+
+Run `python RescU_Structures_V3_Ravatherm.py` for the separate **Ravatherm XPS X H LB / 0.33 mm fuselage and wing skins / tapered CFRP tube spar** candidate. Read [dimensions, trade study, results and limitations](RAVATHERM_V3_DESIGN.md). The original V2 and H60 V3 scripts are preserved. Outputs go to `results/v3_ravatherm/`. Run `python -m unittest test_v3 test_v3_ravatherm -v` to check both configurations.
+
+The six calculated load cases and 70%-stiffness deflection screen pass for the selected inputs; **overall structural status remains unresolved**, especially actual CAD profile, custom tube layup, joints, bonds and local buckling. The historical H60 discussion below describes the original script.
+
 Python code for the RescU senior design VTOL fixed-wing UAV's preliminary structural analysis. The model estimates component mass and aircraft center of gravity, battery position, wing spar and VTOL motor-arm stresses and deflections, payload mounting plate loads, and aft structural spine loads.
 
 This is a conceptual/preliminary model. Inputs marked as assumptions need confirmation as CAD, materials, joints, and subsystem locations are finalized.
