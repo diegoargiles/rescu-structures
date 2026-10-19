@@ -1,70 +1,54 @@
-# RescU Structural Analysis
+# RescU Structures — current V4 / CAD P03
 
-Python code for the RescU senior design VTOL fixed-wing UAV's preliminary structural analysis. The model estimates component mass and aircraft center of gravity, battery position, wing spar and VTOL motor-arm stresses and deflections, payload mounting plate loads, and aft structural spine loads.
+Current analysis for the Ravatherm XPS / GFRP RescU VTOL UAV. **Run V4 for the current design.** V2 and the older H60 V3 are historical references under [archive/v2_v3](archive/v2_v3/).
 
-This is a conceptual/preliminary model. Inputs marked as assumptions need confirmation as CAD, materials, joints, and subsystem locations are finalized.
+## Run
 
-## Foam-core candidate (V3)
-
-The `foam-core-gfrp` branch adds a separate **preliminary, unresolved** sparless foam/GFRP screening model. V2 remains unchanged. Read [engineering choices and validation limits](DESIGN_NOTES_V3.md) and [the CAD checklist](CAD_REQUEST_V3.md) first. The candidate adds substantial skin mass and does **not** establish compatibility with the current VTOL propulsion budget.
+Python 3.10+; no third-party packages required. Open a terminal in this repository folder:
 
 ```powershell
-python RescU_Structures_V3.py
-python -m unittest test_v3 -v
+python RescU_Structures_V4.py
+python verify_v4.py
 ```
 
-Reports and CSV/JSON outputs appear in `results/v3/`, or a folder chosen with `--output`. Generated results are ignored by Git; the code, airfoil data, tests and design notes preserve the reproducible version. No external Python packages are needed. `WING_SKIN`, `TAIL_SKIN`, `FOAMS`, and the visible `SCREEN` assumptions are the main V3 inputs; inherited team geometry/equipment are read from V2. Update the notes when changing an assumption or design choice.
+On Windows, `py` can replace `python`. After running, open **results/REPORT.html** for the readable report. Edit **inputs.json** for masses, material assumptions, loads and reserve. Export fresh CAD geometry before treating a changed design as the current baseline.
 
-For V3 work in GitHub Desktop, select branch **foam-core-gfrp**, review changes, commit to that branch, then **Push origin**. A commit creates the local checkpoint; a push backs it up to GitHub. Saving the Python file alone does neither. Continue using the original `main` branch for the preserved V2 reference until a replacement is reviewed.
+The committed [baseline report](reports/baseline/SUMMARY.md) and [validation results](reports/baseline/validation.json) record this checkpoint. Download/open [REPORT.html](reports/baseline/REPORT.html) locally for the formatted version; GitHub displays its source.
 
-## Run the analysis
+## Current mass checkpoint
 
-Use Python 3.10 or newer. No third-party packages are required.
+| Quantity | Mass |
+|---|---:|
+| CAD structural materials | 615.931 g |
+| Structural budget including allowances, incomplete | 736.422 g |
+| Accounted aircraft estimate | 3.2536 kg |
+| Sizing aircraft mass, including reserve | 3.4536 kg |
 
-Open a terminal in `C:\Users\diego\Documents\GitHub\rescu-structures` and run:
+Battery budget is **944 g**: twelve cells at 74.5 g maximum each plus **50 g assumed** pack hardware, not a measured pack. Localized fuselage XPS, joints, final mounts and installation masses remain unresolved. Do not mistake the CAD material subtotal for finished structural mass.
 
-```powershell
-python RescU_Structures_V2.py
-```
+**Screening status:** the baseline 3g wing case passes its assumed criteria; the 70%-stiffness case exceeds the 2° twist screen. Overall structural validity is **UNRESOLVED**. Numerical tests passing does not qualify the aircraft or its joints.
 
-The script prints its report and writes these files beside the script, replacing previous outputs with the same names:
+## Repository layout
 
-- `RescU_Structures_V2_Report.txt`
-- `RescU_Structures_V2_Component_Masses.csv`
-- `RescU_Structures_V2_Battery_Sweep.csv`
+| Location | Purpose |
+|---|---|
+| `RescU_Structures_V4.py` | Current run entry point |
+| `inputs.json` | Editable assumptions and component budget |
+| `data/cad_snapshot.json` | P03 solid volumes, centroids, inertias and geometry inputs |
+| `engine/` | Required numerical and component equations; used by V4 |
+| `verify_v4.py` | Accounting and numerical checks |
+| `docs/STRUCTURES_V4_GUIDE.md` | Detailed model, sources, assumptions and limits |
+| `tools/Export_Current_CAD.FCMacro` | Update the snapshot from saved FreeCAD geometry |
+| `reports/baseline/` | Reviewed V4 checkpoint outputs |
+| `archive/v2_v3/` | Preserved older models, tests, airfoil references and design notes |
+| `results/` | Locally regenerated outputs; excluded from Git |
 
-These generated outputs are excluded from Git because they can be regenerated from the code. Other CSV files are not excluded by default.
+Read the [V4 guide](docs/STRUCTURES_V4_GUIDE.md) before changing CAD or interpreting strength/CG results. The native CAD assembly is maintained separately; its filename and SHA-256 are recorded in the snapshot. ESC reservations, prop swept disks and duplicated untrimmed source geometry are not counted as structural materials.
 
-## Save versions to GitHub
+## Updating your laptop
 
-Repository: `diegoargiles/rescu-structures` (private).
+In GitHub Desktop, select **rescu-structures**, switch to **main**, then **Fetch origin → Pull origin**. Run the V4 command above from that repository folder.
 
-Work in the repository folder above so Git can track your edits.
+## Resolving structural validity
 
-### Optional beginner-friendly workflow: GitHub Desktop
-
-GitHub Desktop is not installed as part of this repository setup. To use it, download it from the [official GitHub Desktop page](https://desktop.github.com/), install it, and sign in to GitHub. Then, once, choose **File > Add local repository** and select `C:\Users\diego\Documents\GitHub\rescu-structures`.
-
-1. Change the code and save the file in your editor.
-2. Open GitHub Desktop and select `rescu-structures`.
-3. Review the changed files and select the changes you want to save together.
-4. Write a short commit message, such as `Update battery position assumptions`, then click **Commit to main**. This records a checkpoint on your computer.
-5. Click **Push origin** to upload the committed changes to GitHub.
-
-### Terminal alternative
-
-After editing and saving, open a terminal in the repository folder and run these commands in order:
-
-```powershell
-git status
-git diff
-git add RescU_Structures_V2.py
-git commit -m "Update battery position assumptions"
-git push
-```
-
-Use `git status` and `git diff` to review your changes before committing, and choose a commit message that describes your actual update. Stage `README.md` or other intentionally changed files by name too, for example `git add README.md` before the commit.
-
-Saving a file does not automatically back it up to GitHub. Both a commit and a push are needed. The initial commit records the current script; version history begins with that snapshot. Older edits that were never committed are not recovered automatically.
-
-Before editing from another computer, clone this repository there, then use **Fetch origin** and **Pull origin** when updates are available, or `git pull` in the terminal. On later visits, fetch and pull before editing so you start with the latest pushed version. Review past checkpoints in GitHub Desktop's **History** tab or with `git log --oneline`.
+Follow the [prioritized structural validation plan](docs/STRUCTURAL_VALIDATION_PLAN.md). Begin with the agreed load envelope, wing center connection and motor-arm hardpoints; close geometry, material, analysis and test evidence separately.

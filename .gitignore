@@ -23,3 +23,11 @@ ENV/
 
 # Reproducible V3 generated reports
 /results/
+
+
+# Current V4 local reports and CAD backup exports
+/results/
+/data/*.previous.json
+*.FCStd1
+*.FCBak
+*.tmp

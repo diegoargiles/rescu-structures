@@ -1,0 +1,1191 @@
+{
+  "material_property_assumptions": {
+    "skin": {
+      "E1_Pa": 15000000000.0,
+      "E2_Pa": 15000000000.0,
+      "G12_Pa": 3000000000.0,
+      "nu12": 0.15,
+      "tensile_Pa": 150000000.0,
+      "compressive_Pa": 100000000.0,
+      "shear_Pa": 30000000.0,
+      "strength_knockdown": 0.7
+    },
+    "spar": {
+      "E_Pa": 70000000000.0,
+      "strength_Pa": 300000000.0,
+      "knockdown": 0.7
+    },
+    "foam": {
+      "shear_modulus_Pa": 8000000.0,
+      "shear_strength_Pa": 250000.0,
+      "compression_strength_Pa": 300000.0,
+      "strength_knockdown": 0.7
+    },
+    "status": "preliminary material assumptions; no qualified laminate/aircraft allowables"
+  },
+  "version": "V4.0 CAD P03,2026-10-19",
+  "overall_status": "UNRESOLVED \u2014 preliminary mass budget and structural screening",
+  "cad_source": "RescU_Ravatherm_V3_P03.FCStd",
+  "cad_source_sha256": "1181ed80a74daf20192822ddcdca741102a3a9c5c58a5736c01abc03975527c3",
+  "input_sha256": "141b1b5b8644b3a8d3cfb3babd2c93efb8250cbe233dc9fec018d104d443da3c",
+  "mass": {
+    "cad_structure_kg": 0.6159305596834705,
+    "structural_allowances_kg": 0.12049123189692026,
+    "additional_structure_kg": 0,
+    "structural_budget_kg": 0.7364217915803909,
+    "accounted_aircraft_kg": 3.253649191580391,
+    "sizing_aircraft_kg": 3.453649191580391,
+    "reserve_kg": 0.20000000000000018,
+    "structural_budget_cg_m": [
+      0.4576987341423985,
+      0.00040266873046839846,
+      0.0045877380751474725
+    ],
+    "cad_structure_cg_m": [
+      0.4560862673991004,
+      0.00048144068067888963,
+      0.005485212966763506
+    ],
+    "aircraft_cg_m": [
+      0.3929882293060569,
+      9.113890602351768e-05,
+      -0.005216140004065646
+    ],
+    "aircraft_cg_status": "provisional: actual CAD structural centroids plus estimated installed nonstructural/allowance locations",
+    "battery_pack_kg": 0.944
+  },
+  "materials_kg": {
+    "GFRP": 0.3638350447598673,
+    "Ravatherm XPS X H LB": 0.03994965150182658,
+    "Epoxy": 0.005472617644538189,
+    "CFRP": 0.19857324577723856,
+    "Aluminum 6061-T6": 0.0081
+  },
+  "components": [
+    {
+      "inertia_centroid_kgm2": [
+        [
+          0.0002606690117614107,
+          -4.5461455351302306e-13,
+          7.465409024259997e-19
+        ],
+        [
+          -4.5461455351302306e-13,
+          0.01462613705048529,
+          8.811180148249657e-20
+        ],
+        [
+          7.465409024259997e-19,
+          8.811180148249657e-20,
+          0.01462613705046618
+        ]
+      ],
+      "name": "Fuselage_GFRP_Shell_0330",
+      "material": "GFRP",
+      "density_kg_m3": 1850.0,
+      "volume_mm3": 88039.60613726219,
+      "mass_kg": 0.16287327135393506,
+      "x_m": 0.5289163582884064,
+      "y_m": -9.090390046942361e-12,
+      "z_m": 1.6555214075983164e-17,
+      "bounds_mm": [
+        -1e-07,
+        1110.0,
+        -45.0000001,
+        45.0000001,
+        -45.0000001,
+        45.0000001
+      ],
+      "valid": true,
+      "source": "P03 saved BREP; OpenCascade volume and centroid",
+      "category": "CAD_structure",
+      "status": "CAD solid volume; assumed density; as-modeled geometry"
+    },
+    {
+      "inertia_centroid_kgm2": [
+        [
+          0.003290855335022136,
+          -0.0004920054679203482,
+          -4.189328889744185e-06
+        ],
+        [
+          -0.0004920054679203482,
+          0.0001846028611000464,
+          -4.9522404233421656e-05
+        ],
+        [
+          -4.189328889744185e-06,
+          -4.9522404233421656e-05,
+          0.0034700625854454637
+        ]
+      ],
+      "name": "Wing_PosY_GFRP_Skin_Exposed",
+      "material": "GFRP",
+      "density_kg_m3": 1850.0,
+      "volume_mm3": 47461.2258085488,
+      "mass_kg": 0.08780326774581529,
+      "x_m": 0.40184589930923614,
+      "y_m": 0.3461665904757862,
+      "z_m": 0.009387881836587859,
+      "bounds_mm": [
+        268.9717454006229,
+        500.0000001,
+        43.12766142706315,
+        700.0000001000001,
+        -2.4873900669321003,
+        19.729711764912658
+      ],
+      "valid": true,
+      "source": "P03 saved BREP; OpenCascade volume and centroid",
+      "category": "CAD_structure",
+      "status": "CAD solid volume; assumed density; as-modeled geometry"
+    },
+    {
+      "inertia_centroid_kgm2": [
+        [
+          0.000612086217844412,
+          -9.865550343944971e-05,
+          -1.60035045120916e-06
+        ],
+        [
+          -9.865550343944971e-05,
+          3.4001477543157716e-05,
+          -9.293928527758744e-06
+        ],
+        [
+          -1.60035045120916e-06,
+          -9.293928527758744e-06,
+          0.0006454859476778751
+        ]
+      ],
+      "name": "Wing_PosY_Ravatherm_Core_Exposed",
+      "material": "Ravatherm XPS X H LB",
+      "density_kg_m3": 32.0,
+      "volume_mm3": 567823.510413684,
+      "mass_kg": 0.018170352333237886,
+      "x_m": 0.37933501634886574,
+      "y_m": 0.3204685402912726,
+      "z_m": 0.008915746608215265,
+      "bounds_mm": [
+        269.3017595419383,
+        494.82079009214635,
+        43.2258645423795,
+        700.0000001000001,
+        -2.157051909419244,
+        19.399683253566796
+      ],
+      "valid": true,
+      "source": "P03 saved BREP; OpenCascade volume and centroid",
+      "category": "CAD_structure",
+      "status": "CAD solid volume; assumed density; as-modeled geometry"
+    },
+    {
+      "inertia_centroid_kgm2": [
+        [
+          9.59039264001985e-05,
+          -1.6496994998250604e-05,
+          -2.4322059378144e-07
+        ],
+        [
+          -1.6496994998250604e-05,
+          2.9485824094116212e-06,
+          -1.4123539331971957e-06
+        ],
+        [
+          -2.4322059378144e-07,
+          -1.4123539331971957e-06,
+          9.8724003701331e-05
+        ]
+      ],
+      "name": "Wing_PosY_EpoxyBond_Exposed",
+      "material": "Epoxy",
+      "density_kg_m3": 1200.0,
+      "volume_mm3": 2280.252558785469,
+      "mass_kg": 0.002736303070542563,
+      "x_m": 0.3687203943543733,
+      "y_m": 0.34406389476676025,
+      "z_m": 0.009836721916808608,
+      "bounds_mm": [
+        310.1738823472889,
+        434.04058244032456,
+        43.28643407803769,
+        700.6980418643973,
+        -1.498503702503823,
+        19.19386629006613
+      ],
+      "valid": true,
+      "source": "P03 saved BREP; OpenCascade volume and centroid",
+      "category": "CAD_structure",
+      "status": "CAD solid volume; assumed density; as-modeled geometry"
+    },
+    {
+      "inertia_centroid_kgm2": [
+        [
+          4.996379793205586e-05,
+          -1.610019460700306e-05,
+          -1.1277606703886171e-05
+        ],
+        [
+          -1.610019460700306e-05,
+          2.890219973731418e-05,
+          -2.3401499047367936e-05
+        ],
+        [
+          -1.1277606703886171e-05,
+          -2.3401499047367936e-05,
+          4.5936275228828825e-05
+        ]
+      ],
+      "name": "VTail_PosY_GFRP_Skin_Exposed",
+      "material": "GFRP",
+      "density_kg_m3": 1850.0,
+      "volume_mm3": 6999.145832228476,
+      "mass_kg": 0.012948419789622682,
+      "x_m": 1.0554740372168268,
+      "y_m": 0.10277813083764183,
+      "z_m": 0.07195215481632244,
+      "bounds_mm": [
+        974.722431064348,
+        1125.0000001,
+        21.21677879060696,
+        201.98295088744422,
+        13.127942609759518,
+        142.3695375478227
+      ],
+      "valid": true,
+      "source": "P03 saved BREP; OpenCascade volume and centroid",
+      "category": "CAD_structure",
+      "status": "CAD solid volume; assumed density; as-modeled geometry"
+    },
+    {
+      "inertia_centroid_kgm2": [
+        [
+          6.286407025741295e-06,
+          -2.115101552037079e-06,
+          -1.4810044512660677e-06
+        ],
+        [
+          -2.115101552037079e-06,
+          3.5741375891474613e-06,
+          -2.9495685227511196e-06
+        ],
+        [
+          -1.4810044512660677e-06,
+          -2.9495685227511196e-06,
+          5.721252701490967e-06
+        ]
+      ],
+      "name": "VTail_PosY_Ravatherm_Core_Exposed",
+      "material": "Ravatherm XPS X H LB",
+      "density_kg_m3": 32.0,
+      "volume_mm3": 56391.44461915454,
+      "mass_kg": 0.0018045262278129455,
+      "x_m": 1.044293985187435,
+      "y_m": 0.09361443218870892,
+      "z_m": 0.06554960250672606,
+      "bounds_mm": [
+        974.9826078456394,
+        1122.7348177269914,
+        21.397560067604157,
+        201.83152630536105,
+        13.365531778058957,
+        142.15328446610144
+      ],
+      "valid": true,
+      "source": "P03 saved BREP; OpenCascade volume and centroid",
+      "category": "CAD_structure",
+      "status": "CAD solid volume; assumed density; as-modeled geometry"
+    },
+    {
+      "inertia_centroid_kgm2": [
+        [
+          0.0032796422345581938,
+          0.0004945322350074868,
+          -4.2648693014848696e-06
+        ],
+        [
+          0.0004945322350074868,
+          0.0001852244037647377,
+          4.9666540371291586e-05
+        ],
+        [
+          -4.2648693014848696e-06,
+          4.9666540371291586e-05,
+          0.0034594611523048927
+        ]
+      ],
+      "name": "Wing_NegY_GFRP_Skin_Exposed",
+      "material": "GFRP",
+      "density_kg_m3": 1850.0,
+      "volume_mm3": 47168.33898690309,
+      "mass_kg": 0.08726142712577072,
+      "x_m": 0.40180258700042487,
+      "y_m": -0.3449186857250227,
+      "z_m": 0.009381923155117496,
+      "bounds_mm": [
+        268.9717618454828,
+        500.0000001,
+        -700.0000001000001,
+        -43.12766142706315,
+        -2.4873900669321007,
+        19.729711764912658
+      ],
+      "valid": true,
+      "source": "P03 saved BREP; OpenCascade volume and centroid",
+      "category": "CAD_structure",
+      "status": "CAD solid volume; assumed density; as-modeled geometry"
+    },
+    {
+      "inertia_centroid_kgm2": [
+        [
+          0.000612077434853523,
+          9.865491214088478e-05,
+          -1.6003663497042467e-06
+        ],
+        [
+          9.865491214088478e-05,
+          3.400157551736182e-05,
+          9.293923412401635e-06
+        ],
+        [
+          -1.6003663497042467e-06,
+          9.293923412401635e-06,
+          0.0006454772586363927
+        ]
+      ],
+      "name": "Wing_NegY_Ravatherm_Core_Exposed",
+      "material": "Ravatherm XPS X H LB",
+      "density_kg_m3": 32.0,
+      "volume_mm3": 567820.320318048,
+      "mass_kg": 0.018170250250177537,
+      "x_m": 0.3793345703117108,
+      "y_m": -0.3204656682450103,
+      "z_m": 0.008915708204005396,
+      "bounds_mm": [
+        269.3017595419383,
+        494.82079009214635,
+        -700.0000001000001,
+        -43.225864542379504,
+        -2.157051909419245,
+        19.399683253566796
+      ],
+      "valid": true,
+      "source": "P03 saved BREP; OpenCascade volume and centroid",
+      "category": "CAD_structure",
+      "status": "CAD solid volume; assumed density; as-modeled geometry"
+    },
+    {
+      "inertia_centroid_kgm2": [
+        [
+          9.590467136183725e-05,
+          1.649712536650629e-05,
+          -2.4322308931162095e-07
+        ],
+        [
+          1.649712536650629e-05,
+          2.9486056658954148e-06,
+          1.4123679611791157e-06
+        ],
+        [
+          -2.4322308931162095e-07,
+          1.4123679611791157e-06,
+          9.87247711962636e-05
+        ]
+      ],
+      "name": "Wing_NegY_EpoxyBond_Exposed",
+      "material": "Epoxy",
+      "density_kg_m3": 1200.0,
+      "volume_mm3": 2280.2621449963553,
+      "mass_kg": 0.0027363145739956263,
+      "x_m": 0.36872021044344827,
+      "y_m": -0.3440628404322571,
+      "z_m": 0.009836701862486351,
+      "bounds_mm": [
+        310.17388235099304,
+        434.04058244032456,
+        -700.6980418643973,
+        -43.286434078022964,
+        -1.4985036798953564,
+        19.19386629006613
+      ],
+      "valid": true,
+      "source": "P03 saved BREP; OpenCascade volume and centroid",
+      "category": "CAD_structure",
+      "status": "CAD solid volume; assumed density; as-modeled geometry"
+    },
+    {
+      "inertia_centroid_kgm2": [
+        [
+          4.996503867331409e-05,
+          1.6100968991390356e-05,
+          -1.1278146622958408e-05
+        ],
+        [
+          1.6100968991390356e-05,
+          2.8903323661483385e-05,
+          2.3402080318782702e-05
+        ],
+        [
+          -1.1278146622958408e-05,
+          2.3402080318782702e-05,
+          4.593782750783601e-05
+        ]
+      ],
+      "name": "VTail_NegY_GFRP_Skin_Exposed",
+      "material": "GFRP",
+      "density_kg_m3": 1850.0,
+      "volume_mm3": 6999.2749971478415,
+      "mass_kg": 0.012948658744723507,
+      "x_m": 1.0554730650165405,
+      "y_m": -0.10277708606349115,
+      "z_m": 0.07195142751098049,
+      "bounds_mm": [
+        974.722431064348,
+        1125.0000001,
+        -201.98295088744422,
+        -21.216778790606913,
+        13.127942609759517,
+        142.3695375478227
+      ],
+      "valid": true,
+      "source": "P03 saved BREP; OpenCascade volume and centroid",
+      "category": "CAD_structure",
+      "status": "CAD solid volume; assumed density; as-modeled geometry"
+    },
+    {
+      "inertia_centroid_kgm2": [
+        [
+          6.286393724073926e-06,
+          2.115093049047516e-06,
+          -1.480998526467804e-06
+        ],
+        [
+          2.115093049047516e-06,
+          3.574125167388184e-06,
+          2.9495622946803173e-06
+        ],
+        [
+          -1.480998526467804e-06,
+          2.9495622946803173e-06,
+          5.7212356808505865e-06
+        ]
+      ],
+      "name": "VTail_NegY_Ravatherm_Core_Exposed",
+      "material": "Ravatherm XPS X H LB",
+      "density_kg_m3": 32.0,
+      "volume_mm3": 56391.33408119423,
+      "mass_kg": 0.0018045226905982156,
+      "x_m": 1.0442940732945702,
+      "y_m": -0.09361452505625208,
+      "z_m": 0.0655496670385962,
+      "bounds_mm": [
+        974.9826078456394,
+        1122.7348177269914,
+        -201.83152630536105,
+        -21.397560067604157,
+        13.365531778058967,
+        142.15328446610144
+      ],
+      "valid": true,
+      "source": "P03 saved BREP; OpenCascade volume and centroid",
+      "category": "CAD_structure",
+      "status": "CAD solid volume; assumed density; as-modeled geometry"
+    },
+    {
+      "inertia_centroid_kgm2": [
+        [
+          0.001534822164649769,
+          -0.00026393413463745956,
+          -3.902192327294708e-06
+        ],
+        [
+          -0.00026393413463745956,
+          4.702920254088135e-05,
+          -2.2668337171005644e-05
+        ],
+        [
+          -3.902192327294708e-06,
+          -2.2668337171005644e-05,
+          0.0015799213956617084
+        ]
+      ],
+      "name": "Wing_PosY_CFRP_TaperedSpar",
+      "material": "CFRP",
+      "density_kg_m3": 1600.0,
+      "volume_mm3": 28454.139305387063,
+      "mass_kg": 0.045526622888619306,
+      "x_m": 0.35380147058823536,
+      "y_m": 0.25735294117647145,
+      "z_m": 0.008549888425043476,
+      "bounds_mm": [
+        302.60144478481175,
+        433.94203155153616,
+        -1.1917786221417797,
+        700.6810163555095,
+        -2.2542598775241283,
+        19.09387680322238
+      ],
+      "valid": true,
+      "source": "P03 saved BREP; OpenCascade volume and centroid",
+      "category": "CAD_structure",
+      "status": "CAD solid volume; assumed density; as-modeled geometry"
+    },
+    {
+      "inertia_centroid_kgm2": [
+        [
+          1.0339840000000002e-05,
+          -4.577636718750001e-18,
+          2.622604370117188e-19
+        ],
+        [
+          -4.577636718750001e-18,
+          0.0005523795200000229,
+          0.0
+        ],
+        [
+          2.622604370117188e-19,
+          0.0,
+          0.0005555603200000169
+        ]
+      ],
+      "name": "VTOL_Arm_PosY",
+      "material": "CFRP",
+      "density_kg_m3": 1600.0,
+      "volume_mm3": 33600.0,
+      "mass_kg": 0.05376,
+      "x_m": 0.39499999999999946,
+      "y_m": 0.265,
+      "z_m": -0.009999999999999993,
+      "bounds_mm": [
+        220.0,
+        570.0,
+        250.0,
+        280.0,
+        -20.0,
+        0.0
+      ],
+      "valid": true,
+      "source": "P03 saved BREP; OpenCascade volume and centroid",
+      "category": "CAD_structure",
+      "status": "CAD solid volume; assumed density; as-modeled geometry"
+    },
+    {
+      "inertia_centroid_kgm2": [
+        [
+          0.001534822164649769,
+          0.0002639341346374565,
+          -3.9021923272945645e-06
+        ],
+        [
+          0.0002639341346374565,
+          4.702920254087448e-05,
+          2.2668337171005715e-05
+        ],
+        [
+          -3.9021923272945645e-06,
+          2.2668337171005715e-05,
+          0.0015799213956617067
+        ]
+      ],
+      "name": "Wing_NegY_CFRP_TaperedSpar",
+      "material": "CFRP",
+      "density_kg_m3": 1600.0,
+      "volume_mm3": 28454.139305387034,
+      "mass_kg": 0.04552662288861926,
+      "x_m": 0.35380147058823547,
+      "y_m": -0.25735294117647145,
+      "z_m": 0.008549888425043475,
+      "bounds_mm": [
+        302.60144478481175,
+        433.94203155153616,
+        -700.6810163555095,
+        1.1917786221417794,
+        -2.2542598775241283,
+        19.09387680322238
+      ],
+      "valid": true,
+      "source": "P03 saved BREP; OpenCascade volume and centroid",
+      "category": "CAD_structure",
+      "status": "CAD solid volume; assumed density; as-modeled geometry"
+    },
+    {
+      "inertia_centroid_kgm2": [
+        [
+          1.0339840000000002e-05,
+          4.577636718750001e-18,
+          2.622604370117188e-19
+        ],
+        [
+          4.577636718750001e-18,
+          0.0005523795200000229,
+          0.0
+        ],
+        [
+          2.622604370117188e-19,
+          0.0,
+          0.000555560320000023
+        ]
+      ],
+      "name": "VTOL_Arm_NegY",
+      "material": "CFRP",
+      "density_kg_m3": 1600.0,
+      "volume_mm3": 33600.0,
+      "mass_kg": 0.05376,
+      "x_m": 0.39499999999999946,
+      "y_m": -0.265,
+      "z_m": -0.009999999999999993,
+      "bounds_mm": [
+        220.0,
+        570.0,
+        -280.0,
+        -250.0,
+        -20.0,
+        0.0
+      ],
+      "valid": true,
+      "source": "P03 saved BREP; OpenCascade volume and centroid",
+      "category": "CAD_structure",
+      "status": "CAD solid volume; assumed density; as-modeled geometry"
+    },
+    {
+      "inertia_centroid_kgm2": [
+        [
+          1.0815187500000002e-06,
+          -1.1990408665951691e-24,
+          0.0
+        ],
+        [
+          -1.1990408665951691e-24,
+          1.68901875e-06,
+          8.724170523020214e-39
+        ],
+        [
+          0.0,
+          8.724170523020214e-39,
+          2.7675e-06
+        ]
+      ],
+      "name": "Payload_MountPlate_PROVISIONAL",
+      "material": "Aluminum 6061-T6",
+      "density_kg_m3": 2700.0,
+      "volume_mm3": 3000.0,
+      "mass_kg": 0.0081,
+      "x_m": 0.35000000000000003,
+      "y_m": -1.4210854715202005e-19,
+      "z_m": -0.055,
+      "bounds_mm": [
+        325.0,
+        375.0,
+        -20.0,
+        20.0,
+        -55.75,
+        -54.25
+      ],
+      "valid": true,
+      "source": "P03 saved BREP; OpenCascade volume and centroid",
+      "category": "CAD_structure",
+      "status": "CAD solid volume; assumed density; as-modeled geometry"
+    },
+    {
+      "name": "Wing bond/finish",
+      "mass_kg": 0.041425416043716995,
+      "x_m": 0.3898694800462989,
+      "y_m": 0.0,
+      "z_m": 0.0,
+      "source": "V3 screening",
+      "category": "structural_allowance",
+      "status": "assumption; replace with designed hardware/adhesive budget"
+    },
+    {
+      "name": "V-tail bond/finish",
+      "mass_kg": 0.0073828786019964525,
+      "x_m": 1.0475622177167037,
+      "y_m": 0.0,
+      "z_m": 0.0,
+      "source": "V3 screening",
+      "category": "structural_allowance",
+      "status": "assumption; replace with designed hardware/adhesive budget"
+    },
+    {
+      "name": "Provisional local hardware",
+      "mass_kg": 0.07168293725120682,
+      "x_m": 0.45,
+      "y_m": 0.0,
+      "z_m": 0.0,
+      "source": "ASSUMPTION 10%; NOT a designed attachment",
+      "category": "structural_allowance",
+      "status": "assumption; replace with designed hardware/adhesive budget"
+    },
+    {
+      "name": "VTOL motor+prop FR",
+      "mass_kg": 0.08608160000000001,
+      "x_m": 0.235,
+      "y_m": -0.265,
+      "z_m": 0.0,
+      "source": "CAD coords + manufacturer mass + mount allowance",
+      "category": "nonstructural",
+      "status": "retained estimate; hardware/installed position not fully verified"
+    },
+    {
+      "name": "VTOL motor+prop FL",
+      "mass_kg": 0.08608160000000001,
+      "x_m": 0.235,
+      "y_m": 0.265,
+      "z_m": 0.0,
+      "source": "CAD coords + manufacturer mass + mount allowance",
+      "category": "nonstructural",
+      "status": "retained estimate; hardware/installed position not fully verified"
+    },
+    {
+      "name": "VTOL motor+prop RR",
+      "mass_kg": 0.08608160000000001,
+      "x_m": 0.555,
+      "y_m": -0.265,
+      "z_m": 0.0,
+      "source": "CAD coords + manufacturer mass + mount allowance",
+      "category": "nonstructural",
+      "status": "retained estimate; hardware/installed position not fully verified"
+    },
+    {
+      "name": "VTOL motor+prop RL",
+      "mass_kg": 0.08608160000000001,
+      "x_m": 0.555,
+      "y_m": 0.265,
+      "z_m": 0.0,
+      "source": "CAD coords + manufacturer mass + mount allowance",
+      "category": "nonstructural",
+      "status": "retained estimate; hardware/installed position not fully verified"
+    },
+    {
+      "name": "Rear pusher assembly",
+      "mass_kg": 0.148901,
+      "x_m": 1.11,
+      "y_m": 0.0,
+      "z_m": 0.0,
+      "source": "Team motor/prop selection + manufacturer mass + mount allowance",
+      "category": "nonstructural",
+      "status": "retained estimate; hardware/installed position not fully verified"
+    },
+    {
+      "name": "Payload",
+      "mass_kg": 0.36,
+      "x_m": 0.35,
+      "y_m": 0.0,
+      "z_m": -0.055,
+      "source": "Team mass + CAD payload center",
+      "category": "nonstructural",
+      "status": "retained estimate; hardware/installed position not fully verified"
+    },
+    {
+      "name": "Camera / AI",
+      "mass_kg": 0.35,
+      "x_m": 0.06,
+      "y_m": 0.0,
+      "z_m": 0.0,
+      "source": "Team mass; nose location provisional",
+      "category": "nonstructural",
+      "status": "retained estimate; hardware/installed position not fully verified"
+    },
+    {
+      "name": "Heat sink",
+      "mass_kg": 0.03,
+      "x_m": 0.2,
+      "y_m": 0.0,
+      "z_m": 0.0,
+      "source": "Team mass; location ASSUMPTION",
+      "category": "nonstructural",
+      "status": "retained estimate; hardware/installed position not fully verified"
+    },
+    {
+      "name": "ESCs / wiring",
+      "mass_kg": 0.15,
+      "x_m": 0.35,
+      "y_m": 0.0,
+      "z_m": 0.0,
+      "source": "Team mass; distributed-equivalent location ASSUMPTION",
+      "category": "nonstructural",
+      "status": "retained estimate; hardware/installed position not fully verified"
+    },
+    {
+      "name": "Payload magnet",
+      "mass_kg": 0.01,
+      "x_m": 0.35,
+      "y_m": 0.0,
+      "z_m": -0.055,
+      "source": "Presentation magnet mass",
+      "category": "nonstructural",
+      "status": "retained estimate; hardware/installed position not fully verified"
+    },
+    {
+      "name": "V-tail servo R",
+      "mass_kg": 0.0219,
+      "x_m": 0.9,
+      "y_m": 0.01,
+      "z_m": 0.0,
+      "category": "nonstructural",
+      "status": "vendor mass; P03 proposed position",
+      "source": "Whiteboard + Hitec HS-5085MG"
+    },
+    {
+      "name": "V-tail servo L",
+      "mass_kg": 0.0219,
+      "x_m": 0.9,
+      "y_m": -0.01,
+      "z_m": 0.0,
+      "category": "nonstructural",
+      "status": "vendor mass; P03 proposed position",
+      "source": "Whiteboard + Hitec HS-5085MG"
+    },
+    {
+      "name": "Other servo allocation (unresolved)",
+      "mass_kg": 0.1362,
+      "x_m": 0.8,
+      "y_m": 0.0,
+      "z_m": 0.0,
+      "category": "nonstructural",
+      "status": "residual of old180g servo budget; not confirmed hardware",
+      "source": "180g minus two21.9g servos"
+    },
+    {
+      "name": "Battery complete pack budget",
+      "mass_kg": 0.944,
+      "x_m": 0.299700714810423,
+      "y_m": 0.0,
+      "z_m": 0.0,
+      "category": "nonstructural",
+      "source": "Molicel M65A + inputs.json",
+      "status": "maximum cell-mass budget plus assumed hardware allowance; not measured"
+    }
+  ],
+  "stability": {
+    "MAC_m": 0.13515723270440252,
+    "target_cg_x_m": 0.3944,
+    "provisional_static_margin": 0.11106894091842501,
+    "battery_current_x_m": 0.299700714810423,
+    "battery_required_x_for_inherited_target_m": 0.30456661160813986,
+    "battery_relocated": false,
+    "status": "inherited team references; aerodynamic validity for current configuration unverified",
+    "payload_released_cg_m": [
+      0.39833641131623637,
+      0.00010247753209606758,
+      0.0009774890131228594
+    ],
+    "payload_release_shift_mm": [
+      5.348182010179448,
+      0.011338626072549901,
+      6.193629017188505
+    ]
+  },
+  "inertia_kgm2": [
+    [
+      0.07604602563236555,
+      -1.398215499919174e-06,
+      -0.002304059503315111
+    ],
+    [
+      -1.398215499919174e-06,
+      0.20534905403270415,
+      -4.3656923095555455e-06
+    ],
+    [
+      -0.002304059503315111,
+      -4.3656923095555455e-06,
+      0.27854772881455775
+    ]
+  ],
+  "inertia_status": "CAD intrinsic structural inertias + point approximations elsewhere; reserve not placed",
+  "electrical": {
+    "cells": 12,
+    "nominal_voltage_V": 21.6,
+    "full_voltage_V": 25.200000000000003,
+    "capacity_Ah": 13.0,
+    "nominal_energy_Wh": 280.8,
+    "ideal_cell_current_sum_A": 52.0,
+    "current_status": "26A cell rating uses90C surface cutoff; pack thermal/wiring limit unverified"
+  },
+  "load_cases": [
+    {
+      "case": "Wing 3g",
+      "foam": "Ravatherm XPS X H LB",
+      "skin_mm": 0.33,
+      "half_force_limit_N": 55.88340259360954,
+      "root_moment_limit_Nm": 16.598035799563814,
+      "tip_bend_limit_mm": 19.75474637168348,
+      "tip_shear_limit_mm": 4.064735941685093,
+      "tip_total_limit_mm": 23.819482313368578,
+      "tip_twist_limit_deg": -1.4404386216758196,
+      "max_face_stress_ultimate_MPa": 18.46394922169429,
+      "max_torsion_shear_ultimate_MPa": 3.272280001880612,
+      "ply_failure_index_ultimate": 0.2927211461975924,
+      "core_shear_utilization_ultimate": 0.6933226082319038,
+      "spar_bending_utilization_ultimate": 0.42495801101249625,
+      "deflection_screen_utilization": 0.6805566375248164,
+      "twist_screen_utilization": 0.7202193108379098,
+      "screen_status": "PASS",
+      "overall_status": "UNRESOLVED: CAD profile, joints, wrinkling, shell and load envelope"
+    },
+    {
+      "case": "Wing -1.5g",
+      "foam": "Ravatherm XPS X H LB",
+      "skin_mm": 0.33,
+      "half_force_limit_N": -27.94170129680477,
+      "root_moment_limit_Nm": -8.299017899781907,
+      "tip_bend_limit_mm": -9.87737318584174,
+      "tip_shear_limit_mm": -2.0323679708425466,
+      "tip_total_limit_mm": -11.909741156684289,
+      "tip_twist_limit_deg": -0.7704705724954126,
+      "max_face_stress_ultimate_MPa": 9.231974610847145,
+      "max_torsion_shear_ultimate_MPa": 1.6300208546258261,
+      "ply_failure_index_ultimate": 0.14559914323271644,
+      "core_shear_utilization_ultimate": 0.3466613041159519,
+      "spar_bending_utilization_ultimate": 0.21247900550624813,
+      "deflection_screen_utilization": 0.3402783187624082,
+      "twist_screen_utilization": 0.3852352862477063,
+      "screen_status": "PASS",
+      "overall_status": "UNRESOLVED: CAD profile, joints, wrinkling, shell and load envelope"
+    },
+    {
+      "case": "Wing 3g at70% assumed stiffness",
+      "foam": "Ravatherm XPS X H LB",
+      "skin_mm": 0.33,
+      "half_force_limit_N": 55.88340259360954,
+      "root_moment_limit_Nm": 16.598035799563814,
+      "tip_bend_limit_mm": 28.221066245262108,
+      "tip_shear_limit_mm": 5.806765630978703,
+      "tip_total_limit_mm": 34.02783187624081,
+      "tip_twist_limit_deg": -2.0577694595368854,
+      "max_face_stress_ultimate_MPa": 18.46394922169429,
+      "max_torsion_shear_ultimate_MPa": 3.272280001880612,
+      "ply_failure_index_ultimate": 0.2927211461975924,
+      "core_shear_utilization_ultimate": 0.6933226082319038,
+      "spar_bending_utilization_ultimate": 0.42495801101249625,
+      "deflection_screen_utilization": 0.9722237678925945,
+      "twist_screen_utilization": 1.0288847297684427,
+      "screen_status": "FAIL",
+      "overall_status": "UNRESOLVED: CAD profile, joints, wrinkling, shell and load envelope"
+    },
+    {
+      "case": "V-tail at top speed",
+      "foam": "Ravatherm XPS X H LB",
+      "skin_mm": 0.264,
+      "half_force_limit_N": 10.074318384375003,
+      "root_moment_limit_Nm": 1.0969706224791491,
+      "tip_bend_limit_mm": 3.472418974265398,
+      "tip_shear_limit_mm": 0.837460669800875,
+      "tip_total_limit_mm": 4.309879644066274,
+      "tip_twist_limit_deg": -0.10765708687945015,
+      "max_face_stress_ultimate_MPa": 15.07145127524203,
+      "max_torsion_shear_ultimate_MPa": 0.37959209946622224,
+      "ply_failure_index_ultimate": 0.2389376421684712,
+      "core_shear_utilization_ultimate": 0.3426193526943491,
+      "spar_bending_utilization_ultimate": 0.0,
+      "deflection_screen_utilization": 0.35182690971969577,
+      "twist_screen_utilization": 0.053828543439725075,
+      "screen_status": "PASS",
+      "overall_status": "UNRESOLVED: CAD profile, joints, wrinkling, shell and load envelope"
+    },
+    {
+      "case": "VTOL 40N total rating: both motors",
+      "foam": "Ravatherm XPS X H LB",
+      "skin_mm": 0.33,
+      "half_force_limit_N": 20.0,
+      "root_moment_limit_Nm": 5.300000000000001,
+      "tip_bend_limit_mm": 3.8795330915418185,
+      "tip_shear_limit_mm": 1.1545823101279156,
+      "tip_total_limit_mm": 5.034115401669735,
+      "tip_twist_limit_deg": 0.3126611436879671,
+      "max_face_stress_ultimate_MPa": 5.895813941885306,
+      "max_torsion_shear_ultimate_MPa": 1.3018518293651151,
+      "ply_failure_index_ultimate": 0.09347022102988901,
+      "core_shear_utilization_ultimate": 0.3463871964086149,
+      "spar_bending_utilization_ultimate": 0.13569542116696842,
+      "deflection_screen_utilization": 0.14383186861913524,
+      "twist_screen_utilization": 0.15633057184398355,
+      "screen_status": "PASS",
+      "overall_status": "UNRESOLVED: CAD profile, joints, wrinkling, shell and load envelope"
+    },
+    {
+      "case": "VTOL 40N total rating: front only",
+      "foam": "Ravatherm XPS X H LB",
+      "skin_mm": 0.33,
+      "half_force_limit_N": 10.0,
+      "root_moment_limit_Nm": 2.6500000000000004,
+      "tip_bend_limit_mm": 1.9397665457709092,
+      "tip_shear_limit_mm": 0.5772911550639578,
+      "tip_total_limit_mm": 2.5170577008348674,
+      "tip_twist_limit_deg": -0.6048072446653306,
+      "max_face_stress_ultimate_MPa": 2.947906970942653,
+      "max_torsion_shear_ultimate_MPa": 2.5182835596182156,
+      "ply_failure_index_ultimate": 0.08619125278455203,
+      "core_shear_utilization_ultimate": 0.17319359820430744,
+      "spar_bending_utilization_ultimate": 0.06784771058348421,
+      "deflection_screen_utilization": 0.07191593430956762,
+      "twist_screen_utilization": 0.3024036223326653,
+      "screen_status": "PASS",
+      "overall_status": "UNRESOLVED: CAD profile, joints, wrinkling, shell and load envelope"
+    },
+    {
+      "case": "VTOL 40N total rating: rear only",
+      "foam": "Ravatherm XPS X H LB",
+      "skin_mm": 0.33,
+      "half_force_limit_N": 10.0,
+      "root_moment_limit_Nm": 2.6500000000000004,
+      "tip_bend_limit_mm": 1.9397665457709092,
+      "tip_shear_limit_mm": 0.5772911550639578,
+      "tip_total_limit_mm": 2.5170577008348674,
+      "tip_twist_limit_deg": 0.917468388353298,
+      "max_face_stress_ultimate_MPa": 2.947906970942653,
+      "max_torsion_shear_ultimate_MPa": 3.820135388983331,
+      "ply_failure_index_ultimate": 0.1307486814681795,
+      "core_shear_utilization_ultimate": 0.17319359820430744,
+      "spar_bending_utilization_ultimate": 0.06784771058348421,
+      "deflection_screen_utilization": 0.07191593430956762,
+      "twist_screen_utilization": 0.458734194176649,
+      "screen_status": "PASS",
+      "overall_status": "UNRESOLVED: CAD profile, joints, wrinkling, shell and load envelope"
+    },
+    {
+      "case": "VTOL 69.2N total rating: both motors",
+      "foam": "Ravatherm XPS X H LB",
+      "skin_mm": 0.33,
+      "half_force_limit_N": 34.6,
+      "root_moment_limit_Nm": 9.169,
+      "tip_bend_limit_mm": 6.711592248367323,
+      "tip_shear_limit_mm": 1.997427396521294,
+      "tip_total_limit_mm": 8.709019644888617,
+      "tip_twist_limit_deg": 0.5409037785801829,
+      "max_face_stress_ultimate_MPa": 10.199758119461581,
+      "max_torsion_shear_ultimate_MPa": 2.2522036648016495,
+      "ply_failure_index_ultimate": 0.161703482381708,
+      "core_shear_utilization_ultimate": 0.5992498497869039,
+      "spar_bending_utilization_ultimate": 0.2347530786188553,
+      "deflection_screen_utilization": 0.2488291327111033,
+      "twist_screen_utilization": 0.27045188929009145,
+      "screen_status": "PASS",
+      "overall_status": "UNRESOLVED: CAD profile, joints, wrinkling, shell and load envelope"
+    },
+    {
+      "case": "VTOL 69.2N total rating: front only",
+      "foam": "Ravatherm XPS X H LB",
+      "skin_mm": 0.33,
+      "half_force_limit_N": 17.3,
+      "root_moment_limit_Nm": 4.5845,
+      "tip_bend_limit_mm": 3.3557961241836614,
+      "tip_shear_limit_mm": 0.998713698260647,
+      "tip_total_limit_mm": 4.354509822444308,
+      "tip_twist_limit_deg": -1.0463165332710227,
+      "max_face_stress_ultimate_MPa": 5.099879059730791,
+      "max_torsion_shear_ultimate_MPa": 4.356630558139513,
+      "ply_failure_index_ultimate": 0.14911086731727502,
+      "core_shear_utilization_ultimate": 0.29962492489345194,
+      "spar_bending_utilization_ultimate": 0.11737653930942765,
+      "deflection_screen_utilization": 0.12441456635555165,
+      "twist_screen_utilization": 0.5231582666355113,
+      "screen_status": "PASS",
+      "overall_status": "UNRESOLVED: CAD profile, joints, wrinkling, shell and load envelope"
+    },
+    {
+      "case": "VTOL 69.2N total rating: rear only",
+      "foam": "Ravatherm XPS X H LB",
+      "skin_mm": 0.33,
+      "half_force_limit_N": 17.3,
+      "root_moment_limit_Nm": 4.5845,
+      "tip_bend_limit_mm": 3.3557961241836614,
+      "tip_shear_limit_mm": 0.998713698260647,
+      "tip_total_limit_mm": 4.354509822444308,
+      "tip_twist_limit_deg": 1.587220311851206,
+      "max_face_stress_ultimate_MPa": 5.099879059730791,
+      "max_torsion_shear_ultimate_MPa": 6.608834222941164,
+      "ply_failure_index_ultimate": 0.2261952189399506,
+      "core_shear_utilization_ultimate": 0.29962492489345194,
+      "spar_bending_utilization_ultimate": 0.11737653930942765,
+      "deflection_screen_utilization": 0.12441456635555165,
+      "twist_screen_utilization": 0.793610155925603,
+      "screen_status": "PASS",
+      "overall_status": "UNRESOLVED: CAD profile, joints, wrinkling, shell and load envelope"
+    }
+  ],
+  "arm_cases": [
+    {
+      "total_rating_N": 40.0,
+      "max_thrust_per_motor_N": 10.0,
+      "design_thrust_per_motor_N": 15.0,
+      "front_overhang_m": 0.07799999999999999,
+      "rear_overhang_m": 0.10700000000000004,
+      "arm_I_m4": 6.3919999999999994e-09,
+      "front_support_moment_Nm": 1.1699999999999997,
+      "rear_support_moment_Nm": 1.6050000000000006,
+      "front_stress_MPa": 1.8304130162703376,
+      "rear_stress_MPa": 2.5109511889862337,
+      "front_deflection_mm": 0.005302967995708919,
+      "rear_deflection_mm": 0.013689466744144483,
+      "worst_FOS": 119.47663551401864,
+      "status": "beam overhang only; assumed support stations; no hardpoint/crushing qualification"
+    },
+    {
+      "total_rating_N": 69.2,
+      "max_thrust_per_motor_N": 17.3,
+      "design_thrust_per_motor_N": 25.950000000000003,
+      "front_overhang_m": 0.07799999999999999,
+      "rear_overhang_m": 0.10700000000000004,
+      "arm_I_m4": 6.3919999999999994e-09,
+      "front_support_moment_Nm": 2.0241,
+      "rear_support_moment_Nm": 2.7766500000000014,
+      "front_stress_MPa": 3.166614518147685,
+      "rear_stress_MPa": 4.343945556946186,
+      "front_deflection_mm": 0.009174134632576431,
+      "rear_deflection_mm": 0.02368277746736996,
+      "worst_FOS": 69.0616390254443,
+      "status": "beam overhang only; assumed support stations; no hardpoint/crushing qualification"
+    }
+  ],
+  "payload_plate": {
+    "ultimate_payload_inertial_load_N": 15.886773,
+    "plate_max_moment_Nm": 0.15886773,
+    "plate_bending_stress_MPa": 8.4729456,
+    "plate_avg_shear_MPa": 0.21182363999999998,
+    "plate_deflection_mm": 0.021830455652173914,
+    "plate_FOS": 32.57426791457271
+  },
+  "tail_pusher_loads": {
+    "tail_panel_limit_normal_force_N": 10.074318384375003,
+    "tail_panel_ultimate_normal_force_N": 15.111477576562503,
+    "pusher_design_axial_load_N": 9.93,
+    "support_status": "UNRESOLVED: no actual pusher/tail support or aft-spine geometry represented; loads only, no invented FOS"
+  },
+  "wing_screen_boundary": {
+    "positive_n_screen_boundary": 4.32698917388916,
+    "governing": "core_shear_utilization_ultimate",
+    "status": "IDEAL WING BEAM SCREEN ONLY; not aircraft load-factor capability",
+    "searched_upper_n": 12.25
+  },
+  "thrust_scenarios": [
+    {
+      "thrust_N": 40.0,
+      "status": "inherited baseline",
+      "thrust_to_sizing_weight": 1.181030447983984,
+      "hover_thrust_each_N": 8.46718221115296
+    },
+    {
+      "thrust_N": 69.2,
+      "status": "unverified17.30N/motor scenario",
+      "thrust_to_sizing_weight": 2.0431826750122926,
+      "hover_thrust_each_N": 8.46718221115296
+    }
+  ],
+  "warnings": [
+    "Localized fuselage XPS volume and attachment laminates unknown",
+    "Spar center joint and wing/arm/tail/pusher hardpoints unfinished",
+    "Landing/gust/fatigue/impact/water ingress cases unresolved",
+    "Laminate material data and foam orientation not validated",
+    "Control surface hinge geometry and servo torque load cases missing",
+    "CAD material subtotal includes unresolved spar/shell overlaps; allocation not resolved.",
+    "Left/right main wing skin mass differs0.542g despite symmetric inputs; volume/thickness audit outstanding.",
+    "No localized fuselage XPS represented:0g counted, required quantity unknown; this is not a zero-mass requirement.",
+    "Root beam idealized at aircraft centerline; actual attachment flexibility and trimmed root geometry unresolved.",
+    "Geometric CAD normal-offset skins and analytical section offsets differ; stiffness/stress are screening approximations.",
+    "Motor/prop mass placeholders and6S operating data not verified for selected10x3 prop.",
+    "ESCs are60x30x15mm reservations only; their actual mass remains inside old ESC/wiring allocation.",
+    "No overall structural PASS; no native FreeCAD application reopen verification."
+  ]
+}

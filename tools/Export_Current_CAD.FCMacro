@@ -1,0 +1,35 @@
+"""Run in FreeCAD after saving the current RescU document.
+Choose the V4 project folder. Writes its data/cad_snapshot.json, not CAD geometry.
+The manifest intentionally excludes reference tools and duplicate source wing/tail solids.
+New physical structural parts must be tagged StructuralPart=True and have Material and Density_kg_m3.
+"""
+import FreeCAD as App
+from pathlib import Path
+from PySide import QtWidgets
+import hashlib,json,zipfile
+D=App.ActiveDocument
+if D is None or not D.FileName:raise RuntimeError('Open and save current aircraft first.')
+folder=QtWidgets.QFileDialog.getExistingDirectory(None,'Select extracted RescU_Structures_V4 project folder')
+if not folder:raise RuntimeError('Export canceled')
+base=Path(folder);path=base/'data/cad_snapshot.json'
+if not path.exists():raise RuntimeError('Select folder containing data/cad_snapshot.json')
+snapshot=json.loads(path.read_text());names=[r['name'] for r in snapshot['structural_parts']]
+for o in D.Objects:
+ if 'StructuralPart' in o.PropertiesList and o.StructuralPart and o.Name not in names:names.append(o.Name)
+D.recompute();rows=[]
+for name in names:
+ o=D.getObject(name)
+ if o is None or o.Shape.isNull() or not o.Shape.isValid():raise RuntimeError('Missing/invalid structural solid: '+name)
+ if 'Density_kg_m3' not in o.PropertiesList or 'Material' not in o.PropertiesList:raise RuntimeError('Set density/material for '+name)
+ rho=float(o.Density_kg_m3);s=o.Shape;c=s.CenterOfMass;b=s.BoundBox;I=s.MatrixOfInertia
+ rows.append(dict(name=name,material=o.Material,density_kg_m3=rho,volume_mm3=s.Volume,mass_kg=s.Volume*rho*1e-9,x_m=c.x*.001,y_m=c.y*.001,z_m=c.z*.001,bounds_mm=[b.XMin,b.XMax,b.YMin,b.YMax,b.ZMin,b.ZMax],valid=True,inertia_centroid_kgm2=[[getattr(I,'A'+str(i+1)+str(j+1))*rho*1e-15 for j in range(3)] for i in range(3)],source='FreeCAD active-document solid integrals; save CAD before export'))
+params={}
+for name in ['Global_Parameters','Fuselage_Profile_Parameters','Battery_Parameters_PROVISIONAL']:
+ o=D.getObject(name)
+ if o is None:raise RuntimeError('Missing parameter object '+name)
+ params[name]={k:float(getattr(o,k)) for k in o.PropertiesList if o.getTypeIdOfProperty(k)=='App::PropertyFloat'}
+# Keep a backup before changing the active analysis snapshot.
+backup=path.with_suffix('.previous.json');backup.write_bytes(path.read_bytes())
+snapshot.update(source_file=Path(D.FileName).name,source_sha256=hashlib.sha256(Path(D.FileName).read_bytes()).hexdigest(),parameters=params,structural_parts=rows,shape_hashes={},method='FreeCAD active document; saved-file hash requires saved state; new tagged structural parts included')
+path.write_text(json.dumps(snapshot,indent=2))
+App.Console.PrintMessage('Exported '+str(path)+'\nRun RescU_Structures_V4.py next. Review density settings for new materials.\n')
