@@ -1,0 +1,27 @@
+{
+  "status": "PASS: accounting and numerical tests only",
+  "checks": [
+    "CAD volume-density unit conversion",
+    "component/structural/aircraft mass conservation",
+    "CG moments",
+    "payload release moments",
+    "measured battery mass sensitivity",
+    "material density sensitivity",
+    "CAD intrinsic tensor symmetry and parallel-axis assembly",
+    "Euler-Bernoulli cantilever point-load solution"
+  ],
+  "stations": [
+    160,
+    320
+  ],
+  "relative_changes": {
+    "tip_total_limit_mm": 0.00036502916251631486,
+    "tip_twist_limit_deg": 6.545090101669218e-05,
+    "ply_failure_index_ultimate": 0.0001692204291463853,
+    "core_shear_utilization_ultimate": 4.464458223688516e-16,
+    "spar_bending_utilization_ultimate": 0.00016922042914640378,
+    "deflection_screen_utilization": 0.0003650291625161287,
+    "twist_screen_utilization": 6.545090101669218e-05
+  },
+  "physical_validity": "UNRESOLVED; not validated by these tests"
+}

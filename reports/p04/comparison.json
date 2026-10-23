@@ -1,0 +1,66 @@
+{
+  "before": {
+    "cad_structure_kg": 0.6159305596834705,
+    "structural_allowances_kg": 0.12049123189692026,
+    "additional_structure_kg": 0,
+    "structural_budget_kg": 0.7364217915803909,
+    "accounted_aircraft_kg": 3.253649191580391,
+    "sizing_aircraft_kg": 3.453649191580391,
+    "reserve_kg": 0.20000000000000018,
+    "structural_budget_cg_m": [
+      0.4576987341423985,
+      0.00040266873046839846,
+      0.0045877380751474725
+    ],
+    "cad_structure_cg_m": [
+      0.4560862673991004,
+      0.00048144068067888963,
+      0.005485212966763506
+    ],
+    "aircraft_cg_m": [
+      0.3929882293060569,
+      9.113890602351768e-05,
+      -0.005216140004065646
+    ],
+    "aircraft_cg_status": "provisional: actual CAD structural centroids plus estimated installed nonstructural/allowance locations",
+    "battery_pack_kg": 0.944
+  },
+  "after": {
+    "cad_structure_kg": 0.9182199383521582,
+    "structural_allowances_kg": 0.12280829464571345,
+    "additional_structure_kg": 0,
+    "structural_budget_kg": 1.0410282329978717,
+    "accounted_aircraft_kg": 3.5162556329978716,
+    "sizing_aircraft_kg": 3.7162556329978718,
+    "reserve_kg": 0.20000000000000018,
+    "structural_budget_cg_m": [
+      0.4611567013474542,
+      0.0002847574967382158,
+      0.0026261160006793333
+    ],
+    "cad_structure_cg_m": [
+      0.45651700462530703,
+      0.00032284268864197797,
+      0.0029773486565112532
+    ],
+    "aircraft_cg_m": [
+      0.39756030409201853,
+      8.430575720387661e-05,
+      -0.005009914220925477
+    ],
+    "aircraft_cg_status": "provisional: actual CAD structural centroids plus estimated installed nonstructural/allowance locations",
+    "battery_pack_kg": 0.944
+  },
+  "new_CAD_groups_g": {
+    "Lift motor mounts": 35.52,
+    "Arm-to-wing attachments": 44.23620240035001,
+    "Wing center and half-wing joints": 106.16539319204358,
+    "Fuselage hardpoints and foam": 24.869373295096047,
+    "Pusher support": 20.139670451717308,
+    "V-tail attachments": 31.286134067734455,
+    "Battery retention": 41.69886379492779
+  },
+  "foam_removed_g": 1.9238395728169775,
+  "interference_count": 32,
+  "status": "CANDIDATE; NOT NET INSTALLED MASS"
+}

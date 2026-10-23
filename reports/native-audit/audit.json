@@ -1,0 +1,1169 @@
+{
+  "source": "C:\\Users\\diego\\OneDrive - csulb\\Desktop\\RESCU-Current\\RescU_CAD_P03\\RescU_Ravatherm_V3_P03.FCStd",
+  "sha256": "5b4ce6b6f7f8afe0953386b3191f858bde2d42926b18e56e2cbed9a3c0d6caa2",
+  "snapshot_sha256": "1181ed80a74daf20192822ddcdca741102a3a9c5c58a5736c01abc03975527c3",
+  "parts": [
+    {
+      "name": "Fuselage_GFRP_Shell_0330",
+      "valid": true,
+      "volume_mm3": 88039.60613726219,
+      "volume_delta_mm3": 0.0,
+      "center_mm": [
+        528.9163582884064,
+        -9.09039004694236e-09,
+        1.7571378421424792e-14
+      ],
+      "bounds_mm": [
+        0.0,
+        1110.0,
+        -45.0,
+        45.0,
+        -45.0,
+        45.0
+      ]
+    },
+    {
+      "name": "Wing_PosY_GFRP_Skin_Exposed",
+      "valid": true,
+      "volume_mm3": 47461.2258085488,
+      "volume_delta_mm3": 0.0,
+      "center_mm": [
+        401.84589930923613,
+        346.16659047578617,
+        9.387881836587859
+      ],
+      "bounds_mm": [
+        259.9286942852913,
+        500.0,
+        0.0,
+        700.0,
+        -3.367402244128492,
+        19.739948801023175
+      ]
+    },
+    {
+      "name": "Wing_PosY_Ravatherm_Core_Exposed",
+      "valid": true,
+      "volume_mm3": 567823.510413684,
+      "volume_delta_mm3": 0.0,
+      "center_mm": [
+        379.33501634886574,
+        320.4685402912726,
+        8.915746608215265
+      ],
+      "bounds_mm": [
+        260.29982218706533,
+        494.8207899921462,
+        0.0,
+        700.6980417643973,
+        -3.027282499512698,
+        19.40749367026201
+      ]
+    },
+    {
+      "name": "Wing_PosY_EpoxyBond_Exposed",
+      "valid": true,
+      "volume_mm3": 2280.252558785469,
+      "volume_delta_mm3": 0.0,
+      "center_mm": [
+        368.7203943543733,
+        344.06389476676026,
+        9.836721916808608
+      ],
+      "bounds_mm": [
+        310.092077224814,
+        434.04058234032453,
+        41.85335559258937,
+        700.6980417643973,
+        -1.533653514206251,
+        19.193866190066128
+      ]
+    },
+    {
+      "name": "VTail_PosY_GFRP_Skin_Exposed",
+      "valid": true,
+      "volume_mm3": 6999.145832228476,
+      "volume_delta_mm3": 0.0,
+      "center_mm": [
+        1055.4740372168267,
+        102.77813083764183,
+        71.95215481632245
+      ],
+      "bounds_mm": [
+        959.9995854850695,
+        1125.0,
+        -2.582032776196187,
+        201.98326723890108,
+        -3.687524962667392,
+        142.36998938733998
+      ]
+    },
+    {
+      "name": "VTail_PosY_Ravatherm_Core_Exposed",
+      "valid": true,
+      "volume_mm3": 56391.44461915454,
+      "volume_delta_mm3": 0.0,
+      "center_mm": [
+        1044.293985187435,
+        93.61443218870892,
+        65.54960250672606
+      ],
+      "bounds_mm": [
+        960.2637834537775,
+        1122.7348176269913,
+        -2.4303341856406186,
+        201.83403577135675,
+        -3.477580315577024,
+        142.15352631979394
+      ]
+    },
+    {
+      "name": "Wing_NegY_GFRP_Skin_Exposed",
+      "valid": true,
+      "volume_mm3": 47168.33898690309,
+      "volume_delta_mm3": 0.0,
+      "center_mm": [
+        401.80258700042486,
+        -344.9186857250227,
+        9.381923155117496
+      ],
+      "bounds_mm": [
+        259.9286942852913,
+        500.0,
+        -700.0,
+        0.0,
+        -3.367402244128492,
+        19.739948801023175
+      ]
+    },
+    {
+      "name": "Wing_NegY_Ravatherm_Core_Exposed",
+      "valid": true,
+      "volume_mm3": 567820.320318048,
+      "volume_delta_mm3": 0.0,
+      "center_mm": [
+        379.3345703117108,
+        -320.4656682450103,
+        8.915708204005396
+      ],
+      "bounds_mm": [
+        260.29982218706533,
+        494.8207899921462,
+        -700.6980417643973,
+        0.0,
+        -3.027282499512698,
+        19.40749367026201
+      ]
+    },
+    {
+      "name": "Wing_NegY_EpoxyBond_Exposed",
+      "valid": true,
+      "volume_mm3": 2280.2621449963553,
+      "volume_delta_mm3": 0.0,
+      "center_mm": [
+        368.72021044344825,
+        -344.0628404322571,
+        9.83670186248635
+      ],
+      "bounds_mm": [
+        310.09210814320784,
+        434.04058234032453,
+        -700.6980417643973,
+        -41.85353102817602,
+        -1.5336501710925265,
+        19.193866190066128
+      ]
+    },
+    {
+      "name": "VTail_NegY_GFRP_Skin_Exposed",
+      "valid": true,
+      "volume_mm3": 6999.2749971478415,
+      "volume_delta_mm3": 0.0,
+      "center_mm": [
+        1055.4730650165404,
+        -102.77708606349114,
+        71.9514275109805
+      ],
+      "bounds_mm": [
+        959.9995854850695,
+        1125.0,
+        -201.98326723890108,
+        2.582032776196187,
+        -3.687524962667392,
+        142.36998938733998
+      ]
+    },
+    {
+      "name": "VTail_NegY_Ravatherm_Core_Exposed",
+      "valid": true,
+      "volume_mm3": 56391.33408119423,
+      "volume_delta_mm3": 0.0,
+      "center_mm": [
+        1044.2940732945701,
+        -93.61452505625208,
+        65.5496670385962
+      ],
+      "bounds_mm": [
+        960.2637834537775,
+        1122.7348176269913,
+        -201.83403577135675,
+        2.4303341856406186,
+        -3.477580315577024,
+        142.15352631979394
+      ]
+    },
+    {
+      "name": "Wing_PosY_CFRP_TaperedSpar",
+      "valid": true,
+      "volume_mm3": 28454.139305387063,
+      "volume_delta_mm3": 0.0,
+      "center_mm": [
+        353.80147058823536,
+        257.35294117647146,
+        8.549888425043477
+      ],
+      "bounds_mm": [
+        302.60144478481175,
+        433.94203155153616,
+        -1.1917786221417797,
+        700.6810163555095,
+        -2.2542598775241283,
+        19.09387680322238
+      ]
+    },
+    {
+      "name": "VTOL_Arm_PosY",
+      "valid": true,
+      "volume_mm3": 33600.0,
+      "volume_delta_mm3": 0.0,
+      "center_mm": [
+        394.99999999999943,
+        265.0,
+        -9.999999999999993
+      ],
+      "bounds_mm": [
+        220.0,
+        570.0,
+        250.0,
+        280.0,
+        -20.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Wing_NegY_CFRP_TaperedSpar",
+      "valid": true,
+      "volume_mm3": 28454.139305387034,
+      "volume_delta_mm3": 0.0,
+      "center_mm": [
+        353.8014705882355,
+        -257.35294117647146,
+        8.549888425043473
+      ],
+      "bounds_mm": [
+        302.60144478481175,
+        433.94203155153616,
+        -700.6810163555095,
+        1.1917786221417794,
+        -2.2542598775241283,
+        19.09387680322238
+      ]
+    },
+    {
+      "name": "VTOL_Arm_NegY",
+      "valid": true,
+      "volume_mm3": 33600.0,
+      "volume_delta_mm3": 0.0,
+      "center_mm": [
+        394.99999999999943,
+        -265.0,
+        -9.999999999999993
+      ],
+      "bounds_mm": [
+        220.0,
+        570.0,
+        -280.0,
+        -250.0,
+        -20.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Payload_MountPlate_PROVISIONAL",
+      "valid": true,
+      "volume_mm3": 3000.0,
+      "volume_delta_mm3": 0.0,
+      "center_mm": [
+        350.0,
+        -1.4210854715202004e-16,
+        -55.0
+      ],
+      "bounds_mm": [
+        325.0,
+        375.0,
+        -20.0,
+        20.0,
+        -55.75,
+        -54.25
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "name": "Fuselage_PROVISIONAL",
+      "label": "02 Fuselage \u2014 implemented P01 profile",
+      "volume_mm3": 88039.60613726219,
+      "valid": true,
+      "bounds_mm": [
+        0.0,
+        1110.0,
+        -45.0,
+        45.0,
+        -45.0,
+        45.0
+      ]
+    },
+    {
+      "name": "Wing_PosY",
+      "label": "Wing_PosY",
+      "volume_mm3": 78927.9422625552,
+      "valid": true,
+      "bounds_mm": [
+        259.9286942852913,
+        500.0,
+        -1.1917786221417797,
+        700.6980417643973,
+        -3.367402244128492,
+        19.739948801023175
+      ]
+    },
+    {
+      "name": "Wing_PosY_GFRP_Skin",
+      "label": "Wing_PosY_GFRP_Skin",
+      "volume_mm3": 51616.13203385465,
+      "valid": true,
+      "bounds_mm": [
+        259.9286942852913,
+        500.0,
+        0.0,
+        700.0,
+        -3.367402244128492,
+        19.739948801023175
+      ]
+    },
+    {
+      "name": "Wing_PosY_Ravatherm_Core",
+      "label": "Wing_PosY_Ravatherm_Core",
+      "volume_mm3": 627893.6948947385,
+      "valid": true,
+      "bounds_mm": [
+        260.29982218706533,
+        494.8207899921462,
+        -1.2088040310295682,
+        700.6980417643973,
+        -3.027282499512698,
+        19.40749367026201
+      ]
+    },
+    {
+      "name": "Wing_PosY_CFRP_TaperedSpar",
+      "label": "Wing_PosY_CFRP_TaperedSpar",
+      "volume_mm3": 28454.139305387063,
+      "valid": true,
+      "bounds_mm": [
+        302.60144478481175,
+        433.94203155153616,
+        -1.1917786221417797,
+        700.6810163555095,
+        -2.2542598775241283,
+        19.09387680322238
+      ]
+    },
+    {
+      "name": "Wing_PosY_EpoxyBond",
+      "label": "Wing_PosY_EpoxyBond",
+      "volume_mm3": 2477.18389246906,
+      "valid": true,
+      "bounds_mm": [
+        302.5028939960233,
+        434.04058234032453,
+        -1.2088040310295192,
+        700.6980417643973,
+        -2.3542492643678763,
+        19.193866190066128
+      ]
+    },
+    {
+      "name": "Wing_PosY_Source_Sections",
+      "label": "Wing_PosY_Source_Sections",
+      "volume_mm3": 0.0,
+      "valid": true,
+      "bounds_mm": [
+        259.94973382824963,
+        500.0,
+        0.0,
+        700.0,
+        -3.367402244128492,
+        19.73747306674023
+      ]
+    },
+    {
+      "name": "VTail_PosY",
+      "label": "VTail_PosY",
+      "volume_mm3": 141726.58674270945,
+      "valid": true,
+      "bounds_mm": [
+        959.9995854850695,
+        1125.0,
+        -2.582032776196187,
+        201.98326723890108,
+        -3.687524962667392,
+        142.36998938733998
+      ]
+    },
+    {
+      "name": "VTail_PosY_GFRP_Skin",
+      "label": "VTail_PosY_GFRP_Skin",
+      "volume_mm3": 8238.191940855122,
+      "valid": true,
+      "bounds_mm": [
+        959.9995854850695,
+        1125.0,
+        -2.582032776196187,
+        201.98326723890108,
+        -3.687524962667392,
+        142.36998938733998
+      ]
+    },
+    {
+      "name": "VTail_PosY_Ravatherm_Core",
+      "label": "VTail_PosY_Ravatherm_Core",
+      "volume_mm3": 70099.37368624147,
+      "valid": true,
+      "bounds_mm": [
+        960.2637834537775,
+        1122.7348176269913,
+        -2.4303341856406186,
+        201.83403577135675,
+        -3.477580315577024,
+        142.15352631979394
+      ]
+    },
+    {
+      "name": "VTail_PosY_Source_Sections",
+      "label": "VTail_PosY_Source_Sections",
+      "volume_mm3": 0.0,
+      "valid": true,
+      "bounds_mm": [
+        959.9995854850695,
+        1125.0,
+        -2.582032776196187,
+        201.98326723890108,
+        -3.687524962667392,
+        142.36998938733998
+      ]
+    },
+    {
+      "name": "VTOL_Arm_PosY",
+      "label": "VTOL_Arm_PosY",
+      "volume_mm3": 33600.0,
+      "valid": true,
+      "bounds_mm": [
+        220.0,
+        570.0,
+        250.0,
+        280.0,
+        -20.0,
+        0.0
+      ]
+    },
+    {
+      "name": "UM2807_1700KV_front_PosY_AXIS_ONLY",
+      "label": "UM2807_1700KV_front_PosY_AXIS_ONLY",
+      "volume_mm3": 0.0,
+      "valid": true,
+      "bounds_mm": [
+        230.0,
+        240.0,
+        260.0,
+        270.0,
+        5.0,
+        35.0
+      ]
+    },
+    {
+      "name": "APC10x3_front_PosY_SWEPT_DISK",
+      "label": "APC10x3_front_PosY_SWEPT_DISK",
+      "volume_mm3": 5067.074790975002,
+      "valid": true,
+      "bounds_mm": [
+        108.0,
+        362.0,
+        138.0,
+        392.0,
+        25.897,
+        25.997
+      ]
+    },
+    {
+      "name": "UM2807_1700KV_rear_PosY_AXIS_ONLY",
+      "label": "UM2807_1700KV_rear_PosY_AXIS_ONLY",
+      "volume_mm3": 0.0,
+      "valid": true,
+      "bounds_mm": [
+        550.0,
+        560.0,
+        260.0,
+        270.0,
+        5.0,
+        35.0
+      ]
+    },
+    {
+      "name": "APC10x3_rear_PosY_SWEPT_DISK",
+      "label": "APC10x3_rear_PosY_SWEPT_DISK",
+      "volume_mm3": 5067.074790975002,
+      "valid": true,
+      "bounds_mm": [
+        428.0,
+        682.0,
+        138.0,
+        392.0,
+        25.897,
+        25.997
+      ]
+    },
+    {
+      "name": "Wing_NegY",
+      "label": "Wing_NegY",
+      "volume_mm3": 78757.24909010067,
+      "valid": true,
+      "bounds_mm": [
+        259.9286942852913,
+        500.0,
+        -700.6980417643973,
+        1.1917786221417794,
+        -3.367402244128492,
+        19.739948801023175
+      ]
+    },
+    {
+      "name": "Wing_NegY_GFRP_Skin",
+      "label": "Wing_NegY_GFRP_Skin",
+      "volume_mm3": 51616.13203385465,
+      "valid": true,
+      "bounds_mm": [
+        259.9286942852913,
+        500.0,
+        -700.0,
+        0.0,
+        -3.367402244128492,
+        19.739948801023175
+      ]
+    },
+    {
+      "name": "Wing_NegY_Ravatherm_Core",
+      "label": "Wing_NegY_Ravatherm_Core",
+      "volume_mm3": 627894.9740969037,
+      "valid": true,
+      "bounds_mm": [
+        260.29982218706533,
+        494.8207899921462,
+        -700.6980417643973,
+        1.208804031029554,
+        -3.027282499512698,
+        19.40749367026201
+      ]
+    },
+    {
+      "name": "Wing_NegY_CFRP_TaperedSpar",
+      "label": "Wing_NegY_CFRP_TaperedSpar",
+      "volume_mm3": 28454.139305387034,
+      "valid": true,
+      "bounds_mm": [
+        302.60144478481175,
+        433.94203155153616,
+        -700.6810163555095,
+        1.1917786221417794,
+        -2.2542598775241283,
+        19.09387680322238
+      ]
+    },
+    {
+      "name": "Wing_NegY_EpoxyBond",
+      "label": "Wing_NegY_EpoxyBond",
+      "volume_mm3": 2477.1838924690746,
+      "valid": true,
+      "bounds_mm": [
+        302.5028939960233,
+        434.04058234032453,
+        -700.6980417643973,
+        1.208804031029519,
+        -2.3542492643678763,
+        19.193866190066128
+      ]
+    },
+    {
+      "name": "Wing_NegY_Source_Sections",
+      "label": "Wing_NegY_Source_Sections",
+      "volume_mm3": 0.0,
+      "valid": true,
+      "bounds_mm": [
+        259.94973382824963,
+        500.0,
+        -700.0,
+        0.0,
+        -3.367402244128492,
+        19.73747306674023
+      ]
+    },
+    {
+      "name": "VTail_NegY",
+      "label": "VTail_NegY",
+      "volume_mm3": 6999.2749971478415,
+      "valid": true,
+      "bounds_mm": [
+        959.9995854850695,
+        1125.0,
+        -201.98326723890108,
+        2.582032776196187,
+        -3.687524962667392,
+        142.36998938733998
+      ]
+    },
+    {
+      "name": "VTail_NegY_GFRP_Skin",
+      "label": "VTail_NegY_GFRP_Skin",
+      "volume_mm3": 8238.191940855122,
+      "valid": true,
+      "bounds_mm": [
+        959.9995854850695,
+        1125.0,
+        -201.98326723890108,
+        2.582032776196187,
+        -3.687524962667392,
+        142.36998938733998
+      ]
+    },
+    {
+      "name": "VTail_NegY_Ravatherm_Core",
+      "label": "VTail_NegY_Ravatherm_Core",
+      "volume_mm3": 70099.37368624147,
+      "valid": true,
+      "bounds_mm": [
+        960.2637834537775,
+        1122.7348176269913,
+        -201.83403577135675,
+        2.4303341856406186,
+        -3.477580315577024,
+        142.15352631979394
+      ]
+    },
+    {
+      "name": "VTail_NegY_Source_Sections",
+      "label": "VTail_NegY_Source_Sections",
+      "volume_mm3": 0.0,
+      "valid": true,
+      "bounds_mm": [
+        959.9995854850695,
+        1125.0,
+        -201.98326723890108,
+        2.582032776196187,
+        -3.687524962667392,
+        142.36998938733998
+      ]
+    },
+    {
+      "name": "VTOL_Arm_NegY",
+      "label": "VTOL_Arm_NegY",
+      "volume_mm3": 33600.0,
+      "valid": true,
+      "bounds_mm": [
+        220.0,
+        570.0,
+        -280.0,
+        -250.0,
+        -20.0,
+        0.0
+      ]
+    },
+    {
+      "name": "UM2807_1700KV_front_NegY_AXIS_ONLY",
+      "label": "UM2807_1700KV_front_NegY_AXIS_ONLY",
+      "volume_mm3": 0.0,
+      "valid": true,
+      "bounds_mm": [
+        230.0,
+        240.0,
+        -270.0,
+        -260.0,
+        5.0,
+        35.0
+      ]
+    },
+    {
+      "name": "APC10x3_front_NegY_SWEPT_DISK",
+      "label": "APC10x3_front_NegY_SWEPT_DISK",
+      "volume_mm3": 5067.074790975002,
+      "valid": true,
+      "bounds_mm": [
+        108.0,
+        362.0,
+        -392.0,
+        -138.0,
+        25.897,
+        25.997
+      ]
+    },
+    {
+      "name": "UM2807_1700KV_rear_NegY_AXIS_ONLY",
+      "label": "UM2807_1700KV_rear_NegY_AXIS_ONLY",
+      "volume_mm3": 0.0,
+      "valid": true,
+      "bounds_mm": [
+        550.0,
+        560.0,
+        -270.0,
+        -260.0,
+        5.0,
+        35.0
+      ]
+    },
+    {
+      "name": "APC10x3_rear_NegY_SWEPT_DISK",
+      "label": "APC10x3_rear_NegY_SWEPT_DISK",
+      "volume_mm3": 5067.074790975002,
+      "valid": true,
+      "bounds_mm": [
+        428.0,
+        682.0,
+        -392.0,
+        -138.0,
+        25.897,
+        25.997
+      ]
+    },
+    {
+      "name": "MT4008_18_AXIS_ONLY",
+      "label": "MT4008_18_AXIS_ONLY",
+      "volume_mm3": 0.0,
+      "valid": true,
+      "bounds_mm": [
+        1100.0,
+        1130.0,
+        -5.0,
+        5.0,
+        -5.0,
+        5.0
+      ]
+    },
+    {
+      "name": "APC13x8E_SWEPT_DISK",
+      "label": "APC13x8E_SWEPT_DISK",
+      "volume_mm3": 8563.356396745115,
+      "valid": true,
+      "bounds_mm": [
+        1137.401,
+        1137.501,
+        -165.1,
+        165.1,
+        -165.1,
+        165.1
+      ]
+    },
+    {
+      "name": "Payload_MountPlate_PROVISIONAL",
+      "label": "Payload_MountPlate_PROVISIONAL",
+      "volume_mm3": 3000.0,
+      "valid": true,
+      "bounds_mm": [
+        325.0,
+        375.0,
+        -20.0,
+        20.0,
+        -55.75,
+        -54.25
+      ]
+    },
+    {
+      "name": "Fuselage_Master_Profile",
+      "label": "Fuselage_Master_Profile",
+      "volume_mm3": 0.0,
+      "valid": true,
+      "bounds_mm": [
+        0.0,
+        1110.0,
+        0.0,
+        45.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Fuselage_Outer_Mold_Line",
+      "label": "Fuselage_Outer_Mold_Line",
+      "volume_mm3": 5298388.891023991,
+      "valid": true,
+      "bounds_mm": [
+        0.0,
+        1110.0,
+        -45.0,
+        45.0,
+        -45.0,
+        45.0
+      ]
+    },
+    {
+      "name": "Fuselage_GFRP_Shell_0330",
+      "label": "Fuselage_GFRP_Shell_0330",
+      "volume_mm3": 88039.60613726219,
+      "valid": true,
+      "bounds_mm": [
+        0.0,
+        1110.0,
+        -45.0,
+        45.0,
+        -45.0,
+        45.0
+      ]
+    },
+    {
+      "name": "Battery_4S3P_PROVISIONAL",
+      "label": "Battery Molicel M65A6S2P \u2014 proposed mechanical packing",
+      "volume_mm3": 315100.39227021515,
+      "valid": true,
+      "bounds_mm": [
+        201.700714810423,
+        397.700714810423,
+        -33.55,
+        33.55,
+        -22.2,
+        22.2
+      ]
+    },
+    {
+      "name": "SA112_MaxEnvelope_Cell_01",
+      "label": "M65A Max Envelope Cell01",
+      "volume_mm3": 26258.366022517934,
+      "valid": true,
+      "bounds_mm": [
+        201.700714810423,
+        272.700714810423,
+        -33.55,
+        -11.85,
+        -22.2,
+        -0.5
+      ]
+    },
+    {
+      "name": "SA112_MaxEnvelope_Cell_02",
+      "label": "M65A Max Envelope Cell02",
+      "volume_mm3": 26258.366022517934,
+      "valid": true,
+      "bounds_mm": [
+        201.700714810423,
+        272.700714810423,
+        -33.55,
+        -11.85,
+        0.5,
+        22.2
+      ]
+    },
+    {
+      "name": "SA112_MaxEnvelope_Cell_03",
+      "label": "M65A Max Envelope Cell03",
+      "volume_mm3": 26258.366022517934,
+      "valid": true,
+      "bounds_mm": [
+        201.700714810423,
+        272.700714810423,
+        -10.85,
+        10.85,
+        -22.2,
+        -0.5
+      ]
+    },
+    {
+      "name": "SA112_MaxEnvelope_Cell_04",
+      "label": "M65A Max Envelope Cell04",
+      "volume_mm3": 26258.366022517934,
+      "valid": true,
+      "bounds_mm": [
+        201.700714810423,
+        272.700714810423,
+        -10.85,
+        10.85,
+        0.5,
+        22.2
+      ]
+    },
+    {
+      "name": "SA112_MaxEnvelope_Cell_05",
+      "label": "M65A Max Envelope Cell05",
+      "volume_mm3": 26258.366022517934,
+      "valid": true,
+      "bounds_mm": [
+        201.700714810423,
+        272.700714810423,
+        11.85,
+        33.55,
+        -22.2,
+        -0.5
+      ]
+    },
+    {
+      "name": "SA112_MaxEnvelope_Cell_06",
+      "label": "M65A Max Envelope Cell06",
+      "volume_mm3": 26258.366022517934,
+      "valid": true,
+      "bounds_mm": [
+        201.700714810423,
+        272.700714810423,
+        11.85,
+        33.55,
+        0.5,
+        22.2
+      ]
+    },
+    {
+      "name": "SA112_MaxEnvelope_Cell_07",
+      "label": "M65A Max Envelope Cell07",
+      "volume_mm3": 26258.36602251793,
+      "valid": true,
+      "bounds_mm": [
+        326.700714810423,
+        397.700714810423,
+        -33.55,
+        -11.85,
+        -22.2,
+        -0.5
+      ]
+    },
+    {
+      "name": "SA112_MaxEnvelope_Cell_08",
+      "label": "M65A Max Envelope Cell08",
+      "volume_mm3": 26258.36602251793,
+      "valid": true,
+      "bounds_mm": [
+        326.700714810423,
+        397.700714810423,
+        -33.55,
+        -11.85,
+        0.5,
+        22.2
+      ]
+    },
+    {
+      "name": "SA112_MaxEnvelope_Cell_09",
+      "label": "M65A Max Envelope Cell09",
+      "volume_mm3": 26258.36602251793,
+      "valid": true,
+      "bounds_mm": [
+        326.700714810423,
+        397.700714810423,
+        -10.85,
+        10.85,
+        -22.2,
+        -0.5
+      ]
+    },
+    {
+      "name": "SA112_MaxEnvelope_Cell_10",
+      "label": "M65A Max Envelope Cell10",
+      "volume_mm3": 26258.36602251793,
+      "valid": true,
+      "bounds_mm": [
+        326.700714810423,
+        397.700714810423,
+        -10.85,
+        10.85,
+        0.5,
+        22.2
+      ]
+    },
+    {
+      "name": "SA112_MaxEnvelope_Cell_11",
+      "label": "M65A Max Envelope Cell11",
+      "volume_mm3": 26258.366022517926,
+      "valid": true,
+      "bounds_mm": [
+        326.700714810423,
+        397.700714810423,
+        11.85,
+        33.55,
+        -22.2,
+        -0.5
+      ]
+    },
+    {
+      "name": "SA112_MaxEnvelope_Cell_12",
+      "label": "M65A Max Envelope Cell12",
+      "volume_mm3": 26258.36602251793,
+      "valid": true,
+      "bounds_mm": [
+        326.700714810423,
+        397.700714810423,
+        11.85,
+        33.55,
+        0.5,
+        22.2
+      ]
+    },
+    {
+      "name": "Battery_Packaging_Allowance_PROVISIONAL",
+      "label": "Battery_Packaging_Allowance_PROVISIONAL",
+      "volume_mm3": 529950.96,
+      "valid": true,
+      "bounds_mm": [
+        198.700714810423,
+        400.700714810423,
+        -35.55,
+        35.55,
+        -24.2,
+        24.2
+      ]
+    },
+    {
+      "name": "Wing_PosY_GFRP_Skin_Exposed",
+      "label": "Wing_PosY_GFRP_Skin_Exposed",
+      "volume_mm3": 47461.2258085488,
+      "valid": true,
+      "bounds_mm": [
+        259.9286942852913,
+        500.0,
+        0.0,
+        700.0,
+        -3.367402244128492,
+        19.739948801023175
+      ]
+    },
+    {
+      "name": "Wing_PosY_Ravatherm_Core_Exposed",
+      "label": "Wing_PosY_Ravatherm_Core_Exposed",
+      "volume_mm3": 567823.510413684,
+      "valid": true,
+      "bounds_mm": [
+        260.29982218706533,
+        494.8207899921462,
+        0.0,
+        700.6980417643973,
+        -3.027282499512698,
+        19.40749367026201
+      ]
+    },
+    {
+      "name": "Wing_PosY_EpoxyBond_Exposed",
+      "label": "Wing_PosY_EpoxyBond_Exposed",
+      "volume_mm3": 2280.252558785469,
+      "valid": true,
+      "bounds_mm": [
+        310.092077224814,
+        434.04058234032453,
+        41.85335559258937,
+        700.6980417643973,
+        -1.533653514206251,
+        19.193866190066128
+      ]
+    },
+    {
+      "name": "VTail_PosY_GFRP_Skin_Exposed",
+      "label": "VTail_PosY_GFRP_Skin_Exposed",
+      "volume_mm3": 6999.145832228476,
+      "valid": true,
+      "bounds_mm": [
+        959.9995854850695,
+        1125.0,
+        -2.582032776196187,
+        201.98326723890108,
+        -3.687524962667392,
+        142.36998938733998
+      ]
+    },
+    {
+      "name": "VTail_PosY_Ravatherm_Core_Exposed",
+      "label": "VTail_PosY_Ravatherm_Core_Exposed",
+      "volume_mm3": 56391.44461915454,
+      "valid": true,
+      "bounds_mm": [
+        960.2637834537775,
+        1122.7348176269913,
+        -2.4303341856406186,
+        201.83403577135675,
+        -3.477580315577024,
+        142.15352631979394
+      ]
+    },
+    {
+      "name": "Wing_NegY_GFRP_Skin_Exposed",
+      "label": "Wing_NegY_GFRP_Skin_Exposed",
+      "volume_mm3": 47168.33898690309,
+      "valid": true,
+      "bounds_mm": [
+        259.9286942852913,
+        500.0,
+        -700.0,
+        0.0,
+        -3.367402244128492,
+        19.739948801023175
+      ]
+    },
+    {
+      "name": "Wing_NegY_Ravatherm_Core_Exposed",
+      "label": "Wing_NegY_Ravatherm_Core_Exposed",
+      "volume_mm3": 567820.320318048,
+      "valid": true,
+      "bounds_mm": [
+        260.29982218706533,
+        494.8207899921462,
+        -700.6980417643973,
+        0.0,
+        -3.027282499512698,
+        19.40749367026201
+      ]
+    },
+    {
+      "name": "Wing_NegY_EpoxyBond_Exposed",
+      "label": "Wing_NegY_EpoxyBond_Exposed",
+      "volume_mm3": 2280.2621449963553,
+      "valid": true,
+      "bounds_mm": [
+        310.09210814320784,
+        434.04058234032453,
+        -700.6980417643973,
+        -41.85353102817602,
+        -1.5336501710925265,
+        19.193866190066128
+      ]
+    },
+    {
+      "name": "VTail_NegY_GFRP_Skin_Exposed",
+      "label": "VTail_NegY_GFRP_Skin_Exposed",
+      "volume_mm3": 6999.2749971478415,
+      "valid": true,
+      "bounds_mm": [
+        959.9995854850695,
+        1125.0,
+        -201.98326723890108,
+        2.582032776196187,
+        -3.687524962667392,
+        142.36998938733998
+      ]
+    },
+    {
+      "name": "VTail_NegY_Ravatherm_Core_Exposed",
+      "label": "VTail_NegY_Ravatherm_Core_Exposed",
+      "volume_mm3": 56391.33408119423,
+      "valid": true,
+      "bounds_mm": [
+        960.2637834537775,
+        1122.7348176269913,
+        -201.83403577135675,
+        2.4303341856406186,
+        -3.477580315577024,
+        142.15352631979394
+      ]
+    }
+  ],
+  "native_open": true,
+  "max_centroid_delta_mm": 2.2737367544323206e-13
+}

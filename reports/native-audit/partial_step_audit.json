@@ -1,0 +1,17 @@
+{
+  "file": "RescU_P04_PARTIAL_without_fuselage_shell.step",
+  "excluded": [
+    "Fuselage_GFRP_Shell_0330"
+  ],
+  "reason": "Inherited native shell fails STEP transfer. NURBS conversion altered volume and was rejected.",
+  "valid": true,
+  "native_volume_mm3": 1678080.5009290641,
+  "step_volume_mm3": 1658430.6693846358,
+  "relative_volume_difference": 0.01170970733141187,
+  "native_solids": 70,
+  "step_solids": 70,
+  "sha256": "716c18cb2fe0b32261603a53d9e8b38853741772d38100884084e552bccc712f",
+  "source_native_sha256": "d006f41b80dfd97d7eaf982ae1475e8acdadeca3b1699967dcd34d0410118ff0",
+  "status": "PARTIAL export; native FCStd remains authoritative. No geometry-fit or structural qualification.",
+  "roundtrip_screen_pass": false
+}

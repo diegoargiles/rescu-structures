@@ -1,0 +1,29 @@
+{
+  "version": "P04 attachment study 2026-10-22",
+  "status": "Candidate; not fabrication release",
+  "files": [
+    {
+      "path": "cad/RescU_P04_Attachment_Study.FCStd",
+      "size_bytes": 8069773,
+      "sha256": "d006f41b80dfd97d7eaf982ae1475e8acdadeca3b1699967dcd34d0410118ff0"
+    },
+    {
+      "path": "cad/Attachment_Study_Preview.png",
+      "size_bytes": 138872,
+      "sha256": "78ef8cea8605b4f70923b0119a559f7579b5743cf9f243dc8d615f68660f73b2"
+    },
+    {
+      "path": "data/cad_snapshot_p04.json",
+      "size_bytes": 59048,
+      "sha256": "777eebf61fec0746d056abaf686fd465392fc2757cbac3237a09a183ed960a93"
+    }
+  ],
+  "rejected_exports": [
+    {
+      "path": "cad/RescU_P04_Structure.step",
+      "size_bytes": 30330352,
+      "sha256": "ffd86ea0fa3490239983e30c934ef32b993641cb85cf372e320f94b1c522486d"
+    }
+  ],
+  "STEP_status": "No accepted STEP; rejected exports excluded from ZIP. See diagnostic reports."
+}

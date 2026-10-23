@@ -1,5 +1,5 @@
 {
-  "version": "V4.0 CAD P03,2026-10-19",
+  "version": "V4.1 / P04 attachment study, 2026-10-22; NOT fabrication release",
   "densities_kg_m3": {
     "GFRP": 1850.0,
     "CFRP": 1600.0,
@@ -10,53 +10,58 @@
   "components": [
     {
       "name": "VTOL motor+prop FR",
-      "mass_kg": 0.08608160000000001,
+      "mass_kg": 0.0780816,
       "x_m": 0.235,
       "y_m": -0.265,
       "z_m": 0.0,
-      "source": "CAD coords + manufacturer mass + mount allowance",
+      "source": "Inherited motor+prop estimate; embedded mount allowance removed per engine/RescU_Structures_V2.py lines 226-233",
       "category": "nonstructural",
-      "status": "retained estimate; hardware/installed position not fully verified"
+      "status": "retained estimate; hardware/installed position not fully verified",
+      "removed_mount_allowance_kg": 0.008
     },
     {
       "name": "VTOL motor+prop FL",
-      "mass_kg": 0.08608160000000001,
+      "mass_kg": 0.0780816,
       "x_m": 0.235,
       "y_m": 0.265,
       "z_m": 0.0,
-      "source": "CAD coords + manufacturer mass + mount allowance",
+      "source": "Inherited motor+prop estimate; embedded mount allowance removed per engine/RescU_Structures_V2.py lines 226-233",
       "category": "nonstructural",
-      "status": "retained estimate; hardware/installed position not fully verified"
+      "status": "retained estimate; hardware/installed position not fully verified",
+      "removed_mount_allowance_kg": 0.008
     },
     {
       "name": "VTOL motor+prop RR",
-      "mass_kg": 0.08608160000000001,
+      "mass_kg": 0.0780816,
       "x_m": 0.555,
       "y_m": -0.265,
       "z_m": 0.0,
-      "source": "CAD coords + manufacturer mass + mount allowance",
+      "source": "Inherited motor+prop estimate; embedded mount allowance removed per engine/RescU_Structures_V2.py lines 226-233",
       "category": "nonstructural",
-      "status": "retained estimate; hardware/installed position not fully verified"
+      "status": "retained estimate; hardware/installed position not fully verified",
+      "removed_mount_allowance_kg": 0.008
     },
     {
       "name": "VTOL motor+prop RL",
-      "mass_kg": 0.08608160000000001,
+      "mass_kg": 0.0780816,
       "x_m": 0.555,
       "y_m": 0.265,
       "z_m": 0.0,
-      "source": "CAD coords + manufacturer mass + mount allowance",
+      "source": "Inherited motor+prop estimate; embedded mount allowance removed per engine/RescU_Structures_V2.py lines 226-233",
       "category": "nonstructural",
-      "status": "retained estimate; hardware/installed position not fully verified"
+      "status": "retained estimate; hardware/installed position not fully verified",
+      "removed_mount_allowance_kg": 0.008
     },
     {
       "name": "Rear pusher assembly",
-      "mass_kg": 0.148901,
+      "mass_kg": 0.138901,
       "x_m": 1.11,
       "y_m": 0.0,
       "z_m": 0.0,
-      "source": "Team motor/prop selection + manufacturer mass + mount allowance",
+      "source": "Inherited motor+prop estimate; embedded mount allowance removed per engine/RescU_Structures_V2.py lines 226-233",
       "category": "nonstructural",
-      "status": "retained estimate; hardware/installed position not fully verified"
+      "status": "retained estimate; hardware/installed position not fully verified",
+      "removed_mount_allowance_kg": 0.01
     },
     {
       "name": "Payload",
@@ -148,7 +153,7 @@
       "z_m": 0.0,
       "source": "V3 screening",
       "category": "structural_allowance",
-      "status": "assumption; replace with designed hardware/adhesive budget"
+      "status": "Retained surface sealing/finish budget ONLY; excludes new joint adhesive and already modeled spar bond. Process quantity unverified."
     },
     {
       "name": "V-tail bond/finish",
@@ -158,17 +163,77 @@
       "z_m": 0.0,
       "source": "V3 screening",
       "category": "structural_allowance",
-      "status": "assumption; replace with designed hardware/adhesive budget"
+      "status": "Retained surface sealing/finish budget ONLY; excludes new joint adhesive and already modeled spar bond. Process quantity unverified."
     },
     {
-      "name": "Provisional local hardware",
-      "mass_kg": 0.07168293725120682,
-      "x_m": 0.45,
-      "y_m": 0.0,
-      "z_m": 0.0,
-      "source": "ASSUMPTION 10%; NOT a designed attachment",
+      "name": "Lift mount screws and washers",
+      "mass_kg": 0.012,
+      "x_m": 0.395,
+      "y_m": 0,
+      "z_m": 0,
+      "source": "P04 explicit installation mass budget; not measured, no duplicate CAD solids",
       "category": "structural_allowance",
-      "status": "assumption; replace with designed hardware/adhesive budget"
+      "status": "ASSUMPTION; verify by weighed installation"
+    },
+    {
+      "name": "Arm/wing joint adhesive and fillets",
+      "mass_kg": 0.012,
+      "x_m": 0.3832,
+      "y_m": 0,
+      "z_m": 0,
+      "source": "P04 explicit installation mass budget; not measured, no duplicate CAD solids",
+      "category": "structural_allowance",
+      "status": "ASSUMPTION; verify by weighed installation"
+    },
+    {
+      "name": "Wing center/root joint adhesive",
+      "mass_kg": 0.012,
+      "x_m": 0.323,
+      "y_m": 0,
+      "z_m": 0,
+      "source": "P04 explicit installation mass budget; not measured, no duplicate CAD solids",
+      "category": "structural_allowance",
+      "status": "ASSUMPTION; verify by weighed installation"
+    },
+    {
+      "name": "Pusher screws, bond and fillets",
+      "mass_kg": 0.008,
+      "x_m": 1.075,
+      "y_m": 0,
+      "z_m": 0,
+      "source": "P04 explicit installation mass budget; not measured, no duplicate CAD solids",
+      "category": "structural_allowance",
+      "status": "ASSUMPTION; verify by weighed installation"
+    },
+    {
+      "name": "V-tail attachment bond and fillets",
+      "mass_kg": 0.006,
+      "x_m": 1.0,
+      "y_m": 0,
+      "z_m": 0,
+      "source": "P04 explicit installation mass budget; not measured, no duplicate CAD solids",
+      "category": "structural_allowance",
+      "status": "ASSUMPTION; verify by weighed installation"
+    },
+    {
+      "name": "Battery two straps, pads and anchors",
+      "mass_kg": 0.016,
+      "x_m": 0.2997,
+      "y_m": 0,
+      "z_m": 0,
+      "source": "P04 explicit installation mass budget; not measured, no duplicate CAD solids",
+      "category": "structural_allowance",
+      "status": "ASSUMPTION; verify by weighed installation"
+    },
+    {
+      "name": "Fuselage frame and foam bond",
+      "mass_kg": 0.008,
+      "x_m": 0.55,
+      "y_m": 0,
+      "z_m": 0,
+      "source": "P04 explicit installation mass budget; not measured, no duplicate CAD solids",
+      "category": "structural_allowance",
+      "status": "ASSUMPTION; verify by weighed installation"
     }
   ],
   "additional_structural_parts": [],
@@ -179,7 +244,7 @@
     "cell_max_mass_kg": 0.0745,
     "pack_hardware_allowance_kg": 0.05,
     "measured_complete_pack_mass_kg": null,
-    "hardware_status": "50g provisional allowance; not a measured value",
+    "hardware_status": "50g pack-only insulation/interconnects/leads allowance; airframe trays/straps/anchors excluded and counted separately. Not measured.",
     "cell_nominal_voltage_V": 3.6,
     "cell_full_voltage_V": 4.2,
     "cell_capacity_Ah": 6.5,
@@ -200,8 +265,8 @@
     "tail_CL": 0.5,
     "pusher_cruise_thrust_N": 6.62,
     "pusher_thrust_multiplier": 1.5,
-    "arm_support_front_x_m": 0.313,
-    "arm_support_rear_x_m": 0.448
+    "arm_support_front_x_m": 0.3564,
+    "arm_support_rear_x_m": 0.41
   },
   "unallocated_reserve_kg": 0.2,
   "minimum_sizing_mass_kg": 3.2,
@@ -210,11 +275,13 @@
   "stability_status": "inherited team references; aerodynamic validity for current configuration unverified",
   "beam_station_count": 160,
   "additional_requirements": [
-    "Localized fuselage XPS volume and attachment laminates unknown",
-    "Spar center joint and wing/arm/tail/pusher hardpoints unfinished",
+    "P04 is a geometry and sizing study, not an accepted attachment design",
+    "Local foam is now modeled; final shell doublers, insert geometry and interface closure remain open",
+    "Wing root bonded center box is provisional; detachable joint not designed",
+    "Motor bolt pattern/torque, pusher maximum thrust and strap ratings require selected hardware",
     "Landing/gust/fatigue/impact/water ingress cases unresolved",
-    "Laminate material data and foam orientation not validated",
-    "Control surface hinge geometry and servo torque load cases missing"
+    "Laminate, adhesive, foam and joint properties are assumptions",
+    "Servo mounts, payload plate-to-fuselage connection and control linkage/hinges remain incomplete"
   ],
   "structural_material_properties": {
     "skin": {
@@ -239,5 +306,23 @@
       "strength_knockdown": 0.7
     },
     "status": "preliminary material assumptions; no qualified laminate/aircraft allowables"
+  },
+  "attachment_design": {
+    "motor_plate_span_mm": 30,
+    "motor_plate_effective_width_mm": 30,
+    "motor_plate_thickness_mm": 1.5,
+    "glass_bending_assumption_MPa": 70,
+    "bond_shear_assumption_MPa": 2,
+    "arm_effective_bond_mm2": 480,
+    "root_cap_separation_mm": 10,
+    "root_cap_effective_width_mm": 25,
+    "root_cap_thickness_mm": 1,
+    "carbon_axial_assumption_MPa": 210,
+    "root_effective_bond_mm2": 2000,
+    "battery_retention_limit_g": 6,
+    "battery_strap_count": 2,
+    "battery_strap_required_rating_N": 100,
+    "tail_effective_depth_mm": 5,
+    "root_bond_area_basis": "100 mm overlap x 40 mm gross width x 0.5 effective-area factor; proposed, not validated"
   }
 }

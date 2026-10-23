@@ -1,5 +1,5 @@
 """Run in FreeCAD after saving the current RescU document.
-Choose the V4 project folder. Writes its data/cad_snapshot.json, not CAD geometry.
+Choose the V4 project folder. Writes its data/cad_snapshot_p04.json, not CAD geometry.
 The manifest intentionally excludes reference tools and duplicate source wing/tail solids.
 New physical structural parts must be tagged StructuralPart=True and have Material and Density_kg_m3.
 """
@@ -11,8 +11,8 @@ D=App.ActiveDocument
 if D is None or not D.FileName:raise RuntimeError('Open and save current aircraft first.')
 folder=QtWidgets.QFileDialog.getExistingDirectory(None,'Select extracted RescU_Structures_V4 project folder')
 if not folder:raise RuntimeError('Export canceled')
-base=Path(folder);path=base/'data/cad_snapshot.json'
-if not path.exists():raise RuntimeError('Select folder containing data/cad_snapshot.json')
+base=Path(folder);path=base/'data/cad_snapshot_p04.json'
+if not path.exists():raise RuntimeError('Select folder containing data/cad_snapshot_p04.json')
 snapshot=json.loads(path.read_text());names=[r['name'] for r in snapshot['structural_parts']]
 for o in D.Objects:
  if 'StructuralPart' in o.PropertiesList and o.StructuralPart and o.Name not in names:names.append(o.Name)
@@ -33,3 +33,4 @@ backup=path.with_suffix('.previous.json');backup.write_bytes(path.read_bytes())
 snapshot.update(source_file=Path(D.FileName).name,source_sha256=hashlib.sha256(Path(D.FileName).read_bytes()).hexdigest(),parameters=params,structural_parts=rows,shape_hashes={},method='FreeCAD active document; saved-file hash requires saved state; new tagged structural parts included')
 path.write_text(json.dumps(snapshot,indent=2))
 App.Console.PrintMessage('Exported '+str(path)+'\nRun RescU_Structures_V4.py next. Review density settings for new materials.\n')
+

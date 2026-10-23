@@ -1,54 +1,45 @@
-# RescU Structures — current V4 / CAD P03
+# RescU V4.1 — P04 attachment study
 
-Current analysis for the Ravatherm XPS / GFRP RescU VTOL UAV. **Run V4 for the current design.** V2 and the older H60 V3 are historical references under [archive/v2_v3](archive/v2_v3/).
+This branch adds a **preliminary attachment candidate**, not a fabrication or flight release. The P03 baseline remains preserved in `data/cad_snapshot.json`, `data/inputs_p03.json` and `reports/baseline/`.
+
+## Read first
+
+- [Review findings and mass comparison](reports/p04/REVIEW.md)
+- [Construction, load paths, assumptions and required decisions](docs/ATTACHMENT_STUDY.md)
+- [Generated analysis report](reports/p04/REPORT.html) — download/open locally
+- [Native/STEP audit](reports/native-audit/candidate_audit.json)
+- [Attachment plan view](cad/Attachment_Study_Preview.png)
+
+## Current candidate mass
+
+- P03 structural budget: **736.422 g**.
+- P04 provisional gross structural budget: **1,041.028 g**, including finish and installation budgets. Remaining CAD overlap/fit findings prevent calling this net installed mass.
+- Accounted aircraft: **3.5163 kg**; sizing aircraft: **3.7163 kg**.
+- Remove **71.683 g** old local hardware and **42 g** embedded motor/pusher mount allowances; keep **200 g** reserve outside structure/CG. New installation budgets total **74 g**.
+- Structural increase is **304.606 g**; aircraft increase is **262.606 g** because of the 42 g mount reclassification/replacement.
+
+The nominal 3g wing screen passes; the 70%-stiffness case still exceeds the 2° criterion at about **2.106°**. Overall structural validity remains **UNRESOLVED**. Accounting tests do not qualify joints.
 
 ## Run
 
-Python 3.10+; no third-party packages required. Open a terminal in this repository folder:
+Python 3.10+, standard library only for analysis:
 
 ```powershell
 python RescU_Structures_V4.py
 python verify_v4.py
+python verify_attachments.py
 ```
 
-On Windows, `py` can replace `python`. After running, open **results/REPORT.html** for the readable report. Edit **inputs.json** for masses, material assumptions, loads and reserve. Export fresh CAD geometry before treating a changed design as the current baseline.
+The default inputs are `inputs.json` and `data/cad_snapshot_p04.json`. Output goes to `results/`. New CAD dimensions are assumptions; the snapshot stores actual generated solid integrals at assumed densities. Editing screening inputs does not reshape CAD.
 
-The committed [baseline report](reports/baseline/SUMMARY.md) and [validation results](reports/baseline/validation.json) record this checkpoint. Download/open [REPORT.html](reports/baseline/REPORT.html) locally for the formatted version; GitHub displays its source.
+## CAD
 
-## Current mass checkpoint
+The delivered local package contains `cad/RescU_P04_Attachment_Study.FCStd` plus a FreeCAD view macro. The native CAD is a separate static-solid study copied from the audited Desktop P03. Original P03 files are untouched. Large CAD binaries follow the repository's existing separately-maintained-CAD convention; their hashes are recorded in the versioned snapshot and artifact manifest.
 
-| Quantity | Mass |
-|---|---:|
-| CAD structural materials | 615.931 g |
-| Structural budget including allowances, incomplete | 736.422 g |
-| Accounted aircraft estimate | 3.2536 kg |
-| Sizing aircraft mass, including reserve | 3.4536 kg |
+FreeCAD 1.1 is required to regenerate geometry. Run `tools/build_attachments.py` with the audited P03 native file, then `tools/refine_candidate.py`, `tools/audit_candidate.py` and the analysis. See the detailed guide for the full sequence, runtime and limitations. Native solids reopen successfully; the audit records STEP round-trip results and remaining intersections. The GUI view helper changes visibility only and has not been exercised in the interactive GUI.
 
-Battery budget is **944 g**: twelve cells at 74.5 g maximum each plus **50 g assumed** pack hardware, not a measured pack. Localized fuselage XPS, joints, final mounts and installation masses remain unresolved. Do not mistake the CAD material subtotal for finished structural mass.
+Before accepting the design: resolve CAD interfaces, establish motor mounting drawings and operating loads, choose bonded versus detachable wing construction, agree load cases, and substantiate materials/bonds/joints. Payload, servo and control attachments remain gaps.
 
-**Screening status:** the baseline 3g wing case passes its assumed criteria; the 70%-stiffness case exceeds the 2° twist screen. Overall structural validity is **UNRESOLVED**. Numerical tests passing does not qualify the aircraft or its joints.
+## STEP delivery limitation
 
-## Repository layout
-
-| Location | Purpose |
-|---|---|
-| `RescU_Structures_V4.py` | Current run entry point |
-| `inputs.json` | Editable assumptions and component budget |
-| `data/cad_snapshot.json` | P03 solid volumes, centroids, inertias and geometry inputs |
-| `engine/` | Required numerical and component equations; used by V4 |
-| `verify_v4.py` | Accounting and numerical checks |
-| `docs/STRUCTURES_V4_GUIDE.md` | Detailed model, sources, assumptions and limits |
-| `tools/Export_Current_CAD.FCMacro` | Update the snapshot from saved FreeCAD geometry |
-| `reports/baseline/` | Reviewed V4 checkpoint outputs |
-| `archive/v2_v3/` | Preserved older models, tests, airfoil references and design notes |
-| `results/` | Locally regenerated outputs; excluded from Git |
-
-Read the [V4 guide](docs/STRUCTURES_V4_GUIDE.md) before changing CAD or interpreting strength/CG results. The native CAD assembly is maintained separately; its filename and SHA-256 are recorded in the snapshot. ESC reservations, prop swept disks and duplicated untrimmed source geometry are not counted as structural materials.
-
-## Updating your laptop
-
-In GitHub Desktop, select **rescu-structures**, switch to **main**, then **Fetch origin → Pull origin**. Run the V4 command above from that repository folder.
-
-## Resolving structural validity
-
-Follow the [prioritized structural validation plan](docs/STRUCTURAL_VALIDATION_PLAN.md). Begin with the agreed load envelope, wing center connection and motor-arm hardpoints; close geometry, material, analysis and test evidence separately.
+No STEP export is accepted or included in the delivery ZIP. The full export has an invalid inherited fuselage shell and failed volume agreement. The shell-excluded export has valid solids but fails the aggregate volume check by 1.171%. NURBS conversion changed shell volume and was rejected. Use the native FCStd for review; diagnostic reports are retained under `reports/native-audit/`.

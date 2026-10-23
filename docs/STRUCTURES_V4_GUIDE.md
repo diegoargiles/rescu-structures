@@ -1,3 +1,9 @@
+# P04 study branch update
+
+This branch defaults to inputs.json and data/cad_snapshot_p04.json. Read ATTACHMENT_STUDY.md and reports/p04/REVIEW.md for candidate construction, revised mass, checks and open interfaces. The P03 snapshot and reports/baseline remain preserved. CAD outputs belong to a separate P04 study; they are not a fabrication release. Run verify_v4.py and verify_attachments.py.
+
+The material below documents the preserved P03 method and historical mass checkpoint; its unfinished-attachment descriptions are superseded only to the extent recorded in the P04 review.
+
 # RescU Structures V4 — current analysis entry point
 
 Use **RescU_Structures_V4.py** for this P03 baseline. Earlier V2/V3 versions are preserved; V2 and the older V3 are preserved in archive/v2_v3/.
@@ -64,3 +70,4 @@ Run `python verify_v4.py`. It checks mass conservation, volume/density units, CG
 - Molicel M65A datasheet v0.1,2025-08-05: https://www.molicel.com/cn/wp-content/uploads/Product-Data-Sheet-of-INR-21700-M65A-80153-0.1_250805.pdf
 - Hitec HS-5085MG: https://www.hitecrcd.co.kr/products/hs-5085mg/
 - T-Motor AIR40A product identity: https://store.tmotor.com/product/air-40a-6s-esc.html
+

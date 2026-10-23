@@ -1,0 +1,1574 @@
+{
+  "source_file": "C:\\Users\\diego\\OneDrive - csulb\\Desktop\\RESCU-Current\\RescU_CAD_P03\\RescU_Ravatherm_V3_P03.FCStd",
+  "source_sha256": "5b4ce6b6f7f8afe0953386b3191f858bde2d42926b18e56e2cbed9a3c0d6caa2",
+  "new_parts": [
+    {
+      "name": "MotorShoe_RF",
+      "material": "GFRP",
+      "density_kg_m3": 1850,
+      "volume_mm3": 4800.0,
+      "mass_kg": 0.00888,
+      "x_m": 0.23499999999999993,
+      "y_m": -0.26500000000000007,
+      "z_m": -0.006187499999999999,
+      "bounds_mm": [
+        215.0,
+        255.0,
+        -287.0,
+        -243.0,
+        -21.0,
+        1.5
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          2.179246812499559e-06,
+          -2.205371856689453e-19,
+          1.7229467630386352e-21
+        ],
+        [
+          -2.205371856689453e-19,
+          1.6571028124998346e-06,
+          1.2060627341270448e-20
+        ],
+        [
+          1.7229467630386352e-21,
+          1.2060627341270448e-20,
+          2.423944e-06
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "Lift motor mounts"
+    },
+    {
+      "name": "MotorShoe_RR",
+      "material": "GFRP",
+      "density_kg_m3": 1850,
+      "volume_mm3": 4800.0,
+      "mass_kg": 0.00888,
+      "x_m": 0.5549999999999999,
+      "y_m": -0.2650000000000001,
+      "z_m": -0.006187499999999999,
+      "bounds_mm": [
+        535.0,
+        575.0,
+        -287.0,
+        -243.0,
+        -21.0,
+        1.5
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          2.1792468124992283e-06,
+          -4.410743713378906e-19,
+          -6.891787052154541e-21
+        ],
+        [
+          -4.410743713378906e-19,
+          1.6571028125000002e-06,
+          1.3783574104309082e-20
+        ],
+        [
+          -6.891787052154541e-21,
+          1.3783574104309082e-20,
+          2.423943999997795e-06
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "Lift motor mounts"
+    },
+    {
+      "name": "MotorShoe_LF",
+      "material": "GFRP",
+      "density_kg_m3": 1850,
+      "volume_mm3": 4800.0,
+      "mass_kg": 0.00888,
+      "x_m": 0.23499999999999993,
+      "y_m": 0.265,
+      "z_m": -0.006187499999999999,
+      "bounds_mm": [
+        215.0,
+        255.0,
+        243.0,
+        287.0,
+        -21.0,
+        1.5
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          2.17924681249989e-06,
+          -1.1026859283447266e-19,
+          1.7229467630386352e-21
+        ],
+        [
+          -1.1026859283447266e-19,
+          1.6571028124998346e-06,
+          0.0
+        ],
+        [
+          1.7229467630386352e-21,
+          0.0,
+          2.4239440000002204e-06
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "Lift motor mounts"
+    },
+    {
+      "name": "MotorShoe_LR",
+      "material": "GFRP",
+      "density_kg_m3": 1850,
+      "volume_mm3": 4800.0,
+      "mass_kg": 0.00888,
+      "x_m": 0.5549999999999999,
+      "y_m": 0.265,
+      "z_m": -0.006187499999999999,
+      "bounds_mm": [
+        535.0,
+        575.0,
+        243.0,
+        287.0,
+        -21.0,
+        1.5
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          2.1792468124997797e-06,
+          0.0,
+          -6.891787052154541e-21
+        ],
+        [
+          0.0,
+          1.6571028125000002e-06,
+          -6.891787052154541e-21
+        ],
+        [
+          -6.891787052154541e-21,
+          -6.891787052154541e-21,
+          2.423943999997795e-06
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "Lift motor mounts"
+    },
+    {
+      "name": "ArmSaddle_PosY_Spar",
+      "material": "GFRP",
+      "density_kg_m3": 1850,
+      "volume_mm3": 7395.730413544755,
+      "mass_kg": 0.013682101265057797,
+      "x_m": 0.3654177638356724,
+      "y_m": 0.2650797227896483,
+      "z_m": -0.004194589255961693,
+      "bounds_mm": [
+        274.74065440910306,
+        490.79064981781795,
+        0.0,
+        700.0,
+        -22.0,
+        19.40749367026201
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          4.820850809776731e-06,
+          -1.689394583323971e-08,
+          -1.5420976294014854e-06
+        ],
+        [
+          -1.689394583323971e-08,
+          7.003518932789296e-06,
+          -3.104058183443951e-08
+        ],
+        [
+          -1.5420976294014854e-06,
+          -3.104058183443951e-08,
+          7.680591984582881e-06
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "Arm-to-wing attachments"
+    },
+    {
+      "name": "ArmSaddle_PosY_Rear",
+      "material": "GFRP",
+      "density_kg_m3": 1850,
+      "volume_mm3": 4559.999999999998,
+      "mass_kg": 0.008435999999999997,
+      "x_m": 0.41000000000000025,
+      "y_m": 0.2650000000000001,
+      "z_m": -0.012078947368421057,
+      "bounds_mm": [
+        398.0,
+        422.0,
+        247.0,
+        283.0,
+        -22.0,
+        1.0
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          2.2211314210522947e-06,
+          2.205371856689453e-19,
+          -2.0675361156463624e-20
+        ],
+        [
+          2.205371856689453e-19,
+          1.0591242210509717e-06,
+          -1.3783574104309082e-20
+        ],
+        [
+          -2.0675361156463624e-20,
+          -1.3783574104309082e-20,
+          1.971863199999118e-06
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "Arm-to-wing attachments"
+    },
+    {
+      "name": "ArmSaddle_NegY_Spar",
+      "material": "GFRP",
+      "density_kg_m3": 1850,
+      "volume_mm3": 7395.730343401196,
+      "mass_kg": 0.013682101135292212,
+      "x_m": 0.3654177612975035,
+      "y_m": -0.26507971977248773,
+      "z_m": -0.004194589514997478,
+      "bounds_mm": [
+        274.74065440910306,
+        490.79064981781795,
+        -700.0,
+        0.0,
+        -22.0,
+        19.40749367026201
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          4.820850693528936e-06,
+          1.689367274761057e-08,
+          -1.5420975685467224e-06
+        ],
+        [
+          1.689367274761057e-08,
+          7.0035188522240005e-06,
+          3.104029191333089e-08
+        ],
+        [
+          -1.5420975685467224e-06,
+          3.104029191333089e-08,
+          7.680591928944924e-06
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "Arm-to-wing attachments"
+    },
+    {
+      "name": "ArmSaddle_NegY_Rear",
+      "material": "GFRP",
+      "density_kg_m3": 1850,
+      "volume_mm3": 4559.999999999998,
+      "mass_kg": 0.008435999999999997,
+      "x_m": 0.41000000000000025,
+      "y_m": -0.2650000000000001,
+      "z_m": -0.012078947368421057,
+      "bounds_mm": [
+        398.0,
+        422.0,
+        -283.0,
+        -247.0,
+        -22.0,
+        1.0
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          2.2211314210521846e-06,
+          -6.61611557006836e-19,
+          -2.0675361156463624e-20
+        ],
+        [
+          -6.61611557006836e-19,
+          1.0591242210509717e-06,
+          1.0337680578231812e-20
+        ],
+        [
+          -2.0675361156463624e-20,
+          1.0337680578231812e-20,
+          1.971863199999118e-06
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "Arm-to-wing attachments"
+    },
+    {
+      "name": "WingCenterBox",
+      "material": "CFRP",
+      "density_kg_m3": 1600,
+      "volume_mm3": 14520.0,
+      "mass_kg": 0.023232000000000003,
+      "x_m": 0.3055000000000001,
+      "y_m": -2.3684757858670005e-18,
+      "z_m": 0.0022499999999999977,
+      "bounds_mm": [
+        286.0,
+        325.0,
+        -40.0,
+        40.0,
+        -10.0,
+        14.5
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          1.4691812000000002e-05,
+          1.3897079043089815e-22,
+          -1.1920928955078125e-20
+        ],
+        [
+          1.3897079043089815e-22,
+          7.103667999998475e-06,
+          -2.110027708113181e-23
+        ],
+        [
+          -1.1920928955078125e-20,
+          -2.110027708113181e-23,
+          1.7192655999998474e-05
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "Wing center and half-wing joints"
+    },
+    {
+      "name": "WingCenterSideWeb__1",
+      "material": "GFRP",
+      "density_kg_m3": 1850,
+      "volume_mm3": 6880.0,
+      "mass_kg": 0.012728000000000001,
+      "x_m": 0.32,
+      "y_m": -0.042,
+      "z_m": 0.0022499999999999994,
+      "bounds_mm": [
+        300.0,
+        340.0,
+        -46.0,
+        -38.0,
+        -8.5,
+        13.0
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          5.581758333333323e-07,
+          0.0,
+          -1.7229467630386352e-21
+        ],
+        [
+          0.0,
+          2.18735983333326e-06,
+          2.153683453798294e-22
+        ],
+        [
+          -1.7229467630386352e-21,
+          2.153683453798294e-22,
+          1.76494933333326e-06
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "Wing center and half-wing joints"
+    },
+    {
+      "name": "WingCenterSideWeb_1",
+      "material": "GFRP",
+      "density_kg_m3": 1850,
+      "volume_mm3": 6880.0,
+      "mass_kg": 0.012728000000000001,
+      "x_m": 0.32,
+      "y_m": 0.042,
+      "z_m": 0.0022499999999999994,
+      "bounds_mm": [
+        300.0,
+        340.0,
+        38.0,
+        46.0,
+        -8.5,
+        13.0
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          5.581758333333323e-07,
+          0.0,
+          -1.7229467630386352e-21
+        ],
+        [
+          0.0,
+          2.18735983333326e-06,
+          -2.153683453798294e-22
+        ],
+        [
+          -1.7229467630386352e-21,
+          -2.153683453798294e-22,
+          1.76494933333326e-06
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "Wing center and half-wing joints"
+    },
+    {
+      "name": "WingRootCaps_PosY",
+      "material": "CFRP",
+      "density_kg_m3": 1600,
+      "volume_mm3": 13789.049078283902,
+      "mass_kg": 0.022062478525254243,
+      "x_m": 0.3298807690033601,
+      "y_m": 0.09186587993786977,
+      "z_m": 0.0059286371777029665,
+      "bounds_mm": [
+        265.4763010332365,
+        474.18224244530285,
+        0.0,
+        700.0,
+        -3.027282499512698,
+        19.40749367026201
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          1.775005817256384e-05,
+          -6.900249191989899e-08,
+          -1.969793482581556e-07
+        ],
+        [
+          -6.900249191989899e-08,
+          9.60723486397171e-06,
+          -1.224186323025614e-07
+        ],
+        [
+          -1.969793482581556e-07,
+          -1.224186323025614e-07,
+          2.5877786721356964e-05
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "Wing center and half-wing joints"
+    },
+    {
+      "name": "WingRootRib_PosY_44",
+      "material": "GFRP",
+      "density_kg_m3": 1850,
+      "volume_mm3": 1487.1720455708003,
+      "mass_kg": 0.0027512682843059805,
+      "x_m": 0.3294258895528129,
+      "y_m": 0.045253621471282916,
+      "z_m": 0.005973722336600004,
+      "bounds_mm": [
+        267.9291334519542,
+        474.7885648471736,
+        0.0,
+        700.0,
+        -3.027282499512698,
+        19.40749367026201
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          3.838756035219331e-08,
+          6.920066889503971e-10,
+          -2.511312650841959e-08
+        ],
+        [
+          6.920066889503971e-10,
+          2.2318636399787534e-06,
+          1.868546953236056e-09
+        ],
+        [
+          -2.511312650841959e-08,
+          1.868546953236056e-09,
+          2.1947644328493613e-06
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "Wing center and half-wing joints"
+    },
+    {
+      "name": "WingRootRib_PosY_54",
+      "material": "GFRP",
+      "density_kg_m3": 1850,
+      "volume_mm3": 2121.594548814392,
+      "mass_kg": 0.003924949915306625,
+      "x_m": 0.3292528665776572,
+      "y_m": 0.05499979581261771,
+      "z_m": 0.005145307102975776,
+      "bounds_mm": [
+        266.2816847400333,
+        474.18224244530285,
+        0.0,
+        700.0,
+        -3.027282499512698,
+        19.40749367026201
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          5.489187527555842e-08,
+          -4.5588235789909964e-11,
+          -5.482166112875941e-08
+        ],
+        [
+          -4.5588235789909964e-11,
+          3.298580756051076e-06,
+          -1.5346929490665207e-11
+        ],
+        [
+          -5.482166112875941e-08,
+          -1.5346929490665207e-11,
+          3.2463055079056742e-06
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "Wing center and half-wing joints"
+    },
+    {
+      "name": "WingRootCaps_NegY",
+      "material": "CFRP",
+      "density_kg_m3": 1600,
+      "volume_mm3": 13789.04908804787,
+      "mass_kg": 0.022062478540876593,
+      "x_m": 0.3298807689601815,
+      "y_m": -0.09186587974379498,
+      "z_m": 0.005928637152432482,
+      "bounds_mm": [
+        265.4763010332365,
+        474.18224244530285,
+        -700.0,
+        0.0,
+        -3.027282499512698,
+        19.40749367026201
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          1.775005822028687e-05,
+          6.900253845205307e-08,
+          -1.9697936260058286e-07
+        ],
+        [
+          6.900253845205307e-08,
+          9.607234883777238e-06,
+          1.2241865251300486e-07
+        ],
+        [
+          -1.9697936260058286e-07,
+          1.2241865251300486e-07,
+          2.5877786775065616e-05
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "Wing center and half-wing joints"
+    },
+    {
+      "name": "WingRootRib_NegY_56",
+      "material": "GFRP",
+      "density_kg_m3": 1850,
+      "volume_mm3": 2121.5943689679057,
+      "mass_kg": 0.0039249495825906255,
+      "x_m": 0.3292528654202997,
+      "y_m": -0.0549997958120866,
+      "z_m": 0.005145306749531938,
+      "bounds_mm": [
+        266.2816847400333,
+        474.18224244530285,
+        -700.0,
+        0.0,
+        -3.027282499512698,
+        19.40749367026201
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          5.489186676470107e-08,
+          4.558824536949396e-11,
+          -5.482163820424374e-08
+        ],
+        [
+          4.558824536949396e-11,
+          3.298580707328953e-06,
+          1.534693919150159e-11
+        ],
+        [
+          -5.482163820424374e-08,
+          1.534693919150159e-11,
+          3.2463054675533787e-06
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "Wing center and half-wing joints"
+    },
+    {
+      "name": "WingRootRib_NegY_46",
+      "material": "GFRP",
+      "density_kg_m3": 1850,
+      "volume_mm3": 1487.172077680806,
+      "mass_kg": 0.0027512683437094913,
+      "x_m": 0.32942589083169027,
+      "y_m": -0.04525362138926352,
+      "z_m": 0.005973722577818333,
+      "bounds_mm": [
+        267.9291334519542,
+        474.7885648471736,
+        -700.0,
+        0.0,
+        -3.027282499512698,
+        19.40749367026201
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          3.83875590011067e-08,
+          -6.920051605932415e-10,
+          -2.5113130042535744e-08
+        ],
+        [
+          -6.920051605932415e-10,
+          2.231863623435983e-06,
+          -1.8685464255314902e-09
+        ],
+        [
+          -2.5113130042535744e-08,
+          -1.8685464255314902e-09,
+          2.19476441753162e-06
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "Wing center and half-wing joints"
+    },
+    {
+      "name": "WingFrame_280",
+      "material": "GFRP",
+      "density_kg_m3": 1850,
+      "volume_mm3": 6103.542127743488,
+      "mass_kg": 0.011291552936325455,
+      "x_m": 0.2810000000000001,
+      "y_m": 1.430505263055842e-17,
+      "z_m": 7.748570174885811e-18,
+      "bounds_mm": [
+        280.0,
+        282.0,
+        -44.67,
+        44.67,
+        -44.67,
+        44.67
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          1.7046907715381185e-05,
+          1.4537363313138609e-21,
+          -3.9708538679405743e-22
+        ],
+        [
+          1.4537363313138609e-21,
+          8.527217708669245e-06,
+          -6.191839929670083e-22
+        ],
+        [
+          -3.9708538679405743e-22,
+          -6.191839929670083e-22,
+          8.527217708669136e-06
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "Fuselage hardpoints and foam"
+    },
+    {
+      "name": "WingFrame_326",
+      "material": "GFRP",
+      "density_kg_m3": 1850,
+      "volume_mm3": 6103.542127743488,
+      "mass_kg": 0.011291552936325455,
+      "x_m": 0.32000000000000006,
+      "y_m": 1.430505263055842e-17,
+      "z_m": 7.748570174885811e-18,
+      "bounds_mm": [
+        319.0,
+        321.0,
+        -44.67,
+        44.67,
+        -44.67,
+        44.67
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          1.7046907715381185e-05,
+          2.6921043172479293e-22,
+          1.817170414142372e-22
+        ],
+        [
+          2.6921043172479293e-22,
+          8.527217708669024e-06,
+          -6.191839929670083e-22
+        ],
+        [
+          1.817170414142372e-22,
+          -6.191839929670083e-22,
+          8.527217708669024e-06
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "Fuselage hardpoints and foam"
+    },
+    {
+      "name": "WingLocalFoam_280",
+      "material": "Ravatherm XPS X H LB",
+      "density_kg_m3": 32,
+      "volume_mm3": 25782.691460567992,
+      "mass_kg": 0.0008250461267381758,
+      "x_m": 0.2879921985709992,
+      "y_m": 1.2787331760802268e-18,
+      "z_m": -7.351411411513072e-05,
+      "bounds_mm": [
+        282.0,
+        294.0,
+        -44.67,
+        44.67,
+        -44.67,
+        44.67
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          1.3606693505609621e-06,
+          -7.428120594126169e-23,
+          3.5466239745453005e-11
+        ],
+        [
+          -7.428120594126169e-23,
+          7.024999541417236e-07,
+          1.6569785987269503e-22
+        ],
+        [
+          3.5466239745453005e-11,
+          1.6569785987269503e-22,
+          6.782146456051941e-07
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "Fuselage hardpoints and foam"
+    },
+    {
+      "name": "WingLocalFoam_321",
+      "material": "Ravatherm XPS X H LB",
+      "density_kg_m3": 32,
+      "volume_mm3": 22749.98868034782,
+      "mass_kg": 0.0007279996377711302,
+      "x_m": 0.31200000000000006,
+      "y_m": -3.1982247184450843e-19,
+      "z_m": -0.0003406017383185389,
+      "bounds_mm": [
+        306.0,
+        318.0,
+        -43.85383563612196,
+        43.853835636121964,
+        -44.67,
+        44.67
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          1.190877532240821e-06,
+          7.522294254158622e-23,
+          -1.3137564062761976e-21
+        ],
+        [
+          7.522294254158622e-23,
+          6.96869570690659e-07,
+          1.0960143116327617e-22
+        ],
+        [
+          -1.3137564062761976e-21,
+          1.0960143116327617e-22,
+          5.11479952856712e-07
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "Fuselage hardpoints and foam"
+    },
+    {
+      "name": "PusherFirewall",
+      "material": "GFRP",
+      "density_kg_m3": 1850,
+      "volume_mm3": 4159.629271133725,
+      "mass_kg": 0.007695314151597392,
+      "x_m": 1.1079992226931077,
+      "y_m": 3.0173426683877465e-17,
+      "z_m": -1.5008620057096377e-19,
+      "bounds_mm": [
+        1107.0,
+        1109.0,
+        -25.759851533397473,
+        25.759851533397473,
+        -25.759851533397473,
+        25.759851533397473
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          2.547251947213687e-06,
+          1.2612328240311723e-20,
+          -2.5593281148180815e-24
+        ],
+        [
+          1.2612328240311723e-20,
+          1.2761910746031285e-06,
+          3.969913516890313e-23
+        ],
+        [
+          -2.5593281148180815e-24,
+          3.969913516890313e-23,
+          1.2761910746013641e-06
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "Pusher support"
+    },
+    {
+      "name": "PusherForwardFrame",
+      "material": "GFRP",
+      "density_kg_m3": 1850,
+      "volume_mm3": 2566.6790811459014,
+      "mass_kg": 0.004748356300119918,
+      "x_m": 1.0409986418666137,
+      "y_m": -4.429335889972665e-18,
+      "z_m": 2.5690148161841454e-18,
+      "bounds_mm": [
+        1040.0,
+        1042.0,
+        -27.76985153339747,
+        27.76985153339747,
+        -27.76985153339747,
+        27.76985153339747
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          2.684012965517442e-06,
+          -1.2189899218041681e-21,
+          -6.5411378815410375e-22
+        ],
+        [
+          -1.2189899218041681e-21,
+          1.3435892603649617e-06,
+          3.365130396559834e-22
+        ],
+        [
+          -6.5411378815410375e-22,
+          3.365130396559834e-22,
+          1.3435892603649617e-06
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "Pusher support"
+    },
+    {
+      "name": "PusherTie__20_0",
+      "material": "GFRP",
+      "density_kg_m3": 1850,
+      "volume_mm3": 1039.9999999999998,
+      "mass_kg": 0.0019239999999999997,
+      "x_m": 1.0745,
+      "y_m": -0.020000000000000004,
+      "z_m": 0.0,
+      "bounds_mm": [
+        1042.0,
+        1107.0,
+        -24.0,
+        -16.0,
+        -1.0,
+        1.0
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          1.0902666666666524e-08,
+          -6.891787052154541e-21,
+          0.0
+        ],
+        [
+          -6.891787052154541e-21,
+          6.780496666665197e-07,
+          8.412825991399586e-25
+        ],
+        [
+          0.0,
+          8.412825991399586e-25,
+          6.876696666665197e-07
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "Pusher support"
+    },
+    {
+      "name": "PusherTie_20_0",
+      "material": "GFRP",
+      "density_kg_m3": 1850,
+      "volume_mm3": 1039.9999999999998,
+      "mass_kg": 0.0019239999999999997,
+      "x_m": 1.0745,
+      "y_m": 0.020000000000000004,
+      "z_m": 0.0,
+      "bounds_mm": [
+        1042.0,
+        1107.0,
+        16.0,
+        24.0,
+        -1.0,
+        1.0
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          1.0902666666666524e-08,
+          6.891787052154541e-21,
+          0.0
+        ],
+        [
+          6.891787052154541e-21,
+          6.780496666665197e-07,
+          -8.412825991399586e-25
+        ],
+        [
+          0.0,
+          -8.412825991399586e-25,
+          6.876696666665197e-07
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "Pusher support"
+    },
+    {
+      "name": "PusherTie_0__20",
+      "material": "GFRP",
+      "density_kg_m3": 1850,
+      "volume_mm3": 1039.9999999999998,
+      "mass_kg": 0.0019239999999999997,
+      "x_m": 1.0745,
+      "y_m": 5.465713352000772e-20,
+      "z_m": -0.020000000000000004,
+      "bounds_mm": [
+        1042.0,
+        1107.0,
+        -4.0,
+        4.0,
+        -21.0,
+        -19.0
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          1.0902666666666524e-08,
+          -2.002564780665235e-26,
+          -6.891787052154541e-21
+        ],
+        [
+          -2.002564780665235e-26,
+          6.780496666665197e-07,
+          -3.736045247126712e-40
+        ],
+        [
+          -6.891787052154541e-21,
+          -3.736045247126712e-40,
+          6.876696666665197e-07
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "Pusher support"
+    },
+    {
+      "name": "PusherTie_0_20",
+      "material": "GFRP",
+      "density_kg_m3": 1850,
+      "volume_mm3": 1039.9999999999998,
+      "mass_kg": 0.0019239999999999997,
+      "x_m": 1.0745,
+      "y_m": 5.465713352000772e-20,
+      "z_m": 0.020000000000000004,
+      "bounds_mm": [
+        1042.0,
+        1107.0,
+        -4.0,
+        4.0,
+        19.0,
+        21.0
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          1.0902666666666524e-08,
+          -2.002564780665235e-26,
+          6.891787052154541e-21
+        ],
+        [
+          -2.002564780665235e-26,
+          6.780496666665197e-07,
+          3.736045247126712e-40
+        ],
+        [
+          6.891787052154541e-21,
+          3.736045247126712e-40,
+          6.876696666665197e-07
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "Pusher support"
+    },
+    {
+      "name": "TailRootLaminates_PosY",
+      "material": "GFRP",
+      "density_kg_m3": 1850,
+      "volume_mm3": 5784.249857752553,
+      "mass_kg": 0.010700862236842223,
+      "x_m": 1.0225785451099318,
+      "y_m": 0.04334792400077402,
+      "z_m": 0.030438651617513066,
+      "bounds_mm": [
+        960.2637834537775,
+        1122.7348176269913,
+        -2.4303341856406186,
+        201.83403577135675,
+        -3.477580315577024,
+        142.15352631979394
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          2.330982855604696e-06,
+          -5.143776510562375e-07,
+          -3.6370668886042837e-07
+        ],
+        [
+          -5.143776510562375e-07,
+          5.597949586471034e-06,
+          -1.0385895670181994e-06
+        ],
+        [
+          -3.6370668886042837e-07,
+          -1.0385895670181994e-06,
+          6.3116949947919855e-06
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "V-tail attachments"
+    },
+    {
+      "name": "TailRootLaminates_NegY",
+      "material": "GFRP",
+      "density_kg_m3": 1850,
+      "volume_mm3": 5784.230796429208,
+      "mass_kg": 0.010700826973394036,
+      "x_m": 1.0225786563247412,
+      "y_m": -0.0433479744887462,
+      "z_m": 0.030438690034148484,
+      "bounds_mm": [
+        960.2637834537775,
+        1122.7348176269913,
+        -201.83403577135675,
+        2.4303341856406186,
+        -3.477580315577024,
+        142.15352631979394
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          2.3309692755107594e-06,
+          5.143586244854435e-07,
+          -3.636921029714361e-07
+        ],
+        [
+          5.143586244854435e-07,
+          5.597900857317257e-06,
+          1.0385831124200566e-06
+        ],
+        [
+          -3.636921029714361e-07,
+          1.0385831124200566e-06,
+          6.311642756429339e-06
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "V-tail attachments"
+    },
+    {
+      "name": "TailFrameFront",
+      "material": "GFRP",
+      "density_kg_m3": 1850,
+      "volume_mm3": 2564.848585265173,
+      "mass_kg": 0.004744969882740571,
+      "x_m": 0.9699985365388556,
+      "y_m": -3.545997635095867e-19,
+      "z_m": -7.446595033701319e-18,
+      "bounds_mm": [
+        969.0,
+        971.0,
+        -29.89985153339747,
+        29.89985153339747,
+        -29.89985153339747,
+        29.89985153339747
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          3.265039763160136e-06,
+          5.259701272191812e-21,
+          4.492500789151984e-21
+        ],
+        [
+          5.259701272191812e-21,
+          1.6341015289740563e-06,
+          7.201379048638047e-22
+        ],
+        [
+          4.492500789151984e-21,
+          7.201379048638047e-22,
+          1.6341015289767029e-06
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "V-tail attachments"
+    },
+    {
+      "name": "TailFrameRear",
+      "material": "GFRP",
+      "density_kg_m3": 1850,
+      "volume_mm3": 2778.0945809500695,
+      "mass_kg": 0.0051394749747576286,
+      "x_m": 1.0209987180815228,
+      "y_m": 2.782736418724123e-18,
+      "z_m": -4.255949816872189e-18,
+      "bounds_mm": [
+        1020.0,
+        1022.0,
+        -28.369851533397473,
+        28.369851533397473,
+        -28.369851533397473,
+        28.369851533397473
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          2.9915590342937736e-06,
+          -2.6273438908611333e-21,
+          -7.958252989379861e-22
+        ],
+        [
+          -2.6273438908611333e-21,
+          1.4974926679569245e-06,
+          2.557499101385474e-22
+        ],
+        [
+          -7.958252989379861e-22,
+          2.557499101385474e-22,
+          1.497492667953396e-06
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "V-tail attachments"
+    },
+    {
+      "name": "TailLocalFoam_969",
+      "material": "Ravatherm XPS X H LB",
+      "density_kg_m3": 32,
+      "volume_mm3": 12673.797379350568,
+      "mass_kg": 0.0004055615161392182,
+      "x_m": 0.9747729205406229,
+      "y_m": -2.0631521787285795e-19,
+      "z_m": 2.6551871517550418e-18,
+      "bounds_mm": [
+        969.0,
+        979.0,
+        -29.83985153339747,
+        29.83985153339747,
+        -29.83985153339747,
+        29.83985153339747
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          2.5685845733460427e-07,
+          -1.0782158542258278e-23,
+          8.855125808631573e-23
+        ],
+        [
+          -1.0782158542258278e-23,
+          1.3090911112060548e-07,
+          4.423782229423523e-24
+        ],
+        [
+          8.855125808631573e-23,
+          4.423782229423523e-24,
+          1.309091111207886e-07
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "Fuselage hardpoints and foam"
+    },
+    {
+      "name": "TailLocalFoam_1014",
+      "material": "Ravatherm XPS X H LB",
+      "density_kg_m3": 32,
+      "volume_mm3": 10239.379431144218,
+      "mass_kg": 0.000327660141796615,
+      "x_m": 1.018462013955151,
+      "y_m": -1.82087610989737e-18,
+      "z_m": 1.1102903109130304e-18,
+      "bounds_mm": [
+        1014.0,
+        1024.0,
+        -28.549851533397472,
+        28.549851533397472,
+        -28.549851533397472,
+        28.549851533397472
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          1.978209905047592e-07,
+          9.27110876049671e-23,
+          1.0229342077042065e-22
+        ],
+        [
+          9.27110876049671e-23,
+          1.0187089863172776e-07,
+          1.3737007975578308e-23
+        ],
+        [
+          1.0229342077042065e-22,
+          1.3737007975578308e-23,
+          1.018708986317888e-07
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "Fuselage hardpoints and foam"
+    },
+    {
+      "name": "BatteryTray_Front",
+      "material": "GFRP",
+      "density_kg_m3": 1850,
+      "volume_mm3": 6318.999999999998,
+      "mass_kg": 0.011690149999999996,
+      "x_m": 0.2372000000000002,
+      "y_m": 1.0847471046108117e-19,
+      "z_m": -0.025228089887640467,
+      "bounds_mm": [
+        198.7,
+        275.7,
+        -35.5,
+        35.5,
+        -26.2,
+        -19.2
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          4.933113671816474e-06,
+          4.1509672144001545e-22,
+          -5.513429641723633e-20
+        ],
+        [
+          4.1509672144001545e-22,
+          7.295574771815518e-06,
+          -9.510354554914988e-23
+        ],
+        [
+          -5.513429641723633e-20,
+          -9.510354554914988e-23,
+          1.2184135458332379e-05
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "Battery retention"
+    },
+    {
+      "name": "BatteryCradle_Front_206",
+      "material": "GFRP",
+      "density_kg_m3": 1850,
+      "volume_mm3": 2475.481593909161,
+      "mass_kg": 0.004579640948731948,
+      "x_m": 0.20819999999999997,
+      "y_m": 5.1436156326712066e-18,
+      "z_m": -0.032367930946694094,
+      "bounds_mm": [
+        206.7,
+        209.7,
+        -36.3236685922554,
+        36.32366859225541,
+        -40.000000000000014,
+        -25.999999999999964
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          1.4945089523719645e-06,
+          1.6623744159005461e-22,
+          0.0
+        ],
+        [
+          1.6623744159005461e-22,
+          7.507588350410238e-08,
+          -1.1635112197780198e-22
+        ],
+        [
+          0.0,
+          -1.1635112197780198e-22,
+          1.4263025302910315e-06
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "Battery retention"
+    },
+    {
+      "name": "BatteryCradle_Front_261",
+      "material": "GFRP",
+      "density_kg_m3": 1850,
+      "volume_mm3": 2475.481593909161,
+      "mass_kg": 0.004579640948731948,
+      "x_m": 0.2632,
+      "y_m": 5.87841786590995e-18,
+      "z_m": -0.032367930946694094,
+      "bounds_mm": [
+        261.7,
+        264.7,
+        -36.3236685922554,
+        36.32366859225541,
+        -40.000000000000014,
+        -25.999999999999964
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          1.4945089523719638e-06,
+          1.9383151084184617e-22,
+          -6.891787052154541e-21
+        ],
+        [
+          1.9383151084184617e-22,
+          7.507588350412995e-08,
+          -1.175892575903574e-22
+        ],
+        [
+          -6.891787052154541e-21,
+          -1.175892575903574e-22,
+          1.4263025302909762e-06
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "Battery retention"
+    },
+    {
+      "name": "BatteryTray_Rear",
+      "material": "GFRP",
+      "density_kg_m3": 1850,
+      "volume_mm3": 6318.999999999998,
+      "mass_kg": 0.011690149999999996,
+      "x_m": 0.3622000000000002,
+      "y_m": -1.3848007335797691e-18,
+      "z_m": -0.025228089887640467,
+      "bounds_mm": [
+        323.7,
+        400.7,
+        -35.5,
+        35.5,
+        -26.2,
+        -19.2
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          4.9331136718164775e-06,
+          1.8960380288035554e-21,
+          -9.648501873016358e-20
+        ],
+        [
+          1.8960380288035554e-21,
+          7.2955747718145265e-06,
+          -5.02673915131202e-23
+        ],
+        [
+          -9.648501873016358e-20,
+          -5.02673915131202e-23,
+          1.2184135458332379e-05
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "Battery retention"
+    },
+    {
+      "name": "BatteryCradle_Rear_331",
+      "material": "GFRP",
+      "density_kg_m3": 1850,
+      "volume_mm3": 2475.481593909161,
+      "mass_kg": 0.004579640948731948,
+      "x_m": 0.3332,
+      "y_m": 5.1436156326712066e-18,
+      "z_m": -0.032367930946694094,
+      "bounds_mm": [
+        331.7,
+        334.7,
+        -36.3236685922554,
+        36.32366859225541,
+        -40.000000000000014,
+        -25.999999999999964
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          1.4945089523719645e-06,
+          9.55697032622996e-23,
+          0.0
+        ],
+        [
+          9.55697032622996e-23,
+          7.507588350407482e-08,
+          -1.1635112197780198e-22
+        ],
+        [
+          0.0,
+          -1.1635112197780198e-22,
+          1.4263025302909762e-06
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "Battery retention"
+    },
+    {
+      "name": "BatteryCradle_Rear_386",
+      "material": "GFRP",
+      "density_kg_m3": 1850,
+      "volume_mm3": 2475.481593909161,
+      "mass_kg": 0.004579640948731948,
+      "x_m": 0.38819999999999993,
+      "y_m": 5.1436156326712066e-18,
+      "z_m": -0.032367930946694094,
+      "bounds_mm": [
+        386.7,
+        389.7,
+        -36.3236685922554,
+        36.32366859225541,
+        -40.000000000000014,
+        -25.999999999999964
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          1.4945089523719645e-06,
+          5.296715244185167e-22,
+          0.0
+        ],
+        [
+          5.296715244185167e-22,
+          7.507588350407482e-08,
+          -1.1635112197780198e-22
+        ],
+        [
+          0.0,
+          -1.1635112197780198e-22,
+          1.4263025302910866e-06
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "Battery retention"
+    }
+  ],
+  "foam_cuts": [
+    {
+      "part": "Wing_PosY_Ravatherm_Core_Exposed",
+      "removed_mm3": 2835.8453794217203,
+      "by": "ArmSaddle_PosY_Spar"
+    },
+    {
+      "part": "Wing_NegY_Ravatherm_Core_Exposed",
+      "removed_mm3": 2832.870247902232,
+      "by": "ArmSaddle_NegY_Spar"
+    },
+    {
+      "part": "Wing_PosY_Ravatherm_Core_Exposed",
+      "removed_mm3": 13749.776889414876,
+      "by": "WingRootCaps_PosY"
+    },
+    {
+      "part": "Wing_PosY_Ravatherm_Core_Exposed",
+      "removed_mm3": 1212.9481769812992,
+      "by": "WingRootRib_PosY_44"
+    },
+    {
+      "part": "Wing_PosY_Ravatherm_Core_Exposed",
+      "removed_mm3": 1832.4849471071502,
+      "by": "WingRootRib_PosY_54"
+    },
+    {
+      "part": "Wing_NegY_Ravatherm_Core_Exposed",
+      "removed_mm3": 13749.801219101879,
+      "by": "WingRootCaps_NegY"
+    },
+    {
+      "part": "Wing_NegY_Ravatherm_Core_Exposed",
+      "removed_mm3": 1830.9310750785517,
+      "by": "WingRootRib_NegY_56"
+    },
+    {
+      "part": "Wing_NegY_Ravatherm_Core_Exposed",
+      "removed_mm3": 1213.4368159621954,
+      "by": "WingRootRib_NegY_46"
+    },
+    {
+      "part": "VTail_PosY_Ravatherm_Core_Exposed",
+      "removed_mm3": 5781.295297757097,
+      "by": "TailRootLaminates_PosY"
+    },
+    {
+      "part": "VTail_NegY_Ravatherm_Core_Exposed",
+      "removed_mm3": 5781.189113196466,
+      "by": "TailRootLaminates_NegY"
+    }
+  ],
+  "status": "CANDIDATE; interfaces and equipment clearances audited separately",
+  "new_native": "C:\\Users\\diego\\.codex\\.chatgpt-projects\\g-p-697badb1bfac81919108d86611b96e2c\\v4-attachments\\cad\\RescU_P04_Attachment_Study.FCStd",
+  "refinement_foam_cuts": [
+    {
+      "part": "WingLocalFoam_280",
+      "other": "WingCenterBox",
+      "removed_mm3": 584.402884575833
+    },
+    {
+      "part": "WingLocalFoam_321",
+      "other": "WingCenterBox",
+      "removed_mm3": 429.99020427876894
+    },
+    {
+      "part": "WingLocalFoam_321",
+      "other": "WingCenterSideWeb__1",
+      "removed_mm3": 1593.5577302585953
+    },
+    {
+      "part": "WingLocalFoam_321",
+      "other": "WingCenterSideWeb_1",
+      "removed_mm3": 1593.5577302586426
+    },
+    {
+      "part": "TailLocalFoam_969",
+      "other": "TailFrameFront",
+      "removed_mm3": 2564.8485852651756
+    },
+    {
+      "part": "TailLocalFoam_1014",
+      "other": "TailFrameRear",
+      "removed_mm3": 2533.0503539700676
+    }
+  ]
+}

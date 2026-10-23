@@ -36,3 +36,4 @@ https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_20-107B_with_chan
 
 NASA's facesheet-wrinkling review emphasizes selecting an applicable failure model for the specific sandwich configuration:
 https://ntrs.nasa.gov/citations/19990017863
+

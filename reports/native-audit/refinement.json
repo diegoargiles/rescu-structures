@@ -1,0 +1,39 @@
+{
+  "station_moves_mm": {
+    "WingFrame_326": -7,
+    "WingLocalFoam_321": -15,
+    "WingLocalFoam_280": 2
+  },
+  "foam_cuts": [
+    {
+      "part": "WingLocalFoam_280",
+      "other": "WingCenterBox",
+      "removed_mm3": 584.402884575833
+    },
+    {
+      "part": "WingLocalFoam_321",
+      "other": "WingCenterBox",
+      "removed_mm3": 429.99020427876894
+    },
+    {
+      "part": "WingLocalFoam_321",
+      "other": "WingCenterSideWeb__1",
+      "removed_mm3": 1593.5577302585953
+    },
+    {
+      "part": "WingLocalFoam_321",
+      "other": "WingCenterSideWeb_1",
+      "removed_mm3": 1593.5577302586426
+    },
+    {
+      "part": "TailLocalFoam_969",
+      "other": "TailFrameFront",
+      "removed_mm3": 2564.8485852651756
+    },
+    {
+      "part": "TailLocalFoam_1014",
+      "other": "TailFrameRear",
+      "removed_mm3": 2533.0503539700676
+    }
+  ]
+}

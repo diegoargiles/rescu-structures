@@ -1,0 +1,16 @@
+"""Optional FreeCAD GUI view helper; does not save or change shapes."""
+import FreeCAD as App, FreeCADGui as Gui
+from pathlib import Path
+folder=Path(__file__).resolve().parent
+doc=App.ActiveDocument
+if doc is None or not doc.getObject('WingCenterBox'):
+ doc=App.openDocument(str(folder/'RescU_P04_Attachment_Study.FCStd'))
+for obj in doc.Objects:
+ if not hasattr(obj,'Shape'):continue
+ new='AttachmentGroup' in obj.PropertiesList
+ obj.ViewObject.Visibility=new or 'TaperedSpar' in obj.Name or 'VTOL_Arm' in obj.Name
+ obj.ViewObject.ShapeColor=(0.85,0.48,0.18) if new else (0.25,0.35,0.43)
+ if new and obj.Material=='Ravatherm XPS X H LB':obj.ViewObject.Visibility=False
+Gui.activeDocument().activeView().viewAxonometric()
+Gui.activeDocument().activeView().fitAll()
+App.Console.PrintMessage('P04 study view. Original P03 not modified. Review interferences before fabrication.\n')

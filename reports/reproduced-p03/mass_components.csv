@@ -1,0 +1,34 @@
+name,category,material,volume_mm3,mass_kg,x_m,y_m,z_m,status,source
+Fuselage_GFRP_Shell_0330,CAD_structure,GFRP,88039.60613726219,0.16287327135393506,0.5289163582884064,-9.090390046942361e-12,1.6555214075983164e-17,CAD solid volume; assumed density; as-modeled geometry,P03 saved BREP; OpenCascade volume and centroid
+Wing_PosY_GFRP_Skin_Exposed,CAD_structure,GFRP,47461.2258085488,0.08780326774581529,0.40184589930923614,0.3461665904757862,0.009387881836587859,CAD solid volume; assumed density; as-modeled geometry,P03 saved BREP; OpenCascade volume and centroid
+Wing_PosY_Ravatherm_Core_Exposed,CAD_structure,Ravatherm XPS X H LB,567823.510413684,0.018170352333237886,0.37933501634886574,0.3204685402912726,0.008915746608215265,CAD solid volume; assumed density; as-modeled geometry,P03 saved BREP; OpenCascade volume and centroid
+Wing_PosY_EpoxyBond_Exposed,CAD_structure,Epoxy,2280.252558785469,0.002736303070542563,0.3687203943543733,0.34406389476676025,0.009836721916808608,CAD solid volume; assumed density; as-modeled geometry,P03 saved BREP; OpenCascade volume and centroid
+VTail_PosY_GFRP_Skin_Exposed,CAD_structure,GFRP,6999.145832228476,0.012948419789622682,1.0554740372168268,0.10277813083764183,0.07195215481632244,CAD solid volume; assumed density; as-modeled geometry,P03 saved BREP; OpenCascade volume and centroid
+VTail_PosY_Ravatherm_Core_Exposed,CAD_structure,Ravatherm XPS X H LB,56391.44461915454,0.0018045262278129455,1.044293985187435,0.09361443218870892,0.06554960250672606,CAD solid volume; assumed density; as-modeled geometry,P03 saved BREP; OpenCascade volume and centroid
+Wing_NegY_GFRP_Skin_Exposed,CAD_structure,GFRP,47168.33898690309,0.08726142712577072,0.40180258700042487,-0.3449186857250227,0.009381923155117496,CAD solid volume; assumed density; as-modeled geometry,P03 saved BREP; OpenCascade volume and centroid
+Wing_NegY_Ravatherm_Core_Exposed,CAD_structure,Ravatherm XPS X H LB,567820.320318048,0.018170250250177537,0.3793345703117108,-0.3204656682450103,0.008915708204005396,CAD solid volume; assumed density; as-modeled geometry,P03 saved BREP; OpenCascade volume and centroid
+Wing_NegY_EpoxyBond_Exposed,CAD_structure,Epoxy,2280.2621449963553,0.0027363145739956263,0.36872021044344827,-0.3440628404322571,0.009836701862486351,CAD solid volume; assumed density; as-modeled geometry,P03 saved BREP; OpenCascade volume and centroid
+VTail_NegY_GFRP_Skin_Exposed,CAD_structure,GFRP,6999.2749971478415,0.012948658744723507,1.0554730650165405,-0.10277708606349115,0.07195142751098049,CAD solid volume; assumed density; as-modeled geometry,P03 saved BREP; OpenCascade volume and centroid
+VTail_NegY_Ravatherm_Core_Exposed,CAD_structure,Ravatherm XPS X H LB,56391.33408119423,0.0018045226905982156,1.0442940732945702,-0.09361452505625208,0.0655496670385962,CAD solid volume; assumed density; as-modeled geometry,P03 saved BREP; OpenCascade volume and centroid
+Wing_PosY_CFRP_TaperedSpar,CAD_structure,CFRP,28454.139305387063,0.045526622888619306,0.35380147058823536,0.25735294117647145,0.008549888425043476,CAD solid volume; assumed density; as-modeled geometry,P03 saved BREP; OpenCascade volume and centroid
+VTOL_Arm_PosY,CAD_structure,CFRP,33600.0,0.05376,0.39499999999999946,0.265,-0.009999999999999993,CAD solid volume; assumed density; as-modeled geometry,P03 saved BREP; OpenCascade volume and centroid
+Wing_NegY_CFRP_TaperedSpar,CAD_structure,CFRP,28454.139305387034,0.04552662288861926,0.35380147058823547,-0.25735294117647145,0.008549888425043475,CAD solid volume; assumed density; as-modeled geometry,P03 saved BREP; OpenCascade volume and centroid
+VTOL_Arm_NegY,CAD_structure,CFRP,33600.0,0.05376,0.39499999999999946,-0.265,-0.009999999999999993,CAD solid volume; assumed density; as-modeled geometry,P03 saved BREP; OpenCascade volume and centroid
+Payload_MountPlate_PROVISIONAL,CAD_structure,Aluminum 6061-T6,3000.0,0.0081,0.35000000000000003,-1.4210854715202005e-19,-0.055,CAD solid volume; assumed density; as-modeled geometry,P03 saved BREP; OpenCascade volume and centroid
+Wing bond/finish,structural_allowance,,,0.041425416043716995,0.3898694800462989,0.0,0.0,assumption; replace with designed hardware/adhesive budget,V3 screening
+V-tail bond/finish,structural_allowance,,,0.0073828786019964525,1.0475622177167037,0.0,0.0,assumption; replace with designed hardware/adhesive budget,V3 screening
+Provisional local hardware,structural_allowance,,,0.07168293725120682,0.45,0.0,0.0,assumption; replace with designed hardware/adhesive budget,ASSUMPTION 10%; NOT a designed attachment
+VTOL motor+prop FR,nonstructural,,,0.08608160000000001,0.235,-0.265,0.0,retained estimate; hardware/installed position not fully verified,CAD coords + manufacturer mass + mount allowance
+VTOL motor+prop FL,nonstructural,,,0.08608160000000001,0.235,0.265,0.0,retained estimate; hardware/installed position not fully verified,CAD coords + manufacturer mass + mount allowance
+VTOL motor+prop RR,nonstructural,,,0.08608160000000001,0.555,-0.265,0.0,retained estimate; hardware/installed position not fully verified,CAD coords + manufacturer mass + mount allowance
+VTOL motor+prop RL,nonstructural,,,0.08608160000000001,0.555,0.265,0.0,retained estimate; hardware/installed position not fully verified,CAD coords + manufacturer mass + mount allowance
+Rear pusher assembly,nonstructural,,,0.148901,1.11,0.0,0.0,retained estimate; hardware/installed position not fully verified,Team motor/prop selection + manufacturer mass + mount allowance
+Payload,nonstructural,,,0.36,0.35,0.0,-0.055,retained estimate; hardware/installed position not fully verified,Team mass + CAD payload center
+Camera / AI,nonstructural,,,0.35,0.06,0.0,0.0,retained estimate; hardware/installed position not fully verified,Team mass; nose location provisional
+Heat sink,nonstructural,,,0.03,0.2,0.0,0.0,retained estimate; hardware/installed position not fully verified,Team mass; location ASSUMPTION
+ESCs / wiring,nonstructural,,,0.15,0.35,0.0,0.0,retained estimate; hardware/installed position not fully verified,Team mass; distributed-equivalent location ASSUMPTION
+Payload magnet,nonstructural,,,0.01,0.35,0.0,-0.055,retained estimate; hardware/installed position not fully verified,Presentation magnet mass
+V-tail servo R,nonstructural,,,0.0219,0.9,0.01,0.0,vendor mass; P03 proposed position,Whiteboard + Hitec HS-5085MG
+V-tail servo L,nonstructural,,,0.0219,0.9,-0.01,0.0,vendor mass; P03 proposed position,Whiteboard + Hitec HS-5085MG
+Other servo allocation (unresolved),nonstructural,,,0.1362,0.8,0.0,0.0,residual of old180g servo budget; not confirmed hardware,180g minus two21.9g servos
+Battery complete pack budget,nonstructural,,,0.944,0.299700714810423,0.0,0.0,maximum cell-mass budget plus assumed hardware allowance; not measured,Molicel M65A + inputs.json

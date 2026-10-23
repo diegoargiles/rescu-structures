@@ -1,0 +1,243 @@
+{
+  "version": "V4.0 CAD P03,2026-10-19",
+  "densities_kg_m3": {
+    "GFRP": 1850.0,
+    "CFRP": 1600.0,
+    "Ravatherm XPS X H LB": 32.0,
+    "Epoxy": 1200.0,
+    "Aluminum 6061-T6": 2700.0
+  },
+  "components": [
+    {
+      "name": "VTOL motor+prop FR",
+      "mass_kg": 0.08608160000000001,
+      "x_m": 0.235,
+      "y_m": -0.265,
+      "z_m": 0.0,
+      "source": "CAD coords + manufacturer mass + mount allowance",
+      "category": "nonstructural",
+      "status": "retained estimate; hardware/installed position not fully verified"
+    },
+    {
+      "name": "VTOL motor+prop FL",
+      "mass_kg": 0.08608160000000001,
+      "x_m": 0.235,
+      "y_m": 0.265,
+      "z_m": 0.0,
+      "source": "CAD coords + manufacturer mass + mount allowance",
+      "category": "nonstructural",
+      "status": "retained estimate; hardware/installed position not fully verified"
+    },
+    {
+      "name": "VTOL motor+prop RR",
+      "mass_kg": 0.08608160000000001,
+      "x_m": 0.555,
+      "y_m": -0.265,
+      "z_m": 0.0,
+      "source": "CAD coords + manufacturer mass + mount allowance",
+      "category": "nonstructural",
+      "status": "retained estimate; hardware/installed position not fully verified"
+    },
+    {
+      "name": "VTOL motor+prop RL",
+      "mass_kg": 0.08608160000000001,
+      "x_m": 0.555,
+      "y_m": 0.265,
+      "z_m": 0.0,
+      "source": "CAD coords + manufacturer mass + mount allowance",
+      "category": "nonstructural",
+      "status": "retained estimate; hardware/installed position not fully verified"
+    },
+    {
+      "name": "Rear pusher assembly",
+      "mass_kg": 0.148901,
+      "x_m": 1.11,
+      "y_m": 0.0,
+      "z_m": 0.0,
+      "source": "Team motor/prop selection + manufacturer mass + mount allowance",
+      "category": "nonstructural",
+      "status": "retained estimate; hardware/installed position not fully verified"
+    },
+    {
+      "name": "Payload",
+      "mass_kg": 0.36,
+      "x_m": 0.35,
+      "y_m": 0.0,
+      "z_m": -0.055,
+      "source": "Team mass + CAD payload center",
+      "category": "nonstructural",
+      "status": "retained estimate; hardware/installed position not fully verified"
+    },
+    {
+      "name": "Camera / AI",
+      "mass_kg": 0.35,
+      "x_m": 0.06,
+      "y_m": 0.0,
+      "z_m": 0.0,
+      "source": "Team mass; nose location provisional",
+      "category": "nonstructural",
+      "status": "retained estimate; hardware/installed position not fully verified"
+    },
+    {
+      "name": "Heat sink",
+      "mass_kg": 0.03,
+      "x_m": 0.2,
+      "y_m": 0.0,
+      "z_m": 0.0,
+      "source": "Team mass; location ASSUMPTION",
+      "category": "nonstructural",
+      "status": "retained estimate; hardware/installed position not fully verified"
+    },
+    {
+      "name": "ESCs / wiring",
+      "mass_kg": 0.15,
+      "x_m": 0.35,
+      "y_m": 0.0,
+      "z_m": 0.0,
+      "source": "Team mass; distributed-equivalent location ASSUMPTION",
+      "category": "nonstructural",
+      "status": "retained estimate; hardware/installed position not fully verified"
+    },
+    {
+      "name": "Payload magnet",
+      "mass_kg": 0.01,
+      "x_m": 0.35,
+      "y_m": 0.0,
+      "z_m": -0.055,
+      "source": "Presentation magnet mass",
+      "category": "nonstructural",
+      "status": "retained estimate; hardware/installed position not fully verified"
+    },
+    {
+      "name": "V-tail servo R",
+      "mass_kg": 0.0219,
+      "x_m": 0.9,
+      "y_m": 0.01,
+      "z_m": 0.0,
+      "category": "nonstructural",
+      "status": "vendor mass; P03 proposed position",
+      "source": "Whiteboard + Hitec HS-5085MG"
+    },
+    {
+      "name": "V-tail servo L",
+      "mass_kg": 0.0219,
+      "x_m": 0.9,
+      "y_m": -0.01,
+      "z_m": 0.0,
+      "category": "nonstructural",
+      "status": "vendor mass; P03 proposed position",
+      "source": "Whiteboard + Hitec HS-5085MG"
+    },
+    {
+      "name": "Other servo allocation (unresolved)",
+      "mass_kg": 0.1362,
+      "x_m": 0.8,
+      "y_m": 0.0,
+      "z_m": 0.0,
+      "category": "nonstructural",
+      "status": "residual of old180g servo budget; not confirmed hardware",
+      "source": "180g minus two21.9g servos"
+    }
+  ],
+  "structural_allowances": [
+    {
+      "name": "Wing bond/finish",
+      "mass_kg": 0.041425416043716995,
+      "x_m": 0.3898694800462989,
+      "y_m": 0.0,
+      "z_m": 0.0,
+      "source": "V3 screening",
+      "category": "structural_allowance",
+      "status": "assumption; replace with designed hardware/adhesive budget"
+    },
+    {
+      "name": "V-tail bond/finish",
+      "mass_kg": 0.0073828786019964525,
+      "x_m": 1.0475622177167037,
+      "y_m": 0.0,
+      "z_m": 0.0,
+      "source": "V3 screening",
+      "category": "structural_allowance",
+      "status": "assumption; replace with designed hardware/adhesive budget"
+    },
+    {
+      "name": "Provisional local hardware",
+      "mass_kg": 0.07168293725120682,
+      "x_m": 0.45,
+      "y_m": 0.0,
+      "z_m": 0.0,
+      "source": "ASSUMPTION 10%; NOT a designed attachment",
+      "category": "structural_allowance",
+      "status": "assumption; replace with designed hardware/adhesive budget"
+    }
+  ],
+  "additional_structural_parts": [],
+  "battery": {
+    "series": 6,
+    "parallel": 2,
+    "cell": "Molicel M65A",
+    "cell_max_mass_kg": 0.0745,
+    "pack_hardware_allowance_kg": 0.05,
+    "measured_complete_pack_mass_kg": null,
+    "hardware_status": "50g provisional allowance; not a measured value",
+    "cell_nominal_voltage_V": 3.6,
+    "cell_full_voltage_V": 4.2,
+    "cell_capacity_Ah": 6.5,
+    "cell_continuous_current_A": 26.0,
+    "current_note": "26A cell rating uses90C surface cutoff; pack thermal/wiring limit unverified"
+  },
+  "loads": {
+    "limit_n": 3.0,
+    "ultimate_multiplier": 1.5,
+    "negative_n": -1.5,
+    "cruise_speed_mps": 20.0,
+    "top_speed_mps": 44.6,
+    "baseline_total_vtol_thrust_N": 40.0,
+    "alternate_total_vtol_thrust_N": 69.2,
+    "alternate_status": "17.30N/motor hypothesis, unverified operating point",
+    "vtol_thrust_multiplier": 1.5,
+    "wing_force_allowance": 1.1,
+    "tail_CL": 0.5,
+    "pusher_cruise_thrust_N": 6.62,
+    "pusher_thrust_multiplier": 1.5,
+    "arm_support_front_x_m": 0.313,
+    "arm_support_rear_x_m": 0.448
+  },
+  "unallocated_reserve_kg": 0.2,
+  "minimum_sizing_mass_kg": 3.2,
+  "target_cg_aft_wing_LE_m": 0.1344,
+  "neutral_point_aft_wing_LE_m": 0.148,
+  "stability_status": "inherited team references; aerodynamic validity for current configuration unverified",
+  "beam_station_count": 160,
+  "additional_requirements": [
+    "Localized fuselage XPS volume and attachment laminates unknown",
+    "Spar center joint and wing/arm/tail/pusher hardpoints unfinished",
+    "Landing/gust/fatigue/impact/water ingress cases unresolved",
+    "Laminate material data and foam orientation not validated",
+    "Control surface hinge geometry and servo torque load cases missing"
+  ],
+  "structural_material_properties": {
+    "skin": {
+      "E1_Pa": 15000000000.0,
+      "E2_Pa": 15000000000.0,
+      "G12_Pa": 3000000000.0,
+      "nu12": 0.15,
+      "tensile_Pa": 150000000.0,
+      "compressive_Pa": 100000000.0,
+      "shear_Pa": 30000000.0,
+      "strength_knockdown": 0.7
+    },
+    "spar": {
+      "E_Pa": 70000000000.0,
+      "strength_Pa": 300000000.0,
+      "knockdown": 0.7
+    },
+    "foam": {
+      "shear_modulus_Pa": 8000000.0,
+      "shear_strength_Pa": 250000.0,
+      "compression_strength_Pa": 300000.0,
+      "strength_knockdown": 0.7
+    },
+    "status": "preliminary material assumptions; no qualified laminate/aircraft allowables"
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "native_valid": true,
+  "step_valid": false,
+  "step_solids": 71,
+  "native_solids": 71,
+  "step_volume_mm3": 3160816.457036119,
+  "native_sum_volume_mm3": 1766120.1070663263,
+  "interferences": [
+    {
+      "part": "WingCenterBox",
+      "other": "REF_Battery_Packaging_Allowance_PROVISIONAL",
+      "volume_mm3": 2263.2898359836654,
+      "kind": "equipment envelope"
+    },
+    {
+      "part": "WingCenterSideWeb__1",
+      "other": "Fuselage_GFRP_Shell_0330",
+      "volume_mm3": 286.98353477644594,
+      "kind": "structural overlap"
+    },
+    {
+      "part": "WingCenterSideWeb__1",
+      "other": "Wing_NegY_GFRP_Skin_Exposed",
+      "volume_mm3": 50.79522933297159,
+      "kind": "structural overlap"
+    },
+    {
+      "part": "WingCenterSideWeb__1",
+      "other": "Wing_NegY_EpoxyBond_Exposed",
+      "volume_mm3": 6.9650550675479685,
+      "kind": "structural overlap"
+    },
+    {
+      "part": "WingCenterSideWeb__1",
+      "other": "Wing_NegY_CFRP_TaperedSpar",
+      "volume_mm3": 571.4268537532802,
+      "kind": "structural overlap"
+    },
+    {
+      "part": "WingCenterSideWeb__1",
+      "other": "WingCenterBox",
+      "volume_mm3": 64.5,
+      "kind": "structural overlap"
+    },
+    {
+      "part": "WingCenterSideWeb_1",
+      "other": "Fuselage_GFRP_Shell_0330",
+      "volume_mm3": 286.9835347764457,
+      "kind": "structural overlap"
+    },
+    {
+      "part": "WingCenterSideWeb_1",
+      "other": "Wing_PosY_GFRP_Skin_Exposed",
+      "volume_mm3": 50.79523081379015,
+      "kind": "structural overlap"
+    },
+    {
+      "part": "WingCenterSideWeb_1",
+      "other": "Wing_PosY_EpoxyBond_Exposed",
+      "volume_mm3": 6.9650298376501425,
+      "kind": "structural overlap"
+    },
+    {
+      "part": "WingCenterSideWeb_1",
+      "other": "Wing_PosY_CFRP_TaperedSpar",
+      "volume_mm3": 571.4268537657418,
+      "kind": "structural overlap"
+    },
+    {
+      "part": "WingCenterSideWeb_1",
+      "other": "WingCenterBox",
+      "volume_mm3": 64.5,
+      "kind": "structural overlap"
+    },
+    {
+      "part": "WingRootCaps_PosY",
+      "other": "WingCenterSideWeb_1",
+      "volume_mm3": 182.28207781849406,
+      "kind": "structural overlap"
+    },
+    {
+      "part": "WingRootRib_PosY_44",
+      "other": "WingCenterSideWeb_1",
+      "volume_mm3": 575.9987683406732,
+      "kind": "structural overlap"
+    },
+    {
+      "part": "WingRootRib_PosY_44",
+      "other": "WingRootCaps_PosY",
+      "volume_mm3": 271.74967417830237,
+      "kind": "structural overlap"
+    },
+    {
+      "part": "WingRootRib_PosY_54",
+      "other": "WingRootCaps_PosY",
+      "volume_mm3": 287.292461326123,
+      "kind": "structural overlap"
+    },
+    {
+      "part": "WingRootCaps_NegY",
+      "other": "WingCenterSideWeb__1",
+      "volume_mm3": 182.28208100189613,
+      "kind": "structural overlap"
+    },
+    {
+      "part": "WingRootRib_NegY_56",
+      "other": "WingRootCaps_NegY",
+      "volume_mm3": 287.29245765052815,
+      "kind": "structural overlap"
+    },
+    {
+      "part": "WingRootRib_NegY_46",
+      "other": "WingCenterSideWeb__1",
+      "volume_mm3": 575.9986697932364,
+      "kind": "structural overlap"
+    },
+    {
+      "part": "WingRootRib_NegY_46",
+      "other": "WingRootCaps_NegY",
+      "volume_mm3": 271.74967360442514,
+      "kind": "structural overlap"
+    },
+    {
+      "part": "WingFrame_326",
+      "other": "Wing_PosY_CFRP_TaperedSpar",
+      "volume_mm3": 146.52403739819522,
+      "kind": "structural overlap"
+    },
+    {
+      "part": "WingFrame_326",
+      "other": "Wing_NegY_CFRP_TaperedSpar",
+      "volume_mm3": 146.52404080937143,
+      "kind": "structural overlap"
+    },
+    {
+      "part": "WingFrame_326",
+      "other": "WingCenterBox",
+      "volume_mm3": 122.86864471095437,
+      "kind": "structural overlap"
+    },
+    {
+      "part": "WingFrame_326",
+      "other": "WingCenterSideWeb__1",
+      "volume_mm3": 265.5929550431034,
+      "kind": "structural overlap"
+    },
+    {
+      "part": "WingFrame_326",
+      "other": "WingCenterSideWeb_1",
+      "volume_mm3": 265.5929550431034,
+      "kind": "structural overlap"
+    },
+    {
+      "part": "WingLocalFoam_321",
+      "other": "Wing_PosY_CFRP_TaperedSpar",
+      "volume_mm3": 120.44947301929227,
+      "kind": "structural overlap"
+    },
+    {
+      "part": "WingLocalFoam_321",
+      "other": "Wing_NegY_CFRP_TaperedSpar",
+      "volume_mm3": 120.44936167016421,
+      "kind": "structural overlap"
+    },
+    {
+      "part": "BatteryTray_Front",
+      "other": "REF_Battery_Packaging_Allowance_PROVISIONAL",
+      "volume_mm3": 709.7462422998329,
+      "kind": "equipment envelope"
+    },
+    {
+      "part": "BatteryCradle_Front_206",
+      "other": "BatteryTray_Front",
+      "volume_mm3": 42.599999999999845,
+      "kind": "structural overlap"
+    },
+    {
+      "part": "BatteryCradle_Front_261",
+      "other": "BatteryTray_Front",
+      "volume_mm3": 42.59999999999985,
+      "kind": "structural overlap"
+    },
+    {
+      "part": "BatteryTray_Rear",
+      "other": "REF_Battery_Packaging_Allowance_PROVISIONAL",
+      "volume_mm3": 709.7462422998339,
+      "kind": "equipment envelope"
+    },
+    {
+      "part": "BatteryCradle_Rear_331",
+      "other": "BatteryTray_Rear",
+      "volume_mm3": 42.59999999999985,
+      "kind": "structural overlap"
+    },
+    {
+      "part": "BatteryCradle_Rear_386",
+      "other": "BatteryTray_Rear",
+      "volume_mm3": 42.59999999999985,
+      "kind": "structural overlap"
+    }
+  ],
+  "status": "Candidate audit; overlaps and absent bond/fastener detail prevent fabrication release",
+  "selected_interface_distances": [
+    {
+      "part": "WingCenterBox",
+      "other": "WingCenterSideWeb_1",
+      "gap_mm": 0.0,
+      "note": "Zero distance is geometry contact only, not bond/load-path qualification"
+    },
+    {
+      "part": "WingCenterSideWeb_1",
+      "other": "WingRootCaps_PosY",
+      "gap_mm": 0.0,
+      "note": "Zero distance is geometry contact only, not bond/load-path qualification"
+    },
+    {
+      "part": "PusherFirewall",
+      "other": "PusherTie_20_0",
+      "gap_mm": 0.0,
+      "note": "Zero distance is geometry contact only, not bond/load-path qualification"
+    },
+    {
+      "part": "PusherTie_20_0",
+      "other": "PusherForwardFrame",
+      "gap_mm": 0.0,
+      "note": "Zero distance is geometry contact only, not bond/load-path qualification"
+    },
+    {
+      "part": "BatteryTray_Front",
+      "other": "BatteryCradle_Front_206",
+      "gap_mm": 0.0,
+      "note": "Zero distance is geometry contact only, not bond/load-path qualification"
+    }
+  ],
+  "native_sha256": "d006f41b80dfd97d7eaf982ae1475e8acdadeca3b1699967dcd34d0410118ff0",
+  "pairwise_duplicate_material_upper_bound_g": 9.776005658375569,
+  "duplicate_bound_note": "Pairwise upper bound for new-part overlaps if denser material retained; triple intersections can be counted repeatedly. Not an installed-mass correction or design approval. Preexisting P03/P03 overlaps not audited here."
+}

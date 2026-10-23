@@ -1,0 +1,63 @@
+{
+  "unmatched_native": [
+    {
+      "name": "Fuselage_GFRP_Shell_0330",
+      "native_volume_mm3": 88039.60613726219
+    },
+    {
+      "name": "Wing_PosY_GFRP_Skin_Exposed",
+      "native_volume_mm3": 47461.2258085488
+    },
+    {
+      "name": "VTail_PosY_GFRP_Skin_Exposed",
+      "native_volume_mm3": 6999.145832228476
+    },
+    {
+      "name": "Wing_NegY_GFRP_Skin_Exposed",
+      "native_volume_mm3": 47168.33898690309
+    },
+    {
+      "name": "VTail_NegY_GFRP_Skin_Exposed",
+      "native_volume_mm3": 6999.2749971478415
+    },
+    {
+      "name": "WingRootRib_NegY_46",
+      "native_volume_mm3": 1487.172077680806
+    },
+    {
+      "name": "TailRootLaminates_PosY",
+      "native_volume_mm3": 5784.249857752553
+    }
+  ],
+  "unmatched_step": [
+    {
+      "volume_mm3": 1793609.0071082567,
+      "valid": false
+    },
+    {
+      "volume_mm3": 47461.128878730626,
+      "valid": true
+    },
+    {
+      "volume_mm3": 6999.284950678411,
+      "valid": true
+    },
+    {
+      "volume_mm3": 47160.87089632076,
+      "valid": true
+    },
+    {
+      "volume_mm3": 6998.957973646746,
+      "valid": true
+    },
+    {
+      "volume_mm3": 1487.175677843905,
+      "valid": true
+    },
+    {
+      "volume_mm3": 5784.23726509854,
+      "valid": true
+    }
+  ],
+  "invalid_step_solids": 1
+}

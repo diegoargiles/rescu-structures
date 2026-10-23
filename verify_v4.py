@@ -2,11 +2,16 @@
 from pathlib import Path
 import math,json,copy
 import RescU_Structures_V4 as v
-root=Path(__file__).resolve().parent;c=v.read(root/'inputs.json');s=v.read(root/'data/cad_snapshot.json');rows,m=v.mass_ledger(c,s)
+root=Path(__file__).resolve().parent;c=v.read(root/'inputs.json');s=v.read(root/'data/cad_snapshot_p04.json');rows,m=v.mass_ledger(c,s)
 def close(a,b,tol=1e-10):assert math.isclose(a,b,rel_tol=tol,abs_tol=tol),(a,b)
 for r in rows:
  if r['category']=='CAD_structure':close(r['mass_kg'],r['volume_mm3']*1e-9*c['densities_kg_m3'][r['material']])
-close(m['cad_structure_kg'],.6159305596834705)
+baseline=v.read(root/'data/cad_snapshot.json')
+close(sum(r['mass_kg'] for r in baseline['structural_parts']),.6159305596834705)
+assert len({r['name'] for r in rows})==len(rows)
+assert not any(r['name']=='Provisional local hardware' for r in rows)
+close(sum(r.get('removed_mount_allowance_kg',0) for r in c['components']),.042)
+close(c['unallocated_reserve_kg'],.2)
 close(sum(r['mass_kg'] for r in rows),m['accounted_aircraft_kg'])
 close(m['structural_budget_kg'],m['cad_structure_kg']+m['structural_allowances_kg']+m['additional_structure_kg'])
 for i,k in enumerate(['x_m','y_m','z_m']):close(m['aircraft_cg_m'][i]*m['accounted_aircraft_kg'],sum(r['mass_kg']*r[k] for r in rows))
@@ -36,3 +41,4 @@ errs={k:abs(cc[0][k]-cc[1][k])/max(abs(cc[1][k]),1e-12) for k in ['tip_total_lim
 assert max(errs.values())<.01,errs
 result=dict(status='PASS: accounting and numerical tests only',checks=['CAD volume-density unit conversion','component/structural/aircraft mass conservation','CG moments','payload release moments','measured battery mass sensitivity','material density sensitivity','CAD intrinsic tensor symmetry and parallel-axis assembly','Euler-Bernoulli cantilever point-load solution'],stations=[160,320],relative_changes=errs,physical_validity='UNRESOLVED; not validated by these tests')
 (root/'results').mkdir(exist_ok=True);v.dump(root/'results/validation.json',result);print(json.dumps(result,indent=2))
+
