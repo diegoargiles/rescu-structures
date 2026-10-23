@@ -1,0 +1,51 @@
+{
+  "version": "P05 motor-arm review 2026-10-23",
+  "status": "REVIEW CANDIDATE",
+  "files": [
+    {
+      "path": "cad/RescU_P05_Motor_Arm_Assembly.FCStd",
+      "size_bytes": 692206,
+      "sha256": "a2c8ef6e9e5c1e854b5a6e95afc17abc5202e6645ff1d76e0adee27bc3f4e630"
+    },
+    {
+      "path": "cad/RescU_P05_Motor_Arm_Pair.step",
+      "size_bytes": 2454718,
+      "sha256": "221f869f922ad040d1daeaea549974352b901dc2ae6d4398f4f6dfb4b4396ce2"
+    },
+    {
+      "path": "cad/Motor_Arm_Review.png",
+      "size_bytes": 233363,
+      "sha256": "1985bcd29df7dc4f951381ec878cf3edb297c2a624f4233f49e728301217f68b"
+    },
+    {
+      "path": "cad/Mount_Plates_Review.svg",
+      "size_bytes": 3120,
+      "sha256": "2a2d067963d7fea2383a9f8d364412624d4a5f51cf2d98fde468069a63a84346"
+    },
+    {
+      "path": "reports/assembly_checks.json",
+      "size_bytes": 106392,
+      "sha256": "c4dfbb62be0de74f0f45ba0830f95c78c4b96e3aa7dff0d50bf348a717abba5e"
+    },
+    {
+      "path": "reports/results.json",
+      "size_bytes": 175507,
+      "sha256": "5abcf39767fa01acf12740a2868561f7149ac84e6b46e1b73e9308cbba34e825"
+    },
+    {
+      "path": "reports/native_validation.json",
+      "size_bytes": 1051,
+      "sha256": "f9565331bd67f9e773fd2d9afe9b3882b3cbb878b275b740c4dc14711645e647"
+    },
+    {
+      "path": "references/UM2807_user_supplied_drawing.png",
+      "size_bytes": 224586,
+      "sha256": "b587eed7403fe342e45691a29d39ab01b7c5fccb94dbfad01284dc45a996a366"
+    },
+    {
+      "path": "cad/RescU_P05_CAD.zip",
+      "size_bytes": 1218084,
+      "sha256": "ba8db38f59db78cad035cb9bbf3e523e408568933bfdd3e8375ee0bc2daf42d7"
+    }
+  ]
+}

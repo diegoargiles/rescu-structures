@@ -1,0 +1,3422 @@
+{
+  "status": "REVIEW CANDIDATE",
+  "source_P04_sha256": "d006f41b80dfd97d7eaf982ae1475e8acdadeca3b1699967dcd34d0410118ff0",
+  "native_sha256": "a2c8ef6e9e5c1e854b5a6e95afc17abc5202e6645ff1d76e0adee27bc3f4e630",
+  "step_sha256": "221f869f922ad040d1daeaea549974352b901dc2ae6d4398f4f6dfb4b4396ce2",
+  "motor": {
+    "model": "Unusual Machines UM2807 1700KV",
+    "mpn": "ENT-UMAC-2807-1700",
+    "source_url": "https://irlock.com/products/unusual-machines-um2807-1700kv-motor",
+    "retrieved": "2026-10-23",
+    "supplied_drawing": "references/UM2807_user_supplied_drawing.png",
+    "mass_without_wires_g": 45.8,
+    "mass_with_three_200mm_18AWG_wires_g": 52.0,
+    "diameter_mm": 35.4,
+    "diameter_tolerance_mm": 0.5,
+    "body_length_mm": 20.0,
+    "body_length_tolerance_mm": 0.1,
+    "overall_length_mm": 33.5,
+    "shaft_diameter_mm": 5.0,
+    "shaft_thread": "M5 x 0.8",
+    "shaft_exposed_thread_length_mm": 9.5,
+    "mount_pattern": "4 x M3 x 0.5 on PCD 19 mm",
+    "mount_angle_proposal_deg": 45.0,
+    "base_diameter_mm": 25.5,
+    "base_thickness_mm": 3.0,
+    "base_geometry_basis": "dimensions transcribed from user supplied drawing; simplified envelope",
+    "mount_hole_depth_mm": null,
+    "max_safe_screw_insertion_mm": null,
+    "mount_torque_Nm": null,
+    "wire_exit_geometry": null,
+    "voltage_max_V": 21.0,
+    "voltage_cells": "3S-5S",
+    "maximum_current_A": 62.0,
+    "current_duration_s": 3.0,
+    "verified_status": "Supplier nominal dimensions + user drawing; not an inspection report"
+  },
+  "design": {
+    "arm_section_mm": [
+      30,
+      20,
+      1
+    ],
+    "arm_length_mm": 350,
+    "motor_axis_x_mm": [
+      235,
+      555
+    ],
+    "arm_y_mm": [
+      265,
+      -265
+    ],
+    "motor_mount_face_z_mm": 11.0,
+    "prop_seat_assumption_z_mm": 35.0,
+    "top_plate_thickness_mm": 3.0,
+    "top_outline": "diameter44 center, 20mm-wide ears to Y +/-30",
+    "clamp_hole_xy_mm": [
+      [
+        0,
+        -24
+      ],
+      [
+        0,
+        24
+      ]
+    ],
+    "clearance_hole_diameter_mm": 3.4,
+    "center_relief_diameter_mm": 10.0,
+    "rails_mm": [
+      28,
+      4,
+      7.6
+    ],
+    "rail_adhesive_thickness_mm": 0.2,
+    "liner_thickness_mm": 0.2,
+    "lower_strap_mm": [
+      24,
+      60,
+      4
+    ],
+    "motor_screw": "M3x6 + 0.5mm washer; PROVISIONAL",
+    "motor_screw_insertion_mm": 2.5,
+    "clamp_screw": "2 x M3x45 per motor + 0.5mm washers + 4mm locknut envelope",
+    "prop_diameter_gauge_mm": 254.0,
+    "prop_gauge_thickness_mm": 2.0,
+    "wire_gauge_diameter_mm": 2.2,
+    "dimensions_status": "New construction, tool and wire envelopes are proposed, not vendor verified.",
+    "saddle_status": "P04 geometry separated into actual solids; 0.2mm top/bottom bond pockets added. Wing rib/skin/spar transfer remains unresolved."
+  },
+  "components": [
+    {
+      "name": "CFRP_Arm_PosY",
+      "assembly": "MotorArm_PosY",
+      "material": "CFRP",
+      "category": "structure",
+      "mass_kg": 0.05376,
+      "volume_mm3": 33600.0,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "P04 native tube: 350x30x20, wall1 mm; independently volume checked",
+      "centroid_mm": [
+        395.0,
+        265.0,
+        -9.999999999999993
+      ]
+    },
+    {
+      "name": "Wing_Spar_Saddle_PosY",
+      "assembly": "MotorArm_PosY",
+      "material": "GFRP",
+      "category": "structure",
+      "mass_kg": 0.007903200000000004,
+      "volume_mm3": 4272.000000000002,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "P04 exact solid, separated; saddle top/bottom cut for proposed 0.2 mm epoxy interface",
+      "centroid_mm": [
+        356.39999999999986,
+        265.0,
+        -12.219101123595498
+      ]
+    },
+    {
+      "name": "SaddleBond_PosY_Spar_Top",
+      "assembly": "MotorArm_PosY",
+      "material": "Epoxy",
+      "category": "structure",
+      "mass_kg": 0.0001728,
+      "volume_mm3": 144.0,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed 0.2mm bondline; top/bottom faces only, side gaps unfilled",
+      "centroid_mm": [
+        356.3999999999999,
+        265.0,
+        0.10000000000000002
+      ]
+    },
+    {
+      "name": "SaddleBond_PosY_Spar_Bottom",
+      "assembly": "MotorArm_PosY",
+      "material": "Epoxy",
+      "category": "structure",
+      "mass_kg": 0.0001727999999999994,
+      "volume_mm3": 143.9999999999995,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed 0.2mm bondline; top/bottom faces only, side gaps unfilled",
+      "centroid_mm": [
+        356.3999999999999,
+        265.0,
+        -20.099999999999998
+      ]
+    },
+    {
+      "name": "Wing_Spar_Rib1_PosY",
+      "assembly": "MotorArm_PosY",
+      "material": "GFRP",
+      "category": "structure",
+      "mass_kg": 0.0025867543598648668,
+      "volume_mm3": 1398.245599926955,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "P04 exact solid, separated; saddle top/bottom cut for proposed 0.2 mm epoxy interface",
+      "centroid_mm": [
+        379.90481685846817,
+        250.00036192979354,
+        8.262357992337812
+      ]
+    },
+    {
+      "name": "Wing_Spar_Rib2_PosY",
+      "assembly": "MotorArm_PosY",
+      "material": "GFRP",
+      "category": "structure",
+      "mass_kg": 0.002659347917395331,
+      "volume_mm3": 1437.485360754233,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "P04 exact solid, separated; saddle top/bottom cut for proposed 0.2 mm epoxy interface",
+      "centroid_mm": [
+        379.93223861356756,
+        280.00025098672995,
+        8.69931847722405
+      ]
+    },
+    {
+      "name": "Wing_Rear_Saddle_PosY",
+      "assembly": "MotorArm_PosY",
+      "material": "GFRP",
+      "category": "structure",
+      "mass_kg": 0.007903200000000003,
+      "volume_mm3": 4272.000000000001,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "P04 exact solid, separated; saddle top/bottom cut for proposed 0.2 mm epoxy interface",
+      "centroid_mm": [
+        409.99999999999994,
+        265.0,
+        -12.219101123595502
+      ]
+    },
+    {
+      "name": "SaddleBond_PosY_Rear_Top",
+      "assembly": "MotorArm_PosY",
+      "material": "Epoxy",
+      "category": "structure",
+      "mass_kg": 0.0001728,
+      "volume_mm3": 144.0,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed 0.2mm bondline; top/bottom faces only, side gaps unfilled",
+      "centroid_mm": [
+        410.0,
+        265.0,
+        0.10000000000000002
+      ]
+    },
+    {
+      "name": "SaddleBond_PosY_Rear_Bottom",
+      "assembly": "MotorArm_PosY",
+      "material": "Epoxy",
+      "category": "structure",
+      "mass_kg": 0.0001727999999999994,
+      "volume_mm3": 143.9999999999995,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed 0.2mm bondline; top/bottom faces only, side gaps unfilled",
+      "centroid_mm": [
+        409.99999999999994,
+        265.0,
+        -20.099999999999998
+      ]
+    },
+    {
+      "name": "MotorPlate_PosY_Front",
+      "assembly": "MotorArm_PosY",
+      "material": "GFRP",
+      "category": "structure",
+      "mass_kg": 0.009650535326991198,
+      "volume_mm3": 5216.505582157403,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed dimensions and assumed density",
+      "centroid_mm": [
+        235.0,
+        265.0,
+        9.499999999999995
+      ]
+    },
+    {
+      "name": "LowerStrap_PosY_Front",
+      "assembly": "MotorArm_PosY",
+      "material": "GFRP",
+      "category": "structure",
+      "mass_kg": 0.010464457869749741,
+      "volume_mm3": 5656.463713378238,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed dimensions and assumed density",
+      "centroid_mm": [
+        235.0,
+        265.0,
+        -22.2
+      ]
+    },
+    {
+      "name": "LowerLiner_PosY_Front",
+      "assembly": "MotorArm_PosY",
+      "material": "Isolation liner",
+      "category": "structure",
+      "mass_kg": 0.0001727999999999994,
+      "volume_mm3": 143.9999999999995,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed dimensions and assumed density",
+      "centroid_mm": [
+        234.99999999999997,
+        265.0,
+        -20.099999999999998
+      ]
+    },
+    {
+      "name": "Rail_PosY_Front_0",
+      "assembly": "MotorArm_PosY",
+      "material": "GFRP",
+      "category": "structure",
+      "mass_kg": 0.0015747200000000002,
+      "volume_mm3": 851.2,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed dimensions and assumed density",
+      "centroid_mm": [
+        235.0,
+        252.0,
+        4.0
+      ]
+    },
+    {
+      "name": "TopLiner_PosY_Front_0",
+      "assembly": "MotorArm_PosY",
+      "material": "Isolation liner",
+      "category": "structure",
+      "mass_kg": 2.688e-05,
+      "volume_mm3": 22.4,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed dimensions and assumed density",
+      "centroid_mm": [
+        235.00000000000003,
+        251.99999999999997,
+        0.10000000000000002
+      ]
+    },
+    {
+      "name": "RailBond_PosY_Front_0",
+      "assembly": "MotorArm_PosY",
+      "material": "Epoxy",
+      "category": "structure",
+      "mass_kg": 2.6880000000000027e-05,
+      "volume_mm3": 22.40000000000002,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed dimensions and assumed density",
+      "centroid_mm": [
+        235.0,
+        252.0,
+        7.8999999999999995
+      ]
+    },
+    {
+      "name": "Rail_PosY_Front_1",
+      "assembly": "MotorArm_PosY",
+      "material": "GFRP",
+      "category": "structure",
+      "mass_kg": 0.0015747200000000002,
+      "volume_mm3": 851.2,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed dimensions and assumed density",
+      "centroid_mm": [
+        235.0,
+        278.0,
+        4.0
+      ]
+    },
+    {
+      "name": "TopLiner_PosY_Front_1",
+      "assembly": "MotorArm_PosY",
+      "material": "Isolation liner",
+      "category": "structure",
+      "mass_kg": 2.688e-05,
+      "volume_mm3": 22.4,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed dimensions and assumed density",
+      "centroid_mm": [
+        235.00000000000003,
+        278.0,
+        0.10000000000000002
+      ]
+    },
+    {
+      "name": "RailBond_PosY_Front_1",
+      "assembly": "MotorArm_PosY",
+      "material": "Epoxy",
+      "category": "structure",
+      "mass_kg": 2.6880000000000027e-05,
+      "volume_mm3": 22.40000000000002,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed dimensions and assumed density",
+      "centroid_mm": [
+        235.0,
+        278.0,
+        7.8999999999999995
+      ]
+    },
+    {
+      "name": "UM2807_PosY_Front",
+      "assembly": "MotorArm_PosY",
+      "material": "Vendor motor",
+      "category": "motor with wires",
+      "mass_kg": 0.052,
+      "volume_mm3": 18458.40407422192,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Supplier 52g incl 3x200mm wires; nominal envelope and mounting pattern, no internal geometry",
+      "centroid_mm": [
+        234.99999999999997,
+        265.0,
+        21.928212826414132
+      ]
+    },
+    {
+      "name": "MotorWasher_PosY_Front_0",
+      "assembly": "MotorArm_PosY",
+      "material": "Steel",
+      "category": "structure",
+      "mass_kg": 0.00011948497879214404,
+      "volume_mm3": 15.221016406642551,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed dimensions and assumed density",
+      "centroid_mm": [
+        228.2824855787278,
+        258.2824855787278,
+        7.750000000000002
+      ]
+    },
+    {
+      "name": "MotorScrew_PosY_Front_0",
+      "assembly": "MotorArm_PosY",
+      "material": "Steel",
+      "category": "structure",
+      "mass_kg": 0.000892438115591478,
+      "volume_mm3": 113.68638415178063,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "M3x6 simple major-diameter/head envelope; approximate steel mass, insertion2.5mm unverified safe",
+      "centroid_mm": [
+        228.2824855787278,
+        258.2824855787278,
+        7.678756476683935
+      ]
+    },
+    {
+      "name": "MotorWasher_PosY_Front_1",
+      "assembly": "MotorArm_PosY",
+      "material": "Steel",
+      "category": "structure",
+      "mass_kg": 0.00011948497879214404,
+      "volume_mm3": 15.221016406642551,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed dimensions and assumed density",
+      "centroid_mm": [
+        228.28248557872777,
+        271.7175144212722,
+        7.749999999999999
+      ]
+    },
+    {
+      "name": "MotorScrew_PosY_Front_1",
+      "assembly": "MotorArm_PosY",
+      "material": "Steel",
+      "category": "structure",
+      "mass_kg": 0.0008924381155914783,
+      "volume_mm3": 113.68638415178066,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "M3x6 simple major-diameter/head envelope; approximate steel mass, insertion2.5mm unverified safe",
+      "centroid_mm": [
+        228.2824855787278,
+        271.7175144212722,
+        7.678756476683935
+      ]
+    },
+    {
+      "name": "MotorWasher_PosY_Front_2",
+      "assembly": "MotorArm_PosY",
+      "material": "Steel",
+      "category": "structure",
+      "mass_kg": 0.00011948497879214404,
+      "volume_mm3": 15.221016406642551,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed dimensions and assumed density",
+      "centroid_mm": [
+        241.7175144212722,
+        258.2824855787278,
+        7.75
+      ]
+    },
+    {
+      "name": "MotorScrew_PosY_Front_2",
+      "assembly": "MotorArm_PosY",
+      "material": "Steel",
+      "category": "structure",
+      "mass_kg": 0.000892438115591478,
+      "volume_mm3": 113.68638415178063,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "M3x6 simple major-diameter/head envelope; approximate steel mass, insertion2.5mm unverified safe",
+      "centroid_mm": [
+        241.7175144212722,
+        258.2824855787278,
+        7.678756476683935
+      ]
+    },
+    {
+      "name": "MotorWasher_PosY_Front_3",
+      "assembly": "MotorArm_PosY",
+      "material": "Steel",
+      "category": "structure",
+      "mass_kg": 0.00011948497879214404,
+      "volume_mm3": 15.221016406642551,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed dimensions and assumed density",
+      "centroid_mm": [
+        241.7175144212722,
+        271.7175144212722,
+        7.749999999999998
+      ]
+    },
+    {
+      "name": "MotorScrew_PosY_Front_3",
+      "assembly": "MotorArm_PosY",
+      "material": "Steel",
+      "category": "structure",
+      "mass_kg": 0.000892438115591478,
+      "volume_mm3": 113.68638415178063,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "M3x6 simple major-diameter/head envelope; approximate steel mass, insertion2.5mm unverified safe",
+      "centroid_mm": [
+        241.7175144212722,
+        271.7175144212722,
+        7.678756476683935
+      ]
+    },
+    {
+      "name": "ClampScrew_PosY_Front_0",
+      "assembly": "MotorArm_PosY",
+      "material": "Steel",
+      "category": "structure",
+      "mass_kg": 0.0030564849451086376,
+      "volume_mm3": 389.361139504285,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "M3x45 simplified envelope, not selected vendor hardware",
+      "centroid_mm": [
+        235.0,
+        241.0,
+        -6.606656580937969
+      ]
+    },
+    {
+      "name": "ClampWasher_PosY_Front_0_0",
+      "assembly": "MotorArm_PosY",
+      "material": "Steel",
+      "category": "structure",
+      "mass_kg": 0.00011948497879214407,
+      "volume_mm3": 15.221016406642555,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed dimensions and assumed density",
+      "centroid_mm": [
+        235.0,
+        241.0,
+        11.249999999999998
+      ]
+    },
+    {
+      "name": "ClampWasher_PosY_Front_0_1",
+      "assembly": "MotorArm_PosY",
+      "material": "Steel",
+      "category": "structure",
+      "mass_kg": 0.00011948497879214407,
+      "volume_mm3": 15.221016406642555,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed dimensions and assumed density",
+      "centroid_mm": [
+        235.0,
+        241.0,
+        -24.449999999999996
+      ]
+    },
+    {
+      "name": "ClampLocknut_PosY_Front_0",
+      "assembly": "MotorArm_PosY",
+      "material": "Steel",
+      "category": "structure",
+      "mass_kg": 0.00060041976407739,
+      "volume_mm3": 76.48659414998598,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "5.5 AF x4mm locknut simplified all-steel envelope; mass estimate includes lock insert volume as steel",
+      "centroid_mm": [
+        235.0,
+        241.0,
+        -26.7
+      ]
+    },
+    {
+      "name": "ClampScrew_PosY_Front_1",
+      "assembly": "MotorArm_PosY",
+      "material": "Steel",
+      "category": "structure",
+      "mass_kg": 0.0030564849451086376,
+      "volume_mm3": 389.361139504285,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "M3x45 simplified envelope, not selected vendor hardware",
+      "centroid_mm": [
+        235.0,
+        289.0,
+        -6.606656580937968
+      ]
+    },
+    {
+      "name": "ClampWasher_PosY_Front_1_0",
+      "assembly": "MotorArm_PosY",
+      "material": "Steel",
+      "category": "structure",
+      "mass_kg": 0.00011948497879214407,
+      "volume_mm3": 15.221016406642555,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed dimensions and assumed density",
+      "centroid_mm": [
+        235.0,
+        289.0,
+        11.250000000000002
+      ]
+    },
+    {
+      "name": "ClampWasher_PosY_Front_1_1",
+      "assembly": "MotorArm_PosY",
+      "material": "Steel",
+      "category": "structure",
+      "mass_kg": 0.00011948497879214407,
+      "volume_mm3": 15.221016406642555,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed dimensions and assumed density",
+      "centroid_mm": [
+        235.0,
+        289.0,
+        -24.450000000000003
+      ]
+    },
+    {
+      "name": "ClampLocknut_PosY_Front_1",
+      "assembly": "MotorArm_PosY",
+      "material": "Steel",
+      "category": "structure",
+      "mass_kg": 0.00060041976407739,
+      "volume_mm3": 76.48659414998598,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "5.5 AF x4mm locknut simplified all-steel envelope; mass estimate includes lock insert volume as steel",
+      "centroid_mm": [
+        235.00000000000003,
+        289.0,
+        -26.70000000000001
+      ]
+    },
+    {
+      "name": "MotorPlate_PosY_Rear",
+      "assembly": "MotorArm_PosY",
+      "material": "GFRP",
+      "category": "structure",
+      "mass_kg": 0.009650535326991198,
+      "volume_mm3": 5216.505582157403,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed dimensions and assumed density",
+      "centroid_mm": [
+        555.0,
+        265.0,
+        9.499999999999991
+      ]
+    },
+    {
+      "name": "LowerStrap_PosY_Rear",
+      "assembly": "MotorArm_PosY",
+      "material": "GFRP",
+      "category": "structure",
+      "mass_kg": 0.010464457869749741,
+      "volume_mm3": 5656.463713378238,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed dimensions and assumed density",
+      "centroid_mm": [
+        555.0,
+        265.0,
+        -22.200000000000006
+      ]
+    },
+    {
+      "name": "LowerLiner_PosY_Rear",
+      "assembly": "MotorArm_PosY",
+      "material": "Isolation liner",
+      "category": "structure",
+      "mass_kg": 0.0001727999999999994,
+      "volume_mm3": 143.9999999999995,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed dimensions and assumed density",
+      "centroid_mm": [
+        555.0,
+        265.0,
+        -20.099999999999998
+      ]
+    },
+    {
+      "name": "Rail_PosY_Rear_0",
+      "assembly": "MotorArm_PosY",
+      "material": "GFRP",
+      "category": "structure",
+      "mass_kg": 0.0015747200000000002,
+      "volume_mm3": 851.2,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed dimensions and assumed density",
+      "centroid_mm": [
+        555.0,
+        252.0,
+        4.0
+      ]
+    },
+    {
+      "name": "TopLiner_PosY_Rear_0",
+      "assembly": "MotorArm_PosY",
+      "material": "Isolation liner",
+      "category": "structure",
+      "mass_kg": 2.688e-05,
+      "volume_mm3": 22.4,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed dimensions and assumed density",
+      "centroid_mm": [
+        555.0,
+        251.99999999999997,
+        0.10000000000000002
+      ]
+    },
+    {
+      "name": "RailBond_PosY_Rear_0",
+      "assembly": "MotorArm_PosY",
+      "material": "Epoxy",
+      "category": "structure",
+      "mass_kg": 2.6880000000000027e-05,
+      "volume_mm3": 22.40000000000002,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed dimensions and assumed density",
+      "centroid_mm": [
+        555.0,
+        252.0,
+        7.8999999999999995
+      ]
+    },
+    {
+      "name": "Rail_PosY_Rear_1",
+      "assembly": "MotorArm_PosY",
+      "material": "GFRP",
+      "category": "structure",
+      "mass_kg": 0.0015747200000000002,
+      "volume_mm3": 851.2,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed dimensions and assumed density",
+      "centroid_mm": [
+        555.0,
+        278.0,
+        4.0
+      ]
+    },
+    {
+      "name": "TopLiner_PosY_Rear_1",
+      "assembly": "MotorArm_PosY",
+      "material": "Isolation liner",
+      "category": "structure",
+      "mass_kg": 2.688e-05,
+      "volume_mm3": 22.4,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed dimensions and assumed density",
+      "centroid_mm": [
+        555.0,
+        278.0,
+        0.10000000000000002
+      ]
+    },
+    {
+      "name": "RailBond_PosY_Rear_1",
+      "assembly": "MotorArm_PosY",
+      "material": "Epoxy",
+      "category": "structure",
+      "mass_kg": 2.6880000000000027e-05,
+      "volume_mm3": 22.40000000000002,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed dimensions and assumed density",
+      "centroid_mm": [
+        555.0,
+        278.0,
+        7.8999999999999995
+      ]
+    },
+    {
+      "name": "UM2807_PosY_Rear",
+      "assembly": "MotorArm_PosY",
+      "material": "Vendor motor",
+      "category": "motor with wires",
+      "mass_kg": 0.052,
+      "volume_mm3": 18458.40407422192,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Supplier 52g incl 3x200mm wires; nominal envelope and mounting pattern, no internal geometry",
+      "centroid_mm": [
+        555.0,
+        265.0,
+        21.928212826414132
+      ]
+    },
+    {
+      "name": "MotorWasher_PosY_Rear_0",
+      "assembly": "MotorArm_PosY",
+      "material": "Steel",
+      "category": "structure",
+      "mass_kg": 0.00011948497879214404,
+      "volume_mm3": 15.221016406642551,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed dimensions and assumed density",
+      "centroid_mm": [
+        548.2824855787278,
+        258.2824855787278,
+        7.749999999999999
+      ]
+    },
+    {
+      "name": "MotorScrew_PosY_Rear_0",
+      "assembly": "MotorArm_PosY",
+      "material": "Steel",
+      "category": "structure",
+      "mass_kg": 0.000892438115591478,
+      "volume_mm3": 113.68638415178063,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "M3x6 simple major-diameter/head envelope; approximate steel mass, insertion2.5mm unverified safe",
+      "centroid_mm": [
+        548.2824855787278,
+        258.2824855787278,
+        7.67875647668394
+      ]
+    },
+    {
+      "name": "MotorWasher_PosY_Rear_1",
+      "assembly": "MotorArm_PosY",
+      "material": "Steel",
+      "category": "structure",
+      "mass_kg": 0.00011948497879214404,
+      "volume_mm3": 15.221016406642551,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed dimensions and assumed density",
+      "centroid_mm": [
+        548.2824855787278,
+        271.7175144212722,
+        7.749999999999999
+      ]
+    },
+    {
+      "name": "MotorScrew_PosY_Rear_1",
+      "assembly": "MotorArm_PosY",
+      "material": "Steel",
+      "category": "structure",
+      "mass_kg": 0.0008924381155914783,
+      "volume_mm3": 113.68638415178066,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "M3x6 simple major-diameter/head envelope; approximate steel mass, insertion2.5mm unverified safe",
+      "centroid_mm": [
+        548.2824855787278,
+        271.7175144212722,
+        7.67875647668394
+      ]
+    },
+    {
+      "name": "MotorWasher_PosY_Rear_2",
+      "assembly": "MotorArm_PosY",
+      "material": "Steel",
+      "category": "structure",
+      "mass_kg": 0.00011948497879214404,
+      "volume_mm3": 15.221016406642551,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed dimensions and assumed density",
+      "centroid_mm": [
+        561.7175144212722,
+        258.2824855787278,
+        7.749999999999998
+      ]
+    },
+    {
+      "name": "MotorScrew_PosY_Rear_2",
+      "assembly": "MotorArm_PosY",
+      "material": "Steel",
+      "category": "structure",
+      "mass_kg": 0.000892438115591478,
+      "volume_mm3": 113.68638415178063,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "M3x6 simple major-diameter/head envelope; approximate steel mass, insertion2.5mm unverified safe",
+      "centroid_mm": [
+        561.7175144212722,
+        258.2824855787278,
+        7.67875647668394
+      ]
+    },
+    {
+      "name": "MotorWasher_PosY_Rear_3",
+      "assembly": "MotorArm_PosY",
+      "material": "Steel",
+      "category": "structure",
+      "mass_kg": 0.00011948497879214404,
+      "volume_mm3": 15.221016406642551,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed dimensions and assumed density",
+      "centroid_mm": [
+        561.7175144212722,
+        271.7175144212722,
+        7.750000000000001
+      ]
+    },
+    {
+      "name": "MotorScrew_PosY_Rear_3",
+      "assembly": "MotorArm_PosY",
+      "material": "Steel",
+      "category": "structure",
+      "mass_kg": 0.000892438115591478,
+      "volume_mm3": 113.68638415178063,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "M3x6 simple major-diameter/head envelope; approximate steel mass, insertion2.5mm unverified safe",
+      "centroid_mm": [
+        561.7175144212722,
+        271.7175144212722,
+        7.67875647668394
+      ]
+    },
+    {
+      "name": "ClampScrew_PosY_Rear_0",
+      "assembly": "MotorArm_PosY",
+      "material": "Steel",
+      "category": "structure",
+      "mass_kg": 0.0030564849451086376,
+      "volume_mm3": 389.361139504285,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "M3x45 simplified envelope, not selected vendor hardware",
+      "centroid_mm": [
+        555.0,
+        241.00000000000003,
+        -6.60665658093799
+      ]
+    },
+    {
+      "name": "ClampWasher_PosY_Rear_0_0",
+      "assembly": "MotorArm_PosY",
+      "material": "Steel",
+      "category": "structure",
+      "mass_kg": 0.00011948497879214407,
+      "volume_mm3": 15.221016406642555,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed dimensions and assumed density",
+      "centroid_mm": [
+        555.0,
+        241.0,
+        11.249999999999998
+      ]
+    },
+    {
+      "name": "ClampWasher_PosY_Rear_0_1",
+      "assembly": "MotorArm_PosY",
+      "material": "Steel",
+      "category": "structure",
+      "mass_kg": 0.00011948497879214407,
+      "volume_mm3": 15.221016406642555,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed dimensions and assumed density",
+      "centroid_mm": [
+        555.0,
+        241.0,
+        -24.45
+      ]
+    },
+    {
+      "name": "ClampLocknut_PosY_Rear_0",
+      "assembly": "MotorArm_PosY",
+      "material": "Steel",
+      "category": "structure",
+      "mass_kg": 0.00060041976407739,
+      "volume_mm3": 76.48659414998598,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "5.5 AF x4mm locknut simplified all-steel envelope; mass estimate includes lock insert volume as steel",
+      "centroid_mm": [
+        555.0,
+        241.0,
+        -26.7
+      ]
+    },
+    {
+      "name": "ClampScrew_PosY_Rear_1",
+      "assembly": "MotorArm_PosY",
+      "material": "Steel",
+      "category": "structure",
+      "mass_kg": 0.0030564849451086376,
+      "volume_mm3": 389.361139504285,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "M3x45 simplified envelope, not selected vendor hardware",
+      "centroid_mm": [
+        555.0,
+        289.0,
+        -6.606656580937986
+      ]
+    },
+    {
+      "name": "ClampWasher_PosY_Rear_1_0",
+      "assembly": "MotorArm_PosY",
+      "material": "Steel",
+      "category": "structure",
+      "mass_kg": 0.00011948497879214407,
+      "volume_mm3": 15.221016406642555,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed dimensions and assumed density",
+      "centroid_mm": [
+        555.0,
+        289.0,
+        11.25
+      ]
+    },
+    {
+      "name": "ClampWasher_PosY_Rear_1_1",
+      "assembly": "MotorArm_PosY",
+      "material": "Steel",
+      "category": "structure",
+      "mass_kg": 0.00011948497879214407,
+      "volume_mm3": 15.221016406642555,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed dimensions and assumed density",
+      "centroid_mm": [
+        555.0,
+        289.0,
+        -24.45
+      ]
+    },
+    {
+      "name": "ClampLocknut_PosY_Rear_1",
+      "assembly": "MotorArm_PosY",
+      "material": "Steel",
+      "category": "structure",
+      "mass_kg": 0.00060041976407739,
+      "volume_mm3": 76.48659414998598,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "5.5 AF x4mm locknut simplified all-steel envelope; mass estimate includes lock insert volume as steel",
+      "centroid_mm": [
+        555.0,
+        289.0,
+        -26.700000000000006
+      ]
+    },
+    {
+      "name": "CFRP_Arm_NegY",
+      "assembly": "MotorArm_NegY",
+      "material": "CFRP",
+      "category": "structure",
+      "mass_kg": 0.05376,
+      "volume_mm3": 33600.0,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "P04 native tube: 350x30x20, wall1 mm; independently volume checked",
+      "centroid_mm": [
+        395.0,
+        -265.0,
+        -9.999999999999993
+      ]
+    },
+    {
+      "name": "Wing_Spar_Saddle_NegY",
+      "assembly": "MotorArm_NegY",
+      "material": "GFRP",
+      "category": "structure",
+      "mass_kg": 0.007903200000000004,
+      "volume_mm3": 4272.000000000002,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "P04 exact solid, separated; saddle top/bottom cut for proposed 0.2 mm epoxy interface",
+      "centroid_mm": [
+        356.39999999999986,
+        -265.0,
+        -12.219101123595498
+      ]
+    },
+    {
+      "name": "SaddleBond_NegY_Spar_Top",
+      "assembly": "MotorArm_NegY",
+      "material": "Epoxy",
+      "category": "structure",
+      "mass_kg": 0.0001728,
+      "volume_mm3": 144.0,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed 0.2mm bondline; top/bottom faces only, side gaps unfilled",
+      "centroid_mm": [
+        356.3999999999999,
+        -265.0,
+        0.10000000000000002
+      ]
+    },
+    {
+      "name": "SaddleBond_NegY_Spar_Bottom",
+      "assembly": "MotorArm_NegY",
+      "material": "Epoxy",
+      "category": "structure",
+      "mass_kg": 0.0001727999999999994,
+      "volume_mm3": 143.9999999999995,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed 0.2mm bondline; top/bottom faces only, side gaps unfilled",
+      "centroid_mm": [
+        356.3999999999999,
+        -265.0,
+        -20.099999999999998
+      ]
+    },
+    {
+      "name": "Wing_Spar_Rib1_NegY",
+      "assembly": "MotorArm_NegY",
+      "material": "GFRP",
+      "category": "structure",
+      "mass_kg": 0.002659347200084016,
+      "volume_mm3": 1437.4849730183869,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "P04 exact solid, separated; saddle top/bottom cut for proposed 0.2 mm epoxy interface",
+      "centroid_mm": [
+        379.93223853942175,
+        -280.00025098603925,
+        8.699317584448693
+      ]
+    },
+    {
+      "name": "Wing_Spar_Rib2_NegY",
+      "assembly": "MotorArm_NegY",
+      "material": "GFRP",
+      "category": "structure",
+      "mass_kg": 0.0025867548605809578,
+      "volume_mm3": 1398.2458705843014,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "P04 exact solid, separated; saddle top/bottom cut for proposed 0.2 mm epoxy interface",
+      "centroid_mm": [
+        379.9048169962024,
+        -250.00036192618234,
+        8.262358563471624
+      ]
+    },
+    {
+      "name": "Wing_Rear_Saddle_NegY",
+      "assembly": "MotorArm_NegY",
+      "material": "GFRP",
+      "category": "structure",
+      "mass_kg": 0.007903200000000003,
+      "volume_mm3": 4272.000000000001,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "P04 exact solid, separated; saddle top/bottom cut for proposed 0.2 mm epoxy interface",
+      "centroid_mm": [
+        409.99999999999994,
+        -265.0,
+        -12.219101123595502
+      ]
+    },
+    {
+      "name": "SaddleBond_NegY_Rear_Top",
+      "assembly": "MotorArm_NegY",
+      "material": "Epoxy",
+      "category": "structure",
+      "mass_kg": 0.0001728,
+      "volume_mm3": 144.0,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed 0.2mm bondline; top/bottom faces only, side gaps unfilled",
+      "centroid_mm": [
+        410.0,
+        -265.0,
+        0.10000000000000002
+      ]
+    },
+    {
+      "name": "SaddleBond_NegY_Rear_Bottom",
+      "assembly": "MotorArm_NegY",
+      "material": "Epoxy",
+      "category": "structure",
+      "mass_kg": 0.0001727999999999994,
+      "volume_mm3": 143.9999999999995,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed 0.2mm bondline; top/bottom faces only, side gaps unfilled",
+      "centroid_mm": [
+        409.99999999999994,
+        -265.0,
+        -20.099999999999998
+      ]
+    },
+    {
+      "name": "MotorPlate_NegY_Front",
+      "assembly": "MotorArm_NegY",
+      "material": "GFRP",
+      "category": "structure",
+      "mass_kg": 0.009650535326991198,
+      "volume_mm3": 5216.505582157403,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed dimensions and assumed density",
+      "centroid_mm": [
+        235.00000000000003,
+        -265.0,
+        9.499999999999993
+      ]
+    },
+    {
+      "name": "LowerStrap_NegY_Front",
+      "assembly": "MotorArm_NegY",
+      "material": "GFRP",
+      "category": "structure",
+      "mass_kg": 0.010464457869749741,
+      "volume_mm3": 5656.463713378238,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed dimensions and assumed density",
+      "centroid_mm": [
+        235.0,
+        -265.0,
+        -22.200000000000003
+      ]
+    },
+    {
+      "name": "LowerLiner_NegY_Front",
+      "assembly": "MotorArm_NegY",
+      "material": "Isolation liner",
+      "category": "structure",
+      "mass_kg": 0.0001727999999999994,
+      "volume_mm3": 143.9999999999995,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed dimensions and assumed density",
+      "centroid_mm": [
+        234.99999999999997,
+        -265.0,
+        -20.099999999999998
+      ]
+    },
+    {
+      "name": "Rail_NegY_Front_0",
+      "assembly": "MotorArm_NegY",
+      "material": "GFRP",
+      "category": "structure",
+      "mass_kg": 0.0015747200000000002,
+      "volume_mm3": 851.2,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed dimensions and assumed density",
+      "centroid_mm": [
+        235.0,
+        -278.0,
+        4.0
+      ]
+    },
+    {
+      "name": "TopLiner_NegY_Front_0",
+      "assembly": "MotorArm_NegY",
+      "material": "Isolation liner",
+      "category": "structure",
+      "mass_kg": 2.688e-05,
+      "volume_mm3": 22.4,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed dimensions and assumed density",
+      "centroid_mm": [
+        235.00000000000003,
+        -278.0,
+        0.10000000000000002
+      ]
+    },
+    {
+      "name": "RailBond_NegY_Front_0",
+      "assembly": "MotorArm_NegY",
+      "material": "Epoxy",
+      "category": "structure",
+      "mass_kg": 2.6880000000000027e-05,
+      "volume_mm3": 22.40000000000002,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed dimensions and assumed density",
+      "centroid_mm": [
+        235.0,
+        -278.0,
+        7.8999999999999995
+      ]
+    },
+    {
+      "name": "Rail_NegY_Front_1",
+      "assembly": "MotorArm_NegY",
+      "material": "GFRP",
+      "category": "structure",
+      "mass_kg": 0.0015747200000000002,
+      "volume_mm3": 851.2,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed dimensions and assumed density",
+      "centroid_mm": [
+        235.0,
+        -252.0,
+        4.0
+      ]
+    },
+    {
+      "name": "TopLiner_NegY_Front_1",
+      "assembly": "MotorArm_NegY",
+      "material": "Isolation liner",
+      "category": "structure",
+      "mass_kg": 2.688e-05,
+      "volume_mm3": 22.4,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed dimensions and assumed density",
+      "centroid_mm": [
+        235.00000000000003,
+        -251.99999999999997,
+        0.10000000000000002
+      ]
+    },
+    {
+      "name": "RailBond_NegY_Front_1",
+      "assembly": "MotorArm_NegY",
+      "material": "Epoxy",
+      "category": "structure",
+      "mass_kg": 2.6880000000000027e-05,
+      "volume_mm3": 22.40000000000002,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed dimensions and assumed density",
+      "centroid_mm": [
+        235.0,
+        -252.0,
+        7.8999999999999995
+      ]
+    },
+    {
+      "name": "UM2807_NegY_Front",
+      "assembly": "MotorArm_NegY",
+      "material": "Vendor motor",
+      "category": "motor with wires",
+      "mass_kg": 0.052,
+      "volume_mm3": 18458.40407422192,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Supplier 52g incl 3x200mm wires; nominal envelope and mounting pattern, no internal geometry",
+      "centroid_mm": [
+        234.99999999999997,
+        -265.0,
+        21.928212826414132
+      ]
+    },
+    {
+      "name": "MotorWasher_NegY_Front_0",
+      "assembly": "MotorArm_NegY",
+      "material": "Steel",
+      "category": "structure",
+      "mass_kg": 0.00011948497879214404,
+      "volume_mm3": 15.221016406642551,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed dimensions and assumed density",
+      "centroid_mm": [
+        228.2824855787278,
+        -271.7175144212722,
+        7.75
+      ]
+    },
+    {
+      "name": "MotorScrew_NegY_Front_0",
+      "assembly": "MotorArm_NegY",
+      "material": "Steel",
+      "category": "structure",
+      "mass_kg": 0.000892438115591478,
+      "volume_mm3": 113.68638415178063,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "M3x6 simple major-diameter/head envelope; approximate steel mass, insertion2.5mm unverified safe",
+      "centroid_mm": [
+        228.2824855787278,
+        -271.7175144212722,
+        7.678756476683935
+      ]
+    },
+    {
+      "name": "MotorWasher_NegY_Front_1",
+      "assembly": "MotorArm_NegY",
+      "material": "Steel",
+      "category": "structure",
+      "mass_kg": 0.00011948497879214404,
+      "volume_mm3": 15.221016406642551,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed dimensions and assumed density",
+      "centroid_mm": [
+        228.2824855787278,
+        -258.2824855787278,
+        7.749999999999999
+      ]
+    },
+    {
+      "name": "MotorScrew_NegY_Front_1",
+      "assembly": "MotorArm_NegY",
+      "material": "Steel",
+      "category": "structure",
+      "mass_kg": 0.0008924381155914783,
+      "volume_mm3": 113.68638415178066,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "M3x6 simple major-diameter/head envelope; approximate steel mass, insertion2.5mm unverified safe",
+      "centroid_mm": [
+        228.2824855787278,
+        -258.2824855787278,
+        7.678756476683935
+      ]
+    },
+    {
+      "name": "MotorWasher_NegY_Front_2",
+      "assembly": "MotorArm_NegY",
+      "material": "Steel",
+      "category": "structure",
+      "mass_kg": 0.00011948497879214404,
+      "volume_mm3": 15.221016406642551,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed dimensions and assumed density",
+      "centroid_mm": [
+        241.7175144212722,
+        -271.7175144212722,
+        7.750000000000002
+      ]
+    },
+    {
+      "name": "MotorScrew_NegY_Front_2",
+      "assembly": "MotorArm_NegY",
+      "material": "Steel",
+      "category": "structure",
+      "mass_kg": 0.000892438115591478,
+      "volume_mm3": 113.68638415178063,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "M3x6 simple major-diameter/head envelope; approximate steel mass, insertion2.5mm unverified safe",
+      "centroid_mm": [
+        241.7175144212722,
+        -271.7175144212722,
+        7.678756476683935
+      ]
+    },
+    {
+      "name": "MotorWasher_NegY_Front_3",
+      "assembly": "MotorArm_NegY",
+      "material": "Steel",
+      "category": "structure",
+      "mass_kg": 0.00011948497879214404,
+      "volume_mm3": 15.221016406642551,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed dimensions and assumed density",
+      "centroid_mm": [
+        241.7175144212722,
+        -258.2824855787278,
+        7.749999999999998
+      ]
+    },
+    {
+      "name": "MotorScrew_NegY_Front_3",
+      "assembly": "MotorArm_NegY",
+      "material": "Steel",
+      "category": "structure",
+      "mass_kg": 0.000892438115591478,
+      "volume_mm3": 113.68638415178063,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "M3x6 simple major-diameter/head envelope; approximate steel mass, insertion2.5mm unverified safe",
+      "centroid_mm": [
+        241.7175144212722,
+        -258.2824855787278,
+        7.678756476683935
+      ]
+    },
+    {
+      "name": "ClampScrew_NegY_Front_0",
+      "assembly": "MotorArm_NegY",
+      "material": "Steel",
+      "category": "structure",
+      "mass_kg": 0.0030564849451086376,
+      "volume_mm3": 389.361139504285,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "M3x45 simplified envelope, not selected vendor hardware",
+      "centroid_mm": [
+        235.0,
+        -289.0,
+        -6.606656580937968
+      ]
+    },
+    {
+      "name": "ClampWasher_NegY_Front_0_0",
+      "assembly": "MotorArm_NegY",
+      "material": "Steel",
+      "category": "structure",
+      "mass_kg": 0.00011948497879214407,
+      "volume_mm3": 15.221016406642555,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed dimensions and assumed density",
+      "centroid_mm": [
+        235.0,
+        -289.0,
+        11.250000000000002
+      ]
+    },
+    {
+      "name": "ClampWasher_NegY_Front_0_1",
+      "assembly": "MotorArm_NegY",
+      "material": "Steel",
+      "category": "structure",
+      "mass_kg": 0.00011948497879214407,
+      "volume_mm3": 15.221016406642555,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed dimensions and assumed density",
+      "centroid_mm": [
+        235.0,
+        -289.0,
+        -24.450000000000003
+      ]
+    },
+    {
+      "name": "ClampLocknut_NegY_Front_0",
+      "assembly": "MotorArm_NegY",
+      "material": "Steel",
+      "category": "structure",
+      "mass_kg": 0.00060041976407739,
+      "volume_mm3": 76.48659414998598,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "5.5 AF x4mm locknut simplified all-steel envelope; mass estimate includes lock insert volume as steel",
+      "centroid_mm": [
+        235.00000000000003,
+        -289.0,
+        -26.70000000000001
+      ]
+    },
+    {
+      "name": "ClampScrew_NegY_Front_1",
+      "assembly": "MotorArm_NegY",
+      "material": "Steel",
+      "category": "structure",
+      "mass_kg": 0.0030564849451086376,
+      "volume_mm3": 389.361139504285,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "M3x45 simplified envelope, not selected vendor hardware",
+      "centroid_mm": [
+        235.0,
+        -241.0,
+        -6.606656580937969
+      ]
+    },
+    {
+      "name": "ClampWasher_NegY_Front_1_0",
+      "assembly": "MotorArm_NegY",
+      "material": "Steel",
+      "category": "structure",
+      "mass_kg": 0.00011948497879214407,
+      "volume_mm3": 15.221016406642555,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed dimensions and assumed density",
+      "centroid_mm": [
+        235.0,
+        -241.0,
+        11.249999999999998
+      ]
+    },
+    {
+      "name": "ClampWasher_NegY_Front_1_1",
+      "assembly": "MotorArm_NegY",
+      "material": "Steel",
+      "category": "structure",
+      "mass_kg": 0.00011948497879214407,
+      "volume_mm3": 15.221016406642555,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed dimensions and assumed density",
+      "centroid_mm": [
+        235.0,
+        -241.0,
+        -24.449999999999996
+      ]
+    },
+    {
+      "name": "ClampLocknut_NegY_Front_1",
+      "assembly": "MotorArm_NegY",
+      "material": "Steel",
+      "category": "structure",
+      "mass_kg": 0.00060041976407739,
+      "volume_mm3": 76.48659414998598,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "5.5 AF x4mm locknut simplified all-steel envelope; mass estimate includes lock insert volume as steel",
+      "centroid_mm": [
+        235.0,
+        -241.0,
+        -26.7
+      ]
+    },
+    {
+      "name": "MotorPlate_NegY_Rear",
+      "assembly": "MotorArm_NegY",
+      "material": "GFRP",
+      "category": "structure",
+      "mass_kg": 0.009650535326991198,
+      "volume_mm3": 5216.505582157403,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed dimensions and assumed density",
+      "centroid_mm": [
+        555.0,
+        -265.0,
+        9.49999999999999
+      ]
+    },
+    {
+      "name": "LowerStrap_NegY_Rear",
+      "assembly": "MotorArm_NegY",
+      "material": "GFRP",
+      "category": "structure",
+      "mass_kg": 0.010464457869749741,
+      "volume_mm3": 5656.463713378238,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed dimensions and assumed density",
+      "centroid_mm": [
+        555.0,
+        -265.0,
+        -22.200000000000003
+      ]
+    },
+    {
+      "name": "LowerLiner_NegY_Rear",
+      "assembly": "MotorArm_NegY",
+      "material": "Isolation liner",
+      "category": "structure",
+      "mass_kg": 0.0001727999999999994,
+      "volume_mm3": 143.9999999999995,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed dimensions and assumed density",
+      "centroid_mm": [
+        555.0,
+        -265.0,
+        -20.099999999999998
+      ]
+    },
+    {
+      "name": "Rail_NegY_Rear_0",
+      "assembly": "MotorArm_NegY",
+      "material": "GFRP",
+      "category": "structure",
+      "mass_kg": 0.0015747200000000002,
+      "volume_mm3": 851.2,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed dimensions and assumed density",
+      "centroid_mm": [
+        555.0,
+        -278.0,
+        4.0
+      ]
+    },
+    {
+      "name": "TopLiner_NegY_Rear_0",
+      "assembly": "MotorArm_NegY",
+      "material": "Isolation liner",
+      "category": "structure",
+      "mass_kg": 2.688e-05,
+      "volume_mm3": 22.4,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed dimensions and assumed density",
+      "centroid_mm": [
+        555.0,
+        -278.0,
+        0.10000000000000002
+      ]
+    },
+    {
+      "name": "RailBond_NegY_Rear_0",
+      "assembly": "MotorArm_NegY",
+      "material": "Epoxy",
+      "category": "structure",
+      "mass_kg": 2.6880000000000027e-05,
+      "volume_mm3": 22.40000000000002,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed dimensions and assumed density",
+      "centroid_mm": [
+        555.0,
+        -278.0,
+        7.8999999999999995
+      ]
+    },
+    {
+      "name": "Rail_NegY_Rear_1",
+      "assembly": "MotorArm_NegY",
+      "material": "GFRP",
+      "category": "structure",
+      "mass_kg": 0.0015747200000000002,
+      "volume_mm3": 851.2,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed dimensions and assumed density",
+      "centroid_mm": [
+        555.0,
+        -252.0,
+        4.0
+      ]
+    },
+    {
+      "name": "TopLiner_NegY_Rear_1",
+      "assembly": "MotorArm_NegY",
+      "material": "Isolation liner",
+      "category": "structure",
+      "mass_kg": 2.688e-05,
+      "volume_mm3": 22.4,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed dimensions and assumed density",
+      "centroid_mm": [
+        555.0,
+        -251.99999999999997,
+        0.10000000000000002
+      ]
+    },
+    {
+      "name": "RailBond_NegY_Rear_1",
+      "assembly": "MotorArm_NegY",
+      "material": "Epoxy",
+      "category": "structure",
+      "mass_kg": 2.6880000000000027e-05,
+      "volume_mm3": 22.40000000000002,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed dimensions and assumed density",
+      "centroid_mm": [
+        555.0,
+        -252.0,
+        7.8999999999999995
+      ]
+    },
+    {
+      "name": "UM2807_NegY_Rear",
+      "assembly": "MotorArm_NegY",
+      "material": "Vendor motor",
+      "category": "motor with wires",
+      "mass_kg": 0.052,
+      "volume_mm3": 18458.40407422192,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Supplier 52g incl 3x200mm wires; nominal envelope and mounting pattern, no internal geometry",
+      "centroid_mm": [
+        555.0,
+        -265.0,
+        21.928212826414132
+      ]
+    },
+    {
+      "name": "MotorWasher_NegY_Rear_0",
+      "assembly": "MotorArm_NegY",
+      "material": "Steel",
+      "category": "structure",
+      "mass_kg": 0.00011948497879214404,
+      "volume_mm3": 15.221016406642551,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed dimensions and assumed density",
+      "centroid_mm": [
+        548.2824855787278,
+        -271.7175144212722,
+        7.750000000000001
+      ]
+    },
+    {
+      "name": "MotorScrew_NegY_Rear_0",
+      "assembly": "MotorArm_NegY",
+      "material": "Steel",
+      "category": "structure",
+      "mass_kg": 0.000892438115591478,
+      "volume_mm3": 113.68638415178063,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "M3x6 simple major-diameter/head envelope; approximate steel mass, insertion2.5mm unverified safe",
+      "centroid_mm": [
+        548.2824855787278,
+        -271.7175144212722,
+        7.67875647668394
+      ]
+    },
+    {
+      "name": "MotorWasher_NegY_Rear_1",
+      "assembly": "MotorArm_NegY",
+      "material": "Steel",
+      "category": "structure",
+      "mass_kg": 0.00011948497879214404,
+      "volume_mm3": 15.221016406642551,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed dimensions and assumed density",
+      "centroid_mm": [
+        548.2824855787278,
+        -258.2824855787278,
+        7.750000000000001
+      ]
+    },
+    {
+      "name": "MotorScrew_NegY_Rear_1",
+      "assembly": "MotorArm_NegY",
+      "material": "Steel",
+      "category": "structure",
+      "mass_kg": 0.0008924381155914783,
+      "volume_mm3": 113.68638415178066,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "M3x6 simple major-diameter/head envelope; approximate steel mass, insertion2.5mm unverified safe",
+      "centroid_mm": [
+        548.2824855787278,
+        -258.2824855787278,
+        7.67875647668394
+      ]
+    },
+    {
+      "name": "MotorWasher_NegY_Rear_2",
+      "assembly": "MotorArm_NegY",
+      "material": "Steel",
+      "category": "structure",
+      "mass_kg": 0.00011948497879214404,
+      "volume_mm3": 15.221016406642551,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed dimensions and assumed density",
+      "centroid_mm": [
+        561.7175144212722,
+        -271.7175144212722,
+        7.749999999999998
+      ]
+    },
+    {
+      "name": "MotorScrew_NegY_Rear_2",
+      "assembly": "MotorArm_NegY",
+      "material": "Steel",
+      "category": "structure",
+      "mass_kg": 0.000892438115591478,
+      "volume_mm3": 113.68638415178063,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "M3x6 simple major-diameter/head envelope; approximate steel mass, insertion2.5mm unverified safe",
+      "centroid_mm": [
+        561.7175144212722,
+        -271.7175144212722,
+        7.67875647668394
+      ]
+    },
+    {
+      "name": "MotorWasher_NegY_Rear_3",
+      "assembly": "MotorArm_NegY",
+      "material": "Steel",
+      "category": "structure",
+      "mass_kg": 0.00011948497879214404,
+      "volume_mm3": 15.221016406642551,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed dimensions and assumed density",
+      "centroid_mm": [
+        561.7175144212722,
+        -258.2824855787278,
+        7.75
+      ]
+    },
+    {
+      "name": "MotorScrew_NegY_Rear_3",
+      "assembly": "MotorArm_NegY",
+      "material": "Steel",
+      "category": "structure",
+      "mass_kg": 0.000892438115591478,
+      "volume_mm3": 113.68638415178063,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "M3x6 simple major-diameter/head envelope; approximate steel mass, insertion2.5mm unverified safe",
+      "centroid_mm": [
+        561.7175144212722,
+        -258.2824855787278,
+        7.67875647668394
+      ]
+    },
+    {
+      "name": "ClampScrew_NegY_Rear_0",
+      "assembly": "MotorArm_NegY",
+      "material": "Steel",
+      "category": "structure",
+      "mass_kg": 0.0030564849451086376,
+      "volume_mm3": 389.361139504285,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "M3x45 simplified envelope, not selected vendor hardware",
+      "centroid_mm": [
+        555.0,
+        -289.0,
+        -6.606656580937986
+      ]
+    },
+    {
+      "name": "ClampWasher_NegY_Rear_0_0",
+      "assembly": "MotorArm_NegY",
+      "material": "Steel",
+      "category": "structure",
+      "mass_kg": 0.00011948497879214407,
+      "volume_mm3": 15.221016406642555,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed dimensions and assumed density",
+      "centroid_mm": [
+        555.0,
+        -289.0,
+        11.25
+      ]
+    },
+    {
+      "name": "ClampWasher_NegY_Rear_0_1",
+      "assembly": "MotorArm_NegY",
+      "material": "Steel",
+      "category": "structure",
+      "mass_kg": 0.00011948497879214407,
+      "volume_mm3": 15.221016406642555,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed dimensions and assumed density",
+      "centroid_mm": [
+        555.0,
+        -289.0,
+        -24.45
+      ]
+    },
+    {
+      "name": "ClampLocknut_NegY_Rear_0",
+      "assembly": "MotorArm_NegY",
+      "material": "Steel",
+      "category": "structure",
+      "mass_kg": 0.00060041976407739,
+      "volume_mm3": 76.48659414998598,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "5.5 AF x4mm locknut simplified all-steel envelope; mass estimate includes lock insert volume as steel",
+      "centroid_mm": [
+        555.0,
+        -289.0,
+        -26.700000000000006
+      ]
+    },
+    {
+      "name": "ClampScrew_NegY_Rear_1",
+      "assembly": "MotorArm_NegY",
+      "material": "Steel",
+      "category": "structure",
+      "mass_kg": 0.0030564849451086376,
+      "volume_mm3": 389.361139504285,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "M3x45 simplified envelope, not selected vendor hardware",
+      "centroid_mm": [
+        555.0,
+        -241.00000000000003,
+        -6.60665658093799
+      ]
+    },
+    {
+      "name": "ClampWasher_NegY_Rear_1_0",
+      "assembly": "MotorArm_NegY",
+      "material": "Steel",
+      "category": "structure",
+      "mass_kg": 0.00011948497879214407,
+      "volume_mm3": 15.221016406642555,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed dimensions and assumed density",
+      "centroid_mm": [
+        555.0,
+        -241.0,
+        11.249999999999998
+      ]
+    },
+    {
+      "name": "ClampWasher_NegY_Rear_1_1",
+      "assembly": "MotorArm_NegY",
+      "material": "Steel",
+      "category": "structure",
+      "mass_kg": 0.00011948497879214407,
+      "volume_mm3": 15.221016406642555,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "Proposed dimensions and assumed density",
+      "centroid_mm": [
+        555.0,
+        -241.0,
+        -24.45
+      ]
+    },
+    {
+      "name": "ClampLocknut_NegY_Rear_1",
+      "assembly": "MotorArm_NegY",
+      "material": "Steel",
+      "category": "structure",
+      "mass_kg": 0.00060041976407739,
+      "volume_mm3": 76.48659414998598,
+      "valid": true,
+      "solid_count": 1,
+      "basis": "5.5 AF x4mm locknut simplified all-steel envelope; mass estimate includes lock insert volume as steel",
+      "centroid_mm": [
+        555.0,
+        -241.0,
+        -26.7
+      ]
+    }
+  ],
+  "joints": [
+    {
+      "name": "Fix_Wing_Spar_Saddle_PosY",
+      "parent": "CFRP_Arm_PosY",
+      "child": "Wing_Spar_Saddle_PosY",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_SaddleBond_PosY_Spar_Top",
+      "parent": "CFRP_Arm_PosY",
+      "child": "SaddleBond_PosY_Spar_Top",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_SaddleBond_PosY_Spar_Bottom",
+      "parent": "CFRP_Arm_PosY",
+      "child": "SaddleBond_PosY_Spar_Bottom",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_Wing_Spar_Rib1_PosY",
+      "parent": "CFRP_Arm_PosY",
+      "child": "Wing_Spar_Rib1_PosY",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_Wing_Spar_Rib2_PosY",
+      "parent": "CFRP_Arm_PosY",
+      "child": "Wing_Spar_Rib2_PosY",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_Wing_Rear_Saddle_PosY",
+      "parent": "CFRP_Arm_PosY",
+      "child": "Wing_Rear_Saddle_PosY",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_SaddleBond_PosY_Rear_Top",
+      "parent": "CFRP_Arm_PosY",
+      "child": "SaddleBond_PosY_Rear_Top",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_SaddleBond_PosY_Rear_Bottom",
+      "parent": "CFRP_Arm_PosY",
+      "child": "SaddleBond_PosY_Rear_Bottom",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_MotorPlate_PosY_Front",
+      "parent": "CFRP_Arm_PosY",
+      "child": "MotorPlate_PosY_Front",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_LowerStrap_PosY_Front",
+      "parent": "MotorPlate_PosY_Front",
+      "child": "LowerStrap_PosY_Front",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_LowerLiner_PosY_Front",
+      "parent": "MotorPlate_PosY_Front",
+      "child": "LowerLiner_PosY_Front",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_Rail_PosY_Front_0",
+      "parent": "MotorPlate_PosY_Front",
+      "child": "Rail_PosY_Front_0",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_TopLiner_PosY_Front_0",
+      "parent": "MotorPlate_PosY_Front",
+      "child": "TopLiner_PosY_Front_0",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_RailBond_PosY_Front_0",
+      "parent": "MotorPlate_PosY_Front",
+      "child": "RailBond_PosY_Front_0",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_Rail_PosY_Front_1",
+      "parent": "MotorPlate_PosY_Front",
+      "child": "Rail_PosY_Front_1",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_TopLiner_PosY_Front_1",
+      "parent": "MotorPlate_PosY_Front",
+      "child": "TopLiner_PosY_Front_1",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_RailBond_PosY_Front_1",
+      "parent": "MotorPlate_PosY_Front",
+      "child": "RailBond_PosY_Front_1",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_UM2807_PosY_Front",
+      "parent": "MotorPlate_PosY_Front",
+      "child": "UM2807_PosY_Front",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_MotorWasher_PosY_Front_0",
+      "parent": "MotorPlate_PosY_Front",
+      "child": "MotorWasher_PosY_Front_0",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_MotorScrew_PosY_Front_0",
+      "parent": "MotorPlate_PosY_Front",
+      "child": "MotorScrew_PosY_Front_0",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_MotorWasher_PosY_Front_1",
+      "parent": "MotorPlate_PosY_Front",
+      "child": "MotorWasher_PosY_Front_1",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_MotorScrew_PosY_Front_1",
+      "parent": "MotorPlate_PosY_Front",
+      "child": "MotorScrew_PosY_Front_1",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_MotorWasher_PosY_Front_2",
+      "parent": "MotorPlate_PosY_Front",
+      "child": "MotorWasher_PosY_Front_2",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_MotorScrew_PosY_Front_2",
+      "parent": "MotorPlate_PosY_Front",
+      "child": "MotorScrew_PosY_Front_2",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_MotorWasher_PosY_Front_3",
+      "parent": "MotorPlate_PosY_Front",
+      "child": "MotorWasher_PosY_Front_3",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_MotorScrew_PosY_Front_3",
+      "parent": "MotorPlate_PosY_Front",
+      "child": "MotorScrew_PosY_Front_3",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_ClampScrew_PosY_Front_0",
+      "parent": "MotorPlate_PosY_Front",
+      "child": "ClampScrew_PosY_Front_0",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_ClampWasher_PosY_Front_0_0",
+      "parent": "MotorPlate_PosY_Front",
+      "child": "ClampWasher_PosY_Front_0_0",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_ClampWasher_PosY_Front_0_1",
+      "parent": "MotorPlate_PosY_Front",
+      "child": "ClampWasher_PosY_Front_0_1",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_ClampLocknut_PosY_Front_0",
+      "parent": "MotorPlate_PosY_Front",
+      "child": "ClampLocknut_PosY_Front_0",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_ClampScrew_PosY_Front_1",
+      "parent": "MotorPlate_PosY_Front",
+      "child": "ClampScrew_PosY_Front_1",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_ClampWasher_PosY_Front_1_0",
+      "parent": "MotorPlate_PosY_Front",
+      "child": "ClampWasher_PosY_Front_1_0",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_ClampWasher_PosY_Front_1_1",
+      "parent": "MotorPlate_PosY_Front",
+      "child": "ClampWasher_PosY_Front_1_1",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_ClampLocknut_PosY_Front_1",
+      "parent": "MotorPlate_PosY_Front",
+      "child": "ClampLocknut_PosY_Front_1",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_MotorPlate_PosY_Rear",
+      "parent": "CFRP_Arm_PosY",
+      "child": "MotorPlate_PosY_Rear",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_LowerStrap_PosY_Rear",
+      "parent": "MotorPlate_PosY_Rear",
+      "child": "LowerStrap_PosY_Rear",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_LowerLiner_PosY_Rear",
+      "parent": "MotorPlate_PosY_Rear",
+      "child": "LowerLiner_PosY_Rear",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_Rail_PosY_Rear_0",
+      "parent": "MotorPlate_PosY_Rear",
+      "child": "Rail_PosY_Rear_0",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_TopLiner_PosY_Rear_0",
+      "parent": "MotorPlate_PosY_Rear",
+      "child": "TopLiner_PosY_Rear_0",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_RailBond_PosY_Rear_0",
+      "parent": "MotorPlate_PosY_Rear",
+      "child": "RailBond_PosY_Rear_0",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_Rail_PosY_Rear_1",
+      "parent": "MotorPlate_PosY_Rear",
+      "child": "Rail_PosY_Rear_1",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_TopLiner_PosY_Rear_1",
+      "parent": "MotorPlate_PosY_Rear",
+      "child": "TopLiner_PosY_Rear_1",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_RailBond_PosY_Rear_1",
+      "parent": "MotorPlate_PosY_Rear",
+      "child": "RailBond_PosY_Rear_1",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_UM2807_PosY_Rear",
+      "parent": "MotorPlate_PosY_Rear",
+      "child": "UM2807_PosY_Rear",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_MotorWasher_PosY_Rear_0",
+      "parent": "MotorPlate_PosY_Rear",
+      "child": "MotorWasher_PosY_Rear_0",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_MotorScrew_PosY_Rear_0",
+      "parent": "MotorPlate_PosY_Rear",
+      "child": "MotorScrew_PosY_Rear_0",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_MotorWasher_PosY_Rear_1",
+      "parent": "MotorPlate_PosY_Rear",
+      "child": "MotorWasher_PosY_Rear_1",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_MotorScrew_PosY_Rear_1",
+      "parent": "MotorPlate_PosY_Rear",
+      "child": "MotorScrew_PosY_Rear_1",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_MotorWasher_PosY_Rear_2",
+      "parent": "MotorPlate_PosY_Rear",
+      "child": "MotorWasher_PosY_Rear_2",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_MotorScrew_PosY_Rear_2",
+      "parent": "MotorPlate_PosY_Rear",
+      "child": "MotorScrew_PosY_Rear_2",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_MotorWasher_PosY_Rear_3",
+      "parent": "MotorPlate_PosY_Rear",
+      "child": "MotorWasher_PosY_Rear_3",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_MotorScrew_PosY_Rear_3",
+      "parent": "MotorPlate_PosY_Rear",
+      "child": "MotorScrew_PosY_Rear_3",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_ClampScrew_PosY_Rear_0",
+      "parent": "MotorPlate_PosY_Rear",
+      "child": "ClampScrew_PosY_Rear_0",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_ClampWasher_PosY_Rear_0_0",
+      "parent": "MotorPlate_PosY_Rear",
+      "child": "ClampWasher_PosY_Rear_0_0",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_ClampWasher_PosY_Rear_0_1",
+      "parent": "MotorPlate_PosY_Rear",
+      "child": "ClampWasher_PosY_Rear_0_1",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_ClampLocknut_PosY_Rear_0",
+      "parent": "MotorPlate_PosY_Rear",
+      "child": "ClampLocknut_PosY_Rear_0",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_ClampScrew_PosY_Rear_1",
+      "parent": "MotorPlate_PosY_Rear",
+      "child": "ClampScrew_PosY_Rear_1",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_ClampWasher_PosY_Rear_1_0",
+      "parent": "MotorPlate_PosY_Rear",
+      "child": "ClampWasher_PosY_Rear_1_0",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_ClampWasher_PosY_Rear_1_1",
+      "parent": "MotorPlate_PosY_Rear",
+      "child": "ClampWasher_PosY_Rear_1_1",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_ClampLocknut_PosY_Rear_1",
+      "parent": "MotorPlate_PosY_Rear",
+      "child": "ClampLocknut_PosY_Rear_1",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_Wing_Spar_Saddle_NegY",
+      "parent": "CFRP_Arm_NegY",
+      "child": "Wing_Spar_Saddle_NegY",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_SaddleBond_NegY_Spar_Top",
+      "parent": "CFRP_Arm_NegY",
+      "child": "SaddleBond_NegY_Spar_Top",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_SaddleBond_NegY_Spar_Bottom",
+      "parent": "CFRP_Arm_NegY",
+      "child": "SaddleBond_NegY_Spar_Bottom",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_Wing_Spar_Rib1_NegY",
+      "parent": "CFRP_Arm_NegY",
+      "child": "Wing_Spar_Rib1_NegY",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_Wing_Spar_Rib2_NegY",
+      "parent": "CFRP_Arm_NegY",
+      "child": "Wing_Spar_Rib2_NegY",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_Wing_Rear_Saddle_NegY",
+      "parent": "CFRP_Arm_NegY",
+      "child": "Wing_Rear_Saddle_NegY",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_SaddleBond_NegY_Rear_Top",
+      "parent": "CFRP_Arm_NegY",
+      "child": "SaddleBond_NegY_Rear_Top",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_SaddleBond_NegY_Rear_Bottom",
+      "parent": "CFRP_Arm_NegY",
+      "child": "SaddleBond_NegY_Rear_Bottom",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_MotorPlate_NegY_Front",
+      "parent": "CFRP_Arm_NegY",
+      "child": "MotorPlate_NegY_Front",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_LowerStrap_NegY_Front",
+      "parent": "MotorPlate_NegY_Front",
+      "child": "LowerStrap_NegY_Front",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_LowerLiner_NegY_Front",
+      "parent": "MotorPlate_NegY_Front",
+      "child": "LowerLiner_NegY_Front",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_Rail_NegY_Front_0",
+      "parent": "MotorPlate_NegY_Front",
+      "child": "Rail_NegY_Front_0",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_TopLiner_NegY_Front_0",
+      "parent": "MotorPlate_NegY_Front",
+      "child": "TopLiner_NegY_Front_0",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_RailBond_NegY_Front_0",
+      "parent": "MotorPlate_NegY_Front",
+      "child": "RailBond_NegY_Front_0",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_Rail_NegY_Front_1",
+      "parent": "MotorPlate_NegY_Front",
+      "child": "Rail_NegY_Front_1",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_TopLiner_NegY_Front_1",
+      "parent": "MotorPlate_NegY_Front",
+      "child": "TopLiner_NegY_Front_1",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_RailBond_NegY_Front_1",
+      "parent": "MotorPlate_NegY_Front",
+      "child": "RailBond_NegY_Front_1",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_UM2807_NegY_Front",
+      "parent": "MotorPlate_NegY_Front",
+      "child": "UM2807_NegY_Front",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_MotorWasher_NegY_Front_0",
+      "parent": "MotorPlate_NegY_Front",
+      "child": "MotorWasher_NegY_Front_0",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_MotorScrew_NegY_Front_0",
+      "parent": "MotorPlate_NegY_Front",
+      "child": "MotorScrew_NegY_Front_0",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_MotorWasher_NegY_Front_1",
+      "parent": "MotorPlate_NegY_Front",
+      "child": "MotorWasher_NegY_Front_1",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_MotorScrew_NegY_Front_1",
+      "parent": "MotorPlate_NegY_Front",
+      "child": "MotorScrew_NegY_Front_1",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_MotorWasher_NegY_Front_2",
+      "parent": "MotorPlate_NegY_Front",
+      "child": "MotorWasher_NegY_Front_2",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_MotorScrew_NegY_Front_2",
+      "parent": "MotorPlate_NegY_Front",
+      "child": "MotorScrew_NegY_Front_2",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_MotorWasher_NegY_Front_3",
+      "parent": "MotorPlate_NegY_Front",
+      "child": "MotorWasher_NegY_Front_3",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_MotorScrew_NegY_Front_3",
+      "parent": "MotorPlate_NegY_Front",
+      "child": "MotorScrew_NegY_Front_3",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_ClampScrew_NegY_Front_0",
+      "parent": "MotorPlate_NegY_Front",
+      "child": "ClampScrew_NegY_Front_0",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_ClampWasher_NegY_Front_0_0",
+      "parent": "MotorPlate_NegY_Front",
+      "child": "ClampWasher_NegY_Front_0_0",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_ClampWasher_NegY_Front_0_1",
+      "parent": "MotorPlate_NegY_Front",
+      "child": "ClampWasher_NegY_Front_0_1",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_ClampLocknut_NegY_Front_0",
+      "parent": "MotorPlate_NegY_Front",
+      "child": "ClampLocknut_NegY_Front_0",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_ClampScrew_NegY_Front_1",
+      "parent": "MotorPlate_NegY_Front",
+      "child": "ClampScrew_NegY_Front_1",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_ClampWasher_NegY_Front_1_0",
+      "parent": "MotorPlate_NegY_Front",
+      "child": "ClampWasher_NegY_Front_1_0",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_ClampWasher_NegY_Front_1_1",
+      "parent": "MotorPlate_NegY_Front",
+      "child": "ClampWasher_NegY_Front_1_1",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_ClampLocknut_NegY_Front_1",
+      "parent": "MotorPlate_NegY_Front",
+      "child": "ClampLocknut_NegY_Front_1",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_MotorPlate_NegY_Rear",
+      "parent": "CFRP_Arm_NegY",
+      "child": "MotorPlate_NegY_Rear",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_LowerStrap_NegY_Rear",
+      "parent": "MotorPlate_NegY_Rear",
+      "child": "LowerStrap_NegY_Rear",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_LowerLiner_NegY_Rear",
+      "parent": "MotorPlate_NegY_Rear",
+      "child": "LowerLiner_NegY_Rear",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_Rail_NegY_Rear_0",
+      "parent": "MotorPlate_NegY_Rear",
+      "child": "Rail_NegY_Rear_0",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_TopLiner_NegY_Rear_0",
+      "parent": "MotorPlate_NegY_Rear",
+      "child": "TopLiner_NegY_Rear_0",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_RailBond_NegY_Rear_0",
+      "parent": "MotorPlate_NegY_Rear",
+      "child": "RailBond_NegY_Rear_0",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_Rail_NegY_Rear_1",
+      "parent": "MotorPlate_NegY_Rear",
+      "child": "Rail_NegY_Rear_1",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_TopLiner_NegY_Rear_1",
+      "parent": "MotorPlate_NegY_Rear",
+      "child": "TopLiner_NegY_Rear_1",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_RailBond_NegY_Rear_1",
+      "parent": "MotorPlate_NegY_Rear",
+      "child": "RailBond_NegY_Rear_1",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_UM2807_NegY_Rear",
+      "parent": "MotorPlate_NegY_Rear",
+      "child": "UM2807_NegY_Rear",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_MotorWasher_NegY_Rear_0",
+      "parent": "MotorPlate_NegY_Rear",
+      "child": "MotorWasher_NegY_Rear_0",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_MotorScrew_NegY_Rear_0",
+      "parent": "MotorPlate_NegY_Rear",
+      "child": "MotorScrew_NegY_Rear_0",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_MotorWasher_NegY_Rear_1",
+      "parent": "MotorPlate_NegY_Rear",
+      "child": "MotorWasher_NegY_Rear_1",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_MotorScrew_NegY_Rear_1",
+      "parent": "MotorPlate_NegY_Rear",
+      "child": "MotorScrew_NegY_Rear_1",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_MotorWasher_NegY_Rear_2",
+      "parent": "MotorPlate_NegY_Rear",
+      "child": "MotorWasher_NegY_Rear_2",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_MotorScrew_NegY_Rear_2",
+      "parent": "MotorPlate_NegY_Rear",
+      "child": "MotorScrew_NegY_Rear_2",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_MotorWasher_NegY_Rear_3",
+      "parent": "MotorPlate_NegY_Rear",
+      "child": "MotorWasher_NegY_Rear_3",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_MotorScrew_NegY_Rear_3",
+      "parent": "MotorPlate_NegY_Rear",
+      "child": "MotorScrew_NegY_Rear_3",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_ClampScrew_NegY_Rear_0",
+      "parent": "MotorPlate_NegY_Rear",
+      "child": "ClampScrew_NegY_Rear_0",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_ClampWasher_NegY_Rear_0_0",
+      "parent": "MotorPlate_NegY_Rear",
+      "child": "ClampWasher_NegY_Rear_0_0",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_ClampWasher_NegY_Rear_0_1",
+      "parent": "MotorPlate_NegY_Rear",
+      "child": "ClampWasher_NegY_Rear_0_1",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_ClampLocknut_NegY_Rear_0",
+      "parent": "MotorPlate_NegY_Rear",
+      "child": "ClampLocknut_NegY_Rear_0",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_ClampScrew_NegY_Rear_1",
+      "parent": "MotorPlate_NegY_Rear",
+      "child": "ClampScrew_NegY_Rear_1",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_ClampWasher_NegY_Rear_1_0",
+      "parent": "MotorPlate_NegY_Rear",
+      "child": "ClampWasher_NegY_Rear_1_0",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_ClampWasher_NegY_Rear_1_1",
+      "parent": "MotorPlate_NegY_Rear",
+      "child": "ClampWasher_NegY_Rear_1_1",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_ClampLocknut_NegY_Rear_1",
+      "parent": "MotorPlate_NegY_Rear",
+      "child": "ClampLocknut_NegY_Rear_1",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    },
+    {
+      "name": "Fix_MotorArm_NegY",
+      "parent": "MotorArm_PosY",
+      "child": "MotorArm_NegY",
+      "type": "Fixed",
+      "connector_basis": "Explicit nominal component datums; detached from generated face numbering"
+    }
+  ],
+  "solver_tests": [
+    {
+      "assembly": "MotorArm_PosY",
+      "solve_code": 0,
+      "component_count": 61
+    },
+    {
+      "assembly": "MotorArm_NegY",
+      "solve_code": 0,
+      "component_count": 61
+    },
+    {
+      "test": "Perturb motor plate then solve",
+      "solve_code": 0,
+      "position_residual_mm": 0.0
+    }
+  ],
+  "root_solve_code": 0,
+  "interferences": [],
+  "clearances": [
+    {
+      "check": "max_bell_to_mount",
+      "station": "PosY_Front",
+      "min_distance_mm": 3.0,
+      "nearest": "MotorPlate_PosY_Front"
+    },
+    {
+      "check": "prop_sweep_to_mount",
+      "station": "PosY_Front",
+      "min_distance_mm": 20.5,
+      "nearest": "ClampScrew_PosY_Front_0"
+    },
+    {
+      "check": "prop_to_P04_airframe",
+      "station": "PosY_Front",
+      "target": "Wing_PosY_GFRP_Skin_Exposed",
+      "min_distance_mm": 19.595023776338177,
+      "intersection_mm3": 0.0
+    },
+    {
+      "check": "prop_to_P04_airframe",
+      "station": "PosY_Front",
+      "target": "Wing_PosY_Ravatherm_Core_Exposed",
+      "min_distance_mm": 19.924882425513513,
+      "intersection_mm3": 0.0
+    },
+    {
+      "check": "prop_to_P04_airframe",
+      "station": "PosY_Front",
+      "target": "Fuselage_GFRP_Shell_0330",
+      "min_distance_mm": 97.36923825040296,
+      "intersection_mm3": 0.0
+    },
+    {
+      "check": "ClampTopTool_stage",
+      "station": "PosY_Front",
+      "collisions": [],
+      "status": "CLEAR for assumed gauge"
+    },
+    {
+      "check": "ClampNutTool_stage",
+      "station": "PosY_Front",
+      "collisions": [],
+      "status": "CLEAR for assumed gauge"
+    },
+    {
+      "check": "WireRoute_stage",
+      "station": "PosY_Front",
+      "collisions": [],
+      "status": "CLEAR for assumed gauge"
+    },
+    {
+      "check": "MotorTool_stage",
+      "station": "PosY_Front",
+      "collisions": [
+        {
+          "gauge": "MotorTool_PosY_Front_0",
+          "part": "CFRP_Arm_PosY",
+          "overlap_mm3": 25.13274122871843
+        },
+        {
+          "gauge": "MotorTool_PosY_Front_0",
+          "part": "LowerStrap_PosY_Front",
+          "overlap_mm3": 50.265482457436896
+        },
+        {
+          "gauge": "MotorTool_PosY_Front_0",
+          "part": "LowerLiner_PosY_Front",
+          "overlap_mm3": 2.5132741228718336
+        },
+        {
+          "gauge": "MotorTool_PosY_Front_1",
+          "part": "CFRP_Arm_PosY",
+          "overlap_mm3": 25.13274122871843
+        },
+        {
+          "gauge": "MotorTool_PosY_Front_1",
+          "part": "LowerStrap_PosY_Front",
+          "overlap_mm3": 50.265482457436896
+        },
+        {
+          "gauge": "MotorTool_PosY_Front_1",
+          "part": "LowerLiner_PosY_Front",
+          "overlap_mm3": 2.5132741228718336
+        },
+        {
+          "gauge": "MotorTool_PosY_Front_2",
+          "part": "CFRP_Arm_PosY",
+          "overlap_mm3": 25.13274122871845
+        },
+        {
+          "gauge": "MotorTool_PosY_Front_2",
+          "part": "LowerStrap_PosY_Front",
+          "overlap_mm3": 50.265482457436896
+        },
+        {
+          "gauge": "MotorTool_PosY_Front_2",
+          "part": "LowerLiner_PosY_Front",
+          "overlap_mm3": 2.5132741228718336
+        },
+        {
+          "gauge": "MotorTool_PosY_Front_3",
+          "part": "CFRP_Arm_PosY",
+          "overlap_mm3": 25.13274122871845
+        },
+        {
+          "gauge": "MotorTool_PosY_Front_3",
+          "part": "LowerStrap_PosY_Front",
+          "overlap_mm3": 50.265482457436896
+        },
+        {
+          "gauge": "MotorTool_PosY_Front_3",
+          "part": "LowerLiner_PosY_Front",
+          "overlap_mm3": 2.5132741228718336
+        }
+      ],
+      "status": "BENCH INSTALLATION REQUIRED"
+    },
+    {
+      "check": "max_bell_to_mount",
+      "station": "PosY_Rear",
+      "min_distance_mm": 3.0,
+      "nearest": "MotorPlate_PosY_Rear"
+    },
+    {
+      "check": "prop_sweep_to_mount",
+      "station": "PosY_Rear",
+      "min_distance_mm": 20.5,
+      "nearest": "ClampScrew_PosY_Rear_0"
+    },
+    {
+      "check": "prop_to_P04_airframe",
+      "station": "PosY_Rear",
+      "target": "Wing_PosY_GFRP_Skin_Exposed",
+      "min_distance_mm": 25.090246395173562,
+      "intersection_mm3": 0.0
+    },
+    {
+      "check": "prop_to_P04_airframe",
+      "station": "PosY_Rear",
+      "target": "Wing_PosY_Ravatherm_Core_Exposed",
+      "min_distance_mm": 25.42006715628237,
+      "intersection_mm3": 0.0
+    },
+    {
+      "check": "prop_to_P04_airframe",
+      "station": "PosY_Rear",
+      "target": "Fuselage_GFRP_Shell_0330",
+      "min_distance_mm": 98.16406425395101,
+      "intersection_mm3": 0.0
+    },
+    {
+      "check": "ClampTopTool_stage",
+      "station": "PosY_Rear",
+      "collisions": [],
+      "status": "CLEAR for assumed gauge"
+    },
+    {
+      "check": "ClampNutTool_stage",
+      "station": "PosY_Rear",
+      "collisions": [],
+      "status": "CLEAR for assumed gauge"
+    },
+    {
+      "check": "WireRoute_stage",
+      "station": "PosY_Rear",
+      "collisions": [],
+      "status": "CLEAR for assumed gauge"
+    },
+    {
+      "check": "MotorTool_stage",
+      "station": "PosY_Rear",
+      "collisions": [
+        {
+          "gauge": "MotorTool_PosY_Rear_0",
+          "part": "CFRP_Arm_PosY",
+          "overlap_mm3": 25.132741228718388
+        },
+        {
+          "gauge": "MotorTool_PosY_Rear_0",
+          "part": "LowerStrap_PosY_Rear",
+          "overlap_mm3": 50.26548245743672
+        },
+        {
+          "gauge": "MotorTool_PosY_Rear_0",
+          "part": "LowerLiner_PosY_Rear",
+          "overlap_mm3": 2.5132741228718247
+        },
+        {
+          "gauge": "MotorTool_PosY_Rear_1",
+          "part": "CFRP_Arm_PosY",
+          "overlap_mm3": 25.132741228718388
+        },
+        {
+          "gauge": "MotorTool_PosY_Rear_1",
+          "part": "LowerStrap_PosY_Rear",
+          "overlap_mm3": 50.26548245743672
+        },
+        {
+          "gauge": "MotorTool_PosY_Rear_1",
+          "part": "LowerLiner_PosY_Rear",
+          "overlap_mm3": 2.5132741228718247
+        },
+        {
+          "gauge": "MotorTool_PosY_Rear_2",
+          "part": "CFRP_Arm_PosY",
+          "overlap_mm3": 25.132741228718388
+        },
+        {
+          "gauge": "MotorTool_PosY_Rear_2",
+          "part": "LowerStrap_PosY_Rear",
+          "overlap_mm3": 50.265482457436725
+        },
+        {
+          "gauge": "MotorTool_PosY_Rear_2",
+          "part": "LowerLiner_PosY_Rear",
+          "overlap_mm3": 2.513274122871825
+        },
+        {
+          "gauge": "MotorTool_PosY_Rear_3",
+          "part": "CFRP_Arm_PosY",
+          "overlap_mm3": 25.132741228718388
+        },
+        {
+          "gauge": "MotorTool_PosY_Rear_3",
+          "part": "LowerStrap_PosY_Rear",
+          "overlap_mm3": 50.265482457436725
+        },
+        {
+          "gauge": "MotorTool_PosY_Rear_3",
+          "part": "LowerLiner_PosY_Rear",
+          "overlap_mm3": 2.5132741228718247
+        }
+      ],
+      "status": "BENCH INSTALLATION REQUIRED"
+    },
+    {
+      "check": "max_bell_to_mount",
+      "station": "NegY_Front",
+      "min_distance_mm": 3.0,
+      "nearest": "MotorPlate_NegY_Front"
+    },
+    {
+      "check": "prop_sweep_to_mount",
+      "station": "NegY_Front",
+      "min_distance_mm": 20.5,
+      "nearest": "ClampScrew_NegY_Front_0"
+    },
+    {
+      "check": "prop_to_P04_airframe",
+      "station": "NegY_Front",
+      "target": "Wing_NegY_GFRP_Skin_Exposed",
+      "min_distance_mm": 19.595023776338177,
+      "intersection_mm3": 0.0
+    },
+    {
+      "check": "prop_to_P04_airframe",
+      "station": "NegY_Front",
+      "target": "Wing_NegY_Ravatherm_Core_Exposed",
+      "min_distance_mm": 19.924882425513513,
+      "intersection_mm3": 0.0
+    },
+    {
+      "check": "prop_to_P04_airframe",
+      "station": "NegY_Front",
+      "target": "Fuselage_GFRP_Shell_0330",
+      "min_distance_mm": 97.36923825040296,
+      "intersection_mm3": 0.0
+    },
+    {
+      "check": "ClampTopTool_stage",
+      "station": "NegY_Front",
+      "collisions": [],
+      "status": "CLEAR for assumed gauge"
+    },
+    {
+      "check": "ClampNutTool_stage",
+      "station": "NegY_Front",
+      "collisions": [],
+      "status": "CLEAR for assumed gauge"
+    },
+    {
+      "check": "WireRoute_stage",
+      "station": "NegY_Front",
+      "collisions": [],
+      "status": "CLEAR for assumed gauge"
+    },
+    {
+      "check": "MotorTool_stage",
+      "station": "NegY_Front",
+      "collisions": [
+        {
+          "gauge": "MotorTool_NegY_Front_0",
+          "part": "CFRP_Arm_NegY",
+          "overlap_mm3": 25.13274122871843
+        },
+        {
+          "gauge": "MotorTool_NegY_Front_0",
+          "part": "LowerStrap_NegY_Front",
+          "overlap_mm3": 50.265482457436896
+        },
+        {
+          "gauge": "MotorTool_NegY_Front_0",
+          "part": "LowerLiner_NegY_Front",
+          "overlap_mm3": 2.5132741228718336
+        },
+        {
+          "gauge": "MotorTool_NegY_Front_1",
+          "part": "CFRP_Arm_NegY",
+          "overlap_mm3": 25.13274122871843
+        },
+        {
+          "gauge": "MotorTool_NegY_Front_1",
+          "part": "LowerStrap_NegY_Front",
+          "overlap_mm3": 50.265482457436896
+        },
+        {
+          "gauge": "MotorTool_NegY_Front_1",
+          "part": "LowerLiner_NegY_Front",
+          "overlap_mm3": 2.5132741228718336
+        },
+        {
+          "gauge": "MotorTool_NegY_Front_2",
+          "part": "CFRP_Arm_NegY",
+          "overlap_mm3": 25.13274122871845
+        },
+        {
+          "gauge": "MotorTool_NegY_Front_2",
+          "part": "LowerStrap_NegY_Front",
+          "overlap_mm3": 50.265482457436896
+        },
+        {
+          "gauge": "MotorTool_NegY_Front_2",
+          "part": "LowerLiner_NegY_Front",
+          "overlap_mm3": 2.5132741228718336
+        },
+        {
+          "gauge": "MotorTool_NegY_Front_3",
+          "part": "CFRP_Arm_NegY",
+          "overlap_mm3": 25.13274122871845
+        },
+        {
+          "gauge": "MotorTool_NegY_Front_3",
+          "part": "LowerStrap_NegY_Front",
+          "overlap_mm3": 50.265482457436896
+        },
+        {
+          "gauge": "MotorTool_NegY_Front_3",
+          "part": "LowerLiner_NegY_Front",
+          "overlap_mm3": 2.5132741228718336
+        }
+      ],
+      "status": "BENCH INSTALLATION REQUIRED"
+    },
+    {
+      "check": "max_bell_to_mount",
+      "station": "NegY_Rear",
+      "min_distance_mm": 3.0,
+      "nearest": "MotorPlate_NegY_Rear"
+    },
+    {
+      "check": "prop_sweep_to_mount",
+      "station": "NegY_Rear",
+      "min_distance_mm": 20.5,
+      "nearest": "ClampScrew_NegY_Rear_0"
+    },
+    {
+      "check": "prop_to_P04_airframe",
+      "station": "NegY_Rear",
+      "target": "Wing_NegY_GFRP_Skin_Exposed",
+      "min_distance_mm": 25.090246395173573,
+      "intersection_mm3": 0.0
+    },
+    {
+      "check": "prop_to_P04_airframe",
+      "station": "NegY_Rear",
+      "target": "Wing_NegY_Ravatherm_Core_Exposed",
+      "min_distance_mm": 25.420067156282368,
+      "intersection_mm3": 0.0
+    },
+    {
+      "check": "prop_to_P04_airframe",
+      "station": "NegY_Rear",
+      "target": "Fuselage_GFRP_Shell_0330",
+      "min_distance_mm": 98.16406425395104,
+      "intersection_mm3": 0.0
+    },
+    {
+      "check": "ClampTopTool_stage",
+      "station": "NegY_Rear",
+      "collisions": [],
+      "status": "CLEAR for assumed gauge"
+    },
+    {
+      "check": "ClampNutTool_stage",
+      "station": "NegY_Rear",
+      "collisions": [],
+      "status": "CLEAR for assumed gauge"
+    },
+    {
+      "check": "WireRoute_stage",
+      "station": "NegY_Rear",
+      "collisions": [],
+      "status": "CLEAR for assumed gauge"
+    },
+    {
+      "check": "MotorTool_stage",
+      "station": "NegY_Rear",
+      "collisions": [
+        {
+          "gauge": "MotorTool_NegY_Rear_0",
+          "part": "CFRP_Arm_NegY",
+          "overlap_mm3": 25.132741228718388
+        },
+        {
+          "gauge": "MotorTool_NegY_Rear_0",
+          "part": "LowerStrap_NegY_Rear",
+          "overlap_mm3": 50.26548245743672
+        },
+        {
+          "gauge": "MotorTool_NegY_Rear_0",
+          "part": "LowerLiner_NegY_Rear",
+          "overlap_mm3": 2.5132741228718247
+        },
+        {
+          "gauge": "MotorTool_NegY_Rear_1",
+          "part": "CFRP_Arm_NegY",
+          "overlap_mm3": 25.132741228718388
+        },
+        {
+          "gauge": "MotorTool_NegY_Rear_1",
+          "part": "LowerStrap_NegY_Rear",
+          "overlap_mm3": 50.26548245743672
+        },
+        {
+          "gauge": "MotorTool_NegY_Rear_1",
+          "part": "LowerLiner_NegY_Rear",
+          "overlap_mm3": 2.5132741228718247
+        },
+        {
+          "gauge": "MotorTool_NegY_Rear_2",
+          "part": "CFRP_Arm_NegY",
+          "overlap_mm3": 25.132741228718388
+        },
+        {
+          "gauge": "MotorTool_NegY_Rear_2",
+          "part": "LowerStrap_NegY_Rear",
+          "overlap_mm3": 50.265482457436725
+        },
+        {
+          "gauge": "MotorTool_NegY_Rear_2",
+          "part": "LowerLiner_NegY_Rear",
+          "overlap_mm3": 2.513274122871825
+        },
+        {
+          "gauge": "MotorTool_NegY_Rear_3",
+          "part": "CFRP_Arm_NegY",
+          "overlap_mm3": 25.132741228718388
+        },
+        {
+          "gauge": "MotorTool_NegY_Rear_3",
+          "part": "LowerStrap_NegY_Rear",
+          "overlap_mm3": 50.265482457436725
+        },
+        {
+          "gauge": "MotorTool_NegY_Rear_3",
+          "part": "LowerLiner_NegY_Rear",
+          "overlap_mm3": 2.5132741228718247
+        }
+      ],
+      "status": "BENCH INSTALLATION REQUIRED"
+    }
+  ],
+  "STEP": {
+    "valid": true,
+    "native_solids": 122,
+    "step_solids": 122,
+    "native_sum_solid_volume_mm3": 222213.79182398928,
+    "step_sum_solid_volume_mm3": 222213.79417854402,
+    "relative_difference": 1.0595898325407089e-08,
+    "pass": true
+  },
+  "prop_nominal_in_plane_gaps_mm": {
+    "front_rear": 66,
+    "opposite_sides": 276
+  },
+  "qualification": "Fit screens only. Motor thread depth, torque, vendor screw mass, CFRP clamp pressure, actual prop hub, wire exit, bonds and wing attachments unresolved.",
+  "drawing_tolerance_revision": {
+    "body_length_tolerance_mm": 0.1,
+    "maximum_reference_body_length_mm": 20.1,
+    "physical_geometry_changed": false,
+    "external_clearance_checks": [
+      {
+        "station": "PosY_Front",
+        "minimum_external_clearance_mm": 3.0
+      },
+      {
+        "station": "PosY_Rear",
+        "minimum_external_clearance_mm": 3.0
+      },
+      {
+        "station": "NegY_Front",
+        "minimum_external_clearance_mm": 3.0
+      },
+      {
+        "station": "NegY_Rear",
+        "minimum_external_clearance_mm": 3.0
+      }
+    ]
+  }
+}

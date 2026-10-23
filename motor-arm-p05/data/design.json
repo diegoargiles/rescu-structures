@@ -1,0 +1,52 @@
+{
+  "arm_section_mm": [
+    30,
+    20,
+    1
+  ],
+  "arm_length_mm": 350,
+  "motor_axis_x_mm": [
+    235,
+    555
+  ],
+  "arm_y_mm": [
+    265,
+    -265
+  ],
+  "motor_mount_face_z_mm": 11.0,
+  "prop_seat_assumption_z_mm": 35.0,
+  "top_plate_thickness_mm": 3.0,
+  "top_outline": "diameter44 center, 20mm-wide ears to Y +/-30",
+  "clamp_hole_xy_mm": [
+    [
+      0,
+      -24
+    ],
+    [
+      0,
+      24
+    ]
+  ],
+  "clearance_hole_diameter_mm": 3.4,
+  "center_relief_diameter_mm": 10.0,
+  "rails_mm": [
+    28,
+    4,
+    7.6
+  ],
+  "rail_adhesive_thickness_mm": 0.2,
+  "liner_thickness_mm": 0.2,
+  "lower_strap_mm": [
+    24,
+    60,
+    4
+  ],
+  "motor_screw": "M3x6 + 0.5mm washer; PROVISIONAL",
+  "motor_screw_insertion_mm": 2.5,
+  "clamp_screw": "2 x M3x45 per motor + 0.5mm washers + 4mm locknut envelope",
+  "prop_diameter_gauge_mm": 254.0,
+  "prop_gauge_thickness_mm": 2.0,
+  "wire_gauge_diameter_mm": 2.2,
+  "dimensions_status": "New construction, tool and wire envelopes are proposed, not vendor verified.",
+  "saddle_status": "P04 geometry separated into actual solids; 0.2mm top/bottom bond pockets added. Wing rib/skin/spar transfer remains unresolved."
+}

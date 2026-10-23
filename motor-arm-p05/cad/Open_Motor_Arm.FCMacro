@@ -1,0 +1,31 @@
+"""Open the portable P05 assembly and apply review colors; no source modification."""
+import FreeCAD as App,FreeCADGui as Gui
+from pathlib import Path
+here=Path(__file__).resolve().parent
+p=here/'RescU_P05_Motor_Arm_Assembly.FCStd'
+doc=next((d for d in App.listDocuments().values() if d.FileName==str(p)),None)
+if doc is None:doc=App.openDocument(str(p))
+App.setActiveDocument(doc.Name)
+Gui.activateWorkbench('AssemblyWorkbench')
+import JointObject
+for o in doc.Objects:
+ if o.TypeId!='App::FeaturePython':continue
+ if hasattr(o,'ObjectToGround'):JointObject.ViewProviderGroundedJoint(o.ViewObject)
+ elif hasattr(o,'JointType'):JointObject.ViewProviderJoint(o.ViewObject)
+for o in doc.Objects:
+ if o.TypeId=='Assembly::AssemblyObject':o.Visibility=True
+ if o.TypeId=='Assembly::JointGroup':o.Visibility=False
+ if o.Name=='MotorArm_NegY':o.Visibility=False
+ if o.Name=='ClearanceGauges':o.Visibility=False
+ if hasattr(o,'MassCategory') and o.MassCategory=='reference only':o.Visibility=False
+ if not hasattr(o,'Material'):continue
+ o.Visibility=True
+ colors={'CFRP':(.16,.19,.22),'GFRP':(.18,.65,.61),'Epoxy':(.9,.67,.22),'Steel':(.70,.73,.77),'Isolation liner':(.84,.49,.18),'Vendor motor':(.30,.34,.39)}
+ o.ViewObject.ShapeColor=colors.get(o.Material,(.7,.7,.7));o.ViewObject.LineColor=(.08,.11,.14);o.ViewObject.DisplayMode='Flat Lines'
+ if o.Name.startswith('Wing_'):o.ViewObject.ShapeColor=(.45,.67,.87)
+# Hide the second arm after child visibility updates.
+doc.MotorArm_NegY.Visibility=False
+Gui.activeDocument().activeView().viewAxonometric();Gui.activeDocument().activeView().fitAll()
+Gui.activeDocument().activeView().setAnimationEnabled(False) if hasattr(Gui.activeDocument().activeView(),'setAnimationEnabled') else None
+doc.recompute()
+App.Console.PrintMessage('P05 ready: expand MotorArm_PosY for physical parts and native fixed joints. Second arm is hidden; toggle MotorArm_NegY to show it.\n')

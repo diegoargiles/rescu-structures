@@ -1,3 +1,7 @@
+# Latest detailed assembly: P05 motor arms
+
+[P05 constrained motor-arm assembly and report](motor-arm-p05/README.md) adds two native FreeCAD assemblies using the UM2807 1700KV interface, removable clamp mounts and a validated arm-only STEP. The provisional aircraft structural budget is **1,136.914 g**; P04 below is the preserved earlier candidate. The supplied motor's21 V/5S limit conflicts with existing6S inputs and remains unresolved.
+
 # RescU V4.1 — P04 attachment study
 
 This branch adds a **preliminary attachment candidate**, not a fabrication or flight release. The P03 baseline remains preserved in `data/cad_snapshot.json`, `data/inputs_p03.json` and `reports/baseline/`.
