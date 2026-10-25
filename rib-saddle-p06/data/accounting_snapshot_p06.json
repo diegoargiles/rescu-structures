@@ -1,0 +1,6477 @@
+{
+  "source_file": "RescU_P06_Rib_Saddle_Assembly.FCStd plus retained aircraft accounting",
+  "source_sha256": "648a5a3ef47f2c6d5137d4a5c20ab433e0ff4404a4b9bf1a3943824df05fdbd7",
+  "parameters": {
+    "Global_Parameters": {
+      "ArmFront": 220.0,
+      "ArmHeight": 20.0,
+      "ArmLength": 350.0,
+      "ArmWall": 1.0,
+      "ArmWidth": 30.0,
+      "ArmY": 265.0,
+      "Bond": 0.1,
+      "FrontMotorX": 235.0,
+      "FuselageLength": 1110.0,
+      "FuselageRadius": 45.0,
+      "FuselageSkin": 0.33,
+      "LiftDiameter": 254.0,
+      "LiftPlane": 25.897,
+      "PusherDiameter": 330.2,
+      "PusherPlane": 1137.401,
+      "PusherZ": 0.0,
+      "RearMotorX": 555.0,
+      "SparRootOD": 14.0,
+      "SparRootWall": 2.0,
+      "SparTipOD": 8.0,
+      "SparTipWall": 0.5,
+      "TailDihedral": 35.0,
+      "TailRootChord": 90.0,
+      "TailRootLE": 960.0,
+      "TailRootZ": 0.0,
+      "TailSkin": 0.264,
+      "TailSpan": 245.0,
+      "TailSweep": 120.0,
+      "TailTipChord": 45.0,
+      "WingDihedral": 1.0,
+      "WingHalfSpan": 700.0,
+      "WingIncidence": 0.0,
+      "WingRootChord": 165.0,
+      "WingRootLE": 260.0,
+      "WingRootZ": 0.0,
+      "WingSkin": 0.33,
+      "WingSweep": 140.0,
+      "WingTipChord": 100.0,
+      "LiftPitch_in": 3.0,
+      "PusherPitch_in": 8.0
+    },
+    "Fuselage_Profile_Parameters": {
+      "Length": 1110.0,
+      "MainDiameter": 90.0,
+      "NoseLength": 200.0,
+      "RearDiameter": 52.0,
+      "TailDiameter": 61.0,
+      "TailStation": 960.0,
+      "TaperStart": 425.0,
+      "Wall": 0.33
+    },
+    "Battery_Parameters_PROVISIONAL": {
+      "BankGap": 54.0,
+      "CGX": 299.700714810423,
+      "CGY": 0.0,
+      "CGZ": 0.0,
+      "CellDiameter": 21.7,
+      "CellDiameterTolerance": 0.0,
+      "CellGap": 1.0,
+      "CellLength": 71.0,
+      "CellLengthTolerance": 0.0,
+      "EndAllowance": 3.0,
+      "ModelPackMass_kg": 0.9,
+      "Parallel": 2.0,
+      "Series": 6.0,
+      "SideAllowance": 2.0,
+      "CellMaxMass_kg": 0.0745,
+      "NominalVoltage_V": 21.6,
+      "FullChargeVoltage_V": 25.2,
+      "Capacity_Ah": 13.0,
+      "Energy_Wh": 280.8
+    }
+  },
+  "structural_parts": [
+    {
+      "inertia_centroid_kgm2": [
+        [
+          0.0002606690117614107,
+          -4.5461455351302306e-13,
+          7.635388023325775e-19
+        ],
+        [
+          -4.5461455351302306e-13,
+          0.014626137050485289,
+          8.943778402684754e-20
+        ],
+        [
+          7.635388023325775e-19,
+          8.943778402684754e-20,
+          0.014626137050466179
+        ]
+      ],
+      "name": "Fuselage_GFRP_Shell_0330",
+      "material": "GFRP",
+      "density_kg_m3": 1850,
+      "volume_mm3": 88039.60613726219,
+      "mass_kg": 0.16287327135393506,
+      "x_m": 0.5289163582884064,
+      "y_m": -9.090390046942361e-12,
+      "z_m": 1.7571378421424792e-17,
+      "bounds_mm": [
+        0.0,
+        1110.0,
+        -45.0,
+        45.0,
+        -45.0,
+        45.0
+      ],
+      "valid": true,
+      "source": "P03 retained solid; foam subtraction recorded where applicable",
+      "attachment_group": "P03 retained structure"
+    },
+    {
+      "inertia_centroid_kgm2": [
+        [
+          0.003290855335022136,
+          -0.0004920054679203482,
+          -4.189328889744185e-06
+        ],
+        [
+          -0.0004920054679203482,
+          0.0001846028611000464,
+          -4.9522404233421656e-05
+        ],
+        [
+          -4.189328889744185e-06,
+          -4.9522404233421656e-05,
+          0.0034700625854454637
+        ]
+      ],
+      "name": "Wing_PosY_GFRP_Skin_Exposed",
+      "material": "GFRP",
+      "density_kg_m3": 1850,
+      "volume_mm3": 47461.2258085488,
+      "mass_kg": 0.08780326774581529,
+      "x_m": 0.40184589930923614,
+      "y_m": 0.3461665904757862,
+      "z_m": 0.009387881836587859,
+      "bounds_mm": [
+        259.9286942852913,
+        500.0,
+        0.0,
+        700.0,
+        -3.367402244128492,
+        19.739948801023175
+      ],
+      "valid": true,
+      "source": "P03 retained solid; foam subtraction recorded where applicable",
+      "attachment_group": "P03 retained structure"
+    },
+    {
+      "name": "Wing_PosY_Ravatherm_Core_Exposed",
+      "material": "Ravatherm XPS X H LB",
+      "density_kg_m3": 32,
+      "volume_mm3": 545511.0662991753,
+      "mass_kg": 0.01745635412157361,
+      "x_m": 0.3808629647985056,
+      "y_m": 0.32831814324051706,
+      "z_m": 0.009017945301011038,
+      "inertia_centroid_kgm2": [
+        [
+          0.0005799675806146858,
+          -9.214922264026453e-05,
+          -1.5112924527545405e-06
+        ],
+        [
+          -9.214922264026453e-05,
+          3.224272840631021e-05,
+          -8.875708237300609e-06
+        ],
+        [
+          -1.5112924527545405e-06,
+          -8.875708237300609e-06,
+          0.000611654355825864
+        ]
+      ],
+      "valid": true,
+      "source": "P06 explicitly pocketed native foam context; replaces P05 quantity once"
+    },
+    {
+      "inertia_centroid_kgm2": [
+        [
+          9.59039264001985e-05,
+          -1.6496994998250604e-05,
+          -2.4322059378144e-07
+        ],
+        [
+          -1.6496994998250604e-05,
+          2.9485824094116212e-06,
+          -1.4123539331971957e-06
+        ],
+        [
+          -2.4322059378144e-07,
+          -1.4123539331971957e-06,
+          9.8724003701331e-05
+        ]
+      ],
+      "name": "Wing_PosY_EpoxyBond_Exposed",
+      "material": "Epoxy",
+      "density_kg_m3": 1200,
+      "volume_mm3": 2280.252558785469,
+      "mass_kg": 0.002736303070542563,
+      "x_m": 0.3687203943543733,
+      "y_m": 0.34406389476676025,
+      "z_m": 0.009836721916808608,
+      "bounds_mm": [
+        310.092077224814,
+        434.04058234032453,
+        41.85335559258937,
+        700.6980417643973,
+        -1.533653514206251,
+        19.193866190066128
+      ],
+      "valid": true,
+      "source": "P03 retained solid; foam subtraction recorded where applicable",
+      "attachment_group": "P03 retained structure"
+    },
+    {
+      "inertia_centroid_kgm2": [
+        [
+          4.996379793205586e-05,
+          -1.610019460700306e-05,
+          -1.1277606703886171e-05
+        ],
+        [
+          -1.610019460700306e-05,
+          2.890219973731418e-05,
+          -2.3401499047367936e-05
+        ],
+        [
+          -1.1277606703886171e-05,
+          -2.3401499047367936e-05,
+          4.593627522882882e-05
+        ]
+      ],
+      "name": "VTail_PosY_GFRP_Skin_Exposed",
+      "material": "GFRP",
+      "density_kg_m3": 1850,
+      "volume_mm3": 6999.145832228476,
+      "mass_kg": 0.012948419789622682,
+      "x_m": 1.0554740372168268,
+      "y_m": 0.10277813083764183,
+      "z_m": 0.07195215481632244,
+      "bounds_mm": [
+        959.9995854850695,
+        1125.0,
+        -2.582032776196187,
+        201.98326723890108,
+        -3.687524962667392,
+        142.36998938733998
+      ],
+      "valid": true,
+      "source": "P03 retained solid; foam subtraction recorded where applicable",
+      "attachment_group": "P03 retained structure"
+    },
+    {
+      "inertia_centroid_kgm2": [
+        [
+          5.471333581558018e-06,
+          -1.8814421156241761e-06,
+          -1.3177204614644471e-06
+        ],
+        [
+          -1.8814421156241761e-06,
+          3.1263531908945317e-06,
+          -2.5678953748271734e-06
+        ],
+        [
+          -1.3177204614644471e-06,
+          -2.5678953748271734e-06,
+          4.994461304044434e-06
+        ]
+      ],
+      "name": "VTail_PosY_Ravatherm_Core_Exposed",
+      "material": "Ravatherm XPS X H LB",
+      "density_kg_m3": 32,
+      "volume_mm3": 50610.14932139744,
+      "mass_kg": 0.0016195247782847181,
+      "x_m": 1.0467726907203847,
+      "y_m": 0.09935694503132353,
+      "z_m": 0.06956072884435587,
+      "bounds_mm": [
+        960.2637834537775,
+        1122.7348176269913,
+        -2.4303341856406186,
+        201.83403577135675,
+        -3.477580315577024,
+        142.15352631979394
+      ],
+      "valid": true,
+      "source": "P03 retained solid; foam subtraction recorded where applicable",
+      "attachment_group": "P03 retained structure"
+    },
+    {
+      "inertia_centroid_kgm2": [
+        [
+          0.0032796422345581938,
+          0.0004945322350074868,
+          -4.2648693014848696e-06
+        ],
+        [
+          0.0004945322350074868,
+          0.0001852244037647377,
+          4.9666540371291586e-05
+        ],
+        [
+          -4.2648693014848696e-06,
+          4.9666540371291586e-05,
+          0.0034594611523048927
+        ]
+      ],
+      "name": "Wing_NegY_GFRP_Skin_Exposed",
+      "material": "GFRP",
+      "density_kg_m3": 1850,
+      "volume_mm3": 47168.33898690309,
+      "mass_kg": 0.08726142712577073,
+      "x_m": 0.40180258700042487,
+      "y_m": -0.3449186857250227,
+      "z_m": 0.009381923155117496,
+      "bounds_mm": [
+        259.9286942852913,
+        500.0,
+        -700.0,
+        0.0,
+        -3.367402244128492,
+        19.739948801023175
+      ],
+      "valid": true,
+      "source": "P03 retained solid; foam subtraction recorded where applicable",
+      "attachment_group": "P03 retained structure"
+    },
+    {
+      "name": "Wing_NegY_Ravatherm_Core_Exposed",
+      "material": "Ravatherm XPS X H LB",
+      "density_kg_m3": 32,
+      "volume_mm3": 545511.7562551104,
+      "mass_kg": 0.017456376200163534,
+      "x_m": 0.38086294942472004,
+      "y_m": -0.3283181731711743,
+      "z_m": 0.00901794094340351,
+      "inertia_centroid_kgm2": [
+        [
+          0.0005799680420691246,
+          9.21492869519207e-05,
+          -1.5112962453866405e-06
+        ],
+        [
+          9.21492869519207e-05,
+          3.2242756328912674e-05,
+          8.875716317963369e-06
+        ],
+        [
+          -1.5112962453866405e-06,
+          8.875716317963369e-06,
+          0.0006116548442710762
+        ]
+      ],
+      "valid": true,
+      "source": "P06 explicitly pocketed native foam context; replaces P05 quantity once"
+    },
+    {
+      "inertia_centroid_kgm2": [
+        [
+          9.590467136183725e-05,
+          1.649712536650629e-05,
+          -2.4322308931162095e-07
+        ],
+        [
+          1.649712536650629e-05,
+          2.9486056658954148e-06,
+          1.4123679611791157e-06
+        ],
+        [
+          -2.4322308931162095e-07,
+          1.4123679611791157e-06,
+          9.87247711962636e-05
+        ]
+      ],
+      "name": "Wing_NegY_EpoxyBond_Exposed",
+      "material": "Epoxy",
+      "density_kg_m3": 1200,
+      "volume_mm3": 2280.2621449963553,
+      "mass_kg": 0.0027363145739956267,
+      "x_m": 0.36872021044344827,
+      "y_m": -0.3440628404322571,
+      "z_m": 0.009836701862486351,
+      "bounds_mm": [
+        310.09210814320784,
+        434.04058234032453,
+        -700.6980417643973,
+        -41.85353102817602,
+        -1.5336501710925265,
+        19.193866190066128
+      ],
+      "valid": true,
+      "source": "P03 retained solid; foam subtraction recorded where applicable",
+      "attachment_group": "P03 retained structure"
+    },
+    {
+      "inertia_centroid_kgm2": [
+        [
+          4.996503867331409e-05,
+          1.6100968991390356e-05,
+          -1.1278146622958408e-05
+        ],
+        [
+          1.6100968991390356e-05,
+          2.8903323661483385e-05,
+          2.3402080318782702e-05
+        ],
+        [
+          -1.1278146622958408e-05,
+          2.3402080318782702e-05,
+          4.593782750783601e-05
+        ]
+      ],
+      "name": "VTail_NegY_GFRP_Skin_Exposed",
+      "material": "GFRP",
+      "density_kg_m3": 1850,
+      "volume_mm3": 6999.2749971478415,
+      "mass_kg": 0.012948658744723507,
+      "x_m": 1.0554730650165405,
+      "y_m": -0.10277708606349115,
+      "z_m": 0.07195142751098049,
+      "bounds_mm": [
+        959.9995854850695,
+        1125.0,
+        -201.98326723890108,
+        2.582032776196187,
+        -3.687524962667392,
+        142.36998938733998
+      ],
+      "valid": true,
+      "source": "P03 retained solid; foam subtraction recorded where applicable",
+      "attachment_group": "P03 retained structure"
+    },
+    {
+      "inertia_centroid_kgm2": [
+        [
+          5.471332788933468e-06,
+          1.8814416417551577e-06,
+          -1.3177201450294037e-06
+        ],
+        [
+          1.8814416417551577e-06,
+          3.1263525338395997e-06,
+          2.567895008792816e-06
+        ],
+        [
+          -1.3177201450294037e-06,
+          2.567895008792816e-06,
+          4.994460343165772e-06
+        ]
+      ],
+      "name": "VTail_NegY_Ravatherm_Core_Exposed",
+      "material": "Ravatherm XPS X H LB",
+      "density_kg_m3": 32,
+      "volume_mm3": 50610.14496799776,
+      "mass_kg": 0.0016195246389759284,
+      "x_m": 1.0467726952415493,
+      "y_m": -0.09935695034609296,
+      "z_m": 0.06956073239177059,
+      "bounds_mm": [
+        960.2637834537775,
+        1122.7348176269913,
+        -201.83403577135675,
+        2.4303341856406186,
+        -3.477580315577024,
+        142.15352631979394
+      ],
+      "valid": true,
+      "source": "P03 retained solid; foam subtraction recorded where applicable",
+      "attachment_group": "P03 retained structure"
+    },
+    {
+      "inertia_centroid_kgm2": [
+        [
+          0.001534822164649769,
+          -0.00026393413463745956,
+          -3.902192327294708e-06
+        ],
+        [
+          -0.00026393413463745956,
+          4.702920254088135e-05,
+          -2.2668337171005644e-05
+        ],
+        [
+          -3.902192327294708e-06,
+          -2.2668337171005644e-05,
+          0.0015799213956617082
+        ]
+      ],
+      "name": "Wing_PosY_CFRP_TaperedSpar",
+      "material": "CFRP",
+      "density_kg_m3": 1600,
+      "volume_mm3": 28454.139305387063,
+      "mass_kg": 0.045526622888619306,
+      "x_m": 0.35380147058823536,
+      "y_m": 0.25735294117647145,
+      "z_m": 0.008549888425043476,
+      "bounds_mm": [
+        302.60144478481175,
+        433.94203155153616,
+        -1.1917786221417797,
+        700.6810163555095,
+        -2.2542598775241283,
+        19.09387680322238
+      ],
+      "valid": true,
+      "source": "P03 retained solid; foam subtraction recorded where applicable",
+      "attachment_group": "P03 retained structure"
+    },
+    {
+      "inertia_centroid_kgm2": [
+        [
+          0.001534822164649769,
+          0.0002639341346374565,
+          -3.9021923272945645e-06
+        ],
+        [
+          0.0002639341346374565,
+          4.702920254087449e-05,
+          2.2668337171005692e-05
+        ],
+        [
+          -3.9021923272945645e-06,
+          2.2668337171005692e-05,
+          0.0015799213956617067
+        ]
+      ],
+      "name": "Wing_NegY_CFRP_TaperedSpar",
+      "material": "CFRP",
+      "density_kg_m3": 1600,
+      "volume_mm3": 28454.139305387034,
+      "mass_kg": 0.04552662288861926,
+      "x_m": 0.35380147058823547,
+      "y_m": -0.25735294117647145,
+      "z_m": 0.008549888425043473,
+      "bounds_mm": [
+        302.60144478481175,
+        433.94203155153616,
+        -700.6810163555095,
+        1.1917786221417794,
+        -2.2542598775241283,
+        19.09387680322238
+      ],
+      "valid": true,
+      "source": "P03 retained solid; foam subtraction recorded where applicable",
+      "attachment_group": "P03 retained structure"
+    },
+    {
+      "inertia_centroid_kgm2": [
+        [
+          1.0815187500000002e-06,
+          -1.1990408665951691e-24,
+          0.0
+        ],
+        [
+          -1.1990408665951691e-24,
+          1.68901875e-06,
+          8.724170523020214e-39
+        ],
+        [
+          0.0,
+          8.724170523020214e-39,
+          2.7675e-06
+        ]
+      ],
+      "name": "Payload_MountPlate_PROVISIONAL",
+      "material": "Aluminum 6061-T6",
+      "density_kg_m3": 2700,
+      "volume_mm3": 3000.0,
+      "mass_kg": 0.008100000000000001,
+      "x_m": 0.35,
+      "y_m": -1.4210854715202005e-19,
+      "z_m": -0.055,
+      "bounds_mm": [
+        325.0,
+        375.0,
+        -20.0,
+        20.0,
+        -55.75,
+        -54.25
+      ],
+      "valid": true,
+      "source": "P03 retained solid; foam subtraction recorded where applicable",
+      "attachment_group": "P03 retained structure"
+    },
+    {
+      "name": "WingCenterBox",
+      "material": "CFRP",
+      "density_kg_m3": 1600,
+      "volume_mm3": 14520.0,
+      "mass_kg": 0.023232000000000003,
+      "x_m": 0.3055000000000001,
+      "y_m": -2.3684757858670005e-18,
+      "z_m": 0.0022499999999999977,
+      "bounds_mm": [
+        286.0,
+        325.0,
+        -40.0,
+        40.0,
+        -10.0,
+        14.5
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          1.4691812000000002e-05,
+          1.3897079043089815e-22,
+          -1.1920928955078125e-20
+        ],
+        [
+          1.3897079043089815e-22,
+          7.103667999998475e-06,
+          -2.110027708113181e-23
+        ],
+        [
+          -1.1920928955078125e-20,
+          -2.110027708113181e-23,
+          1.7192655999998474e-05
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "Wing center and half-wing joints"
+    },
+    {
+      "name": "WingCenterSideWeb__1",
+      "material": "GFRP",
+      "density_kg_m3": 1850,
+      "volume_mm3": 6880.0,
+      "mass_kg": 0.012728000000000001,
+      "x_m": 0.32,
+      "y_m": -0.042,
+      "z_m": 0.0022499999999999994,
+      "bounds_mm": [
+        300.0,
+        340.0,
+        -46.0,
+        -38.0,
+        -8.5,
+        13.0
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          5.581758333333323e-07,
+          0.0,
+          -1.7229467630386352e-21
+        ],
+        [
+          0.0,
+          2.18735983333326e-06,
+          2.153683453798294e-22
+        ],
+        [
+          -1.7229467630386352e-21,
+          2.153683453798294e-22,
+          1.76494933333326e-06
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "Wing center and half-wing joints"
+    },
+    {
+      "name": "WingCenterSideWeb_1",
+      "material": "GFRP",
+      "density_kg_m3": 1850,
+      "volume_mm3": 6880.0,
+      "mass_kg": 0.012728000000000001,
+      "x_m": 0.32,
+      "y_m": 0.042,
+      "z_m": 0.0022499999999999994,
+      "bounds_mm": [
+        300.0,
+        340.0,
+        38.0,
+        46.0,
+        -8.5,
+        13.0
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          5.581758333333323e-07,
+          0.0,
+          -1.7229467630386352e-21
+        ],
+        [
+          0.0,
+          2.18735983333326e-06,
+          -2.153683453798294e-22
+        ],
+        [
+          -1.7229467630386352e-21,
+          -2.153683453798294e-22,
+          1.76494933333326e-06
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "Wing center and half-wing joints"
+    },
+    {
+      "name": "WingRootCaps_PosY",
+      "material": "CFRP",
+      "density_kg_m3": 1600,
+      "volume_mm3": 13789.049078283902,
+      "mass_kg": 0.022062478525254243,
+      "x_m": 0.3298807690033601,
+      "y_m": 0.09186587993786977,
+      "z_m": 0.0059286371777029665,
+      "bounds_mm": [
+        265.4763010332365,
+        474.18224244530285,
+        0.0,
+        700.0,
+        -3.027282499512698,
+        19.40749367026201
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          1.775005817256384e-05,
+          -6.900249191989899e-08,
+          -1.969793482581556e-07
+        ],
+        [
+          -6.900249191989899e-08,
+          9.60723486397171e-06,
+          -1.224186323025614e-07
+        ],
+        [
+          -1.969793482581556e-07,
+          -1.224186323025614e-07,
+          2.5877786721356964e-05
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "Wing center and half-wing joints"
+    },
+    {
+      "name": "WingRootRib_PosY_44",
+      "material": "GFRP",
+      "density_kg_m3": 1850,
+      "volume_mm3": 1487.1720455708003,
+      "mass_kg": 0.0027512682843059805,
+      "x_m": 0.3294258895528129,
+      "y_m": 0.045253621471282916,
+      "z_m": 0.005973722336600004,
+      "bounds_mm": [
+        267.9291334519542,
+        474.7885648471736,
+        0.0,
+        700.0,
+        -3.027282499512698,
+        19.40749367026201
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          3.838756035219331e-08,
+          6.920066889503971e-10,
+          -2.511312650841959e-08
+        ],
+        [
+          6.920066889503971e-10,
+          2.2318636399787534e-06,
+          1.868546953236056e-09
+        ],
+        [
+          -2.511312650841959e-08,
+          1.868546953236056e-09,
+          2.1947644328493613e-06
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "Wing center and half-wing joints"
+    },
+    {
+      "name": "WingRootRib_PosY_54",
+      "material": "GFRP",
+      "density_kg_m3": 1850,
+      "volume_mm3": 2121.594548814392,
+      "mass_kg": 0.003924949915306625,
+      "x_m": 0.3292528665776572,
+      "y_m": 0.05499979581261771,
+      "z_m": 0.005145307102975776,
+      "bounds_mm": [
+        266.2816847400333,
+        474.18224244530285,
+        0.0,
+        700.0,
+        -3.027282499512698,
+        19.40749367026201
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          5.489187527555842e-08,
+          -4.5588235789909964e-11,
+          -5.482166112875941e-08
+        ],
+        [
+          -4.5588235789909964e-11,
+          3.298580756051076e-06,
+          -1.5346929490665207e-11
+        ],
+        [
+          -5.482166112875941e-08,
+          -1.5346929490665207e-11,
+          3.2463055079056742e-06
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "Wing center and half-wing joints"
+    },
+    {
+      "name": "WingRootCaps_NegY",
+      "material": "CFRP",
+      "density_kg_m3": 1600,
+      "volume_mm3": 13789.04908804787,
+      "mass_kg": 0.022062478540876593,
+      "x_m": 0.3298807689601815,
+      "y_m": -0.09186587974379498,
+      "z_m": 0.005928637152432482,
+      "bounds_mm": [
+        265.4763010332365,
+        474.18224244530285,
+        -700.0,
+        0.0,
+        -3.027282499512698,
+        19.40749367026201
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          1.775005822028687e-05,
+          6.900253845205307e-08,
+          -1.9697936260058286e-07
+        ],
+        [
+          6.900253845205307e-08,
+          9.607234883777238e-06,
+          1.2241865251300486e-07
+        ],
+        [
+          -1.9697936260058286e-07,
+          1.2241865251300486e-07,
+          2.5877786775065616e-05
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "Wing center and half-wing joints"
+    },
+    {
+      "name": "WingRootRib_NegY_56",
+      "material": "GFRP",
+      "density_kg_m3": 1850,
+      "volume_mm3": 2121.5943689679057,
+      "mass_kg": 0.0039249495825906255,
+      "x_m": 0.3292528654202997,
+      "y_m": -0.0549997958120866,
+      "z_m": 0.005145306749531938,
+      "bounds_mm": [
+        266.2816847400333,
+        474.18224244530285,
+        -700.0,
+        0.0,
+        -3.027282499512698,
+        19.40749367026201
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          5.489186676470107e-08,
+          4.558824536949396e-11,
+          -5.482163820424374e-08
+        ],
+        [
+          4.558824536949396e-11,
+          3.298580707328953e-06,
+          1.534693919150159e-11
+        ],
+        [
+          -5.482163820424374e-08,
+          1.534693919150159e-11,
+          3.2463054675533787e-06
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "Wing center and half-wing joints"
+    },
+    {
+      "name": "WingRootRib_NegY_46",
+      "material": "GFRP",
+      "density_kg_m3": 1850,
+      "volume_mm3": 1487.172077680806,
+      "mass_kg": 0.0027512683437094913,
+      "x_m": 0.32942589083169027,
+      "y_m": -0.04525362138926352,
+      "z_m": 0.005973722577818333,
+      "bounds_mm": [
+        267.9291334519542,
+        474.7885648471736,
+        -700.0,
+        0.0,
+        -3.027282499512698,
+        19.40749367026201
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          3.83875590011067e-08,
+          -6.920051605932415e-10,
+          -2.5113130042535744e-08
+        ],
+        [
+          -6.920051605932415e-10,
+          2.231863623435983e-06,
+          -1.8685464255314902e-09
+        ],
+        [
+          -2.5113130042535744e-08,
+          -1.8685464255314902e-09,
+          2.19476441753162e-06
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "Wing center and half-wing joints"
+    },
+    {
+      "name": "WingFrame_280",
+      "material": "GFRP",
+      "density_kg_m3": 1850,
+      "volume_mm3": 6103.542127743488,
+      "mass_kg": 0.011291552936325455,
+      "x_m": 0.2810000000000001,
+      "y_m": 1.430505263055842e-17,
+      "z_m": 7.748570174885811e-18,
+      "bounds_mm": [
+        280.0,
+        282.0,
+        -44.67,
+        44.67,
+        -44.67,
+        44.67
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          1.7046907715381185e-05,
+          1.4537363313138609e-21,
+          -3.9708538679405743e-22
+        ],
+        [
+          1.4537363313138609e-21,
+          8.527217708669245e-06,
+          -6.191839929670083e-22
+        ],
+        [
+          -3.9708538679405743e-22,
+          -6.191839929670083e-22,
+          8.527217708669136e-06
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "Fuselage hardpoints and foam"
+    },
+    {
+      "name": "WingFrame_326",
+      "material": "GFRP",
+      "density_kg_m3": 1850,
+      "volume_mm3": 6103.542127743488,
+      "mass_kg": 0.011291552936325455,
+      "x_m": 0.32000000000000006,
+      "y_m": 1.430505263055842e-17,
+      "z_m": 7.748570174885811e-18,
+      "bounds_mm": [
+        319.0,
+        321.0,
+        -44.67,
+        44.67,
+        -44.67,
+        44.67
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          1.7046907715381185e-05,
+          2.6921043172479293e-22,
+          1.817170414142372e-22
+        ],
+        [
+          2.6921043172479293e-22,
+          8.527217708669024e-06,
+          -6.191839929670083e-22
+        ],
+        [
+          1.817170414142372e-22,
+          -6.191839929670083e-22,
+          8.527217708669024e-06
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "Fuselage hardpoints and foam"
+    },
+    {
+      "name": "WingLocalFoam_280",
+      "material": "Ravatherm XPS X H LB",
+      "density_kg_m3": 32,
+      "volume_mm3": 25782.691460567992,
+      "mass_kg": 0.0008250461267381758,
+      "x_m": 0.2879921985709992,
+      "y_m": 1.2787331760802268e-18,
+      "z_m": -7.351411411513072e-05,
+      "bounds_mm": [
+        282.0,
+        294.0,
+        -44.67,
+        44.67,
+        -44.67,
+        44.67
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          1.3606693505609621e-06,
+          -7.428120594126169e-23,
+          3.5466239745453005e-11
+        ],
+        [
+          -7.428120594126169e-23,
+          7.024999541417236e-07,
+          1.6569785987269503e-22
+        ],
+        [
+          3.5466239745453005e-11,
+          1.6569785987269503e-22,
+          6.782146456051941e-07
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "Fuselage hardpoints and foam"
+    },
+    {
+      "name": "WingLocalFoam_321",
+      "material": "Ravatherm XPS X H LB",
+      "density_kg_m3": 32,
+      "volume_mm3": 22749.98868034782,
+      "mass_kg": 0.0007279996377711302,
+      "x_m": 0.31200000000000006,
+      "y_m": -3.1982247184450843e-19,
+      "z_m": -0.0003406017383185389,
+      "bounds_mm": [
+        306.0,
+        318.0,
+        -43.85383563612196,
+        43.853835636121964,
+        -44.67,
+        44.67
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          1.190877532240821e-06,
+          7.522294254158622e-23,
+          -1.3137564062761976e-21
+        ],
+        [
+          7.522294254158622e-23,
+          6.96869570690659e-07,
+          1.0960143116327617e-22
+        ],
+        [
+          -1.3137564062761976e-21,
+          1.0960143116327617e-22,
+          5.11479952856712e-07
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "Fuselage hardpoints and foam"
+    },
+    {
+      "name": "PusherFirewall",
+      "material": "GFRP",
+      "density_kg_m3": 1850,
+      "volume_mm3": 4159.629271133725,
+      "mass_kg": 0.007695314151597392,
+      "x_m": 1.1079992226931077,
+      "y_m": 3.0173426683877465e-17,
+      "z_m": -1.5008620057096377e-19,
+      "bounds_mm": [
+        1107.0,
+        1109.0,
+        -25.759851533397473,
+        25.759851533397473,
+        -25.759851533397473,
+        25.759851533397473
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          2.547251947213687e-06,
+          1.2612328240311723e-20,
+          -2.5593281148180815e-24
+        ],
+        [
+          1.2612328240311723e-20,
+          1.2761910746031285e-06,
+          3.969913516890313e-23
+        ],
+        [
+          -2.5593281148180815e-24,
+          3.969913516890313e-23,
+          1.2761910746013641e-06
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "Pusher support"
+    },
+    {
+      "name": "PusherForwardFrame",
+      "material": "GFRP",
+      "density_kg_m3": 1850,
+      "volume_mm3": 2566.6790811459014,
+      "mass_kg": 0.004748356300119918,
+      "x_m": 1.0409986418666137,
+      "y_m": -4.429335889972665e-18,
+      "z_m": 2.5690148161841454e-18,
+      "bounds_mm": [
+        1040.0,
+        1042.0,
+        -27.76985153339747,
+        27.76985153339747,
+        -27.76985153339747,
+        27.76985153339747
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          2.684012965517442e-06,
+          -1.2189899218041681e-21,
+          -6.5411378815410375e-22
+        ],
+        [
+          -1.2189899218041681e-21,
+          1.3435892603649617e-06,
+          3.365130396559834e-22
+        ],
+        [
+          -6.5411378815410375e-22,
+          3.365130396559834e-22,
+          1.3435892603649617e-06
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "Pusher support"
+    },
+    {
+      "name": "PusherTie__20_0",
+      "material": "GFRP",
+      "density_kg_m3": 1850,
+      "volume_mm3": 1039.9999999999998,
+      "mass_kg": 0.0019239999999999997,
+      "x_m": 1.0745,
+      "y_m": -0.020000000000000004,
+      "z_m": 0.0,
+      "bounds_mm": [
+        1042.0,
+        1107.0,
+        -24.0,
+        -16.0,
+        -1.0,
+        1.0
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          1.0902666666666524e-08,
+          -6.891787052154541e-21,
+          0.0
+        ],
+        [
+          -6.891787052154541e-21,
+          6.780496666665197e-07,
+          8.412825991399586e-25
+        ],
+        [
+          0.0,
+          8.412825991399586e-25,
+          6.876696666665197e-07
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "Pusher support"
+    },
+    {
+      "name": "PusherTie_20_0",
+      "material": "GFRP",
+      "density_kg_m3": 1850,
+      "volume_mm3": 1039.9999999999998,
+      "mass_kg": 0.0019239999999999997,
+      "x_m": 1.0745,
+      "y_m": 0.020000000000000004,
+      "z_m": 0.0,
+      "bounds_mm": [
+        1042.0,
+        1107.0,
+        16.0,
+        24.0,
+        -1.0,
+        1.0
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          1.0902666666666524e-08,
+          6.891787052154541e-21,
+          0.0
+        ],
+        [
+          6.891787052154541e-21,
+          6.780496666665197e-07,
+          -8.412825991399586e-25
+        ],
+        [
+          0.0,
+          -8.412825991399586e-25,
+          6.876696666665197e-07
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "Pusher support"
+    },
+    {
+      "name": "PusherTie_0__20",
+      "material": "GFRP",
+      "density_kg_m3": 1850,
+      "volume_mm3": 1039.9999999999998,
+      "mass_kg": 0.0019239999999999997,
+      "x_m": 1.0745,
+      "y_m": 5.465713352000772e-20,
+      "z_m": -0.020000000000000004,
+      "bounds_mm": [
+        1042.0,
+        1107.0,
+        -4.0,
+        4.0,
+        -21.0,
+        -19.0
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          1.0902666666666524e-08,
+          -2.002564780665235e-26,
+          -6.891787052154541e-21
+        ],
+        [
+          -2.002564780665235e-26,
+          6.780496666665197e-07,
+          -3.736045247126712e-40
+        ],
+        [
+          -6.891787052154541e-21,
+          -3.736045247126712e-40,
+          6.876696666665197e-07
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "Pusher support"
+    },
+    {
+      "name": "PusherTie_0_20",
+      "material": "GFRP",
+      "density_kg_m3": 1850,
+      "volume_mm3": 1039.9999999999998,
+      "mass_kg": 0.0019239999999999997,
+      "x_m": 1.0745,
+      "y_m": 5.465713352000772e-20,
+      "z_m": 0.020000000000000004,
+      "bounds_mm": [
+        1042.0,
+        1107.0,
+        -4.0,
+        4.0,
+        19.0,
+        21.0
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          1.0902666666666524e-08,
+          -2.002564780665235e-26,
+          6.891787052154541e-21
+        ],
+        [
+          -2.002564780665235e-26,
+          6.780496666665197e-07,
+          3.736045247126712e-40
+        ],
+        [
+          6.891787052154541e-21,
+          3.736045247126712e-40,
+          6.876696666665197e-07
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "Pusher support"
+    },
+    {
+      "name": "TailRootLaminates_PosY",
+      "material": "GFRP",
+      "density_kg_m3": 1850,
+      "volume_mm3": 5784.249857752553,
+      "mass_kg": 0.010700862236842223,
+      "x_m": 1.0225785451099318,
+      "y_m": 0.04334792400077402,
+      "z_m": 0.030438651617513066,
+      "bounds_mm": [
+        960.2637834537775,
+        1122.7348176269913,
+        -2.4303341856406186,
+        201.83403577135675,
+        -3.477580315577024,
+        142.15352631979394
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          2.330982855604696e-06,
+          -5.143776510562375e-07,
+          -3.6370668886042837e-07
+        ],
+        [
+          -5.143776510562375e-07,
+          5.597949586471034e-06,
+          -1.0385895670181994e-06
+        ],
+        [
+          -3.6370668886042837e-07,
+          -1.0385895670181994e-06,
+          6.3116949947919855e-06
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "V-tail attachments"
+    },
+    {
+      "name": "TailRootLaminates_NegY",
+      "material": "GFRP",
+      "density_kg_m3": 1850,
+      "volume_mm3": 5784.230796429208,
+      "mass_kg": 0.010700826973394036,
+      "x_m": 1.0225786563247412,
+      "y_m": -0.0433479744887462,
+      "z_m": 0.030438690034148484,
+      "bounds_mm": [
+        960.2637834537775,
+        1122.7348176269913,
+        -201.83403577135675,
+        2.4303341856406186,
+        -3.477580315577024,
+        142.15352631979394
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          2.3309692755107594e-06,
+          5.143586244854435e-07,
+          -3.636921029714361e-07
+        ],
+        [
+          5.143586244854435e-07,
+          5.597900857317257e-06,
+          1.0385831124200566e-06
+        ],
+        [
+          -3.636921029714361e-07,
+          1.0385831124200566e-06,
+          6.311642756429339e-06
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "V-tail attachments"
+    },
+    {
+      "name": "TailFrameFront",
+      "material": "GFRP",
+      "density_kg_m3": 1850,
+      "volume_mm3": 2564.848585265173,
+      "mass_kg": 0.004744969882740571,
+      "x_m": 0.9699985365388556,
+      "y_m": -3.545997635095867e-19,
+      "z_m": -7.446595033701319e-18,
+      "bounds_mm": [
+        969.0,
+        971.0,
+        -29.89985153339747,
+        29.89985153339747,
+        -29.89985153339747,
+        29.89985153339747
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          3.265039763160136e-06,
+          5.259701272191812e-21,
+          4.492500789151984e-21
+        ],
+        [
+          5.259701272191812e-21,
+          1.6341015289740563e-06,
+          7.201379048638047e-22
+        ],
+        [
+          4.492500789151984e-21,
+          7.201379048638047e-22,
+          1.6341015289767029e-06
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "V-tail attachments"
+    },
+    {
+      "name": "TailFrameRear",
+      "material": "GFRP",
+      "density_kg_m3": 1850,
+      "volume_mm3": 2778.0945809500695,
+      "mass_kg": 0.0051394749747576286,
+      "x_m": 1.0209987180815228,
+      "y_m": 2.782736418724123e-18,
+      "z_m": -4.255949816872189e-18,
+      "bounds_mm": [
+        1020.0,
+        1022.0,
+        -28.369851533397473,
+        28.369851533397473,
+        -28.369851533397473,
+        28.369851533397473
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          2.9915590342937736e-06,
+          -2.6273438908611333e-21,
+          -7.958252989379861e-22
+        ],
+        [
+          -2.6273438908611333e-21,
+          1.4974926679569245e-06,
+          2.557499101385474e-22
+        ],
+        [
+          -7.958252989379861e-22,
+          2.557499101385474e-22,
+          1.497492667953396e-06
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "V-tail attachments"
+    },
+    {
+      "name": "TailLocalFoam_969",
+      "material": "Ravatherm XPS X H LB",
+      "density_kg_m3": 32,
+      "volume_mm3": 12673.797379350568,
+      "mass_kg": 0.0004055615161392182,
+      "x_m": 0.9747729205406229,
+      "y_m": -2.0631521787285795e-19,
+      "z_m": 2.6551871517550418e-18,
+      "bounds_mm": [
+        969.0,
+        979.0,
+        -29.83985153339747,
+        29.83985153339747,
+        -29.83985153339747,
+        29.83985153339747
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          2.5685845733460427e-07,
+          -1.0782158542258278e-23,
+          8.855125808631573e-23
+        ],
+        [
+          -1.0782158542258278e-23,
+          1.3090911112060548e-07,
+          4.423782229423523e-24
+        ],
+        [
+          8.855125808631573e-23,
+          4.423782229423523e-24,
+          1.309091111207886e-07
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "Fuselage hardpoints and foam"
+    },
+    {
+      "name": "TailLocalFoam_1014",
+      "material": "Ravatherm XPS X H LB",
+      "density_kg_m3": 32,
+      "volume_mm3": 10239.379431144218,
+      "mass_kg": 0.000327660141796615,
+      "x_m": 1.018462013955151,
+      "y_m": -1.82087610989737e-18,
+      "z_m": 1.1102903109130304e-18,
+      "bounds_mm": [
+        1014.0,
+        1024.0,
+        -28.549851533397472,
+        28.549851533397472,
+        -28.549851533397472,
+        28.549851533397472
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          1.978209905047592e-07,
+          9.27110876049671e-23,
+          1.0229342077042065e-22
+        ],
+        [
+          9.27110876049671e-23,
+          1.0187089863172776e-07,
+          1.3737007975578308e-23
+        ],
+        [
+          1.0229342077042065e-22,
+          1.3737007975578308e-23,
+          1.018708986317888e-07
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "Fuselage hardpoints and foam"
+    },
+    {
+      "name": "BatteryTray_Front",
+      "material": "GFRP",
+      "density_kg_m3": 1850,
+      "volume_mm3": 6318.999999999998,
+      "mass_kg": 0.011690149999999996,
+      "x_m": 0.2372000000000002,
+      "y_m": 1.0847471046108117e-19,
+      "z_m": -0.025228089887640467,
+      "bounds_mm": [
+        198.7,
+        275.7,
+        -35.5,
+        35.5,
+        -26.2,
+        -19.2
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          4.933113671816474e-06,
+          4.1509672144001545e-22,
+          -5.513429641723633e-20
+        ],
+        [
+          4.1509672144001545e-22,
+          7.295574771815518e-06,
+          -9.510354554914988e-23
+        ],
+        [
+          -5.513429641723633e-20,
+          -9.510354554914988e-23,
+          1.2184135458332379e-05
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "Battery retention"
+    },
+    {
+      "name": "BatteryCradle_Front_206",
+      "material": "GFRP",
+      "density_kg_m3": 1850,
+      "volume_mm3": 2475.481593909161,
+      "mass_kg": 0.004579640948731948,
+      "x_m": 0.20819999999999997,
+      "y_m": 5.1436156326712066e-18,
+      "z_m": -0.032367930946694094,
+      "bounds_mm": [
+        206.7,
+        209.7,
+        -36.3236685922554,
+        36.32366859225541,
+        -40.000000000000014,
+        -25.999999999999964
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          1.4945089523719645e-06,
+          1.6623744159005461e-22,
+          0.0
+        ],
+        [
+          1.6623744159005461e-22,
+          7.507588350410238e-08,
+          -1.1635112197780198e-22
+        ],
+        [
+          0.0,
+          -1.1635112197780198e-22,
+          1.4263025302910315e-06
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "Battery retention"
+    },
+    {
+      "name": "BatteryCradle_Front_261",
+      "material": "GFRP",
+      "density_kg_m3": 1850,
+      "volume_mm3": 2475.481593909161,
+      "mass_kg": 0.004579640948731948,
+      "x_m": 0.2632,
+      "y_m": 5.87841786590995e-18,
+      "z_m": -0.032367930946694094,
+      "bounds_mm": [
+        261.7,
+        264.7,
+        -36.3236685922554,
+        36.32366859225541,
+        -40.000000000000014,
+        -25.999999999999964
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          1.4945089523719638e-06,
+          1.9383151084184617e-22,
+          -6.891787052154541e-21
+        ],
+        [
+          1.9383151084184617e-22,
+          7.507588350412995e-08,
+          -1.175892575903574e-22
+        ],
+        [
+          -6.891787052154541e-21,
+          -1.175892575903574e-22,
+          1.4263025302909762e-06
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "Battery retention"
+    },
+    {
+      "name": "BatteryTray_Rear",
+      "material": "GFRP",
+      "density_kg_m3": 1850,
+      "volume_mm3": 6318.999999999998,
+      "mass_kg": 0.011690149999999996,
+      "x_m": 0.3622000000000002,
+      "y_m": -1.3848007335797691e-18,
+      "z_m": -0.025228089887640467,
+      "bounds_mm": [
+        323.7,
+        400.7,
+        -35.5,
+        35.5,
+        -26.2,
+        -19.2
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          4.9331136718164775e-06,
+          1.8960380288035554e-21,
+          -9.648501873016358e-20
+        ],
+        [
+          1.8960380288035554e-21,
+          7.2955747718145265e-06,
+          -5.02673915131202e-23
+        ],
+        [
+          -9.648501873016358e-20,
+          -5.02673915131202e-23,
+          1.2184135458332379e-05
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "Battery retention"
+    },
+    {
+      "name": "BatteryCradle_Rear_331",
+      "material": "GFRP",
+      "density_kg_m3": 1850,
+      "volume_mm3": 2475.481593909161,
+      "mass_kg": 0.004579640948731948,
+      "x_m": 0.3332,
+      "y_m": 5.1436156326712066e-18,
+      "z_m": -0.032367930946694094,
+      "bounds_mm": [
+        331.7,
+        334.7,
+        -36.3236685922554,
+        36.32366859225541,
+        -40.000000000000014,
+        -25.999999999999964
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          1.4945089523719645e-06,
+          9.55697032622996e-23,
+          0.0
+        ],
+        [
+          9.55697032622996e-23,
+          7.507588350407482e-08,
+          -1.1635112197780198e-22
+        ],
+        [
+          0.0,
+          -1.1635112197780198e-22,
+          1.4263025302909762e-06
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "Battery retention"
+    },
+    {
+      "name": "BatteryCradle_Rear_386",
+      "material": "GFRP",
+      "density_kg_m3": 1850,
+      "volume_mm3": 2475.481593909161,
+      "mass_kg": 0.004579640948731948,
+      "x_m": 0.38819999999999993,
+      "y_m": 5.1436156326712066e-18,
+      "z_m": -0.032367930946694094,
+      "bounds_mm": [
+        386.7,
+        389.7,
+        -36.3236685922554,
+        36.32366859225541,
+        -40.000000000000014,
+        -25.999999999999964
+      ],
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          1.4945089523719645e-06,
+          5.296715244185167e-22,
+          0.0
+        ],
+        [
+          5.296715244185167e-22,
+          7.507588350407482e-08,
+          -1.1635112197780198e-22
+        ],
+        [
+          0.0,
+          -1.1635112197780198e-22,
+          1.4263025302910866e-06
+        ]
+      ],
+      "source": "P04 candidate solid integral; assumed geometry/density; not manufactured",
+      "attachment_group": "Battery retention"
+    },
+    {
+      "name": "CFRP_Arm_PosY",
+      "material": "CFRP",
+      "density_kg_m3": 1600.0000000000002,
+      "volume_mm3": 33600.0,
+      "mass_kg": 0.05376,
+      "x_m": 0.395,
+      "y_m": 0.265,
+      "z_m": -0.009999999999999993,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: P04 native tube: 350x30x20, wall1 mm; independently volume checked",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "Wing_Spar_Saddle_PosY",
+      "material": "GFRP",
+      "density_kg_m3": 1850.0000000000002,
+      "volume_mm3": 4272.000000000002,
+      "mass_kg": 0.007903200000000004,
+      "x_m": 0.3563999999999999,
+      "y_m": 0.265,
+      "z_m": -0.012219101123595498,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: P04 exact solid, separated; saddle top/bottom cut for proposed 0.2 mm epoxy interface",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "SaddleBond_PosY_Spar_Top",
+      "material": "Epoxy",
+      "density_kg_m3": 1200.0,
+      "volume_mm3": 144.0,
+      "mass_kg": 0.0001728,
+      "x_m": 0.35639999999999994,
+      "y_m": 0.265,
+      "z_m": 0.00010000000000000002,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed 0.2mm bondline; top/bottom faces only, side gaps unfilled",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "SaddleBond_PosY_Spar_Bottom",
+      "material": "Epoxy",
+      "density_kg_m3": 1200.0000000000002,
+      "volume_mm3": 143.9999999999995,
+      "mass_kg": 0.0001727999999999994,
+      "x_m": 0.35639999999999994,
+      "y_m": 0.265,
+      "z_m": -0.020099999999999996,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed 0.2mm bondline; top/bottom faces only, side gaps unfilled",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "Wing_Spar_Rib1_PosY",
+      "material": "GFRP",
+      "density_kg_m3": 1849.9999999999998,
+      "volume_mm3": 1398.245599926955,
+      "mass_kg": 0.0025867543598648668,
+      "x_m": 0.37990481685846816,
+      "y_m": 0.2500003619297935,
+      "z_m": 0.008262357992337812,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: P04 exact solid, separated; saddle top/bottom cut for proposed 0.2 mm epoxy interface",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "Wing_Spar_Rib2_PosY",
+      "material": "GFRP",
+      "density_kg_m3": 1850.0,
+      "volume_mm3": 1437.485360754233,
+      "mass_kg": 0.002659347917395331,
+      "x_m": 0.37993223861356756,
+      "y_m": 0.2800002509867299,
+      "z_m": 0.008699318477224051,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: P04 exact solid, separated; saddle top/bottom cut for proposed 0.2 mm epoxy interface",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "Wing_Rear_Saddle_PosY",
+      "material": "GFRP",
+      "density_kg_m3": 1850.0000000000002,
+      "volume_mm3": 4272.000000000001,
+      "mass_kg": 0.007903200000000003,
+      "x_m": 0.4099999999999999,
+      "y_m": 0.265,
+      "z_m": -0.012219101123595501,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: P04 exact solid, separated; saddle top/bottom cut for proposed 0.2 mm epoxy interface",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "SaddleBond_PosY_Rear_Top",
+      "material": "Epoxy",
+      "density_kg_m3": 1200.0,
+      "volume_mm3": 144.0,
+      "mass_kg": 0.0001728,
+      "x_m": 0.41,
+      "y_m": 0.265,
+      "z_m": 0.00010000000000000002,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed 0.2mm bondline; top/bottom faces only, side gaps unfilled",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "SaddleBond_PosY_Rear_Bottom",
+      "material": "Epoxy",
+      "density_kg_m3": 1200.0000000000002,
+      "volume_mm3": 143.9999999999995,
+      "mass_kg": 0.0001727999999999994,
+      "x_m": 0.4099999999999999,
+      "y_m": 0.265,
+      "z_m": -0.020099999999999996,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed 0.2mm bondline; top/bottom faces only, side gaps unfilled",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "MotorPlate_PosY_Front",
+      "material": "GFRP",
+      "density_kg_m3": 1850.0000000000002,
+      "volume_mm3": 5216.505582157403,
+      "mass_kg": 0.009650535326991198,
+      "x_m": 0.235,
+      "y_m": 0.265,
+      "z_m": 0.009499999999999995,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed dimensions and assumed density",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "LowerStrap_PosY_Front",
+      "material": "GFRP",
+      "density_kg_m3": 1850.0,
+      "volume_mm3": 5656.463713378238,
+      "mass_kg": 0.010464457869749741,
+      "x_m": 0.235,
+      "y_m": 0.265,
+      "z_m": -0.0222,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed dimensions and assumed density",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "LowerLiner_PosY_Front",
+      "material": "Isolation liner",
+      "density_kg_m3": 1200.0000000000002,
+      "volume_mm3": 143.9999999999995,
+      "mass_kg": 0.0001727999999999994,
+      "x_m": 0.23499999999999996,
+      "y_m": 0.265,
+      "z_m": -0.020099999999999996,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed dimensions and assumed density",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "Rail_PosY_Front_0",
+      "material": "GFRP",
+      "density_kg_m3": 1850.0,
+      "volume_mm3": 851.2,
+      "mass_kg": 0.0015747200000000002,
+      "x_m": 0.235,
+      "y_m": 0.252,
+      "z_m": 0.004,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed dimensions and assumed density",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "TopLiner_PosY_Front_0",
+      "material": "Isolation liner",
+      "density_kg_m3": 1200.0000000000002,
+      "volume_mm3": 22.4,
+      "mass_kg": 2.688e-05,
+      "x_m": 0.23500000000000004,
+      "y_m": 0.25199999999999995,
+      "z_m": 0.00010000000000000002,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed dimensions and assumed density",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "RailBond_PosY_Front_0",
+      "material": "Epoxy",
+      "density_kg_m3": 1200.0000000000002,
+      "volume_mm3": 22.40000000000002,
+      "mass_kg": 2.6880000000000027e-05,
+      "x_m": 0.235,
+      "y_m": 0.252,
+      "z_m": 0.007899999999999999,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed dimensions and assumed density",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "Rail_PosY_Front_1",
+      "material": "GFRP",
+      "density_kg_m3": 1850.0,
+      "volume_mm3": 851.2,
+      "mass_kg": 0.0015747200000000002,
+      "x_m": 0.235,
+      "y_m": 0.278,
+      "z_m": 0.004,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed dimensions and assumed density",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "TopLiner_PosY_Front_1",
+      "material": "Isolation liner",
+      "density_kg_m3": 1200.0000000000002,
+      "volume_mm3": 22.4,
+      "mass_kg": 2.688e-05,
+      "x_m": 0.23500000000000004,
+      "y_m": 0.278,
+      "z_m": 0.00010000000000000002,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed dimensions and assumed density",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "RailBond_PosY_Front_1",
+      "material": "Epoxy",
+      "density_kg_m3": 1200.0000000000002,
+      "volume_mm3": 22.40000000000002,
+      "mass_kg": 2.6880000000000027e-05,
+      "x_m": 0.235,
+      "y_m": 0.278,
+      "z_m": 0.007899999999999999,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed dimensions and assumed density",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "MotorWasher_PosY_Front_0",
+      "material": "Steel",
+      "density_kg_m3": 7850.000000000001,
+      "volume_mm3": 15.221016406642551,
+      "mass_kg": 0.00011948497879214404,
+      "x_m": 0.2282824855787278,
+      "y_m": 0.2582824855787278,
+      "z_m": 0.007750000000000002,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed dimensions and assumed density",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "MotorScrew_PosY_Front_0",
+      "material": "Steel",
+      "density_kg_m3": 7850.000000000001,
+      "volume_mm3": 113.68638415178063,
+      "mass_kg": 0.000892438115591478,
+      "x_m": 0.2282824855787278,
+      "y_m": 0.2582824855787278,
+      "z_m": 0.007678756476683935,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: M3x6 simple major-diameter/head envelope; approximate steel mass, insertion2.5mm unverified safe",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "MotorWasher_PosY_Front_1",
+      "material": "Steel",
+      "density_kg_m3": 7850.000000000001,
+      "volume_mm3": 15.221016406642551,
+      "mass_kg": 0.00011948497879214404,
+      "x_m": 0.22828248557872777,
+      "y_m": 0.2717175144212722,
+      "z_m": 0.007749999999999999,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed dimensions and assumed density",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "MotorScrew_PosY_Front_1",
+      "material": "Steel",
+      "density_kg_m3": 7850.000000000001,
+      "volume_mm3": 113.68638415178066,
+      "mass_kg": 0.0008924381155914783,
+      "x_m": 0.2282824855787278,
+      "y_m": 0.2717175144212722,
+      "z_m": 0.007678756476683935,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: M3x6 simple major-diameter/head envelope; approximate steel mass, insertion2.5mm unverified safe",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "MotorWasher_PosY_Front_2",
+      "material": "Steel",
+      "density_kg_m3": 7850.000000000001,
+      "volume_mm3": 15.221016406642551,
+      "mass_kg": 0.00011948497879214404,
+      "x_m": 0.2417175144212722,
+      "y_m": 0.2582824855787278,
+      "z_m": 0.00775,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed dimensions and assumed density",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "MotorScrew_PosY_Front_2",
+      "material": "Steel",
+      "density_kg_m3": 7850.000000000001,
+      "volume_mm3": 113.68638415178063,
+      "mass_kg": 0.000892438115591478,
+      "x_m": 0.2417175144212722,
+      "y_m": 0.2582824855787278,
+      "z_m": 0.007678756476683935,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: M3x6 simple major-diameter/head envelope; approximate steel mass, insertion2.5mm unverified safe",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "MotorWasher_PosY_Front_3",
+      "material": "Steel",
+      "density_kg_m3": 7850.000000000001,
+      "volume_mm3": 15.221016406642551,
+      "mass_kg": 0.00011948497879214404,
+      "x_m": 0.2417175144212722,
+      "y_m": 0.2717175144212722,
+      "z_m": 0.007749999999999998,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed dimensions and assumed density",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "MotorScrew_PosY_Front_3",
+      "material": "Steel",
+      "density_kg_m3": 7850.000000000001,
+      "volume_mm3": 113.68638415178063,
+      "mass_kg": 0.000892438115591478,
+      "x_m": 0.2417175144212722,
+      "y_m": 0.2717175144212722,
+      "z_m": 0.007678756476683935,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: M3x6 simple major-diameter/head envelope; approximate steel mass, insertion2.5mm unverified safe",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "ClampScrew_PosY_Front_0",
+      "material": "Steel",
+      "density_kg_m3": 7850.000000000001,
+      "volume_mm3": 389.361139504285,
+      "mass_kg": 0.0030564849451086376,
+      "x_m": 0.235,
+      "y_m": 0.241,
+      "z_m": -0.0066066565809379686,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: M3x45 simplified envelope, not selected vendor hardware",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "ClampWasher_PosY_Front_0_0",
+      "material": "Steel",
+      "density_kg_m3": 7850.000000000001,
+      "volume_mm3": 15.221016406642555,
+      "mass_kg": 0.00011948497879214407,
+      "x_m": 0.235,
+      "y_m": 0.241,
+      "z_m": 0.011249999999999998,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed dimensions and assumed density",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "ClampWasher_PosY_Front_0_1",
+      "material": "Steel",
+      "density_kg_m3": 7850.000000000001,
+      "volume_mm3": 15.221016406642555,
+      "mass_kg": 0.00011948497879214407,
+      "x_m": 0.235,
+      "y_m": 0.241,
+      "z_m": -0.024449999999999996,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed dimensions and assumed density",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "ClampLocknut_PosY_Front_0",
+      "material": "Steel",
+      "density_kg_m3": 7850.000000000001,
+      "volume_mm3": 76.48659414998598,
+      "mass_kg": 0.00060041976407739,
+      "x_m": 0.235,
+      "y_m": 0.241,
+      "z_m": -0.026699999999999998,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: 5.5 AF x4mm locknut simplified all-steel envelope; mass estimate includes lock insert volume as steel",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "ClampScrew_PosY_Front_1",
+      "material": "Steel",
+      "density_kg_m3": 7850.000000000001,
+      "volume_mm3": 389.361139504285,
+      "mass_kg": 0.0030564849451086376,
+      "x_m": 0.235,
+      "y_m": 0.289,
+      "z_m": -0.006606656580937968,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: M3x45 simplified envelope, not selected vendor hardware",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "ClampWasher_PosY_Front_1_0",
+      "material": "Steel",
+      "density_kg_m3": 7850.000000000001,
+      "volume_mm3": 15.221016406642555,
+      "mass_kg": 0.00011948497879214407,
+      "x_m": 0.235,
+      "y_m": 0.289,
+      "z_m": 0.011250000000000001,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed dimensions and assumed density",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "ClampWasher_PosY_Front_1_1",
+      "material": "Steel",
+      "density_kg_m3": 7850.000000000001,
+      "volume_mm3": 15.221016406642555,
+      "mass_kg": 0.00011948497879214407,
+      "x_m": 0.235,
+      "y_m": 0.289,
+      "z_m": -0.024450000000000003,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed dimensions and assumed density",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "ClampLocknut_PosY_Front_1",
+      "material": "Steel",
+      "density_kg_m3": 7850.000000000001,
+      "volume_mm3": 76.48659414998598,
+      "mass_kg": 0.00060041976407739,
+      "x_m": 0.23500000000000004,
+      "y_m": 0.289,
+      "z_m": -0.02670000000000001,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: 5.5 AF x4mm locknut simplified all-steel envelope; mass estimate includes lock insert volume as steel",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "MotorPlate_PosY_Rear",
+      "material": "GFRP",
+      "density_kg_m3": 1850.0000000000002,
+      "volume_mm3": 5216.505582157403,
+      "mass_kg": 0.009650535326991198,
+      "x_m": 0.555,
+      "y_m": 0.265,
+      "z_m": 0.009499999999999991,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed dimensions and assumed density",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "LowerStrap_PosY_Rear",
+      "material": "GFRP",
+      "density_kg_m3": 1850.0,
+      "volume_mm3": 5656.463713378238,
+      "mass_kg": 0.010464457869749741,
+      "x_m": 0.555,
+      "y_m": 0.265,
+      "z_m": -0.022200000000000008,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed dimensions and assumed density",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "LowerLiner_PosY_Rear",
+      "material": "Isolation liner",
+      "density_kg_m3": 1200.0000000000002,
+      "volume_mm3": 143.9999999999995,
+      "mass_kg": 0.0001727999999999994,
+      "x_m": 0.555,
+      "y_m": 0.265,
+      "z_m": -0.020099999999999996,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed dimensions and assumed density",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "Rail_PosY_Rear_0",
+      "material": "GFRP",
+      "density_kg_m3": 1850.0,
+      "volume_mm3": 851.2,
+      "mass_kg": 0.0015747200000000002,
+      "x_m": 0.555,
+      "y_m": 0.252,
+      "z_m": 0.004,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed dimensions and assumed density",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "TopLiner_PosY_Rear_0",
+      "material": "Isolation liner",
+      "density_kg_m3": 1200.0000000000002,
+      "volume_mm3": 22.4,
+      "mass_kg": 2.688e-05,
+      "x_m": 0.555,
+      "y_m": 0.25199999999999995,
+      "z_m": 0.00010000000000000002,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed dimensions and assumed density",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "RailBond_PosY_Rear_0",
+      "material": "Epoxy",
+      "density_kg_m3": 1200.0000000000002,
+      "volume_mm3": 22.40000000000002,
+      "mass_kg": 2.6880000000000027e-05,
+      "x_m": 0.555,
+      "y_m": 0.252,
+      "z_m": 0.007899999999999999,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed dimensions and assumed density",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "Rail_PosY_Rear_1",
+      "material": "GFRP",
+      "density_kg_m3": 1850.0,
+      "volume_mm3": 851.2,
+      "mass_kg": 0.0015747200000000002,
+      "x_m": 0.555,
+      "y_m": 0.278,
+      "z_m": 0.004,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed dimensions and assumed density",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "TopLiner_PosY_Rear_1",
+      "material": "Isolation liner",
+      "density_kg_m3": 1200.0000000000002,
+      "volume_mm3": 22.4,
+      "mass_kg": 2.688e-05,
+      "x_m": 0.555,
+      "y_m": 0.278,
+      "z_m": 0.00010000000000000002,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed dimensions and assumed density",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "RailBond_PosY_Rear_1",
+      "material": "Epoxy",
+      "density_kg_m3": 1200.0000000000002,
+      "volume_mm3": 22.40000000000002,
+      "mass_kg": 2.6880000000000027e-05,
+      "x_m": 0.555,
+      "y_m": 0.278,
+      "z_m": 0.007899999999999999,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed dimensions and assumed density",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "MotorWasher_PosY_Rear_0",
+      "material": "Steel",
+      "density_kg_m3": 7850.000000000001,
+      "volume_mm3": 15.221016406642551,
+      "mass_kg": 0.00011948497879214404,
+      "x_m": 0.5482824855787278,
+      "y_m": 0.2582824855787278,
+      "z_m": 0.007749999999999999,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed dimensions and assumed density",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "MotorScrew_PosY_Rear_0",
+      "material": "Steel",
+      "density_kg_m3": 7850.000000000001,
+      "volume_mm3": 113.68638415178063,
+      "mass_kg": 0.000892438115591478,
+      "x_m": 0.5482824855787278,
+      "y_m": 0.2582824855787278,
+      "z_m": 0.00767875647668394,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: M3x6 simple major-diameter/head envelope; approximate steel mass, insertion2.5mm unverified safe",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "MotorWasher_PosY_Rear_1",
+      "material": "Steel",
+      "density_kg_m3": 7850.000000000001,
+      "volume_mm3": 15.221016406642551,
+      "mass_kg": 0.00011948497879214404,
+      "x_m": 0.5482824855787278,
+      "y_m": 0.2717175144212722,
+      "z_m": 0.007749999999999999,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed dimensions and assumed density",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "MotorScrew_PosY_Rear_1",
+      "material": "Steel",
+      "density_kg_m3": 7850.000000000001,
+      "volume_mm3": 113.68638415178066,
+      "mass_kg": 0.0008924381155914783,
+      "x_m": 0.5482824855787278,
+      "y_m": 0.2717175144212722,
+      "z_m": 0.00767875647668394,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: M3x6 simple major-diameter/head envelope; approximate steel mass, insertion2.5mm unverified safe",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "MotorWasher_PosY_Rear_2",
+      "material": "Steel",
+      "density_kg_m3": 7850.000000000001,
+      "volume_mm3": 15.221016406642551,
+      "mass_kg": 0.00011948497879214404,
+      "x_m": 0.5617175144212722,
+      "y_m": 0.2582824855787278,
+      "z_m": 0.007749999999999998,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed dimensions and assumed density",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "MotorScrew_PosY_Rear_2",
+      "material": "Steel",
+      "density_kg_m3": 7850.000000000001,
+      "volume_mm3": 113.68638415178063,
+      "mass_kg": 0.000892438115591478,
+      "x_m": 0.5617175144212722,
+      "y_m": 0.2582824855787278,
+      "z_m": 0.00767875647668394,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: M3x6 simple major-diameter/head envelope; approximate steel mass, insertion2.5mm unverified safe",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "MotorWasher_PosY_Rear_3",
+      "material": "Steel",
+      "density_kg_m3": 7850.000000000001,
+      "volume_mm3": 15.221016406642551,
+      "mass_kg": 0.00011948497879214404,
+      "x_m": 0.5617175144212722,
+      "y_m": 0.2717175144212722,
+      "z_m": 0.007750000000000001,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed dimensions and assumed density",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "MotorScrew_PosY_Rear_3",
+      "material": "Steel",
+      "density_kg_m3": 7850.000000000001,
+      "volume_mm3": 113.68638415178063,
+      "mass_kg": 0.000892438115591478,
+      "x_m": 0.5617175144212722,
+      "y_m": 0.2717175144212722,
+      "z_m": 0.00767875647668394,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: M3x6 simple major-diameter/head envelope; approximate steel mass, insertion2.5mm unverified safe",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "ClampScrew_PosY_Rear_0",
+      "material": "Steel",
+      "density_kg_m3": 7850.000000000001,
+      "volume_mm3": 389.361139504285,
+      "mass_kg": 0.0030564849451086376,
+      "x_m": 0.555,
+      "y_m": 0.24100000000000002,
+      "z_m": -0.00660665658093799,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: M3x45 simplified envelope, not selected vendor hardware",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "ClampWasher_PosY_Rear_0_0",
+      "material": "Steel",
+      "density_kg_m3": 7850.000000000001,
+      "volume_mm3": 15.221016406642555,
+      "mass_kg": 0.00011948497879214407,
+      "x_m": 0.555,
+      "y_m": 0.241,
+      "z_m": 0.011249999999999998,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed dimensions and assumed density",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "ClampWasher_PosY_Rear_0_1",
+      "material": "Steel",
+      "density_kg_m3": 7850.000000000001,
+      "volume_mm3": 15.221016406642555,
+      "mass_kg": 0.00011948497879214407,
+      "x_m": 0.555,
+      "y_m": 0.241,
+      "z_m": -0.02445,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed dimensions and assumed density",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "ClampLocknut_PosY_Rear_0",
+      "material": "Steel",
+      "density_kg_m3": 7850.000000000001,
+      "volume_mm3": 76.48659414998598,
+      "mass_kg": 0.00060041976407739,
+      "x_m": 0.555,
+      "y_m": 0.241,
+      "z_m": -0.026699999999999998,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: 5.5 AF x4mm locknut simplified all-steel envelope; mass estimate includes lock insert volume as steel",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "ClampScrew_PosY_Rear_1",
+      "material": "Steel",
+      "density_kg_m3": 7850.000000000001,
+      "volume_mm3": 389.361139504285,
+      "mass_kg": 0.0030564849451086376,
+      "x_m": 0.555,
+      "y_m": 0.289,
+      "z_m": -0.006606656580937986,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: M3x45 simplified envelope, not selected vendor hardware",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "ClampWasher_PosY_Rear_1_0",
+      "material": "Steel",
+      "density_kg_m3": 7850.000000000001,
+      "volume_mm3": 15.221016406642555,
+      "mass_kg": 0.00011948497879214407,
+      "x_m": 0.555,
+      "y_m": 0.289,
+      "z_m": 0.01125,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed dimensions and assumed density",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "ClampWasher_PosY_Rear_1_1",
+      "material": "Steel",
+      "density_kg_m3": 7850.000000000001,
+      "volume_mm3": 15.221016406642555,
+      "mass_kg": 0.00011948497879214407,
+      "x_m": 0.555,
+      "y_m": 0.289,
+      "z_m": -0.02445,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed dimensions and assumed density",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "ClampLocknut_PosY_Rear_1",
+      "material": "Steel",
+      "density_kg_m3": 7850.000000000001,
+      "volume_mm3": 76.48659414998598,
+      "mass_kg": 0.00060041976407739,
+      "x_m": 0.555,
+      "y_m": 0.289,
+      "z_m": -0.026700000000000005,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: 5.5 AF x4mm locknut simplified all-steel envelope; mass estimate includes lock insert volume as steel",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "CFRP_Arm_NegY",
+      "material": "CFRP",
+      "density_kg_m3": 1600.0000000000002,
+      "volume_mm3": 33600.0,
+      "mass_kg": 0.05376,
+      "x_m": 0.395,
+      "y_m": -0.265,
+      "z_m": -0.009999999999999993,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: P04 native tube: 350x30x20, wall1 mm; independently volume checked",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "Wing_Spar_Saddle_NegY",
+      "material": "GFRP",
+      "density_kg_m3": 1850.0000000000002,
+      "volume_mm3": 4272.000000000002,
+      "mass_kg": 0.007903200000000004,
+      "x_m": 0.3563999999999999,
+      "y_m": -0.265,
+      "z_m": -0.012219101123595498,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: P04 exact solid, separated; saddle top/bottom cut for proposed 0.2 mm epoxy interface",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "SaddleBond_NegY_Spar_Top",
+      "material": "Epoxy",
+      "density_kg_m3": 1200.0,
+      "volume_mm3": 144.0,
+      "mass_kg": 0.0001728,
+      "x_m": 0.35639999999999994,
+      "y_m": -0.265,
+      "z_m": 0.00010000000000000002,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed 0.2mm bondline; top/bottom faces only, side gaps unfilled",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "SaddleBond_NegY_Spar_Bottom",
+      "material": "Epoxy",
+      "density_kg_m3": 1200.0000000000002,
+      "volume_mm3": 143.9999999999995,
+      "mass_kg": 0.0001727999999999994,
+      "x_m": 0.35639999999999994,
+      "y_m": -0.265,
+      "z_m": -0.020099999999999996,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed 0.2mm bondline; top/bottom faces only, side gaps unfilled",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "Wing_Spar_Rib1_NegY",
+      "material": "GFRP",
+      "density_kg_m3": 1850.0000000000002,
+      "volume_mm3": 1437.4849730183869,
+      "mass_kg": 0.002659347200084016,
+      "x_m": 0.37993223853942176,
+      "y_m": -0.28000025098603926,
+      "z_m": 0.008699317584448692,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: P04 exact solid, separated; saddle top/bottom cut for proposed 0.2 mm epoxy interface",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "Wing_Spar_Rib2_NegY",
+      "material": "GFRP",
+      "density_kg_m3": 1850.0,
+      "volume_mm3": 1398.2458705843014,
+      "mass_kg": 0.0025867548605809578,
+      "x_m": 0.3799048169962024,
+      "y_m": -0.25000036192618236,
+      "z_m": 0.008262358563471624,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: P04 exact solid, separated; saddle top/bottom cut for proposed 0.2 mm epoxy interface",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "Wing_Rear_Saddle_NegY",
+      "material": "GFRP",
+      "density_kg_m3": 1850.0000000000002,
+      "volume_mm3": 4272.000000000001,
+      "mass_kg": 0.007903200000000003,
+      "x_m": 0.4099999999999999,
+      "y_m": -0.265,
+      "z_m": -0.012219101123595501,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: P04 exact solid, separated; saddle top/bottom cut for proposed 0.2 mm epoxy interface",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "SaddleBond_NegY_Rear_Top",
+      "material": "Epoxy",
+      "density_kg_m3": 1200.0,
+      "volume_mm3": 144.0,
+      "mass_kg": 0.0001728,
+      "x_m": 0.41,
+      "y_m": -0.265,
+      "z_m": 0.00010000000000000002,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed 0.2mm bondline; top/bottom faces only, side gaps unfilled",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "SaddleBond_NegY_Rear_Bottom",
+      "material": "Epoxy",
+      "density_kg_m3": 1200.0000000000002,
+      "volume_mm3": 143.9999999999995,
+      "mass_kg": 0.0001727999999999994,
+      "x_m": 0.4099999999999999,
+      "y_m": -0.265,
+      "z_m": -0.020099999999999996,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed 0.2mm bondline; top/bottom faces only, side gaps unfilled",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "MotorPlate_NegY_Front",
+      "material": "GFRP",
+      "density_kg_m3": 1850.0000000000002,
+      "volume_mm3": 5216.505582157403,
+      "mass_kg": 0.009650535326991198,
+      "x_m": 0.23500000000000004,
+      "y_m": -0.265,
+      "z_m": 0.009499999999999993,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed dimensions and assumed density",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "LowerStrap_NegY_Front",
+      "material": "GFRP",
+      "density_kg_m3": 1850.0,
+      "volume_mm3": 5656.463713378238,
+      "mass_kg": 0.010464457869749741,
+      "x_m": 0.235,
+      "y_m": -0.265,
+      "z_m": -0.022200000000000004,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed dimensions and assumed density",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "LowerLiner_NegY_Front",
+      "material": "Isolation liner",
+      "density_kg_m3": 1200.0000000000002,
+      "volume_mm3": 143.9999999999995,
+      "mass_kg": 0.0001727999999999994,
+      "x_m": 0.23499999999999996,
+      "y_m": -0.265,
+      "z_m": -0.020099999999999996,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed dimensions and assumed density",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "Rail_NegY_Front_0",
+      "material": "GFRP",
+      "density_kg_m3": 1850.0,
+      "volume_mm3": 851.2,
+      "mass_kg": 0.0015747200000000002,
+      "x_m": 0.235,
+      "y_m": -0.278,
+      "z_m": 0.004,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed dimensions and assumed density",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "TopLiner_NegY_Front_0",
+      "material": "Isolation liner",
+      "density_kg_m3": 1200.0000000000002,
+      "volume_mm3": 22.4,
+      "mass_kg": 2.688e-05,
+      "x_m": 0.23500000000000004,
+      "y_m": -0.278,
+      "z_m": 0.00010000000000000002,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed dimensions and assumed density",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "RailBond_NegY_Front_0",
+      "material": "Epoxy",
+      "density_kg_m3": 1200.0000000000002,
+      "volume_mm3": 22.40000000000002,
+      "mass_kg": 2.6880000000000027e-05,
+      "x_m": 0.235,
+      "y_m": -0.278,
+      "z_m": 0.007899999999999999,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed dimensions and assumed density",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "Rail_NegY_Front_1",
+      "material": "GFRP",
+      "density_kg_m3": 1850.0,
+      "volume_mm3": 851.2,
+      "mass_kg": 0.0015747200000000002,
+      "x_m": 0.235,
+      "y_m": -0.252,
+      "z_m": 0.004,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed dimensions and assumed density",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "TopLiner_NegY_Front_1",
+      "material": "Isolation liner",
+      "density_kg_m3": 1200.0000000000002,
+      "volume_mm3": 22.4,
+      "mass_kg": 2.688e-05,
+      "x_m": 0.23500000000000004,
+      "y_m": -0.25199999999999995,
+      "z_m": 0.00010000000000000002,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed dimensions and assumed density",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "RailBond_NegY_Front_1",
+      "material": "Epoxy",
+      "density_kg_m3": 1200.0000000000002,
+      "volume_mm3": 22.40000000000002,
+      "mass_kg": 2.6880000000000027e-05,
+      "x_m": 0.235,
+      "y_m": -0.252,
+      "z_m": 0.007899999999999999,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed dimensions and assumed density",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "MotorWasher_NegY_Front_0",
+      "material": "Steel",
+      "density_kg_m3": 7850.000000000001,
+      "volume_mm3": 15.221016406642551,
+      "mass_kg": 0.00011948497879214404,
+      "x_m": 0.2282824855787278,
+      "y_m": -0.2717175144212722,
+      "z_m": 0.00775,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed dimensions and assumed density",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "MotorScrew_NegY_Front_0",
+      "material": "Steel",
+      "density_kg_m3": 7850.000000000001,
+      "volume_mm3": 113.68638415178063,
+      "mass_kg": 0.000892438115591478,
+      "x_m": 0.2282824855787278,
+      "y_m": -0.2717175144212722,
+      "z_m": 0.007678756476683935,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: M3x6 simple major-diameter/head envelope; approximate steel mass, insertion2.5mm unverified safe",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "MotorWasher_NegY_Front_1",
+      "material": "Steel",
+      "density_kg_m3": 7850.000000000001,
+      "volume_mm3": 15.221016406642551,
+      "mass_kg": 0.00011948497879214404,
+      "x_m": 0.2282824855787278,
+      "y_m": -0.2582824855787278,
+      "z_m": 0.007749999999999999,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed dimensions and assumed density",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "MotorScrew_NegY_Front_1",
+      "material": "Steel",
+      "density_kg_m3": 7850.000000000001,
+      "volume_mm3": 113.68638415178066,
+      "mass_kg": 0.0008924381155914783,
+      "x_m": 0.2282824855787278,
+      "y_m": -0.2582824855787278,
+      "z_m": 0.007678756476683935,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: M3x6 simple major-diameter/head envelope; approximate steel mass, insertion2.5mm unverified safe",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "MotorWasher_NegY_Front_2",
+      "material": "Steel",
+      "density_kg_m3": 7850.000000000001,
+      "volume_mm3": 15.221016406642551,
+      "mass_kg": 0.00011948497879214404,
+      "x_m": 0.2417175144212722,
+      "y_m": -0.2717175144212722,
+      "z_m": 0.007750000000000002,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed dimensions and assumed density",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "MotorScrew_NegY_Front_2",
+      "material": "Steel",
+      "density_kg_m3": 7850.000000000001,
+      "volume_mm3": 113.68638415178063,
+      "mass_kg": 0.000892438115591478,
+      "x_m": 0.2417175144212722,
+      "y_m": -0.2717175144212722,
+      "z_m": 0.007678756476683935,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: M3x6 simple major-diameter/head envelope; approximate steel mass, insertion2.5mm unverified safe",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "MotorWasher_NegY_Front_3",
+      "material": "Steel",
+      "density_kg_m3": 7850.000000000001,
+      "volume_mm3": 15.221016406642551,
+      "mass_kg": 0.00011948497879214404,
+      "x_m": 0.2417175144212722,
+      "y_m": -0.2582824855787278,
+      "z_m": 0.007749999999999998,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed dimensions and assumed density",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "MotorScrew_NegY_Front_3",
+      "material": "Steel",
+      "density_kg_m3": 7850.000000000001,
+      "volume_mm3": 113.68638415178063,
+      "mass_kg": 0.000892438115591478,
+      "x_m": 0.2417175144212722,
+      "y_m": -0.2582824855787278,
+      "z_m": 0.007678756476683935,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: M3x6 simple major-diameter/head envelope; approximate steel mass, insertion2.5mm unverified safe",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "ClampScrew_NegY_Front_0",
+      "material": "Steel",
+      "density_kg_m3": 7850.000000000001,
+      "volume_mm3": 389.361139504285,
+      "mass_kg": 0.0030564849451086376,
+      "x_m": 0.235,
+      "y_m": -0.289,
+      "z_m": -0.006606656580937968,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: M3x45 simplified envelope, not selected vendor hardware",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "ClampWasher_NegY_Front_0_0",
+      "material": "Steel",
+      "density_kg_m3": 7850.000000000001,
+      "volume_mm3": 15.221016406642555,
+      "mass_kg": 0.00011948497879214407,
+      "x_m": 0.235,
+      "y_m": -0.289,
+      "z_m": 0.011250000000000001,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed dimensions and assumed density",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "ClampWasher_NegY_Front_0_1",
+      "material": "Steel",
+      "density_kg_m3": 7850.000000000001,
+      "volume_mm3": 15.221016406642555,
+      "mass_kg": 0.00011948497879214407,
+      "x_m": 0.235,
+      "y_m": -0.289,
+      "z_m": -0.024450000000000003,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed dimensions and assumed density",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "ClampLocknut_NegY_Front_0",
+      "material": "Steel",
+      "density_kg_m3": 7850.000000000001,
+      "volume_mm3": 76.48659414998598,
+      "mass_kg": 0.00060041976407739,
+      "x_m": 0.23500000000000004,
+      "y_m": -0.289,
+      "z_m": -0.02670000000000001,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: 5.5 AF x4mm locknut simplified all-steel envelope; mass estimate includes lock insert volume as steel",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "ClampScrew_NegY_Front_1",
+      "material": "Steel",
+      "density_kg_m3": 7850.000000000001,
+      "volume_mm3": 389.361139504285,
+      "mass_kg": 0.0030564849451086376,
+      "x_m": 0.235,
+      "y_m": -0.241,
+      "z_m": -0.0066066565809379686,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: M3x45 simplified envelope, not selected vendor hardware",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "ClampWasher_NegY_Front_1_0",
+      "material": "Steel",
+      "density_kg_m3": 7850.000000000001,
+      "volume_mm3": 15.221016406642555,
+      "mass_kg": 0.00011948497879214407,
+      "x_m": 0.235,
+      "y_m": -0.241,
+      "z_m": 0.011249999999999998,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed dimensions and assumed density",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "ClampWasher_NegY_Front_1_1",
+      "material": "Steel",
+      "density_kg_m3": 7850.000000000001,
+      "volume_mm3": 15.221016406642555,
+      "mass_kg": 0.00011948497879214407,
+      "x_m": 0.235,
+      "y_m": -0.241,
+      "z_m": -0.024449999999999996,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed dimensions and assumed density",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "ClampLocknut_NegY_Front_1",
+      "material": "Steel",
+      "density_kg_m3": 7850.000000000001,
+      "volume_mm3": 76.48659414998598,
+      "mass_kg": 0.00060041976407739,
+      "x_m": 0.235,
+      "y_m": -0.241,
+      "z_m": -0.026699999999999998,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: 5.5 AF x4mm locknut simplified all-steel envelope; mass estimate includes lock insert volume as steel",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "MotorPlate_NegY_Rear",
+      "material": "GFRP",
+      "density_kg_m3": 1850.0000000000002,
+      "volume_mm3": 5216.505582157403,
+      "mass_kg": 0.009650535326991198,
+      "x_m": 0.555,
+      "y_m": -0.265,
+      "z_m": 0.00949999999999999,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed dimensions and assumed density",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "LowerStrap_NegY_Rear",
+      "material": "GFRP",
+      "density_kg_m3": 1850.0,
+      "volume_mm3": 5656.463713378238,
+      "mass_kg": 0.010464457869749741,
+      "x_m": 0.555,
+      "y_m": -0.265,
+      "z_m": -0.022200000000000004,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed dimensions and assumed density",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "LowerLiner_NegY_Rear",
+      "material": "Isolation liner",
+      "density_kg_m3": 1200.0000000000002,
+      "volume_mm3": 143.9999999999995,
+      "mass_kg": 0.0001727999999999994,
+      "x_m": 0.555,
+      "y_m": -0.265,
+      "z_m": -0.020099999999999996,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed dimensions and assumed density",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "Rail_NegY_Rear_0",
+      "material": "GFRP",
+      "density_kg_m3": 1850.0,
+      "volume_mm3": 851.2,
+      "mass_kg": 0.0015747200000000002,
+      "x_m": 0.555,
+      "y_m": -0.278,
+      "z_m": 0.004,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed dimensions and assumed density",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "TopLiner_NegY_Rear_0",
+      "material": "Isolation liner",
+      "density_kg_m3": 1200.0000000000002,
+      "volume_mm3": 22.4,
+      "mass_kg": 2.688e-05,
+      "x_m": 0.555,
+      "y_m": -0.278,
+      "z_m": 0.00010000000000000002,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed dimensions and assumed density",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "RailBond_NegY_Rear_0",
+      "material": "Epoxy",
+      "density_kg_m3": 1200.0000000000002,
+      "volume_mm3": 22.40000000000002,
+      "mass_kg": 2.6880000000000027e-05,
+      "x_m": 0.555,
+      "y_m": -0.278,
+      "z_m": 0.007899999999999999,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed dimensions and assumed density",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "Rail_NegY_Rear_1",
+      "material": "GFRP",
+      "density_kg_m3": 1850.0,
+      "volume_mm3": 851.2,
+      "mass_kg": 0.0015747200000000002,
+      "x_m": 0.555,
+      "y_m": -0.252,
+      "z_m": 0.004,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed dimensions and assumed density",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "TopLiner_NegY_Rear_1",
+      "material": "Isolation liner",
+      "density_kg_m3": 1200.0000000000002,
+      "volume_mm3": 22.4,
+      "mass_kg": 2.688e-05,
+      "x_m": 0.555,
+      "y_m": -0.25199999999999995,
+      "z_m": 0.00010000000000000002,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed dimensions and assumed density",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "RailBond_NegY_Rear_1",
+      "material": "Epoxy",
+      "density_kg_m3": 1200.0000000000002,
+      "volume_mm3": 22.40000000000002,
+      "mass_kg": 2.6880000000000027e-05,
+      "x_m": 0.555,
+      "y_m": -0.252,
+      "z_m": 0.007899999999999999,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed dimensions and assumed density",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "MotorWasher_NegY_Rear_0",
+      "material": "Steel",
+      "density_kg_m3": 7850.000000000001,
+      "volume_mm3": 15.221016406642551,
+      "mass_kg": 0.00011948497879214404,
+      "x_m": 0.5482824855787278,
+      "y_m": -0.2717175144212722,
+      "z_m": 0.007750000000000001,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed dimensions and assumed density",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "MotorScrew_NegY_Rear_0",
+      "material": "Steel",
+      "density_kg_m3": 7850.000000000001,
+      "volume_mm3": 113.68638415178063,
+      "mass_kg": 0.000892438115591478,
+      "x_m": 0.5482824855787278,
+      "y_m": -0.2717175144212722,
+      "z_m": 0.00767875647668394,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: M3x6 simple major-diameter/head envelope; approximate steel mass, insertion2.5mm unverified safe",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "MotorWasher_NegY_Rear_1",
+      "material": "Steel",
+      "density_kg_m3": 7850.000000000001,
+      "volume_mm3": 15.221016406642551,
+      "mass_kg": 0.00011948497879214404,
+      "x_m": 0.5482824855787278,
+      "y_m": -0.2582824855787278,
+      "z_m": 0.007750000000000001,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed dimensions and assumed density",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "MotorScrew_NegY_Rear_1",
+      "material": "Steel",
+      "density_kg_m3": 7850.000000000001,
+      "volume_mm3": 113.68638415178066,
+      "mass_kg": 0.0008924381155914783,
+      "x_m": 0.5482824855787278,
+      "y_m": -0.2582824855787278,
+      "z_m": 0.00767875647668394,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: M3x6 simple major-diameter/head envelope; approximate steel mass, insertion2.5mm unverified safe",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "MotorWasher_NegY_Rear_2",
+      "material": "Steel",
+      "density_kg_m3": 7850.000000000001,
+      "volume_mm3": 15.221016406642551,
+      "mass_kg": 0.00011948497879214404,
+      "x_m": 0.5617175144212722,
+      "y_m": -0.2717175144212722,
+      "z_m": 0.007749999999999998,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed dimensions and assumed density",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "MotorScrew_NegY_Rear_2",
+      "material": "Steel",
+      "density_kg_m3": 7850.000000000001,
+      "volume_mm3": 113.68638415178063,
+      "mass_kg": 0.000892438115591478,
+      "x_m": 0.5617175144212722,
+      "y_m": -0.2717175144212722,
+      "z_m": 0.00767875647668394,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: M3x6 simple major-diameter/head envelope; approximate steel mass, insertion2.5mm unverified safe",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "MotorWasher_NegY_Rear_3",
+      "material": "Steel",
+      "density_kg_m3": 7850.000000000001,
+      "volume_mm3": 15.221016406642551,
+      "mass_kg": 0.00011948497879214404,
+      "x_m": 0.5617175144212722,
+      "y_m": -0.2582824855787278,
+      "z_m": 0.00775,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed dimensions and assumed density",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "MotorScrew_NegY_Rear_3",
+      "material": "Steel",
+      "density_kg_m3": 7850.000000000001,
+      "volume_mm3": 113.68638415178063,
+      "mass_kg": 0.000892438115591478,
+      "x_m": 0.5617175144212722,
+      "y_m": -0.2582824855787278,
+      "z_m": 0.00767875647668394,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: M3x6 simple major-diameter/head envelope; approximate steel mass, insertion2.5mm unverified safe",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "ClampScrew_NegY_Rear_0",
+      "material": "Steel",
+      "density_kg_m3": 7850.000000000001,
+      "volume_mm3": 389.361139504285,
+      "mass_kg": 0.0030564849451086376,
+      "x_m": 0.555,
+      "y_m": -0.289,
+      "z_m": -0.006606656580937986,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: M3x45 simplified envelope, not selected vendor hardware",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "ClampWasher_NegY_Rear_0_0",
+      "material": "Steel",
+      "density_kg_m3": 7850.000000000001,
+      "volume_mm3": 15.221016406642555,
+      "mass_kg": 0.00011948497879214407,
+      "x_m": 0.555,
+      "y_m": -0.289,
+      "z_m": 0.01125,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed dimensions and assumed density",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "ClampWasher_NegY_Rear_0_1",
+      "material": "Steel",
+      "density_kg_m3": 7850.000000000001,
+      "volume_mm3": 15.221016406642555,
+      "mass_kg": 0.00011948497879214407,
+      "x_m": 0.555,
+      "y_m": -0.289,
+      "z_m": -0.02445,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed dimensions and assumed density",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "ClampLocknut_NegY_Rear_0",
+      "material": "Steel",
+      "density_kg_m3": 7850.000000000001,
+      "volume_mm3": 76.48659414998598,
+      "mass_kg": 0.00060041976407739,
+      "x_m": 0.555,
+      "y_m": -0.289,
+      "z_m": -0.026700000000000005,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: 5.5 AF x4mm locknut simplified all-steel envelope; mass estimate includes lock insert volume as steel",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "ClampScrew_NegY_Rear_1",
+      "material": "Steel",
+      "density_kg_m3": 7850.000000000001,
+      "volume_mm3": 389.361139504285,
+      "mass_kg": 0.0030564849451086376,
+      "x_m": 0.555,
+      "y_m": -0.24100000000000002,
+      "z_m": -0.00660665658093799,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: M3x45 simplified envelope, not selected vendor hardware",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "ClampWasher_NegY_Rear_1_0",
+      "material": "Steel",
+      "density_kg_m3": 7850.000000000001,
+      "volume_mm3": 15.221016406642555,
+      "mass_kg": 0.00011948497879214407,
+      "x_m": 0.555,
+      "y_m": -0.241,
+      "z_m": 0.011249999999999998,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed dimensions and assumed density",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "ClampWasher_NegY_Rear_1_1",
+      "material": "Steel",
+      "density_kg_m3": 7850.000000000001,
+      "volume_mm3": 15.221016406642555,
+      "mass_kg": 0.00011948497879214407,
+      "x_m": 0.555,
+      "y_m": -0.241,
+      "z_m": -0.02445,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: Proposed dimensions and assumed density",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "ClampLocknut_NegY_Rear_1",
+      "material": "Steel",
+      "density_kg_m3": 7850.000000000001,
+      "volume_mm3": 76.48659414998598,
+      "mass_kg": 0.00060041976407739,
+      "x_m": 0.555,
+      "y_m": -0.241,
+      "z_m": -0.026699999999999998,
+      "valid": true,
+      "inertia_centroid_kgm2": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "P05 assembly solid: 5.5 AF x4mm locknut simplified all-steel envelope; mass estimate includes lock insert volume as steel",
+      "attachment_group": "P05 motor-arm components"
+    },
+    {
+      "name": "SplicePlate_PosY_Spar_Rib1",
+      "material": "GFRP",
+      "density_kg_m3": 1850.0,
+      "volume_mm3": 1285.0288570467378,
+      "mass_kg": 0.002377303385536465,
+      "x_m": 0.3572969188424195,
+      "y_m": 0.2458001220239313,
+      "z_m": -0.004000033041152254,
+      "inertia_centroid_kgm2": [
+        [
+          1.8067784999622034e-07,
+          2.8233477441966537e-11,
+          -2.6088605707370293e-08
+        ],
+        [
+          2.8233477441966537e-11,
+          2.996663532387972e-07,
+          -1.7151059885392899e-12
+        ],
+        [
+          -2.6088605707370293e-08,
+          -1.7151059885392899e-12,
+          1.2057337217635512e-07
+        ]
+      ],
+      "valid": true,
+      "source": "P06 proposed connection, native solid integral at assumed density"
+    },
+    {
+      "name": "RibPacker_PosY_Spar_Rib1",
+      "material": "GFRP",
+      "density_kg_m3": 1850.0,
+      "volume_mm3": 289.64655359343425,
+      "mass_kg": 0.0005358461241478534,
+      "x_m": 0.3594432052980208,
+      "y_m": 0.24790113096705482,
+      "z_m": 0.007864332058653292,
+      "inertia_centroid_kgm2": [
+        [
+          7.486245258088969e-09,
+          2.1996791778691114e-11,
+          -1.4477724706266833e-09
+        ],
+        [
+          2.1996791778691114e-11,
+          3.623506585183963e-08,
+          2.6387143814528827e-12
+        ],
+        [
+          -1.4477724706266833e-09,
+          2.6387143814528827e-12,
+          2.9038040664365145e-08
+        ]
+      ],
+      "valid": true,
+      "source": "P06 proposed connection, native solid integral at assumed density"
+    },
+    {
+      "name": "RibPackerBond_PosY_Spar_Rib1",
+      "material": "Epoxy",
+      "density_kg_m3": 1200.0,
+      "volume_mm3": 32.27627111607215,
+      "mass_kg": 3.873152533928659e-05,
+      "x_m": 0.3592950590792984,
+      "y_m": 0.2489000048737853,
+      "z_m": 0.0078503300703469,
+      "inertia_centroid_kgm2": [
+        [
+          5.31169745563902e-10,
+          1.8492820858955386e-14,
+          -1.053047522303823e-10
+        ],
+        [
+          1.8492820858955386e-14,
+          2.6914861542133617e-09,
+          1.0974078584695237e-15
+        ],
+        [
+          -1.053047522303823e-10,
+          1.0974078584695237e-15,
+          2.1605746188506487e-09
+        ]
+      ],
+      "valid": true,
+      "source": "P06 proposed connection, native solid integral at assumed density"
+    },
+    {
+      "name": "PackerSpliceBond_PosY_Spar_Rib1",
+      "material": "Epoxy",
+      "density_kg_m3": 1200.0,
+      "volume_mm3": 31.99724360712107,
+      "mass_kg": 3.839669232854529e-05,
+      "x_m": 0.3595990267458739,
+      "y_m": 0.24690002792607443,
+      "z_m": 0.007885322561261156,
+      "inertia_centroid_kgm2": [
+        [
+          5.263629782550037e-10,
+          2.0628253743052483e-14,
+          -1.0233642622777262e-10
+        ],
+        [
+          2.0628253743052483e-14,
+          2.5266865036625417e-09,
+          2.897425275295973e-15
+        ],
+        [
+          -1.0233642622777262e-10,
+          2.897425275295973e-15,
+          2.0005795021478088e-09
+        ]
+      ],
+      "valid": true,
+      "source": "P06 proposed connection, native solid integral at assumed density"
+    },
+    {
+      "name": "SaddleSpliceBond_PosY_Spar_Rib1",
+      "material": "Epoxy",
+      "density_kg_m3": 1200.0,
+      "volume_mm3": 91.19999999999492,
+      "mass_kg": 0.00010943999999999391,
+      "x_m": 0.35640000000000005,
+      "y_m": 0.24689999999999998,
+      "z_m": -0.0085,
+      "inertia_centroid_kgm2": [
+        [
+          3.292684800001234e-09,
+          2.2351741790771487e-21,
+          0.0
+        ],
+        [
+          2.2351741790771487e-21,
+          8.545439999996871e-09,
+          6.98491930961609e-23
+        ],
+        [
+          0.0,
+          6.98491930961609e-23,
+          5.253484799998999e-09
+        ]
+      ],
+      "valid": true,
+      "source": "P06 proposed connection, native solid integral at assumed density"
+    },
+    {
+      "name": "SplicePlate_PosY_Rear_Rib1",
+      "material": "GFRP",
+      "density_kg_m3": 1850.0,
+      "volume_mm3": 1000.6897740668002,
+      "mass_kg": 0.0018512760820235804,
+      "x_m": 0.4099322608098346,
+      "y_m": 0.24605007554210903,
+      "z_m": -0.0040993702354985015,
+      "inertia_centroid_kgm2": [
+        [
+          1.1965897537320183e-07,
+          -1.1167770691215993e-12,
+          1.7145304335043417e-09
+        ],
+        [
+          -1.1167770691215993e-12,
+          2.0759991329005363e-07,
+          -1.888294827262871e-12
+        ],
+        [
+          1.7145304335043417e-09,
+          -1.888294827262871e-12,
+          8.86351658415258e-08
+        ]
+      ],
+      "valid": true,
+      "source": "P06 proposed connection, native solid integral at assumed density"
+    },
+    {
+      "name": "RibPacker_PosY_Rear_Rib1",
+      "material": "GFRP",
+      "density_kg_m3": 1850.0,
+      "volume_mm3": 247.77540400196725,
+      "mass_kg": 0.00045838449740363943,
+      "x_m": 0.4094338590810786,
+      "y_m": 0.2479,
+      "z_m": 0.006964432241121763,
+      "inertia_centroid_kgm2": [
+        [
+          1.4135855223898778e-09,
+          0.0,
+          -2.9071247896616117e-11
+        ],
+        [
+          0.0,
+          2.256366717009619e-08,
+          0.0
+        ],
+        [
+          -2.9071247896616117e-11,
+          0.0,
+          2.1397609276295456e-08
+        ]
+      ],
+      "valid": true,
+      "source": "P06 proposed connection, native solid integral at assumed density"
+    },
+    {
+      "name": "RibPackerBond_PosY_Rear_Rib1",
+      "material": "Epoxy",
+      "density_kg_m3": 1200.0,
+      "volume_mm3": 27.530600444661133,
+      "mass_kg": 3.303672053359336e-05,
+      "x_m": 0.40943385908107854,
+      "y_m": 0.2489,
+      "z_m": 0.00696443224112177,
+      "inertia_centroid_kgm2": [
+        [
+          9.30702455084771e-11,
+          5.587935447692872e-22,
+          -2.0952250736241698e-12
+        ],
+        [
+          5.587935447692872e-22,
+          1.6262102464947851e-09,
+          -8.731149137020112e-24
+        ],
+        [
+          -2.0952250736241698e-12,
+          -8.731149137020112e-24,
+          1.53336024578847e-09
+        ]
+      ],
+      "valid": true,
+      "source": "P06 proposed connection, native solid integral at assumed density"
+    },
+    {
+      "name": "PackerSpliceBond_PosY_Rear_Rib1",
+      "material": "Epoxy",
+      "density_kg_m3": 1200.0,
+      "volume_mm3": 27.530600444661136,
+      "mass_kg": 3.303672053359336e-05,
+      "x_m": 0.4094338590810786,
+      "y_m": 0.24690000000000004,
+      "z_m": 0.00696443224112177,
+      "inertia_centroid_kgm2": [
+        [
+          9.307024550763891e-11,
+          0.0,
+          -2.0952250736241698e-12
+        ],
+        [
+          0.0,
+          1.6262102464936674e-09,
+          8.731149137020112e-24
+        ],
+        [
+          -2.0952250736241698e-12,
+          8.731149137020112e-24,
+          1.5333602457873524e-09
+        ]
+      ],
+      "valid": true,
+      "source": "P06 proposed connection, native solid integral at assumed density"
+    },
+    {
+      "name": "SaddleSpliceBond_PosY_Rear_Rib1",
+      "material": "Epoxy",
+      "density_kg_m3": 1200.0,
+      "volume_mm3": 91.19999999999493,
+      "mass_kg": 0.00010943999999999392,
+      "x_m": 0.41,
+      "y_m": 0.24689999999999995,
+      "z_m": -0.0085,
+      "inertia_centroid_kgm2": [
+        [
+          3.292684800001234e-09,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          8.545439999996871e-09,
+          3.492459654808045e-23
+        ],
+        [
+          0.0,
+          3.492459654808045e-23,
+          5.253484799998999e-09
+        ]
+      ],
+      "valid": true,
+      "source": "P06 proposed connection, native solid integral at assumed density"
+    },
+    {
+      "name": "SplicePlate_PosY_Spar_Rib2",
+      "material": "GFRP",
+      "density_kg_m3": 1850.0,
+      "volume_mm3": 1303.378350768322,
+      "mass_kg": 0.0024112499489213957,
+      "x_m": 0.3560402685532169,
+      "y_m": 0.28420012236299513,
+      "z_m": -0.003906903883024893,
+      "inertia_centroid_kgm2": [
+        [
+          1.8173652222367453e-07,
+          2.3927712544053794e-11,
+          1.0926548477410107e-08
+        ],
+        [
+          2.3927712544053794e-11,
+          3.108726519077346e-07,
+          -2.079527275497094e-12
+        ],
+        [
+          1.0926548477410107e-08,
+          -2.079527275497094e-12,
+          1.3074362946794033e-07
+        ]
+      ],
+      "valid": true,
+      "source": "P06 proposed connection, native solid integral at assumed density"
+    },
+    {
+      "name": "RibPacker_PosY_Spar_Rib2",
+      "material": "GFRP",
+      "density_kg_m3": 1850.0,
+      "volume_mm3": 285.2009847896969,
+      "mass_kg": 0.0005276218218609393,
+      "x_m": 0.3549628317239826,
+      "y_m": 0.28209916058426066,
+      "z_m": 0.00796573407400832,
+      "inertia_centroid_kgm2": [
+        [
+          6.801959624196217e-09,
+          1.679136308860034e-11,
+          -1.7724135071198107e-10
+        ],
+        [
+          1.679136308860034e-11,
+          4.4536688993356384e-08,
+          -1.1193753908621148e-12
+        ],
+        [
+          -1.7724135071198107e-10,
+          -1.1193753908621148e-12,
+          3.801950107814446e-08
+        ]
+      ],
+      "valid": true,
+      "source": "P06 proposed connection, native solid integral at assumed density"
+    },
+    {
+      "name": "RibPackerBond_PosY_Spar_Rib2",
+      "material": "Epoxy",
+      "density_kg_m3": 1200.0,
+      "volume_mm3": 31.73373750878978,
+      "mass_kg": 3.8080485010547744e-05,
+      "x_m": 0.3550835380778592,
+      "y_m": 0.2811000033866209,
+      "z_m": 0.00796224440337913,
+      "inertia_centroid_kgm2": [
+        [
+          4.810003985809163e-10,
+          1.5842349641025066e-14,
+          -1.692951765371254e-11
+        ],
+        [
+          1.5842349641025066e-14,
+          3.238388728527725e-09,
+          7.007088221143932e-16
+        ],
+        [
+          -1.692951765371254e-11,
+          7.007088221143932e-16,
+          2.7576422452077274e-09
+        ]
+      ],
+      "valid": true,
+      "source": "P06 proposed connection, native solid integral at assumed density"
+    },
+    {
+      "name": "PackerSpliceBond_PosY_Spar_Rib2",
+      "material": "Epoxy",
+      "density_kg_m3": 1200.0,
+      "volume_mm3": 31.540510925571215,
+      "mass_kg": 3.784861311068546e-05,
+      "x_m": 0.35484844113903286,
+      "y_m": 0.283099976300292,
+      "z_m": 0.007975034716047501,
+      "inertia_centroid_kgm2": [
+        [
+          4.784598688378931e-10,
+          1.3719524256885053e-14,
+          -8.379299859667663e-12
+        ],
+        [
+          1.3719524256885053e-14,
+          3.177728911458515e-09,
+          -1.1454737163148822e-15
+        ],
+        [
+          -8.379299859667663e-12,
+          -1.1454737163148822e-15,
+          2.699521365924552e-09
+        ]
+      ],
+      "valid": true,
+      "source": "P06 proposed connection, native solid integral at assumed density"
+    },
+    {
+      "name": "SaddleSpliceBond_PosY_Spar_Rib2",
+      "material": "Epoxy",
+      "density_kg_m3": 1200.0,
+      "volume_mm3": 91.19999999999492,
+      "mass_kg": 0.00010943999999999391,
+      "x_m": 0.35640000000000005,
+      "y_m": 0.28309999999999996,
+      "z_m": -0.0085,
+      "inertia_centroid_kgm2": [
+        [
+          3.292684800001234e-09,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          8.545439999996871e-09,
+          3.492459654808045e-23
+        ],
+        [
+          0.0,
+          3.492459654808045e-23,
+          5.253484799998999e-09
+        ]
+      ],
+      "valid": true,
+      "source": "P06 proposed connection, native solid integral at assumed density"
+    },
+    {
+      "name": "SplicePlate_PosY_Rear_Rib2",
+      "material": "GFRP",
+      "density_kg_m3": 1850.0,
+      "volume_mm3": 1008.0,
+      "mass_kg": 0.0018648,
+      "x_m": 0.41,
+      "y_m": 0.28395,
+      "z_m": -0.004,
+      "inertia_centroid_kgm2": [
+        [
+          1.2218325e-07,
+          2.7567148208618164e-20,
+          0.0
+        ],
+        [
+          2.7567148208618164e-20,
+          2.1134400000000002e-07,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          8.986005000000001e-08
+        ]
+      ],
+      "valid": true,
+      "source": "P06 proposed connection, native solid integral at assumed density"
+    },
+    {
+      "name": "RibPacker_PosY_Rear_Rib2",
+      "material": "GFRP",
+      "density_kg_m3": 1850.0,
+      "volume_mm3": 237.20687556787053,
+      "mass_kg": 0.00043883271980056047,
+      "x_m": 0.40968655842536983,
+      "y_m": 0.2821,
+      "z_m": 0.0072485990433340365,
+      "inertia_centroid_kgm2": [
+        [
+          1.2345673214461655e-09,
+          0.0,
+          -3.7605851367743456e-10
+        ],
+        [
+          0.0,
+          2.2163365472225476e-08,
+          0.0
+        ],
+        [
+          -3.7605851367743456e-10,
+          0.0,
+          2.1165767819422857e-08
+        ]
+      ],
+      "valid": true,
+      "source": "P06 proposed connection, native solid integral at assumed density"
+    },
+    {
+      "name": "RibPackerBond_PosY_Rear_Rib2",
+      "material": "Epoxy",
+      "density_kg_m3": 1200.0,
+      "volume_mm3": 26.35631950753946,
+      "mass_kg": 3.162758340904735e-05,
+      "x_m": 0.4096865584253698,
+      "y_m": 0.28110000000000007,
+      "z_m": 0.00724859904333404,
+      "inertia_centroid_kgm2": [
+        [
+          8.054380272757262e-11,
+          0.0,
+          -2.710331630110159e-11
+        ],
+        [
+          0.0,
+          1.5973596736751497e-09,
+          8.731149137020112e-24
+        ],
+        [
+          -2.710331630110159e-11,
+          8.731149137020112e-24,
+          1.5170267215020956e-09
+        ]
+      ],
+      "valid": true,
+      "source": "P06 proposed connection, native solid integral at assumed density"
+    },
+    {
+      "name": "PackerSpliceBond_PosY_Rear_Rib2",
+      "material": "Epoxy",
+      "density_kg_m3": 1200.0,
+      "volume_mm3": 26.356319507539467,
+      "mass_kg": 3.1627583409047364e-05,
+      "x_m": 0.40968655842536966,
+      "y_m": 0.28309999999999996,
+      "z_m": 0.00724859904333404,
+      "inertia_centroid_kgm2": [
+        [
+          8.0543802729249e-11,
+          -1.6763806343078615e-21,
+          -2.7103316301084127e-11
+        ],
+        [
+          -1.6763806343078615e-21,
+          1.597359673677385e-09,
+          8.731149137020112e-24
+        ],
+        [
+          -2.7103316301084127e-11,
+          8.731149137020112e-24,
+          1.517026721506566e-09
+        ]
+      ],
+      "valid": true,
+      "source": "P06 proposed connection, native solid integral at assumed density"
+    },
+    {
+      "name": "SaddleSpliceBond_PosY_Rear_Rib2",
+      "material": "Epoxy",
+      "density_kg_m3": 1200.0,
+      "volume_mm3": 91.19999999999492,
+      "mass_kg": 0.00010943999999999391,
+      "x_m": 0.41000000000000003,
+      "y_m": 0.2831,
+      "z_m": -0.0085,
+      "inertia_centroid_kgm2": [
+        [
+          3.2926847999978813e-09,
+          4.4703483581542974e-21,
+          0.0
+        ],
+        [
+          4.4703483581542974e-21,
+          8.545439999994636e-09,
+          -3.492459654808045e-23
+        ],
+        [
+          0.0,
+          -3.492459654808045e-23,
+          5.253484799994529e-09
+        ]
+      ],
+      "valid": true,
+      "source": "P06 proposed connection, native solid integral at assumed density"
+    },
+    {
+      "name": "SplicePlate_NegY_Spar_Rib1",
+      "material": "GFRP",
+      "density_kg_m3": 1850.0,
+      "volume_mm3": 1303.3783508124227,
+      "mass_kg": 0.0024112499490029824,
+      "x_m": 0.356040268553187,
+      "y_m": -0.28420012236200065,
+      "z_m": -0.00390690388261845,
+      "inertia_centroid_kgm2": [
+        [
+          1.8173652224142776e-07,
+          -2.39277232401073e-11,
+          1.0926548478822061e-08
+        ],
+        [
+          -2.39277232401073e-11,
+          3.10872651921022e-07,
+          2.0794933231081814e-12
+        ],
+        [
+          1.0926548478822061e-08,
+          2.0794933231081814e-12,
+          1.307436294743359e-07
+        ]
+      ],
+      "valid": true,
+      "source": "P06 proposed connection, native solid integral at assumed density"
+    },
+    {
+      "name": "RibPacker_NegY_Spar_Rib1",
+      "material": "GFRP",
+      "density_kg_m3": 1850.0,
+      "volume_mm3": 285.20099608698735,
+      "mass_kg": 0.0005276218427609266,
+      "x_m": 0.3549628319047996,
+      "y_m": -0.28209916055326306,
+      "z_m": 0.007965733996063975,
+      "inertia_centroid_kgm2": [
+        [
+          6.8019597983516754e-09,
+          -1.679146737512201e-11,
+          -1.7724122823824873e-10
+        ],
+        [
+          -1.679146737512201e-11,
+          4.453668982409239e-08,
+          1.1193940884957557e-12
+        ],
+        [
+          -1.7724122823824873e-10,
+          1.1193940884957557e-12,
+          3.801950176364295e-08
+        ]
+      ],
+      "valid": true,
+      "source": "P06 proposed connection, native solid integral at assumed density"
+    },
+    {
+      "name": "RibPackerBond_NegY_Spar_Rib1",
+      "material": "Epoxy",
+      "density_kg_m3": 1200.0,
+      "volume_mm3": 31.7336682757712,
+      "mass_kg": 3.808040193092545e-05,
+      "x_m": 0.35508353140703686,
+      "y_m": -0.2811000038715008,
+      "z_m": 0.00796224860919524,
+      "inertia_centroid_kgm2": [
+        [
+          4.809998123450205e-10,
+          -1.563304625451565e-14,
+          -1.6929980309813982e-11
+        ],
+        [
+          -1.563304625451565e-14,
+          3.238386473267153e-09,
+          -7.262261817231775e-16
+        ],
+        [
+          -1.6929980309813982e-11,
+          -7.262261817231775e-16,
+          2.7576405167229477e-09
+        ]
+      ],
+      "valid": true,
+      "source": "P06 proposed connection, native solid integral at assumed density"
+    },
+    {
+      "name": "PackerSpliceBond_NegY_Spar_Rib1",
+      "material": "Epoxy",
+      "density_kg_m3": 1200.0,
+      "volume_mm3": 31.540511089821255,
+      "mass_kg": 3.7848613307785506e-05,
+      "x_m": 0.35484844112861735,
+      "y_m": -0.28309997629888467,
+      "z_m": 0.00797503469038256,
+      "inertia_centroid_kgm2": [
+        [
+          4.78459872196801e-10,
+          -1.3720031641423703e-14,
+          -8.379302620055387e-12
+        ],
+        [
+          -1.3720031641423703e-14,
+          3.177728915450536e-09,
+          1.1452565202489495e-15
+        ],
+        [
+          -8.379302620055387e-12,
+          1.1452565202489495e-15,
+          2.69952136637941e-09
+        ]
+      ],
+      "valid": true,
+      "source": "P06 proposed connection, native solid integral at assumed density"
+    },
+    {
+      "name": "SaddleSpliceBond_NegY_Spar_Rib1",
+      "material": "Epoxy",
+      "density_kg_m3": 1200.0,
+      "volume_mm3": 91.19999999999492,
+      "mass_kg": 0.00010943999999999391,
+      "x_m": 0.3564,
+      "y_m": -0.28309999999999996,
+      "z_m": -0.0085,
+      "inertia_centroid_kgm2": [
+        [
+          3.292684800001234e-09,
+          0.0,
+          6.98491930961609e-23
+        ],
+        [
+          0.0,
+          8.545440000001341e-09,
+          -3.492459654808045e-23
+        ],
+        [
+          6.98491930961609e-23,
+          -3.492459654808045e-23,
+          5.253484800003469e-09
+        ]
+      ],
+      "valid": true,
+      "source": "P06 proposed connection, native solid integral at assumed density"
+    },
+    {
+      "name": "SplicePlate_NegY_Rear_Rib1",
+      "material": "GFRP",
+      "density_kg_m3": 1850.0,
+      "volume_mm3": 1008.0,
+      "mass_kg": 0.0018648,
+      "x_m": 0.41,
+      "y_m": -0.28395,
+      "z_m": -0.004,
+      "inertia_centroid_kgm2": [
+        [
+          1.2218325e-07,
+          -5.513429641723633e-20,
+          0.0
+        ],
+        [
+          -5.513429641723633e-20,
+          2.1134399999994488e-07,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          8.986005000000001e-08
+        ]
+      ],
+      "valid": true,
+      "source": "P06 proposed connection, native solid integral at assumed density"
+    },
+    {
+      "name": "RibPacker_NegY_Rear_Rib1",
+      "material": "GFRP",
+      "density_kg_m3": 1850.0,
+      "volume_mm3": 237.20687556786817,
+      "mass_kg": 0.0004388327198005562,
+      "x_m": 0.4096865584253698,
+      "y_m": -0.2821,
+      "z_m": 0.0072485990433340565,
+      "inertia_centroid_kgm2": [
+        [
+          1.2345673214392737e-09,
+          -6.891787052154541e-21,
+          -3.7605851367743456e-10
+        ],
+        [
+          -6.891787052154541e-21,
+          2.2163365472239257e-08,
+          -1.076841726899147e-22
+        ],
+        [
+          -3.7605851367743456e-10,
+          -1.076841726899147e-22,
+          2.116576781943664e-08
+        ]
+      ],
+      "valid": true,
+      "source": "P06 proposed connection, native solid integral at assumed density"
+    },
+    {
+      "name": "RibPackerBond_NegY_Rear_Rib1",
+      "material": "Epoxy",
+      "density_kg_m3": 1200.0,
+      "volume_mm3": 26.3563195075392,
+      "mass_kg": 3.1627583409047046e-05,
+      "x_m": 0.4096865584253697,
+      "y_m": -0.28109999999999996,
+      "z_m": 0.007248599043334058,
+      "inertia_centroid_kgm2": [
+        [
+          8.054380272869022e-11,
+          5.587935447692872e-22,
+          -2.710331630110159e-11
+        ],
+        [
+          5.587935447692872e-22,
+          1.5973596736762675e-09,
+          8.731149137020112e-24
+        ],
+        [
+          -2.710331630110159e-11,
+          8.731149137020112e-24,
+          1.5170267215032131e-09
+        ]
+      ],
+      "valid": true,
+      "source": "P06 proposed connection, native solid integral at assumed density"
+    },
+    {
+      "name": "PackerSpliceBond_NegY_Rear_Rib1",
+      "material": "Epoxy",
+      "density_kg_m3": 1200.0,
+      "volume_mm3": 26.356319507539204,
+      "mass_kg": 3.1627583409047046e-05,
+      "x_m": 0.4096865584253697,
+      "y_m": -0.2831,
+      "z_m": 0.007248599043334058,
+      "inertia_centroid_kgm2": [
+        [
+          8.054380272869022e-11,
+          -1.1175870895385743e-21,
+          -2.710331630110159e-11
+        ],
+        [
+          -1.1175870895385743e-21,
+          1.597359673677385e-09,
+          0.0
+        ],
+        [
+          -2.710331630110159e-11,
+          0.0,
+          1.5170267215032131e-09
+        ]
+      ],
+      "valid": true,
+      "source": "P06 proposed connection, native solid integral at assumed density"
+    },
+    {
+      "name": "SaddleSpliceBond_NegY_Rear_Rib1",
+      "material": "Epoxy",
+      "density_kg_m3": 1200.0,
+      "volume_mm3": 91.19999999999492,
+      "mass_kg": 0.00010943999999999391,
+      "x_m": 0.4099999999999999,
+      "y_m": -0.2831,
+      "z_m": -0.0085,
+      "inertia_centroid_kgm2": [
+        [
+          3.2926847999978813e-09,
+          -2.2351741790771487e-21,
+          6.98491930961609e-23
+        ],
+        [
+          -2.2351741790771487e-21,
+          8.545440000008048e-09,
+          3.492459654808045e-23
+        ],
+        [
+          6.98491930961609e-23,
+          3.492459654808045e-23,
+          5.25348480000794e-09
+        ]
+      ],
+      "valid": true,
+      "source": "P06 proposed connection, native solid integral at assumed density"
+    },
+    {
+      "name": "SplicePlate_NegY_Spar_Rib2",
+      "material": "GFRP",
+      "density_kg_m3": 1850.0,
+      "volume_mm3": 1285.0288570645248,
+      "mass_kg": 0.002377303385569371,
+      "x_m": 0.3572969188421073,
+      "y_m": -0.24580012202259738,
+      "z_m": -0.004000033041012698,
+      "inertia_centroid_kgm2": [
+        [
+          1.8067785000785367e-07,
+          -2.8233466029167177e-11,
+          -2.608860569845706e-08
+        ],
+        [
+          -2.8233466029167177e-11,
+          2.9966635324772896e-07,
+          1.7150653588701972e-12
+        ],
+        [
+          -2.608860569845706e-08,
+          1.7150653588701972e-12,
+          1.205733721899733e-07
+        ]
+      ],
+      "valid": true,
+      "source": "P06 proposed connection, native solid integral at assumed density"
+    },
+    {
+      "name": "RibPacker_NegY_Spar_Rib2",
+      "material": "GFRP",
+      "density_kg_m3": 1850.0,
+      "volume_mm3": 289.6407287562451,
+      "mass_kg": 0.0005358353481990535,
+      "x_m": 0.3594433293065128,
+      "y_m": -0.24790112481045296,
+      "z_m": 0.007864376313409693,
+      "inertia_centroid_kgm2": [
+        [
+          7.486155421611667e-09,
+          -2.1959307693503797e-11,
+          -1.4476189387193766e-09
+        ],
+        [
+          -2.1959307693503797e-11,
+          3.6234440927456694e-08,
+          -2.6307022659282668e-12
+        ],
+        [
+          -1.4476189387193766e-09,
+          -2.6307022659282668e-12,
+          2.9037502150062847e-08
+        ]
+      ],
+      "valid": true,
+      "source": "P06 proposed connection, native solid integral at assumed density"
+    },
+    {
+      "name": "RibPackerBond_NegY_Spar_Rib2",
+      "material": "Epoxy",
+      "density_kg_m3": 1200.0,
+      "volume_mm3": 32.276271087739644,
+      "mass_kg": 3.8731525305287576e-05,
+      "x_m": 0.3592950590859401,
+      "y_m": -0.2489000048628349,
+      "z_m": 0.007850330072496267,
+      "inertia_centroid_kgm2": [
+        [
+          5.311697447662242e-10,
+          -1.8490169383585455e-14,
+          -1.0530475148189582e-10
+        ],
+        [
+          -1.8490169383585455e-14,
+          2.691486151327193e-09,
+          -1.0969012684654446e-15
+        ],
+        [
+          -1.0530475148189582e-10,
+          -1.0969012684654446e-15,
+          2.160574615927041e-09
+        ]
+      ],
+      "valid": true,
+      "source": "P06 proposed connection, native solid integral at assumed density"
+    },
+    {
+      "name": "PackerSpliceBond_NegY_Spar_Rib2",
+      "material": "Epoxy",
+      "density_kg_m3": 1200.0,
+      "volume_mm3": 31.99724360470865,
+      "mass_kg": 3.8396692325650384e-05,
+      "x_m": 0.35959902675092836,
+      "y_m": -0.24690002792417964,
+      "z_m": 0.007885322565379604,
+      "inertia_centroid_kgm2": [
+        [
+          5.263629783606157e-10,
+          -2.0627964287996295e-14,
+          -1.023364251854131e-10
+        ],
+        [
+          -2.0627964287996295e-14,
+          2.5266865009311587e-09,
+          -2.8976730565773324e-15
+        ],
+        [
+          -1.023364251854131e-10,
+          -2.8976730565773324e-15,
+          2.0005794993907215e-09
+        ]
+      ],
+      "valid": true,
+      "source": "P06 proposed connection, native solid integral at assumed density"
+    },
+    {
+      "name": "SaddleSpliceBond_NegY_Spar_Rib2",
+      "material": "Epoxy",
+      "density_kg_m3": 1200.0,
+      "volume_mm3": 91.19999999999492,
+      "mass_kg": 0.00010943999999999391,
+      "x_m": 0.35640000000000005,
+      "y_m": -0.24689999999999998,
+      "z_m": -0.0085,
+      "inertia_centroid_kgm2": [
+        [
+          3.292684800001234e-09,
+          -2.2351741790771487e-21,
+          0.0
+        ],
+        [
+          -2.2351741790771487e-21,
+          8.545439999994636e-09,
+          -6.98491930961609e-23
+        ],
+        [
+          0.0,
+          -6.98491930961609e-23,
+          5.253484799998999e-09
+        ]
+      ],
+      "valid": true,
+      "source": "P06 proposed connection, native solid integral at assumed density"
+    },
+    {
+      "name": "SplicePlate_NegY_Rear_Rib2",
+      "material": "GFRP",
+      "density_kg_m3": 1850.0,
+      "volume_mm3": 1000.6897740668016,
+      "mass_kg": 0.0018512760820235832,
+      "x_m": 0.40993226080983464,
+      "y_m": -0.24605007554210903,
+      "z_m": -0.0040993702354984955,
+      "inertia_centroid_kgm2": [
+        [
+          1.1965897537320183e-07,
+          1.116777013987303e-12,
+          1.7145304335052032e-09
+        ],
+        [
+          1.116777013987303e-12,
+          2.0759991328994336e-07,
+          1.888294826616766e-12
+        ],
+        [
+          1.7145304335052032e-09,
+          1.888294826616766e-12,
+          8.863516584141553e-08
+        ]
+      ],
+      "valid": true,
+      "source": "P06 proposed connection, native solid integral at assumed density"
+    },
+    {
+      "name": "RibPacker_NegY_Rear_Rib2",
+      "material": "GFRP",
+      "density_kg_m3": 1850.0,
+      "volume_mm3": 247.77540400196725,
+      "mass_kg": 0.00045838449740363943,
+      "x_m": 0.4094338590810786,
+      "y_m": -0.2479,
+      "z_m": 0.006964432241121763,
+      "inertia_centroid_kgm2": [
+        [
+          1.4135855223864318e-09,
+          0.0,
+          -2.9071247896616117e-11
+        ],
+        [
+          0.0,
+          2.256366717008241e-08,
+          0.0
+        ],
+        [
+          -2.9071247896616117e-11,
+          0.0,
+          2.1397609276267887e-08
+        ]
+      ],
+      "valid": true,
+      "source": "P06 proposed connection, native solid integral at assumed density"
+    },
+    {
+      "name": "RibPackerBond_NegY_Rear_Rib2",
+      "material": "Epoxy",
+      "density_kg_m3": 1200.0,
+      "volume_mm3": 27.530600444661133,
+      "mass_kg": 3.303672053359336e-05,
+      "x_m": 0.40943385908107854,
+      "y_m": -0.2489,
+      "z_m": 0.00696443224112177,
+      "inertia_centroid_kgm2": [
+        [
+          9.30702455084771e-11,
+          0.0,
+          -2.0952250736241698e-12
+        ],
+        [
+          0.0,
+          1.6262102464947851e-09,
+          8.731149137020112e-24
+        ],
+        [
+          -2.0952250736241698e-12,
+          8.731149137020112e-24,
+          1.53336024578847e-09
+        ]
+      ],
+      "valid": true,
+      "source": "P06 proposed connection, native solid integral at assumed density"
+    },
+    {
+      "name": "PackerSpliceBond_NegY_Rear_Rib2",
+      "material": "Epoxy",
+      "density_kg_m3": 1200.0,
+      "volume_mm3": 27.530600444661136,
+      "mass_kg": 3.303672053359336e-05,
+      "x_m": 0.40943385908107854,
+      "y_m": -0.2469,
+      "z_m": 0.00696443224112177,
+      "inertia_centroid_kgm2": [
+        [
+          9.30702455079183e-11,
+          1.1175870895385743e-21,
+          -2.0952250736067073e-12
+        ],
+        [
+          1.1175870895385743e-21,
+          1.6262102464947851e-09,
+          0.0
+        ],
+        [
+          -2.0952250736067073e-12,
+          0.0,
+          1.5333602457907052e-09
+        ]
+      ],
+      "valid": true,
+      "source": "P06 proposed connection, native solid integral at assumed density"
+    },
+    {
+      "name": "SaddleSpliceBond_NegY_Rear_Rib2",
+      "material": "Epoxy",
+      "density_kg_m3": 1200.0,
+      "volume_mm3": 91.19999999999493,
+      "mass_kg": 0.00010943999999999392,
+      "x_m": 0.41,
+      "y_m": -0.24689999999999995,
+      "z_m": -0.0085,
+      "inertia_centroid_kgm2": [
+        [
+          3.292684800001234e-09,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          8.545439999996871e-09,
+          -3.492459654808045e-23
+        ],
+        [
+          0.0,
+          -3.492459654808045e-23,
+          5.253484799998999e-09
+        ]
+      ],
+      "valid": true,
+      "source": "P06 proposed connection, native solid integral at assumed density"
+    }
+  ],
+  "shape_hashes": {},
+  "unmodeled_fuselage_xps_kg": null,
+  "method": "FreeCAD native P04 study, saved and reopened; assumed candidate construction; base P03 retained",
+  "scope": "Arm assembly and revised wing context only; skin quantity retained from P05 because Boolean volume-conservation screen fails."
+}

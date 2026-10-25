@@ -1,0 +1,46 @@
+{
+  "version": "P06 rib-saddle splice candidate",
+  "status": "GEOMETRY REVIEW; peel/fatigue and wing slot reinforcement open",
+  "files": [
+    {
+      "path": "cad/RescU_P06_Rib_Saddle_Assembly.FCStd",
+      "size_bytes": 3668574,
+      "sha256": "648a5a3ef47f2c6d5137d4a5c20ab433e0ff4404a4b9bf1a3943824df05fdbd7"
+    },
+    {
+      "path": "cad/RescU_P06_Arm_Pair.step",
+      "size_bytes": 4061088,
+      "sha256": "6796e9e55c3a78d423f6afd6bccc45e0e1e5003d49397940c9e3e32f0a99daf7"
+    },
+    {
+      "path": "cad/Open_Rib_Saddle.FCMacro",
+      "size_bytes": 1879,
+      "sha256": "ff2f9965c810f2620dff5d4604561a49de78e8f6aec506d38fc8d6ce119285ff"
+    },
+    {
+      "path": "cad/RescU_P06_CAD.zip",
+      "size_bytes": 4517007,
+      "sha256": "b6f982659dc1351c348857892f0bcbadf7db26b13504c34971d8913ea3870362"
+    },
+    {
+      "path": "cad/Rib_Saddle_Review.png",
+      "size_bytes": 231916,
+      "sha256": "1e66e43f2f196ca64a56ac878702df7fd70f0d263d4687b956bee82d94041249"
+    },
+    {
+      "path": "reports/geometry_checks.json",
+      "size_bytes": 38752,
+      "sha256": "b4332892d0b18687569428cc292f3990d806006f4ac44c03087dc3faa2252e9f"
+    },
+    {
+      "path": "reports/results.json",
+      "size_bytes": 225218,
+      "sha256": "0e74a40d24aa17fbf723fd25392af48c9d89e9ee49d2dd522275d11bfc1eee48"
+    },
+    {
+      "path": "reports/validation.json",
+      "size_bytes": 6596,
+      "sha256": "129698c8af09a3a395e3534fe57238bca8906d8a62228db2791456deb5ab5b54"
+    }
+  ]
+}

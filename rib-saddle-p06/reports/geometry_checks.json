@@ -1,0 +1,1490 @@
+{
+  "version": "P06 rib-saddle bonded splice study",
+  "source_P05_sha256": "a2c8ef6e9e5c1e854b5a6e95afc17abc5202e6645ff1d76e0adee27bc3f4e630",
+  "native_sha256": "648a5a3ef47f2c6d5137d4a5c20ab433e0ff4404a4b9bf1a3943824df05fdbd7",
+  "STEP_sha256": "6796e9e55c3a78d423f6afd6bccc45e0e1e5003d49397940c9e3e32f0a99daf7",
+  "added_components": [
+    {
+      "name": "SplicePlate_PosY_Spar_Rib1",
+      "material": "GFRP",
+      "category": "structure",
+      "assembly": "MotorArm_PosY",
+      "volume_mm3": 1285.0288570467378,
+      "mass_kg": 0.002377303385536465,
+      "density_kg_m3": 1850.0,
+      "centroid_mm": [
+        357.2969188424195,
+        245.80012202393132,
+        -4.000033041152254
+      ],
+      "valid": true,
+      "solid_count": 1
+    },
+    {
+      "name": "RibPacker_PosY_Spar_Rib1",
+      "material": "GFRP",
+      "category": "structure",
+      "assembly": "MotorArm_PosY",
+      "volume_mm3": 289.64655359343425,
+      "mass_kg": 0.0005358461241478534,
+      "density_kg_m3": 1850.0,
+      "centroid_mm": [
+        359.44320529802087,
+        247.90113096705485,
+        7.864332058653292
+      ],
+      "valid": true,
+      "solid_count": 1
+    },
+    {
+      "name": "RibPackerBond_PosY_Spar_Rib1",
+      "material": "Epoxy",
+      "category": "structure",
+      "assembly": "MotorArm_PosY",
+      "volume_mm3": 32.27627111607217,
+      "mass_kg": 3.8731525339286604e-05,
+      "density_kg_m3": 1200.0,
+      "centroid_mm": [
+        359.2950590792984,
+        248.9000048737853,
+        7.850330070346898
+      ],
+      "valid": true,
+      "solid_count": 1
+    },
+    {
+      "name": "PackerSpliceBond_PosY_Spar_Rib1",
+      "material": "Epoxy",
+      "category": "structure",
+      "assembly": "MotorArm_PosY",
+      "volume_mm3": 31.99724360712107,
+      "mass_kg": 3.839669232854529e-05,
+      "density_kg_m3": 1200.0,
+      "centroid_mm": [
+        359.599026745874,
+        246.9000279260745,
+        7.885322561261156
+      ],
+      "valid": true,
+      "solid_count": 1
+    },
+    {
+      "name": "SaddleSpliceBond_PosY_Spar_Rib1",
+      "material": "Epoxy",
+      "category": "structure",
+      "assembly": "MotorArm_PosY",
+      "volume_mm3": 91.19999999999482,
+      "mass_kg": 0.00010943999999999378,
+      "density_kg_m3": 1200.0,
+      "centroid_mm": [
+        356.3999999999999,
+        246.89999999999998,
+        -8.5
+      ],
+      "valid": true,
+      "solid_count": 1
+    },
+    {
+      "name": "SplicePlate_PosY_Rear_Rib1",
+      "material": "GFRP",
+      "category": "structure",
+      "assembly": "MotorArm_PosY",
+      "volume_mm3": 1000.6897740668002,
+      "mass_kg": 0.0018512760820235804,
+      "density_kg_m3": 1850.0,
+      "centroid_mm": [
+        409.9322608098346,
+        246.05007554210903,
+        -4.099370235498501
+      ],
+      "valid": true,
+      "solid_count": 1
+    },
+    {
+      "name": "RibPacker_PosY_Rear_Rib1",
+      "material": "GFRP",
+      "category": "structure",
+      "assembly": "MotorArm_PosY",
+      "volume_mm3": 247.7754040019672,
+      "mass_kg": 0.0004583844974036393,
+      "density_kg_m3": 1850.0,
+      "centroid_mm": [
+        409.43385908107865,
+        247.9,
+        6.964432241121765
+      ],
+      "valid": true,
+      "solid_count": 1
+    },
+    {
+      "name": "RibPackerBond_PosY_Rear_Rib1",
+      "material": "Epoxy",
+      "category": "structure",
+      "assembly": "MotorArm_PosY",
+      "volume_mm3": 27.530600444661136,
+      "mass_kg": 3.303672053359336e-05,
+      "density_kg_m3": 1200.0,
+      "centroid_mm": [
+        409.43385908107854,
+        248.9,
+        6.964432241121768
+      ],
+      "valid": true,
+      "solid_count": 1
+    },
+    {
+      "name": "PackerSpliceBond_PosY_Rear_Rib1",
+      "material": "Epoxy",
+      "category": "structure",
+      "assembly": "MotorArm_PosY",
+      "volume_mm3": 27.53060044466114,
+      "mass_kg": 3.303672053359337e-05,
+      "density_kg_m3": 1200.0,
+      "centroid_mm": [
+        409.4338590810785,
+        246.9,
+        6.964432241121768
+      ],
+      "valid": true,
+      "solid_count": 1
+    },
+    {
+      "name": "SaddleSpliceBond_PosY_Rear_Rib1",
+      "material": "Epoxy",
+      "category": "structure",
+      "assembly": "MotorArm_PosY",
+      "volume_mm3": 91.19999999999482,
+      "mass_kg": 0.00010943999999999378,
+      "density_kg_m3": 1200.0,
+      "centroid_mm": [
+        409.99999999999994,
+        246.89999999999998,
+        -8.5
+      ],
+      "valid": true,
+      "solid_count": 1
+    },
+    {
+      "name": "SplicePlate_PosY_Spar_Rib2",
+      "material": "GFRP",
+      "category": "structure",
+      "assembly": "MotorArm_PosY",
+      "volume_mm3": 1303.3783507683218,
+      "mass_kg": 0.0024112499489213953,
+      "density_kg_m3": 1850.0,
+      "centroid_mm": [
+        356.0402685532169,
+        284.2001223629952,
+        -3.9069038830248943
+      ],
+      "valid": true,
+      "solid_count": 1
+    },
+    {
+      "name": "RibPacker_PosY_Spar_Rib2",
+      "material": "GFRP",
+      "category": "structure",
+      "assembly": "MotorArm_PosY",
+      "volume_mm3": 285.2009847896974,
+      "mass_kg": 0.0005276218218609402,
+      "density_kg_m3": 1850.0,
+      "centroid_mm": [
+        354.96283172398245,
+        282.0991605842605,
+        7.965734074008319
+      ],
+      "valid": true,
+      "solid_count": 1
+    },
+    {
+      "name": "RibPackerBond_PosY_Spar_Rib2",
+      "material": "Epoxy",
+      "category": "structure",
+      "assembly": "MotorArm_PosY",
+      "volume_mm3": 31.733737508789815,
+      "mass_kg": 3.8080485010547784e-05,
+      "density_kg_m3": 1200.0,
+      "centroid_mm": [
+        355.08353807785915,
+        281.10000338662076,
+        7.962244403379133
+      ],
+      "valid": true,
+      "solid_count": 1
+    },
+    {
+      "name": "PackerSpliceBond_PosY_Spar_Rib2",
+      "material": "Epoxy",
+      "category": "structure",
+      "assembly": "MotorArm_PosY",
+      "volume_mm3": 31.540510925571287,
+      "mass_kg": 3.784861311068555e-05,
+      "density_kg_m3": 1200.0,
+      "centroid_mm": [
+        354.8484411390329,
+        283.099976300292,
+        7.975034716047503
+      ],
+      "valid": true,
+      "solid_count": 1
+    },
+    {
+      "name": "SaddleSpliceBond_PosY_Spar_Rib2",
+      "material": "Epoxy",
+      "category": "structure",
+      "assembly": "MotorArm_PosY",
+      "volume_mm3": 91.19999999999482,
+      "mass_kg": 0.00010943999999999378,
+      "density_kg_m3": 1200.0,
+      "centroid_mm": [
+        356.3999999999999,
+        283.09999999999997,
+        -8.5
+      ],
+      "valid": true,
+      "solid_count": 1
+    },
+    {
+      "name": "SplicePlate_PosY_Rear_Rib2",
+      "material": "GFRP",
+      "category": "structure",
+      "assembly": "MotorArm_PosY",
+      "volume_mm3": 1008.0,
+      "mass_kg": 0.0018648,
+      "density_kg_m3": 1850.0,
+      "centroid_mm": [
+        410.0,
+        283.95,
+        -4.0
+      ],
+      "valid": true,
+      "solid_count": 1
+    },
+    {
+      "name": "RibPacker_PosY_Rear_Rib2",
+      "material": "GFRP",
+      "category": "structure",
+      "assembly": "MotorArm_PosY",
+      "volume_mm3": 237.20687556787058,
+      "mass_kg": 0.0004388327198005606,
+      "density_kg_m3": 1850.0,
+      "centroid_mm": [
+        409.68655842536975,
+        282.1,
+        7.248599043334038
+      ],
+      "valid": true,
+      "solid_count": 1
+    },
+    {
+      "name": "RibPackerBond_PosY_Rear_Rib2",
+      "material": "Epoxy",
+      "category": "structure",
+      "assembly": "MotorArm_PosY",
+      "volume_mm3": 26.356319507539478,
+      "mass_kg": 3.162758340904738e-05,
+      "density_kg_m3": 1200.0,
+      "centroid_mm": [
+        409.68655842536975,
+        281.1,
+        7.24859904333404
+      ],
+      "valid": true,
+      "solid_count": 1
+    },
+    {
+      "name": "PackerSpliceBond_PosY_Rear_Rib2",
+      "material": "Epoxy",
+      "category": "structure",
+      "assembly": "MotorArm_PosY",
+      "volume_mm3": 26.356319507539478,
+      "mass_kg": 3.162758340904738e-05,
+      "density_kg_m3": 1200.0,
+      "centroid_mm": [
+        409.6865584253698,
+        283.1,
+        7.248599043334041
+      ],
+      "valid": true,
+      "solid_count": 1
+    },
+    {
+      "name": "SaddleSpliceBond_PosY_Rear_Rib2",
+      "material": "Epoxy",
+      "category": "structure",
+      "assembly": "MotorArm_PosY",
+      "volume_mm3": 91.19999999999482,
+      "mass_kg": 0.00010943999999999378,
+      "density_kg_m3": 1200.0,
+      "centroid_mm": [
+        409.99999999999994,
+        283.09999999999997,
+        -8.5
+      ],
+      "valid": true,
+      "solid_count": 1
+    },
+    {
+      "name": "SplicePlate_NegY_Spar_Rib1",
+      "material": "GFRP",
+      "category": "structure",
+      "assembly": "MotorArm_NegY",
+      "volume_mm3": 1303.3783508124225,
+      "mass_kg": 0.0024112499490029815,
+      "density_kg_m3": 1850.0,
+      "centroid_mm": [
+        356.040268553187,
+        -284.2001223620007,
+        -3.9069038826184506
+      ],
+      "valid": true,
+      "solid_count": 1
+    },
+    {
+      "name": "RibPacker_NegY_Spar_Rib1",
+      "material": "GFRP",
+      "category": "structure",
+      "assembly": "MotorArm_NegY",
+      "volume_mm3": 285.2009960869878,
+      "mass_kg": 0.0005276218427609274,
+      "density_kg_m3": 1850.0,
+      "centroid_mm": [
+        354.9628319047997,
+        -282.09916055326306,
+        7.965733996063979
+      ],
+      "valid": true,
+      "solid_count": 1
+    },
+    {
+      "name": "RibPackerBond_NegY_Spar_Rib1",
+      "material": "Epoxy",
+      "category": "structure",
+      "assembly": "MotorArm_NegY",
+      "volume_mm3": 31.733668275771237,
+      "mass_kg": 3.808040193092549e-05,
+      "density_kg_m3": 1200.0,
+      "centroid_mm": [
+        355.08353140703673,
+        -281.1000038715007,
+        7.962248609195236
+      ],
+      "valid": true,
+      "solid_count": 1
+    },
+    {
+      "name": "PackerSpliceBond_NegY_Spar_Rib1",
+      "material": "Epoxy",
+      "category": "structure",
+      "assembly": "MotorArm_NegY",
+      "volume_mm3": 31.540511089821305,
+      "mass_kg": 3.784861330778557e-05,
+      "density_kg_m3": 1200.0,
+      "centroid_mm": [
+        354.8484411286176,
+        -283.09997629888477,
+        7.975034690382563
+      ],
+      "valid": true,
+      "solid_count": 1
+    },
+    {
+      "name": "SaddleSpliceBond_NegY_Spar_Rib1",
+      "material": "Epoxy",
+      "category": "structure",
+      "assembly": "MotorArm_NegY",
+      "volume_mm3": 91.19999999999482,
+      "mass_kg": 0.00010943999999999378,
+      "density_kg_m3": 1200.0,
+      "centroid_mm": [
+        356.39999999999986,
+        -283.09999999999997,
+        -8.5
+      ],
+      "valid": true,
+      "solid_count": 1
+    },
+    {
+      "name": "SplicePlate_NegY_Rear_Rib1",
+      "material": "GFRP",
+      "category": "structure",
+      "assembly": "MotorArm_NegY",
+      "volume_mm3": 1008.0,
+      "mass_kg": 0.0018648,
+      "density_kg_m3": 1850.0,
+      "centroid_mm": [
+        410.0,
+        -283.95,
+        -4.0
+      ],
+      "valid": true,
+      "solid_count": 1
+    },
+    {
+      "name": "RibPacker_NegY_Rear_Rib1",
+      "material": "GFRP",
+      "category": "structure",
+      "assembly": "MotorArm_NegY",
+      "volume_mm3": 237.2068755678682,
+      "mass_kg": 0.0004388327198005562,
+      "density_kg_m3": 1850.0,
+      "centroid_mm": [
+        409.6865584253698,
+        -282.1,
+        7.248599043334059
+      ],
+      "valid": true,
+      "solid_count": 1
+    },
+    {
+      "name": "RibPackerBond_NegY_Rear_Rib1",
+      "material": "Epoxy",
+      "category": "structure",
+      "assembly": "MotorArm_NegY",
+      "volume_mm3": 26.35631950753922,
+      "mass_kg": 3.1627583409047066e-05,
+      "density_kg_m3": 1200.0,
+      "centroid_mm": [
+        409.6865584253697,
+        -281.09999999999985,
+        7.2485990433340595
+      ],
+      "valid": true,
+      "solid_count": 1
+    },
+    {
+      "name": "PackerSpliceBond_NegY_Rear_Rib1",
+      "material": "Epoxy",
+      "category": "structure",
+      "assembly": "MotorArm_NegY",
+      "volume_mm3": 26.35631950753922,
+      "mass_kg": 3.1627583409047066e-05,
+      "density_kg_m3": 1200.0,
+      "centroid_mm": [
+        409.6865584253697,
+        -283.09999999999997,
+        7.2485990433340595
+      ],
+      "valid": true,
+      "solid_count": 1
+    },
+    {
+      "name": "SaddleSpliceBond_NegY_Rear_Rib1",
+      "material": "Epoxy",
+      "category": "structure",
+      "assembly": "MotorArm_NegY",
+      "volume_mm3": 91.19999999999482,
+      "mass_kg": 0.00010943999999999378,
+      "density_kg_m3": 1200.0,
+      "centroid_mm": [
+        409.99999999999994,
+        -283.1,
+        -8.5
+      ],
+      "valid": true,
+      "solid_count": 1
+    },
+    {
+      "name": "SplicePlate_NegY_Spar_Rib2",
+      "material": "GFRP",
+      "category": "structure",
+      "assembly": "MotorArm_NegY",
+      "volume_mm3": 1285.0288570645248,
+      "mass_kg": 0.002377303385569371,
+      "density_kg_m3": 1850.0,
+      "centroid_mm": [
+        357.2969188421073,
+        -245.80012202259738,
+        -4.000033041012697
+      ],
+      "valid": true,
+      "solid_count": 1
+    },
+    {
+      "name": "RibPacker_NegY_Spar_Rib2",
+      "material": "GFRP",
+      "category": "structure",
+      "assembly": "MotorArm_NegY",
+      "volume_mm3": 289.6407287562453,
+      "mass_kg": 0.0005358353481990539,
+      "density_kg_m3": 1850.0,
+      "centroid_mm": [
+        359.4433293065128,
+        -247.90112481045287,
+        7.864376313409689
+      ],
+      "valid": true,
+      "solid_count": 1
+    },
+    {
+      "name": "RibPackerBond_NegY_Spar_Rib2",
+      "material": "Epoxy",
+      "category": "structure",
+      "assembly": "MotorArm_NegY",
+      "volume_mm3": 32.27627108773959,
+      "mass_kg": 3.873152530528751e-05,
+      "density_kg_m3": 1200.0,
+      "centroid_mm": [
+        359.29505908594007,
+        -248.90000486283486,
+        7.850330072496271
+      ],
+      "valid": true,
+      "solid_count": 1
+    },
+    {
+      "name": "PackerSpliceBond_NegY_Spar_Rib2",
+      "material": "Epoxy",
+      "category": "structure",
+      "assembly": "MotorArm_NegY",
+      "volume_mm3": 31.997243604708657,
+      "mass_kg": 3.839669232565039e-05,
+      "density_kg_m3": 1200.0,
+      "centroid_mm": [
+        359.59902675092843,
+        -246.90002792417965,
+        7.885322565379606
+      ],
+      "valid": true,
+      "solid_count": 1
+    },
+    {
+      "name": "SaddleSpliceBond_NegY_Spar_Rib2",
+      "material": "Epoxy",
+      "category": "structure",
+      "assembly": "MotorArm_NegY",
+      "volume_mm3": 91.19999999999482,
+      "mass_kg": 0.00010943999999999378,
+      "density_kg_m3": 1200.0,
+      "centroid_mm": [
+        356.3999999999999,
+        -246.89999999999998,
+        -8.5
+      ],
+      "valid": true,
+      "solid_count": 1
+    },
+    {
+      "name": "SplicePlate_NegY_Rear_Rib2",
+      "material": "GFRP",
+      "category": "structure",
+      "assembly": "MotorArm_NegY",
+      "volume_mm3": 1000.6897740668016,
+      "mass_kg": 0.001851276082023583,
+      "density_kg_m3": 1850.0,
+      "centroid_mm": [
+        409.93226080983464,
+        -246.05007554210903,
+        -4.099370235498496
+      ],
+      "valid": true,
+      "solid_count": 1
+    },
+    {
+      "name": "RibPacker_NegY_Rear_Rib2",
+      "material": "GFRP",
+      "category": "structure",
+      "assembly": "MotorArm_NegY",
+      "volume_mm3": 247.7754040019672,
+      "mass_kg": 0.0004583844974036393,
+      "density_kg_m3": 1850.0,
+      "centroid_mm": [
+        409.4338590810786,
+        -247.9,
+        6.964432241121765
+      ],
+      "valid": true,
+      "solid_count": 1
+    },
+    {
+      "name": "RibPackerBond_NegY_Rear_Rib2",
+      "material": "Epoxy",
+      "category": "structure",
+      "assembly": "MotorArm_NegY",
+      "volume_mm3": 27.530600444661136,
+      "mass_kg": 3.303672053359336e-05,
+      "density_kg_m3": 1200.0,
+      "centroid_mm": [
+        409.43385908107854,
+        -248.9,
+        6.964432241121768
+      ],
+      "valid": true,
+      "solid_count": 1
+    },
+    {
+      "name": "PackerSpliceBond_NegY_Rear_Rib2",
+      "material": "Epoxy",
+      "category": "structure",
+      "assembly": "MotorArm_NegY",
+      "volume_mm3": 27.53060044466114,
+      "mass_kg": 3.303672053359337e-05,
+      "density_kg_m3": 1200.0,
+      "centroid_mm": [
+        409.4338590810785,
+        -246.9,
+        6.964432241121768
+      ],
+      "valid": true,
+      "solid_count": 1
+    },
+    {
+      "name": "SaddleSpliceBond_NegY_Rear_Rib2",
+      "material": "Epoxy",
+      "category": "structure",
+      "assembly": "MotorArm_NegY",
+      "volume_mm3": 91.19999999999482,
+      "mass_kg": 0.00010943999999999378,
+      "density_kg_m3": 1200.0,
+      "centroid_mm": [
+        409.99999999999994,
+        -246.89999999999998,
+        -8.5
+      ],
+      "valid": true,
+      "solid_count": 1
+    }
+  ],
+  "bond_interfaces": [
+    {
+      "bond_parts": [
+        "RibPackerBond_PosY_Spar_Rib1"
+      ],
+      "station": "Spar",
+      "side": "PosY",
+      "rib_index": 1,
+      "thickness_mm": 0.2,
+      "mean_projected_area_mm2": 161.38135558036083,
+      "contacts": [
+        {
+          "parts": [
+            "Wing_Spar_Rib1_PosY"
+          ],
+          "area_mm2": 154.46127996650776,
+          "gap_mm": 0.0
+        },
+        {
+          "parts": [
+            "RibPacker_PosY_Spar_Rib1"
+          ],
+          "area_mm2": 161.35775593960943,
+          "gap_mm": 0.0
+        }
+      ]
+    },
+    {
+      "bond_parts": [
+        "PackerSpliceBond_PosY_Spar_Rib1"
+      ],
+      "station": "Spar",
+      "side": "PosY",
+      "rib_index": 1,
+      "thickness_mm": 0.2,
+      "mean_projected_area_mm2": 159.98621803560533,
+      "contacts": [
+        {
+          "parts": [
+            "RibPacker_PosY_Spar_Rib1"
+          ],
+          "area_mm2": 160.11845827952882,
+          "gap_mm": 0.0
+        },
+        {
+          "parts": [
+            "SplicePlate_PosY_Spar_Rib1"
+          ],
+          "area_mm2": 159.8504306057778,
+          "gap_mm": 2.842170943040401e-14
+        }
+      ]
+    },
+    {
+      "bond_parts": [
+        "SaddleSpliceBond_PosY_Spar_Rib1"
+      ],
+      "station": "Spar",
+      "side": "PosY",
+      "rib_index": 1,
+      "thickness_mm": 0.2,
+      "mean_projected_area_mm2": 455.9999999999741,
+      "contacts": [
+        {
+          "parts": [
+            "Wing_Spar_Saddle_PosY"
+          ],
+          "area_mm2": 456.0,
+          "gap_mm": 2.842170943040401e-14
+        },
+        {
+          "parts": [
+            "SplicePlate_PosY_Spar_Rib1"
+          ],
+          "area_mm2": 456.0,
+          "gap_mm": 0.0
+        }
+      ]
+    },
+    {
+      "bond_parts": [
+        "RibPackerBond_PosY_Rear_Rib1"
+      ],
+      "station": "Rear",
+      "side": "PosY",
+      "rib_index": 1,
+      "thickness_mm": 0.2,
+      "mean_projected_area_mm2": 137.65300222330566,
+      "contacts": [
+        {
+          "parts": [
+            "Wing_Spar_Rib1_PosY"
+          ],
+          "area_mm2": 130.45300217873876,
+          "gap_mm": 0.0
+        },
+        {
+          "parts": [
+            "RibPacker_PosY_Rear_Rib1"
+          ],
+          "area_mm2": 137.65300217884447,
+          "gap_mm": 0.0
+        }
+      ]
+    },
+    {
+      "bond_parts": [
+        "PackerSpliceBond_PosY_Rear_Rib1"
+      ],
+      "station": "Rear",
+      "side": "PosY",
+      "rib_index": 1,
+      "thickness_mm": 0.2,
+      "mean_projected_area_mm2": 137.6530022233057,
+      "contacts": [
+        {
+          "parts": [
+            "RibPacker_PosY_Rear_Rib1"
+          ],
+          "area_mm2": 137.65300217884447,
+          "gap_mm": 0.0
+        },
+        {
+          "parts": [
+            "SplicePlate_PosY_Rear_Rib1"
+          ],
+          "area_mm2": 137.09219117637065,
+          "gap_mm": 2.842170943040401e-14
+        }
+      ]
+    },
+    {
+      "bond_parts": [
+        "SaddleSpliceBond_PosY_Rear_Rib1"
+      ],
+      "station": "Rear",
+      "side": "PosY",
+      "rib_index": 1,
+      "thickness_mm": 0.2,
+      "mean_projected_area_mm2": 455.9999999999741,
+      "contacts": [
+        {
+          "parts": [
+            "Wing_Rear_Saddle_PosY"
+          ],
+          "area_mm2": 456.0,
+          "gap_mm": 2.842170943040401e-14
+        },
+        {
+          "parts": [
+            "SplicePlate_PosY_Rear_Rib1"
+          ],
+          "area_mm2": 456.0,
+          "gap_mm": 0.0
+        }
+      ]
+    },
+    {
+      "bond_parts": [
+        "RibPackerBond_PosY_Spar_Rib2"
+      ],
+      "station": "Spar",
+      "side": "PosY",
+      "rib_index": 2,
+      "thickness_mm": 0.2,
+      "mean_projected_area_mm2": 158.66868754394906,
+      "contacts": [
+        {
+          "parts": [
+            "Wing_Spar_Rib2_PosY"
+          ],
+          "area_mm2": 151.69920911889346,
+          "gap_mm": 0.0
+        },
+        {
+          "parts": [
+            "RibPacker_PosY_Spar_Rib2"
+          ],
+          "area_mm2": 158.6870144334763,
+          "gap_mm": 0.0
+        }
+      ]
+    },
+    {
+      "bond_parts": [
+        "PackerSpliceBond_PosY_Spar_Rib2"
+      ],
+      "station": "Spar",
+      "side": "PosY",
+      "rib_index": 2,
+      "thickness_mm": 0.2,
+      "mean_projected_area_mm2": 157.70255462785641,
+      "contacts": [
+        {
+          "parts": [
+            "RibPacker_PosY_Spar_Rib2"
+          ],
+          "area_mm2": 157.81316551024963,
+          "gap_mm": 0.0
+        },
+        {
+          "parts": [
+            "SplicePlate_PosY_Spar_Rib2"
+          ],
+          "area_mm2": 157.5831308802551,
+          "gap_mm": 0.0
+        }
+      ]
+    },
+    {
+      "bond_parts": [
+        "SaddleSpliceBond_PosY_Spar_Rib2"
+      ],
+      "station": "Spar",
+      "side": "PosY",
+      "rib_index": 2,
+      "thickness_mm": 0.2,
+      "mean_projected_area_mm2": 455.9999999999741,
+      "contacts": [
+        {
+          "parts": [
+            "Wing_Spar_Saddle_PosY"
+          ],
+          "area_mm2": 456.0,
+          "gap_mm": 0.0
+        },
+        {
+          "parts": [
+            "SplicePlate_PosY_Spar_Rib2"
+          ],
+          "area_mm2": 456.0,
+          "gap_mm": 0.0
+        }
+      ]
+    },
+    {
+      "bond_parts": [
+        "RibPackerBond_PosY_Rear_Rib2"
+      ],
+      "station": "Rear",
+      "side": "PosY",
+      "rib_index": 2,
+      "thickness_mm": 0.2,
+      "mean_projected_area_mm2": 131.7815975376974,
+      "contacts": [
+        {
+          "parts": [
+            "Wing_Spar_Rib2_PosY"
+          ],
+          "area_mm2": 124.58159746932526,
+          "gap_mm": 0.0
+        },
+        {
+          "parts": [
+            "RibPacker_PosY_Rear_Rib2"
+          ],
+          "area_mm2": 131.78159746932513,
+          "gap_mm": 0.0
+        }
+      ]
+    },
+    {
+      "bond_parts": [
+        "PackerSpliceBond_PosY_Rear_Rib2"
+      ],
+      "station": "Rear",
+      "side": "PosY",
+      "rib_index": 2,
+      "thickness_mm": 0.2,
+      "mean_projected_area_mm2": 131.7815975376974,
+      "contacts": [
+        {
+          "parts": [
+            "RibPacker_PosY_Rear_Rib2"
+          ],
+          "area_mm2": 131.78159746932513,
+          "gap_mm": 0.0
+        },
+        {
+          "parts": [
+            "SplicePlate_PosY_Rear_Rib2"
+          ],
+          "area_mm2": 131.78159746932513,
+          "gap_mm": 0.0
+        }
+      ]
+    },
+    {
+      "bond_parts": [
+        "SaddleSpliceBond_PosY_Rear_Rib2"
+      ],
+      "station": "Rear",
+      "side": "PosY",
+      "rib_index": 2,
+      "thickness_mm": 0.2,
+      "mean_projected_area_mm2": 455.9999999999741,
+      "contacts": [
+        {
+          "parts": [
+            "Wing_Rear_Saddle_PosY"
+          ],
+          "area_mm2": 456.0,
+          "gap_mm": 0.0
+        },
+        {
+          "parts": [
+            "SplicePlate_PosY_Rear_Rib2"
+          ],
+          "area_mm2": 456.0,
+          "gap_mm": 0.0
+        }
+      ]
+    },
+    {
+      "bond_parts": [
+        "RibPackerBond_NegY_Spar_Rib1"
+      ],
+      "station": "Spar",
+      "side": "NegY",
+      "rib_index": 1,
+      "thickness_mm": 0.2,
+      "mean_projected_area_mm2": 158.66834137885618,
+      "contacts": [
+        {
+          "parts": [
+            "Wing_Spar_Rib1_NegY"
+          ],
+          "area_mm2": 151.69920911889344,
+          "gap_mm": 0.0
+        },
+        {
+          "parts": [
+            "RibPacker_NegY_Spar_Rib1"
+          ],
+          "area_mm2": 158.68701443347624,
+          "gap_mm": 0.0
+        }
+      ]
+    },
+    {
+      "bond_parts": [
+        "PackerSpliceBond_NegY_Spar_Rib1"
+      ],
+      "station": "Spar",
+      "side": "NegY",
+      "rib_index": 1,
+      "thickness_mm": 0.2,
+      "mean_projected_area_mm2": 157.7025554491065,
+      "contacts": [
+        {
+          "parts": [
+            "RibPacker_NegY_Spar_Rib1"
+          ],
+          "area_mm2": 157.8131655102492,
+          "gap_mm": 0.0
+        },
+        {
+          "parts": [
+            "SplicePlate_NegY_Spar_Rib1"
+          ],
+          "area_mm2": 157.58313088025488,
+          "gap_mm": 0.0
+        }
+      ]
+    },
+    {
+      "bond_parts": [
+        "SaddleSpliceBond_NegY_Spar_Rib1"
+      ],
+      "station": "Spar",
+      "side": "NegY",
+      "rib_index": 1,
+      "thickness_mm": 0.2,
+      "mean_projected_area_mm2": 455.9999999999741,
+      "contacts": [
+        {
+          "parts": [
+            "Wing_Spar_Saddle_NegY"
+          ],
+          "area_mm2": 456.0,
+          "gap_mm": 0.0
+        },
+        {
+          "parts": [
+            "SplicePlate_NegY_Spar_Rib1"
+          ],
+          "area_mm2": 456.0,
+          "gap_mm": 0.0
+        }
+      ]
+    },
+    {
+      "bond_parts": [
+        "RibPackerBond_NegY_Rear_Rib1"
+      ],
+      "station": "Rear",
+      "side": "NegY",
+      "rib_index": 1,
+      "thickness_mm": 0.2,
+      "mean_projected_area_mm2": 131.7815975376961,
+      "contacts": [
+        {
+          "parts": [
+            "Wing_Spar_Rib1_NegY"
+          ],
+          "area_mm2": 124.58159746932532,
+          "gap_mm": 0.0
+        },
+        {
+          "parts": [
+            "RibPacker_NegY_Rear_Rib1"
+          ],
+          "area_mm2": 131.78159746932508,
+          "gap_mm": 0.0
+        }
+      ]
+    },
+    {
+      "bond_parts": [
+        "PackerSpliceBond_NegY_Rear_Rib1"
+      ],
+      "station": "Rear",
+      "side": "NegY",
+      "rib_index": 1,
+      "thickness_mm": 0.2,
+      "mean_projected_area_mm2": 131.7815975376961,
+      "contacts": [
+        {
+          "parts": [
+            "RibPacker_NegY_Rear_Rib1"
+          ],
+          "area_mm2": 131.78159746932508,
+          "gap_mm": 0.0
+        },
+        {
+          "parts": [
+            "SplicePlate_NegY_Rear_Rib1"
+          ],
+          "area_mm2": 131.78159746932508,
+          "gap_mm": 0.0
+        }
+      ]
+    },
+    {
+      "bond_parts": [
+        "SaddleSpliceBond_NegY_Rear_Rib1"
+      ],
+      "station": "Rear",
+      "side": "NegY",
+      "rib_index": 1,
+      "thickness_mm": 0.2,
+      "mean_projected_area_mm2": 455.9999999999741,
+      "contacts": [
+        {
+          "parts": [
+            "Wing_Rear_Saddle_NegY"
+          ],
+          "area_mm2": 456.0,
+          "gap_mm": 0.0
+        },
+        {
+          "parts": [
+            "SplicePlate_NegY_Rear_Rib1"
+          ],
+          "area_mm2": 456.0,
+          "gap_mm": 0.0
+        }
+      ]
+    },
+    {
+      "bond_parts": [
+        "RibPackerBond_NegY_Spar_Rib2"
+      ],
+      "station": "Spar",
+      "side": "NegY",
+      "rib_index": 2,
+      "thickness_mm": 0.2,
+      "mean_projected_area_mm2": 161.38135543869794,
+      "contacts": [
+        {
+          "parts": [
+            "Wing_Spar_Rib2_NegY"
+          ],
+          "area_mm2": 154.4612799665077,
+          "gap_mm": 0.0
+        },
+        {
+          "parts": [
+            "RibPacker_NegY_Spar_Rib2"
+          ],
+          "area_mm2": 161.3577559396095,
+          "gap_mm": 0.0
+        }
+      ]
+    },
+    {
+      "bond_parts": [
+        "PackerSpliceBond_NegY_Spar_Rib2"
+      ],
+      "station": "Spar",
+      "side": "NegY",
+      "rib_index": 2,
+      "thickness_mm": 0.2,
+      "mean_projected_area_mm2": 159.98621802354327,
+      "contacts": [
+        {
+          "parts": [
+            "RibPacker_NegY_Spar_Rib2"
+          ],
+          "area_mm2": 160.1184582795287,
+          "gap_mm": 0.0
+        },
+        {
+          "parts": [
+            "SplicePlate_NegY_Spar_Rib2"
+          ],
+          "area_mm2": 159.85043060577826,
+          "gap_mm": 2.842170943040401e-14
+        }
+      ]
+    },
+    {
+      "bond_parts": [
+        "SaddleSpliceBond_NegY_Spar_Rib2"
+      ],
+      "station": "Spar",
+      "side": "NegY",
+      "rib_index": 2,
+      "thickness_mm": 0.2,
+      "mean_projected_area_mm2": 455.9999999999741,
+      "contacts": [
+        {
+          "parts": [
+            "Wing_Spar_Saddle_NegY"
+          ],
+          "area_mm2": 456.0,
+          "gap_mm": 2.842170943040401e-14
+        },
+        {
+          "parts": [
+            "SplicePlate_NegY_Spar_Rib2"
+          ],
+          "area_mm2": 456.0,
+          "gap_mm": 0.0
+        }
+      ]
+    },
+    {
+      "bond_parts": [
+        "RibPackerBond_NegY_Rear_Rib2"
+      ],
+      "station": "Rear",
+      "side": "NegY",
+      "rib_index": 2,
+      "thickness_mm": 0.2,
+      "mean_projected_area_mm2": 137.65300222330566,
+      "contacts": [
+        {
+          "parts": [
+            "Wing_Spar_Rib2_NegY"
+          ],
+          "area_mm2": 130.45300217873876,
+          "gap_mm": 0.0
+        },
+        {
+          "parts": [
+            "RibPacker_NegY_Rear_Rib2"
+          ],
+          "area_mm2": 137.65300217884447,
+          "gap_mm": 0.0
+        }
+      ]
+    },
+    {
+      "bond_parts": [
+        "PackerSpliceBond_NegY_Rear_Rib2"
+      ],
+      "station": "Rear",
+      "side": "NegY",
+      "rib_index": 2,
+      "thickness_mm": 0.2,
+      "mean_projected_area_mm2": 137.6530022233057,
+      "contacts": [
+        {
+          "parts": [
+            "RibPacker_NegY_Rear_Rib2"
+          ],
+          "area_mm2": 137.65300217884447,
+          "gap_mm": 0.0
+        },
+        {
+          "parts": [
+            "SplicePlate_NegY_Rear_Rib2"
+          ],
+          "area_mm2": 137.09219117637065,
+          "gap_mm": 2.842170943040401e-14
+        }
+      ]
+    },
+    {
+      "bond_parts": [
+        "SaddleSpliceBond_NegY_Rear_Rib2"
+      ],
+      "station": "Rear",
+      "side": "NegY",
+      "rib_index": 2,
+      "thickness_mm": 0.2,
+      "mean_projected_area_mm2": 455.9999999999741,
+      "contacts": [
+        {
+          "parts": [
+            "Wing_Rear_Saddle_NegY"
+          ],
+          "area_mm2": 456.0,
+          "gap_mm": 2.842170943040401e-14
+        },
+        {
+          "parts": [
+            "SplicePlate_NegY_Rear_Rib2"
+          ],
+          "area_mm2": 456.0,
+          "gap_mm": 0.0
+        }
+      ]
+    }
+  ],
+  "physical_collisions": [],
+  "STEP": {
+    "valid": true,
+    "native_solids": 162,
+    "step_solids": 162,
+    "max_center_error_mm": 0.0004550427324139677,
+    "max_relative_volume_error": 5.4132603901465194e-05,
+    "pass": true
+  },
+  "root_solve_code": 0,
+  "design": {
+    "splice_plate_thickness_mm": {
+      "Spar": 2.0,
+      "Rear": 1.5
+    },
+    "lap_length_x_mm": 24,
+    "lower_lap_z_mm": [
+      -18,
+      1
+    ],
+    "upper_lap_z_limit_mm": {
+      "Spar": [
+        1.2,
+        14
+      ],
+      "Rear": [
+        1.2,
+        10
+      ]
+    },
+    "rib_packer_thickness_mm": 1.8,
+    "bondline_thickness_mm": 0.2,
+    "spar_outer_surface_clearance_mm": 0.4,
+    "upper_profile_downshift_mm": 0.3,
+    "source": "Native P05 rib faces; P04 conical spar outer surface filled and offset. All new dimensions/materials/load sharing remain proposals."
+  },
+  "scope": "Rib-to-saddle geometry developed; rib-to-spar/skin transfer and joint qualification remain open.",
+  "original_wing_checks": [
+    {
+      "side": "PosY",
+      "target": "GFRP_Skin_Exposed",
+      "intersection_mm3": 119.06220813694911,
+      "min_gap_mm": 0.0
+    },
+    {
+      "side": "PosY",
+      "target": "CFRP_TaperedSpar",
+      "intersection_mm3": 0.0,
+      "min_gap_mm": 0.3999999504597342
+    },
+    {
+      "side": "NegY",
+      "target": "GFRP_Skin_Exposed",
+      "intersection_mm3": 119.0622061868667,
+      "min_gap_mm": 0.0
+    },
+    {
+      "side": "NegY",
+      "target": "CFRP_TaperedSpar",
+      "intersection_mm3": 0.0,
+      "min_gap_mm": 0.39999995090991686
+    }
+  ],
+  "wing_checks_after_relief": [
+    {
+      "side": "PosY",
+      "target": "GFRP_Skin_Exposed",
+      "intersection_mm3": 0.0,
+      "min_gap_mm": 0.22293683551528184
+    },
+    {
+      "side": "PosY",
+      "target": "CFRP_TaperedSpar",
+      "intersection_mm3": 0.0,
+      "min_gap_mm": 0.3999999504597089
+    },
+    {
+      "side": "NegY",
+      "target": "GFRP_Skin_Exposed",
+      "intersection_mm3": 0.0,
+      "min_gap_mm": 0.22293683551528184
+    },
+    {
+      "side": "NegY",
+      "target": "CFRP_TaperedSpar",
+      "intersection_mm3": 0.0,
+      "min_gap_mm": 0.39999995090993173
+    }
+  ],
+  "wing_material_revisions": [
+    {
+      "side": "PosY",
+      "original_part": "Wing_PosY_GFRP_Skin_Exposed",
+      "context_object": "RelievedWingSkin_PosY",
+      "material": "GFRP",
+      "density_kg_m3": 1850.0,
+      "original_volume_mm3": 47461.2258085488,
+      "revised_volume_mm3": 47503.723857397476,
+      "removed_volume_mm3": -42.49804884867626,
+      "removed_mass_kg": -7.86213903700511e-05,
+      "removed_bounds_mm": [
+        -3.367402244128492,
+        19.39521630962865
+      ],
+      "valid": true,
+      "intersection_volume_mm3": 147.83050299186033,
+      "volume_conservation_error_mm3": 190.3285518405366,
+      "quantity_screen_pass": false,
+      "mass_credit_accepted": false,
+      "mass_credit_kg": 0.0,
+      "sampled_removed_z_bounds_mm": [
+        1.5938274083258577,
+        5.278835158110354
+      ],
+      "bounds_note": "Original BREP bounds are loose; sampled bounds are tessellated diagnostics, not exact extrema."
+    },
+    {
+      "side": "PosY",
+      "original_part": "Wing_PosY_Ravatherm_Core_Exposed",
+      "context_object": "PocketedCore_PosY",
+      "material": "XPS",
+      "density_kg_m3": 32.0,
+      "original_volume_mm3": 548192.4550207591,
+      "revised_volume_mm3": 545511.0662991753,
+      "removed_volume_mm3": 2681.3887215838768,
+      "removed_mass_kg": 8.580443909068407e-05,
+      "removed_bounds_mm": [
+        -3.022940738430008,
+        19.39521630962865
+      ],
+      "valid": true,
+      "intersection_volume_mm3": 2680.7738056979583,
+      "volume_conservation_error_mm3": 0.6149158859184354,
+      "quantity_screen_pass": true
+    },
+    {
+      "side": "NegY",
+      "original_part": "Wing_NegY_GFRP_Skin_Exposed",
+      "context_object": "RelievedWingSkin_NegY",
+      "material": "GFRP",
+      "density_kg_m3": 1850.0,
+      "original_volume_mm3": 47168.33898690309,
+      "revised_volume_mm3": 47350.64216664919,
+      "removed_volume_mm3": -182.3031797461008,
+      "removed_mass_kg": -0.00033726088253028646,
+      "removed_bounds_mm": [
+        -3.367402244128492,
+        19.39521630962865
+      ],
+      "valid": true,
+      "intersection_volume_mm3": 147.83050299186036,
+      "volume_conservation_error_mm3": 330.1336827379612,
+      "quantity_screen_pass": false,
+      "mass_credit_accepted": false,
+      "mass_credit_kg": 0.0,
+      "sampled_removed_z_bounds_mm": [
+        1.5938274083258577,
+        5.278835158110354
+      ],
+      "bounds_note": "Original BREP bounds are loose; sampled bounds are tessellated diagnostics, not exact extrema."
+    },
+    {
+      "side": "NegY",
+      "original_part": "Wing_NegY_Ravatherm_Core_Exposed",
+      "context_object": "PocketedCore_NegY",
+      "material": "XPS",
+      "density_kg_m3": 32.0,
+      "original_volume_mm3": 548193.280960003,
+      "revised_volume_mm3": 545511.7562551104,
+      "removed_volume_mm3": 2681.524704892654,
+      "removed_mass_kg": 8.580879055656493e-05,
+      "removed_bounds_mm": [
+        -3.022940738430008,
+        19.39521630962865
+      ],
+      "valid": true,
+      "intersection_volume_mm3": 2680.7737965411525,
+      "volume_conservation_error_mm3": 0.7509083515014936,
+      "quantity_screen_pass": true
+    }
+  ],
+  "wing_slots": {
+    "clearance_per_side_mm": 0.3,
+    "slot_x_length_mm": 24.6,
+    "slot_y_width_mm": {
+      "Spar": 4.8,
+      "Rear": 4.3
+    },
+    "stations_x_mm": [
+      356.4,
+      410.0
+    ],
+    "per_arm": 4,
+    "total": 8,
+    "status": "Proposed lower-wing entry slots; edge reinforcement/sealing and wing load redistribution unresolved",
+    "skin_cut_upper_z_mm": 7.0,
+    "foam_pocket_note": "Foam pockets include the full-height installation envelope; skin openings restricted to Z<=7 mm."
+  },
+  "skin_mass_credit_policy": "Retain complete P05 wing-skin mass; Boolean volume-conservation gate unresolved. No cutout mass credit or future slot-reinforcement mass assumed.",
+  "initial_foam_pockets_before_installation_clearance": [
+    {
+      "side": "PosY",
+      "removed_volume_mm3": 2228.6662284327904,
+      "removed_mass_kg": 7.13173193098493e-05,
+      "revised_core_volume_mm3": 545963.7887923263,
+      "valid": true
+    },
+    {
+      "side": "NegY",
+      "removed_volume_mm3": 2228.185000773985,
+      "removed_mass_kg": 7.130192002476753e-05,
+      "revised_core_volume_mm3": 545965.095959229,
+      "valid": true
+    }
+  ],
+  "source_P04_sha256": "d006f41b80dfd97d7eaf982ae1475e8acdadeca3b1699967dcd34d0410118ff0"
+}

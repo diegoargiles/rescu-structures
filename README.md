@@ -1,3 +1,7 @@
+# Latest interface study: P06 rib-to-saddle connections
+
+[P06 native CAD, construction and checks](rib-saddle-p06/README.md) adds eight bonded splice plates to the constrained motor-arm assemblies. The current provisional structural budget is **1,157.673 g** (+20.759 g from P05). Lower-wing entry slots are explicit proposals; peel/fatigue, slot-edge reinforcement and rib-to-spar/skin transfer remain open. No skin cutout mass credit is accepted. Earlier studies below are preserved as reference.
+
 # Latest detailed assembly: P05 motor arms
 
 [P05 constrained motor-arm assembly and report](motor-arm-p05/README.md) adds two native FreeCAD assemblies using the UM2807 1700KV interface, removable clamp mounts and a validated arm-only STEP. The provisional aircraft structural budget is **1,136.914 g**; P04 below is the preserved earlier candidate. The supplied motor's21 V/5S limit conflicts with existing6S inputs and remains unresolved.

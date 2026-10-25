@@ -1,0 +1,213 @@
+{
+  "status": "PASS: geometric coverage, native reopen/solver and explicit slot/spar compatibility checks",
+  "bond_interface_groups": 24,
+  "coverage": [
+    {
+      "bond_parts": [
+        "RibPackerBond_PosY_Spar_Rib1"
+      ],
+      "minimum_contact_area_mm2": 154.46127996650776,
+      "mean_projected_area_mm2": 161.38135558036083,
+      "minimum_coverage_ratio": 0.9571197330139715
+    },
+    {
+      "bond_parts": [
+        "PackerSpliceBond_PosY_Spar_Rib1"
+      ],
+      "minimum_contact_area_mm2": 159.8504306057778,
+      "mean_projected_area_mm2": 159.98621803560533,
+      "minimum_coverage_ratio": 0.9991512554550336
+    },
+    {
+      "bond_parts": [
+        "SaddleSpliceBond_PosY_Spar_Rib1"
+      ],
+      "minimum_contact_area_mm2": 456.0,
+      "mean_projected_area_mm2": 455.9999999999741,
+      "minimum_coverage_ratio": 1.0000000000000568
+    },
+    {
+      "bond_parts": [
+        "RibPackerBond_PosY_Rear_Rib1"
+      ],
+      "minimum_contact_area_mm2": 130.45300217873876,
+      "mean_projected_area_mm2": 137.65300222330566,
+      "minimum_coverage_ratio": 0.9476945658410937
+    },
+    {
+      "bond_parts": [
+        "PackerSpliceBond_PosY_Rear_Rib1"
+      ],
+      "minimum_contact_area_mm2": 137.09219117637065,
+      "mean_projected_area_mm2": 137.6530022233057,
+      "minimum_coverage_ratio": 0.9959259076236835
+    },
+    {
+      "bond_parts": [
+        "SaddleSpliceBond_PosY_Rear_Rib1"
+      ],
+      "minimum_contact_area_mm2": 456.0,
+      "mean_projected_area_mm2": 455.9999999999741,
+      "minimum_coverage_ratio": 1.0000000000000568
+    },
+    {
+      "bond_parts": [
+        "RibPackerBond_PosY_Spar_Rib2"
+      ],
+      "minimum_contact_area_mm2": 151.69920911889346,
+      "mean_projected_area_mm2": 158.66868754394906,
+      "minimum_coverage_ratio": 0.9560752752610678
+    },
+    {
+      "bond_parts": [
+        "PackerSpliceBond_PosY_Spar_Rib2"
+      ],
+      "minimum_contact_area_mm2": 157.5831308802551,
+      "mean_projected_area_mm2": 157.70255462785641,
+      "minimum_coverage_ratio": 0.9992427278817194
+    },
+    {
+      "bond_parts": [
+        "SaddleSpliceBond_PosY_Spar_Rib2"
+      ],
+      "minimum_contact_area_mm2": 456.0,
+      "mean_projected_area_mm2": 455.9999999999741,
+      "minimum_coverage_ratio": 1.0000000000000568
+    },
+    {
+      "bond_parts": [
+        "RibPackerBond_PosY_Rear_Rib2"
+      ],
+      "minimum_contact_area_mm2": 124.58159746932526,
+      "mean_projected_area_mm2": 131.7815975376974,
+      "minimum_coverage_ratio": 0.9453641464142024
+    },
+    {
+      "bond_parts": [
+        "PackerSpliceBond_PosY_Rear_Rib2"
+      ],
+      "minimum_contact_area_mm2": 131.78159746932513,
+      "mean_projected_area_mm2": 131.7815975376974,
+      "minimum_coverage_ratio": 0.9999999994811699
+    },
+    {
+      "bond_parts": [
+        "SaddleSpliceBond_PosY_Rear_Rib2"
+      ],
+      "minimum_contact_area_mm2": 456.0,
+      "mean_projected_area_mm2": 455.9999999999741,
+      "minimum_coverage_ratio": 1.0000000000000568
+    },
+    {
+      "bond_parts": [
+        "RibPackerBond_NegY_Spar_Rib1"
+      ],
+      "minimum_contact_area_mm2": 151.69920911889344,
+      "mean_projected_area_mm2": 158.66834137885618,
+      "minimum_coverage_ratio": 0.956077361120689
+    },
+    {
+      "bond_parts": [
+        "PackerSpliceBond_NegY_Spar_Rib1"
+      ],
+      "minimum_contact_area_mm2": 157.58313088025488,
+      "mean_projected_area_mm2": 157.7025554491065,
+      "minimum_coverage_ratio": 0.9992427226780725
+    },
+    {
+      "bond_parts": [
+        "SaddleSpliceBond_NegY_Spar_Rib1"
+      ],
+      "minimum_contact_area_mm2": 456.0,
+      "mean_projected_area_mm2": 455.9999999999741,
+      "minimum_coverage_ratio": 1.0000000000000568
+    },
+    {
+      "bond_parts": [
+        "RibPackerBond_NegY_Rear_Rib1"
+      ],
+      "minimum_contact_area_mm2": 124.58159746932532,
+      "mean_projected_area_mm2": 131.7815975376961,
+      "minimum_coverage_ratio": 0.9453641464142123
+    },
+    {
+      "bond_parts": [
+        "PackerSpliceBond_NegY_Rear_Rib1"
+      ],
+      "minimum_contact_area_mm2": 131.78159746932508,
+      "mean_projected_area_mm2": 131.7815975376961,
+      "minimum_coverage_ratio": 0.9999999994811793
+    },
+    {
+      "bond_parts": [
+        "SaddleSpliceBond_NegY_Rear_Rib1"
+      ],
+      "minimum_contact_area_mm2": 456.0,
+      "mean_projected_area_mm2": 455.9999999999741,
+      "minimum_coverage_ratio": 1.0000000000000568
+    },
+    {
+      "bond_parts": [
+        "RibPackerBond_NegY_Spar_Rib2"
+      ],
+      "minimum_contact_area_mm2": 154.4612799665077,
+      "mean_projected_area_mm2": 161.38135543869794,
+      "minimum_coverage_ratio": 0.9571197338541447
+    },
+    {
+      "bond_parts": [
+        "PackerSpliceBond_NegY_Spar_Rib2"
+      ],
+      "minimum_contact_area_mm2": 159.85043060577826,
+      "mean_projected_area_mm2": 159.98621802354327,
+      "minimum_coverage_ratio": 0.9991512555303668
+    },
+    {
+      "bond_parts": [
+        "SaddleSpliceBond_NegY_Spar_Rib2"
+      ],
+      "minimum_contact_area_mm2": 456.0,
+      "mean_projected_area_mm2": 455.9999999999741,
+      "minimum_coverage_ratio": 1.0000000000000568
+    },
+    {
+      "bond_parts": [
+        "RibPackerBond_NegY_Rear_Rib2"
+      ],
+      "minimum_contact_area_mm2": 130.45300217873876,
+      "mean_projected_area_mm2": 137.65300222330566,
+      "minimum_coverage_ratio": 0.9476945658410937
+    },
+    {
+      "bond_parts": [
+        "PackerSpliceBond_NegY_Rear_Rib2"
+      ],
+      "minimum_contact_area_mm2": 137.09219117637065,
+      "mean_projected_area_mm2": 137.6530022233057,
+      "minimum_coverage_ratio": 0.9959259076236835
+    },
+    {
+      "bond_parts": [
+        "SaddleSpliceBond_NegY_Rear_Rib2"
+      ],
+      "minimum_contact_area_mm2": 456.0,
+      "mean_projected_area_mm2": 455.9999999999741,
+      "minimum_coverage_ratio": 1.0000000000000568
+    }
+  ],
+  "solver_tests": [
+    {
+      "arm": "PosY",
+      "solve_code": 0,
+      "rib_perturbation_translation_residual_mm": 1.044048714879764e-53,
+      "rotation_residual_rad": 0.0
+    },
+    {
+      "arm": "NegY",
+      "solve_code": 0,
+      "rib_perturbation_translation_residual_mm": 1.472728039589318e-90,
+      "rotation_residual_rad": 0.0
+    }
+  ],
+  "limits": "No chemical adhesion, peel/fatigue or skin-slot reinforcement qualification. STEP is arm-only; relieved skins/cores remain native context objects."
+}

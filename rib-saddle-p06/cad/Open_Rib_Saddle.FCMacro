@@ -1,0 +1,26 @@
+"""P06 review colors and carrier close-up. Display only; no file save."""
+from pathlib import Path
+import FreeCAD as App,FreeCADGui as Gui
+Gui.activateWorkbench('AssemblyWorkbench');import JointObject
+p=Path(__file__).resolve().parent/'RescU_P06_Rib_Saddle_Assembly.FCStd';doc=App.openDocument(str(p));App.setActiveDocument(doc.Name)
+Gui.activateWorkbench('AssemblyWorkbench');import JointObject
+for o in doc.Objects:
+ if o.TypeId=='App::FeaturePython':
+  if hasattr(o,'ObjectToGround'):JointObject.ViewProviderGroundedJoint(o.ViewObject)
+  elif hasattr(o,'JointType'):JointObject.ViewProviderJoint(o.ViewObject)
+ if o.TypeId=='Assembly::AssemblyObject':o.Visibility=True
+ if o.TypeId=='Assembly::JointGroup':o.Visibility=False
+ if o.Name=='WingPocketContext' or o.Name=='ClearanceGauges':o.Visibility=False
+ if hasattr(o,'MassCategory') and o.MassCategory.startswith('reference only'):o.Visibility=False
+ if not hasattr(o,'Material'):continue
+ o.Visibility=True;color={'CFRP':(.22,.29,.38),'GFRP':(.42,.56,.64),'Epoxy':(.88,.78,.26),'Steel':(.7,.73,.77),'Vendor motor':(.32,.40,.52),'Isolation liner':(.8,.49,.2)}.get(o.Material,(.7,.7,.7))
+ if o.Name.startswith('SplicePlate'):color=(.89,.56,.24)
+ elif o.Name.startswith('RibPacker_'):color=(.22,.65,.61)
+ elif o.Name.startswith('Wing_Spar_Rib'):color=(.67,.74,.80)
+ o.ViewObject.ShapeColor=color;o.ViewObject.DisplayMode='Flat Lines'
+doc.MotorArm_NegY.Visibility=False
+Gui.activeDocument().activeView().viewAxonometric();Gui.Selection.clearSelection()
+for o in doc.Objects:
+ if o.Name.endswith('_PosY') and o.Name.startswith('Wing_'):Gui.Selection.addSelection(o)
+Gui.runCommand('Std_ViewFitSelection');Gui.Selection.clearSelection()
+App.Console.PrintMessage('P06: orange splice plates, teal packers, yellow bondlines. WingPocketContext contains proposed relieved skins/cores; hidden by default.\n')
