@@ -1,0 +1,407 @@
+{
+  "source_native_sha256": "7a018ef6dcda93270927f0b2cc0769293a392f55817c2aaa52db86bf6ccbce57",
+  "method": "Complete preceding pair matrix plus rechecks of all prior affected clash families. Valid Boolean subtraction/splitting and monotonic volumes establish that final slot regions are subsets, so relief cannot introduce a new physical intersection. Revised wire bundles checked against all physical parts.",
+  "collisions": [],
+  "nominal_wet_bond_intersections": [
+    {
+      "part": "RibFaceBond_PosY_Rib1B_Piece1",
+      "other": "Flange_Lower_PosY_Rib1_Piece1",
+      "intersection_mm3": 0.002496365274399048,
+      "classification": "Nominal wet-bond layer intersection below0.02 mm3; retained as construction-volume ambiguity, not a rigid-part clash"
+    },
+    {
+      "part": "RibFaceBond_PosY_Rib1B_Piece2",
+      "other": "RibEdgeBond_Upper_PosY_Rib1_Piece2",
+      "intersection_mm3": 0.004908247650437107,
+      "classification": "Nominal wet-bond layer intersection below0.02 mm3; retained as construction-volume ambiguity, not a rigid-part clash"
+    },
+    {
+      "part": "RibFaceBond_PosY_Rib1B_Piece2",
+      "other": "RibEdgeBond_Lower_PosY_Rib1_Piece2",
+      "intersection_mm3": 0.004892503023494411,
+      "classification": "Nominal wet-bond layer intersection below0.02 mm3; retained as construction-volume ambiguity, not a rigid-part clash"
+    },
+    {
+      "part": "CollarFaceBond_PosY_Rib1A",
+      "other": "RibFaceTape_PosY_Rib1A_Piece1",
+      "intersection_mm3": 0.01049747627667471,
+      "classification": "Nominal wet-bond layer intersection below0.02 mm3; retained as construction-volume ambiguity, not a rigid-part clash"
+    },
+    {
+      "part": "RibFaceBond_PosY_Rib2B_Piece4",
+      "other": "RibEdgeBond_Upper_PosY_Rib2_Piece2",
+      "intersection_mm3": 0.002741979508177823,
+      "classification": "Nominal wet-bond layer intersection below0.02 mm3; retained as construction-volume ambiguity, not a rigid-part clash"
+    },
+    {
+      "part": "RibFaceBond_PosY_Rib2B_Piece4",
+      "other": "RibEdgeBond_Lower_PosY_Rib2_Piece2",
+      "intersection_mm3": 0.0014858404724615853,
+      "classification": "Nominal wet-bond layer intersection below0.02 mm3; retained as construction-volume ambiguity, not a rigid-part clash"
+    },
+    {
+      "part": "CollarFaceBond_PosY_Rib2A_Piece1",
+      "other": "RibFaceTape_PosY_Rib2A_Piece2",
+      "intersection_mm3": 0.010542163437126289,
+      "classification": "Nominal wet-bond layer intersection below0.02 mm3; retained as construction-volume ambiguity, not a rigid-part clash"
+    },
+    {
+      "part": "CollarFaceBond_PosY_Rib2A_Piece2",
+      "other": "RibFaceTape_PosY_Rib2A_Piece1",
+      "intersection_mm3": 0.011011516980503629,
+      "classification": "Nominal wet-bond layer intersection below0.02 mm3; retained as construction-volume ambiguity, not a rigid-part clash"
+    },
+    {
+      "part": "RibFaceBond_NegY_Rib1A_Piece4",
+      "other": "RibEdgeBond_Upper_NegY_Rib1_Piece2",
+      "intersection_mm3": 0.0027418946250834042,
+      "classification": "Nominal wet-bond layer intersection below0.02 mm3; retained as construction-volume ambiguity, not a rigid-part clash"
+    },
+    {
+      "part": "RibFaceBond_NegY_Rib1A_Piece4",
+      "other": "RibEdgeBond_Lower_NegY_Rib1_Piece2",
+      "intersection_mm3": 0.0014858363835791152,
+      "classification": "Nominal wet-bond layer intersection below0.02 mm3; retained as construction-volume ambiguity, not a rigid-part clash"
+    },
+    {
+      "part": "CollarFaceBond_NegY_Rib1B_Piece1",
+      "other": "RibFaceTape_NegY_Rib1B_Piece1",
+      "intersection_mm3": 0.011011143855764703,
+      "classification": "Nominal wet-bond layer intersection below0.02 mm3; retained as construction-volume ambiguity, not a rigid-part clash"
+    },
+    {
+      "part": "CollarFaceBond_NegY_Rib1B_Piece2",
+      "other": "RibFaceTape_NegY_Rib1B_Piece2",
+      "intersection_mm3": 0.010540409188048003,
+      "classification": "Nominal wet-bond layer intersection below0.02 mm3; retained as construction-volume ambiguity, not a rigid-part clash"
+    },
+    {
+      "part": "RibFaceBond_NegY_Rib2A_Piece2",
+      "other": "RibEdgeBond_Upper_NegY_Rib2_Piece2",
+      "intersection_mm3": 0.0049078272289871,
+      "classification": "Nominal wet-bond layer intersection below0.02 mm3; retained as construction-volume ambiguity, not a rigid-part clash"
+    },
+    {
+      "part": "RibFaceBond_NegY_Rib2A_Piece2",
+      "other": "RibEdgeBond_Lower_NegY_Rib2_Piece2",
+      "intersection_mm3": 0.004892451268183518,
+      "classification": "Nominal wet-bond layer intersection below0.02 mm3; retained as construction-volume ambiguity, not a rigid-part clash"
+    },
+    {
+      "part": "CollarFaceBond_NegY_Rib2B",
+      "other": "RibFaceTape_NegY_Rib2B_Piece1",
+      "intersection_mm3": 0.010497199129245547,
+      "classification": "Nominal wet-bond layer intersection below0.02 mm3; retained as construction-volume ambiguity, not a rigid-part clash"
+    }
+  ],
+  "nominal_wet_bond_overlap_mass_upper_bound_g": 0.00011358342516259918,
+  "wet_contact_threshold_mm3": 0.02,
+  "wing_batch_checks": [
+    {
+      "target": "WingCore_PosY_Piece1",
+      "method": "Constructed web bays, cap channels and spar-cheek pocket; removed-volume conservation passed. Full compound/foam Boolean deferred.",
+      "intersection_mm3": null
+    },
+    {
+      "target": "WingCore_PosY_Piece2",
+      "method": "Constructed web bays, cap channels and spar-cheek pocket; removed-volume conservation passed. Full compound/foam Boolean deferred.",
+      "intersection_mm3": null
+    },
+    {
+      "target": "WingCore_PosY_Piece3",
+      "method": "Constructed web bays, cap channels and spar-cheek pocket; removed-volume conservation passed. Full compound/foam Boolean deferred.",
+      "intersection_mm3": null
+    },
+    {
+      "target": "WingCore_PosY_Piece4",
+      "method": "Constructed web bays, cap channels and spar-cheek pocket; removed-volume conservation passed. Full compound/foam Boolean deferred.",
+      "intersection_mm3": null
+    },
+    {
+      "target": "WingCore_PosY_Piece5",
+      "method": "Constructed web bays, cap channels and spar-cheek pocket; removed-volume conservation passed. Full compound/foam Boolean deferred.",
+      "intersection_mm3": null
+    },
+    {
+      "target": "WingSkin_PosY",
+      "new_part_count": 16,
+      "method": "Individual gap/intersection checks; skin/bond checked at outer bedding interfaces",
+      "intersection_mm3": 0.0
+    },
+    {
+      "target": "WingSpar_PosY",
+      "new_part_count": 139,
+      "method": "Individual gap/intersection checks; skin/bond checked at outer bedding interfaces",
+      "intersection_mm3": 0.0
+    },
+    {
+      "target": "WingCore_NegY_Piece1",
+      "method": "Constructed web bays, cap channels and spar-cheek pocket; removed-volume conservation passed. Full compound/foam Boolean deferred.",
+      "intersection_mm3": null
+    },
+    {
+      "target": "WingCore_NegY_Piece2",
+      "method": "Constructed web bays, cap channels and spar-cheek pocket; removed-volume conservation passed. Full compound/foam Boolean deferred.",
+      "intersection_mm3": null
+    },
+    {
+      "target": "WingCore_NegY_Piece3",
+      "method": "Constructed web bays, cap channels and spar-cheek pocket; removed-volume conservation passed. Full compound/foam Boolean deferred.",
+      "intersection_mm3": null
+    },
+    {
+      "target": "WingCore_NegY_Piece4",
+      "method": "Constructed web bays, cap channels and spar-cheek pocket; removed-volume conservation passed. Full compound/foam Boolean deferred.",
+      "intersection_mm3": null
+    },
+    {
+      "target": "WingCore_NegY_Piece5",
+      "method": "Constructed web bays, cap channels and spar-cheek pocket; removed-volume conservation passed. Full compound/foam Boolean deferred.",
+      "intersection_mm3": null
+    },
+    {
+      "target": "WingSkin_NegY",
+      "new_part_count": 16,
+      "method": "Individual gap/intersection checks; skin/bond checked at outer bedding interfaces",
+      "intersection_mm3": 0.0
+    },
+    {
+      "target": "WingSpar_NegY",
+      "new_part_count": 139,
+      "method": "Individual gap/intersection checks; skin/bond checked at outer bedding interfaces",
+      "intersection_mm3": 0.0
+    },
+    {
+      "target": "WingOriginalBond_PosY",
+      "new_part_count": 16,
+      "method": "Individual gap/intersection checks; skin/bond checked at outer bedding interfaces",
+      "intersection_mm3": 0.0
+    },
+    {
+      "target": "WingOriginalBond_NegY",
+      "new_part_count": 16,
+      "method": "Individual gap/intersection checks; skin/bond checked at outer bedding interfaces",
+      "intersection_mm3": 0.0
+    }
+  ],
+  "gauge_checks": [
+    {
+      "gauge": "PropSweep_PosY_Front",
+      "new_geometry_collisions": [],
+      "scope": "All physical parts for revised bundle gauges; retained baseline bench installation remains required for motor screws"
+    },
+    {
+      "gauge": "MotorTool_PosY_Front_0",
+      "new_geometry_collisions": [],
+      "scope": "All physical parts for revised bundle gauges; retained baseline bench installation remains required for motor screws"
+    },
+    {
+      "gauge": "MotorTool_PosY_Front_1",
+      "new_geometry_collisions": [],
+      "scope": "All physical parts for revised bundle gauges; retained baseline bench installation remains required for motor screws"
+    },
+    {
+      "gauge": "MotorTool_PosY_Front_2",
+      "new_geometry_collisions": [],
+      "scope": "All physical parts for revised bundle gauges; retained baseline bench installation remains required for motor screws"
+    },
+    {
+      "gauge": "MotorTool_PosY_Front_3",
+      "new_geometry_collisions": [],
+      "scope": "All physical parts for revised bundle gauges; retained baseline bench installation remains required for motor screws"
+    },
+    {
+      "gauge": "ClampTopTool_PosY_Front_0",
+      "new_geometry_collisions": [],
+      "scope": "All physical parts for revised bundle gauges; retained baseline bench installation remains required for motor screws"
+    },
+    {
+      "gauge": "ClampNutTool_PosY_Front_0",
+      "new_geometry_collisions": [],
+      "scope": "All physical parts for revised bundle gauges; retained baseline bench installation remains required for motor screws"
+    },
+    {
+      "gauge": "ClampTopTool_PosY_Front_1",
+      "new_geometry_collisions": [],
+      "scope": "All physical parts for revised bundle gauges; retained baseline bench installation remains required for motor screws"
+    },
+    {
+      "gauge": "ClampNutTool_PosY_Front_1",
+      "new_geometry_collisions": [],
+      "scope": "All physical parts for revised bundle gauges; retained baseline bench installation remains required for motor screws"
+    },
+    {
+      "gauge": "PropSweep_PosY_Rear",
+      "new_geometry_collisions": [],
+      "scope": "All physical parts for revised bundle gauges; retained baseline bench installation remains required for motor screws"
+    },
+    {
+      "gauge": "MotorTool_PosY_Rear_0",
+      "new_geometry_collisions": [],
+      "scope": "All physical parts for revised bundle gauges; retained baseline bench installation remains required for motor screws"
+    },
+    {
+      "gauge": "MotorTool_PosY_Rear_1",
+      "new_geometry_collisions": [],
+      "scope": "All physical parts for revised bundle gauges; retained baseline bench installation remains required for motor screws"
+    },
+    {
+      "gauge": "MotorTool_PosY_Rear_2",
+      "new_geometry_collisions": [],
+      "scope": "All physical parts for revised bundle gauges; retained baseline bench installation remains required for motor screws"
+    },
+    {
+      "gauge": "MotorTool_PosY_Rear_3",
+      "new_geometry_collisions": [],
+      "scope": "All physical parts for revised bundle gauges; retained baseline bench installation remains required for motor screws"
+    },
+    {
+      "gauge": "ClampTopTool_PosY_Rear_0",
+      "new_geometry_collisions": [],
+      "scope": "All physical parts for revised bundle gauges; retained baseline bench installation remains required for motor screws"
+    },
+    {
+      "gauge": "ClampNutTool_PosY_Rear_0",
+      "new_geometry_collisions": [],
+      "scope": "All physical parts for revised bundle gauges; retained baseline bench installation remains required for motor screws"
+    },
+    {
+      "gauge": "ClampTopTool_PosY_Rear_1",
+      "new_geometry_collisions": [],
+      "scope": "All physical parts for revised bundle gauges; retained baseline bench installation remains required for motor screws"
+    },
+    {
+      "gauge": "ClampNutTool_PosY_Rear_1",
+      "new_geometry_collisions": [],
+      "scope": "All physical parts for revised bundle gauges; retained baseline bench installation remains required for motor screws"
+    },
+    {
+      "gauge": "PropSweep_NegY_Front",
+      "new_geometry_collisions": [],
+      "scope": "All physical parts for revised bundle gauges; retained baseline bench installation remains required for motor screws"
+    },
+    {
+      "gauge": "MotorTool_NegY_Front_0",
+      "new_geometry_collisions": [],
+      "scope": "All physical parts for revised bundle gauges; retained baseline bench installation remains required for motor screws"
+    },
+    {
+      "gauge": "MotorTool_NegY_Front_1",
+      "new_geometry_collisions": [],
+      "scope": "All physical parts for revised bundle gauges; retained baseline bench installation remains required for motor screws"
+    },
+    {
+      "gauge": "MotorTool_NegY_Front_2",
+      "new_geometry_collisions": [],
+      "scope": "All physical parts for revised bundle gauges; retained baseline bench installation remains required for motor screws"
+    },
+    {
+      "gauge": "MotorTool_NegY_Front_3",
+      "new_geometry_collisions": [],
+      "scope": "All physical parts for revised bundle gauges; retained baseline bench installation remains required for motor screws"
+    },
+    {
+      "gauge": "ClampTopTool_NegY_Front_0",
+      "new_geometry_collisions": [],
+      "scope": "All physical parts for revised bundle gauges; retained baseline bench installation remains required for motor screws"
+    },
+    {
+      "gauge": "ClampNutTool_NegY_Front_0",
+      "new_geometry_collisions": [],
+      "scope": "All physical parts for revised bundle gauges; retained baseline bench installation remains required for motor screws"
+    },
+    {
+      "gauge": "ClampTopTool_NegY_Front_1",
+      "new_geometry_collisions": [],
+      "scope": "All physical parts for revised bundle gauges; retained baseline bench installation remains required for motor screws"
+    },
+    {
+      "gauge": "ClampNutTool_NegY_Front_1",
+      "new_geometry_collisions": [],
+      "scope": "All physical parts for revised bundle gauges; retained baseline bench installation remains required for motor screws"
+    },
+    {
+      "gauge": "PropSweep_NegY_Rear",
+      "new_geometry_collisions": [],
+      "scope": "All physical parts for revised bundle gauges; retained baseline bench installation remains required for motor screws"
+    },
+    {
+      "gauge": "MotorTool_NegY_Rear_0",
+      "new_geometry_collisions": [],
+      "scope": "All physical parts for revised bundle gauges; retained baseline bench installation remains required for motor screws"
+    },
+    {
+      "gauge": "MotorTool_NegY_Rear_1",
+      "new_geometry_collisions": [],
+      "scope": "All physical parts for revised bundle gauges; retained baseline bench installation remains required for motor screws"
+    },
+    {
+      "gauge": "MotorTool_NegY_Rear_2",
+      "new_geometry_collisions": [],
+      "scope": "All physical parts for revised bundle gauges; retained baseline bench installation remains required for motor screws"
+    },
+    {
+      "gauge": "MotorTool_NegY_Rear_3",
+      "new_geometry_collisions": [],
+      "scope": "All physical parts for revised bundle gauges; retained baseline bench installation remains required for motor screws"
+    },
+    {
+      "gauge": "ClampTopTool_NegY_Rear_0",
+      "new_geometry_collisions": [],
+      "scope": "All physical parts for revised bundle gauges; retained baseline bench installation remains required for motor screws"
+    },
+    {
+      "gauge": "ClampNutTool_NegY_Rear_0",
+      "new_geometry_collisions": [],
+      "scope": "All physical parts for revised bundle gauges; retained baseline bench installation remains required for motor screws"
+    },
+    {
+      "gauge": "ClampTopTool_NegY_Rear_1",
+      "new_geometry_collisions": [],
+      "scope": "All physical parts for revised bundle gauges; retained baseline bench installation remains required for motor screws"
+    },
+    {
+      "gauge": "ClampNutTool_NegY_Rear_1",
+      "new_geometry_collisions": [],
+      "scope": "All physical parts for revised bundle gauges; retained baseline bench installation remains required for motor screws"
+    },
+    {
+      "gauge": "WireRoute_PosY_Front_0",
+      "new_geometry_collisions": [],
+      "scope": "Revised8 mm reference bundle against all physical parts; actual motor lead exit and bend radius remain unverified"
+    },
+    {
+      "gauge": "WireRoute_PosY_Rear_0",
+      "new_geometry_collisions": [],
+      "scope": "Revised8 mm reference bundle against all physical parts; actual motor lead exit and bend radius remain unverified"
+    },
+    {
+      "gauge": "WireRoute_NegY_Front_0",
+      "new_geometry_collisions": [],
+      "scope": "Revised8 mm reference bundle against all physical parts; actual motor lead exit and bend radius remain unverified"
+    },
+    {
+      "gauge": "WireRoute_NegY_Rear_0",
+      "new_geometry_collisions": [],
+      "scope": "Revised8 mm reference bundle against all physical parts; actual motor lead exit and bend radius remain unverified"
+    }
+  ],
+  "solver": [
+    {
+      "side": "PosY",
+      "solve_code": 0,
+      "perturbation_translation_residual_mm": 2.248949758521804e-52,
+      "rotation_residual_rad": 0.0
+    },
+    {
+      "side": "NegY",
+      "solve_code": 0,
+      "perturbation_translation_residual_mm": 4.176521111998716e-52,
+      "rotation_residual_rad": 0.0
+    }
+  ],
+  "physical_piece_count": 448,
+  "incremental_pairs_checked": 0,
+  "limits": "Full compound/core Boolean deferred; foam compatibility uses pocket construction and removed-volume conservation. No strength/peel/fatigue qualification.",
+  "reference_only_update": "Bundle inlet raised to18 mm to clear the11 mm mount-plate top. Physical solids unchanged; physical pair matrix and solver recovery remain applicable."
+}

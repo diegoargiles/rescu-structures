@@ -1,0 +1,20 @@
+[
+  {
+    "path": "RescU_P07_SolidWorks_Review.zip",
+    "size_bytes": 10740044,
+    "sha256": "0174a037bf5158ba99ddf03d43678204de7bc827e443fe6d81f9f48dadb82177",
+    "git_blob_sha1": "cdc9089172a49507de6830e28343279bcea17f8e"
+  },
+  {
+    "path": "RescU_P07_Carrier_Review.zip",
+    "size_bytes": 13225719,
+    "sha256": "4db0cda3b345702b3e40990617a26df0d961671837f7b4c7ec6f41e1edb81bd7",
+    "git_blob_sha1": "654d8573c4da87919fc25c27ff3525a4769f95f5"
+  },
+  {
+    "path": "RescU_P07_Native_CAD.zip",
+    "size_bytes": 23522070,
+    "sha256": "7bf488692540ddd1fa542659be19cfe6ace9586fdba8da883249293c222a73ac",
+    "git_blob_sha1": "cb179b0287d6ba49327767372bc72abcf3e6089d"
+  }
+]

@@ -1,0 +1,376 @@
+{
+  "status": "Screening only; no peel/fatigue or process qualification",
+  "checks": [
+    {
+      "side": "PosY",
+      "station": "Spar",
+      "rib_index": 1,
+      "full_station_reaction_N": 84.7248134328358,
+      "bond_groups": [
+        {
+          "bond_parts": [
+            "RibPackerBond_PosY_Spar_Rib1"
+          ],
+          "actual_planar_contact_areas_mm2": [
+            113.9751944727053,
+            125.23611325184852
+          ]
+        },
+        {
+          "bond_parts": [
+            "PackerSpliceBond_PosY_Spar_Rib1"
+          ],
+          "actual_planar_contact_areas_mm2": [
+            124.4960082321325,
+            124.41227115679695
+          ]
+        },
+        {
+          "bond_parts": [
+            "SaddleSpliceBond_PosY_Spar_Rib1"
+          ],
+          "actual_planar_contact_areas_mm2": [
+            456.0,
+            456.0
+          ]
+        }
+      ],
+      "minimum_actual_planar_contact_mm2": 113.9751944727053,
+      "effective_area_factor_assumption": 0.5,
+      "average_shear_MPa": 1.4867237353672713,
+      "assumed_shear_screen_MPa": 2.0,
+      "shear_utilization": 0.7433618676836357,
+      "sampled_plate_net_width_mm": 9.904691402481152,
+      "plate_strip_combined_MPa": 58.167257103937814,
+      "assumed_plate_screen_MPa": 70.0,
+      "plate_utilization": 0.8309608157705402,
+      "peel_proxy_MPa": 3.9445886418972456,
+      "peel_allowable": null
+    },
+    {
+      "side": "PosY",
+      "station": "Spar",
+      "rib_index": 2,
+      "full_station_reaction_N": 84.7248134328358,
+      "bond_groups": [
+        {
+          "bond_parts": [
+            "RibPackerBond_PosY_Spar_Rib2"
+          ],
+          "actual_planar_contact_areas_mm2": [
+            115.13004763298176,
+            126.21477968894176
+          ]
+        },
+        {
+          "bond_parts": [
+            "PackerSpliceBond_PosY_Spar_Rib2"
+          ],
+          "actual_planar_contact_areas_mm2": [
+            126.00005807606402,
+            126.027393588381
+          ]
+        },
+        {
+          "bond_parts": [
+            "SaddleSpliceBond_PosY_Spar_Rib2"
+          ],
+          "actual_planar_contact_areas_mm2": [
+            456.0,
+            456.0
+          ]
+        }
+      ],
+      "minimum_actual_planar_contact_mm2": 115.13004763298176,
+      "effective_area_factor_assumption": 0.5,
+      "average_shear_MPa": 1.4718106206804755,
+      "assumed_shear_screen_MPa": 2.0,
+      "shear_utilization": 0.7359053103402378,
+      "sampled_plate_net_width_mm": 10.23695382279688,
+      "plate_strip_combined_MPa": 56.27931329144914,
+      "assumed_plate_screen_MPa": 70.0,
+      "plate_utilization": 0.8039901898778449,
+      "peel_proxy_MPa": 3.8658503218257447,
+      "peel_allowable": null
+    },
+    {
+      "side": "PosY",
+      "station": "Rear",
+      "rib_index": 1,
+      "full_station_reaction_N": 96.15055970149255,
+      "bond_groups": [
+        {
+          "bond_parts": [
+            "RibPackerBond_PosY_Rear_Rib1"
+          ],
+          "actual_planar_contact_areas_mm2": [
+            99.29948582282847,
+            106.41740314548676
+          ]
+        },
+        {
+          "bond_parts": [
+            "PackerSpliceBond_PosY_Rear_Rib1"
+          ],
+          "actual_planar_contact_areas_mm2": [
+            105.66499661501119,
+            105.57987674179202
+          ]
+        },
+        {
+          "bond_parts": [
+            "SaddleSpliceBond_PosY_Rear_Rib1"
+          ],
+          "actual_planar_contact_areas_mm2": [
+            456.0,
+            456.0
+          ]
+        }
+      ],
+      "minimum_actual_planar_contact_mm2": 99.29948582282847,
+      "effective_area_factor_assumption": 0.5,
+      "average_shear_MPa": 1.936577191810353,
+      "assumed_shear_screen_MPa": 2.0,
+      "shear_utilization": 0.9682885959051765,
+      "sampled_plate_net_width_mm": 24.0,
+      "plate_strip_combined_MPa": 44.87026119402985,
+      "assumed_plate_screen_MPa": 70.0,
+      "plate_utilization": 0.6410037313432836,
+      "peel_proxy_MPa": 5.546479408096257,
+      "peel_allowable": null
+    },
+    {
+      "side": "PosY",
+      "station": "Rear",
+      "rib_index": 2,
+      "full_station_reaction_N": 96.15055970149255,
+      "bond_groups": [
+        {
+          "bond_parts": [
+            "RibPackerBond_PosY_Rear_Rib2"
+          ],
+          "actual_planar_contact_areas_mm2": [
+            98.59054762259865,
+            105.82455487457578
+          ]
+        },
+        {
+          "bond_parts": [
+            "PackerSpliceBond_PosY_Rear_Rib2"
+          ],
+          "actual_planar_contact_areas_mm2": [
+            106.11740369108973,
+            106.14847505100401
+          ]
+        },
+        {
+          "bond_parts": [
+            "SaddleSpliceBond_PosY_Rear_Rib2"
+          ],
+          "actual_planar_contact_areas_mm2": [
+            456.0,
+            456.0
+          ]
+        }
+      ],
+      "minimum_actual_planar_contact_mm2": 98.59054762259865,
+      "effective_area_factor_assumption": 0.5,
+      "average_shear_MPa": 1.9505025992867737,
+      "assumed_shear_screen_MPa": 2.0,
+      "shear_utilization": 0.9752512996433869,
+      "sampled_plate_net_width_mm": 24.0,
+      "plate_strip_combined_MPa": 44.87026119402985,
+      "assumed_plate_screen_MPa": 70.0,
+      "plate_utilization": 0.6410037313432836,
+      "peel_proxy_MPa": 5.626532691152293,
+      "peel_allowable": null
+    },
+    {
+      "side": "NegY",
+      "station": "Spar",
+      "rib_index": 1,
+      "full_station_reaction_N": 84.7248134328358,
+      "bond_groups": [
+        {
+          "bond_parts": [
+            "RibPackerBond_NegY_Spar_Rib1"
+          ],
+          "actual_planar_contact_areas_mm2": [
+            115.13004763298787,
+            126.21477968896225
+          ]
+        },
+        {
+          "bond_parts": [
+            "PackerSpliceBond_NegY_Spar_Rib1"
+          ],
+          "actual_planar_contact_areas_mm2": [
+            126.0000580760827,
+            126.02739358838471
+          ]
+        },
+        {
+          "bond_parts": [
+            "SaddleSpliceBond_NegY_Spar_Rib1"
+          ],
+          "actual_planar_contact_areas_mm2": [
+            456.0,
+            456.0
+          ]
+        }
+      ],
+      "minimum_actual_planar_contact_mm2": 115.13004763298787,
+      "effective_area_factor_assumption": 0.5,
+      "average_shear_MPa": 1.4718106206803976,
+      "assumed_shear_screen_MPa": 2.0,
+      "shear_utilization": 0.7359053103401988,
+      "sampled_plate_net_width_mm": 10.236953822797085,
+      "plate_strip_combined_MPa": 56.27931329144801,
+      "assumed_plate_screen_MPa": 70.0,
+      "plate_utilization": 0.8039901898778288,
+      "peel_proxy_MPa": 3.8658503218253344,
+      "peel_allowable": null
+    },
+    {
+      "side": "NegY",
+      "station": "Spar",
+      "rib_index": 2,
+      "full_station_reaction_N": 84.7248134328358,
+      "bond_groups": [
+        {
+          "bond_parts": [
+            "RibPackerBond_NegY_Spar_Rib2"
+          ],
+          "actual_planar_contact_areas_mm2": [
+            113.97519447270551,
+            125.23611325187078
+          ]
+        },
+        {
+          "bond_parts": [
+            "PackerSpliceBond_NegY_Spar_Rib2"
+          ],
+          "actual_planar_contact_areas_mm2": [
+            124.49600823215384,
+            124.41227115681912
+          ]
+        },
+        {
+          "bond_parts": [
+            "SaddleSpliceBond_NegY_Spar_Rib2"
+          ],
+          "actual_planar_contact_areas_mm2": [
+            456.0,
+            456.0
+          ]
+        }
+      ],
+      "minimum_actual_planar_contact_mm2": 113.97519447270551,
+      "effective_area_factor_assumption": 0.5,
+      "average_shear_MPa": 1.4867237353672687,
+      "assumed_shear_screen_MPa": 2.0,
+      "shear_utilization": 0.7433618676836343,
+      "sampled_plate_net_width_mm": 9.904691402481145,
+      "plate_strip_combined_MPa": 58.16725710393785,
+      "assumed_plate_screen_MPa": 70.0,
+      "plate_utilization": 0.8309608157705407,
+      "peel_proxy_MPa": 3.9445886418972305,
+      "peel_allowable": null
+    },
+    {
+      "side": "NegY",
+      "station": "Rear",
+      "rib_index": 1,
+      "full_station_reaction_N": 96.15055970149255,
+      "bond_groups": [
+        {
+          "bond_parts": [
+            "RibPackerBond_NegY_Rear_Rib1"
+          ],
+          "actual_planar_contact_areas_mm2": [
+            98.59054762259846,
+            105.82455487457496
+          ]
+        },
+        {
+          "bond_parts": [
+            "PackerSpliceBond_NegY_Rear_Rib1"
+          ],
+          "actual_planar_contact_areas_mm2": [
+            106.11740369108921,
+            106.14847505100413
+          ]
+        },
+        {
+          "bond_parts": [
+            "SaddleSpliceBond_NegY_Rear_Rib1"
+          ],
+          "actual_planar_contact_areas_mm2": [
+            456.0,
+            456.0
+          ]
+        }
+      ],
+      "minimum_actual_planar_contact_mm2": 98.59054762259846,
+      "effective_area_factor_assumption": 0.5,
+      "average_shear_MPa": 1.9505025992867773,
+      "assumed_shear_screen_MPa": 2.0,
+      "shear_utilization": 0.9752512996433886,
+      "sampled_plate_net_width_mm": 24.0,
+      "plate_strip_combined_MPa": 44.87026119402985,
+      "assumed_plate_screen_MPa": 70.0,
+      "plate_utilization": 0.6410037313432836,
+      "peel_proxy_MPa": 5.626532691152316,
+      "peel_allowable": null
+    },
+    {
+      "side": "NegY",
+      "station": "Rear",
+      "rib_index": 2,
+      "full_station_reaction_N": 96.15055970149255,
+      "bond_groups": [
+        {
+          "bond_parts": [
+            "RibPackerBond_NegY_Rear_Rib2"
+          ],
+          "actual_planar_contact_areas_mm2": [
+            99.29948582282844,
+            106.41740314548638
+          ]
+        },
+        {
+          "bond_parts": [
+            "PackerSpliceBond_NegY_Rear_Rib2"
+          ],
+          "actual_planar_contact_areas_mm2": [
+            105.66499661501143,
+            105.57987674179184
+          ]
+        },
+        {
+          "bond_parts": [
+            "SaddleSpliceBond_NegY_Rear_Rib2"
+          ],
+          "actual_planar_contact_areas_mm2": [
+            456.0,
+            456.0
+          ]
+        }
+      ],
+      "minimum_actual_planar_contact_mm2": 99.29948582282844,
+      "effective_area_factor_assumption": 0.5,
+      "average_shear_MPa": 1.9365771918103534,
+      "assumed_shear_screen_MPa": 2.0,
+      "shear_utilization": 0.9682885959051767,
+      "sampled_plate_net_width_mm": 24.0,
+      "plate_strip_combined_MPa": 44.87026119402985,
+      "assumed_plate_screen_MPa": 70.0,
+      "plate_utilization": 0.6410037313432836,
+      "peel_proxy_MPa": 5.54647940809626,
+      "peel_allowable": null
+    }
+  ],
+  "max_shear_utilization": 0.9752512996433886,
+  "max_plate_utilization": 0.8309608157705407,
+  "all_assumed_screens_below_one": true
+}

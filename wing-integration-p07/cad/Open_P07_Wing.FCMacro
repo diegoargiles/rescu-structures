@@ -1,0 +1,28 @@
+"""Display only: transparent wing skins, internal foam hidden, proposed routes shown."""
+from pathlib import Path
+import FreeCAD as App,FreeCADGui as Gui
+Gui.activateWorkbench('AssemblyWorkbench');import JointObject
+root=Path(__file__).resolve().parent.parent
+doc=App.openDocument(str(root/'cad/RescU_P07_Wing_Arm_Integration.FCStd'));App.setActiveDocument(doc.Name)
+physical={o.Name for side in ['PosY','NegY'] for o in doc.getObject('MotorArm_'+side).Group if hasattr(o,'Shape') and not o.Shape.isNull()}
+for o in doc.Objects:
+ if o.TypeId=='App::FeaturePython':
+  if hasattr(o,'ObjectToGround'):JointObject.ViewProviderGroundedJoint(o.ViewObject)
+  elif hasattr(o,'JointType'):JointObject.ViewProviderJoint(o.ViewObject)
+ if o.TypeId=='Assembly::AssemblyObject':o.Visibility=True
+ elif o.TypeId=='Assembly::JointGroup':o.Visibility=False
+ elif hasattr(o,'Shape'):o.Visibility=o.Name in physical
+ if o.Name in physical:
+  mat=getattr(o,'Material','GFRP');color={'CFRP':(.20,.29,.38),'GFRP':(.52,.65,.74),'Epoxy':(.86,.73,.22),'Steel':(.70,.73,.77),'Vendor motor':(.30,.38,.48),'XPS':(.75,.81,.82)}.get(mat,(.6,.6,.6))
+  if o.Name.startswith(('Flange_','RibFaceTape_')):color=(.88,.55,.20)
+  elif o.Name.startswith(('SparCheek_','SparCollar_')):color=(.50,.38,.68)
+  elif o.Name.startswith('SlotDoubler_'):color=(.27,.65,.54)
+  o.ViewObject.ShapeColor=color;o.ViewObject.DisplayMode='Flat Lines'
+  if o.Name.startswith(('WingCore_','WingOriginalBond_')):o.Visibility=False
+  if o.Name.startswith('WingSkin_'):o.ViewObject.Transparency=85
+ if o.Name.startswith('WireRoute_'):
+  o.Visibility=True;o.ViewObject.ShapeColor=(.25,.70,.35);o.ViewObject.Transparency=45
+ if o.Name=='WingPocketContext':o.Visibility=False
+ if o.Name=='ClearanceGauges':o.Visibility=True
+Gui.activeDocument().activeView().viewAxonometric();Gui.activeDocument().activeView().fitAll()
+App.Console.PrintMessage('P07 review only. Green: proposed bundle envelopes. Corner/bond strength and spar-to-rib torsion transfer remain unresolved.\n')

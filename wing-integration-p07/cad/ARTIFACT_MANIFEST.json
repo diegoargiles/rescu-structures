@@ -1,0 +1,826 @@
+{
+  "version": "P07 wing-arm integration candidate",
+  "status": "PRELIMINARY GEOMETRY; SPAR-TO-RIB TORSION EDGE-TRANSFER SCREEN FAILS; NOT RELEASED",
+  "files": [
+    {
+      "path": "cad/Open_P07_Wing.FCMacro",
+      "size_bytes": 2011,
+      "sha256": "a4a4a0380464e48e2cf2842e9ae1d31f8436c43b07693a4cf734da6fe7c921cf"
+    },
+    {
+      "path": "cad/P07_Wing_Cutaway.png",
+      "size_bytes": 382754,
+      "sha256": "04f72286e403b60f4945b6078a617a16c53d9185b43ca841e68b181afd839480"
+    },
+    {
+      "path": "cad/parts/Flange_Lower_NegY_Rib1_Piece1.step",
+      "size_bytes": 99234,
+      "sha256": "057f32bb6a525bd94761107fa4afe4b1018cb3179f0e580a9d6a741be302d886"
+    },
+    {
+      "path": "cad/parts/Flange_Lower_NegY_Rib1_Piece2.step",
+      "size_bytes": 336225,
+      "sha256": "3a9ac57f51d675b1a6a6e7e189e0628f2b9a32fedbe9e66d5807b0d81eb0ec06"
+    },
+    {
+      "path": "cad/parts/Flange_Lower_NegY_Rib2_Piece1.step",
+      "size_bytes": 97024,
+      "sha256": "acff6a2723e1412d68334e4d548fffb67b6f0dfcf7aba40579ed62b7cda92268"
+    },
+    {
+      "path": "cad/parts/Flange_Lower_NegY_Rib2_Piece2.step",
+      "size_bytes": 340841,
+      "sha256": "dd222e25fb2289f79e1d9606055f1a3445eb8caaf48f1fb08398d351c17e10d9"
+    },
+    {
+      "path": "cad/parts/Flange_Lower_PosY_Rib1_Piece1.step",
+      "size_bytes": 96875,
+      "sha256": "fbda81f3711e96894821cf22115a9f9b729a89edca1c7c2e940bd63836e913a1"
+    },
+    {
+      "path": "cad/parts/Flange_Lower_PosY_Rib1_Piece2.step",
+      "size_bytes": 337768,
+      "sha256": "8cfffb4282786842f01ef0df33383d60ce3432501c86179e4882f9847e514b99"
+    },
+    {
+      "path": "cad/parts/Flange_Lower_PosY_Rib2_Piece1.step",
+      "size_bytes": 99319,
+      "sha256": "9878c88770087a071747d379bfa3aae11c58625dca64ff2876b3de6c87196d2d"
+    },
+    {
+      "path": "cad/parts/Flange_Lower_PosY_Rib2_Piece2.step",
+      "size_bytes": 335930,
+      "sha256": "590672f805e68383c233d7c2776dc36ae5febb5363b24db728331b0908b2c1b0"
+    },
+    {
+      "path": "cad/parts/Flange_Upper_NegY_Rib1_Piece1.step",
+      "size_bytes": 545024,
+      "sha256": "27df403fdb2e8e6eff2d895b18ccd048b52251733e32d014f8e0e8286238c09f"
+    },
+    {
+      "path": "cad/parts/Flange_Upper_NegY_Rib1_Piece2.step",
+      "size_bytes": 261348,
+      "sha256": "63945cb30bf45880bb4b658f94c5a664267874e8ecdb868f358bd23e780b0a89"
+    },
+    {
+      "path": "cad/parts/Flange_Upper_NegY_Rib2_Piece1.step",
+      "size_bytes": 252934,
+      "sha256": "c5194692bca82c42e7efc1f5361599a1cee9ab7d4b191d904c61aaf96446eeaa"
+    },
+    {
+      "path": "cad/parts/Flange_Upper_NegY_Rib2_Piece2.step",
+      "size_bytes": 265894,
+      "sha256": "768177394c9b76b14d142b96e37fe5569ad05131ac0809e03dc900031de2d11e"
+    },
+    {
+      "path": "cad/parts/Flange_Upper_PosY_Rib1_Piece1.step",
+      "size_bytes": 252538,
+      "sha256": "9fcfccca17b242554a52ef5929d02e91d3d03ed99b11187fc6fef9e3b03eec1f"
+    },
+    {
+      "path": "cad/parts/Flange_Upper_PosY_Rib1_Piece2.step",
+      "size_bytes": 265520,
+      "sha256": "2d6dbb007b034fc87b624c5fbec236335647cdbeb729ecaf97540cec775b2a07"
+    },
+    {
+      "path": "cad/parts/Flange_Upper_PosY_Rib2_Piece1.step",
+      "size_bytes": 544290,
+      "sha256": "087af65b75eac015d4674f20252464860c8e7bafcc13139370351874cc2e9afb"
+    },
+    {
+      "path": "cad/parts/Flange_Upper_PosY_Rib2_Piece2.step",
+      "size_bytes": 261341,
+      "sha256": "741849b63c0efec8785e6663eea8b9e7e2445abcd38f89fea874a2c4269a477e"
+    },
+    {
+      "path": "cad/parts/RibFaceTape_NegY_Rib1A_Piece1.step",
+      "size_bytes": 305749,
+      "sha256": "17c9c4944038f4b27126fda6d0ddc3e0671f9ee5f5162d3de6243b33394fdd91"
+    },
+    {
+      "path": "cad/parts/RibFaceTape_NegY_Rib1A_Piece3.step",
+      "size_bytes": 53386,
+      "sha256": "750ec1fb05ab364106c634c729bd706fd5a5e186d316d14b50328b1864a526f3"
+    },
+    {
+      "path": "cad/parts/RibFaceTape_NegY_Rib1A_Piece4.step",
+      "size_bytes": 186594,
+      "sha256": "0ac07cef43799d926d0c54a466af7d8437c6434463f343cc001e9118ee74acaf"
+    },
+    {
+      "path": "cad/parts/RibFaceTape_NegY_Rib1B_Piece1.step",
+      "size_bytes": 137680,
+      "sha256": "362ebe55d9e20a206756ddb9f8fe31d722f525643c7e97eaae930128278986f3"
+    },
+    {
+      "path": "cad/parts/RibFaceTape_NegY_Rib1B_Piece2.step",
+      "size_bytes": 179578,
+      "sha256": "88feec39d7d47144d94d612c4bd780e57dc2da78d38f34c4422474d831a37d91"
+    },
+    {
+      "path": "cad/parts/RibFaceTape_NegY_Rib2A_Piece1.step",
+      "size_bytes": 170748,
+      "sha256": "f46c79404e0ced276216dc87ebea84d3fa382cfea237988fd183e5b7c10c5075"
+    },
+    {
+      "path": "cad/parts/RibFaceTape_NegY_Rib2A_Piece2.step",
+      "size_bytes": 184269,
+      "sha256": "74f223e7812b2f9c259f6ee150276f7aa4e9d8e75754a951a79345b86cc450de"
+    },
+    {
+      "path": "cad/parts/RibFaceTape_NegY_Rib2B_Piece1.step",
+      "size_bytes": 125612,
+      "sha256": "d82f96d7986dcba98a2c8659dbd7b91faa365d87ddf033a813fa52c9bc518514"
+    },
+    {
+      "path": "cad/parts/RibFaceTape_NegY_Rib2B_Piece2.step",
+      "size_bytes": 126261,
+      "sha256": "5cc37c60ac4ed783714874a28e7139d0ff4d38428aa8f0fb2e4b4fe3d7a1a1ac"
+    },
+    {
+      "path": "cad/parts/RibFaceTape_NegY_Rib2B_Piece3.step",
+      "size_bytes": 174669,
+      "sha256": "c079b0f40d321fda91ff8e55b902005ca746eac78b313a3daa26b3fbfb594647"
+    },
+    {
+      "path": "cad/parts/RibFaceTape_PosY_Rib1A_Piece1.step",
+      "size_bytes": 125297,
+      "sha256": "ce02f606485e1f09636ce5ba2c9061d7f1c4f566f191b0a42becbc28cca47590"
+    },
+    {
+      "path": "cad/parts/RibFaceTape_PosY_Rib1A_Piece2.step",
+      "size_bytes": 125917,
+      "sha256": "da1d142e2697f3b0db6582f01bc18c4a92ac6fdfd14b0644a6b099a38783bee9"
+    },
+    {
+      "path": "cad/parts/RibFaceTape_PosY_Rib1A_Piece3.step",
+      "size_bytes": 173809,
+      "sha256": "2b7078a339cca17070f32e7c7d6ccc88c3db8f48cd349c1f466c248c86a53b0a"
+    },
+    {
+      "path": "cad/parts/RibFaceTape_PosY_Rib1B_Piece1.step",
+      "size_bytes": 168532,
+      "sha256": "d0c9f346656fe5d22dff5529c69427bd89883b4aecc3250593732d8e706e610b"
+    },
+    {
+      "path": "cad/parts/RibFaceTape_PosY_Rib1B_Piece2.step",
+      "size_bytes": 184741,
+      "sha256": "8d6fd23e0b9c2ae31b0b5fb7b82f016f779281b006fbb0ba73c9727b3ef054c7"
+    },
+    {
+      "path": "cad/parts/RibFaceTape_PosY_Rib2A_Piece1.step",
+      "size_bytes": 135717,
+      "sha256": "029c748fad180d3fb6c906cc533a1b7d908f8693d80d5043b7ceeab7f49c34c6"
+    },
+    {
+      "path": "cad/parts/RibFaceTape_PosY_Rib2A_Piece2.step",
+      "size_bytes": 180480,
+      "sha256": "5dcb10829d81a11d664fa24c66c90ab2b2b1816ef50209fcd3357b201c19fb68"
+    },
+    {
+      "path": "cad/parts/RibFaceTape_PosY_Rib2B_Piece1.step",
+      "size_bytes": 305131,
+      "sha256": "d61a77fb848ec4b816d626d4e5201e31b425eca1244981be443ea00d68de0f54"
+    },
+    {
+      "path": "cad/parts/RibFaceTape_PosY_Rib2B_Piece3.step",
+      "size_bytes": 53062,
+      "sha256": "c5e3deb01d075e97e53dbc0bc0783039ee553b1a360d6ddb6f6fd550936008ce"
+    },
+    {
+      "path": "cad/parts/RibFaceTape_PosY_Rib2B_Piece4.step",
+      "size_bytes": 186960,
+      "sha256": "1a3a8a1a6c954966ed49dbd29b0f59e7b2bb7400522545e4236323013823081e"
+    },
+    {
+      "path": "cad/parts/RibForwardSegment_NegY_Rib1_1.step",
+      "size_bytes": 312337,
+      "sha256": "09c34537e6f2a813a33603cfff4d57772f126a36653b0c435cbc62db51270b0a"
+    },
+    {
+      "path": "cad/parts/RibForwardSegment_NegY_Rib2_1.step",
+      "size_bytes": 164448,
+      "sha256": "9c136ccb74e2c11f857cfe074c87f9499de9075f1a74d4e91d55883e55edd51d"
+    },
+    {
+      "path": "cad/parts/RibForwardSegment_PosY_Rib1_1.step",
+      "size_bytes": 162235,
+      "sha256": "4ff5ce49ebbab5c3ccb90728d9e2c28771fcefa39072485fd61f942c6cd09dae"
+    },
+    {
+      "path": "cad/parts/RibForwardSegment_PosY_Rib2_1.step",
+      "size_bytes": 310089,
+      "sha256": "c8f4d2b91fcb7b6fc39e5e4c4780a8d888117408abd62ec7ac702364094cd6e2"
+    },
+    {
+      "path": "cad/parts/RibPacker_NegY_Rear_Rib1_P07Segment1.step",
+      "size_bytes": 42346,
+      "sha256": "2b6a35a361d57f01c6e510526e98e21564efceb44b3bce9b7c42c6f03cecc659"
+    },
+    {
+      "path": "cad/parts/RibPacker_NegY_Rear_Rib2_P07Segment1.step",
+      "size_bytes": 44039,
+      "sha256": "e5f30f6979c552529b05551c0c671bc7dd488423d2e4e83dc4eb68a806e57fea"
+    },
+    {
+      "path": "cad/parts/RibPacker_NegY_Spar_Rib1_P07Segment1.step",
+      "size_bytes": 171325,
+      "sha256": "ad90d59c100f7fa0a73162cced7613c0776739a68310d2f1de1e09e6bab78caa"
+    },
+    {
+      "path": "cad/parts/RibPacker_NegY_Spar_Rib1_P07Segment2.step",
+      "size_bytes": 142393,
+      "sha256": "7f919792201aa6f9d809edfdb4806b9e04267fa1dda400cbea0cba28e8ecf5ca"
+    },
+    {
+      "path": "cad/parts/RibPacker_NegY_Spar_Rib1_P07Segment3.step",
+      "size_bytes": 9660,
+      "sha256": "383e41d3a4cf8a787e9db7e9e7c492584677cf43a3ed982c32e5cb43f05ce137"
+    },
+    {
+      "path": "cad/parts/RibPacker_NegY_Spar_Rib1_P07Segment4.step",
+      "size_bytes": 121212,
+      "sha256": "81bffffce0704e09df29d443d49229f44b2f54fa74c0da81aa3d8aa5e6009ff3"
+    },
+    {
+      "path": "cad/parts/RibPacker_NegY_Spar_Rib1_P07Segment5.step",
+      "size_bytes": 50088,
+      "sha256": "e58a33b6fc071678ffb83ccd72d6cecbc466bef507a3d3524a818efe5516dbe0"
+    },
+    {
+      "path": "cad/parts/RibPacker_NegY_Spar_Rib1_P07Segment6.step",
+      "size_bytes": 60619,
+      "sha256": "9e0b53cfbea39890b519666935f751fc049476a2d830cad8ff07a86e19743d19"
+    },
+    {
+      "path": "cad/parts/RibPacker_NegY_Spar_Rib2_P07Segment1.step",
+      "size_bytes": 170660,
+      "sha256": "1f7153600955455b41a29dfc25e82e2bb389c2a3eb14d30d281d5b9377e6ad75"
+    },
+    {
+      "path": "cad/parts/RibPacker_NegY_Spar_Rib2_P07Segment2.step",
+      "size_bytes": 149794,
+      "sha256": "facef94a2d2bf29d3128b0fa73c150b557d94c3617d3af92633dab7bb64ccd86"
+    },
+    {
+      "path": "cad/parts/RibPacker_NegY_Spar_Rib2_P07Segment3.step",
+      "size_bytes": 49956,
+      "sha256": "0bada116eb675157ff544c7e1bb5f5a2dad2974bbd53b82ad940ec6e2c70f5fe"
+    },
+    {
+      "path": "cad/parts/RibPacker_NegY_Spar_Rib2_P07Segment4.step",
+      "size_bytes": 122470,
+      "sha256": "43d49231b37e1eb2c8d4ff72fdfb4ca4cd6e40bd3dc6f187402b1b038b6aa9f4"
+    },
+    {
+      "path": "cad/parts/RibPacker_NegY_Spar_Rib2_P07Segment5.step",
+      "size_bytes": 120437,
+      "sha256": "f99123ae87e7e9a0e19e5d53f767411743df27ea3da477d88d2b02b277e403e0"
+    },
+    {
+      "path": "cad/parts/RibPacker_NegY_Spar_Rib2_P07Segment6.step",
+      "size_bytes": 65693,
+      "sha256": "42d14c827d99f5719859f4f06d6377f9e1282d0172dfce60dfdb065893b37394"
+    },
+    {
+      "path": "cad/parts/RibPacker_PosY_Rear_Rib1_P07Segment1.step",
+      "size_bytes": 43823,
+      "sha256": "69bf2655344d6a6828062f6caeb3b3de9681fd9970417d27103acae1f8bb3ef2"
+    },
+    {
+      "path": "cad/parts/RibPacker_PosY_Rear_Rib2_P07Segment1.step",
+      "size_bytes": 42169,
+      "sha256": "99381e23221ac1f967b3181ae630ddd87bdbdc9dff2ecb6f53ab21395814e507"
+    },
+    {
+      "path": "cad/parts/RibPacker_PosY_Spar_Rib1_P07Segment1.step",
+      "size_bytes": 168740,
+      "sha256": "664248229acd16fd906a3785791c32468849e66bf99c50bc1e2fb33f1393ef7c"
+    },
+    {
+      "path": "cad/parts/RibPacker_PosY_Spar_Rib1_P07Segment2.step",
+      "size_bytes": 150046,
+      "sha256": "d3a1cd4ba19adb01d70d4543f6e983fd1f6a943aa5cccb9d38a94f12bbb10127"
+    },
+    {
+      "path": "cad/parts/RibPacker_PosY_Spar_Rib1_P07Segment3.step",
+      "size_bytes": 49833,
+      "sha256": "1d25defe43619cee9d4d8f226b7f31a1397a7c80d329d2db183006772fe74c3b"
+    },
+    {
+      "path": "cad/parts/RibPacker_PosY_Spar_Rib1_P07Segment4.step",
+      "size_bytes": 121941,
+      "sha256": "95bacfcfacf1ed3919b5fddf4662e417b4956c92345752432c8f0294cb2445a1"
+    },
+    {
+      "path": "cad/parts/RibPacker_PosY_Spar_Rib1_P07Segment5.step",
+      "size_bytes": 120193,
+      "sha256": "ce904cfe30030323a77d5902cd38fbc26c6c4917ba85c386463f770f6fe98681"
+    },
+    {
+      "path": "cad/parts/RibPacker_PosY_Spar_Rib1_P07Segment6.step",
+      "size_bytes": 65834,
+      "sha256": "30ae382fd3f7009e56d7fa6f305f755a10d99a77ca35844cb0d7e5780cf8bd83"
+    },
+    {
+      "path": "cad/parts/RibPacker_PosY_Spar_Rib2_P07Segment1.step",
+      "size_bytes": 172813,
+      "sha256": "1cdacf9101ebad29ae8718af82826a2510bb703a55e41a3eab1afe1bbfed118f"
+    },
+    {
+      "path": "cad/parts/RibPacker_PosY_Spar_Rib2_P07Segment2.step",
+      "size_bytes": 141374,
+      "sha256": "a6d279a141d702c229fc85986adec54c2a2278e7063e2d5aacfc95fb0fcd12df"
+    },
+    {
+      "path": "cad/parts/RibPacker_PosY_Spar_Rib2_P07Segment3.step",
+      "size_bytes": 9633,
+      "sha256": "2ee33005ec81048488a4f554a024ba603059ca6be3fc4184309e3b6fa66c9046"
+    },
+    {
+      "path": "cad/parts/RibPacker_PosY_Spar_Rib2_P07Segment4.step",
+      "size_bytes": 121232,
+      "sha256": "2fae9f15410602a8e6a4659b90f75e34f026593dfc98c310a41a4434f617b088"
+    },
+    {
+      "path": "cad/parts/RibPacker_PosY_Spar_Rib2_P07Segment5.step",
+      "size_bytes": 49972,
+      "sha256": "d4478fc122e2cf40b160b9547decb887d65f56fa2c2c40de32313cbc1e4458ab"
+    },
+    {
+      "path": "cad/parts/RibPacker_PosY_Spar_Rib2_P07Segment6.step",
+      "size_bytes": 60814,
+      "sha256": "b1deef455920b114a389047bda6d65c115e436894377a8c31496ac10f3fd1466"
+    },
+    {
+      "path": "cad/parts/SlotDoubler_Slot_NegY_Rear_Rib1.step",
+      "size_bytes": 221546,
+      "sha256": "6a39cf7756b2d296051627786389b46c0ca832bfaa9c4ac9d4d0be6728309514"
+    },
+    {
+      "path": "cad/parts/SlotDoubler_Slot_NegY_Rear_Rib2.step",
+      "size_bytes": 132945,
+      "sha256": "31dfbe5999b3f9d1252a8e2b7fd593d108f2638aa094370f6f6e38dd075b86f5"
+    },
+    {
+      "path": "cad/parts/SlotDoubler_Slot_NegY_Spar_Rib1_Piece1.step",
+      "size_bytes": 505666,
+      "sha256": "8b1197e9230e6c23cb1dd356a8835bd0ecd3524165e2060acd580b1f3768d03f"
+    },
+    {
+      "path": "cad/parts/SlotDoubler_Slot_NegY_Spar_Rib1_Piece1_SparRelief1.step",
+      "size_bytes": 95460,
+      "sha256": "02ccb1b12758c0969a8f70b61b31bb16e3150017057eda5e322b9b1878e2490f"
+    },
+    {
+      "path": "cad/parts/SlotDoubler_Slot_NegY_Spar_Rib2_Piece1.step",
+      "size_bytes": 118492,
+      "sha256": "c9aa85b8222780b2708165cdf5305342595ed34bec175c09aafd7d2bde1e59af"
+    },
+    {
+      "path": "cad/parts/SlotDoubler_Slot_NegY_Spar_Rib2_Piece1_SparRelief1.step",
+      "size_bytes": 107378,
+      "sha256": "0fcc7cb7532f20c176f0e28c165ae4e55e638bbf6c45a134958adadba1ab926b"
+    },
+    {
+      "path": "cad/parts/SlotDoubler_Slot_PosY_Rear_Rib1.step",
+      "size_bytes": 130304,
+      "sha256": "cb68f43860c3fe849af22912808f3a1142d6bd892b999517368f1cb5fad8638c"
+    },
+    {
+      "path": "cad/parts/SlotDoubler_Slot_PosY_Rear_Rib2.step",
+      "size_bytes": 221257,
+      "sha256": "7e4b165d98afd1382856ef2869cee5a054353b1db118d73e96f7b77de603c8e6"
+    },
+    {
+      "path": "cad/parts/SlotDoubler_Slot_PosY_Spar_Rib1_Piece1.step",
+      "size_bytes": 118228,
+      "sha256": "655964f6a1f65af84c5fab52f878ab9772fb615826e62add45de1c871fb04a8a"
+    },
+    {
+      "path": "cad/parts/SlotDoubler_Slot_PosY_Spar_Rib1_Piece1_SparRelief1.step",
+      "size_bytes": 107101,
+      "sha256": "5a6c8f7d4760a9e1c639e9fbf2c360996e7bc40eef664d886b4282c75f8ea5ee"
+    },
+    {
+      "path": "cad/parts/SlotDoubler_Slot_PosY_Spar_Rib2_Piece1.step",
+      "size_bytes": 504672,
+      "sha256": "4babc11d92dbaa573fbb237b1d77b70736d474f9c2e3efe16f938c8012fb23d9"
+    },
+    {
+      "path": "cad/parts/SlotDoubler_Slot_PosY_Spar_Rib2_Piece1_SparRelief1.step",
+      "size_bytes": 95330,
+      "sha256": "1dba41e13f22fa1a816b13370119da08ea698590acadde088db3a6d3d28259d4"
+    },
+    {
+      "path": "cad/parts/SparCheek_NegY_Piece1.step",
+      "size_bytes": 13721,
+      "sha256": "e41293f9d9a376f9972da62a9f8111d5a963d9500bd7305584575956c90a9a3c"
+    },
+    {
+      "path": "cad/parts/SparCheek_NegY_Piece2.step",
+      "size_bytes": 10150,
+      "sha256": "1c9b07281618b842d70c199ea26ee9a1c82a94f229ec00b041cba14d5c1f0495"
+    },
+    {
+      "path": "cad/parts/SparCheek_PosY_Piece1.step",
+      "size_bytes": 13662,
+      "sha256": "ca8142aacff56a3a6a25e9aeadaf7130a2cfa6341c5bbb52c16710be85f03e61"
+    },
+    {
+      "path": "cad/parts/SparCheek_PosY_Piece2.step",
+      "size_bytes": 10126,
+      "sha256": "fa123b1a9ae86636b8293f92c88879547b66899e724f74f59e1a0935568aa5ab"
+    },
+    {
+      "path": "cad/parts/SparCollar_NegY_Rib1A_Piece2.step",
+      "size_bytes": 5418,
+      "sha256": "f048db3992264a5fce51067b880983a930bbe058dbae3dbf543071907e55464d"
+    },
+    {
+      "path": "cad/parts/SparCollar_NegY_Rib1B_Piece1.step",
+      "size_bytes": 174109,
+      "sha256": "fc0a69b593d0d5b3fc8e87a78bf275d221c3a6ad0f9ea342dc6a4184040e52bc"
+    },
+    {
+      "path": "cad/parts/SparCollar_NegY_Rib1B_Piece2.step",
+      "size_bytes": 169120,
+      "sha256": "d34a32ddc49ae3427140c7755b328ee300dfda30e503df36080489ed5d669e48"
+    },
+    {
+      "path": "cad/parts/SparCollar_NegY_Rib2A_Piece1.step",
+      "size_bytes": 174257,
+      "sha256": "6db2ab9736ef89b633d794a692dcf588ac61eb8eca11bf5d7ec62f68747e33c9"
+    },
+    {
+      "path": "cad/parts/SparCollar_NegY_Rib2A_Piece2.step",
+      "size_bytes": 170128,
+      "sha256": "9ab39949179a253be5b0c651dfe8ec990fe45d2d4759014cbe08d9bb4c51d7fc"
+    },
+    {
+      "path": "cad/parts/SparCollar_NegY_Rib2B.step",
+      "size_bytes": 181871,
+      "sha256": "d4b1d8283a1b88a972102cf1a7e9dca710362b87099664b5f84557c080ff5f2e"
+    },
+    {
+      "path": "cad/parts/SparCollar_PosY_Rib1A.step",
+      "size_bytes": 179726,
+      "sha256": "199639901b1eb9f9873baafb69a141d26f627b1f493f2bfce977468c543ec7a2"
+    },
+    {
+      "path": "cad/parts/SparCollar_PosY_Rib1B_Piece1.step",
+      "size_bytes": 172814,
+      "sha256": "2c38e471f8e3f1d6b092bfacc97a59b8256d0e43632cf72a1655b90ba57772fa"
+    },
+    {
+      "path": "cad/parts/SparCollar_PosY_Rib1B_Piece2.step",
+      "size_bytes": 170121,
+      "sha256": "22a97cd2a70f049884eb482c5d8b478810b18209711b13c1aab29be2bc1c7936"
+    },
+    {
+      "path": "cad/parts/SparCollar_PosY_Rib2A_Piece1.step",
+      "size_bytes": 173361,
+      "sha256": "b417c2f818b5fb9a249f77e1dbd5a21d4f5d94e87f321f274ed3fa757dfaa7bd"
+    },
+    {
+      "path": "cad/parts/SparCollar_PosY_Rib2A_Piece2.step",
+      "size_bytes": 170080,
+      "sha256": "f6a754d07f34934ee6e3cdd0576979e449124a1516303642ad4f18baa6c93a94"
+    },
+    {
+      "path": "cad/parts/SparCollar_PosY_Rib2B_Piece1.step",
+      "size_bytes": 7259,
+      "sha256": "4823215de25cd140da1079d7558d6dd681f8ca2c2bfdb5176e7ebdf4fcc64196"
+    },
+    {
+      "path": "cad/parts/SplicePlate_NegY_Rear_Rib1_P07Segment1.step",
+      "size_bytes": 149946,
+      "sha256": "28880c0060b0ebd2c09f67b181170f3277700e0b3df7fcb4747f89c0412ca8ab"
+    },
+    {
+      "path": "cad/parts/SplicePlate_NegY_Rear_Rib2_P07Segment1.step",
+      "size_bytes": 153080,
+      "sha256": "9c370d4cbc807a87f7acc24778d16b7962e1f38d3af15616fa923e5336819e16"
+    },
+    {
+      "path": "cad/parts/SplicePlate_NegY_Spar_Rib1_P07Segment1.step",
+      "size_bytes": 174262,
+      "sha256": "bc9076d5ed4d7395294f0873d7077b8ab4f745c7b4e67851b867ab75ed793360"
+    },
+    {
+      "path": "cad/parts/SplicePlate_NegY_Spar_Rib1_P07Segment2.step",
+      "size_bytes": 170090,
+      "sha256": "d5f2bab16e385474e2450dc0e9035681581fdc8ab9c994ac0a90c5c1a8c3eb38"
+    },
+    {
+      "path": "cad/parts/SplicePlate_NegY_Spar_Rib1_P07Segment3.step",
+      "size_bytes": 52537,
+      "sha256": "5a7dbc32b8724eaf40b21a3017b3b24cf3e16d7e4489cc11547af2edbeb18af2"
+    },
+    {
+      "path": "cad/parts/SplicePlate_NegY_Spar_Rib1_P07Segment4.step",
+      "size_bytes": 9667,
+      "sha256": "6a8b6f8dae141856df263c76d7ebfeb634a66fe64bdf59f69f4d132f3f3f0e5f"
+    },
+    {
+      "path": "cad/parts/SplicePlate_NegY_Spar_Rib1_P07Segment5.step",
+      "size_bytes": 121388,
+      "sha256": "9701ff7c91362b7276bf6b0b684b4bf306747ee6b195cf356e78c5600aaac956"
+    },
+    {
+      "path": "cad/parts/SplicePlate_NegY_Spar_Rib1_P07Segment6.step",
+      "size_bytes": 50040,
+      "sha256": "cb54b88ff872750ccaec1d901a04e5c31ec11ac321e9c7ce95c494dbe4e09369"
+    },
+    {
+      "path": "cad/parts/SplicePlate_NegY_Spar_Rib2_P07Segment1.step",
+      "size_bytes": 171524,
+      "sha256": "cbf99014cad2498374de7e65c4f0570ccde569ba308bdc9145518a64fc0c19a0"
+    },
+    {
+      "path": "cad/parts/SplicePlate_NegY_Spar_Rib2_P07Segment2.step",
+      "size_bytes": 170618,
+      "sha256": "4364f1848ba540ff0cdddff54324f9d1b63685f4584c733e38bd311c1892ad58"
+    },
+    {
+      "path": "cad/parts/SplicePlate_NegY_Spar_Rib2_P07Segment3.step",
+      "size_bytes": 49886,
+      "sha256": "f28b353a9e409be17c7f25f0fe76ea1bf58fa551730efd33a02091181c049b6b"
+    },
+    {
+      "path": "cad/parts/SplicePlate_NegY_Spar_Rib2_P07Segment4.step",
+      "size_bytes": 122198,
+      "sha256": "b45f10517c9d3b53361406f5d6c689ebf116085cd70356b872c47b73ae280ac2"
+    },
+    {
+      "path": "cad/parts/SplicePlate_NegY_Spar_Rib2_P07Segment5.step",
+      "size_bytes": 120458,
+      "sha256": "bdeeb10994400ec0d4f86ea793cf27e908f6eb0ba6453ded5acd90447cdce95d"
+    },
+    {
+      "path": "cad/parts/SplicePlate_NegY_Spar_Rib2_P07Segment6.step",
+      "size_bytes": 50874,
+      "sha256": "5222c6e57ffe600583eb5d91ef1e8f814164cb562a9e9a5296d4c2f85671ad83"
+    },
+    {
+      "path": "cad/parts/SplicePlate_PosY_Rear_Rib1_P07Segment1.step",
+      "size_bytes": 152707,
+      "sha256": "caa89a12e2ead1754e172e21a94d1ef0fd593263cc73c5f4340e2df19fab95af"
+    },
+    {
+      "path": "cad/parts/SplicePlate_PosY_Rear_Rib2_P07Segment1.step",
+      "size_bytes": 149611,
+      "sha256": "8d9c18eef834b287bde70953924ef6fbd8ed71f1abb14bb3b89413d0e2f77560"
+    },
+    {
+      "path": "cad/parts/SplicePlate_PosY_Spar_Rib1_P07Segment1.step",
+      "size_bytes": 172990,
+      "sha256": "c8b7a75dc4c6ebbc0a711829202de91f618e1949477efe46d9bd350e4b5cfd62"
+    },
+    {
+      "path": "cad/parts/SplicePlate_PosY_Spar_Rib1_P07Segment2.step",
+      "size_bytes": 168410,
+      "sha256": "0e1d96e4b58ca718ac78321044e9c69addf97e55538c54d4e3731037ae2353d8"
+    },
+    {
+      "path": "cad/parts/SplicePlate_PosY_Spar_Rib1_P07Segment3.step",
+      "size_bytes": 49779,
+      "sha256": "d82357088c5de2128423ce4c70cca710b237814d5919c9673f5ff335d15a728a"
+    },
+    {
+      "path": "cad/parts/SplicePlate_PosY_Spar_Rib1_P07Segment4.step",
+      "size_bytes": 121919,
+      "sha256": "691c03b01f6b6c85fa76963c41f9eba7d233e8dd2451c6adc9c6c7b120d0dd05"
+    },
+    {
+      "path": "cad/parts/SplicePlate_PosY_Spar_Rib1_P07Segment5.step",
+      "size_bytes": 120481,
+      "sha256": "96eabd403574852000f177baa6bb87a58c4fa5219d827b57d382e61028483d9a"
+    },
+    {
+      "path": "cad/parts/SplicePlate_PosY_Spar_Rib1_P07Segment6.step",
+      "size_bytes": 50755,
+      "sha256": "cab97b4ba5007dccb0258b1f92eb4f382e36b9a97f4c26701032e02f222a561e"
+    },
+    {
+      "path": "cad/parts/SplicePlate_PosY_Spar_Rib2_P07Segment1.step",
+      "size_bytes": 171996,
+      "sha256": "dda15c1afb8017cafe3ff96e75a83f653b78cbb08dc9928f72855baf87ad790c"
+    },
+    {
+      "path": "cad/parts/SplicePlate_PosY_Spar_Rib2_P07Segment2.step",
+      "size_bytes": 171537,
+      "sha256": "5e24a98066cab804f4766d5f33cbebd3c589fddaf99b1997c42c81c699b725ef"
+    },
+    {
+      "path": "cad/parts/SplicePlate_PosY_Spar_Rib2_P07Segment3.step",
+      "size_bytes": 52375,
+      "sha256": "8bb66aee1fe2a397b87f3fbc1201661b5942773707e351c88486b9edef582219"
+    },
+    {
+      "path": "cad/parts/SplicePlate_PosY_Spar_Rib2_P07Segment4.step",
+      "size_bytes": 9640,
+      "sha256": "84fcd18a5d335ea342b3e0942d9ab590899394da149f9ae9e2a873c083951b3f"
+    },
+    {
+      "path": "cad/parts/SplicePlate_PosY_Spar_Rib2_P07Segment5.step",
+      "size_bytes": 121137,
+      "sha256": "36afddd5b921bc26f6778550a165cbfe7ea30fcd70b5090480568cfe73172547"
+    },
+    {
+      "path": "cad/parts/SplicePlate_PosY_Spar_Rib2_P07Segment6.step",
+      "size_bytes": 49926,
+      "sha256": "c73fb22bdf79a19e8cc3ee8532b158e6a387603fc7315efb9dce9e73f7f3d61a"
+    },
+    {
+      "path": "cad/RescU_P07_NegY_Carrier_Cutaway.step",
+      "size_bytes": 27580040,
+      "sha256": "57a26aa4613f8e1ace4c5fd00c5c8e969f03bae2ff7b0da3f21f4780824554df"
+    },
+    {
+      "path": "cad/RescU_P07_NegY_Wing_Arm.step",
+      "size_bytes": 37535648,
+      "sha256": "8a857b074c99ef05e346491fc96a63fec6ac3baa38e0eac3dc952ba9110e6e54"
+    },
+    {
+      "path": "cad/RescU_P07_PosY_Carrier_Cutaway.step",
+      "size_bytes": 27461690,
+      "sha256": "57ee25b148f2d8eed1abdc5279dc6feb095a9a5e1433a675fa09521ec7fa6b56"
+    },
+    {
+      "path": "cad/RescU_P07_PosY_Wing_Arm.step",
+      "size_bytes": 37391022,
+      "sha256": "d318ab79c6f17ff88ef3f154658338033ce4eb8c2ce3a679648da43e11c8d9f0"
+    },
+    {
+      "path": "cad/RescU_P07_SolidWorks_Review.step",
+      "size_bytes": 43214458,
+      "sha256": "f5cae03d9b8096a4e540311af5dfbf6fc010625c33675c309398e1b5395d0af1"
+    },
+    {
+      "path": "cad/RescU_P07_Wing_Arm_Integration.FCStd",
+      "size_bytes": 24025498,
+      "sha256": "7a018ef6dcda93270927f0b2cc0769293a392f55817c2aaa52db86bf6ccbce57"
+    },
+    {
+      "path": "cad/RescU_P07_Wing_Arm_Pair.step",
+      "size_bytes": 75152185,
+      "sha256": "7c6cde6945ae084287a74ced06cd4885ab6033dbb26f5a2e6a74b0d295d5a69e"
+    },
+    {
+      "path": "data/accounting_snapshot_p07.json",
+      "size_bytes": 390645,
+      "sha256": "72327fbee82dd64f49c8756ca684495a03a61b5c67aa514d401563baf4375ff5"
+    },
+    {
+      "path": "data/inputs_p07.json",
+      "size_bytes": 1423,
+      "sha256": "3fa80d522cbfc781fd1b390108956645a04804e7679f3898063850b97aae6c07"
+    },
+    {
+      "path": "data/inputs_p07_accounting.json",
+      "size_bytes": 12665,
+      "sha256": "3521fefb86a461b8f464cd872ec4773c12bcb6f60d7d0095e67734c2f1bad5b4"
+    },
+    {
+      "path": "docs/DESIGN_AND_BUILD.md",
+      "size_bytes": 9645,
+      "sha256": "7a561b965a0edb157e9a7268cdfa68a14f4f27ed70dd46e3289de3ff5e2acb4a"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 1766,
+      "sha256": "a9e50d193a732f016dad3ea356850653637826ce32bb9c55637336c09fd88b19"
+    },
+    {
+      "path": "reports/build.json",
+      "size_bytes": 126330,
+      "sha256": "76834ca235075b93b6ef2851f268fb5a94824ec1be85d5b300c321b0b88c84e5"
+    },
+    {
+      "path": "reports/fit_checks.json",
+      "size_bytes": 18924,
+      "sha256": "6707b82aab4ee29e56d0b9400e6a5ec3525b309a1a51239be0586dae42555a69"
+    },
+    {
+      "path": "reports/fit_checks_full_before_final_relief.json",
+      "size_bytes": 19688,
+      "sha256": "d7a0e55d98453db4d8f152d6e628a18fbffcb80d2577d0aae59eb81a80b26681"
+    },
+    {
+      "path": "reports/mass_components.csv",
+      "size_bytes": 62729,
+      "sha256": "4f779bbd2ab8b063749263bba5c379c8fec1a9270a05949e550cc8275080f187"
+    },
+    {
+      "path": "reports/patch_extents.json",
+      "size_bytes": 3603,
+      "sha256": "d4dcdc0c13fb4e471e5f5fca6dad364f0e5c29ffcefd183aa0cc2bf2a5e4d4d1"
+    },
+    {
+      "path": "reports/results.json",
+      "size_bytes": 470692,
+      "sha256": "cc41eaf0a16279b684441091076c317af9148443391dc96c5d68ebfee4b55355"
+    },
+    {
+      "path": "reports/REVIEW.html",
+      "size_bytes": 8080,
+      "sha256": "a5d21a7dff3240b0bf73f05da5c6a090a6a7cb196ae9e4198b7f0a4de8c30201"
+    },
+    {
+      "path": "reports/REVIEW.md",
+      "size_bytes": 7673,
+      "sha256": "f1a40bf921ff79ab0d474a04b721dfca2e45077eddfb4f8fc85fffa704fae3c3"
+    },
+    {
+      "path": "reports/source_preservation.json",
+      "size_bytes": 159,
+      "sha256": "3e6b4c96b717fc1fb8a3e0ced0cdd1f2e55a64e4905652a15b384d440ed4cec0"
+    },
+    {
+      "path": "reports/spar_clashes_before_final_relief.json",
+      "size_bytes": 2061,
+      "sha256": "ef1e506f589e6115d9ddc809f97d6b01ae4544e3c6e17a581efc5a9112e25efc"
+    },
+    {
+      "path": "reports/splice_checks.json",
+      "size_bytes": 11176,
+      "sha256": "c23dd293d961874bcac8c1151c54698a64fd31a04b413048c937a7f571d6ba84"
+    },
+    {
+      "path": "reports/step_validation.json",
+      "size_bytes": 534510,
+      "sha256": "519525173d71eabd5e28f7825d781e5d74588d1128e561454c2ffef9ce8eaa62"
+    },
+    {
+      "path": "tools/audit_patch_extents.py",
+      "size_bytes": 1235,
+      "sha256": "e635812a35234f2135ebb93de3e387c0c1b0858da6f95aec9f49fb8abaff1f90"
+    },
+    {
+      "path": "tools/audit_spar_contacts.py",
+      "size_bytes": 875,
+      "sha256": "30632eb9a86ea420eea42911b04249d6faa12f1f812ddab86caca98e496c92e5"
+    },
+    {
+      "path": "tools/build_wing.py",
+      "size_bytes": 16844,
+      "sha256": "895581a0d7c6928e8b4dae2f70d74913b7c08830b84d4d90f7edf1612e63af62"
+    },
+    {
+      "path": "tools/check_export_account.py",
+      "size_bytes": 19623,
+      "sha256": "7f7c8367bebb9022ffecfe88a4ddd7f637bca6ff364b3672bac0c6586c484a2b"
+    },
+    {
+      "path": "tools/check_splices.py",
+      "size_bytes": 3327,
+      "sha256": "2cde3c159a10800dba7478bcb5d9091ca07219d5135d39947354a64e6e41edc4"
+    },
+    {
+      "path": "tools/finish_bonds.py",
+      "size_bytes": 3631,
+      "sha256": "7311c27bddb57663ad8f622785c88f59f52e6684eb8bc733a9d9c9a042098810"
+    },
+    {
+      "path": "tools/refine_layers.py",
+      "size_bytes": 4198,
+      "sha256": "326919236ed017c288b94a4d507653f80156bca8eda8d86e39c67ffd468efbaf"
+    },
+    {
+      "path": "tools/relieve_slot_spar.py",
+      "size_bytes": 3675,
+      "sha256": "149be9f2061e442d210ee3073f1c4d2db90a56a64563508535e7e912567259c5"
+    },
+    {
+      "path": "tools/render_wing.py",
+      "size_bytes": 4701,
+      "sha256": "3e232d8da14b92274f5c5b4164c949e1024a8e0601b6086b877d804efe76a305"
+    },
+    {
+      "path": "tools/route_wires.py",
+      "size_bytes": 1963,
+      "sha256": "1342807d0a84db5993504c5c9c44b71ae3f6c648c1d85da769434685a9ea1e3e"
+    },
+    {
+      "path": "tools/run_stage.py",
+      "size_bytes": 1261,
+      "sha256": "4e6280b19ebded59ef740ed9747d44584538991745c7029b98042c0b2a3c283a"
+    },
+    {
+      "path": "tools/verify_final_fit.py",
+      "size_bytes": 4735,
+      "sha256": "2cc25a42aaf8c320db9d83c9903934791e7d566fcd6b78c232957d68c7893bb7"
+    },
+    {
+      "path": "tools/verify_wire_routes.py",
+      "size_bytes": 1835,
+      "sha256": "e24de12c9867f8051566d9cfa19bee47a81480fe362d1e3832a254782d638597"
+    },
+    {
+      "path": "tools/write_review.py",
+      "size_bytes": 13751,
+      "sha256": "c8a863a9ef1194e834339c16c0bfc7343899f349b84f0db7569d5ad3a2c6884b"
+    }
+  ]
+}

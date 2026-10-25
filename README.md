@@ -1,3 +1,11 @@
+# Latest wing integration study: P07
+
+[P07 CAD, construction and review](wing-integration-p07/README.md) adds skin flanges, local web pieces, spar cheeks/collars, slot reinforcement and proposed external wire-bundle routes to both constrained motor-arm groups. Provisional structural budget is **1,171.807 g** (+14.135 g from P06); the separate **200 g reserve is unchanged**.
+
+**Critical open result:** the conservative spar-to-rib radial edge-transfer screen fails (12.255 MPa demand versus the assumed 2 MPa screen). This is a review model requiring a larger developed joint or a substantiated alternative load path, not a fabrication/flight release. No overall structural pass is claimed.
+
+[Native CAD ZIP](wing-integration-p07/RescU_P07_Native_CAD.zip) · [SolidWorks STEP review ZIP](wing-integration-p07/RescU_P07_SolidWorks_Review.zip) · [Both carrier STEP views](wing-integration-p07/RescU_P07_Carrier_Review.zip). See [delivery and validation scope](wing-integration-p07/GITHUB_DELIVERY.md). Carrier and individual-part STEP checks pass; the full wing skins remain reference geometry with a small transfer discrepancy. Earlier studies below are preserved.
+
 # Latest interface study: P06 rib-to-saddle connections
 
 [P06 native CAD, construction and checks](rib-saddle-p06/README.md) adds eight bonded splice plates to the constrained motor-arm assemblies. The current provisional structural budget is **1,157.673 g** (+20.759 g from P05). Lower-wing entry slots are explicit proposals; peel/fatigue, slot-edge reinforcement and rib-to-spar/skin transfer remain open. No skin cutout mass credit is accepted. Earlier studies below are preserved as reference.

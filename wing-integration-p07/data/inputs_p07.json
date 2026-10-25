@@ -1,0 +1,38 @@
+{
+  "version": "P07 wing-arm integration candidate",
+  "source_sha256": "648a5a3ef47f2c6d5137d4a5c20ab433e0ff4404a4b9bf1a3943824df05fdbd7",
+  "flange_x_mm": [
+    340.0,
+    425.0
+  ],
+  "flange_width_mm": 18.0,
+  "flange_vertical_thickness_mm": 0.6,
+  "skin_bond_vertical_mm": 0.2,
+  "rib_edge_bond_vertical_mm": 0.2,
+  "rib_face_tape_thickness_mm": 0.4,
+  "rib_face_bond_mm": 0.2,
+  "spar_bond_radial_mm": 0.2,
+  "spar_cheek_radial_mm": 0.6,
+  "rib_spar_bond_radial_mm": 0.2,
+  "spar_coupler_span_mm": 64.0,
+  "spar_cheek_half_height_mm": 3.2,
+  "collar_face_thickness_mm": 0.8,
+  "collar_face_bond_mm": 0.2,
+  "slot_reinforcement_thickness_vertical_mm": 0.6,
+  "slot_edge_overlap_mm": 8.0,
+  "densities_kg_m3": {
+    "GFRP": 1850.0,
+    "Epoxy": 1200.0,
+    "XPS": 32.0
+  },
+  "evidence": "Native saved profiles and spar geometry; all new laminate/bond dimensions are design assumptions, not measured hardware.",
+  "fit_strategy": "Open fore/aft spar cheeks, not a closed sleeve: retained wing envelope limits top/bottom space.",
+  "slot_coupler_relief_mm": 1.0,
+  "slot_potting_height_assumption_mm": 3.0,
+  "slot_potting_below_native_lower_contour_mm": 0.7,
+  "wire_bundle_diameter_assumption_mm": 8.0,
+  "wire_inlet_height_assumption_mm": 18.0,
+  "wire_outboard_offset_assumption_mm": 31.0,
+  "wire_route_height_mm": -8.0,
+  "wet_bond_contact_classification_threshold_mm3": 0.02
+}

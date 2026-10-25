@@ -1,0 +1,98 @@
+[
+  {
+    "slot": "Slot_PosY_Spar_Rib1",
+    "glass_regions": 2,
+    "blank_expansion_assumption_mm": 8.0,
+    "bounding_outline_extensions_mm": {
+      "front": 6.100000100753789,
+      "rear": 8.000000100234445,
+      "negative_y": 8.000000103444478,
+      "positive_y": 8.000000100147474
+    },
+    "status": "Bounding outline only; reliefs and separate regions interrupt the perimeter. Continuous developed lap is not established."
+  },
+  {
+    "slot": "Slot_PosY_Rear_Rib1",
+    "glass_regions": 1,
+    "blank_expansion_assumption_mm": 8.0,
+    "bounding_outline_extensions_mm": {
+      "front": 8.000000100000022,
+      "rear": 5.70000010050245,
+      "negative_y": 8.000000100000364,
+      "positive_y": 8.000000100205568
+    },
+    "status": "Bounding outline only; reliefs and separate regions interrupt the perimeter. Continuous developed lap is not established."
+  },
+  {
+    "slot": "Slot_PosY_Spar_Rib2",
+    "glass_regions": 2,
+    "blank_expansion_assumption_mm": 8.0,
+    "bounding_outline_extensions_mm": {
+      "front": 6.100000100160969,
+      "rear": 8.00000010002617,
+      "negative_y": 8.00000010000008,
+      "positive_y": 8.000000109770838
+    },
+    "status": "Bounding outline only; reliefs and separate regions interrupt the perimeter. Continuous developed lap is not established."
+  },
+  {
+    "slot": "Slot_PosY_Rear_Rib2",
+    "glass_regions": 1,
+    "blank_expansion_assumption_mm": 8.0,
+    "bounding_outline_extensions_mm": {
+      "front": 8.00000010000798,
+      "rear": 5.700000100198508,
+      "negative_y": 8.000000100000022,
+      "positive_y": 8.000000100000022
+    },
+    "status": "Bounding outline only; reliefs and separate regions interrupt the perimeter. Continuous developed lap is not established."
+  },
+  {
+    "slot": "Slot_NegY_Spar_Rib1",
+    "glass_regions": 2,
+    "blank_expansion_assumption_mm": 8.0,
+    "bounding_outline_extensions_mm": {
+      "front": 6.100000100160969,
+      "rear": 8.000000100026,
+      "negative_y": 8.000000109770838,
+      "positive_y": 8.000000100000136
+    },
+    "status": "Bounding outline only; reliefs and separate regions interrupt the perimeter. Continuous developed lap is not established."
+  },
+  {
+    "slot": "Slot_NegY_Rear_Rib1",
+    "glass_regions": 1,
+    "blank_expansion_assumption_mm": 8.0,
+    "bounding_outline_extensions_mm": {
+      "front": 8.000000100008037,
+      "rear": 5.700000100198508,
+      "negative_y": 8.000000100000136,
+      "positive_y": 8.000000100000022
+    },
+    "status": "Bounding outline only; reliefs and separate regions interrupt the perimeter. Continuous developed lap is not established."
+  },
+  {
+    "slot": "Slot_NegY_Spar_Rib2",
+    "glass_regions": 2,
+    "blank_expansion_assumption_mm": 8.0,
+    "bounding_outline_extensions_mm": {
+      "front": 6.100000100753732,
+      "rear": 8.000000100234388,
+      "negative_y": 8.000000100147588,
+      "positive_y": 8.000000103444506
+    },
+    "status": "Bounding outline only; reliefs and separate regions interrupt the perimeter. Continuous developed lap is not established."
+  },
+  {
+    "slot": "Slot_NegY_Rear_Rib2",
+    "glass_regions": 1,
+    "blank_expansion_assumption_mm": 8.0,
+    "bounding_outline_extensions_mm": {
+      "front": 8.000000100000022,
+      "rear": 5.70000010050245,
+      "negative_y": 8.000000100205568,
+      "positive_y": 8.000000100000364
+    },
+    "status": "Bounding outline only; reliefs and separate regions interrupt the perimeter. Continuous developed lap is not established."
+  }
+]

@@ -1,0 +1,4210 @@
+{
+  "version": "P07 wing-arm integration candidate",
+  "source_sha256": "648a5a3ef47f2c6d5137d4a5c20ab433e0ff4404a4b9bf1a3943824df05fdbd7",
+  "new_components": [
+    {
+      "name": "SparCheekBond_PosY_Piece1",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 87.69527514052835,
+      "mass_kg": 0.00010523433016863404,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SparCheekBond_PosY_Piece2",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 87.81616273331579,
+      "mass_kg": 0.00010537939527997896,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SparCheek_PosY_Piece1",
+      "side": "PosY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 261.1885124755831,
+      "mass_kg": 0.0004831987480798287,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SparCheek_PosY_Piece2",
+      "side": "PosY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 261.55117582008984,
+      "mass_kg": 0.00048386967526716624,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SkinBond_Upper_PosY_Rib1_Piece1",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 32.54087631061953,
+      "mass_kg": 3.904905157274344e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SkinBond_Upper_PosY_Rib1_Piece2",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 249.0973837410521,
+      "mass_kg": 0.00029891686048926256,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "Flange_Upper_PosY_Rib1_Piece1",
+      "side": "PosY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 90.60932062944158,
+      "mass_kg": 0.00016762724316446694,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "Flange_Upper_PosY_Rib1_Piece2",
+      "side": "PosY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 740.1316102449507,
+      "mass_kg": 0.0013692434789531588,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibEdgeBond_Upper_PosY_Rib1_Piece1",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 3.141074688653454,
+      "mass_kg": 3.769289626384145e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibEdgeBond_Upper_PosY_Rib1_Piece2",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 27.19299356782777,
+      "mass_kg": 3.263159228139333e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibEdgeBond_Upper_PosY_Rib1_Piece3",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 0.7044456185481138,
+      "mass_kg": 8.453347422577367e-07,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SkinBond_Lower_PosY_Rib1_Piece1",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 33.685445873188684,
+      "mass_kg": 4.0422535047826425e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SkinBond_Lower_PosY_Rib1_Piece2",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 248.1164944646649,
+      "mass_kg": 0.0002977397933575979,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "Flange_Lower_PosY_Rib1_Piece1",
+      "side": "PosY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 93.92128963659697,
+      "mass_kg": 0.0001737543858277044,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "Flange_Lower_PosY_Rib1_Piece2",
+      "side": "PosY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 737.4870236703384,
+      "mass_kg": 0.0013643509937901262,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibEdgeBond_Lower_PosY_Rib1_Piece1",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 3.2579498251703147,
+      "mass_kg": 3.909539790204378e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibEdgeBond_Lower_PosY_Rib1_Piece2",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 27.103775852834016,
+      "mass_kg": 3.252453102340082e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibEdgeBond_Lower_PosY_Rib1_Piece3",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 0.7292150981935894,
+      "mass_kg": 8.750581178323074e-07,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibForwardSegment_PosY_Rib1_1",
+      "side": "PosY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 127.90673540899884,
+      "mass_kg": 0.00023662746050664787,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibFaceBond_PosY_Rib1A_Piece1",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 9.369105981456848,
+      "mass_kg": 1.1242927177748218e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibFaceBond_PosY_Rib1A_Piece2",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 1.530105395974814,
+      "mass_kg": 1.836126475169777e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibFaceBond_PosY_Rib1A_Piece3",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 52.55809140885099,
+      "mass_kg": 6.306970969062119e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibFaceTape_PosY_Rib1A_Piece1",
+      "side": "PosY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 18.73816859360032,
+      "mass_kg": 3.4665611898160594e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibFaceTape_PosY_Rib1A_Piece2",
+      "side": "PosY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 3.047894237402507,
+      "mass_kg": 5.638604339194638e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibFaceTape_PosY_Rib1A_Piece3",
+      "side": "PosY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 104.9936422738091,
+      "mass_kg": 0.00019423823820654686,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibFaceBond_PosY_Rib1B_Piece1",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 13.7888863233468,
+      "mass_kg": 1.654666358801616e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibFaceBond_PosY_Rib1B_Piece2",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 95.2380576035811,
+      "mass_kg": 0.00011428566912429732,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibFaceTape_PosY_Rib1B_Piece1",
+      "side": "PosY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 27.55643758203062,
+      "mass_kg": 5.097940952675666e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibFaceTape_PosY_Rib1B_Piece2",
+      "side": "PosY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 190.15803763379722,
+      "mass_kg": 0.0003517923696225249,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "CollarFaceBond_PosY_Rib1A",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 5.83758540647443,
+      "mass_kg": 7.005102487769316e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SparCollar_PosY_Rib1A",
+      "side": "PosY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 24.088600842933708,
+      "mass_kg": 4.456391155942736e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "CollarFaceBond_PosY_Rib1B_Piece1",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 8.807575681504387,
+      "mass_kg": 1.0569090817805265e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "CollarFaceBond_PosY_Rib1B_Piece2",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 8.986643863328423,
+      "mass_kg": 1.0783972635994108e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SparCollar_PosY_Rib1B_Piece1",
+      "side": "PosY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 35.21459154374018,
+      "mass_kg": 6.514699435591933e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SparCollar_PosY_Rib1B_Piece2",
+      "side": "PosY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 35.930636156224054,
+      "mass_kg": 6.64716768890145e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SkinBond_Upper_PosY_Rib2_Piece1",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 51.263980571684435,
+      "mass_kg": 6.151677668602132e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SkinBond_Upper_PosY_Rib2_Piece2",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 230.62056696439822,
+      "mass_kg": 0.0002767446803572779,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "Flange_Upper_PosY_Rib2_Piece1",
+      "side": "PosY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 146.86265468111458,
+      "mass_kg": 0.00027169591116006197,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "Flange_Upper_PosY_Rib2_Piece2",
+      "side": "PosY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 684.7855007996452,
+      "mass_kg": 0.0012668531764793436,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibEdgeBond_Upper_PosY_Rib2_Piece1",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 5.227368182489524,
+      "mass_kg": 6.27284181898743e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibEdgeBond_Upper_PosY_Rib2_Piece2",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 25.14486230328697,
+      "mass_kg": 3.0173834763944367e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibEdgeBond_Upper_PosY_Rib2_Piece3",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 0.691155292362754,
+      "mass_kg": 8.293863508353048e-07,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SkinBond_Lower_PosY_Rib2_Piece1",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 52.38664229811682,
+      "mass_kg": 6.286397075774018e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SkinBond_Lower_PosY_Rib2_Piece2",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 229.66271683741934,
+      "mass_kg": 0.0002755952602049032,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "Flange_Lower_PosY_Rib2_Piece1",
+      "side": "PosY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 150.10637035718628,
+      "mass_kg": 0.00027769678516079464,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "Flange_Lower_PosY_Rib2_Piece2",
+      "side": "PosY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 682.2071122071344,
+      "mass_kg": 0.0012620831575831989,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibEdgeBond_Lower_PosY_Rib2_Piece1",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 5.341632860273433,
+      "mass_kg": 6.409959432328119e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibEdgeBond_Lower_PosY_Rib2_Piece2",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 25.059124148510286,
+      "mass_kg": 3.0070948978212345e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibEdgeBond_Lower_PosY_Rib2_Piece3",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 0.7150022579393471,
+      "mass_kg": 8.580027095272166e-07,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibForwardSegment_PosY_Rib2_1",
+      "side": "PosY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 226.40197315178594,
+      "mass_kg": 0.00041884365033080403,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibFaceBond_PosY_Rib2A_Piece1",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 23.335061779164256,
+      "mass_kg": 2.800207413499711e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibFaceBond_PosY_Rib2A_Piece2",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 89.44261882918961,
+      "mass_kg": 0.00010733114259502753,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibFaceTape_PosY_Rib2A_Piece1",
+      "side": "PosY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 46.444433847801506,
+      "mass_kg": 8.59222026184328e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibFaceTape_PosY_Rib2A_Piece2",
+      "side": "PosY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 178.70686197831802,
+      "mass_kg": 0.0003306076946598884,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibFaceBond_PosY_Rib2B_Piece1",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 8.786283905188066,
+      "mass_kg": 1.054354068622568e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibFaceBond_PosY_Rib2B_Piece3",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 1.9027553148613945,
+      "mass_kg": 2.2833063778336735e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibFaceBond_PosY_Rib2B_Piece4",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 57.507665506829454,
+      "mass_kg": 6.900919860819535e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibFaceTape_PosY_Rib2B_Piece1",
+      "side": "PosY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 17.559280997559405,
+      "mass_kg": 3.24846698454849e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibFaceTape_PosY_Rib2B_Piece3",
+      "side": "PosY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 3.8005068193613987,
+      "mass_kg": 7.030937615818588e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibFaceTape_PosY_Rib2B_Piece4",
+      "side": "PosY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 114.96685233547038,
+      "mass_kg": 0.0002126886768206202,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "CollarFaceBond_PosY_Rib2A_Piece1",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 8.598958459771083,
+      "mass_kg": 1.03187501517253e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "CollarFaceBond_PosY_Rib2A_Piece2",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 8.775130751395036,
+      "mass_kg": 1.0530156901674044e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SparCollar_PosY_Rib2A_Piece1",
+      "side": "PosY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 34.41149576095406,
+      "mass_kg": 6.366126715776501e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SparCollar_PosY_Rib2A_Piece2",
+      "side": "PosY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 35.11639437293244,
+      "mass_kg": 6.496532958992501e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "CollarFaceBond_PosY_Rib2B_Piece1",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 0.4795012528070276,
+      "mass_kg": 5.754015033684332e-07,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SparCollar_PosY_Rib2B_Piece1",
+      "side": "PosY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 2.3853609631701285,
+      "mass_kg": 4.412917781864738e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SplicePlate_PosY_Spar_Rib1_P07Segment1",
+      "side": "PosY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 207.81251182523027,
+      "mass_kg": 0.000384453146876676,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SplicePlate_PosY_Spar_Rib1_P07Segment2",
+      "side": "PosY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 25.97347494957436,
+      "mass_kg": 4.805092865671257e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SplicePlate_PosY_Spar_Rib1_P07Segment3",
+      "side": "PosY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 1.2406358542298646,
+      "mass_kg": 2.2951763303252496e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SplicePlate_PosY_Spar_Rib1_P07Segment4",
+      "side": "PosY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 1.1585735829363533,
+      "mass_kg": 2.1433611284322537e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SplicePlate_PosY_Spar_Rib1_P07Segment5",
+      "side": "PosY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 0.9983645766239275,
+      "mass_kg": 1.846974466754266e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SplicePlate_PosY_Spar_Rib1_P07Segment6",
+      "side": "PosY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 0.9676048924029687,
+      "mass_kg": 1.7900690509454923e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibPacker_PosY_Spar_Rib1_P07Segment1",
+      "side": "PosY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 30.205409654701388,
+      "mass_kg": 5.5880007861197574e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibPacker_PosY_Spar_Rib1_P07Segment2",
+      "side": "PosY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 11.857494002958445,
+      "mass_kg": 2.1936363905473126e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibPacker_PosY_Spar_Rib1_P07Segment3",
+      "side": "PosY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 1.1123588227368544,
+      "mass_kg": 2.0578638220631807e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibPacker_PosY_Spar_Rib1_P07Segment4",
+      "side": "PosY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 1.0386301305572094,
+      "mass_kg": 1.9214657415308375e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibPacker_PosY_Spar_Rib1_P07Segment5",
+      "side": "PosY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 0.8947853563874153,
+      "mass_kg": 1.6553529093167184e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibPacker_PosY_Spar_Rib1_P07Segment6",
+      "side": "PosY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 0.7006774548232206,
+      "mass_kg": 1.2962532914229583e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibPackerBond_PosY_Spar_Rib1_P07Segment1",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 3.716378332249441,
+      "mass_kg": 4.45965399869933e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibPackerBond_PosY_Spar_Rib1_P07Segment2",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 1.3823634677583143,
+      "mass_kg": 1.6588361613099773e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibPackerBond_PosY_Spar_Rib1_P07Segment3",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 0.1233724185790454,
+      "mass_kg": 1.480469022948545e-07,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibPackerBond_PosY_Spar_Rib1_P07Segment4",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 0.1151871730025574,
+      "mass_kg": 1.382246076030689e-07,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "PackerSpliceBond_PosY_Spar_Rib1_P07Segment1",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 2.9953606678476463,
+      "mass_kg": 3.5944328014171757e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "PackerSpliceBond_PosY_Spar_Rib1_P07Segment2",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 1.2523621769883173,
+      "mass_kg": 1.5028346123859809e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "PackerSpliceBond_PosY_Spar_Rib1_P07Segment3",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 0.12381839381353898,
+      "mass_kg": 1.485820725762468e-07,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "PackerSpliceBond_PosY_Spar_Rib1_P07Segment4",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 0.11561953292671225,
+      "mass_kg": 1.387434395120547e-07,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SplicePlate_PosY_Rear_Rib1_P07Segment1",
+      "side": "PosY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 148.4822422327265,
+      "mass_kg": 0.000274692148130544,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibPacker_PosY_Rear_Rib1_P07Segment1",
+      "side": "PosY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 12.335579486648886,
+      "mass_kg": 2.282082205030044e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibPackerBond_PosY_Rear_Rib1_P07Segment1",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 1.4336954657647385,
+      "mass_kg": 1.7204345589176864e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "PackerSpliceBond_PosY_Rear_Rib1_P07Segment1",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 1.3075099234287706,
+      "mass_kg": 1.5690119081145247e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SplicePlate_PosY_Spar_Rib2_P07Segment1",
+      "side": "PosY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 158.65639876202727,
+      "mass_kg": 0.0002935143377097505,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SplicePlate_PosY_Spar_Rib2_P07Segment2",
+      "side": "PosY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 77.03548249481504,
+      "mass_kg": 0.00014251564261540784,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SplicePlate_PosY_Spar_Rib2_P07Segment3",
+      "side": "PosY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 1.1546579479965915,
+      "mass_kg": 2.1361172037936944e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SplicePlate_PosY_Spar_Rib2_P07Segment4",
+      "side": "PosY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 1.0288343568493754,
+      "mass_kg": 1.9033435601713447e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SplicePlate_PosY_Spar_Rib2_P07Segment5",
+      "side": "PosY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 0.9224624083274972,
+      "mass_kg": 1.7065554554058698e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SplicePlate_PosY_Spar_Rib2_P07Segment6",
+      "side": "PosY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 0.8935013485900445,
+      "mass_kg": 1.6529774948915824e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibPacker_PosY_Spar_Rib2_P07Segment1",
+      "side": "PosY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 75.85788478335458,
+      "mass_kg": 0.000140337086849206,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibPacker_PosY_Spar_Rib2_P07Segment2",
+      "side": "PosY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 13.078068935404882,
+      "mass_kg": 2.4194427530499036e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibPacker_PosY_Spar_Rib2_P07Segment3",
+      "side": "PosY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 0.9527290667688944,
+      "mass_kg": 1.7625487735224546e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibPacker_PosY_Spar_Rib2_P07Segment4",
+      "side": "PosY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 0.8339530441350935,
+      "mass_kg": 1.542813131649923e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibPacker_PosY_Spar_Rib2_P07Segment5",
+      "side": "PosY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 0.8078177572389615,
+      "mass_kg": 1.494462850892079e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibPacker_PosY_Spar_Rib2_P07Segment6",
+      "side": "PosY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 0.7434071117585457,
+      "mass_kg": 1.3753031567533094e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibPackerBond_PosY_Spar_Rib2_P07Segment1",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 8.771919942664269,
+      "mass_kg": 1.0526303931197124e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibPackerBond_PosY_Spar_Rib2_P07Segment2",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 1.3957353850106407,
+      "mass_kg": 1.674882462012769e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibPackerBond_PosY_Spar_Rib2_P07Segment3",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 0.11616295439452048,
+      "mass_kg": 1.393955452734246e-07,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibPackerBond_PosY_Spar_Rib2_P07Segment4",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 0.10729237498922747,
+      "mass_kg": 1.2875084998707298e-07,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "PackerSpliceBond_PosY_Spar_Rib2_P07Segment1",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 8.08421557799205,
+      "mass_kg": 9.70105869359046e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "PackerSpliceBond_PosY_Spar_Rib2_P07Segment2",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 1.5100609532792237,
+      "mass_kg": 1.8120731439350685e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "PackerSpliceBond_PosY_Spar_Rib2_P07Segment3",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 0.10443381242051752,
+      "mass_kg": 1.2532057490462103e-07,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SplicePlate_PosY_Rear_Rib2_P07Segment1",
+      "side": "PosY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 147.22846156817945,
+      "mass_kg": 0.000272372653901132,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibPacker_PosY_Rear_Rib2_P07Segment1",
+      "side": "PosY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 13.570665661961744,
+      "mass_kg": 2.5105731474629227e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibPackerBond_PosY_Rear_Rib2_P07Segment1",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 1.4461705542196885,
+      "mass_kg": 1.7354046650636264e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "PackerSpliceBond_PosY_Rear_Rib2_P07Segment1",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 1.5695064227058033,
+      "mass_kg": 1.8834077072469643e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SlotSkinBond_Slot_PosY_Spar_Rib1_Piece1",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 20.290898961993346,
+      "mass_kg": 2.434907875439202e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SlotDoubler_Slot_PosY_Spar_Rib1_Piece1",
+      "side": "PosY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 59.14937144779989,
+      "mass_kg": 0.00010942633717842981,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SlotSkinBond_Slot_PosY_Rear_Rib1",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 40.422555220300865,
+      "mass_kg": 4.8507066264361045e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SlotDoubler_Slot_PosY_Rear_Rib1",
+      "side": "PosY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 121.2676656609046,
+      "mass_kg": 0.00022434518147267354,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SlotSkinBond_Slot_PosY_Spar_Rib2_Piece1",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 23.169140003124845,
+      "mass_kg": 2.7802968003749815e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SlotDoubler_Slot_PosY_Spar_Rib2_Piece1",
+      "side": "PosY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 67.7518111841184,
+      "mass_kg": 0.00012534085069061904,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SlotSkinBond_Slot_PosY_Rear_Rib2",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 40.41822803403215,
+      "mass_kg": 4.8501873640838575e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SlotDoubler_Slot_PosY_Rear_Rib2",
+      "side": "PosY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 121.25468410210077,
+      "mass_kg": 0.00022432116558888644,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "WingCore_PosY_Piece1",
+      "side": "PosY",
+      "material": "XPS",
+      "role": "replacement",
+      "volume_mm3": 535803.1405172299,
+      "mass_kg": 0.01714570049655136,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "WingCore_PosY_Piece2",
+      "side": "PosY",
+      "material": "XPS",
+      "role": "replacement",
+      "volume_mm3": 0.16346248311311976,
+      "mass_kg": 5.230799459619832e-09,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "WingCore_PosY_Piece3",
+      "side": "PosY",
+      "material": "XPS",
+      "role": "replacement",
+      "volume_mm3": 0.8119313840855461,
+      "mass_kg": 2.5981804290737476e-08,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "WingCore_PosY_Piece4",
+      "side": "PosY",
+      "material": "XPS",
+      "role": "replacement",
+      "volume_mm3": 1.9532037519964038,
+      "mass_kg": 6.250252006388493e-08,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "WingCore_PosY_Piece5",
+      "side": "PosY",
+      "material": "XPS",
+      "role": "replacement",
+      "volume_mm3": 0.4438617275356629,
+      "mass_kg": 1.4203575281141213e-08,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "WingSkin_PosY",
+      "side": "PosY",
+      "material": "GFRP",
+      "role": "replacement",
+      "volume_mm3": 47503.723857397476,
+      "mass_kg": 0.08788188913618535,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "WingSpar_PosY",
+      "side": "PosY",
+      "material": "CFRP",
+      "role": "replacement",
+      "volume_mm3": 28454.139305387063,
+      "mass_kg": 0.045526622888619306,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SparCheekBond_NegY_Piece1",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 87.81616292508437,
+      "mass_kg": 0.00010537939551010124,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SparCheekBond_NegY_Piece2",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 87.69527494335932,
+      "mass_kg": 0.0001052343299320312,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SparCheek_NegY_Piece1",
+      "side": "NegY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 261.55117581272646,
+      "mass_kg": 0.000483869675253544,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SparCheek_NegY_Piece2",
+      "side": "NegY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 261.18851247755777,
+      "mass_kg": 0.0004831987480834819,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SkinBond_Upper_NegY_Rib1_Piece1",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 51.26398057044048,
+      "mass_kg": 6.151677668452858e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SkinBond_Upper_NegY_Rib1_Piece2",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 230.62056695674232,
+      "mass_kg": 0.0002767446803480908,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "Flange_Upper_NegY_Rib1_Piece1",
+      "side": "NegY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 146.86265467638862,
+      "mass_kg": 0.00027169591115131897,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "Flange_Upper_NegY_Rib1_Piece2",
+      "side": "NegY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 684.7855007643626,
+      "mass_kg": 0.001266853176414071,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibEdgeBond_Upper_NegY_Rib1_Piece1",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 5.227368182405854,
+      "mass_kg": 6.272841818887026e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibEdgeBond_Upper_NegY_Rib1_Piece2",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 25.144862302293248,
+      "mass_kg": 3.0173834762751897e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibEdgeBond_Upper_NegY_Rib1_Piece3",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 0.6911552920782114,
+      "mass_kg": 8.293863504938538e-07,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SkinBond_Lower_NegY_Rib1_Piece1",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 52.386642309074404,
+      "mass_kg": 6.286397077088929e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SkinBond_Lower_NegY_Rib1_Piece2",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 229.66271674201488,
+      "mass_kg": 0.0002755952600904179,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "Flange_Lower_NegY_Rib1_Piece1",
+      "side": "NegY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 150.10637037527994,
+      "mass_kg": 0.00027769678519426786,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "Flange_Lower_NegY_Rib1_Piece2",
+      "side": "NegY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 682.2071122852731,
+      "mass_kg": 0.0012620831577277551,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibEdgeBond_Lower_NegY_Rib1_Piece1",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 5.341632007326281,
+      "mass_kg": 6.4099584087915366e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibEdgeBond_Lower_NegY_Rib1_Piece2",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 25.059124148731097,
+      "mass_kg": 3.007094897847732e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibEdgeBond_Lower_NegY_Rib1_Piece3",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 0.7151622897882519,
+      "mass_kg": 8.581947477459024e-07,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibForwardSegment_NegY_Rib1_1",
+      "side": "NegY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 226.4019740160275,
+      "mass_kg": 0.0004188436519296509,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibFaceBond_NegY_Rib1A_Piece1",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 8.786284498315542,
+      "mass_kg": 1.0543541397978651e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibFaceBond_NegY_Rib1A_Piece3",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 1.9027553148613676,
+      "mass_kg": 2.2833063778336413e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibFaceBond_NegY_Rib1A_Piece4",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 57.50766550650228,
+      "mass_kg": 6.900919860780275e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibFaceTape_NegY_Rib1A_Piece1",
+      "side": "NegY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 17.55928099755866,
+      "mass_kg": 3.248466984548352e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibFaceTape_NegY_Rib1A_Piece3",
+      "side": "NegY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 3.8005068193613423,
+      "mass_kg": 7.030937615818483e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibFaceTape_NegY_Rib1A_Piece4",
+      "side": "NegY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 114.96685233548303,
+      "mass_kg": 0.0002126886768206436,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibFaceBond_NegY_Rib1B_Piece1",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 23.33506169882421,
+      "mass_kg": 2.8002074038589052e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibFaceBond_NegY_Rib1B_Piece2",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 89.44261982980258,
+      "mass_kg": 0.0001073311437957631,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibFaceTape_NegY_Rib1B_Piece1",
+      "side": "NegY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 46.44443380278288,
+      "mass_kg": 8.592220253514834e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibFaceTape_NegY_Rib1B_Piece2",
+      "side": "NegY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 178.70686220763375,
+      "mass_kg": 0.00033060769508412244,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "CollarFaceBond_NegY_Rib1A_Piece2",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 0.4795012463310997,
+      "mass_kg": 5.754014955973196e-07,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SparCollar_NegY_Rib1A_Piece2",
+      "side": "NegY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 2.38536092734796,
+      "mass_kg": 4.412917715593727e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "CollarFaceBond_NegY_Rib1B_Piece1",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 8.775130749929113,
+      "mass_kg": 1.0530156899914938e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "CollarFaceBond_NegY_Rib1B_Piece2",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 8.598958457853671,
+      "mass_kg": 1.0318750149424406e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SparCollar_NegY_Rib1B_Piece1",
+      "side": "NegY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 35.11639437016691,
+      "mass_kg": 6.496532958480878e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SparCollar_NegY_Rib1B_Piece2",
+      "side": "NegY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 34.41149576281442,
+      "mass_kg": 6.366126716120668e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SkinBond_Upper_NegY_Rib2_Piece1",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 32.54087630903847,
+      "mass_kg": 3.9049051570846164e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SkinBond_Upper_NegY_Rib2_Piece2",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 249.09738373913547,
+      "mass_kg": 0.00029891686048696254,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "Flange_Upper_NegY_Rib2_Piece1",
+      "side": "NegY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 90.60932061881591,
+      "mass_kg": 0.00016762724314480946,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "Flange_Upper_NegY_Rib2_Piece2",
+      "side": "NegY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 740.1316101871548,
+      "mass_kg": 0.0013692434788462366,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibEdgeBond_Upper_NegY_Rib2_Piece1",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 3.1410746883497604,
+      "mass_kg": 3.769289626019713e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibEdgeBond_Upper_NegY_Rib2_Piece2",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 27.191888731189238,
+      "mass_kg": 3.263026647742709e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibEdgeBond_Upper_NegY_Rib2_Piece3",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 0.704445640445686,
+      "mass_kg": 8.453347685348233e-07,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SkinBond_Lower_NegY_Rib2_Piece1",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 33.68544587495984,
+      "mass_kg": 4.0422535049951814e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SkinBond_Lower_NegY_Rib2_Piece2",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 248.11649451563528,
+      "mass_kg": 0.0002977397934187624,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "Flange_Lower_NegY_Rib2_Piece1",
+      "side": "NegY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 93.92128964303423,
+      "mass_kg": 0.00017375438583961333,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "Flange_Lower_NegY_Rib2_Piece2",
+      "side": "NegY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 737.4870238486058,
+      "mass_kg": 0.0013643509941199208,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibEdgeBond_Lower_NegY_Rib2_Piece1",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 3.257949933294343,
+      "mass_kg": 3.909539919953212e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibEdgeBond_Lower_NegY_Rib2_Piece2",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 27.1037758532735,
+      "mass_kg": 3.25245310239282e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibEdgeBond_Lower_NegY_Rib2_Piece3",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 0.7292151034944183,
+      "mass_kg": 8.75058124193302e-07,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibForwardSegment_NegY_Rib2_1",
+      "side": "NegY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 127.90673539007858,
+      "mass_kg": 0.0002366274604716454,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibFaceBond_NegY_Rib2A_Piece1",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 13.786389948918641,
+      "mass_kg": 1.6543667938702368e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibFaceBond_NegY_Rib2A_Piece2",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 95.23805470130768,
+      "mass_kg": 0.00011428566564156922,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibFaceTape_NegY_Rib2A_Piece1",
+      "side": "NegY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 27.556437581956924,
+      "mass_kg": 5.097940952662031e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibFaceTape_NegY_Rib2A_Piece2",
+      "side": "NegY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 190.1580307271791,
+      "mass_kg": 0.0003517923568452813,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibFaceBond_NegY_Rib2B_Piece1",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 9.36910598145688,
+      "mass_kg": 1.1242927177748256e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibFaceBond_NegY_Rib2B_Piece2",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 1.5301053968313445,
+      "mass_kg": 1.8361264761976134e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibFaceBond_NegY_Rib2B_Piece3",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 52.55803673950612,
+      "mass_kg": 6.306964408740735e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibFaceTape_NegY_Rib2B_Piece1",
+      "side": "NegY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 18.738168592541875,
+      "mass_kg": 3.466561189620247e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibFaceTape_NegY_Rib2B_Piece2",
+      "side": "NegY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 3.0478942374024856,
+      "mass_kg": 5.638604339194599e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibFaceTape_NegY_Rib2B_Piece3",
+      "side": "NegY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 104.99364227380931,
+      "mass_kg": 0.00019423823820654724,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "CollarFaceBond_NegY_Rib2A_Piece1",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 8.98664386627,
+      "mass_kg": 1.0783972639524002e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "CollarFaceBond_NegY_Rib2A_Piece2",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 8.807575679939042,
+      "mass_kg": 1.0569090815926851e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SparCollar_NegY_Rib2A_Piece1",
+      "side": "NegY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 35.93063615511478,
+      "mass_kg": 6.647167688696236e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SparCollar_NegY_Rib2A_Piece2",
+      "side": "NegY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 35.21459154685851,
+      "mass_kg": 6.514699436168825e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "CollarFaceBond_NegY_Rib2B",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 5.837585408357177,
+      "mass_kg": 7.005102490028613e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SparCollar_NegY_Rib2B",
+      "side": "NegY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 24.088600850751128,
+      "mass_kg": 4.456391157388959e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SplicePlate_NegY_Spar_Rib1_P07Segment1",
+      "side": "NegY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 158.65639877347803,
+      "mass_kg": 0.0002935143377309344,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SplicePlate_NegY_Spar_Rib1_P07Segment2",
+      "side": "NegY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 77.03548249639368,
+      "mass_kg": 0.0001425156426183283,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SplicePlate_NegY_Spar_Rib1_P07Segment3",
+      "side": "NegY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 1.1546579480638568,
+      "mass_kg": 2.1361172039181354e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SplicePlate_NegY_Spar_Rib1_P07Segment4",
+      "side": "NegY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 1.0288343564672024,
+      "mass_kg": 1.9033435594643246e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SplicePlate_NegY_Spar_Rib1_P07Segment5",
+      "side": "NegY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 0.9224624083547651,
+      "mass_kg": 1.7065554554563157e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SplicePlate_NegY_Spar_Rib1_P07Segment6",
+      "side": "NegY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 0.8935013485937018,
+      "mass_kg": 1.6529774948983485e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibPacker_NegY_Spar_Rib1_P07Segment1",
+      "side": "NegY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 75.85788478719867,
+      "mass_kg": 0.00014033708685631753,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibPacker_NegY_Spar_Rib1_P07Segment2",
+      "side": "NegY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 13.078068971328035,
+      "mass_kg": 2.4194427596956868e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibPacker_NegY_Spar_Rib1_P07Segment3",
+      "side": "NegY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 0.9527290663838514,
+      "mass_kg": 1.7625487728101251e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibPacker_NegY_Spar_Rib1_P07Segment4",
+      "side": "NegY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 0.8339530441621403,
+      "mass_kg": 1.5428131316999596e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibPacker_NegY_Spar_Rib1_P07Segment5",
+      "side": "NegY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 0.8078177572411569,
+      "mass_kg": 1.4944628508961403e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibPacker_NegY_Spar_Rib1_P07Segment6",
+      "side": "NegY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 0.7434071006197899,
+      "mass_kg": 1.3753031361466114e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibPackerBond_NegY_Spar_Rib1_P07Segment1",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 8.77191982533283,
+      "mass_kg": 1.0526303790399395e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibPackerBond_NegY_Spar_Rib1_P07Segment2",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 1.3957353731980915,
+      "mass_kg": 1.6748824478377099e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibPackerBond_NegY_Spar_Rib1_P07Segment3",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 0.11616295440538114,
+      "mass_kg": 1.393955452864574e-07,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibPackerBond_NegY_Spar_Rib1_P07Segment4",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 0.10729237493695024,
+      "mass_kg": 1.287508499243403e-07,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "PackerSpliceBond_NegY_Spar_Rib1_P07Segment1",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 8.084215578150268,
+      "mass_kg": 9.701058693780322e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "PackerSpliceBond_NegY_Spar_Rib1_P07Segment2",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 1.5100609532061051,
+      "mass_kg": 1.812073143847326e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "PackerSpliceBond_NegY_Spar_Rib1_P07Segment3",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 0.10443381238631244,
+      "mass_kg": 1.2532057486357495e-07,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SplicePlate_NegY_Rear_Rib1_P07Segment1",
+      "side": "NegY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 147.22846156818002,
+      "mass_kg": 0.00027237265390113306,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibPacker_NegY_Rear_Rib1_P07Segment1",
+      "side": "NegY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 13.57066566196139,
+      "mass_kg": 2.5105731474628577e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibPackerBond_NegY_Rear_Rib1_P07Segment1",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 1.4461705542197072,
+      "mass_kg": 1.7354046650636488e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "PackerSpliceBond_NegY_Rear_Rib1_P07Segment1",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 1.5695064227056432,
+      "mass_kg": 1.883407707246772e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SplicePlate_NegY_Spar_Rib2_P07Segment1",
+      "side": "NegY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 207.81251182601497,
+      "mass_kg": 0.00038445314687812776,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SplicePlate_NegY_Spar_Rib2_P07Segment2",
+      "side": "NegY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 25.973474954635602,
+      "mass_kg": 4.805092866607587e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SplicePlate_NegY_Spar_Rib2_P07Segment3",
+      "side": "NegY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 1.2406358543289986,
+      "mass_kg": 2.2951763305086475e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SplicePlate_NegY_Spar_Rib2_P07Segment4",
+      "side": "NegY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 1.1585735829029362,
+      "mass_kg": 2.143361128370432e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SplicePlate_NegY_Spar_Rib2_P07Segment5",
+      "side": "NegY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 0.9983645766435587,
+      "mass_kg": 1.8469744667905837e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SplicePlate_NegY_Spar_Rib2_P07Segment6",
+      "side": "NegY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 0.967604892426676,
+      "mass_kg": 1.7900690509893508e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibPacker_NegY_Spar_Rib2_P07Segment1",
+      "side": "NegY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 30.205409659144753,
+      "mass_kg": 5.58800078694178e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibPacker_NegY_Spar_Rib2_P07Segment2",
+      "side": "NegY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 11.85749339876016,
+      "mass_kg": 2.1936362787706297e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibPacker_NegY_Spar_Rib2_P07Segment3",
+      "side": "NegY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 1.112358822799692,
+      "mass_kg": 2.05786382217943e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibPacker_NegY_Spar_Rib2_P07Segment4",
+      "side": "NegY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 1.038630130523298,
+      "mass_kg": 1.921465741468101e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibPacker_NegY_Spar_Rib2_P07Segment5",
+      "side": "NegY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 0.8947853563910527,
+      "mass_kg": 1.6553529093234478e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibPacker_NegY_Spar_Rib2_P07Segment6",
+      "side": "NegY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 0.7006774595471585,
+      "mass_kg": 1.2962533001622434e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibPackerBond_NegY_Spar_Rib2_P07Segment1",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 3.7163783117443265,
+      "mass_kg": 4.459653974093192e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibPackerBond_NegY_Spar_Rib2_P07Segment2",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 1.382363467758336,
+      "mass_kg": 1.6588361613100034e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibPackerBond_NegY_Spar_Rib2_P07Segment3",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 0.1233724186012003,
+      "mass_kg": 1.4804690232144034e-07,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibPackerBond_NegY_Spar_Rib2_P07Segment4",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 0.11518717300019576,
+      "mass_kg": 1.3822460760023493e-07,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "PackerSpliceBond_NegY_Spar_Rib2_P07Segment1",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 2.995360668384075,
+      "mass_kg": 3.5944328020608903e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "PackerSpliceBond_NegY_Spar_Rib2_P07Segment2",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 1.252362176997373,
+      "mass_kg": 1.5028346123968477e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "PackerSpliceBond_NegY_Spar_Rib2_P07Segment3",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 0.12381839383933975,
+      "mass_kg": 1.4858207260720771e-07,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "PackerSpliceBond_NegY_Spar_Rib2_P07Segment4",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 0.11561953291271837,
+      "mass_kg": 1.3874343949526204e-07,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SplicePlate_NegY_Rear_Rib2_P07Segment1",
+      "side": "NegY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 148.48224223272678,
+      "mass_kg": 0.00027469214813054455,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibPacker_NegY_Rear_Rib2_P07Segment1",
+      "side": "NegY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 12.335579486648989,
+      "mass_kg": 2.2820822050300632e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "RibPackerBond_NegY_Rear_Rib2_P07Segment1",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 1.4336954657647638,
+      "mass_kg": 1.7204345589177167e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "PackerSpliceBond_NegY_Rear_Rib2_P07Segment1",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 1.3075099234287095,
+      "mass_kg": 1.5690119081144514e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SlotSkinBond_Slot_NegY_Spar_Rib1_Piece1",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 23.169140003697628,
+      "mass_kg": 2.7802968004437155e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SlotDoubler_Slot_NegY_Spar_Rib1_Piece1",
+      "side": "NegY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 67.75181118996124,
+      "mass_kg": 0.00012534085070142832,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SlotSkinBond_Slot_NegY_Rear_Rib1",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 40.41822803890922,
+      "mass_kg": 4.8501873646691065e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SlotDoubler_Slot_NegY_Rear_Rib1",
+      "side": "NegY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 121.25468411673256,
+      "mass_kg": 0.00022432116561595526,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SlotSkinBond_Slot_NegY_Spar_Rib2_Piece1",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 20.29089894636498,
+      "mass_kg": 2.4349078735637978e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SlotDoubler_Slot_NegY_Spar_Rib2_Piece1",
+      "side": "NegY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 59.14937139757011,
+      "mass_kg": 0.0001094263370855047,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SlotSkinBond_Slot_NegY_Rear_Rib2",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 40.42255519480626,
+      "mass_kg": 4.850706623376751e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SlotDoubler_Slot_NegY_Rear_Rib2",
+      "side": "NegY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 121.26766558441834,
+      "mass_kg": 0.00022434518133117393,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "WingCore_NegY_Piece1",
+      "side": "NegY",
+      "material": "XPS",
+      "role": "replacement",
+      "volume_mm3": 535803.5644301793,
+      "mass_kg": 0.017145714061765738,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "WingCore_NegY_Piece2",
+      "side": "NegY",
+      "material": "XPS",
+      "role": "replacement",
+      "volume_mm3": 0.1634624831111605,
+      "mass_kg": 5.230799459557136e-09,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "WingCore_NegY_Piece3",
+      "side": "NegY",
+      "material": "XPS",
+      "role": "replacement",
+      "volume_mm3": 0.8119313840161084,
+      "mass_kg": 2.598180428851547e-08,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "WingCore_NegY_Piece4",
+      "side": "NegY",
+      "material": "XPS",
+      "role": "replacement",
+      "volume_mm3": 1.9532037081621767,
+      "mass_kg": 6.250251866118966e-08,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "WingCore_NegY_Piece5",
+      "side": "NegY",
+      "material": "XPS",
+      "role": "replacement",
+      "volume_mm3": 0.4438617276426499,
+      "mass_kg": 1.4203575284564798e-08,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "WingSkin_NegY",
+      "side": "NegY",
+      "material": "GFRP",
+      "role": "replacement",
+      "volume_mm3": 47350.64216664919,
+      "mass_kg": 0.087598688008301,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "WingSpar_NegY",
+      "side": "NegY",
+      "material": "CFRP",
+      "role": "replacement",
+      "volume_mm3": 28454.139305387034,
+      "mass_kg": 0.04552662288861926,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SparToRibBond_PosY_Rib1_Sector1",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 7.025267120418544,
+      "mass_kg": 8.430320544502253e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SparToRibBond_PosY_Rib1_Sector2",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 7.035089239605208,
+      "mass_kg": 8.44210708752625e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SparToRibBond_PosY_Rib2_Sector1",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 7.0372686425549045,
+      "mass_kg": 8.444722371065885e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SparToRibBond_PosY_Rib2_Sector2",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 7.047090769831685,
+      "mass_kg": 8.456508923798022e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SparToRibBond_NegY_Rib1_Sector1",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 7.047090778558236,
+      "mass_kg": 8.456508934269883e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SparToRibBond_NegY_Rib1_Sector2",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 7.037268634281972,
+      "mass_kg": 8.444722361138366e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SparToRibBond_NegY_Rib2_Sector1",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 7.035089245139247,
+      "mass_kg": 8.442107094167096e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SparToRibBond_NegY_Rib2_Sector2",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 7.025267114216877,
+      "mass_kg": 8.430320537060252e-06,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SlotEdgePotting_Slot_PosY_Spar_Rib1",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 113.50057874905612,
+      "mass_kg": 0.00013620069449886735,
+      "valid": true,
+      "solid_count": 1
+    },
+    {
+      "name": "SlotEdgePotting_Slot_PosY_Rear_Rib1_Piece1",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 63.098761283976124,
+      "mass_kg": 7.571851354077136e-05,
+      "valid": true,
+      "solid_count": 1
+    },
+    {
+      "name": "SlotEdgePotting_Slot_PosY_Rear_Rib1_Piece2",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 28.05655459339134,
+      "mass_kg": 3.366786551206961e-05,
+      "valid": true,
+      "solid_count": 1
+    },
+    {
+      "name": "SlotEdgePotting_Slot_PosY_Spar_Rib2",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 111.73837896371704,
+      "mass_kg": 0.00013408605475646046,
+      "valid": true,
+      "solid_count": 1
+    },
+    {
+      "name": "SlotEdgePotting_Slot_PosY_Rear_Rib2_Piece1",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 66.95455363638663,
+      "mass_kg": 8.034546436366397e-05,
+      "valid": true,
+      "solid_count": 1
+    },
+    {
+      "name": "SlotEdgePotting_Slot_PosY_Rear_Rib2_Piece2",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 26.793816716356044,
+      "mass_kg": 3.215258005962726e-05,
+      "valid": true,
+      "solid_count": 1
+    },
+    {
+      "name": "SlotEdgePotting_Slot_NegY_Spar_Rib1",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 111.73837891662342,
+      "mass_kg": 0.00013408605469994813,
+      "valid": true,
+      "solid_count": 1
+    },
+    {
+      "name": "SlotEdgePotting_Slot_NegY_Rear_Rib1_Piece1",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 66.95455363638588,
+      "mass_kg": 8.034546436366307e-05,
+      "valid": true,
+      "solid_count": 1
+    },
+    {
+      "name": "SlotEdgePotting_Slot_NegY_Rear_Rib1_Piece2",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 26.793816719812316,
+      "mass_kg": 3.215258006377478e-05,
+      "valid": true,
+      "solid_count": 1
+    },
+    {
+      "name": "SlotEdgePotting_Slot_NegY_Spar_Rib2",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 113.50058292245394,
+      "mass_kg": 0.00013620069950694475,
+      "valid": true,
+      "solid_count": 1
+    },
+    {
+      "name": "SlotEdgePotting_Slot_NegY_Rear_Rib2_Piece1",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 63.09876125666066,
+      "mass_kg": 7.57185135079928e-05,
+      "valid": true,
+      "solid_count": 1
+    },
+    {
+      "name": "SlotEdgePotting_Slot_NegY_Rear_Rib2_Piece2",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 28.056554575575593,
+      "mass_kg": 3.3667865490690714e-05,
+      "valid": true,
+      "solid_count": 1
+    },
+    {
+      "name": "WingOriginalBond_PosY",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "replacement",
+      "volume_mm3": 2265.4364839015398,
+      "mass_kg": 0.0027185237806818478,
+      "valid": true,
+      "solid_count": 1
+    },
+    {
+      "name": "WingOriginalBond_NegY",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "replacement",
+      "volume_mm3": 2265.4473712286126,
+      "mass_kg": 0.0027185368454743356,
+      "valid": true,
+      "solid_count": 1
+    },
+    {
+      "name": "SlotDoubler_Slot_PosY_Spar_Rib1_Piece1_SparRelief1",
+      "side": "PosY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 43.17460387674405,
+      "mass_kg": 7.98730171719765e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SlotDoubler_Slot_PosY_Spar_Rib2_Piece1_SparRelief1",
+      "side": "PosY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 34.957643923155345,
+      "mass_kg": 6.467164125783739e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SlotDoubler_Slot_NegY_Spar_Rib1_Piece1_SparRelief1",
+      "side": "NegY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 34.95764392804059,
+      "mass_kg": 6.46716412668751e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SlotDoubler_Slot_NegY_Spar_Rib2_Piece1_SparRelief1",
+      "side": "NegY",
+      "material": "GFRP",
+      "role": "physical",
+      "volume_mm3": 43.17460386167304,
+      "mass_kg": 7.987301714409513e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SlotSkinBond_Slot_PosY_Spar_Rib1_Piece1_SparRelief1",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 14.988698886969821,
+      "mass_kg": 1.7986438664363785e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SlotSkinBond_Slot_PosY_Spar_Rib2_Piece1_SparRelief1",
+      "side": "PosY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 12.21503794941389,
+      "mass_kg": 1.465804553929667e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SlotSkinBond_Slot_NegY_Spar_Rib1_Piece1_SparRelief1",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 12.215037951013127,
+      "mass_kg": 1.4658045541215753e-05,
+      "solid_count": 1,
+      "valid": true
+    },
+    {
+      "name": "SlotSkinBond_Slot_NegY_Spar_Rib2_Piece1_SparRelief1",
+      "side": "NegY",
+      "material": "Epoxy",
+      "role": "physical",
+      "volume_mm3": 14.988698878759976,
+      "mass_kg": 1.7986438654511972e-05,
+      "solid_count": 1,
+      "valid": true
+    }
+  ],
+  "modified_components": [
+    {
+      "name": "Wing_Spar_Rib1_PosY",
+      "reason": "Restored P07 checkpoint modification",
+      "before_volume_mm3": 1398.245599926955,
+      "after_volume_mm3": 900.6490893034775,
+      "removed_volume_mm3": 497.59651062347757
+    },
+    {
+      "name": "Wing_Spar_Rib2_PosY",
+      "reason": "Restored P07 checkpoint modification",
+      "before_volume_mm3": 1437.485360754233,
+      "after_volume_mm3": 842.3977277124742,
+      "removed_volume_mm3": 595.0876330417587
+    },
+    {
+      "name": "SplicePlate_PosY_Spar_Rib1",
+      "reason": "Clearance for P07 cap and spar coupling",
+      "before_volume_mm3": 1285.0288570467378,
+      "after_volume_mm3": 975.5788507693549,
+      "removed_volume_mm3": 309.45000627738295
+    },
+    {
+      "name": "RibPacker_PosY_Spar_Rib1",
+      "reason": "Clearance for P07 cap and spar coupling",
+      "before_volume_mm3": 289.64655359343425,
+      "after_volume_mm3": 180.547239907648,
+      "removed_volume_mm3": 109.09931368578626
+    },
+    {
+      "name": "RibPackerBond_PosY_Spar_Rib1",
+      "reason": "Clearance for P07 cap and spar coupling",
+      "before_volume_mm3": 32.27627111607215,
+      "after_volume_mm3": 19.71794703402701,
+      "removed_volume_mm3": 12.558324082045143
+    },
+    {
+      "name": "PackerSpliceBond_PosY_Spar_Rib1",
+      "reason": "Clearance for P07 cap and spar coupling",
+      "before_volume_mm3": 31.99724360712107,
+      "after_volume_mm3": 20.40373085525694,
+      "removed_volume_mm3": 11.593512751864132
+    },
+    {
+      "name": "SplicePlate_PosY_Rear_Rib1",
+      "reason": "Clearance for P07 cap and spar coupling",
+      "before_volume_mm3": 1000.6897740668002,
+      "after_volume_mm3": 804.7553980730308,
+      "removed_volume_mm3": 195.93437599376932
+    },
+    {
+      "name": "RibPacker_PosY_Rear_Rib1",
+      "reason": "Clearance for P07 cap and spar coupling",
+      "before_volume_mm3": 247.77540400196725,
+      "after_volume_mm3": 178.54226853379723,
+      "removed_volume_mm3": 69.23313546817002
+    },
+    {
+      "name": "RibPackerBond_PosY_Rear_Rib1",
+      "reason": "Clearance for P07 cap and spar coupling",
+      "before_volume_mm3": 27.530600444661133,
+      "after_volume_mm3": 19.85799834705022,
+      "removed_volume_mm3": 7.672602097610913
+    },
+    {
+      "name": "PackerSpliceBond_PosY_Rear_Rib1",
+      "reason": "Clearance for P07 cap and spar coupling",
+      "before_volume_mm3": 27.530600444661136,
+      "after_volume_mm3": 19.81698263210876,
+      "removed_volume_mm3": 7.713617812552375
+    },
+    {
+      "name": "SplicePlate_PosY_Spar_Rib2",
+      "reason": "Clearance for P07 cap and spar coupling",
+      "before_volume_mm3": 1303.378350768322,
+      "after_volume_mm3": 1000.5866926825266,
+      "removed_volume_mm3": 302.79165808579535
+    },
+    {
+      "name": "RibPacker_PosY_Spar_Rib2",
+      "reason": "Clearance for P07 cap and spar coupling",
+      "before_volume_mm3": 285.2009847896969,
+      "after_volume_mm3": 136.59179719034083,
+      "removed_volume_mm3": 148.6091875993561
+    },
+    {
+      "name": "RibPackerBond_PosY_Spar_Rib2",
+      "reason": "Clearance for P07 cap and spar coupling",
+      "before_volume_mm3": 31.73373750878978,
+      "after_volume_mm3": 14.847360554906773,
+      "removed_volume_mm3": 16.88637695388301
+    },
+    {
+      "name": "PackerSpliceBond_PosY_Spar_Rib2",
+      "reason": "Clearance for P07 cap and spar coupling",
+      "before_volume_mm3": 31.540510925571215,
+      "after_volume_mm3": 15.504178303670479,
+      "removed_volume_mm3": 16.036332621900737
+    },
+    {
+      "name": "SplicePlate_PosY_Rear_Rib2",
+      "reason": "Clearance for P07 cap and spar coupling",
+      "before_volume_mm3": 1008.0,
+      "after_volume_mm3": 822.478960320283,
+      "removed_volume_mm3": 185.52103967971698
+    },
+    {
+      "name": "RibPacker_PosY_Rear_Rib2",
+      "reason": "Clearance for P07 cap and spar coupling",
+      "before_volume_mm3": 237.20687556787053,
+      "after_volume_mm3": 177.18066412620158,
+      "removed_volume_mm3": 60.02621144166895
+    },
+    {
+      "name": "RibPackerBond_PosY_Rear_Rib2",
+      "reason": "Clearance for P07 cap and spar coupling",
+      "before_volume_mm3": 26.35631950753946,
+      "after_volume_mm3": 19.71534460328804,
+      "removed_volume_mm3": 6.640974904251419
+    },
+    {
+      "name": "PackerSpliceBond_PosY_Rear_Rib2",
+      "reason": "Clearance for P07 cap and spar coupling",
+      "before_volume_mm3": 26.356319507539467,
+      "after_volume_mm3": 19.65708634597299,
+      "removed_volume_mm3": 6.699233161566479
+    },
+    {
+      "name": "Wing_Spar_Rib1_NegY",
+      "reason": "Skin flange inset and spar relief; main aft shear-web segment retained",
+      "before_volume_mm3": 1437.4849730183869,
+      "after_volume_mm3": 842.397788461449,
+      "removed_volume_mm3": 595.0871845569379
+    },
+    {
+      "name": "Wing_Spar_Rib2_NegY",
+      "reason": "Skin flange inset and spar relief; main aft shear-web segment retained",
+      "before_volume_mm3": 1398.2458705843014,
+      "after_volume_mm3": 900.6493190306693,
+      "removed_volume_mm3": 497.59655155363214
+    },
+    {
+      "name": "SplicePlate_NegY_Spar_Rib1",
+      "reason": "Clearance for P07 cap and spar coupling",
+      "before_volume_mm3": 1303.3783508124227,
+      "after_volume_mm3": 1000.5866926826661,
+      "removed_volume_mm3": 302.79165812975657
+    },
+    {
+      "name": "RibPacker_NegY_Spar_Rib1",
+      "reason": "Clearance for P07 cap and spar coupling",
+      "before_volume_mm3": 285.20099608698735,
+      "after_volume_mm3": 136.59179718902584,
+      "removed_volume_mm3": 148.6091988979615
+    },
+    {
+      "name": "RibPackerBond_NegY_Spar_Rib1",
+      "reason": "Clearance for P07 cap and spar coupling",
+      "before_volume_mm3": 31.7336682757712,
+      "after_volume_mm3": 14.847360575812981,
+      "removed_volume_mm3": 16.88630769995822
+    },
+    {
+      "name": "PackerSpliceBond_NegY_Spar_Rib1",
+      "reason": "Clearance for P07 cap and spar coupling",
+      "before_volume_mm3": 31.540511089821255,
+      "after_volume_mm3": 15.504178310364432,
+      "removed_volume_mm3": 16.03633277945682
+    },
+    {
+      "name": "SplicePlate_NegY_Rear_Rib1",
+      "reason": "Clearance for P07 cap and spar coupling",
+      "before_volume_mm3": 1008.0,
+      "after_volume_mm3": 822.4789603202847,
+      "removed_volume_mm3": 185.52103967971527
+    },
+    {
+      "name": "RibPacker_NegY_Rear_Rib1",
+      "reason": "Clearance for P07 cap and spar coupling",
+      "before_volume_mm3": 237.20687556786817,
+      "after_volume_mm3": 177.18066412620237,
+      "removed_volume_mm3": 60.026211441665794
+    },
+    {
+      "name": "RibPackerBond_NegY_Rear_Rib1",
+      "reason": "Clearance for P07 cap and spar coupling",
+      "before_volume_mm3": 26.3563195075392,
+      "after_volume_mm3": 19.71534460328783,
+      "removed_volume_mm3": 6.640974904251372
+    },
+    {
+      "name": "PackerSpliceBond_NegY_Rear_Rib1",
+      "reason": "Clearance for P07 cap and spar coupling",
+      "before_volume_mm3": 26.356319507539204,
+      "after_volume_mm3": 19.657086345971695,
+      "removed_volume_mm3": 6.699233161567509
+    },
+    {
+      "name": "SplicePlate_NegY_Spar_Rib2",
+      "reason": "Clearance for P07 cap and spar coupling",
+      "before_volume_mm3": 1285.0288570645248,
+      "after_volume_mm3": 975.5788507694363,
+      "removed_volume_mm3": 309.45000629508854
+    },
+    {
+      "name": "RibPacker_NegY_Spar_Rib2",
+      "reason": "Clearance for P07 cap and spar coupling",
+      "before_volume_mm3": 289.6407287562451,
+      "after_volume_mm3": 180.54723928695554,
+      "removed_volume_mm3": 109.09348946928955
+    },
+    {
+      "name": "RibPackerBond_NegY_Spar_Rib2",
+      "reason": "Clearance for P07 cap and spar coupling",
+      "before_volume_mm3": 32.276271087739644,
+      "after_volume_mm3": 19.717946999344072,
+      "removed_volume_mm3": 12.558324088395572
+    },
+    {
+      "name": "PackerSpliceBond_NegY_Spar_Rib2",
+      "reason": "Clearance for P07 cap and spar coupling",
+      "before_volume_mm3": 31.99724360470865,
+      "after_volume_mm3": 20.403730840414774,
+      "removed_volume_mm3": 11.593512764293877
+    },
+    {
+      "name": "SplicePlate_NegY_Rear_Rib2",
+      "reason": "Clearance for P07 cap and spar coupling",
+      "before_volume_mm3": 1000.6897740668016,
+      "after_volume_mm3": 804.7553980730318,
+      "removed_volume_mm3": 195.9343759937699
+    },
+    {
+      "name": "RibPacker_NegY_Rear_Rib2",
+      "reason": "Clearance for P07 cap and spar coupling",
+      "before_volume_mm3": 247.77540400196725,
+      "after_volume_mm3": 178.54226853379794,
+      "removed_volume_mm3": 69.23313546816931
+    },
+    {
+      "name": "RibPackerBond_NegY_Rear_Rib2",
+      "reason": "Clearance for P07 cap and spar coupling",
+      "before_volume_mm3": 27.530600444661133,
+      "after_volume_mm3": 19.857998347050156,
+      "removed_volume_mm3": 7.672602097610977
+    },
+    {
+      "name": "PackerSpliceBond_NegY_Rear_Rib2",
+      "reason": "Clearance for P07 cap and spar coupling",
+      "before_volume_mm3": 27.530600444661136,
+      "after_volume_mm3": 19.81698263210801,
+      "removed_volume_mm3": 7.7136178125531245
+    }
+  ],
+  "wing_parts": {
+    "PosY": [
+      "SparCheekBond_PosY_Piece1",
+      "SparCheekBond_PosY_Piece2",
+      "SparCheek_PosY_Piece1",
+      "SparCheek_PosY_Piece2",
+      "SkinBond_Upper_PosY_Rib1_Piece1",
+      "SkinBond_Upper_PosY_Rib1_Piece2",
+      "Flange_Upper_PosY_Rib1_Piece1",
+      "Flange_Upper_PosY_Rib1_Piece2",
+      "RibEdgeBond_Upper_PosY_Rib1_Piece1",
+      "RibEdgeBond_Upper_PosY_Rib1_Piece2",
+      "RibEdgeBond_Upper_PosY_Rib1_Piece3",
+      "SkinBond_Lower_PosY_Rib1_Piece1",
+      "SkinBond_Lower_PosY_Rib1_Piece2",
+      "Flange_Lower_PosY_Rib1_Piece1",
+      "Flange_Lower_PosY_Rib1_Piece2",
+      "RibEdgeBond_Lower_PosY_Rib1_Piece1",
+      "RibEdgeBond_Lower_PosY_Rib1_Piece2",
+      "RibEdgeBond_Lower_PosY_Rib1_Piece3",
+      "RibForwardSegment_PosY_Rib1_1",
+      "RibFaceBond_PosY_Rib1A_Piece1",
+      "RibFaceBond_PosY_Rib1A_Piece2",
+      "RibFaceBond_PosY_Rib1A_Piece3",
+      "RibFaceTape_PosY_Rib1A_Piece1",
+      "RibFaceTape_PosY_Rib1A_Piece2",
+      "RibFaceTape_PosY_Rib1A_Piece3",
+      "RibFaceBond_PosY_Rib1B_Piece1",
+      "RibFaceBond_PosY_Rib1B_Piece2",
+      "RibFaceTape_PosY_Rib1B_Piece1",
+      "RibFaceTape_PosY_Rib1B_Piece2",
+      "CollarFaceBond_PosY_Rib1A",
+      "SparCollar_PosY_Rib1A",
+      "CollarFaceBond_PosY_Rib1B_Piece1",
+      "CollarFaceBond_PosY_Rib1B_Piece2",
+      "SparCollar_PosY_Rib1B_Piece1",
+      "SparCollar_PosY_Rib1B_Piece2",
+      "SkinBond_Upper_PosY_Rib2_Piece1",
+      "SkinBond_Upper_PosY_Rib2_Piece2",
+      "Flange_Upper_PosY_Rib2_Piece1",
+      "Flange_Upper_PosY_Rib2_Piece2",
+      "RibEdgeBond_Upper_PosY_Rib2_Piece1",
+      "RibEdgeBond_Upper_PosY_Rib2_Piece2",
+      "RibEdgeBond_Upper_PosY_Rib2_Piece3",
+      "SkinBond_Lower_PosY_Rib2_Piece1",
+      "SkinBond_Lower_PosY_Rib2_Piece2",
+      "Flange_Lower_PosY_Rib2_Piece1",
+      "Flange_Lower_PosY_Rib2_Piece2",
+      "RibEdgeBond_Lower_PosY_Rib2_Piece1",
+      "RibEdgeBond_Lower_PosY_Rib2_Piece2",
+      "RibEdgeBond_Lower_PosY_Rib2_Piece3",
+      "RibForwardSegment_PosY_Rib2_1",
+      "RibFaceBond_PosY_Rib2A_Piece1",
+      "RibFaceBond_PosY_Rib2A_Piece2",
+      "RibFaceTape_PosY_Rib2A_Piece1",
+      "RibFaceTape_PosY_Rib2A_Piece2",
+      "RibFaceBond_PosY_Rib2B_Piece1",
+      "RibFaceBond_PosY_Rib2B_Piece3",
+      "RibFaceBond_PosY_Rib2B_Piece4",
+      "RibFaceTape_PosY_Rib2B_Piece1",
+      "RibFaceTape_PosY_Rib2B_Piece3",
+      "RibFaceTape_PosY_Rib2B_Piece4",
+      "CollarFaceBond_PosY_Rib2A_Piece1",
+      "CollarFaceBond_PosY_Rib2A_Piece2",
+      "SparCollar_PosY_Rib2A_Piece1",
+      "SparCollar_PosY_Rib2A_Piece2",
+      "CollarFaceBond_PosY_Rib2B_Piece1",
+      "SparCollar_PosY_Rib2B_Piece1",
+      "SlotSkinBond_Slot_PosY_Spar_Rib1_Piece1",
+      "SlotDoubler_Slot_PosY_Spar_Rib1_Piece1",
+      "SlotSkinBond_Slot_PosY_Rear_Rib1",
+      "SlotDoubler_Slot_PosY_Rear_Rib1",
+      "SlotSkinBond_Slot_PosY_Spar_Rib2_Piece1",
+      "SlotDoubler_Slot_PosY_Spar_Rib2_Piece1",
+      "SlotSkinBond_Slot_PosY_Rear_Rib2",
+      "SlotDoubler_Slot_PosY_Rear_Rib2",
+      "WingCore_PosY_Piece1",
+      "WingCore_PosY_Piece2",
+      "WingCore_PosY_Piece3",
+      "WingCore_PosY_Piece4",
+      "WingCore_PosY_Piece5",
+      "WingSkin_PosY",
+      "WingSpar_PosY",
+      "SparToRibBond_PosY_Rib1_Sector1",
+      "SparToRibBond_PosY_Rib1_Sector2",
+      "SparToRibBond_PosY_Rib2_Sector1",
+      "SparToRibBond_PosY_Rib2_Sector2",
+      "SlotEdgePotting_Slot_PosY_Spar_Rib1",
+      "SlotEdgePotting_Slot_PosY_Rear_Rib1_Piece1",
+      "SlotEdgePotting_Slot_PosY_Rear_Rib1_Piece2",
+      "SlotEdgePotting_Slot_PosY_Spar_Rib2",
+      "SlotEdgePotting_Slot_PosY_Rear_Rib2_Piece1",
+      "SlotEdgePotting_Slot_PosY_Rear_Rib2_Piece2",
+      "WingOriginalBond_PosY",
+      "SlotDoubler_Slot_PosY_Spar_Rib1_Piece1_SparRelief1",
+      "SlotDoubler_Slot_PosY_Spar_Rib2_Piece1_SparRelief1",
+      "SlotSkinBond_Slot_PosY_Spar_Rib1_Piece1_SparRelief1",
+      "SlotSkinBond_Slot_PosY_Spar_Rib2_Piece1_SparRelief1"
+    ],
+    "NegY": [
+      "SparCheekBond_NegY_Piece1",
+      "SparCheekBond_NegY_Piece2",
+      "SparCheek_NegY_Piece1",
+      "SparCheek_NegY_Piece2",
+      "SkinBond_Upper_NegY_Rib1_Piece1",
+      "SkinBond_Upper_NegY_Rib1_Piece2",
+      "Flange_Upper_NegY_Rib1_Piece1",
+      "Flange_Upper_NegY_Rib1_Piece2",
+      "RibEdgeBond_Upper_NegY_Rib1_Piece1",
+      "RibEdgeBond_Upper_NegY_Rib1_Piece2",
+      "RibEdgeBond_Upper_NegY_Rib1_Piece3",
+      "SkinBond_Lower_NegY_Rib1_Piece1",
+      "SkinBond_Lower_NegY_Rib1_Piece2",
+      "Flange_Lower_NegY_Rib1_Piece1",
+      "Flange_Lower_NegY_Rib1_Piece2",
+      "RibEdgeBond_Lower_NegY_Rib1_Piece1",
+      "RibEdgeBond_Lower_NegY_Rib1_Piece2",
+      "RibEdgeBond_Lower_NegY_Rib1_Piece3",
+      "RibForwardSegment_NegY_Rib1_1",
+      "RibFaceBond_NegY_Rib1A_Piece1",
+      "RibFaceBond_NegY_Rib1A_Piece3",
+      "RibFaceBond_NegY_Rib1A_Piece4",
+      "RibFaceTape_NegY_Rib1A_Piece1",
+      "RibFaceTape_NegY_Rib1A_Piece3",
+      "RibFaceTape_NegY_Rib1A_Piece4",
+      "RibFaceBond_NegY_Rib1B_Piece1",
+      "RibFaceBond_NegY_Rib1B_Piece2",
+      "RibFaceTape_NegY_Rib1B_Piece1",
+      "RibFaceTape_NegY_Rib1B_Piece2",
+      "CollarFaceBond_NegY_Rib1A_Piece2",
+      "SparCollar_NegY_Rib1A_Piece2",
+      "CollarFaceBond_NegY_Rib1B_Piece1",
+      "CollarFaceBond_NegY_Rib1B_Piece2",
+      "SparCollar_NegY_Rib1B_Piece1",
+      "SparCollar_NegY_Rib1B_Piece2",
+      "SkinBond_Upper_NegY_Rib2_Piece1",
+      "SkinBond_Upper_NegY_Rib2_Piece2",
+      "Flange_Upper_NegY_Rib2_Piece1",
+      "Flange_Upper_NegY_Rib2_Piece2",
+      "RibEdgeBond_Upper_NegY_Rib2_Piece1",
+      "RibEdgeBond_Upper_NegY_Rib2_Piece2",
+      "RibEdgeBond_Upper_NegY_Rib2_Piece3",
+      "SkinBond_Lower_NegY_Rib2_Piece1",
+      "SkinBond_Lower_NegY_Rib2_Piece2",
+      "Flange_Lower_NegY_Rib2_Piece1",
+      "Flange_Lower_NegY_Rib2_Piece2",
+      "RibEdgeBond_Lower_NegY_Rib2_Piece1",
+      "RibEdgeBond_Lower_NegY_Rib2_Piece2",
+      "RibEdgeBond_Lower_NegY_Rib2_Piece3",
+      "RibForwardSegment_NegY_Rib2_1",
+      "RibFaceBond_NegY_Rib2A_Piece1",
+      "RibFaceBond_NegY_Rib2A_Piece2",
+      "RibFaceTape_NegY_Rib2A_Piece1",
+      "RibFaceTape_NegY_Rib2A_Piece2",
+      "RibFaceBond_NegY_Rib2B_Piece1",
+      "RibFaceBond_NegY_Rib2B_Piece2",
+      "RibFaceBond_NegY_Rib2B_Piece3",
+      "RibFaceTape_NegY_Rib2B_Piece1",
+      "RibFaceTape_NegY_Rib2B_Piece2",
+      "RibFaceTape_NegY_Rib2B_Piece3",
+      "CollarFaceBond_NegY_Rib2A_Piece1",
+      "CollarFaceBond_NegY_Rib2A_Piece2",
+      "SparCollar_NegY_Rib2A_Piece1",
+      "SparCollar_NegY_Rib2A_Piece2",
+      "CollarFaceBond_NegY_Rib2B",
+      "SparCollar_NegY_Rib2B",
+      "SlotSkinBond_Slot_NegY_Spar_Rib1_Piece1",
+      "SlotDoubler_Slot_NegY_Spar_Rib1_Piece1",
+      "SlotSkinBond_Slot_NegY_Rear_Rib1",
+      "SlotDoubler_Slot_NegY_Rear_Rib1",
+      "SlotSkinBond_Slot_NegY_Spar_Rib2_Piece1",
+      "SlotDoubler_Slot_NegY_Spar_Rib2_Piece1",
+      "SlotSkinBond_Slot_NegY_Rear_Rib2",
+      "SlotDoubler_Slot_NegY_Rear_Rib2",
+      "WingCore_NegY_Piece1",
+      "WingCore_NegY_Piece2",
+      "WingCore_NegY_Piece3",
+      "WingCore_NegY_Piece4",
+      "WingCore_NegY_Piece5",
+      "WingSkin_NegY",
+      "WingSpar_NegY",
+      "SparToRibBond_NegY_Rib1_Sector1",
+      "SparToRibBond_NegY_Rib1_Sector2",
+      "SparToRibBond_NegY_Rib2_Sector1",
+      "SparToRibBond_NegY_Rib2_Sector2",
+      "SlotEdgePotting_Slot_NegY_Spar_Rib1",
+      "SlotEdgePotting_Slot_NegY_Rear_Rib1_Piece1",
+      "SlotEdgePotting_Slot_NegY_Rear_Rib1_Piece2",
+      "SlotEdgePotting_Slot_NegY_Spar_Rib2",
+      "SlotEdgePotting_Slot_NegY_Rear_Rib2_Piece1",
+      "SlotEdgePotting_Slot_NegY_Rear_Rib2_Piece2",
+      "WingOriginalBond_NegY",
+      "SlotDoubler_Slot_NegY_Spar_Rib1_Piece1_SparRelief1",
+      "SlotDoubler_Slot_NegY_Spar_Rib2_Piece1_SparRelief1",
+      "SlotSkinBond_Slot_NegY_Spar_Rib1_Piece1_SparRelief1",
+      "SlotSkinBond_Slot_NegY_Spar_Rib2_Piece1_SparRelief1"
+    ]
+  },
+  "diagnostics": [
+    {
+      "side": "PosY",
+      "foam_removed_mm3": 9714.101108330662,
+      "foam_conservation_error_mm3": 10.170852407823986,
+      "foam_credit_pass": true,
+      "skin_mass_credit_kg": 0.0
+    },
+    {
+      "side": "NegY",
+      "foam_removed_mm3": 9714.101699196968,
+      "foam_conservation_error_mm3": 9.897653792637357,
+      "foam_credit_pass": true,
+      "skin_mass_credit_kg": 0.0
+    }
+  ],
+  "solver_codes": {
+    "PosY": 0,
+    "NegY": 0
+  },
+  "native_sha256": "7a018ef6dcda93270927f0b2cc0769293a392f55817c2aaa52db86bf6ccbce57",
+  "old_physical_names": [
+    "CFRP_Arm_PosY",
+    "Wing_Spar_Saddle_PosY",
+    "SaddleBond_PosY_Spar_Top",
+    "SaddleBond_PosY_Spar_Bottom",
+    "Wing_Spar_Rib1_PosY",
+    "Wing_Spar_Rib2_PosY",
+    "Wing_Rear_Saddle_PosY",
+    "SaddleBond_PosY_Rear_Top",
+    "SaddleBond_PosY_Rear_Bottom",
+    "MotorPlate_PosY_Front",
+    "LowerStrap_PosY_Front",
+    "LowerLiner_PosY_Front",
+    "Rail_PosY_Front_0",
+    "TopLiner_PosY_Front_0",
+    "RailBond_PosY_Front_0",
+    "Rail_PosY_Front_1",
+    "TopLiner_PosY_Front_1",
+    "RailBond_PosY_Front_1",
+    "UM2807_PosY_Front",
+    "MotorWasher_PosY_Front_0",
+    "MotorScrew_PosY_Front_0",
+    "MotorWasher_PosY_Front_1",
+    "MotorScrew_PosY_Front_1",
+    "MotorWasher_PosY_Front_2",
+    "MotorScrew_PosY_Front_2",
+    "MotorWasher_PosY_Front_3",
+    "MotorScrew_PosY_Front_3",
+    "ClampScrew_PosY_Front_0",
+    "ClampWasher_PosY_Front_0_0",
+    "ClampWasher_PosY_Front_0_1",
+    "ClampLocknut_PosY_Front_0",
+    "ClampScrew_PosY_Front_1",
+    "ClampWasher_PosY_Front_1_0",
+    "ClampWasher_PosY_Front_1_1",
+    "ClampLocknut_PosY_Front_1",
+    "MotorPlate_PosY_Rear",
+    "LowerStrap_PosY_Rear",
+    "LowerLiner_PosY_Rear",
+    "Rail_PosY_Rear_0",
+    "TopLiner_PosY_Rear_0",
+    "RailBond_PosY_Rear_0",
+    "Rail_PosY_Rear_1",
+    "TopLiner_PosY_Rear_1",
+    "RailBond_PosY_Rear_1",
+    "UM2807_PosY_Rear",
+    "MotorWasher_PosY_Rear_0",
+    "MotorScrew_PosY_Rear_0",
+    "MotorWasher_PosY_Rear_1",
+    "MotorScrew_PosY_Rear_1",
+    "MotorWasher_PosY_Rear_2",
+    "MotorScrew_PosY_Rear_2",
+    "MotorWasher_PosY_Rear_3",
+    "MotorScrew_PosY_Rear_3",
+    "ClampScrew_PosY_Rear_0",
+    "ClampWasher_PosY_Rear_0_0",
+    "ClampWasher_PosY_Rear_0_1",
+    "ClampLocknut_PosY_Rear_0",
+    "ClampScrew_PosY_Rear_1",
+    "ClampWasher_PosY_Rear_1_0",
+    "ClampWasher_PosY_Rear_1_1",
+    "ClampLocknut_PosY_Rear_1",
+    "CFRP_Arm_NegY",
+    "Wing_Spar_Saddle_NegY",
+    "SaddleBond_NegY_Spar_Top",
+    "SaddleBond_NegY_Spar_Bottom",
+    "Wing_Spar_Rib1_NegY",
+    "Wing_Spar_Rib2_NegY",
+    "Wing_Rear_Saddle_NegY",
+    "SaddleBond_NegY_Rear_Top",
+    "SaddleBond_NegY_Rear_Bottom",
+    "MotorPlate_NegY_Front",
+    "LowerStrap_NegY_Front",
+    "LowerLiner_NegY_Front",
+    "Rail_NegY_Front_0",
+    "TopLiner_NegY_Front_0",
+    "RailBond_NegY_Front_0",
+    "Rail_NegY_Front_1",
+    "TopLiner_NegY_Front_1",
+    "RailBond_NegY_Front_1",
+    "UM2807_NegY_Front",
+    "MotorWasher_NegY_Front_0",
+    "MotorScrew_NegY_Front_0",
+    "MotorWasher_NegY_Front_1",
+    "MotorScrew_NegY_Front_1",
+    "MotorWasher_NegY_Front_2",
+    "MotorScrew_NegY_Front_2",
+    "MotorWasher_NegY_Front_3",
+    "MotorScrew_NegY_Front_3",
+    "ClampScrew_NegY_Front_0",
+    "ClampWasher_NegY_Front_0_0",
+    "ClampWasher_NegY_Front_0_1",
+    "ClampLocknut_NegY_Front_0",
+    "ClampScrew_NegY_Front_1",
+    "ClampWasher_NegY_Front_1_0",
+    "ClampWasher_NegY_Front_1_1",
+    "ClampLocknut_NegY_Front_1",
+    "MotorPlate_NegY_Rear",
+    "LowerStrap_NegY_Rear",
+    "LowerLiner_NegY_Rear",
+    "Rail_NegY_Rear_0",
+    "TopLiner_NegY_Rear_0",
+    "RailBond_NegY_Rear_0",
+    "Rail_NegY_Rear_1",
+    "TopLiner_NegY_Rear_1",
+    "RailBond_NegY_Rear_1",
+    "UM2807_NegY_Rear",
+    "MotorWasher_NegY_Rear_0",
+    "MotorScrew_NegY_Rear_0",
+    "MotorWasher_NegY_Rear_1",
+    "MotorScrew_NegY_Rear_1",
+    "MotorWasher_NegY_Rear_2",
+    "MotorScrew_NegY_Rear_2",
+    "MotorWasher_NegY_Rear_3",
+    "MotorScrew_NegY_Rear_3",
+    "ClampScrew_NegY_Rear_0",
+    "ClampWasher_NegY_Rear_0_0",
+    "ClampWasher_NegY_Rear_0_1",
+    "ClampLocknut_NegY_Rear_0",
+    "ClampScrew_NegY_Rear_1",
+    "ClampWasher_NegY_Rear_1_0",
+    "ClampWasher_NegY_Rear_1_1",
+    "ClampLocknut_NegY_Rear_1",
+    "SplicePlate_PosY_Spar_Rib1",
+    "RibPacker_PosY_Spar_Rib1",
+    "RibPackerBond_PosY_Spar_Rib1",
+    "PackerSpliceBond_PosY_Spar_Rib1",
+    "SaddleSpliceBond_PosY_Spar_Rib1",
+    "SplicePlate_PosY_Rear_Rib1",
+    "RibPacker_PosY_Rear_Rib1",
+    "RibPackerBond_PosY_Rear_Rib1",
+    "PackerSpliceBond_PosY_Rear_Rib1",
+    "SaddleSpliceBond_PosY_Rear_Rib1",
+    "SplicePlate_PosY_Spar_Rib2",
+    "RibPacker_PosY_Spar_Rib2",
+    "RibPackerBond_PosY_Spar_Rib2",
+    "PackerSpliceBond_PosY_Spar_Rib2",
+    "SaddleSpliceBond_PosY_Spar_Rib2",
+    "SplicePlate_PosY_Rear_Rib2",
+    "RibPacker_PosY_Rear_Rib2",
+    "RibPackerBond_PosY_Rear_Rib2",
+    "PackerSpliceBond_PosY_Rear_Rib2",
+    "SaddleSpliceBond_PosY_Rear_Rib2",
+    "SplicePlate_NegY_Spar_Rib1",
+    "RibPacker_NegY_Spar_Rib1",
+    "RibPackerBond_NegY_Spar_Rib1",
+    "PackerSpliceBond_NegY_Spar_Rib1",
+    "SaddleSpliceBond_NegY_Spar_Rib1",
+    "SplicePlate_NegY_Rear_Rib1",
+    "RibPacker_NegY_Rear_Rib1",
+    "RibPackerBond_NegY_Rear_Rib1",
+    "PackerSpliceBond_NegY_Rear_Rib1",
+    "SaddleSpliceBond_NegY_Rear_Rib1",
+    "SplicePlate_NegY_Spar_Rib2",
+    "RibPacker_NegY_Spar_Rib2",
+    "RibPackerBond_NegY_Spar_Rib2",
+    "PackerSpliceBond_NegY_Spar_Rib2",
+    "SaddleSpliceBond_NegY_Spar_Rib2",
+    "SplicePlate_NegY_Rear_Rib2",
+    "RibPacker_NegY_Rear_Rib2",
+    "RibPackerBond_NegY_Rear_Rib2",
+    "PackerSpliceBond_NegY_Rear_Rib2",
+    "SaddleSpliceBond_NegY_Rear_Rib2"
+  ],
+  "installed_layer_trims": [
+    {
+      "name": "RibFaceBond_PosY_Rib1A_Piece1",
+      "before_volume_mm3": 9.36910598142297,
+      "after_volume_mm3": 9.369105981456848
+    },
+    {
+      "name": "RibFaceBond_PosY_Rib1A_Piece2",
+      "before_volume_mm3": 1.5321576528836114,
+      "after_volume_mm3": 1.530105395974814
+    },
+    {
+      "name": "RibFaceBond_PosY_Rib1A_Piece3",
+      "before_volume_mm3": 52.57852099349102,
+      "after_volume_mm3": 52.55809140885099
+    },
+    {
+      "name": "RibFaceTape_PosY_Rib1A_Piece1",
+      "before_volume_mm3": 18.738211963135193,
+      "after_volume_mm3": 18.73816859360032
+    },
+    {
+      "name": "RibFaceTape_PosY_Rib1A_Piece2",
+      "before_volume_mm3": 3.064315305814203,
+      "after_volume_mm3": 3.047894237402507
+    },
+    {
+      "name": "RibFaceTape_PosY_Rib1A_Piece3",
+      "before_volume_mm3": 105.15703169606225,
+      "after_volume_mm3": 104.9936422738091
+    },
+    {
+      "name": "RibFaceBond_PosY_Rib1B_Piece1",
+      "before_volume_mm3": 13.7888863233468,
+      "after_volume_mm3": 13.7888863233468,
+      "status": "Exact trim rejected by validity gate; original valid template retained for explicit clash audit"
+    },
+    {
+      "name": "RibFaceBond_PosY_Rib1B_Piece2",
+      "before_volume_mm3": 95.29109442687023,
+      "after_volume_mm3": 95.2380576035811
+    },
+    {
+      "name": "RibFaceTape_PosY_Rib1B_Piece1",
+      "before_volume_mm3": 27.57777264669425,
+      "after_volume_mm3": 27.55643758203062
+    },
+    {
+      "name": "RibFaceTape_PosY_Rib1B_Piece2",
+      "before_volume_mm3": 190.582188853745,
+      "after_volume_mm3": 190.15803763379722
+    },
+    {
+      "name": "RibFaceBond_PosY_Rib2A_Piece1",
+      "before_volume_mm3": 23.372481231957686,
+      "after_volume_mm3": 23.335061779164256
+    },
+    {
+      "name": "RibFaceBond_PosY_Rib2A_Piece2",
+      "before_volume_mm3": 89.47234481702931,
+      "after_volume_mm3": 89.44261882918961
+    },
+    {
+      "name": "RibFaceTape_PosY_Rib2A_Piece1",
+      "before_volume_mm3": 46.74496246391759,
+      "after_volume_mm3": 46.444433847801506
+    },
+    {
+      "name": "RibFaceTape_PosY_Rib2A_Piece2",
+      "before_volume_mm3": 178.94468963406712,
+      "after_volume_mm3": 178.70686197831802
+    },
+    {
+      "name": "RibFaceBond_PosY_Rib2B_Piece1",
+      "before_volume_mm3": 8.78849365773503,
+      "after_volume_mm3": 8.786283905188066
+    },
+    {
+      "name": "RibFaceBond_PosY_Rib2B_Piece2",
+      "before_volume_mm3": 0.0025000370951511067,
+      "after_volume_mm3": 0.0025000370951511067
+    },
+    {
+      "name": "RibFaceBond_PosY_Rib2B_Piece3",
+      "before_volume_mm3": 1.9035894767327353,
+      "after_volume_mm3": 1.9027553148613945
+    },
+    {
+      "name": "RibFaceBond_PosY_Rib2B_Piece4",
+      "before_volume_mm3": 57.515752047106496,
+      "after_volume_mm3": 57.507665506829454
+    },
+    {
+      "name": "RibFaceTape_PosY_Rib2B_Piece1",
+      "before_volume_mm3": 17.576987315620993,
+      "after_volume_mm3": 17.559280997559405
+    },
+    {
+      "name": "RibFaceTape_PosY_Rib2B_Piece2",
+      "before_volume_mm3": 0.005000074190304136,
+      "after_volume_mm3": 0.005000074190304136
+    },
+    {
+      "name": "RibFaceTape_PosY_Rib2B_Piece3",
+      "before_volume_mm3": 3.807178953524312,
+      "after_volume_mm3": 3.8005068193613987
+    },
+    {
+      "name": "RibFaceTape_PosY_Rib2B_Piece4",
+      "before_volume_mm3": 115.03154756251223,
+      "after_volume_mm3": 114.96685233547038
+    },
+    {
+      "name": "RibFaceBond_NegY_Rib1A_Piece1",
+      "before_volume_mm3": 8.788493657735009,
+      "after_volume_mm3": 8.786284498315542
+    },
+    {
+      "name": "RibFaceBond_NegY_Rib1A_Piece2",
+      "before_volume_mm3": 0.002500037095151527,
+      "after_volume_mm3": 0.002500037095151527
+    },
+    {
+      "name": "RibFaceBond_NegY_Rib1A_Piece3",
+      "before_volume_mm3": 1.9035894767327077,
+      "after_volume_mm3": 1.9027553148613676
+    },
+    {
+      "name": "RibFaceBond_NegY_Rib1A_Piece4",
+      "before_volume_mm3": 57.51575204710292,
+      "after_volume_mm3": 57.50766550650228
+    },
+    {
+      "name": "RibFaceTape_NegY_Rib1A_Piece1",
+      "before_volume_mm3": 17.57698731562091,
+      "after_volume_mm3": 17.55928099755866
+    },
+    {
+      "name": "RibFaceTape_NegY_Rib1A_Piece2",
+      "before_volume_mm3": 0.005000074190305005,
+      "after_volume_mm3": 0.005000074190305005
+    },
+    {
+      "name": "RibFaceTape_NegY_Rib1A_Piece3",
+      "before_volume_mm3": 3.8071789535242573,
+      "after_volume_mm3": 3.8005068193613423
+    },
+    {
+      "name": "RibFaceTape_NegY_Rib1A_Piece4",
+      "before_volume_mm3": 115.0315475624954,
+      "after_volume_mm3": 114.96685233548303
+    },
+    {
+      "name": "RibFaceBond_NegY_Rib1B_Piece1",
+      "before_volume_mm3": 23.37248120906495,
+      "after_volume_mm3": 23.33506169882421
+    },
+    {
+      "name": "RibFaceBond_NegY_Rib1B_Piece2",
+      "before_volume_mm3": 89.47233817490621,
+      "after_volume_mm3": 89.44261982980258
+    },
+    {
+      "name": "RibFaceTape_NegY_Rib1B_Piece1",
+      "before_volume_mm3": 46.744962418132104,
+      "after_volume_mm3": 46.44443380278288
+    },
+    {
+      "name": "RibFaceTape_NegY_Rib1B_Piece2",
+      "before_volume_mm3": 178.94467634982087,
+      "after_volume_mm3": 178.70686220763375
+    },
+    {
+      "name": "RibFaceBond_NegY_Rib2A_Piece1",
+      "before_volume_mm3": 13.788886325498794,
+      "after_volume_mm3": 13.786389948918641
+    },
+    {
+      "name": "RibFaceBond_NegY_Rib2A_Piece2",
+      "before_volume_mm3": 95.29109072891852,
+      "after_volume_mm3": 95.23805470130768
+    },
+    {
+      "name": "RibFaceTape_NegY_Rib2A_Piece1",
+      "before_volume_mm3": 27.57777265099824,
+      "after_volume_mm3": 27.556437581956924
+    },
+    {
+      "name": "RibFaceTape_NegY_Rib2A_Piece2",
+      "before_volume_mm3": 190.58218145784156,
+      "after_volume_mm3": 190.1580307271791
+    },
+    {
+      "name": "RibFaceBond_NegY_Rib2B_Piece1",
+      "before_volume_mm3": 9.369105981422999,
+      "after_volume_mm3": 9.36910598145688
+    },
+    {
+      "name": "RibFaceBond_NegY_Rib2B_Piece2",
+      "before_volume_mm3": 1.5321576528835898,
+      "after_volume_mm3": 1.5301053968313445
+    },
+    {
+      "name": "RibFaceBond_NegY_Rib2B_Piece3",
+      "before_volume_mm3": 52.5785209934899,
+      "after_volume_mm3": 52.55803673950612
+    },
+    {
+      "name": "RibFaceTape_NegY_Rib2B_Piece1",
+      "before_volume_mm3": 18.73821196313532,
+      "after_volume_mm3": 18.738168592541875
+    },
+    {
+      "name": "RibFaceTape_NegY_Rib2B_Piece2",
+      "before_volume_mm3": 3.064315305814171,
+      "after_volume_mm3": 3.0478942374024856
+    },
+    {
+      "name": "RibFaceTape_NegY_Rib2B_Piece3",
+      "before_volume_mm3": 105.15703169606064,
+      "after_volume_mm3": 104.99364227380931
+    }
+  ],
+  "omitted_or_replaced_islands": [
+    {
+      "name": "SparToRibBond_PosY_Rib1_Piece1",
+      "volume_mm3": 4.8643495464815825,
+      "reason": "Radial bedding regenerated"
+    },
+    {
+      "name": "SparToRibBond_PosY_Rib1_Piece2",
+      "volume_mm3": 4.871150165119763,
+      "reason": "Radial bedding regenerated"
+    },
+    {
+      "name": "RibFaceBond_PosY_Rib2B_Piece2",
+      "volume_mm3": 0.0025000370951511067,
+      "reason": "Sub0.1 mm3 Boolean island omitted; not a manufacturable separate region"
+    },
+    {
+      "name": "RibFaceTape_PosY_Rib2B_Piece2",
+      "volume_mm3": 0.005000074190304136,
+      "reason": "Sub0.1 mm3 Boolean island omitted; not a manufacturable separate region"
+    },
+    {
+      "name": "CollarFaceBond_PosY_Rib2B_Piece2",
+      "volume_mm3": 0.0067267767652919,
+      "reason": "Sub0.1 mm3 Boolean island omitted; not a manufacturable separate region"
+    },
+    {
+      "name": "SparCollar_PosY_Rib2B_Piece2",
+      "volume_mm3": 0.0410396258310355,
+      "reason": "Sub0.1 mm3 Boolean island omitted; not a manufacturable separate region"
+    },
+    {
+      "name": "SparToRibBond_PosY_Rib2_Piece1",
+      "volume_mm3": 4.871386229492861,
+      "reason": "Radial bedding regenerated"
+    },
+    {
+      "name": "SparToRibBond_PosY_Rib2_Piece2",
+      "volume_mm3": 4.878185697728311,
+      "reason": "Radial bedding regenerated"
+    },
+    {
+      "name": "RibPackerBond_PosY_Spar_Rib1_P07Segment5",
+      "volume_mm3": 0.09922262230832754,
+      "reason": "Sub0.1 mm3 Boolean island omitted; not a manufacturable separate region"
+    },
+    {
+      "name": "RibPackerBond_PosY_Spar_Rib1_P07Segment6",
+      "volume_mm3": 0.09616518928435883,
+      "reason": "Sub0.1 mm3 Boolean island omitted; not a manufacturable separate region"
+    },
+    {
+      "name": "PackerSpliceBond_PosY_Spar_Rib1_P07Segment5",
+      "volume_mm3": 0.09961859675349809,
+      "reason": "Sub0.1 mm3 Boolean island omitted; not a manufacturable separate region"
+    },
+    {
+      "name": "PackerSpliceBond_PosY_Spar_Rib1_P07Segment6",
+      "volume_mm3": 0.035459227315419374,
+      "reason": "Sub0.1 mm3 Boolean island omitted; not a manufacturable separate region"
+    },
+    {
+      "name": "RibPackerBond_PosY_Spar_Rib2_P07Segment5",
+      "volume_mm3": 0.09285912291796125,
+      "reason": "Sub0.1 mm3 Boolean island omitted; not a manufacturable separate region"
+    },
+    {
+      "name": "RibPackerBond_PosY_Spar_Rib2_P07Segment6",
+      "volume_mm3": 0.08995144070825539,
+      "reason": "Sub0.1 mm3 Boolean island omitted; not a manufacturable separate region"
+    },
+    {
+      "name": "PackerSpliceBond_PosY_Spar_Rib2_P07Segment4",
+      "volume_mm3": 0.09246375381497984,
+      "reason": "Sub0.1 mm3 Boolean island omitted; not a manufacturable separate region"
+    },
+    {
+      "name": "PackerSpliceBond_PosY_Spar_Rib2_P07Segment5",
+      "volume_mm3": 0.08956357326509976,
+      "reason": "Sub0.1 mm3 Boolean island omitted; not a manufacturable separate region"
+    },
+    {
+      "name": "PackerSpliceBond_PosY_Spar_Rib2_P07Segment6",
+      "volume_mm3": 0.026885453144832032,
+      "reason": "Sub0.1 mm3 Boolean island omitted; not a manufacturable separate region"
+    },
+    {
+      "name": "RibFaceBond_NegY_Rib1A_Piece2",
+      "volume_mm3": 0.002500037095151527,
+      "reason": "Sub0.1 mm3 Boolean island omitted; not a manufacturable separate region"
+    },
+    {
+      "name": "RibFaceTape_NegY_Rib1A_Piece2",
+      "volume_mm3": 0.005000074190305005,
+      "reason": "Sub0.1 mm3 Boolean island omitted; not a manufacturable separate region"
+    },
+    {
+      "name": "CollarFaceBond_NegY_Rib1A_Piece1",
+      "volume_mm3": 0.006726776760941889,
+      "reason": "Sub0.1 mm3 Boolean island omitted; not a manufacturable separate region"
+    },
+    {
+      "name": "SparCollar_NegY_Rib1A_Piece1",
+      "volume_mm3": 0.04103962580987415,
+      "reason": "Sub0.1 mm3 Boolean island omitted; not a manufacturable separate region"
+    },
+    {
+      "name": "SparToRibBond_NegY_Rib1_Piece1",
+      "volume_mm3": 4.878185694971122,
+      "reason": "Radial bedding regenerated"
+    },
+    {
+      "name": "SparToRibBond_NegY_Rib1_Piece2",
+      "volume_mm3": 4.87138623423058,
+      "reason": "Radial bedding regenerated"
+    },
+    {
+      "name": "SparToRibBond_NegY_Rib2_Piece1",
+      "volume_mm3": 4.871150164130027,
+      "reason": "Radial bedding regenerated"
+    },
+    {
+      "name": "SparToRibBond_NegY_Rib2_Piece2",
+      "volume_mm3": 4.864349538058186,
+      "reason": "Radial bedding regenerated"
+    },
+    {
+      "name": "RibPackerBond_NegY_Spar_Rib1_P07Segment5",
+      "volume_mm3": 0.09285912291941507,
+      "reason": "Sub0.1 mm3 Boolean island omitted; not a manufacturable separate region"
+    },
+    {
+      "name": "RibPackerBond_NegY_Spar_Rib1_P07Segment6",
+      "volume_mm3": 0.08995144070817636,
+      "reason": "Sub0.1 mm3 Boolean island omitted; not a manufacturable separate region"
+    },
+    {
+      "name": "PackerSpliceBond_NegY_Spar_Rib1_P07Segment4",
+      "volume_mm3": 0.09246375381622889,
+      "reason": "Sub0.1 mm3 Boolean island omitted; not a manufacturable separate region"
+    },
+    {
+      "name": "PackerSpliceBond_NegY_Spar_Rib1_P07Segment5",
+      "volume_mm3": 0.08956357326335325,
+      "reason": "Sub0.1 mm3 Boolean island omitted; not a manufacturable separate region"
+    },
+    {
+      "name": "PackerSpliceBond_NegY_Spar_Rib1_P07Segment6",
+      "volume_mm3": 0.02688545151877491,
+      "reason": "Sub0.1 mm3 Boolean island omitted; not a manufacturable separate region"
+    },
+    {
+      "name": "RibPackerBond_NegY_Spar_Rib2_P07Segment5",
+      "volume_mm3": 0.09922262230673039,
+      "reason": "Sub0.1 mm3 Boolean island omitted; not a manufacturable separate region"
+    },
+    {
+      "name": "RibPackerBond_NegY_Spar_Rib2_P07Segment6",
+      "volume_mm3": 0.09616518928434101,
+      "reason": "Sub0.1 mm3 Boolean island omitted; not a manufacturable separate region"
+    },
+    {
+      "name": "PackerSpliceBond_NegY_Spar_Rib2_P07Segment5",
+      "volume_mm3": 0.09961859675364321,
+      "reason": "Sub0.1 mm3 Boolean island omitted; not a manufacturable separate region"
+    },
+    {
+      "name": "PackerSpliceBond_NegY_Spar_Rib2_P07Segment6",
+      "volume_mm3": 0.035459228821538964,
+      "reason": "Sub0.1 mm3 Boolean island omitted; not a manufacturable separate region"
+    }
+  ],
+  "slot_spar_relief": [
+    {
+      "name": "SlotSkinBond_Slot_PosY_Spar_Rib1_Piece1",
+      "before_volume_mm3": 41.17133456345835,
+      "after_volume_mm3": 35.279597848963164,
+      "radial_coupler_relief_mm": 1.0
+    },
+    {
+      "name": "SlotSkinBond_Slot_PosY_Spar_Rib1_Piece2",
+      "before_volume_mm3": 1.0686192508666916,
+      "after_volume_mm3": 0,
+      "radial_coupler_relief_mm": 1.0
+    },
+    {
+      "name": "SlotSkinBond_Slot_PosY_Spar_Rib1_Piece3",
+      "before_volume_mm3": 1.0544074909506742,
+      "after_volume_mm3": 0,
+      "radial_coupler_relief_mm": 1.0
+    },
+    {
+      "name": "SlotDoubler_Slot_PosY_Spar_Rib1_Piece1",
+      "before_volume_mm3": 62.44684085161829,
+      "after_volume_mm3": 59.14937144779989,
+      "radial_coupler_relief_mm": 1.0
+    },
+    {
+      "name": "SlotDoubler_Slot_PosY_Spar_Rib1_Piece2",
+      "before_volume_mm3": 0.3035188378724234,
+      "after_volume_mm3": 0,
+      "radial_coupler_relief_mm": 1.0
+    },
+    {
+      "name": "SlotDoubler_Slot_PosY_Spar_Rib1_Piece3",
+      "before_volume_mm3": 0.31598063387217673,
+      "after_volume_mm3": 0,
+      "radial_coupler_relief_mm": 1.0
+    },
+    {
+      "name": "SlotSkinBond_Slot_PosY_Rear_Rib1",
+      "before_volume_mm3": 40.422555220300865,
+      "after_volume_mm3": 40.422555220300865,
+      "radial_coupler_relief_mm": 1.0
+    },
+    {
+      "name": "SlotDoubler_Slot_PosY_Rear_Rib1",
+      "before_volume_mm3": 121.2676656609046,
+      "after_volume_mm3": 121.2676656609046,
+      "radial_coupler_relief_mm": 1.0
+    },
+    {
+      "name": "SlotSkinBond_Slot_PosY_Spar_Rib2_Piece1",
+      "before_volume_mm3": 41.176600701868516,
+      "after_volume_mm3": 35.384177952538735,
+      "radial_coupler_relief_mm": 1.0
+    },
+    {
+      "name": "SlotSkinBond_Slot_PosY_Spar_Rib2_Piece2",
+      "before_volume_mm3": 0.6697510622126236,
+      "after_volume_mm3": 0,
+      "radial_coupler_relief_mm": 1.0
+    },
+    {
+      "name": "SlotSkinBond_Slot_PosY_Spar_Rib2_Piece3",
+      "before_volume_mm3": 0.6828009026940294,
+      "after_volume_mm3": 0,
+      "radial_coupler_relief_mm": 1.0
+    },
+    {
+      "name": "SlotDoubler_Slot_PosY_Spar_Rib2_Piece1",
+      "before_volume_mm3": 71.00320654771733,
+      "after_volume_mm3": 67.7518111841184,
+      "radial_coupler_relief_mm": 1.0
+    },
+    {
+      "name": "SlotSkinBond_Slot_PosY_Rear_Rib2",
+      "before_volume_mm3": 40.41822803403215,
+      "after_volume_mm3": 40.41822803403215,
+      "radial_coupler_relief_mm": 1.0
+    },
+    {
+      "name": "SlotDoubler_Slot_PosY_Rear_Rib2",
+      "before_volume_mm3": 121.25468410210077,
+      "after_volume_mm3": 121.25468410210077,
+      "radial_coupler_relief_mm": 1.0
+    },
+    {
+      "name": "SlotEdgePotting_Slot_PosY_Spar_Rib1",
+      "before_volume_mm3": 113.50057874905612,
+      "after_volume_mm3": 113.50057874905612,
+      "radial_coupler_relief_mm": 0.0
+    },
+    {
+      "name": "SlotEdgePotting_Slot_PosY_Rear_Rib1_Piece1",
+      "before_volume_mm3": 63.098761283976124,
+      "after_volume_mm3": 63.098761283976124,
+      "radial_coupler_relief_mm": 0.0
+    },
+    {
+      "name": "SlotEdgePotting_Slot_PosY_Rear_Rib1_Piece2",
+      "before_volume_mm3": 28.05655459339134,
+      "after_volume_mm3": 28.05655459339134,
+      "radial_coupler_relief_mm": 0.0
+    },
+    {
+      "name": "SlotEdgePotting_Slot_PosY_Spar_Rib2",
+      "before_volume_mm3": 111.73837896371704,
+      "after_volume_mm3": 111.73837896371704,
+      "radial_coupler_relief_mm": 0.0
+    },
+    {
+      "name": "SlotEdgePotting_Slot_PosY_Rear_Rib2_Piece1",
+      "before_volume_mm3": 66.95455363638663,
+      "after_volume_mm3": 66.95455363638663,
+      "radial_coupler_relief_mm": 0.0
+    },
+    {
+      "name": "SlotEdgePotting_Slot_PosY_Rear_Rib2_Piece2",
+      "before_volume_mm3": 26.793816716356044,
+      "after_volume_mm3": 26.793816716356044,
+      "radial_coupler_relief_mm": 0.0
+    },
+    {
+      "name": "SlotDoubler_Slot_PosY_Spar_Rib1_Piece1_SparRelief1",
+      "before_volume_mm3": 46.47700779984824,
+      "after_volume_mm3": 43.17460387674405,
+      "radial_coupler_relief_mm": 1.0
+    },
+    {
+      "name": "SlotDoubler_Slot_PosY_Spar_Rib2_Piece1_SparRelief1",
+      "before_volume_mm3": 38.204234058978145,
+      "after_volume_mm3": 34.957643923155345,
+      "radial_coupler_relief_mm": 1.0
+    },
+    {
+      "name": "SlotSkinBond_Slot_NegY_Spar_Rib1_Piece1",
+      "before_volume_mm3": 41.176600706988516,
+      "after_volume_mm3": 35.38417795471075,
+      "radial_coupler_relief_mm": 1.0
+    },
+    {
+      "name": "SlotSkinBond_Slot_NegY_Spar_Rib1_Piece2",
+      "before_volume_mm3": 0.6828009020172057,
+      "after_volume_mm3": 0,
+      "radial_coupler_relief_mm": 1.0
+    },
+    {
+      "name": "SlotSkinBond_Slot_NegY_Spar_Rib1_Piece3",
+      "before_volume_mm3": 0.6697510628421486,
+      "after_volume_mm3": 0,
+      "radial_coupler_relief_mm": 1.0
+    },
+    {
+      "name": "SlotDoubler_Slot_NegY_Spar_Rib1_Piece1",
+      "before_volume_mm3": 71.00320655538027,
+      "after_volume_mm3": 67.75181118996124,
+      "radial_coupler_relief_mm": 1.0
+    },
+    {
+      "name": "SlotSkinBond_Slot_NegY_Rear_Rib1",
+      "before_volume_mm3": 40.41822803890922,
+      "after_volume_mm3": 40.41822803890922,
+      "radial_coupler_relief_mm": 1.0
+    },
+    {
+      "name": "SlotDoubler_Slot_NegY_Rear_Rib1",
+      "before_volume_mm3": 121.25468411673256,
+      "after_volume_mm3": 121.25468411673256,
+      "radial_coupler_relief_mm": 1.0
+    },
+    {
+      "name": "SlotSkinBond_Slot_NegY_Spar_Rib2_Piece1",
+      "before_volume_mm3": 41.17133453709214,
+      "after_volume_mm3": 35.27959782512495,
+      "radial_coupler_relief_mm": 1.0
+    },
+    {
+      "name": "SlotSkinBond_Slot_NegY_Spar_Rib2_Piece2",
+      "before_volume_mm3": 1.0686192403855037,
+      "after_volume_mm3": 0,
+      "radial_coupler_relief_mm": 1.0
+    },
+    {
+      "name": "SlotSkinBond_Slot_NegY_Spar_Rib2_Piece3",
+      "before_volume_mm3": 1.0544074926639757,
+      "after_volume_mm3": 0,
+      "radial_coupler_relief_mm": 1.0
+    },
+    {
+      "name": "SlotDoubler_Slot_NegY_Spar_Rib2_Piece1",
+      "before_volume_mm3": 62.44684080235201,
+      "after_volume_mm3": 59.14937139757011,
+      "radial_coupler_relief_mm": 1.0
+    },
+    {
+      "name": "SlotDoubler_Slot_NegY_Spar_Rib2_Piece2",
+      "before_volume_mm3": 0.30351883882284547,
+      "after_volume_mm3": 0,
+      "radial_coupler_relief_mm": 1.0
+    },
+    {
+      "name": "SlotDoubler_Slot_NegY_Spar_Rib2_Piece3",
+      "before_volume_mm3": 0.31598063539765986,
+      "after_volume_mm3": 0,
+      "radial_coupler_relief_mm": 1.0
+    },
+    {
+      "name": "SlotSkinBond_Slot_NegY_Rear_Rib2",
+      "before_volume_mm3": 40.42255519480626,
+      "after_volume_mm3": 40.42255519480626,
+      "radial_coupler_relief_mm": 1.0
+    },
+    {
+      "name": "SlotDoubler_Slot_NegY_Rear_Rib2",
+      "before_volume_mm3": 121.26766558441834,
+      "after_volume_mm3": 121.26766558441834,
+      "radial_coupler_relief_mm": 1.0
+    },
+    {
+      "name": "SlotEdgePotting_Slot_NegY_Spar_Rib1",
+      "before_volume_mm3": 111.73837891662342,
+      "after_volume_mm3": 111.73837891662342,
+      "radial_coupler_relief_mm": 0.0
+    },
+    {
+      "name": "SlotEdgePotting_Slot_NegY_Rear_Rib1_Piece1",
+      "before_volume_mm3": 66.95455363638588,
+      "after_volume_mm3": 66.95455363638588,
+      "radial_coupler_relief_mm": 0.0
+    },
+    {
+      "name": "SlotEdgePotting_Slot_NegY_Rear_Rib1_Piece2",
+      "before_volume_mm3": 26.793816719812316,
+      "after_volume_mm3": 26.793816719812316,
+      "radial_coupler_relief_mm": 0.0
+    },
+    {
+      "name": "SlotEdgePotting_Slot_NegY_Spar_Rib2",
+      "before_volume_mm3": 113.50058292245394,
+      "after_volume_mm3": 113.50058292245394,
+      "radial_coupler_relief_mm": 0.0
+    },
+    {
+      "name": "SlotEdgePotting_Slot_NegY_Rear_Rib2_Piece1",
+      "before_volume_mm3": 63.09876125666066,
+      "after_volume_mm3": 63.09876125666066,
+      "radial_coupler_relief_mm": 0.0
+    },
+    {
+      "name": "SlotEdgePotting_Slot_NegY_Rear_Rib2_Piece2",
+      "before_volume_mm3": 28.056554575575593,
+      "after_volume_mm3": 28.056554575575593,
+      "radial_coupler_relief_mm": 0.0
+    },
+    {
+      "name": "SlotDoubler_Slot_NegY_Spar_Rib1_Piece1_SparRelief1",
+      "before_volume_mm3": 38.20423406447648,
+      "after_volume_mm3": 34.95764392804059,
+      "radial_coupler_relief_mm": 1.0
+    },
+    {
+      "name": "SlotDoubler_Slot_NegY_Spar_Rib2_Piece1_SparRelief1",
+      "before_volume_mm3": 46.477007783358374,
+      "after_volume_mm3": 43.17460386167304,
+      "radial_coupler_relief_mm": 1.0
+    }
+  ],
+  "proposed_wire_routes": [
+    {
+      "gauge": "WireRoute_PosY_Front_0",
+      "conductors": 3,
+      "centerline_length_mm": 124.25111475449593,
+      "bundle_radius_assumption_mm": 4.0,
+      "corner_clearance_radius_assumption_mm": 6.0,
+      "side_offset_mm": 31,
+      "route_z_mm": -8.0,
+      "start_status": "Proposed free-air start outside motor envelope; actual motor exit/bend radius unverified",
+      "mass_status": "Reference clearance envelope only; no second wire mass added to supplied52g motor-with-wire allocation"
+    },
+    {
+      "gauge": "WireRoute_PosY_Rear_0",
+      "conductors": 3,
+      "centerline_length_mm": 124.25111475449593,
+      "bundle_radius_assumption_mm": 4.0,
+      "corner_clearance_radius_assumption_mm": 6.0,
+      "side_offset_mm": 31,
+      "route_z_mm": -8.0,
+      "start_status": "Proposed free-air start outside motor envelope; actual motor exit/bend radius unverified",
+      "mass_status": "Reference clearance envelope only; no second wire mass added to supplied52g motor-with-wire allocation"
+    },
+    {
+      "gauge": "WireRoute_NegY_Front_0",
+      "conductors": 3,
+      "centerline_length_mm": 124.25111475449593,
+      "bundle_radius_assumption_mm": 4.0,
+      "corner_clearance_radius_assumption_mm": 6.0,
+      "side_offset_mm": -31,
+      "route_z_mm": -8.0,
+      "start_status": "Proposed free-air start outside motor envelope; actual motor exit/bend radius unverified",
+      "mass_status": "Reference clearance envelope only; no second wire mass added to supplied52g motor-with-wire allocation"
+    },
+    {
+      "gauge": "WireRoute_NegY_Rear_0",
+      "conductors": 3,
+      "centerline_length_mm": 124.25111475449593,
+      "bundle_radius_assumption_mm": 4.0,
+      "corner_clearance_radius_assumption_mm": 6.0,
+      "side_offset_mm": -31,
+      "route_z_mm": -8.0,
+      "start_status": "Proposed free-air start outside motor envelope; actual motor exit/bend radius unverified",
+      "mass_status": "Reference clearance envelope only; no second wire mass added to supplied52g motor-with-wire allocation"
+    }
+  ]
+}

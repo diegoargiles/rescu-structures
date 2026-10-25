@@ -1,0 +1,82 @@
+[
+  {
+    "name": "SlotSkinBond_Slot_PosY_Spar_Rib1_Piece4",
+    "volume_mm3": 7.148397938854387
+  },
+  {
+    "name": "SlotDoubler_Slot_PosY_Spar_Rib1_Piece1",
+    "volume_mm3": 2.115559563877709
+  },
+  {
+    "name": "SlotDoubler_Slot_PosY_Spar_Rib1_Piece4",
+    "volume_mm3": 7.894552654144767
+  },
+  {
+    "name": "SlotDoubler_Slot_PosY_Spar_Rib1_Piece5",
+    "volume_mm3": 4.171956783219059
+  },
+  {
+    "name": "SlotSkinBond_Slot_PosY_Spar_Rib2_Piece4",
+    "volume_mm3": 6.877164257126722
+  },
+  {
+    "name": "SlotDoubler_Slot_PosY_Spar_Rib2_Piece1",
+    "volume_mm3": 2.0694897972584787
+  },
+  {
+    "name": "SlotDoubler_Slot_PosY_Spar_Rib2_Piece4",
+    "volume_mm3": 7.587099858114181
+  },
+  {
+    "name": "SlotDoubler_Slot_PosY_Spar_Rib2_Piece5",
+    "volume_mm3": 4.074133823517727
+  },
+  {
+    "name": "SlotEdgePotting_Slot_PosY_Spar_Rib1",
+    "volume_mm3": 48.83836720346769
+  },
+  {
+    "name": "SlotEdgePotting_Slot_PosY_Spar_Rib2",
+    "volume_mm3": 41.16493012748095
+  },
+  {
+    "name": "SlotSkinBond_Slot_NegY_Spar_Rib1_Piece4",
+    "volume_mm3": 6.8771642537292905
+  },
+  {
+    "name": "SlotDoubler_Slot_NegY_Spar_Rib1_Piece1",
+    "volume_mm3": 2.0694897986520164
+  },
+  {
+    "name": "SlotDoubler_Slot_NegY_Spar_Rib1_Piece4",
+    "volume_mm3": 7.587099810718366
+  },
+  {
+    "name": "SlotDoubler_Slot_NegY_Spar_Rib1_Piece5",
+    "volume_mm3": 4.074133823694844
+  },
+  {
+    "name": "SlotSkinBond_Slot_NegY_Spar_Rib2_Piece4",
+    "volume_mm3": 7.1483979406789615
+  },
+  {
+    "name": "SlotDoubler_Slot_NegY_Spar_Rib2_Piece1",
+    "volume_mm3": 2.115559563366371
+  },
+  {
+    "name": "SlotDoubler_Slot_NegY_Spar_Rib2_Piece4",
+    "volume_mm3": 7.8945526583960035
+  },
+  {
+    "name": "SlotDoubler_Slot_NegY_Spar_Rib2_Piece5",
+    "volume_mm3": 4.171956780622572
+  },
+  {
+    "name": "SlotEdgePotting_Slot_NegY_Spar_Rib1",
+    "volume_mm3": 41.16493010298244
+  },
+  {
+    "name": "SlotEdgePotting_Slot_NegY_Spar_Rib2",
+    "volume_mm3": 48.838367281386056
+  }
+]
