@@ -1,0 +1,45 @@
+{
+  "status": "CANDIDATE ONLY; no strength margin or accepted twist limit",
+  "tube_product": "CFT-WF-25-23-1",
+  "source": "https://www.easycomposites.us/25mm-23mm-woven-finish-carbon-fiber-tube",
+  "axial_modulus_GPa": 64,
+  "I_mm4": 5438.096883363932,
+  "EI_N_mm2": 348038200.5352916,
+  "two_boom_mass_g": 106.314,
+  "axial_tensile_strength_vendor_MPa": 650,
+  "compression_allowable_MPa": null,
+  "torsional_strength_MPa": null,
+  "laminate_bearing_allowable_MPa": null,
+  "bond_allowable_MPa": null,
+  "accepted_wing_twist_deg": null,
+  "cases": [
+    {
+      "per_motor_thrust_N": 17.3,
+      "front_displacement_mm": 0.12466562559301686,
+      "rear_displacement_mm": 0.1856190639436695,
+      "max_bending_stress_limit_MPa": 7.754321209135022,
+      "max_bending_stress_ultimate_MPa": 11.631481813702534
+    },
+    {
+      "per_motor_thrust_N": 26,
+      "front_displacement_mm": 0.1873587436658058,
+      "rear_displacement_mm": 0.2789650671985786,
+      "max_bending_stress_limit_MPa": 11.653893146676912,
+      "max_bending_stress_ultimate_MPa": 17.480839720015368
+    }
+  ],
+  "ideal_2d_twist_sensitivity": [
+    {
+      "twist_deg": 0.5,
+      "delta_section_Cl_2pi_slope": 0.05483113556160755
+    },
+    {
+      "twist_deg": 1,
+      "delta_section_Cl_2pi_slope": 0.1096622711232151
+    },
+    {
+      "twist_deg": 2,
+      "delta_section_Cl_2pi_slope": 0.2193245422464302
+    }
+  ]
+}

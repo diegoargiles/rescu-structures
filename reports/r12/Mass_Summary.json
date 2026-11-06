@@ -1,0 +1,29 @@
+{
+  "R11_modeled_addition_vs_R10_g": 76.22167588031168,
+  "R12_net_change_vs_R11_g": 13.261573791138442,
+  "R12_modeled_addition_vs_R10_g": 89.48324967145012,
+  "retained_bond_and_retention_allowance_g": 8,
+  "R12_added_budget_vs_R10_g": 97.48324967145012,
+  "battery_cell_mass_ceiling_g": 894,
+  "battery_nominal_Ah": 13,
+  "battery_nominal_Wh": 280.8,
+  "battery_packaging_allowance_mm": [
+    75,
+    68,
+    47
+  ],
+  "pack_centers_mm": [
+    [
+      237.5,
+      0,
+      1.25
+    ],
+    [
+      362.5,
+      0,
+      1.25
+    ]
+  ],
+  "aircraft_total_mass_and_CG": "Unresolved: current purchased masses, final pack hardware and approved CG range required",
+  "structural_release": false
+}

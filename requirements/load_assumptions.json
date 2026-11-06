@@ -1,0 +1,23 @@
+{
+  "configuration": "R13 layout candidate derived from R12; not V4/P03",
+  "status": "PROVISIONAL ENGINEERING SCREENS; no flight release",
+  "g_m_s2": 9.80665,
+  "aircraft_sizing_mass_kg": null,
+  "positive_limit_n": 3.0,
+  "negative_limit_n": -1.5,
+  "ultimate_multiplier": 1.5,
+  "load_factor_status": "Inherited comparison envelope only; mission, gust and control limits need faculty/team review",
+  "per_motor_thrust_N": 17.3,
+  "thrust_status": "Provisional; actual selected motor, voltage and propeller operating point unverified",
+  "motor_reaction_torque_Nm": null,
+  "wing_twist_screen_deg": 2.0,
+  "wing_deflection_halfspan_fraction": 0.05,
+  "deflection_status": "Inherited design screens; aero/control acceptance and prop clearance take precedence",
+  "arm_E_sensitivity_GPa": [40, 70],
+  "arm_G_sensitivity_GPa": [4],
+  "material_status": "Sensitivity values only; supplier layup and allowables not selected",
+  "R12_arm": {"front_motor_x_mm":235,"rear_motor_x_mm":555,"support_x_mm":[335,405],"length_mm":350,"section":"rectangular","width_mm":20,"height_mm":30,"wall_mm":1},
+  "R13_arm": {"front_motor_x_mm":170,"rear_motor_x_mm":600,"support_x_mm":[335,405],"length_mm":470,"section":"round","outer_diameter_mm":25,"wall_mm":1},
+  "pending_loads": ["gusts", "transition aerodynamic loads", "motor shaft reaction torque", "rotor gyroscopic moments", "landing/handling", "component inertial loads", "rotor wing download", "tail/pusher/payload reactions"],
+  "sources": ["inputs.json at commit 73391e627e078dced2644a18da135a09c447282f", "engine/analytic_v3.py at same commit", "R12 checked native geometry", "local R07/R08 studies"]
+}

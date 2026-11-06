@@ -1,0 +1,35 @@
+{
+  "status": "BLOCKED full-aircraft CG: missing masses, unplaced components and unreconciled structure",
+  "rows": 29,
+  "unknown_mass_rows": [
+    "Front lift prop PosY",
+    "Front lift ESC PosY",
+    "Rear lift prop PosY",
+    "Rear lift ESC PosY",
+    "Front lift prop NegY",
+    "Front lift ESC NegY",
+    "Rear lift prop NegY",
+    "Rear lift ESC NegY",
+    "Front module packaging/interconnect",
+    "Rear module packaging/interconnect",
+    "Pusher motor",
+    "Pusher prop/adapter",
+    "Flight controller + carrier",
+    "Receiver",
+    "Pusher ESC",
+    "Harness/connectors/protection",
+    "Other servos/linkages",
+    "Structure and installation hardware"
+  ],
+  "unplaced_rows": [
+    "Pusher ESC",
+    "Harness/connectors/protection",
+    "Other servos/linkages",
+    "Heat sink",
+    "Structure and installation hardware"
+  ],
+  "formula": "r_CG=sum(m_i*r_i)/sum(m_i)",
+  "battery_trim_formula": "x_battery_required=(M_total*x_target-sum_other(m_i*x_i))/m_battery",
+  "hover_trim_formula": "T_front_pair=W*(x_rear-x_CG)/(x_rear-x_front); T_rear_pair=W*(x_CG-x_front)/(x_rear-x_front)",
+  "constraints": "No battery travel authorized: fixed trays at X237.5 and362.5. Target CG from aero/controls needed; check loaded and payload-released states."
+}

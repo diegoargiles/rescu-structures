@@ -1,0 +1,98 @@
+{
+  "invalid_shapes": [],
+  "intersections": [
+    {
+      "a": "Wing_Skin_NegY",
+      "b": "R13_Aft_Torque_Tube_NegY",
+      "mm3": 5.064351566588808
+    },
+    {
+      "a": "Wing_Skin_NegY",
+      "b": "R13_Aft_Spar_Bond_Collar_265_NegY",
+      "mm3": 5.515815098479775
+    },
+    {
+      "a": "Wing_Skin_NegY",
+      "b": "R13_Aft_Spar_Bond_Collar_310_NegY",
+      "mm3": 7.9092225365999544
+    },
+    {
+      "a": "Wing_Skin_NegY",
+      "b": "R13_Aft_Spar_Bond_Collar_360_NegY",
+      "mm3": 8.621711862657488
+    },
+    {
+      "a": "Wing_Skin_NegY",
+      "b": "R13_Aft_Spar_Bond_Collar_410_NegY",
+      "mm3": 6.671359397024055
+    },
+    {
+      "a": "Wing_Skin_PosY",
+      "b": "R13_Aft_Torque_Tube_PosY",
+      "mm3": 5.060940909643331
+    },
+    {
+      "a": "Wing_Skin_PosY",
+      "b": "R13_Aft_Spar_Bond_Collar_265_PosY",
+      "mm3": 5.513740371460438
+    },
+    {
+      "a": "Wing_Skin_PosY",
+      "b": "R13_Aft_Spar_Bond_Collar_310_PosY",
+      "mm3": 7.9092775188341164
+    },
+    {
+      "a": "Wing_Skin_PosY",
+      "b": "R13_Aft_Spar_Bond_Collar_360_PosY",
+      "mm3": 8.621328080311937
+    },
+    {
+      "a": "Wing_Skin_PosY",
+      "b": "R13_Aft_Spar_Bond_Collar_410_PosY",
+      "mm3": 6.680334312543796
+    }
+  ],
+  "tested_pairs": 143,
+  "plan_clearance_mm": {
+    "Front_PosY": 13.223106102685312,
+    "Front_PosY_overlap_mm2": 0.0,
+    "Rear_PosY": 18.773197585946658,
+    "Rear_PosY_overlap_mm2": 0.0,
+    "Front_NegY": 13.223106102685302,
+    "Front_NegY_overlap_mm2": 0.0,
+    "Rear_NegY": 18.77319758594672,
+    "Rear_NegY_overlap_mm2": 0.0
+  },
+  "notes": [
+    "New components and relocated equipment/hardware checked against physical features. Modified inherited ribs are included as counterparts; unchanged-to-unchanged and modified-rib-to-inherited-shell pairs are excluded.",
+    "Hardware envelopes may intentionally engage. All overlaps are reported for review.",
+    "Clearances are nominal rigid geometry, no blade flex or tolerance budget."
+  ],
+  "Joiner_OD8_ID6_L200_axes": [
+    [
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0
+    ]
+  ],
+  "VTail_PosY_AntiRotation_Pin_D3_axes": [
+    [
+      0.40570574465364756,
+      0.7487080374955569,
+      0.524251011772587
+    ]
+  ],
+  "VTail_NegY_AntiRotation_Pin_D3_axes": [
+    [
+      0.40570574465364756,
+      -0.7487080374955569,
+      0.524251011772587
+    ]
+  ],
+  "status": "OPEN: inspect reported interference before release"
+}

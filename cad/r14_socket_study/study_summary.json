@@ -1,0 +1,38 @@
+{
+  "baseline_r13_sha256": "a3dce4b9c3e0d9ba07f226cec989d9e6cf5a1c445e86b45c52cb9a1a2ab83ef7",
+  "native_sha256": "a11538af7ea76200404d203677b1203c0c749c8f3cf3d85e289b14d1f043638e",
+  "changes": [
+    {
+      "name": "R13_Forward_Bonded_Wing_Socket_PosY",
+      "old_volume_mm3": 3144.6946144229078,
+      "new_volume_mm3": 4501.0144107572305,
+      "delta_g_at_1600kg_m3": 2.1701116741349167
+    },
+    {
+      "name": "R13_Aft_Bonded_Wing_Socket_PosY",
+      "old_volume_mm3": 3144.6946144229078,
+      "new_volume_mm3": 4501.0144107572305,
+      "delta_g_at_1600kg_m3": 2.1701116741349167
+    },
+    {
+      "name": "R13_Forward_Bonded_Wing_Socket_NegY",
+      "old_volume_mm3": 3144.694614422914,
+      "new_volume_mm3": 4501.01441075724,
+      "delta_g_at_1600kg_m3": 2.1701116741349207
+    },
+    {
+      "name": "R13_Aft_Bonded_Wing_Socket_NegY",
+      "old_volume_mm3": 3144.694614422914,
+      "new_volume_mm3": 4501.01441075724,
+      "delta_g_at_1600kg_m3": 2.1701116741349207
+    }
+  ],
+  "delta_g": 8.680446696539676,
+  "tested_pairs": 20,
+  "intersections": [],
+  "scope": "Four modified sockets against physical R14 features, overlap threshold 0.01 mm3. Other interfaces inherit R13 checks. No loaded clearance, tool access or bond strength acceptance.",
+  "old_overlap_mm": 20,
+  "new_overlap_mm": 32,
+  "radial_bond_gap_mm": 0.15,
+  "status": "FIT STUDY ONLY"
+}

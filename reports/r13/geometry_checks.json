@@ -1,0 +1,47 @@
+{
+  "invalid_shapes": [],
+  "intersections": [],
+  "tested_pairs": 143,
+  "plan_clearance_mm": {
+    "Front_PosY": 13.223106102685312,
+    "Front_PosY_overlap_mm2": 0.0,
+    "Rear_PosY": 18.773197585946658,
+    "Rear_PosY_overlap_mm2": 0.0,
+    "Front_NegY": 13.223106102685302,
+    "Front_NegY_overlap_mm2": 0.0,
+    "Rear_NegY": 18.77319758594672,
+    "Rear_NegY_overlap_mm2": 0.0
+  },
+  "notes": [
+    "New components and relocated equipment/hardware checked against physical features. Modified inherited ribs are included as counterparts; unchanged-to-unchanged and modified-rib-to-inherited-shell pairs are excluded.",
+    "Hardware envelopes may intentionally engage. All overlaps are reported for review.",
+    "Clearances are nominal rigid geometry, no blade flex or tolerance budget."
+  ],
+  "Joiner_OD8_ID6_L200_axes": [
+    [
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0
+    ]
+  ],
+  "VTail_PosY_AntiRotation_Pin_D3_axes": [
+    [
+      0.40570574465364756,
+      0.7487080374955569,
+      0.524251011772587
+    ]
+  ],
+  "VTail_NegY_AntiRotation_Pin_D3_axes": [
+    [
+      0.40570574465364756,
+      -0.7487080374955569,
+      0.524251011772587
+    ]
+  ],
+  "status": "PASS targeted static geometry"
+}

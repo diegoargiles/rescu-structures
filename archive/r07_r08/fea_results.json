@@ -1,0 +1,47 @@
+[
+  {
+    "mesh_size_mm": 2.0,
+    "nodes": 6712,
+    "elements": 3213,
+    "fixed_nodes": 341,
+    "loaded_nodes": 148,
+    "max_displacement_mm": 0.00020894044584326857,
+    "max_integration_point_von_mises_MPa": 2.9543364443114197,
+    "p95_integration_point_von_mises_MPa": 1.1920388019556094,
+    "support_reaction_N": [
+      -4.543599949058397e-08,
+      -3.7030000052395984e-08,
+      -54.371428242909026
+    ]
+  },
+  {
+    "mesh_size_mm": 1.2,
+    "nodes": 17793,
+    "elements": 9299,
+    "fixed_nodes": 1065,
+    "loaded_nodes": 256,
+    "max_displacement_mm": 0.0002056027231938421,
+    "max_integration_point_von_mises_MPa": 3.4104166503850335,
+    "p95_integration_point_von_mises_MPa": 1.1369913838715828,
+    "support_reaction_N": [
+      -1.9725999861330834e-08,
+      -2.458600105795239e-08,
+      -54.371427968018956
+    ]
+  },
+  {
+    "mesh_size_mm": 0.8,
+    "nodes": 47469,
+    "elements": 27051,
+    "fixed_nodes": 2187,
+    "loaded_nodes": 476,
+    "max_displacement_mm": 0.00020458176394011105,
+    "max_integration_point_von_mises_MPa": 3.3989903397922396,
+    "p95_integration_point_von_mises_MPa": 1.1339383614322847,
+    "support_reaction_N": [
+      1.8715620017997758e-07,
+      8.268800049532343e-08,
+      -54.3714284476318
+    ]
+  }
+]

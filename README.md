@@ -1,54 +1,74 @@
-# RescU Structures — current V4 / CAD P03
+# RescU Structures — R13 layout / R14 attachment development
 
-Current analysis for the Ravatherm XPS / GFRP RescU VTOL UAV. **Run V4 for the current design.** V2 and the older H60 V3 are historical references under [archive/v2_v3](archive/v2_v3/).
+**R13 is the reviewed layout candidate. R14 is a separate socket-overlap study. Neither is strength-qualified.** The older V4 / CAD P03 analysis remains available as a historical checkpoint; its mass, CG and structural results do not describe R13/R14.
 
-## Run
+## Current progress
 
-Python 3.10+; no third-party packages required. Open a terminal in this repository folder:
+- R13: longer round motor booms, motors lowered 6 mm, separate bonded motor pods/wing sockets, extended aft reinforcement and internal ESC provisions.
+- R13 geometry check: 143 targeted candidate pairs; no reported intersections over 0.01 mm³ and no invalid checked shapes. Scope excludes a full unchanged-assembly audit and loaded clearance.
+- R14: wing-socket sleeve overlap 20 → 32 mm; four modified solids valid and 20 targeted pairs clear. Modeled mass addition 8.68 g before adhesive; no change to bolt spacing or motor locations.
+- Attachment study: force/moment equilibrium, provisional 17.3 N thrust cases, separate 26 N / 0.45 N·m sensitivity, and nominal bolt/rib/ear demand calculations.
+- Component register: 250 CAD feature locations and 29 equipment/accounting entries. Unknown masses/positions prevent release of an aircraft CG.
+- Material/process candidates: matching 25/23 mm carbon tube, vacuum-bagged laminate trials and adhesive characterization plan. Diego confirms vacuum bagging available; no materials purchased/committed.
+
+## Read first
+
+| Document | Purpose |
+|---|---|
+| [Latest progress and downloads](docs/CURRENT_STATUS.md) | Revision status, package access and limitations |
+| [Attachment study](reports/connection_study/START_HERE.md) | Free body, calculations, R14 trade and placement plan |
+| [Material, bond and twist basis](requirements/MATERIAL_BOND_TWIST_CANDIDATES.md) | Supplier-backed candidates and qualification plan |
+| [Load basis](requirements/LOAD_BASIS.md) | Equations, assumptions and missing operating inputs |
+| [Team input requests](requirements/TEAM_DATA_REQUESTS.md) | Responsibilities and prioritized questions |
+| [Task board](docs/TASK_BOARD.md) | Completed screens and remaining gates |
+| [CAD baseline and distribution](cad/BASELINE.md) | Provenance, file hashes and assembly download links |
+
+![R13 layout](cad/r13/R13_Layout_Review.png)
+
+![Attachment free body and socket section](reports/connection_study/Attachment_Annotated.png)
+
+## Run calculations
+
+Python 3.10+ standard library, from the repository root:
+
+```powershell
+python analysis/r13/arm_load_screen.py
+python analysis/r13/attachment_calculations.py
+python analysis/r13/material_candidate_screen.py
+python analysis/r13/cg_from_register.py
+```
+
+The CG script deliberately exits with an incomplete-inventory message until every required mass and location is resolved. CAD centroids are geometric placement proxies, not measured equipment CGs. Preserve proposed/assumed labels when filling the register.
+
+`arm_load_screen.py` writes `results/r13/`, which remains ignored; reviewed snapshots are committed under `reports/r13/`. `attachment_calculations.py` regenerates the initial candidate register as well as calculations: back up any manually completed register before rerunning it, or pass that working register directly to `cg_from_register.py`. `material_candidate_screen.py` writes its candidate result under `requirements/`.
+
+## CAD and drawings
+
+The smaller added-parts STEP exports are directly committed under `cad/r13/` and `cad/r14_socket_study/`. Full native assemblies and the large assembly STEP are supplied in the versioned packages linked from [the CAD manifest](cad/FILE_MANIFEST.md). Package links require access to Diego's ChatGPT account; they are not public team downloads. An ordinary clone does not contain the full native assemblies.
+
+Download/extract the relevant package and place its native files at the paths in the manifest to reproduce CAD work. FreeCAD Python with `FreeCAD` and `Part` is required for CAD scripts; the checker also needs NumPy/Shapely, and review drawings need Matplotlib. Example Windows path:
+
+```powershell
+& 'C:\Program Files\FreeCAD 1.1\bin\python.exe' cad/scripts/build_r14_socket_study.py
+```
+
+This consumes the R13 native file under `cad/r13/` and creates a separate R14 study. `build_r13.py` additionally requires the exact preserved R12 native source supplied as its first argument. See [R13 review](docs/R13_REVIEW.md) and [manufacturing concept](manufacturing/R13_MANUFACTURING.md).
+
+## Remaining engineering work
+
+Resolve lift motor voltage/propeller operating point; reconcile current aircraft mass/CG; establish material/process allowables and bond performance; obtain aero/control stiffness acceptance; analyze actual wing/rib/root compliance; perform FEA and representative tests. The inherited load factors, 1.5 ultimate multiplier and twist/deflection screens remain provisional. Material candidate axial data does not establish laminate bearing, compression or torsional capacity.
+
+## Historical V4 / P03 checkpoint
+
+The original `RescU_Structures_V4.py`, `inputs.json`, `data/cad_snapshot.json`, engine, verification script and [baseline outputs](reports/baseline/SUMMARY.md) remain preserved. Read [the V4 guide](docs/STRUCTURES_V4_GUIDE.md) before reproducing that older configuration:
 
 ```powershell
 python RescU_Structures_V4.py
 python verify_v4.py
 ```
 
-On Windows, `py` can replace `python`. After running, open **results/REPORT.html** for the readable report. Edit **inputs.json** for masses, material assumptions, loads and reserve. Export fresh CAD geometry before treating a changed design as the current baseline.
+The scripts and results under `archive/r07_r08/` are historical studies with separate assumptions; their required native inputs are not included in an ordinary clone. They are not R14 FEA validation.
 
-The committed [baseline report](reports/baseline/SUMMARY.md) and [validation results](reports/baseline/validation.json) record this checkpoint. Download/open [REPORT.html](reports/baseline/REPORT.html) locally for the formatted version; GitHub displays its source.
+## Update your laptop
 
-## Current mass checkpoint
-
-| Quantity | Mass |
-|---|---:|
-| CAD structural materials | 615.931 g |
-| Structural budget including allowances, incomplete | 736.422 g |
-| Accounted aircraft estimate | 3.2536 kg |
-| Sizing aircraft mass, including reserve | 3.4536 kg |
-
-Battery budget is **944 g**: twelve cells at 74.5 g maximum each plus **50 g assumed** pack hardware, not a measured pack. Localized fuselage XPS, joints, final mounts and installation masses remain unresolved. Do not mistake the CAD material subtotal for finished structural mass.
-
-**Screening status:** the baseline 3g wing case passes its assumed criteria; the 70%-stiffness case exceeds the 2° twist screen. Overall structural validity is **UNRESOLVED**. Numerical tests passing does not qualify the aircraft or its joints.
-
-## Repository layout
-
-| Location | Purpose |
-|---|---|
-| `RescU_Structures_V4.py` | Current run entry point |
-| `inputs.json` | Editable assumptions and component budget |
-| `data/cad_snapshot.json` | P03 solid volumes, centroids, inertias and geometry inputs |
-| `engine/` | Required numerical and component equations; used by V4 |
-| `verify_v4.py` | Accounting and numerical checks |
-| `docs/STRUCTURES_V4_GUIDE.md` | Detailed model, sources, assumptions and limits |
-| `tools/Export_Current_CAD.FCMacro` | Update the snapshot from saved FreeCAD geometry |
-| `reports/baseline/` | Reviewed V4 checkpoint outputs |
-| `archive/v2_v3/` | Preserved older models, tests, airfoil references and design notes |
-| `results/` | Locally regenerated outputs; excluded from Git |
-
-Read the [V4 guide](docs/STRUCTURES_V4_GUIDE.md) before changing CAD or interpreting strength/CG results. The native CAD assembly is maintained separately; its filename and SHA-256 are recorded in the snapshot. ESC reservations, prop swept disks and duplicated untrimmed source geometry are not counted as structural materials.
-
-## Updating your laptop
-
-In GitHub Desktop, select **rescu-structures**, switch to **main**, then **Fetch origin → Pull origin**. Run the V4 command above from that repository folder.
-
-## Resolving structural validity
-
-Follow the [prioritized structural validation plan](docs/STRUCTURAL_VALIDATION_PLAN.md). Begin with the agreed load envelope, wing center connection and motor-arm hardpoints; close geometry, material, analysis and test evidence separately.
+In GitHub Desktop, select `rescu-structures`, switch to `main`, then **Fetch origin → Pull origin**. Download native CAD separately using the manifest. Qualification status is recorded separately from progress.

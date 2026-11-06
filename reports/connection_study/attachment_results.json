@@ -1,0 +1,157 @@
+{
+  "loads": [
+    {
+      "T_N": 17.3,
+      "case": "both",
+      "front_N": 17.3,
+      "rear_N": 17.3,
+      "force_on_wing_A_N": 9.885714285714286,
+      "force_on_wing_B_N": 24.714285714285715,
+      "max_abs_support_N": 24.714285714285715
+    },
+    {
+      "T_N": 17.3,
+      "case": "front_only",
+      "front_N": 17.3,
+      "rear_N": 0,
+      "force_on_wing_A_N": 58.078571428571436,
+      "force_on_wing_B_N": -40.77857142857143,
+      "max_abs_support_N": 58.078571428571436
+    },
+    {
+      "T_N": 17.3,
+      "case": "rear_only",
+      "front_N": 0,
+      "rear_N": 17.3,
+      "force_on_wing_A_N": -48.19285714285715,
+      "force_on_wing_B_N": 65.49285714285715,
+      "max_abs_support_N": 65.49285714285715
+    },
+    {
+      "T_N": 17.3,
+      "case": "front_full_rear_half",
+      "front_N": 17.3,
+      "rear_N": 8.65,
+      "force_on_wing_A_N": 33.98214285714286,
+      "force_on_wing_B_N": -8.032142857142857,
+      "max_abs_support_N": 33.98214285714286
+    },
+    {
+      "T_N": 17.3,
+      "case": "front_half_rear_full",
+      "front_N": 8.65,
+      "rear_N": 17.3,
+      "force_on_wing_A_N": -19.153571428571425,
+      "force_on_wing_B_N": 45.10357142857143,
+      "max_abs_support_N": 45.10357142857143
+    },
+    {
+      "T_N": 26.0,
+      "case": "both",
+      "front_N": 26.0,
+      "rear_N": 26.0,
+      "force_on_wing_A_N": 14.857142857142854,
+      "force_on_wing_B_N": 37.142857142857146,
+      "max_abs_support_N": 37.142857142857146
+    },
+    {
+      "T_N": 26.0,
+      "case": "front_only",
+      "front_N": 26.0,
+      "rear_N": 0,
+      "force_on_wing_A_N": 87.28571428571428,
+      "force_on_wing_B_N": -61.285714285714285,
+      "max_abs_support_N": 87.28571428571428
+    },
+    {
+      "T_N": 26.0,
+      "case": "rear_only",
+      "front_N": 0,
+      "rear_N": 26.0,
+      "force_on_wing_A_N": -72.42857142857143,
+      "force_on_wing_B_N": 98.42857142857143,
+      "max_abs_support_N": 98.42857142857143
+    },
+    {
+      "T_N": 26.0,
+      "case": "front_full_rear_half",
+      "front_N": 26.0,
+      "rear_N": 13.0,
+      "force_on_wing_A_N": 51.07142857142857,
+      "force_on_wing_B_N": -12.071428571428571,
+      "max_abs_support_N": 51.07142857142857
+    },
+    {
+      "T_N": 26.0,
+      "case": "front_half_rear_full",
+      "front_N": 13.0,
+      "rear_N": 26.0,
+      "force_on_wing_A_N": -28.785714285714292,
+      "force_on_wing_B_N": 67.78571428571429,
+      "max_abs_support_N": 67.78571428571429
+    }
+  ],
+  "stress_demands": {
+    "limit_vertical_support_N": 98.42857142857143,
+    "ultimate_vertical_support_N": 147.64285714285714,
+    "nominal_bolt_double_shear_MPa": 10.443595789553894,
+    "nominal_rib_bearing_MPa": 24.607142857142858,
+    "nominal_ear_bearing_MPa": 10.471124620060788,
+    "ear_net_section_tension_MPa": 2.9086457277946636,
+    "ear_top_shearout_average_MPa": 4.908339665653496,
+    "status": "Demand only. Assumed equal sharing, D3 shank and nominal local laminate thickness. No allowable or margin.",
+    "same_rotation_pair_lateral_limit_N": 12.857142857142856,
+    "same_rotation_pair_lateral_ultimate_N": 19.285714285714285,
+    "opposite_rotation_equal_torque_net_lateral_N": 0,
+    "motor_pod_19mm_bolt_couple_N": 23.68421052631579,
+    "note": "Vertical motor-shaft torque creates horizontal boom bending. Lateral reaction is axial to Y-axis rib bolts; assess retention/ear bending separately. Opposite torque cancellation at supports does not cancel local internal loads."
+  },
+  "overlap_trade": [
+    {
+      "overlap_mm": 20,
+      "bond_area_mm2": 1570.7963267948967,
+      "projected_bearing_pressure_ultimate_MPa": 0.29528571428571426,
+      "mean_surface_traction_scale_MPa": 0.09399236210598504,
+      "four_sleeves_added_g": 0.0,
+      "added_bond_gap_epoxy_g_at1200": 0.0
+    },
+    {
+      "overlap_mm": 24,
+      "bond_area_mm2": 1884.9555921538758,
+      "projected_bearing_pressure_ultimate_MPa": 0.24607142857142855,
+      "mean_surface_traction_scale_MPa": 0.07832696842165421,
+      "four_sleeves_added_g": 2.893482232179885,
+      "added_bond_gap_epoxy_g_at1200": 0.22755183908481638
+    },
+    {
+      "overlap_mm": 28,
+      "bond_area_mm2": 2199.1148575128555,
+      "projected_bearing_pressure_ultimate_MPa": 0.21091836734693878,
+      "mean_surface_traction_scale_MPa": 0.06713740150427502,
+      "four_sleeves_added_g": 5.78696446435977,
+      "added_bond_gap_epoxy_g_at1200": 0.45510367816963276
+    },
+    {
+      "overlap_mm": 32,
+      "bond_area_mm2": 2513.2741228718346,
+      "projected_bearing_pressure_ultimate_MPa": 0.18455357142857143,
+      "mean_surface_traction_scale_MPa": 0.05874522631624065,
+      "four_sleeves_added_g": 8.680446696539654,
+      "added_bond_gap_epoxy_g_at1200": 0.6826555172544492
+    },
+    {
+      "overlap_mm": 36,
+      "bond_area_mm2": 2827.4333882308138,
+      "projected_bearing_pressure_ultimate_MPa": 0.16404761904761905,
+      "mean_surface_traction_scale_MPa": 0.05221797894776947,
+      "four_sleeves_added_g": 11.57392892871954,
+      "added_bond_gap_epoxy_g_at1200": 0.9102073563392655
+    }
+  ],
+  "material_allowables": null,
+  "strength_margin": null,
+  "sources": [
+    "https://store.tmotor.com/product/at2814-long-shaft-fixed-wing-motor.html",
+    "https://ntrs.nasa.gov/citations/19890016677"
+  ]
+}

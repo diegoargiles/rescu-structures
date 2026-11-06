@@ -1,0 +1,12 @@
+{
+  "verified_at_utc": "2026-11-06T02:47:05.546957+00:00",
+  "native_sha256": "a3dce4b9c3e0d9ba07f226cec989d9e6cf5a1c445e86b45c52cb9a1a2ab83ef7",
+  "checker_sha256": "f37a750410b4d1fe107089911e4201291a0ae64806fd0aeae889786932b53284",
+  "geometry_checks_sha256": "f5a0a26edf7c5a69700ac5a24681e3445ba53c143986fb9d87beddfd08539849",
+  "scope": [
+    "New components and relocated equipment/hardware checked against physical features. Modified inherited ribs are included as counterparts; unchanged-to-unchanged and modified-rib-to-inherited-shell pairs are excluded.",
+    "Hardware envelopes may intentionally engage. All overlaps are reported for review.",
+    "Clearances are nominal rigid geometry, no blade flex or tolerance budget."
+  ],
+  "status": "PASS targeted static geometry"
+}

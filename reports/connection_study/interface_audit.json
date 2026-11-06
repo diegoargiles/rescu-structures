@@ -1,0 +1,173 @@
+{
+  "source_sha256": "a3dce4b9c3e0d9ba07f226cec989d9e6cf5a1c445e86b45c52cb9a1a2ab83ef7",
+  "pairs": [
+    {
+      "a": "R13_Forward_Bonded_Wing_Socket_PosY",
+      "b": "R13_Aft_Bonded_Wing_Socket_PosY",
+      "minimum_gap_mm": 50.0,
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R13_Forward_Bonded_Wing_Socket_PosY",
+      "b": "CFRP_motor_rib_nominal_2mm_PosY",
+      "minimum_gap_mm": 0.14999999999997726,
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R13_Forward_Bonded_Wing_Socket_PosY",
+      "b": "Rebuilt_Swept_TaperedSpar_PosY",
+      "minimum_gap_mm": 11.252709614888577,
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R13_Forward_Bonded_Wing_Socket_PosY",
+      "b": "R13_Aft_Torque_Tube_PosY",
+      "minimum_gap_mm": 63.181829685313645,
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R13_Forward_Bonded_Wing_Socket_PosY",
+      "b": "Wing_Skin_PosY",
+      "minimum_gap_mm": 0.341558247939695,
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R13_Forward_Bonded_Wing_Socket_PosY",
+      "b": "Bonded_spar_sleeve_PosY",
+      "minimum_gap_mm": 10.252712807570425,
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R13_Forward_Bonded_Wing_Socket_PosY",
+      "b": "R13_Aft_Spar_Bond_Collar_265_PosY",
+      "minimum_gap_mm": 63.100732262829055,
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R13_Aft_Bonded_Wing_Socket_PosY",
+      "b": "CFRP_motor_rib_nominal_2mm_PosY",
+      "minimum_gap_mm": 0.14999999999997726,
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R13_Aft_Bonded_Wing_Socket_PosY",
+      "b": "Rebuilt_Swept_TaperedSpar_PosY",
+      "minimum_gap_mm": 37.97110749989869,
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R13_Aft_Bonded_Wing_Socket_PosY",
+      "b": "R13_Aft_Torque_Tube_PosY",
+      "minimum_gap_mm": 3.7999999999999994,
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R13_Aft_Bonded_Wing_Socket_PosY",
+      "b": "Wing_Skin_PosY",
+      "minimum_gap_mm": 2.3896980603055122,
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R13_Aft_Bonded_Wing_Socket_PosY",
+      "b": "Bonded_spar_sleeve_PosY",
+      "minimum_gap_mm": 36.97111069255256,
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R13_Aft_Bonded_Wing_Socket_PosY",
+      "b": "R13_Aft_Spar_Bond_Collar_265_PosY",
+      "minimum_gap_mm": 3.2999999999999994,
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "CFRP_motor_rib_nominal_2mm_PosY",
+      "b": "Rebuilt_Swept_TaperedSpar_PosY",
+      "minimum_gap_mm": 1.1499963283567098,
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "CFRP_motor_rib_nominal_2mm_PosY",
+      "b": "R13_Aft_Torque_Tube_PosY",
+      "minimum_gap_mm": 0.6499999999999309,
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "CFRP_motor_rib_nominal_2mm_PosY",
+      "b": "Wing_Skin_PosY",
+      "minimum_gap_mm": 0.04561860638131135,
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "CFRP_motor_rib_nominal_2mm_PosY",
+      "b": "Bonded_spar_sleeve_PosY",
+      "minimum_gap_mm": 0.14999952108273845,
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "CFRP_motor_rib_nominal_2mm_PosY",
+      "b": "R13_Aft_Spar_Bond_Collar_265_PosY",
+      "minimum_gap_mm": 0.14999999999993446,
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "Rebuilt_Swept_TaperedSpar_PosY",
+      "b": "R13_Aft_Torque_Tube_PosY",
+      "minimum_gap_mm": 39.87238555249596,
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "Rebuilt_Swept_TaperedSpar_PosY",
+      "b": "Wing_Skin_PosY",
+      "minimum_gap_mm": 1.6218526092542604,
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "Rebuilt_Swept_TaperedSpar_PosY",
+      "b": "Bonded_spar_sleeve_PosY",
+      "minimum_gap_mm": 0.14999952101990255,
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "Rebuilt_Swept_TaperedSpar_PosY",
+      "b": "R13_Aft_Spar_Bond_Collar_265_PosY",
+      "minimum_gap_mm": 45.06906883919389,
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R13_Aft_Torque_Tube_PosY",
+      "b": "Wing_Skin_PosY",
+      "minimum_gap_mm": 0.6618549293804861,
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R13_Aft_Torque_Tube_PosY",
+      "b": "Bonded_spar_sleeve_PosY",
+      "minimum_gap_mm": 44.24132319030762,
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "R13_Aft_Torque_Tube_PosY",
+      "b": "R13_Aft_Spar_Bond_Collar_265_PosY",
+      "minimum_gap_mm": 0.15000000000000974,
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "Wing_Skin_PosY",
+      "b": "Bonded_spar_sleeve_PosY",
+      "minimum_gap_mm": 1.2633391841696149,
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "Wing_Skin_PosY",
+      "b": "R13_Aft_Spar_Bond_Collar_265_PosY",
+      "minimum_gap_mm": 0.16500743059307835,
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "Bonded_spar_sleeve_PosY",
+      "b": "R13_Aft_Spar_Bond_Collar_265_PosY",
+      "minimum_gap_mm": 44.06907203184748,
+      "overlap_mm3": 0.0
+    }
+  ]
+}

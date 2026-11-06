@@ -1,0 +1,30 @@
+component,cad_feature,mass_g,mass_status,x_mm,y_mm,z_mm,location_status
+Front lift motor PosY,Front_AT2814_1200KV_envelope_PosY,108,vendor mass including cable; cable CG lumped at motor,170.00000000000054,265.0,4.4994985173904425,CAD envelope centroid; real installed CG unmeasured
+Front lift prop PosY,REFERENCE_R13_Front_10inch_Disk_PosY,,unknown,169.99999999999997,265.0,25.200000000000003,CAD envelope centroid; real installed CG unmeasured
+Front lift ESC PosY,Front_AIR40A_installation_envelope_PosY,,unknown,465.0,15.000000000000057,-9.850000000000001,CAD envelope centroid; real installed CG unmeasured
+Rear lift motor PosY,Rear_AT2814_1200KV_envelope_PosY,108,vendor mass including cable; cable CG lumped at motor,600.0000000000007,264.99999999999994,4.499498517390437,CAD envelope centroid; real installed CG unmeasured
+Rear lift prop PosY,REFERENCE_R13_Rear_10inch_Disk_PosY,,unknown,600.0,265.0,25.200000000000003,CAD envelope centroid; real installed CG unmeasured
+Rear lift ESC PosY,Rear_AIR40A_installation_envelope_PosY,,unknown,535.0,15.000000000000057,-9.850000000000003,CAD envelope centroid; real installed CG unmeasured
+tail servo PosY,REFERENCE_Servo_Clearance_PosY,21.9,team board; suffix and linkage excluded,945.0,8.500693825644,1.2155765784940005,CAD envelope centroid; real installed CG unmeasured
+Front lift motor NegY,Front_AT2814_1200KV_envelope_NegY,108,vendor mass including cable; cable CG lumped at motor,169.9999999999995,-265.0,4.499498517390585,CAD envelope centroid; real installed CG unmeasured
+Front lift prop NegY,REFERENCE_R13_Front_10inch_Disk_NegY,,unknown,169.99999999999997,-265.0,25.200000000000003,CAD envelope centroid; real installed CG unmeasured
+Front lift ESC NegY,Front_AIR40A_installation_envelope_NegY,,unknown,465.0,-15.000000000000057,-9.850000000000001,CAD envelope centroid; real installed CG unmeasured
+Rear lift motor NegY,Rear_AT2814_1200KV_envelope_NegY,108,vendor mass including cable; cable CG lumped at motor,599.9999999999993,-264.99999999999994,4.499498517390592,CAD envelope centroid; real installed CG unmeasured
+Rear lift prop NegY,REFERENCE_R13_Rear_10inch_Disk_NegY,,unknown,600.0,-265.0,25.200000000000003,CAD envelope centroid; real installed CG unmeasured
+Rear lift ESC NegY,Rear_AIR40A_installation_envelope_NegY,,unknown,535.0,-15.000000000000057,-9.850000000000003,CAD envelope centroid; real installed CG unmeasured
+tail servo NegY,REFERENCE_Servo_Clearance_NegY,21.9,team board; suffix and linkage excluded,945.0,-8.499306174356,1.2155765784940005,CAD envelope centroid; real installed CG unmeasured
+Front six bare M65A cells,REFERENCE_Front_Six_M65A_Cells,447,6 x vendor maximum 74.5g; excludes pack hardware,237.50000000000003,0.0,1.25,CAD envelope centroid; real installed CG unmeasured
+Front module packaging/interconnect,REFERENCE_Front_Battery_Module_75x68x47,,unknown,237.5,4.515221923695388e-16,1.25,CAD envelope centroid; real installed CG unmeasured
+Rear six bare M65A cells,REFERENCE_Rear_Six_M65A_Cells,447,6 x vendor maximum 74.5g; excludes pack hardware,362.50000000000006,0.0,1.25,CAD envelope centroid; real installed CG unmeasured
+Rear module packaging/interconnect,REFERENCE_Rear_Battery_Module_75x68x47,,unknown,362.5,4.515221923695388e-16,1.25,CAD envelope centroid; real installed CG unmeasured
+Pusher motor,MT4008_Envelope_44p35x26,,unknown,1123.0197173508816,0.0006938256439997982,0.2155765784939993,CAD envelope centroid; real installed CG unmeasured
+Pusher prop/adapter,REFERENCE_Generic_13x8_Visual_Blades,,unknown,1146.6286781397368,0.0006938256440097725,0.21557657849399944,CAD envelope centroid; real installed CG unmeasured
+Flight controller + carrier,,,unknown,152.5,0,10,PROPOSED above existing avionics deck; footprint/height and fit unverified
+Receiver,,,unknown,175,0,10,PROPOSED avionics bay; antenna routing and fit unverified
+Camera/AI,,350,legacy team allowance; not selected hardware,60,0,0,"PROPOSED nose station; optical opening, footprint and cooling unverified"
+Flotation payload,,360,legacy team estimate,350,0,-55,PROPOSED external belly position; release envelope and actual CG unverified
+Pusher ESC,,,unknown,,,,UNPLACED: reserve fuselage aft bay after envelope/thermal review
+Harness/connectors/protection,,,unknown,,,,DISTRIBUTED: route segments required; do not put all wire mass at one point
+Other servos/linkages,,,unknown,,,,UNPLACED: control-surface hardware inventory required; do not double count legacy 180g
+Heat sink,,30,legacy allowance; may already be included in electronics,,,,UNPLACED: avoid double counting integrated heat sinks
+Structure and installation hardware,,,unknown,,,,CAD feature inventory extracted; densities/layups and adhesives not fully reconciled

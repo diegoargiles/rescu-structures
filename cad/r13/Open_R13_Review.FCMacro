@@ -1,0 +1,17 @@
+from pathlib import Path
+import FreeCAD as App, FreeCADGui as Gui
+base=Path(__file__).resolve().parent
+doc=App.openDocument(str(base/'RescU_R13_Layout_Candidate.FCStd'))
+for obj in doc.Objects:
+ if obj.TypeId=='App::Part':obj.ViewObject.Visibility=True
+ if obj.TypeId!='PartDesign::Feature':continue
+ n=obj.Name
+ obj.ViewObject.Visibility=not n.startswith('REFERENCE_')
+ if n.startswith('R13_'):obj.ViewObject.ShapeColor=(0.25,0.65,0.53)
+ if 'Round_Boom' in n:obj.ViewObject.ShapeColor=(0.18,0.27,0.35)
+ if 'Aft_Torque' in n or 'Aft_Spar_Bond' in n:obj.ViewObject.ShapeColor=(0.9,0.5,0.2)
+ if n.startswith('Wing_Skin'):obj.ViewObject.Transparency=65
+ if n=='Fuselage_Shell_with_TopOpenings':obj.ViewObject.Transparency=65
+Gui.activeDocument().activeView().viewAxonometric()
+Gui.activeDocument().activeView().fitAll()
+# Display helper only; does not save the document or certify GUI appearance.

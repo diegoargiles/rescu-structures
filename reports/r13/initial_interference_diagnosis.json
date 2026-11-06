@@ -1,0 +1,208 @@
+{
+  "invalid_shapes": [],
+  "intersections": [
+    {
+      "a": "Front_motor_screw_3_PosY",
+      "b": "R13_Front_Bonded_Motor_Pod_PosY",
+      "mm3": 0.47737005123323234
+    },
+    {
+      "a": "Front_motor_screw_3_NegY",
+      "b": "R13_Front_Bonded_Motor_Pod_NegY",
+      "mm3": 0.4773700512332605
+    },
+    {
+      "a": "Rear_motor_screw_1_PosY",
+      "b": "R13_Rear_Bonded_Motor_Pod_PosY",
+      "mm3": 12.813914551057426
+    },
+    {
+      "a": "Rear_motor_screw_1_NegY",
+      "b": "R13_Rear_Bonded_Motor_Pod_NegY",
+      "mm3": 12.81388574564193
+    },
+    {
+      "a": "Rear_motor_screw_4_PosY",
+      "b": "R13_Rear_Bonded_Motor_Pod_PosY",
+      "mm3": 0.4773700512332495
+    },
+    {
+      "a": "Rear_motor_screw_4_NegY",
+      "b": "R13_Rear_Bonded_Motor_Pod_NegY",
+      "mm3": 0.4773700512332226
+    },
+    {
+      "a": "Front_motor_screw_2_PosY",
+      "b": "R13_Front_Bonded_Motor_Pod_PosY",
+      "mm3": 12.813914551067073
+    },
+    {
+      "a": "Front_motor_screw_2_NegY",
+      "b": "R13_Front_Bonded_Motor_Pod_NegY",
+      "mm3": 12.813885745650923
+    },
+    {
+      "a": "Front_motor_screw_4_PosY",
+      "b": "R13_Front_Bonded_Motor_Pod_PosY",
+      "mm3": 0.47737005123326126
+    },
+    {
+      "a": "Front_motor_screw_4_NegY",
+      "b": "R13_Front_Bonded_Motor_Pod_NegY",
+      "mm3": 0.47737005123323634
+    },
+    {
+      "a": "Rear_motor_screw_2_PosY",
+      "b": "R13_Rear_Bonded_Motor_Pod_PosY",
+      "mm3": 12.81391455105801
+    },
+    {
+      "a": "Rear_motor_screw_2_NegY",
+      "b": "R13_Rear_Bonded_Motor_Pod_NegY",
+      "mm3": 12.813885745640595
+    },
+    {
+      "a": "Rear_motor_screw_3_PosY",
+      "b": "R13_Rear_Bonded_Motor_Pod_PosY",
+      "mm3": 0.4773700512332426
+    },
+    {
+      "a": "Rear_motor_screw_3_NegY",
+      "b": "R13_Rear_Bonded_Motor_Pod_NegY",
+      "mm3": 0.4773700512332412
+    },
+    {
+      "a": "Front_motor_screw_1_PosY",
+      "b": "R13_Front_Bonded_Motor_Pod_PosY",
+      "mm3": 12.813914551067601
+    },
+    {
+      "a": "Front_motor_screw_1_NegY",
+      "b": "R13_Front_Bonded_Motor_Pod_NegY",
+      "mm3": 12.813885745651051
+    },
+    {
+      "a": "Wing_Skin_NegY",
+      "b": "R13_Aft_Root_Socket_NegY",
+      "mm3": 18.75615822223784
+    },
+    {
+      "a": "Wing_Skin_NegY",
+      "b": "R13_Aft_Spar_Bond_Collar_265_NegY",
+      "mm3": 2.0062959639351625
+    },
+    {
+      "a": "Wing_Skin_NegY",
+      "b": "R13_Aft_Spar_Bond_Collar_310_NegY",
+      "mm3": 3.0030958658673788
+    },
+    {
+      "a": "Wing_Skin_NegY",
+      "b": "R13_Aft_Spar_Bond_Collar_360_NegY",
+      "mm3": 3.0239344111975175
+    },
+    {
+      "a": "Wing_Skin_NegY",
+      "b": "R13_Aft_Spar_Bond_Collar_410_NegY",
+      "mm3": 3.7105341616578356
+    },
+    {
+      "a": "XPS_Rib_NegY_60",
+      "b": "R13_Aft_Root_Socket_NegY",
+      "mm3": 62.80747967157356
+    },
+    {
+      "a": "XPS_Rib_PosY_60",
+      "b": "R13_Aft_Root_Socket_PosY",
+      "mm3": 62.80747967158183
+    },
+    {
+      "a": "Wing_Skin_PosY",
+      "b": "R13_Aft_Root_Socket_PosY",
+      "mm3": 18.759881491997312
+    },
+    {
+      "a": "Wing_Skin_PosY",
+      "b": "R13_Aft_Spar_Bond_Collar_265_PosY",
+      "mm3": 2.0062959650435492
+    },
+    {
+      "a": "Wing_Skin_PosY",
+      "b": "R13_Aft_Spar_Bond_Collar_310_PosY",
+      "mm3": 3.003095865869976
+    },
+    {
+      "a": "Wing_Skin_PosY",
+      "b": "R13_Aft_Spar_Bond_Collar_360_PosY",
+      "mm3": 3.023934411199902
+    },
+    {
+      "a": "Wing_Skin_PosY",
+      "b": "R13_Aft_Spar_Bond_Collar_410_PosY",
+      "mm3": 3.7105341616322263
+    },
+    {
+      "a": "R13_Round_Boom_PosY",
+      "b": "R13_Forward_Bonded_Wing_Socket_PosY",
+      "mm3": 6.189418704606081
+    },
+    {
+      "a": "R13_Round_Boom_PosY",
+      "b": "R13_Aft_Bonded_Wing_Socket_PosY",
+      "mm3": 6.189418704606081
+    },
+    {
+      "a": "R13_Round_Boom_NegY",
+      "b": "R13_Forward_Bonded_Wing_Socket_NegY",
+      "mm3": 6.189418704606081
+    },
+    {
+      "a": "R13_Round_Boom_NegY",
+      "b": "R13_Aft_Bonded_Wing_Socket_NegY",
+      "mm3": 6.189418704606081
+    }
+  ],
+  "tested_pairs": 143,
+  "plan_clearance_mm": {
+    "Front_PosY": 13.223106102685312,
+    "Front_PosY_overlap_mm2": 0.0,
+    "Rear_PosY": 18.773197585946658,
+    "Rear_PosY_overlap_mm2": 0.0,
+    "Front_NegY": 13.223106102685302,
+    "Front_NegY_overlap_mm2": 0.0,
+    "Rear_NegY": 18.77319758594672,
+    "Rear_NegY_overlap_mm2": 0.0
+  },
+  "notes": [
+    "New components and relocated equipment/hardware checked against physical features. Modified inherited ribs are included as counterparts; unchanged-to-unchanged and modified-rib-to-inherited-shell pairs are excluded.",
+    "Hardware envelopes may intentionally engage. All overlaps are reported for review.",
+    "Clearances are nominal rigid geometry, no blade flex or tolerance budget."
+  ],
+  "Joiner_OD8_ID6_L200_axes": [
+    [
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0
+    ]
+  ],
+  "VTail_PosY_AntiRotation_Pin_D3_axes": [
+    [
+      0.40570574465364756,
+      0.7487080374955569,
+      0.524251011772587
+    ]
+  ],
+  "VTail_NegY_AntiRotation_Pin_D3_axes": [
+    [
+      0.40570574465364756,
+      -0.7487080374955569,
+      0.524251011772587
+    ]
+  ],
+  "status": "OPEN: inspect reported interference before release"
+}

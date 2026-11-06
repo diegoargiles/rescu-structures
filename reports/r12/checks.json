@@ -1,0 +1,125 @@
+{
+  "source_file": "RescU_R12_Installation_C.FCStd",
+  "source_sha256": "1998ebcfadd7398ea2b0075816696841f28581b3e9c6e186d92ef756a051b11e",
+  "static_pair_tests": 231,
+  "static_intersections": [],
+  "invalid_changed": [],
+  "loaded_tray_removal": [
+    {
+      "bay": "Front",
+      "lift_mm": 100,
+      "method": "Union-equivalent compound of initial solids and all nondegenerate face-extrusion prisms; continuous vertical translation",
+      "removed_before_lift": [
+        "TopHatch_Front",
+        "Front_Tray_M2p5_Envelope_1_1",
+        "Front_Tray_M2p5_Envelope_1_2",
+        "Front_Tray_M2p5_Envelope_2_1",
+        "Front_Tray_M2p5_Envelope_2_2"
+      ],
+      "disconnect_before_lift": "Power/balance harness; exact connector unselected",
+      "intersections": []
+    },
+    {
+      "bay": "Rear",
+      "lift_mm": 100,
+      "method": "Union-equivalent compound of initial solids and all nondegenerate face-extrusion prisms; continuous vertical translation",
+      "removed_before_lift": [
+        "TopHatch_Rear",
+        "Rear_Tray_M2p5_Envelope_1_1",
+        "Rear_Tray_M2p5_Envelope_1_2",
+        "Rear_Tray_M2p5_Envelope_2_1",
+        "Rear_Tray_M2p5_Envelope_2_2"
+      ],
+      "disconnect_before_lift": "Power/balance harness; exact connector unselected",
+      "intersections": []
+    }
+  ],
+  "driver_access": [
+    {
+      "bay": "Front",
+      "screw": [
+        1,
+        1
+      ],
+      "battery_removed_for_access": true,
+      "driver_shaft_diameter_mm": 3.5,
+      "intersections": []
+    },
+    {
+      "bay": "Front",
+      "screw": [
+        1,
+        2
+      ],
+      "battery_removed_for_access": true,
+      "driver_shaft_diameter_mm": 3.5,
+      "intersections": []
+    },
+    {
+      "bay": "Front",
+      "screw": [
+        2,
+        1
+      ],
+      "battery_removed_for_access": true,
+      "driver_shaft_diameter_mm": 3.5,
+      "intersections": []
+    },
+    {
+      "bay": "Front",
+      "screw": [
+        2,
+        2
+      ],
+      "battery_removed_for_access": true,
+      "driver_shaft_diameter_mm": 3.5,
+      "intersections": []
+    },
+    {
+      "bay": "Rear",
+      "screw": [
+        1,
+        1
+      ],
+      "battery_removed_for_access": true,
+      "driver_shaft_diameter_mm": 3.5,
+      "intersections": []
+    },
+    {
+      "bay": "Rear",
+      "screw": [
+        1,
+        2
+      ],
+      "battery_removed_for_access": true,
+      "driver_shaft_diameter_mm": 3.5,
+      "intersections": []
+    },
+    {
+      "bay": "Rear",
+      "screw": [
+        2,
+        1
+      ],
+      "battery_removed_for_access": true,
+      "driver_shaft_diameter_mm": 3.5,
+      "intersections": []
+    },
+    {
+      "bay": "Rear",
+      "screw": [
+        2,
+        2
+      ],
+      "battery_removed_for_access": true,
+      "driver_shaft_diameter_mm": 3.5,
+      "intersections": []
+    }
+  ],
+  "scope": "Nominal CAD geometry; no strength or purchased-component fit release",
+  "status": "PASS for listed nominal geometric checks",
+  "final_invalid_parts": [],
+  "final_feature_count": 277,
+  "delivered_native_file": "RescU_R12_Serviceable_Fuselage.FCStd",
+  "delivered_native_sha256": "1998ebcfadd7398ea2b0075816696841f28581b3e9c6e186d92ef756a051b11e"
+}
