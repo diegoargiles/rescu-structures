@@ -1,4 +1,17 @@
-# RescU Structures — R13 layout / R14 attachment development
+# RescU Structures — R16 current design + landing station
+
+**R16 is the current design** (R15 full-aircraft CAD + wing-root elbow joints, landing feet removed). The aircraft has no landing gear and lands on a ground [landing station](cad/landing_station/README.md). Geometry candidates; not strength-qualified. R13/R14 below are earlier development.
+
+## Latest (November 15–16, 2026)
+
+- [R15 full-aircraft CAD](cad/r15/README.md): baseline (3420.9 g).
+- [R16](cad/r16/README.md): root adapter → molded CFRP root elbow; aft root socket → aft elbow; joiner ±46 mm; every wing tube fully inside the skin (0.000 mm³ skin intersection; R15 adapter was cut 1.5 mm). TPU feet removed. 3387.0 g, CG x 406.6, SM +1.0 % MAC.
+- Tripod landing gear studied and dropped (+54.5 g, CG behind NP). Folding pusher not workable.
+- [Landing station](cad/landing_station/README.md): 2020 frame + printed boom cradles and tail V-rest; pusher tip 134.9 mm (5.31 in) above ground; fit-checked against R16; [manufacturing plan](manufacturing/LANDING_STATION_MANUFACTURING.md).
+
+![R16 on the landing station](cad/landing_station/renders/S1_hero_seated.png)
+
+## R13/R14 (earlier, November 5)
 
 **R13 is the reviewed layout candidate. R14 is a separate socket-overlap study. Neither is strength-qualified.** The older V4 / CAD P03 analysis remains available as a historical checkpoint; its mass, CG and structural results do not describe R13/R14.
 

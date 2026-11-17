@@ -1,0 +1,31 @@
+{
+ "aircraft_vs_station": [],
+ "station_internal": [],
+ "near_misses_lt_2mm": [
+  [
+   "Pad_Boom_L_EVA3",
+   "Boom_L/Boom_Lower_Half_Boom_L",
+   0.0
+  ],
+  [
+   "Pad_Boom_R_EVA3",
+   "Boom_R/Boom_Lower_Half_Boom_R",
+   0.0
+  ],
+  [
+   "Pad_Tail_EVA3",
+   "Fuselage/Frames_Ring_GFRP_Fuselage",
+   0.63
+  ],
+  [
+   "Pad_Tail_EVA3",
+   "Fuselage/Fuselage_Shell_Left_GFRP_Fuselage",
+   0.0
+  ],
+  [
+   "Pad_Tail_EVA3",
+   "Fuselage/Fuselage_Shell_Right_GFRP_Fuselage",
+   0.0
+  ]
+ ]
+}

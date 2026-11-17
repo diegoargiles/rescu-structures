@@ -1,0 +1,20 @@
+{
+ "pairs_checked": 268,
+ "overlaps": [],
+ "tube_vs_skin_mm3": {
+  "Wing_Root_Elbow_CFRP_Wing_R": 0.0,
+  "Wing_Aft_Elbow_CFRP_Wing_R": 0.0,
+  "Wing_Main_Spar_CFRP_Wing_R": 0.0,
+  "Wing_Aft_Torque_Tube_CFRP_Wing_R": 0.0,
+  "Wing_Spar_Sleeve_GFRP_Wing_R": 0.0,
+  "Wing_Aft_Collars_GFRP_Wing_R": 0.0,
+  "Wing_Wire_Conduit_PTFE_Wing_R": 0.0,
+  "Wing_Root_Elbow_CFRP_Wing_L": 0.0,
+  "Wing_Aft_Elbow_CFRP_Wing_L": 0.0,
+  "Wing_Main_Spar_CFRP_Wing_L": 0.0,
+  "Wing_Aft_Torque_Tube_CFRP_Wing_L": 0.0,
+  "Wing_Spar_Sleeve_GFRP_Wing_L": 0.0,
+  "Wing_Aft_Collars_GFRP_Wing_L": 0.0,
+  "Wing_Wire_Conduit_PTFE_Wing_L": 0.0
+ }
+}

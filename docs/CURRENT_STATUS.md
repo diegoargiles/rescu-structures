@@ -1,6 +1,21 @@
 # Current development status
 
-Updated November 5, 2026. This checkpoint adds R13/R14 progress to the preserved V4/P03 repository.
+Updated November 16, 2026. **R16 is the current design.** It lands on a ground landing station; it has no landing gear.
+
+| Work | Status | Evidence |
+|---|---|---|
+| R15 full-aircraft CAD | Baseline for R16 (Nov 9) | [R15 README](../cad/r15/README.md) |
+| R16 wing-root elbow joints | Geometry candidate; nothing trimmed by the skin | [R16 README](../cad/r16/README.md), [interference](../cad/r16/interference_r16.json) |
+| R16 mass/CG (CAD + inputs.json equipment) | 3387.0 g, CG x 406.6, SM +1.0 % MAC | [cg.json](../cad/r16/cg.json) |
+| Landing provisions | TPU feet removed; tripod gear studied and dropped (+54.5 g, CG behind NP); folding pusher judged not workable | [R16 README](../cad/r16/README.md#landing-decision-history) |
+| Landing station | Designed, fit-checked against R16, manufacturing plan written; not built | [Station](../cad/landing_station/README.md), [manufacturing plan](../manufacturing/LANDING_STATION_MANUFACTURING.md) |
+| Precision landing (±40 mm) | Open — RTK or beacon to be chosen | — |
+| R16 root elbow spar spigot | Screen ≈ 317 MPa (conservative, spar-only): use solid rod or lengthen | [R16 README](../cad/r16/README.md#checks) |
+| Battery position for target CG | Open — x ≈ 256 mm | [cg.json](../cad/r16/cg.json) |
+
+## Previous checkpoint (November 5, 2026)
+
+This checkpoint added R13/R14 progress to the preserved V4/P03 repository.
 
 | Work | Status | Evidence |
 |---|---|---|
