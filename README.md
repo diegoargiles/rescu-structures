@@ -1,8 +1,21 @@
 # RescU Structures — R16 current design + landing station
 
-**R16 is the current design** (R15 full-aircraft CAD + wing-root elbow joints, landing feet removed). The aircraft has no landing gear and lands on a ground [landing station](cad/landing_station/README.md). Geometry candidates; not strength-qualified. R13/R14 below are earlier development.
+**R16 is the current design**: R15 full-aircraft CAD, plus wing-root elbow joints, landing feet removed. The committed assembly is **R16.2**, which adds a smooth nose, the Tarot 4008 pusher bolted to its plate, and APC props with prop nuts. The aircraft has no landing gear and lands on a ground [landing station](cad/landing_station/README.md). Geometry candidates; not strength-qualified. R13/R14 below are earlier development.
 
-## Latest (November 15–16, 2026)
+## Latest (November 15–17, 2026)
+
+- [R16.2](cad/r16/README.md#r162--pusher-mount-and-prop-nuts-november-17) (Nov 17):
+  - Tarot moved onto the removable plate. The plate keeps its position, and its holes now match the Tarot Ø19 bolt circle (4× M3 × 4 SHCS).
+  - Collar bore opened from Ø22 to Ø26 for the screw heads; plate bonds to the collar.
+  - Small right-shell notch for the motor wire tab.
+  - UM2807 thread lengthened by 4 mm, with M5 bullet prop nuts; bullet nut on the pusher too.
+  - Check result: 0 overlaps.
+- [R16.1](cad/r16/README.md#r161--smooth-nose-pusher-motor-and-propellers-november-16) (Nov 16):
+  - Nose rebuilt as the exact revolved ellipse its 39 strips were sampled from (shape unchanged).
+  - Tarot 4008 pusher with a provisional 1/4 in prop adapter.
+  - APC 10x3 on the lift motors (Quad-X hands) and APC 13x8P on the pusher.
+  - Swept-disk clearances ≥ 11 mm.
+  - Mass about 3412 g, CG x ≈ 405 mm.
 
 - [R15 full-aircraft CAD](cad/r15/README.md): baseline (3420.9 g).
 - [R16](cad/r16/README.md): root adapter → molded CFRP root elbow; aft root socket → aft elbow; joiner ±46 mm; every wing tube fully inside the skin (0.000 mm³ skin intersection; R15 adapter was cut 1.5 mm). TPU feet removed. 3387.0 g, CG x 406.6, SM +1.0 % MAC.

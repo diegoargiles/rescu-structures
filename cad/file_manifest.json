@@ -58,9 +58,15 @@
     },
     {
       "path": "cad/r16/RescU_R16_Full_Aircraft.step.zip",
-      "bytes": 25420460,
-      "sha256": "f1af144e180339c79201d8e21764615bc8fe42ae0d15b5190d9e251ad8f5bdf2",
-      "committed_in_git": true
+      "bytes": 32852237,
+      "sha256": "a3c8d2f809c7e1f86e92de328ec6b347932f6037b8255d97140efc99ad18387b",
+      "committed_in_git": true,
+      "revision": "R16.2",
+      "previous": {
+        "revision": "R16",
+        "sha256": "f1af144e180339c79201d8e21764615bc8fe42ae0d15b5190d9e251ad8f5bdf2",
+        "commit": "9d0ae2d"
+      }
     },
     {
       "path": "cad/landing_station/RescU_Landing_Station.step",

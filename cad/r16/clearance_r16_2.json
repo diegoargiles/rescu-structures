@@ -1,0 +1,326 @@
+{
+ "note": "R16.2 checks. Mesh min distances (tessellation 0.05 mm); 0.0x mm values are intended contacts (seated faces, thread engagement). Boolean overlap volumes for the contact pairs are listed separately.",
+ "boolean_overlap_mm3": {
+  "plate x screws": 0.0,
+  "collar x screws": 0.0,
+  "collar x plate": 0.0,
+  "plate x Tarot": 0.0,
+  "nut x 13x8 prop": 0.0,
+  "nut x adapter": 0.0,
+  "adapter x 13x8 prop": 0.0,
+  "screws x Tarot (intended M3 thread engagement)": 12.599
+ },
+ "static_min_distance": [
+  {
+   "a": "Pusher_Bonded_Collar_GFRP_Fuselage",
+   "b": "Fuselage_Shell_Left_GFRP_Fuselage",
+   "min_mesh_distance_mm": 0.336
+  },
+  {
+   "a": "Pusher_Bonded_Collar_GFRP_Fuselage",
+   "b": "Fuselage_Shell_Right_GFRP_Fuselage",
+   "min_mesh_distance_mm": 0.077
+  },
+  {
+   "a": "Pusher_Bonded_Collar_GFRP_Fuselage",
+   "b": "Pusher_Removable_Plate_6061_Fuselage",
+   "min_mesh_distance_mm": 0.059
+  },
+  {
+   "a": "Pusher_Bonded_Collar_GFRP_Fuselage",
+   "b": "Motor_Screws_M3x4_SHCS_Pusher_Fuselage",
+   "min_mesh_distance_mm": 0.753
+  },
+  {
+   "a": "Pusher_Bonded_Collar_GFRP_Fuselage",
+   "b": "Tarot_4008_Pusher_Motor_Fuselage",
+   "min_mesh_distance_mm": 1.5
+  },
+  {
+   "a": "Pusher_Bonded_Collar_GFRP_Fuselage",
+   "b": "VTail_Fixed_Core_XPS_VTail_R",
+   "min_mesh_distance_mm": 38.478
+  },
+  {
+   "a": "Pusher_Bonded_Collar_GFRP_Fuselage",
+   "b": "VTail_Fixed_Skin_GFRP_VTail_R",
+   "min_mesh_distance_mm": 38.233
+  },
+  {
+   "a": "Pusher_Bonded_Collar_GFRP_Fuselage",
+   "b": "VTail_Hinge_Pins_REF_VTail_R",
+   "min_mesh_distance_mm": 34.928
+  },
+  {
+   "a": "Pusher_Bonded_Collar_GFRP_Fuselage",
+   "b": "VTail_Ruddervator_Core_XPS_VTail_R",
+   "min_mesh_distance_mm": 16.942
+  },
+  {
+   "a": "Pusher_Bonded_Collar_GFRP_Fuselage",
+   "b": "VTail_Ruddervator_Skin_GFRP_VTail_R",
+   "min_mesh_distance_mm": 13.591
+  },
+  {
+   "a": "Pusher_Bonded_Collar_GFRP_Fuselage",
+   "b": "VTail_Spar_CFRP_VTail_R",
+   "min_mesh_distance_mm": 64.952
+  },
+  {
+   "a": "Pusher_Bonded_Collar_GFRP_Fuselage",
+   "b": "VTail_Fixed_Core_XPS_VTail_L",
+   "min_mesh_distance_mm": 38.478
+  },
+  {
+   "a": "Pusher_Bonded_Collar_GFRP_Fuselage",
+   "b": "VTail_Fixed_Skin_GFRP_VTail_L",
+   "min_mesh_distance_mm": 38.232
+  },
+  {
+   "a": "Pusher_Bonded_Collar_GFRP_Fuselage",
+   "b": "VTail_Hinge_Pins_REF_VTail_L",
+   "min_mesh_distance_mm": 34.928
+  },
+  {
+   "a": "Pusher_Bonded_Collar_GFRP_Fuselage",
+   "b": "VTail_Ruddervator_Core_XPS_VTail_L",
+   "min_mesh_distance_mm": 16.942
+  },
+  {
+   "a": "Pusher_Bonded_Collar_GFRP_Fuselage",
+   "b": "VTail_Ruddervator_Skin_GFRP_VTail_L",
+   "min_mesh_distance_mm": 13.591
+  },
+  {
+   "a": "Pusher_Bonded_Collar_GFRP_Fuselage",
+   "b": "VTail_Spar_CFRP_VTail_L",
+   "min_mesh_distance_mm": 64.952
+  },
+  {
+   "a": "Pusher_Removable_Plate_6061_Fuselage",
+   "b": "Fuselage_Shell_Left_GFRP_Fuselage",
+   "min_mesh_distance_mm": 1.309
+  },
+  {
+   "a": "Pusher_Removable_Plate_6061_Fuselage",
+   "b": "Fuselage_Shell_Right_GFRP_Fuselage",
+   "min_mesh_distance_mm": 1.309
+  },
+  {
+   "a": "Pusher_Removable_Plate_6061_Fuselage",
+   "b": "Motor_Screws_M3x4_SHCS_Pusher_Fuselage",
+   "min_mesh_distance_mm": 0.005
+  },
+  {
+   "a": "Pusher_Removable_Plate_6061_Fuselage",
+   "b": "Tarot_4008_Pusher_Motor_Fuselage",
+   "min_mesh_distance_mm": 0.003
+  },
+  {
+   "a": "Pusher_Removable_Plate_6061_Fuselage",
+   "b": "VTail_Fixed_Core_XPS_VTail_R",
+   "min_mesh_distance_mm": 67.499
+  },
+  {
+   "a": "Pusher_Removable_Plate_6061_Fuselage",
+   "b": "VTail_Fixed_Skin_GFRP_VTail_R",
+   "min_mesh_distance_mm": 67.277
+  },
+  {
+   "a": "Pusher_Removable_Plate_6061_Fuselage",
+   "b": "VTail_Ruddervator_Core_XPS_VTail_R",
+   "min_mesh_distance_mm": 47.026
+  },
+  {
+   "a": "Pusher_Removable_Plate_6061_Fuselage",
+   "b": "VTail_Ruddervator_Skin_GFRP_VTail_R",
+   "min_mesh_distance_mm": 43.675
+  },
+  {
+   "a": "Pusher_Removable_Plate_6061_Fuselage",
+   "b": "VTail_Fixed_Core_XPS_VTail_L",
+   "min_mesh_distance_mm": 67.499
+  },
+  {
+   "a": "Pusher_Removable_Plate_6061_Fuselage",
+   "b": "VTail_Fixed_Skin_GFRP_VTail_L",
+   "min_mesh_distance_mm": 67.277
+  },
+  {
+   "a": "Pusher_Removable_Plate_6061_Fuselage",
+   "b": "VTail_Ruddervator_Core_XPS_VTail_L",
+   "min_mesh_distance_mm": 47.026
+  },
+  {
+   "a": "Pusher_Removable_Plate_6061_Fuselage",
+   "b": "VTail_Ruddervator_Skin_GFRP_VTail_L",
+   "min_mesh_distance_mm": 43.675
+  },
+  {
+   "a": "APC_13x8_LP13080P_Pusher_Prop_Fuselage",
+   "b": "Prop_Nut_1-4in_Bullet_Pusher_Fuselage",
+   "min_mesh_distance_mm": 0.0
+  },
+  {
+   "a": "APC_13x8_LP13080P_Pusher_Prop_Fuselage",
+   "b": "REF_Prop_Adapter_Pusher_Fuselage",
+   "min_mesh_distance_mm": 0.0
+  },
+  {
+   "a": "APC_13x8_LP13080P_Pusher_Prop_Fuselage",
+   "b": "VTail_Ruddervator_Skin_GFRP_VTail_R",
+   "min_mesh_distance_mm": 72.974
+  },
+  {
+   "a": "APC_13x8_LP13080P_Pusher_Prop_Fuselage",
+   "b": "VTail_Ruddervator_Skin_GFRP_VTail_L",
+   "min_mesh_distance_mm": 76.123
+  },
+  {
+   "a": "Motor_Screws_M3x4_SHCS_Pusher_Fuselage",
+   "b": "Fuselage_Shell_Left_GFRP_Fuselage",
+   "min_mesh_distance_mm": 13.627
+  },
+  {
+   "a": "Motor_Screws_M3x4_SHCS_Pusher_Fuselage",
+   "b": "Fuselage_Shell_Right_GFRP_Fuselage",
+   "min_mesh_distance_mm": 13.628
+  },
+  {
+   "a": "Motor_Screws_M3x4_SHCS_Pusher_Fuselage",
+   "b": "Tarot_4008_Pusher_Motor_Fuselage",
+   "min_mesh_distance_mm": 0.021
+  },
+  {
+   "a": "Prop_Nut_1-4in_Bullet_Pusher_Fuselage",
+   "b": "REF_Prop_Adapter_Pusher_Fuselage",
+   "min_mesh_distance_mm": 0.399
+  },
+  {
+   "a": "REF_Prop_Adapter_Pusher_Fuselage",
+   "b": "Tarot_4008_Pusher_Motor_Fuselage",
+   "min_mesh_distance_mm": 0.01
+  },
+  {
+   "a": "Tarot_4008_Pusher_Motor_Fuselage",
+   "b": "Fuselage_Shell_Left_GFRP_Fuselage",
+   "min_mesh_distance_mm": 3.733
+  },
+  {
+   "a": "Tarot_4008_Pusher_Motor_Fuselage",
+   "b": "Fuselage_Shell_Right_GFRP_Fuselage",
+   "min_mesh_distance_mm": 1.169
+  },
+  {
+   "a": "Tarot_4008_Pusher_Motor_Fuselage",
+   "b": "VTail_Fixed_Core_XPS_VTail_R",
+   "min_mesh_distance_mm": 70.043
+  },
+  {
+   "a": "Tarot_4008_Pusher_Motor_Fuselage",
+   "b": "VTail_Fixed_Skin_GFRP_VTail_R",
+   "min_mesh_distance_mm": 69.858
+  },
+  {
+   "a": "Tarot_4008_Pusher_Motor_Fuselage",
+   "b": "VTail_Hinge_Pins_REF_VTail_R",
+   "min_mesh_distance_mm": 67.804
+  },
+  {
+   "a": "Tarot_4008_Pusher_Motor_Fuselage",
+   "b": "VTail_Ruddervator_Core_XPS_VTail_R",
+   "min_mesh_distance_mm": 49.561
+  },
+  {
+   "a": "Tarot_4008_Pusher_Motor_Fuselage",
+   "b": "VTail_Ruddervator_Skin_GFRP_VTail_R",
+   "min_mesh_distance_mm": 46.267
+  },
+  {
+   "a": "Tarot_4008_Pusher_Motor_Fuselage",
+   "b": "VTail_Fixed_Core_XPS_VTail_L",
+   "min_mesh_distance_mm": 71.349
+  },
+  {
+   "a": "Tarot_4008_Pusher_Motor_Fuselage",
+   "b": "VTail_Fixed_Skin_GFRP_VTail_L",
+   "min_mesh_distance_mm": 71.102
+  },
+  {
+   "a": "Tarot_4008_Pusher_Motor_Fuselage",
+   "b": "VTail_Ruddervator_Core_XPS_VTail_L",
+   "min_mesh_distance_mm": 49.618
+  },
+  {
+   "a": "Tarot_4008_Pusher_Motor_Fuselage",
+   "b": "VTail_Ruddervator_Skin_GFRP_VTail_L",
+   "min_mesh_distance_mm": 46.331
+  },
+  {
+   "a": "Prop_Nut_M5_Bullet_Front_Boom_R",
+   "b": "APC_10x3_LP10030_Front_Boom_R",
+   "min_mesh_distance_mm": 0.329
+  },
+  {
+   "a": "Prop_Nut_M5_Bullet_Front_Boom_R",
+   "b": "UM2807_Front_Boom_R",
+   "min_mesh_distance_mm": 0.046
+  },
+  {
+   "a": "Prop_Nut_M5_Bullet_Rear_Boom_R",
+   "b": "APC_10x3_LP10030P_Rear_Boom_R",
+   "min_mesh_distance_mm": 0.329
+  },
+  {
+   "a": "Prop_Nut_M5_Bullet_Rear_Boom_R",
+   "b": "UM2807_Rear_Boom_R",
+   "min_mesh_distance_mm": 0.046
+  },
+  {
+   "a": "Prop_Nut_M5_Bullet_Front_Boom_L",
+   "b": "APC_10x3_LP10030P_Front_Boom_L",
+   "min_mesh_distance_mm": 0.329
+  },
+  {
+   "a": "Prop_Nut_M5_Bullet_Front_Boom_L",
+   "b": "UM2807_Front_Boom_L",
+   "min_mesh_distance_mm": 0.046
+  },
+  {
+   "a": "Prop_Nut_M5_Bullet_Rear_Boom_L",
+   "b": "APC_10x3_LP10030_Rear_Boom_L",
+   "min_mesh_distance_mm": 0.329
+  },
+  {
+   "a": "Prop_Nut_M5_Bullet_Rear_Boom_L",
+   "b": "UM2807_Rear_Boom_L",
+   "min_mesh_distance_mm": 0.046
+  }
+ ],
+ "swept_13x8_min_clearance_mm": [
+  [
+   11.3,
+   "Tarot_4008_Pusher_Motor_Fuselage"
+  ],
+  [
+   22.3,
+   "Fuselage_Shell_Left_GFRP_Fuselage"
+  ],
+  [
+   22.3,
+   "Fuselage_Shell_Right_GFRP_Fuselage"
+  ],
+  [
+   27.9,
+   "Motor_Screws_M3x4_SHCS_Pusher_Fuselage"
+  ],
+  [
+   29.0,
+   "Pusher_Removable_Plate_6061_Fuselage"
+  ],
+  [
+   30.2,
+   "Pusher_Bonded_Collar_GFRP_Fuselage"
+  ]
+ ]
+}

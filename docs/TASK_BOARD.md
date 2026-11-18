@@ -1,6 +1,6 @@
 # Development task board
 
-Status refers to R13/R14 development and its stated scope, not the entire aircraft. Latest checkpoint: November 16, 2026 (R15/R16 + landing station rows at the end).
+Status refers to R13/R14 development and its stated scope, not the entire aircraft. Latest checkpoint: November 17, 2026 (R15/R16, landing station and R16.1/R16.2 rows at the end).
 
 | ID | Task | Owner / inputs | Acceptance evidence | State |
 |---|---|---|---|---|
@@ -30,5 +30,13 @@ Status refers to R13/R14 development and its stated scope, not the entire aircra
 | GNC-01 | Precision landing system (±40 mm, ±3.8°) | Controls/Avionics | RTK or beacon selected and demonstrated | OPEN |
 | STR-01 | R16 root elbow spar spigot strength | Structures | Solid rod or longer spigot; FEA/test | OPEN |
 | MASS-03 | Move battery to x ≈ 256 mm for target CG | Structures + Electrical | Updated CG at target | OPEN |
+| CAD-10 | R16.1 smooth nose (exact ellipse, shape unchanged) | Structures | Zero boolean difference aft of x 200.5; tip sag filled | DONE |
+| CAD-11 | R16.1 Tarot 4008 pusher + APC 10x3 / 13x8P props in the assembly | Structures | Swept-disk clearances ≥ 11 mm; rotation hands per Quad-X | DONE |
+| CAD-12 | R16.2 pusher mount: plate holes on Tarot Ø19 circle, 4× M3 × 4 SHCS, collar bore Ø26, wire-tab notch | Structures | 0 overlaps; screw heads 0.75 mm from collar | GEOMETRY CANDIDATE |
+| CAD-13 | R16.2 UM2807 shaft thread +4 mm (model) and bullet prop nuts | Structures | Nut bore clears shaft tip 0.7 mm | DONE (visual) |
+| PROP-02 | Confirm real UM2807 shaft length vs 10x3 hub + nut | Propulsion | Measured shaft; nut/spacer chosen | OPEN |
+| PROP-03 | Select a real 1/4 in prop adapter for the Tarot 4008 rotor | Propulsion | Part number; replaces REF adapter | OPEN |
+| MFG-03 | Plate-to-collar adhesive and pusher wire routing | Structures + Electrical | Adhesive/prep chosen; route through the shell notch to the ESCs | OPEN |
+| MASS-04 | Regenerate cg.json with real motor/prop masses | Structures | Updated cg.json | OPEN |
 
 Priority: review candidate geometry with Diego; obtain PROP-01 and mass/control/aero inputs; close CAD-02/03/05 load paths; run FEA-02. No need to wait for all data before layout iteration, but no strength PASS without supported inputs.

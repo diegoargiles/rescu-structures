@@ -8,25 +8,23 @@ Fuselage,ESC_Deck_GFRP_Fuselage,GFRP,1.85,7540.0,13.95,500.0,0.0,-16.5,435..565 
 Fuselage,ESC_Pads_Foam_Fuselage,EVA foam,0.1,2802.2,0.28,500.0,-0.0,-15.8,437..563 / -28..28 / -16..-16
 Fuselage,Frames_Lower_and_Battery_Saddles_GFRP_Fuselage,GFRP,1.85,12640.6,23.39,302.3,0.0,-28.2,135..552 / -44..44 / -44..-5
 Fuselage,Frames_Ring_GFRP_Fuselage,GFRP,1.85,5663.5,10.48,606.4,0.0,-15.6,282..1023 / -44..44 / -44..21
-Fuselage,Fuselage_Seam_Strips_GFRP_Fuselage,GFRP,1.85,6623.7,12.25,536.9,0.0,-6.3,5..1068 / -6..6 / -45..45
-Fuselage,Fuselage_Shell_Left_GFRP_Fuselage,GFRP,1.85,40277.2,74.51,535.0,-25.2,-2.4,-0..1110 / -45..0 / -45..45
-Fuselage,Fuselage_Shell_Right_GFRP_Fuselage,GFRP,1.85,40277.2,74.51,535.0,25.2,-2.4,-0..1110 / -0..45 / -45..45
-Fuselage,Hatch_Front_GFRP_Fuselage,GFRP,1.85,2100.7,3.89,236.0,0.0,40.0,192..280 / -33..33 / 30..45
+Fuselage,Fuselage_Seam_Strips_GFRP_Fuselage,GFRP,1.85,6623.6,12.25,536.9,0.0,-6.3,5..1068 / -6..6 / -45..45
+Fuselage,Fuselage_Shell_Left_GFRP_Fuselage,GFRP,1.85,40297.0,74.55,534.8,-25.2,-2.4,-0..1110 / -45..0 / -45..45
+Fuselage,Fuselage_Shell_Right_GFRP_Fuselage,GFRP,1.85,40279.0,74.52,534.5,25.2,-2.4,-0..1110 / -0..45 / -45..45
+Fuselage,Hatch_Front_GFRP_Fuselage,GFRP,1.85,2094.7,3.88,236.1,0.0,40.0,192..280 / -33..33 / 30..45
 Fuselage,Hatch_Rear_GFRP_Fuselage,GFRP,1.85,2040.4,3.77,364.2,0.0,40.0,322..407 / -33..33 / 31..45
 Fuselage,Hatch_Rims_GFRP_Fuselage,GFRP,1.85,7465.9,13.81,478.2,0.0,28.6,187..1053 / -38..38 / 16..45
 Fuselage,Hatch_Tail_GFRP_Fuselage,GFRP,1.85,926.4,1.71,1005.1,0.0,27.4,962..1048 / -16..16 / 23..30
 Fuselage,Joiner_Axial_Stop_Ring_Fuselage,CFRP,1.6,155.8,0.25,310.0,0.0,4.2,303..317 / -2..2 / -3..11
 Fuselage,Joiner_Receiver_Sleeves_GFRP_Fuselage,CFRP,1.6,3837.4,6.14,310.0,0.0,4.2,303..317 / -37..37 / -3..12
-Fuselage,Pusher_Bonded_Collar_GFRP_Fuselage,GFRP,1.85,12401.3,22.94,1090.1,-0.0,-0.0,1072..1102 / -27..27 / -27..27
-Fuselage,Pusher_Removable_Plate_6061_Fuselage,Al 6061-T6,2.7,2607.6,7.04,1102.8,0.0,0.0,1102..1104 / -24..24 / -24..24
+Fuselage,Pusher_Bonded_Collar_GFRP_Fuselage,GFRP,1.85,12099.7,22.38,1089.9,-0.0,0.0,1072..1102 / -27..27 / -27..27
+Fuselage,Pusher_Removable_Plate_6061_Fuselage,Al 6061-T6,2.7,2607.6,7.04,1102.7,0.0,-0.0,1102..1104 / -24..24 / -24..24
 Fuselage,REF_Battery_Modules_75x68x47_Fuselage,REFERENCE (no structural mass),0.0,479400.0,0.0,,,,200..400 / -34..34 / -22..25
 Fuselage,REF_Camera_AI_PROVISIONAL_Fuselage,REFERENCE (no structural mass),0.0,75398.2,0.0,,,,40..100 / -20..20 / -20..20
 Fuselage,REF_ESC_AIR40A_x4_Fuselage,REFERENCE (no structural mass),0.0,63330.6,0.0,,,,437..563 / -28..28 / -16..-4
 Fuselage,REF_Flight_Controller_Cube_Fuselage,REFERENCE (no structural mass),0.0,72380.0,0.0,,,,106..200 / -22..22 / -2..15
 Fuselage,REF_M65A_Cells_6S2P_Fuselage,REFERENCE (no structural mass),0.0,315100.4,0.0,,,,202..398 / -33..33 / -21..23
-Fuselage,REF_MT4008_Envelope_AWAITING_CAD_Fuselage,REFERENCE (no structural mass),0.0,40255.9,0.0,,,,1110..1136 / -22..22 / -22..22
 Fuselage,REF_Payload_Mount_Plate_Fuselage,REFERENCE (no structural mass),0.0,3000.0,0.0,,,,325..375 / -20..20 / -56..-54
-Fuselage,REF_Pusher_Prop_13in_Disk_Fuselage,REFERENCE (no structural mass),0.0,85633.6,0.0,,,,1146..1147 / -165..165 / -165..165
 Fuselage,REF_Receiver_Fuselage,REFERENCE (no structural mass),0.0,3800.0,0.0,,,,176..196 / -10..10 / 16..25
 Fuselage,REF_VTail_Servos_Fuselage,REFERENCE (no structural mass),0.0,28800.0,0.0,,,,930..960 / -16..16 / -15..17
 Fuselage,VTail_Root_Receivers_GFRP_Fuselage,GFRP,1.85,1056.7,1.95,992.5,0.0,7.3,985..1000 / -21..21 / -2..16
@@ -96,3 +94,10 @@ VTail_L,VTail_Root_Diaphragm_GFRP_VTail_L,GFRP,1.85,335.5,0.62,1007.2,-24.3,17.1
 VTail_L,VTail_Ruddervator_Core_XPS_VTail_L,Ravatherm XPS,0.032,6845.3,0.22,1069.5,-90.9,63.7,1033..1122 / -201..-22 / 14..141
 VTail_L,VTail_Ruddervator_Skin_GFRP_VTail_L,GFRP,1.85,2343.4,4.34,1076.8,-101.9,71.4,1033..1125 / -201..-22 / 14..142
 VTail_L,VTail_Spar_CFRP_VTail_L,CFRP,1.6,2456.5,3.93,1030.7,-82.3,57.6,986..1091 / -195..-2 / 0..137
+Fuselage,REF_Prop_Adapter_Pusher_Fuselage,"Al 6061-T6 (REF, provisional)",2.7,2413.6,6.52,1130.6,0.0,-0.0,1122..1152 / -10..10 / -10..10
+Fuselage,Motor_Screws_M3x4_SHCS_Pusher_Fuselage,"Alloy steel, ISO 4762 M3x4 (x4)",7.85,365.7,2.87,1101.6,0.0,-0.0,1099..1106 / -11..11 / -11..11
+Fuselage,Prop_Nut_1-4in_Bullet_Pusher_Fuselage,Al 6061 bullet prop nut 1/4 in,2.7,630.9,1.7,1151.0,0.0,0.0,1146..1158 / -6..6 / -6..6
+Boom_R,Prop_Nut_M5_Bullet_Front_Boom_R,Al 6061 bullet prop nut M5,2.7,361.4,0.98,170.0,265.0,24.0,164..176 / 260..270 / 20..30
+Boom_R,Prop_Nut_M5_Bullet_Rear_Boom_R,Al 6061 bullet prop nut M5,2.7,361.4,0.98,600.0,265.0,24.0,594..606 / 260..270 / 20..30
+Boom_L,Prop_Nut_M5_Bullet_Front_Boom_L,Al 6061 bullet prop nut M5,2.7,361.4,0.98,170.0,-265.0,24.0,164..176 / -270..-260 / 20..30
+Boom_L,Prop_Nut_M5_Bullet_Rear_Boom_L,Al 6061 bullet prop nut M5,2.7,361.4,0.98,600.0,-265.0,24.0,594..606 / -270..-260 / 20..30
