@@ -1,23 +1,27 @@
-# R16 full-aircraft CAD — current design (R16.2, November 17, 2026)
+# R16 full-aircraft CAD — current design (R16.4, November 17, 2026)
 
 R16 = R15 + elbow joints at the wing root + TPU landing feet removed (November 15). The aircraft has **no landing gear**; it lands on the [landing station](../landing_station/README.md).
 
-The committed assembly is now **R16.2**:
+The committed assembly is now **R16.4**:
 - **[R16.1](#r161--smooth-nose-pusher-motor-and-propellers-november-16)**: smooth nose, Tarot 4008 pusher and APC propellers.
 - **[R16.2](#r162--pusher-mount-and-prop-nuts-november-17)**: motor bolted to the plate, and prop nuts.
+- **[R16.3](#r163--nose-camera-z30-in-a-recessed-cove-november-17)**: nose camera (Z30 geometry, 270 g) in an aerodynamic recessed cove, about 3 in below the belly.
+- **[R16.4](#r164--removable-nose-module-november-17)**: nose becomes a removable module (L/R shells, cove liner, 4 G10 frames, camera shelf with a nutplate mount, 4-screw joint).
 
-The R16 base STEP is still available in git history (commit `9d0ae2d`, STEP SHA-256 `b9ea4e59…0851`).
+Earlier STEPs are in git history: R16 base in commit `9d0ae2d` (STEP SHA-256 `b9ea4e59…0851`), and R16.2 in commit `e9517f3` (STEP SHA-256 `30bc1fa9…40de`).
 
 | File | Content |
 |---|---|
-| `RescU_R16_Full_Aircraft.step.zip` | **R16.2** full assembly STEP (180.0 MB unzipped; zipped). 112 parts. SHA-256 of the STEP: `30bc1fa921614bf925046f537522d23e7ba10847a94a49f4c007059874be40de` |
-| `RescU_R16_BOM_CAD_masses.csv` | CAD mass BOM (R16.2). Motors and props stay in the equipment list, as before |
+| `RescU_R16_Full_Aircraft.step.zip` | **R16.4** full assembly STEP (198.6 MB unzipped; zipped). 126 parts. SHA-256 of the STEP: `c82bbce3684429cf0f957b879e75cf99be00f03befe3d8afe62b353ce173a415` |
+| `RescU_R16_BOM_CAD_masses.csv` | CAD mass BOM (R16.4). Motors, props and the camera stay in the equipment list, as before |
 | `cg.json` | Mass / CG estimate for the R16 base (see [R16.1/R16.2 mass changes](#mass-changes-r161--r162)) |
 | `interference_r16.json` | 268 changed-part pairs (0 overlaps > 0.05 mm³) plus every wing tube vs its skin (all 0.000 mm³) |
 | `R15_vs_R16_root_joints.png` | Root joint comparison |
 | `clearance_r16_1.json`, `clearance_r16_2.json` | R16.1 and R16.2 interference and swept-prop clearance checks |
-| `renders/` | Nose before and after, lift props, pusher mount (section, exploded, outside), VTOL prop nut |
+| `clearance_r16_3.json`, `clearance_r16_4.json` | R16.3 gimbal-sweep clearances; R16.4 overlaps, gimbal sweep and mass/CG |
+| `renders/` | Nose before and after, lift props, pusher mount (section, exploded, outside), VTOL prop nut; `r16_3_*` camera placement; `r16_4_*` nose module |
 | `scripts/` | R16 base: `wing_r16.py` (wing with elbows), `elbow.py` (elbow paths, clearance), `assemble_r16.py`, `check_r16.py`, `cg_r16.py`, `clear.py`, `readstep.py` |
+| `scripts/r16_3/`, `scripts/r16_4/` | Camera cove and nose module builds, checks, in-place STEP edits and renders (CadQuery/OCP; renders use Blender `bpy`) |
 | `scripts/` (R16.1/R16.2) | `nose_r16_1.py` (nose rebuild), `build_props.py` (APC 10x3 / 13x8 models), `place_r16_1.py` / `place_r16_2.py` (motor, props, plate, screws, nuts, shaft extension), `xcaf_r16_1.py` / `xcaf_r16_2.py` (edit the STEP in place: names, colours and sub-assemblies kept), `clearance_r16_1.py` / `clearance_r16_2.py`, `render_r16_2.py`, `vol.py` |
 
 The R16.1/R16.2 scripts use CadQuery/OCP (`pip install cadquery`); the renders also need PyVista. The scripts import the R15 scripts from `../r15/scripts` and the R15 STEP bodies (extracted with `readstep.py`). Paths inside them are the absolute paths of the build machine; adjust before rerunning.
@@ -139,3 +143,73 @@ Estimate: about 3412 g, CG x ≈ 405 mm (NP 408.0, so the static margin is about
 3. **Pusher wire routing:** the right-shell notch is the exit; route the wires forward to the ESCs.
 4. **Plate-to-collar bond:** pick the adhesive and surface prep. Thrust is in compression into the collar; torque is carried in shear.
 5. **Regenerate `cg.json`** with the real prop and motor masses.
+
+## R16.3 — nose camera (Z30) in a recessed cove (November 17)
+
+![R16.3 section](renders/r16_3_z30_r3_section.png)
+
+- **Camera:** Z30 camera + 3-axis gimbal STEP used for geometry. The mass is taken as **270 g** (the actual camera, documented but not modelled). Yaw axis is vertical at x 84, y 0; the gimbal top (mount face) is at z 13.4.
+- **Position:** camera bottom at z −120.5 when level, which is 75.5 mm (3.0 in) below the belly line and 83.5 mm below the local nose skin. Pointing straight down it reaches z −147.2.
+- **Cove:** a closed dome recess, revolved about the yaw axis, following the full swept envelope (360° yaw, pitch +30° to −120°) plus 5 mm. It has an R8 lip and R10–12 internal transitions, with no steps. The opening runs x 22–165 and reaches the waterline at x 55–70; the nose ahead of x 22 forms a chin. Sizing study: `renders/r16_3_z30_nose_options.png` (3.0 in vs 4.3 in).
+- **Removed:** `REF_Camera_AI_PROVISIONAL`. **Trimmed:** the x 135 lower frame. **Added:** `REF_Z30_Camera_Gimbal` and `REF_Z30_Swept_Envelope` (reference, no structural mass).
+- **Drag** (hand estimate, Cd 1.0 × 1.25, not tested): 1.5–2.3 N at 20 m/s cruise, which is about 25–35 % of the 6.62 N cruise thrust. 7.6–11.2 N at 44.6 m/s, giving about 1 N·m at the mount. Structural margins are large; endurance, trim and the gimbal's airspeed rating are the real issues.
+
+## R16.4 — removable nose module (November 17)
+
+![Nose module exploded](renders/r16_4_01_nose_exploded.png)
+![Nose module section](renders/r16_4_02_section.png)
+
+**Design decision: screw-retained, removable nose.** The nose module (x 0–179) is a line-replaceable unit (LRU), retained by 4 × M3 screws into captive nutplates instead of a permanent bond. It is the most damage-prone part of the airframe: it makes first contact in a nose-down or off-centre landing, and it carries the exposed cove skin. It also holds the most-serviced items: the camera mount, avionics deck and flight controller. With a screwed joint, a customer or repair team can remove it with a 2 mm hex key, service those items or fit a spare nose, without cutting the shell or replacing the fuselage. Cost: about +10 g of hardware and a harness disconnect at the joint.
+
+| Part | Material | Station x | Mass (g) | Notes |
+|---|---|---|---|---|
+| `Nose_Shell_Left/Right_GFRP` | GFRP 0.33 | 0–179 | 7.2 / 7.0 | L/R halves; opening edge 4.5–13.5 mm outside the cove |
+| `Nose_Cove_Liner_GFRP` | GFRP 0.66 | 8–179 | 24.5 | Cove dome + R8 lip + 10 mm flange under the shells (bridges the bottom seam) + roof doubler |
+| `Nose_Seam_Strips_GFRP` | GFRP 0.30 × 12 | 3–164 | 1.1 | Top seam + chin |
+| `Nose_Frame_NF1_G10` | G10 1.5 | 55.5–57 | 4.9 | Front wall of the shelf box |
+| `Nose_Frame_NF2_G10` | G10 1.5 | 104–105.5 | 6.3 | Rear wall of the shelf box, notched round the neck; lightening hole routes the camera cable |
+| `Nose_Frame_NF3_G10` | G10 1.5 | 135–136.5 | 3.3 | Replaces the x 135 sliver; deck seat at z −5 |
+| `Nose_Frame_NF4_G10` | G10 1.5 | 162.5–164 | 7.1 | Replaces F170 (7.5 mm forward); deck seat; axial stop for the band |
+| `Camera_Shelf_G10` | G10 2.0 | 57.2–103.8 | 10.3 | On the roof doubler; mount pattern **4 × M3 on Ø32 PCD at 45° + Ø12 cable hole** |
+| `Camera_Mount_Nutplates_M3` ×4 | Steel | shelf top | 3.7 | 2-lug, self-locking |
+| `Nose_Joiner_Band_GFRP` | GFRP 0.6 | 164–186 | 5.8 | Bonded in the fuselage (179–186); spigot 164–179 slides into the nose |
+| `Nose_Joint_Nutplates_M3` ×4 | Steel | 171.5 | 3.7 | On the band's inner face; serviceable with the nose off |
+| `Nose_Joint_Screws_M3x6_ISO7380` ×4 | Steel A2 | 171.5 | 2.4 | Button head, 2 mm hex, at ±60° and ±120° from top |
+
+Replaced in place: `Camera_Shelf_G10` (was 3 mm), `Nose_Joiner_Band_GFRP` and `Frames_Lower_and_Battery_Saddles_GFRP` (x 135 and x 170 frames removed; it now starts at the x 200 saddle). Removed: the R16.3 one-piece `Nose_Shell_GFRP`.
+
+Manufacturing and assembly, including nutplate installation: [`manufacturing/NOSE_MODULE_MANUFACTURING.md`](../../manufacturing/NOSE_MODULE_MANUFACTURING.md).
+
+### Checks (R16.3 + R16.4)
+
+- **Overlaps:** 102 part pairs within 0.5 mm of a new part are all 0.000 mm³, except intended thread engagement (joint screws/nutplates 34.6 mm³) and three bond-line contacts under 0.1 mm³ (`clearance_r16_4.json`).
+- **Gimbal sweep** (full yaw, pitch −120° to +30°), minimum clearance:
+
+| Part | Clearance (mm) |
+|---|---|
+| Liner | 5.1 |
+| NF2 | 4.9, at the neck top above the roof (the roof is between) |
+| NF1 | 6.1 |
+| REF FC | 6.1 |
+| NF3 | 9.2 |
+| NF4 | 10.0 |
+| Shells | 12.9 |
+| Avionics deck | 13.3 |
+
+  The yaw-motor top seats on the roof (mount face).
+- **Landing station:** the camera's lowest point is z −147, about 153 mm above the station floor. Not yet checked against the station STEP.
+
+### Mass changes (R16.3 + R16.4)
+
+- R16.3: camera +270 g at x 86.5; nose skin/shelf/band +18 g net.
+- R16.4: nose module structure + hardware about 87 g, **+38.5 g** vs R16.3.
+- Estimate: **about 3738 g, CG x ≈ 378** (target 394.4, NP 408.0). `cg.json` is not regenerated.
+
+### Open items (R16.3 + R16.4)
+
+1. **FC length vs NF2:** the REF Cube starts at x 105.5, where NF2 ends (touching). Confirm the real FC and carrier.
+2. **Harness disconnect** for the FC and camera at the nose joint.
+3. **Real camera mount pattern:** the nutplates can move up to about a Ø38 PCD.
+4. **Camera gimbal airspeed rating** at 20–45 m/s; drag numbers to Aero/Controls.
+5. **Landing-station clearance check** with the station STEP.
+6. **Layup zones** (4 plies at the shell opening and aft 20 mm) are in the process notes, not modelled as thickness.
