@@ -1,0 +1,153 @@
+{
+ "static_min_distance_mm": {
+  "Tarot_4008_Pusher_Motor_Fuselage | Fuselage_Shell_Left_GFRP_Fuselage": 0.99,
+  "Tarot_4008_Pusher_Motor_Fuselage | Fuselage_Shell_Right_GFRP_Fuselage": 1.01,
+  "Tarot_4008_Pusher_Motor_Fuselage | Pusher_Removable_Plate_6061_Fuselage": 4.92,
+  "Tarot_4008_Pusher_Motor_Fuselage | VTail_Fixed_Core_XPS_VTail_R": 77.46,
+  "Tarot_4008_Pusher_Motor_Fuselage | VTail_Fixed_Skin_GFRP_VTail_R": 77.22,
+  "Tarot_4008_Pusher_Motor_Fuselage | VTail_Hinge_Pins_REF_VTail_R": 74.17,
+  "Tarot_4008_Pusher_Motor_Fuselage | VTail_Ruddervator_Core_XPS_VTail_R": 55.99,
+  "Tarot_4008_Pusher_Motor_Fuselage | VTail_Ruddervator_Skin_GFRP_VTail_R": 52.68,
+  "Tarot_4008_Pusher_Motor_Fuselage | VTail_Fixed_Core_XPS_VTail_L": 77.42,
+  "Tarot_4008_Pusher_Motor_Fuselage | VTail_Fixed_Skin_GFRP_VTail_L": 77.17,
+  "Tarot_4008_Pusher_Motor_Fuselage | VTail_Hinge_Pins_REF_VTail_L": 74.14,
+  "Tarot_4008_Pusher_Motor_Fuselage | VTail_Ruddervator_Core_XPS_VTail_L": 55.94,
+  "Tarot_4008_Pusher_Motor_Fuselage | VTail_Ruddervator_Skin_GFRP_VTail_L": 52.63,
+  "Tarot_4008_Pusher_Motor_Fuselage | REF_Prop_Adapter_Pusher_Fuselage": 0.01,
+  "APC_13x8_LP13080P_Pusher_Prop_Fuselage | REF_Prop_Adapter_Pusher_Fuselage": 0.01,
+  "APC_10x3_LP10030P_Rear_Boom_R | Wing_Skin_GFRP_Wing_R": 29.73,
+  "APC_10x3_LP10030P_Rear_Boom_R | Wing_XPS_Core_Panels_Wing_R": 29.64,
+  "APC_10x3_LP10030P_Rear_Boom_R | UM2807_Rear_Boom_R": 0.45,
+  "APC_10x3_LP10030_Rear_Boom_L | Wing_Skin_GFRP_Wing_L": 24.12,
+  "APC_10x3_LP10030_Rear_Boom_L | Wing_XPS_Core_Panels_Wing_L": 29.64,
+  "APC_10x3_LP10030_Rear_Boom_L | UM2807_Rear_Boom_L": 0.45,
+  "APC_10x3_LP10030P_Front_Boom_L | Wing_Skin_GFRP_Wing_L": 20.25,
+  "APC_10x3_LP10030P_Front_Boom_L | Wing_XPS_Core_Panels_Wing_L": 20.77,
+  "APC_10x3_LP10030P_Front_Boom_L | UM2807_Front_Boom_L": 0.45,
+  "APC_10x3_LP10030_Front_Boom_R | Wing_Skin_GFRP_Wing_R": 20.25,
+  "APC_10x3_LP10030_Front_Boom_R | Wing_XPS_Core_Panels_Wing_R": 20.77,
+  "APC_10x3_LP10030_Front_Boom_R | UM2807_Front_Boom_R": 0.45,
+  "REF_Prop_Adapter_Pusher_Fuselage | Tarot_4008_Pusher_Motor_Fuselage": 0.01,
+  "REF_Prop_Adapter_Pusher_Fuselage | APC_13x8_LP13080P_Pusher_Prop_Fuselage": 0.01
+ },
+ "swept_min_clearance_mm": {
+  "APC_13x8_LP13080P_Pusher_Prop_Fuselage": [
+   [
+    0.0,
+    "REF_Prop_Adapter_Pusher_Fuselage"
+   ],
+   [
+    11.3,
+    "Tarot_4008_Pusher_Motor_Fuselage"
+   ]
+  ],
+  "APC_10x3_LP10030P_Rear_Boom_R": [
+   [
+    0.0,
+    "UM2807_Rear_Boom_R"
+   ],
+   [
+    17.0,
+    "Motor_Screws_M3x10_Boom_R"
+   ],
+   [
+    17.6,
+    "Boom_Upper_Half_Boom_R"
+   ],
+   [
+    22.8,
+    "Motor_Backing_Rings_6061_Boom_R"
+   ]
+  ],
+  "APC_10x3_LP10030_Rear_Boom_L": [
+   [
+    0.0,
+    "UM2807_Rear_Boom_L"
+   ],
+   [
+    17.0,
+    "Motor_Screws_M3x10_Boom_L"
+   ],
+   [
+    17.7,
+    "Boom_Upper_Half_Boom_L"
+   ],
+   [
+    22.8,
+    "Motor_Backing_Rings_6061_Boom_L"
+   ],
+   [
+    24.0,
+    "Wing_Skin_GFRP_Wing_L"
+   ]
+  ],
+  "APC_10x3_LP10030P_Front_Boom_L": [
+   [
+    0.0,
+    "UM2807_Front_Boom_L"
+   ],
+   [
+    17.0,
+    "Motor_Screws_M3x10_Boom_L"
+   ],
+   [
+    17.8,
+    "Boom_Upper_Half_Boom_L"
+   ],
+   [
+    18.5,
+    "Wing_Skin_GFRP_Wing_L"
+   ],
+   [
+    20.7,
+    "Wing_Motor_Rib_Extended_Tab_CFRP_Wing_L"
+   ],
+   [
+    20.7,
+    "Wing_XPS_Core_Panels_Wing_L"
+   ],
+   [
+    22.8,
+    "Motor_Backing_Rings_6061_Boom_L"
+   ],
+   [
+    26.1,
+    "Saddle_U_Channel_Boom_L"
+   ]
+  ],
+  "APC_10x3_LP10030_Front_Boom_R": [
+   [
+    0.0,
+    "UM2807_Front_Boom_R"
+   ],
+   [
+    17.0,
+    "Motor_Screws_M3x10_Boom_R"
+   ],
+   [
+    17.8,
+    "Boom_Upper_Half_Boom_R"
+   ],
+   [
+    18.5,
+    "Wing_Skin_GFRP_Wing_R"
+   ],
+   [
+    20.7,
+    "Wing_Motor_Rib_Extended_Tab_CFRP_Wing_R"
+   ],
+   [
+    20.7,
+    "Wing_XPS_Core_Panels_Wing_R"
+   ],
+   [
+    22.8,
+    "Motor_Backing_Rings_6061_Boom_R"
+   ],
+   [
+    26.1,
+    "Saddle_U_Channel_Boom_R"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,139 @@
+"""Wing half for R16 (from R15): plug-in elbow joints at the main-spar root and the aft torque tube root.
+R16 changes vs R15 wing.py:
+ - Wing_Root_Adapter_GFRP (joiner socket + spar socket + shear plate) -> Wing_Root_Elbow_CFRP: molded S-elbow,
+   OD12 body, spigot OD9.9 into the OD12/10 joiner bore (Y 20-46.2), spigot OD7.9 into the OD10/8 spar bore (30 mm).
+ - Wing_Aft_Root_Socket_GFRP (kinked 2-cylinder socket) -> Wing_Aft_Elbow_CFRP: OD5 single-bend elbow (R~230 mm),
+   D3 anti-rotation pin bonded in its inboard bore, spigot OD3.45 into the OD5/3.5 aft tube bore (15 mm).
+ - Main spar inboard end Y92 -> Y110, aft tube inboard end Y85 -> Y100 (they now butt on the elbow shoulders).
+ - No elbow/socket is trimmed to the skin any more: every tube keeps its full circular section inside the skin.
+"""
+import cadquery as cq, numpy as np, sys
+sys.path.insert(0, '/home/claude/r15pkg/scripts'); sys.path.insert(0, '/home/claude/work')
+from geom import *
+from elbow import *
+YE = 110.0          # root elbow meets the spar line here
+Z_LIFT = 0.45       # mid-bend lift so the S-bend stays centred in the airfoil
+def _root_f():
+    f, df = root_path(YE)
+    def g(u): return f(u) + np.array([0, 0, Z_LIFT*np.sin(np.pi*u)**2])          # sin^2: end tangents unchanged
+    def dg(u): return df(u) + np.array([0, 0, Z_LIFT*np.pi*np.sin(2*np.pi*u)])
+    return g, dg
+def loft_along(f, df, rfun, n=24, sg=1):
+    ws = []
+    for u in np.linspace(0, 1, n):
+        c = f(u)*np.array([1, sg, 1]); t = df(u)*np.array([1, sg, 1]); t = t/np.linalg.norm(t)
+        ws.append(cq.Wire.makeCircle(rfun(u), V(*c), V(*t)))
+    return cq.Solid.makeLoft(ws, False)
+def root_elbow(sg, grow=0.0, hollow=True):
+    f, df = _root_f()
+    body = loft_along(f, df, lambda u: r_root(u) + grow, sg=sg)
+    sp_j = tube_between((J_X, sg*(20.0 - grow), J_Z), (J_X, sg*(Y_ROOT + 0.5), J_Z), 4.95 + grow).val()
+    e = f(1.0)*np.array([1, sg, 1]); dsp = SPAR_D*np.array([1, sg, 1])
+    sp_s = tube_between(tuple(e - dsp*0.5), tuple(e + dsp*(30.0 + grow)), 3.95 + grow).val()
+    s = body.fuse(sp_j, sp_s).clean()
+    if hollow:
+        bore = loft_along(f, df, lambda u: float(np.interp(u, [0, 0.15, 0.7, 1.0], [3.0, 4.0, 4.0, 2.0])), sg=sg)   # wall 2 mm in the bend
+        bj = tube_between((J_X, sg*19.0, J_Z), (J_X, sg*(Y_ROOT + 0.5), J_Z), 3.0).val()
+        bs = tube_between(tuple(e - dsp*0.5), tuple(e + dsp*31.0), 2.0).val()
+        s = s.cut(bore.fuse(bj, bs))
+    return cq.Workplane().add(s)
+def aft_elbow(sg, grow=0.0, hollow=True):
+    f, df = aft_path()
+    body = loft_along(f, df, lambda u: 2.5 + grow, n=12, sg=sg)
+    leg = tube_between((385.0, sg*(A_Y0 - grow), 3.0), (385.0, sg*(A_Y1 + 0.3), 3.0), 2.5 + grow).val()
+    e = f(1.0)*np.array([1, sg, 1]); da_ = AFT_D*np.array([1, sg, 1])
+    spig = tube_between(tuple(e - da_*0.3), tuple(e + da_*(15.0 + grow)), 1.725 + grow).val()
+    s = body.fuse(leg, spig).clean()
+    if hollow: s = s.cut(tube_between((385.0, sg*(A_Y0 - 1), 3.0), (385.0, sg*66.0, 3.0), 1.525).val())   # D3 pin bore
+    return cq.Workplane().add(s)
+RIB_ST = [60, 110, 160, 210, 260, 310, 360, 410, 460, 510, 560, 610, 660, 692]
+def build_wing(sg, log=print):
+    P = {}
+    oml = cq.Workplane().add(cq.Solid.makeLoft([wing_wire(0), wing_wire(sg*WB2)], True))
+    inner = cq.Workplane().add(cq.Solid.makeLoft([wing_wire(0, WSKIN), wing_wire(sg*WB2, WSKIN)], True))
+    fus = fus_solid()
+    skin = oml.cut(inner).cut(fus); log('skin')
+    # ---- spar system
+    y_sp0, y_sp1 = 99.0, 685.0
+    # R15 spar: telescoped CFRP tubes OD10/8 -> OD8/6.4 -> OD6/4.4, 30 mm bonded overlaps (sized for +3 g x1.5 with skin)
+    spar = cq.Workplane().add(tube_between((spar_x(YE), sg*YE, SPAR_Z), (spar_x(380), sg*380, SPAR_Z), 5.0, 4.0).vals() +
+           tube_between((spar_x(350), sg*350, SPAR_Z), (spar_x(560), sg*560, SPAR_Z), 4.0, 3.2).vals() +
+           tube_between((spar_x(530), sg*530, SPAR_Z), (spar_x(y_sp1), sg*y_sp1, SPAR_Z), 3.0, 2.2).vals())
+    d = np.array([spar_x(y_sp1)-spar_x(y_sp0), sg*(y_sp1-y_sp0), 0]); d /= np.linalg.norm(d)
+    c265 = np.array([spar_x(265), sg*265, SPAR_Z])
+    sleeve = tube_between(tuple(c265-d*20.8), tuple(c265+d*20.8), 5.65, 5.15)
+    spar_env = tube_between((spar_x(YE), sg*YE, SPAR_Z), (spar_x(380), sg*380, SPAR_Z), 5.2).union(
+               tube_between((spar_x(378), sg*378, SPAR_Z), (spar_x(560), sg*560, SPAR_Z), 4.2)).union(
+               tube_between((spar_x(558), sg*558, SPAR_Z), (spar_x(y_sp1+2), sg*(y_sp1+2), SPAR_Z), 3.2))
+    # R16 root elbow (replaces R15 2-socket + shear-plate adapter); full section, not trimmed to the skin
+    adapter = root_elbow(sg)
+    adapter_env = root_elbow(sg, grow=0.15, hollow=False)
+    # aft torque tube + collars + root socket
+    a0, a1 = (aft_line_x(A_YB), sg*A_YB, AFT_Z), (427.9, sg*415.0, AFT_Z)
+    aft = tube_between(a0, a1, 2.5, 1.75)
+    da = np.array(a1)-np.array(a0); da /= np.linalg.norm(da)
+    collars = None
+    for st in (265, 310, 360, 410):
+        pt = np.array([aft_x(st), sg*st, AFT_Z]); c = tube_between(tuple(pt-da*4), tuple(pt+da*4), 3.0, 2.55)
+        collars = c if collars is None else collars.union(c)
+    rsock = aft_elbow(sg)                                        # R16 aft elbow (replaces kinked root socket)
+    aft_env = tube_between(a0, a1, 2.6).union(aft_elbow(sg, grow=0.15, hollow=False))
+    # wire conduit (new): PTFE 6/4.5 from root diaphragm to boom saddle exit (X375, Y +-257.5)
+    ydrop = 265 - 7.5
+    zl = wing_zlo(CONDUIT_X, ydrop)
+    cond = tube_between((CONDUIT_X_ROOT, sg*46, CONDUIT_Z), (CONDUIT_X, sg*ydrop, CONDUIT_Z), 3.0, 2.6)
+    cond = cond.union(tube_between((CONDUIT_X, sg*ydrop, CONDUIT_Z+2.9), (CONDUIT_X, sg*ydrop, zl+0.4), 3.0, 2.6))
+    cond_env = tube_between((CONDUIT_X_ROOT - 0.85, sg*40, CONDUIT_Z), (CONDUIT_X, sg*ydrop, CONDUIT_Z), 3.2).union(
+               tube_between((CONDUIT_X, sg*ydrop, CONDUIT_Z+3.2), (CONDUIT_X, sg*ydrop, zl-1), 3.2))
+    sleeve_env = tube_between(tuple(c265-d*21), tuple(c265+d*21), 5.75)
+    collar_env = None
+    for st in (265, 310, 360, 410):
+        pt = np.array([aft_x(st), sg*st, AFT_Z]); ce = tube_between(tuple(pt-da*4.2), tuple(pt+da*4.2), 3.1)
+        collar_env = ce if collar_env is None else collar_env.union(ce)
+    # CFRP motor rib (2 mm) with extended lower tab: rib-tab clevis for the integrated boom saddle
+    rib = box(313.0, 446.0, sg*265-1.0, sg*265+1.0, -20, 25).intersect(inner)
+    above = box(300, 460, sg*265-3, sg*265+3, 0.5, 30).cut(oml)
+    tab = box(318.0, 440.0, sg*265-1.0, sg*265+1.0, -14.2, 2).edges('|Y and <Z').fillet(3.0).cut(above)
+    mrib = rib.union(tab).cut(sleeve_env).cut(collar_env)
+    for bx in (324.0, 381.0, 434.0): mrib = mrib.cut(cyly(bx, -9.5, 1.65, -300, 300))
+    log('tubes')
+    # ---- ribs (XPS ~4 mm) + GFRP root diaphragm + motor-rib doublers
+    # R15: full-depth hot-wire XPS core in two panels per half (root->motor rib, motor rib->tip) replaces 14 foam ribs,
+    # so the 0.33 mm GFRP skin is continuously stabilised (sandwich) and carries bending with the spar.
+    keep_out = spar_env.union(aft_env).union(cond_env).union(sleeve_env).union(adapter_env).union(collar_env)
+    panels = []
+    for (y0_, y1_) in ((46.5, 263.8), (266.2, 700.0)):
+        zone = box(200, 520, min(sg*y0_, sg*y1_), max(sg*y0_, sg*y1_), -20, 25)
+        pnl = zone.intersect(inner).cut(keep_out)
+        if y0_ < 100: pnl = pnl.cut(cylz(370, sg*50, 3.2, -10, 20)).cut(box(363, 377, min(sg*46, sg*56), max(sg*46, sg*56), 0.5, 6.0))
+        pnl = pnl.cut(box(341.6, 375.4, min(sg*262.0, sg*268.0), max(sg*262.0, sg*268.0), -20, 25))   # doubler pockets
+        panels.extend(pnl.vals()); log(f'core panel {y0_}-{y1_}')
+    ribs = cq.Workplane().add(panels)
+    diaphragm = box(200, 520, sg*45.5 - 1.0, sg*45.5 + 1.0, -20, 25).intersect(inner).cut(cyly(310, 4.2, 7.4, -150, 150)) \
+        .cut(cyly(385, 3.0, 2.55, -150, 150)).cut(cond_env).cut(cyly(370, 4, 1.7, -150, 150)).cut(adapter_env).cut(fus)
+    doub = None
+    for yo in (-2.0, 2.0):
+        dd = box(343.1, 373.9, sg*265 + yo - 0.75, sg*265 + yo + 0.75, -20, 25).intersect(inner).cut(sleeve_env)
+        doub = dd if doub is None else doub.union(dd)
+    log('ribs')
+    # ---- root hardware: retention lug + M3 screw, anti-rotation pin (straight joiner lives in fuselage module)
+    lug = box(365, 375, sg*48 if sg > 0 else -54, sg*54 if sg > 0 else -48, 1, 5.5).cut(cylz(370, sg*50, 1.7, -5, 15))
+    screw = cylz(370, sg*50, 1.5, 0.0, 8.2).union(cylz(370, sg*50, 2.75, 5.5, 8.2))
+    pin = cyly(385, 3.0, 1.5, *(sorted((sg*37, sg*63))))
+    # skin cut-outs: boom saddle rib-tab passage + conduit drop + retention screw access
+    skin = skin.cut(box(317.5, 440.5, sg*265-1.2, sg*265+1.2, -8, 2)).cut(cylz(CONDUIT_X, sg*ydrop, 3.1, -8, 0)) \
+               .cut(cylz(370, sg*50, 3.0, 5, 20))
+    P.update(Wing_Skin_GFRP=skin, Wing_XPS_Core_Panels=ribs, Wing_Root_Diaphragm_GFRP=diaphragm, Wing_Main_Spar_CFRP=spar,
+             Wing_Spar_Sleeve_GFRP=sleeve, Wing_Root_Elbow_CFRP=adapter, Wing_Aft_Torque_Tube_CFRP=aft,
+             Wing_Aft_Collars_GFRP=collars, Wing_Aft_Elbow_CFRP=rsock, Wing_Motor_Rib_Doublers_GFRP=doub,
+             Wing_Wire_Conduit_PTFE=cond, Wing_Retention_Lug_GFRP=lug, Wing_Retention_Screw_M3=screw,
+             Wing_AntiRotation_Pin_D3=pin, Wing_Motor_Rib_Extended_Tab_CFRP=mrib)
+    log('done')
+    return P
+if __name__ == '__main__':
+    import os, time; t0 = time.time(); sg = int(sys.argv[1]); side = 'R' if sg > 0 else 'L'
+    out = f'/home/claude/work/out/wing_{side}'; os.makedirs(out, exist_ok=True)
+    P = build_wing(sg, log=lambda m: (print(side, m, round(time.time()-t0, 1)), sys.stdout.flush()))
+    for k, v in P.items():
+        s = v.val() if len(v.vals()) == 1 else cq.Compound.makeCompound(v.vals())
+        print(side, k, s.isValid(), len(s.Solids()), round(s.Volume(), 1)); s.exportBrep(f'{out}/{k}.brep')

@@ -1,0 +1,21 @@
+{
+ "ultimate_root_moment_Nm_wing_root_y45": 17.7,
+ "ultimate_moment_at_joiner_centre_Nm": 20.2,
+ "R13 ribs + OD8/6.4 spar": {
+  "upper_skin_panel_buckling_MPa": 2.7,
+  "skin_stress_if_effective_MPa": 42,
+  "spar_stress_after_skin_buckles_MPa": 596
+ },
+ "R15 full core + OD10/8 spar": {
+  "spar_stress_MPa": 106,
+  "skin_stress_MPa": 33,
+  "skin_wrinkling_theory_MPa": 61,
+  "wrinkling_ratio_with_0p6_knockdown": 1.1
+ },
+ "R13 joiner OD8/6": {
+  "bending_stress_MPa": 588
+ },
+ "R15 joiner OD12/10": {
+  "bending_stress_MPa": 230
+ }
+}

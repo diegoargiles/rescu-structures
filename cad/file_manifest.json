@@ -1,5 +1,5 @@
 {
-  "status": "Geometry candidates; qualification separate",
+  "status": "R16 is the current design (geometry candidate); qualification separate",
   "files": [
     {
       "path": "cad/r13/RescU_R13_Layout_Candidate.FCStd",
@@ -49,6 +49,54 @@
       "sha256": "b46b8f167f80b04f55bcbffac0668ac0131cafa20b0818965f2a97dbabe6009f",
       "committed_in_git": true,
       "package_url": null
+    },
+    {
+      "path": "cad/r15/RescU_R15_Full_Aircraft.step.zip",
+      "bytes": 19116359,
+      "sha256": "98d974f6254f7c5d9b714094fc7aa949059c21c2ac6cae40c50d53d7a3f45bae",
+      "committed_in_git": true
+    },
+    {
+      "path": "cad/r16/RescU_R16_Full_Aircraft.step.zip",
+      "bytes": 32852237,
+      "sha256": "a3c8d2f809c7e1f86e92de328ec6b347932f6037b8255d97140efc99ad18387b",
+      "committed_in_git": true,
+      "revision": "R16.2",
+      "previous": {
+        "revision": "R16",
+        "sha256": "f1af144e180339c79201d8e21764615bc8fe42ae0d15b5190d9e251ad8f5bdf2",
+        "commit": "9d0ae2d"
+      }
+    },
+    {
+      "path": "cad/landing_station/RescU_Landing_Station.step",
+      "bytes": 2313028,
+      "sha256": "bbf5808aa012ff2a6ad94f5a1ece9c77643495361d099c53f3f5d26dd20b1649",
+      "committed_in_git": true
+    },
+    {
+      "path": "cad/landing_station/STL/Cradle_Boom_PETG_print_x2.stl",
+      "bytes": 1418984,
+      "sha256": "508fd57860cc0ecd649e7874d8d571889c526465de729b74e689eec98e0567e1",
+      "committed_in_git": true
+    },
+    {
+      "path": "cad/landing_station/STL/Cradle_Tail_PETG_print_x1.stl",
+      "bytes": 103784,
+      "sha256": "03f9c45bbfb57776de8df07d5aff4c09e0a04634e9e97105c3472dd18ca45772",
+      "committed_in_git": true
+    },
+    {
+      "path": "cad/r16/R15_vs_R16_root_joints.png",
+      "bytes": 377620,
+      "sha256": "34ce297b34bf42862162890a823206d42dee12c671e54e3e6b0a13a195508daf",
+      "committed_in_git": true
+    },
+    {
+      "path": "cad/landing_station/renders/S1_hero_seated.png",
+      "bytes": 802580,
+      "sha256": "10430c13236f0ab72f25d07aa5b083af498bb750f085ffacc211576606516fee",
+      "committed_in_git": true
     }
   ]
 }
