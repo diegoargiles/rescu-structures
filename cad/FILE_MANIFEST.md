@@ -12,7 +12,7 @@ R15 and R16 full-assembly STEPs are committed zipped (under GitHub's 100 MB file
 | `cad/r13/R13_Layout_Review.png` | 151111 | Yes | [Repository file](../cad/r13/R13_Layout_Review.png) |
 | `reports/connection_study/Attachment_Annotated.png` | 153092 | Yes | [Repository file](../reports/connection_study/Attachment_Annotated.png) |
 | `cad/r15/RescU_R15_Full_Aircraft.step.zip` | 19116359 | Yes | [Repository file](../cad/r15/RescU_R15_Full_Aircraft.step.zip) |
-| `cad/r16/RescU_R16_Full_Aircraft.step.zip` (R16.2) | 32852237 | Yes | [Repository file](../cad/r16/RescU_R16_Full_Aircraft.step.zip) |
+| `cad/r16/RescU_R16_Full_Aircraft.step.zip` (R16.4) | 37890235 | Yes | [Repository file](../cad/r16/RescU_R16_Full_Aircraft.step.zip) |
 | `cad/landing_station/RescU_Landing_Station.step` | 2313028 | Yes | [Repository file](../cad/landing_station/RescU_Landing_Station.step) |
 | `cad/landing_station/STL/Cradle_Boom_PETG_print_x2.stl` | 1418984 | Yes | [Repository file](../cad/landing_station/STL/Cradle_Boom_PETG_print_x2.stl) |
 | `cad/landing_station/STL/Cradle_Tail_PETG_print_x1.stl` | 103784 | Yes | [Repository file](../cad/landing_station/STL/Cradle_Tail_PETG_print_x1.stl) |
@@ -22,7 +22,7 @@ R15 and R16 full-assembly STEPs are committed zipped (under GitHub's 100 MB file
 ## SHA-256 checksums
 
 - `cad/r15/RescU_R15_Full_Aircraft.step.zip`: `98d974f6254f7c5d9b714094fc7aa949059c21c2ac6cae40c50d53d7a3f45bae`
-- `cad/r16/RescU_R16_Full_Aircraft.step.zip` (R16.2; the R16 base zip `f1af144e…bdf2` is in commit `9d0ae2d`): `a3c8d2f809c7e1f86e92de328ec6b347932f6037b8255d97140efc99ad18387b`
+- `cad/r16/RescU_R16_Full_Aircraft.step.zip` (R16.4; the R16.2 zip `a3c8d2f8…387b` is in commit `e9517f3`, the R16 base zip `f1af144e…bdf2` in commit `9d0ae2d`): `f172c02c5188b82efc9a2c4fba522b7684b9136d1ec28dd083926910b3db8a13`
 - `cad/landing_station/RescU_Landing_Station.step`: `bbf5808aa012ff2a6ad94f5a1ece9c77643495361d099c53f3f5d26dd20b1649`
 - `cad/landing_station/STL/Cradle_Boom_PETG_print_x2.stl`: `508fd57860cc0ecd649e7874d8d571889c526465de729b74e689eec98e0567e1`
 - `cad/landing_station/STL/Cradle_Tail_PETG_print_x1.stl`: `03f9c45bbfb57776de8df07d5aff4c09e0a04634e9e97105c3472dd18ca45772`

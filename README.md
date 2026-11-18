@@ -1,9 +1,17 @@
 # RescU Structures — R16 current design + landing station
 
-**R16 is the current design**: R15 full-aircraft CAD, plus wing-root elbow joints, landing feet removed. The committed assembly is **R16.2**, which adds a smooth nose, the Tarot 4008 pusher bolted to its plate, and APC props with prop nuts. The aircraft has no landing gear and lands on a ground [landing station](cad/landing_station/README.md). Geometry candidates; not strength-qualified. R13/R14 below are earlier development.
+**R16 is the current design**: R15 full-aircraft CAD, plus wing-root elbow joints, landing feet removed. The committed assembly is **R16.4**: R16.2 (smooth nose, Tarot 4008 pusher bolted to its plate, APC props with prop nuts) plus a nose camera in a recessed cove (R16.3) and a removable nose module (R16.4). The aircraft has no landing gear and lands on a ground [landing station](cad/landing_station/README.md). Geometry candidates; not strength-qualified. R13/R14 below are earlier development.
 
 ## Latest (November 15–17, 2026)
 
+- [R16.4](cad/r16/README.md#r164--removable-nose-module-november-17) (Nov 17):
+  - Nose (x 0–179) is now a removable module, held by 4 × M3 button-head screws into nutplates on a joiner band bonded in the fuselage. It is a line-replaceable unit, so it can be serviced or swapped without replacing the fuselage.
+  - L/R GFRP shells, a molded cove liner (with the R8 lip; bridges the bottom seam), G10 frames NF1–NF4, a 2 mm camera shelf with a 4 × M3 / Ø32 PCD nutplate mount.
+  - Check result: no unintended overlaps; gimbal sweep ≥ 4.9 mm. About 3738 g, CG x ≈ 378.
+  - [Manufacturing and assembly plan](manufacturing/NOSE_MODULE_MANUFACTURING.md).
+- [R16.3](cad/r16/README.md#r163--nose-camera-z30-in-a-recessed-cove-november-17) (Nov 17):
+  - Nose camera (Z30 geometry, 270 g) about 3 in below the belly, in a closed, faired dome recess that clears full yaw and pitch by 5 mm.
+  - Drag estimate: about 25–35 % added cruise drag; structural margins large.
 - [R16.2](cad/r16/README.md#r162--pusher-mount-and-prop-nuts-november-17) (Nov 17):
   - Tarot moved onto the removable plate. The plate keeps its position, and its holes now match the Tarot Ø19 bolt circle (4× M3 × 4 SHCS).
   - Collar bore opened from Ø22 to Ø26 for the screw heads; plate bonds to the collar.

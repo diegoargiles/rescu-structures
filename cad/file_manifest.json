@@ -58,14 +58,14 @@
     },
     {
       "path": "cad/r16/RescU_R16_Full_Aircraft.step.zip",
-      "bytes": 32852237,
-      "sha256": "a3c8d2f809c7e1f86e92de328ec6b347932f6037b8255d97140efc99ad18387b",
+      "bytes": 37890235,
+      "sha256": "f172c02c5188b82efc9a2c4fba522b7684b9136d1ec28dd083926910b3db8a13",
       "committed_in_git": true,
-      "revision": "R16.2",
+      "revision": "R16.4",
       "previous": {
-        "revision": "R16",
-        "sha256": "f1af144e180339c79201d8e21764615bc8fe42ae0d15b5190d9e251ad8f5bdf2",
-        "commit": "9d0ae2d"
+        "revision": "R16.2",
+        "sha256": "a3c8d2f809c7e1f86e92de328ec6b347932f6037b8255d97140efc99ad18387b",
+        "commit": "e9517f3"
       }
     },
     {

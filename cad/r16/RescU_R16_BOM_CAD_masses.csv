@@ -6,11 +6,11 @@ Fuselage,Battery_Insulating_Pads_Foam_Fuselage,EVA foam,0.1,22806.8,2.28,300.0,0
 Fuselage,Battery_Trays_GFRP_Fuselage,GFRP,1.85,13447.3,24.88,299.9,0.0,-24.6,196..404 / -35..35 / -26..-19
 Fuselage,ESC_Deck_GFRP_Fuselage,GFRP,1.85,7540.0,13.95,500.0,0.0,-16.5,435..565 / -29..29 / -17..-16
 Fuselage,ESC_Pads_Foam_Fuselage,EVA foam,0.1,2802.2,0.28,500.0,-0.0,-15.8,437..563 / -28..28 / -16..-16
-Fuselage,Frames_Lower_and_Battery_Saddles_GFRP_Fuselage,GFRP,1.85,12640.6,23.39,302.3,0.0,-28.2,135..552 / -44..44 / -44..-5
+Fuselage,Frames_Lower_and_Battery_Saddles_GFRP_Fuselage,GFRP,1.85,9071.8,16.78,360.7,0.0,-31.3,200..552 / -40..40 / -44..-17
 Fuselage,Frames_Ring_GFRP_Fuselage,GFRP,1.85,5663.5,10.48,606.4,0.0,-15.6,282..1023 / -44..44 / -44..21
-Fuselage,Fuselage_Seam_Strips_GFRP_Fuselage,GFRP,1.85,6623.6,12.25,536.9,0.0,-6.3,5..1068 / -6..6 / -45..45
-Fuselage,Fuselage_Shell_Left_GFRP_Fuselage,GFRP,1.85,40297.0,74.55,534.8,-25.2,-2.4,-0..1110 / -45..0 / -45..45
-Fuselage,Fuselage_Shell_Right_GFRP_Fuselage,GFRP,1.85,40279.0,74.52,534.5,25.2,-2.4,-0..1110 / -0..45 / -45..45
+Fuselage,Fuselage_Seam_Strips_GFRP_Fuselage,GFRP,1.85,5300.4,9.81,646.8,0.0,-7.8,186..1068 / -6..6 / -45..45
+Fuselage,Fuselage_Shell_Left_GFRP_Fuselage,GFRP,1.85,33965.9,62.84,615.0,-25.5,-2.9,179..1110 / -45..0 / -45..45
+Fuselage,Fuselage_Shell_Right_GFRP_Fuselage,GFRP,1.85,33948.0,62.80,614.8,25.5,-2.9,179..1110 / -0..45 / -45..45
 Fuselage,Hatch_Front_GFRP_Fuselage,GFRP,1.85,2094.7,3.88,236.1,0.0,40.0,192..280 / -33..33 / 30..45
 Fuselage,Hatch_Rear_GFRP_Fuselage,GFRP,1.85,2040.4,3.77,364.2,0.0,40.0,322..407 / -33..33 / 31..45
 Fuselage,Hatch_Rims_GFRP_Fuselage,GFRP,1.85,7465.9,13.81,478.2,0.0,28.6,187..1053 / -38..38 / 16..45
@@ -20,7 +20,6 @@ Fuselage,Joiner_Receiver_Sleeves_GFRP_Fuselage,CFRP,1.6,3837.4,6.14,310.0,0.0,4.
 Fuselage,Pusher_Bonded_Collar_GFRP_Fuselage,GFRP,1.85,12099.7,22.38,1089.9,-0.0,0.0,1072..1102 / -27..27 / -27..27
 Fuselage,Pusher_Removable_Plate_6061_Fuselage,Al 6061-T6,2.7,2607.6,7.04,1102.7,0.0,-0.0,1102..1104 / -24..24 / -24..24
 Fuselage,REF_Battery_Modules_75x68x47_Fuselage,REFERENCE (no structural mass),0.0,479400.0,0.0,,,,200..400 / -34..34 / -22..25
-Fuselage,REF_Camera_AI_PROVISIONAL_Fuselage,REFERENCE (no structural mass),0.0,75398.2,0.0,,,,40..100 / -20..20 / -20..20
 Fuselage,REF_ESC_AIR40A_x4_Fuselage,REFERENCE (no structural mass),0.0,63330.6,0.0,,,,437..563 / -28..28 / -16..-4
 Fuselage,REF_Flight_Controller_Cube_Fuselage,REFERENCE (no structural mass),0.0,72380.0,0.0,,,,106..200 / -22..22 / -2..15
 Fuselage,REF_M65A_Cells_6S2P_Fuselage,REFERENCE (no structural mass),0.0,315100.4,0.0,,,,202..398 / -33..33 / -21..23
@@ -101,3 +100,18 @@ Boom_R,Prop_Nut_M5_Bullet_Front_Boom_R,Al 6061 bullet prop nut M5,2.7,361.4,0.98
 Boom_R,Prop_Nut_M5_Bullet_Rear_Boom_R,Al 6061 bullet prop nut M5,2.7,361.4,0.98,600.0,265.0,24.0,594..606 / 260..270 / 20..30
 Boom_L,Prop_Nut_M5_Bullet_Front_Boom_L,Al 6061 bullet prop nut M5,2.7,361.4,0.98,170.0,-265.0,24.0,164..176 / -270..-260 / 20..30
 Boom_L,Prop_Nut_M5_Bullet_Rear_Boom_L,Al 6061 bullet prop nut M5,2.7,361.4,0.98,600.0,-265.0,24.0,594..606 / -270..-260 / 20..30
+Fuselage,Nose_Joiner_Band_GFRP_Fuselage,GFRP,1.85,3125.5,5.78,175.8,0.3,6.0,164..186 / -45..45 / -45..45
+Fuselage,Camera_Shelf_G10_Fuselage,G10,1.85,5589.1,10.34,81.5,-0.0,15.4,57..104 / -36..36 / 14..16
+Fuselage,REF_Z30_Camera_Gimbal_Fuselage,REFERENCE (no structural mass); payload camera documented at 270 g,0.0,446064.2,0.0,,,,28..160 / -46..48 / -120..13
+Fuselage,REF_Z30_Swept_Envelope_Fuselage,REFERENCE (no structural mass); Z30 full yaw + pitch sweep,0.0,2087651.5,0.0,,,,7..161 / -77..77 / -148..13
+Fuselage,Nose_Shell_Left_GFRP_Fuselage,GFRP,1.85,3865.1,7.15,111.4,-24.4,15.3,-0..179 / -45..0 / -45..45
+Fuselage,Nose_Shell_Right_GFRP_Fuselage,GFRP,1.85,3777.3,6.99,110.8,24.5,15.8,-0..179 / -0..45 / -45..45
+Fuselage,Nose_Cove_Liner_GFRP_Fuselage,GFRP,1.85,13233.0,24.48,100.9,-0.4,-6.4,8..179 / -43..43 / -44..27
+Fuselage,Nose_Seam_Strips_GFRP_Fuselage,GFRP,1.85,604.9,1.12,80.6,-0.0,31.6,3..164 / -6..6 / -12..44
+Fuselage,Nose_Frame_NF1_G10_Fuselage,G10,1.85,2626.1,4.86,56.3,0.0,10.2,55..57 / -31..31 / -6..31
+Fuselage,Nose_Frame_NF2_G10_Fuselage,G10,1.85,3390.5,6.27,104.8,-0.0,12.6,104..106 / -39..39 / -6..39
+Fuselage,Nose_Frame_NF3_G10_Fuselage,G10,1.85,1768.0,3.27,135.8,0.0,-12.5,135..137 / -41..41 / -25..-5
+Fuselage,Nose_Frame_NF4_G10_Fuselage,G10,1.85,3824.4,7.08,163.3,-0.0,-21.1,162..164 / -44..44 / -44..-5
+Fuselage,Camera_Mount_Nutplates_M3_Fuselage,Steel (M3 2-lug nutplate x4),7.85,473.0,3.71,84.0,-0.0,18.0,67..101 / -17..17 / 16..20
+Fuselage,Nose_Joint_Nutplates_M3_Fuselage,Steel (M3 2-lug nutplate x4),7.85,473.0,3.71,171.5,-0.0,0.0,166..178 / -39..39 / -24..24
+Fuselage,Nose_Joint_Screws_M3x6_ISO7380_Fuselage,Steel A2 (ISO 7380 M3x6 x4),7.85,310.0,2.43,171.5,-0.0,0.0,169..174 / -41..41 / -25..25

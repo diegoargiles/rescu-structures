@@ -1,0 +1,649 @@
+{
+ "overlaps_mm3": [
+  {
+   "volume": 0.0,
+   "a": "Avionics_Adjust_Strips_Fuselage",
+   "b": "Nose_Cove_Liner_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Avionics_Adjust_Strips_Fuselage",
+   "b": "Nose_Joiner_Band_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Avionics_Adjust_Strips_Fuselage",
+   "b": "Nose_Joint_Nutplates_M3_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Avionics_Adjust_Strips_Fuselage",
+   "b": "Nose_Joint_Screws_M3x6_ISO7380_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Avionics_Adjust_Strips_Fuselage",
+   "b": "Nose_Seam_Strips_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Avionics_Adjust_Strips_Fuselage",
+   "b": "Nose_Shell_Left_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Avionics_Adjust_Strips_Fuselage",
+   "b": "Nose_Shell_Right_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Avionics_Deck_GFRP_Fuselage",
+   "b": "Nose_Cove_Liner_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Avionics_Deck_GFRP_Fuselage",
+   "b": "Nose_Frame_NF3_G10_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Avionics_Deck_GFRP_Fuselage",
+   "b": "Nose_Frame_NF4_G10_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Avionics_Deck_GFRP_Fuselage",
+   "b": "Nose_Joiner_Band_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Avionics_Deck_GFRP_Fuselage",
+   "b": "Nose_Joint_Nutplates_M3_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Avionics_Deck_GFRP_Fuselage",
+   "b": "Nose_Joint_Screws_M3x6_ISO7380_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Avionics_Deck_GFRP_Fuselage",
+   "b": "Nose_Seam_Strips_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Avionics_Deck_GFRP_Fuselage",
+   "b": "Nose_Shell_Left_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Avionics_Deck_GFRP_Fuselage",
+   "b": "Nose_Shell_Right_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Battery_End_Stops_GFRP_Fuselage",
+   "b": "Frames_Lower_and_Battery_Saddles_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Battery_Insulating_Pads_Foam_Fuselage",
+   "b": "Frames_Lower_and_Battery_Saddles_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Battery_Trays_GFRP_Fuselage",
+   "b": "Frames_Lower_and_Battery_Saddles_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Camera_Mount_Nutplates_M3_Fuselage",
+   "b": "Camera_Shelf_G10_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Camera_Mount_Nutplates_M3_Fuselage",
+   "b": "Nose_Cove_Liner_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Camera_Mount_Nutplates_M3_Fuselage",
+   "b": "Nose_Seam_Strips_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Camera_Mount_Nutplates_M3_Fuselage",
+   "b": "Nose_Shell_Left_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Camera_Mount_Nutplates_M3_Fuselage",
+   "b": "Nose_Shell_Right_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Camera_Shelf_G10_Fuselage",
+   "b": "Nose_Cove_Liner_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Camera_Shelf_G10_Fuselage",
+   "b": "Nose_Frame_NF1_G10_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Camera_Shelf_G10_Fuselage",
+   "b": "Nose_Frame_NF2_G10_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Camera_Shelf_G10_Fuselage",
+   "b": "Nose_Seam_Strips_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Camera_Shelf_G10_Fuselage",
+   "b": "Nose_Shell_Left_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Camera_Shelf_G10_Fuselage",
+   "b": "Nose_Shell_Right_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "ESC_Deck_GFRP_Fuselage",
+   "b": "Frames_Lower_and_Battery_Saddles_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Frames_Lower_and_Battery_Saddles_GFRP_Fuselage",
+   "b": "Frames_Ring_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Frames_Lower_and_Battery_Saddles_GFRP_Fuselage",
+   "b": "Fuselage_Seam_Strips_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Frames_Lower_and_Battery_Saddles_GFRP_Fuselage",
+   "b": "Fuselage_Shell_Left_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Frames_Lower_and_Battery_Saddles_GFRP_Fuselage",
+   "b": "Fuselage_Shell_Right_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Frames_Lower_and_Battery_Saddles_GFRP_Fuselage",
+   "b": "REF_Battery_Modules_75x68x47_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Frames_Lower_and_Battery_Saddles_GFRP_Fuselage",
+   "b": "REF_M65A_Cells_6S2P_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Fuselage_Seam_Strips_GFRP_Fuselage",
+   "b": "Nose_Joiner_Band_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Fuselage_Shell_Left_GFRP_Fuselage",
+   "b": "Nose_Cove_Liner_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.073,
+   "a": "Fuselage_Shell_Left_GFRP_Fuselage",
+   "b": "Nose_Joiner_Band_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Fuselage_Shell_Left_GFRP_Fuselage",
+   "b": "Nose_Shell_Left_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Fuselage_Shell_Left_GFRP_Fuselage",
+   "b": "Nose_Shell_Right_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Fuselage_Shell_Right_GFRP_Fuselage",
+   "b": "Nose_Cove_Liner_GFRP_Fuselage"
+  },
+  {
+   "volume": -1.487,
+   "a": "Fuselage_Shell_Right_GFRP_Fuselage",
+   "b": "Nose_Joiner_Band_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Fuselage_Shell_Right_GFRP_Fuselage",
+   "b": "Nose_Shell_Left_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Fuselage_Shell_Right_GFRP_Fuselage",
+   "b": "Nose_Shell_Right_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Nose_Cove_Liner_GFRP_Fuselage",
+   "b": "Nose_Frame_NF1_G10_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Nose_Cove_Liner_GFRP_Fuselage",
+   "b": "Nose_Frame_NF2_G10_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Nose_Cove_Liner_GFRP_Fuselage",
+   "b": "Nose_Frame_NF3_G10_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Nose_Cove_Liner_GFRP_Fuselage",
+   "b": "Nose_Frame_NF4_G10_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Nose_Cove_Liner_GFRP_Fuselage",
+   "b": "Nose_Joiner_Band_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Nose_Cove_Liner_GFRP_Fuselage",
+   "b": "Nose_Joint_Nutplates_M3_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Nose_Cove_Liner_GFRP_Fuselage",
+   "b": "Nose_Joint_Screws_M3x6_ISO7380_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Nose_Cove_Liner_GFRP_Fuselage",
+   "b": "Nose_Seam_Strips_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Nose_Cove_Liner_GFRP_Fuselage",
+   "b": "Nose_Shell_Left_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Nose_Cove_Liner_GFRP_Fuselage",
+   "b": "Nose_Shell_Right_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Nose_Cove_Liner_GFRP_Fuselage",
+   "b": "REF_Flight_Controller_Cube_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Nose_Cove_Liner_GFRP_Fuselage",
+   "b": "REF_Receiver_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Nose_Cove_Liner_GFRP_Fuselage",
+   "b": "REF_Z30_Camera_Gimbal_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Nose_Frame_NF1_G10_Fuselage",
+   "b": "Nose_Seam_Strips_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Nose_Frame_NF1_G10_Fuselage",
+   "b": "Nose_Shell_Left_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Nose_Frame_NF1_G10_Fuselage",
+   "b": "Nose_Shell_Right_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Nose_Frame_NF1_G10_Fuselage",
+   "b": "REF_Z30_Camera_Gimbal_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Nose_Frame_NF2_G10_Fuselage",
+   "b": "Nose_Seam_Strips_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Nose_Frame_NF2_G10_Fuselage",
+   "b": "Nose_Shell_Left_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Nose_Frame_NF2_G10_Fuselage",
+   "b": "Nose_Shell_Right_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Nose_Frame_NF2_G10_Fuselage",
+   "b": "REF_Flight_Controller_Cube_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Nose_Frame_NF2_G10_Fuselage",
+   "b": "REF_Z30_Camera_Gimbal_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Nose_Frame_NF3_G10_Fuselage",
+   "b": "Nose_Seam_Strips_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Nose_Frame_NF3_G10_Fuselage",
+   "b": "Nose_Shell_Left_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Nose_Frame_NF3_G10_Fuselage",
+   "b": "Nose_Shell_Right_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Nose_Frame_NF3_G10_Fuselage",
+   "b": "REF_Z30_Camera_Gimbal_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Nose_Frame_NF4_G10_Fuselage",
+   "b": "Nose_Joiner_Band_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Nose_Frame_NF4_G10_Fuselage",
+   "b": "Nose_Seam_Strips_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Nose_Frame_NF4_G10_Fuselage",
+   "b": "Nose_Shell_Left_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Nose_Frame_NF4_G10_Fuselage",
+   "b": "Nose_Shell_Right_GFRP_Fuselage"
+  },
+  {
+   "volume": 3.533,
+   "a": "Nose_Joiner_Band_GFRP_Fuselage",
+   "b": "Nose_Joint_Nutplates_M3_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Nose_Joiner_Band_GFRP_Fuselage",
+   "b": "Nose_Joint_Screws_M3x6_ISO7380_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Nose_Joiner_Band_GFRP_Fuselage",
+   "b": "Nose_Seam_Strips_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Nose_Joiner_Band_GFRP_Fuselage",
+   "b": "Nose_Shell_Left_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Nose_Joiner_Band_GFRP_Fuselage",
+   "b": "Nose_Shell_Right_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Nose_Joiner_Band_GFRP_Fuselage",
+   "b": "REF_Flight_Controller_Cube_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Nose_Joiner_Band_GFRP_Fuselage",
+   "b": "REF_Receiver_Fuselage"
+  },
+  {
+   "volume": 34.558,
+   "a": "Nose_Joint_Nutplates_M3_Fuselage",
+   "b": "Nose_Joint_Screws_M3x6_ISO7380_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Nose_Joint_Nutplates_M3_Fuselage",
+   "b": "Nose_Shell_Left_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Nose_Joint_Nutplates_M3_Fuselage",
+   "b": "Nose_Shell_Right_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Nose_Joint_Nutplates_M3_Fuselage",
+   "b": "REF_Flight_Controller_Cube_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Nose_Joint_Nutplates_M3_Fuselage",
+   "b": "REF_Receiver_Fuselage"
+  },
+  {
+   "volume": 0.045,
+   "a": "Nose_Joint_Screws_M3x6_ISO7380_Fuselage",
+   "b": "Nose_Shell_Left_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.039,
+   "a": "Nose_Joint_Screws_M3x6_ISO7380_Fuselage",
+   "b": "Nose_Shell_Right_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Nose_Joint_Screws_M3x6_ISO7380_Fuselage",
+   "b": "REF_Flight_Controller_Cube_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Nose_Seam_Strips_GFRP_Fuselage",
+   "b": "Nose_Shell_Left_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Nose_Seam_Strips_GFRP_Fuselage",
+   "b": "Nose_Shell_Right_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Nose_Seam_Strips_GFRP_Fuselage",
+   "b": "REF_Flight_Controller_Cube_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Nose_Seam_Strips_GFRP_Fuselage",
+   "b": "REF_Z30_Camera_Gimbal_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Nose_Shell_Left_GFRP_Fuselage",
+   "b": "Nose_Shell_Right_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Nose_Shell_Left_GFRP_Fuselage",
+   "b": "REF_Flight_Controller_Cube_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Nose_Shell_Left_GFRP_Fuselage",
+   "b": "REF_Receiver_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Nose_Shell_Left_GFRP_Fuselage",
+   "b": "REF_Z30_Camera_Gimbal_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Nose_Shell_Right_GFRP_Fuselage",
+   "b": "REF_Flight_Controller_Cube_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Nose_Shell_Right_GFRP_Fuselage",
+   "b": "REF_Receiver_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Nose_Shell_Right_GFRP_Fuselage",
+   "b": "REF_Z30_Camera_Gimbal_Fuselage"
+  }
+ ],
+ "intended_or_bondline": [
+  "Joint screws/nutplates 34.6 mm3 = thread engagement",
+  "Band/nutplates, shell L/band, screw heads/shells < 0.1 mm3 = bond line / curvature"
+ ],
+ "gimbal_sweep_min_clearance_mm": {
+  "Nose_Cove_Liner": 5.09,
+  "Nose_Frame_NF1": 6.11,
+  "Nose_Frame_NF2 (at neck top, roof between)": 4.9,
+  "REF_Flight_Controller_Cube": 6.1,
+  "Nose_Frame_NF3": 9.2,
+  "Nose_Frame_NF4": 10.0,
+  "Nose_Shell_L/R": 12.87,
+  "Avionics_Deck": 13.33,
+  "Joint nutplates": 31.87,
+  "Joint screws": 33.82
+ },
+ "mass": {
+  "rows": [
+   [
+    "Camera_Mount_Nutplates_M3_Fuselage",
+    473.0,
+    3.71,
+    84.0,
+    0.0,
+    18.0
+   ],
+   [
+    "Camera_Shelf_G10_Fuselage",
+    5589.1,
+    10.34,
+    81.5,
+    -0.0,
+    15.4
+   ],
+   [
+    "Frames_Lower_and_Battery_Saddles_GFRP_Fuselage",
+    9071.8,
+    16.78,
+    360.7,
+    0.0,
+    -31.3
+   ],
+   [
+    "Nose_Cove_Liner_GFRP_Fuselage",
+    13075.4,
+    24.19,
+    100.5,
+    -0.4,
+    -6.2
+   ],
+   [
+    "Nose_Frame_NF1_G10_Fuselage",
+    2626.1,
+    4.86,
+    56.3,
+    0.0,
+    10.2
+   ],
+   [
+    "Nose_Frame_NF2_G10_Fuselage",
+    3390.5,
+    6.27,
+    104.8,
+    -0.0,
+    12.6
+   ],
+   [
+    "Nose_Frame_NF3_G10_Fuselage",
+    1768.0,
+    3.27,
+    135.8,
+    0.0,
+    -12.5
+   ],
+   [
+    "Nose_Frame_NF4_G10_Fuselage",
+    3824.4,
+    7.08,
+    163.3,
+    -0.0,
+    -21.1
+   ],
+   [
+    "Nose_Joiner_Band_GFRP_Fuselage",
+    3125.5,
+    5.78,
+    175.8,
+    0.3,
+    6.0
+   ],
+   [
+    "Nose_Joint_Nutplates_M3_Fuselage",
+    473.0,
+    3.71,
+    171.5,
+    0.0,
+    0.0
+   ],
+   [
+    "Nose_Joint_Screws_M3x6_ISO7380_Fuselage",
+    310.0,
+    2.43,
+    171.5,
+    0.0,
+    0.0
+   ],
+   [
+    "Nose_Seam_Strips_GFRP_Fuselage",
+    604.9,
+    1.12,
+    80.6,
+    -0.0,
+    31.6
+   ],
+   [
+    "Nose_Shell_Left_GFRP_Fuselage",
+    3864.3,
+    7.15,
+    111.4,
+    -24.4,
+    15.3
+   ],
+   [
+    "Nose_Shell_Right_GFRP_Fuselage",
+    3776.9,
+    6.99,
+    110.8,
+    24.5,
+    15.8
+   ]
+  ],
+  "delta": 38.45545659720753,
+  "total": 3738.3554565972076,
+  "cgx": 378.0990798381171
+ }
+}
