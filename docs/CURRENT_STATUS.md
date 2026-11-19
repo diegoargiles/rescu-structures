@@ -1,6 +1,6 @@
 # Current development status
 
-Updated November 17, 2026. **R16 is the current design** (committed assembly: R16.4). It lands on a ground landing station; it has no landing gear.
+Updated November 18, 2026. **R16 is the current design** (committed assembly: R16.5). It lands on a ground landing station; it has no landing gear.
 
 | Work | Status | Evidence |
 |---|---|---|
@@ -11,6 +11,7 @@ Updated November 17, 2026. **R16 is the current design** (committed assembly: R1
 | R16.1 propulsion CAD | Tarot 4008 pusher, APC 10x3 (Quad-X hands) and 13x8P props in the assembly; prop adapter provisional | [R16.1](../cad/r16/README.md#r161--smooth-nose-pusher-motor-and-propellers-november-16), [checks](../cad/r16/clearance_r16_1.json) |
 | R16.2 pusher mount | Tarot bolted to the plate (Ø19 circle, 4× M3 × 4); plate bonded to collar; collar bore Ø26; wire-tab notch; 0 overlaps | [R16.2](../cad/r16/README.md#r162--pusher-mount-and-prop-nuts-november-17), [checks](../cad/r16/clearance_r16_2.json) |
 | R16.3 nose camera | Camera (270 g; Z30 geometry) in a faired cove, full gimbal sweep with ≥ 5 mm; drag about 25–35 % of cruise thrust (estimate) | [R16.3](../cad/r16/README.md#r163--nose-camera-z30-in-a-recessed-cove-november-17), [checks](../cad/r16/clearance_r16_3.json) |
+| R16.5 root joints | Printed V-tail root block + retention screws, pins parallel to the spar, root fairings + 0.5 mm gaps, wing pin pads; 0 overlaps, slide-out and ruddervator ±25° clear; seated on the station with 0 overlaps; about 3768 g, CG x ≈ 382 | [R16.5](../cad/r16/README.md#r165--v-tail-root-block-root-fairings-and-wing-pin-november-18), [checks](../cad/r16/clearance_r16_5.json) |
 | R16.4 removable nose module | L/R shells, cove liner, NF1–NF4, camera shelf + nutplate mount, 4-screw joint; no unintended overlaps; about 3738 g, CG x ≈ 378 | [R16.4](../cad/r16/README.md#r164--removable-nose-module-november-17), [checks](../cad/r16/clearance_r16_4.json), [manufacturing](../manufacturing/NOSE_MODULE_MANUFACTURING.md) |
 | R16.2 prop nuts | UM2807 thread +4 mm (model), M5 bullet nuts; real shaft length to be checked | [R16.2](../cad/r16/README.md#open-items) |
 | Landing provisions | TPU feet removed; tripod gear studied and dropped (+54.5 g, CG behind NP); folding pusher judged not workable | [R16 README](../cad/r16/README.md#landing-decision-history) |

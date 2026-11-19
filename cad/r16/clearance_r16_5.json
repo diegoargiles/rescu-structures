@@ -1,0 +1,1192 @@
+{
+ "overlaps_mm3": [
+  {
+   "volume": 0.0,
+   "a": "Frames_Ring_GFRP_Fuselage",
+   "b": "VTail_AntiRotation_Pin_D3_VTail_R"
+  },
+  {
+   "volume": 0.0,
+   "a": "Frames_Ring_GFRP_Fuselage",
+   "b": "VTail_AntiRotation_Pin_D3_VTail_L"
+  },
+  {
+   "volume": 0.0,
+   "a": "Frames_Ring_GFRP_Fuselage",
+   "b": "VTail_Retention_Screws_M3x20_ISO4762_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Frames_Ring_GFRP_Fuselage",
+   "b": "VTail_Retention_Inserts_M3_Brass_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Frames_Ring_GFRP_Fuselage",
+   "b": "VTail_Spar_CFRP_VTail_L"
+  },
+  {
+   "volume": 0.0,
+   "a": "Frames_Ring_GFRP_Fuselage",
+   "b": "VTail_Root_Receivers_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Frames_Ring_GFRP_Fuselage",
+   "b": "VTail_Root_Diaphragm_GFRP_VTail_R"
+  },
+  {
+   "volume": 0.0,
+   "a": "Frames_Ring_GFRP_Fuselage",
+   "b": "VTail_Root_Diaphragm_GFRP_VTail_L"
+  },
+  {
+   "volume": 0.0,
+   "a": "Frames_Ring_GFRP_Fuselage",
+   "b": "VTail_Spar_Root_Plug_6061_VTail_L"
+  },
+  {
+   "volume": 0.0,
+   "a": "Frames_Ring_GFRP_Fuselage",
+   "b": "Wing_AntiRotation_Pin_D3_Wing_L"
+  },
+  {
+   "volume": 0.0,
+   "a": "Frames_Ring_GFRP_Fuselage",
+   "b": "Wing_AntiRotation_Pin_D3_Wing_R"
+  },
+  {
+   "volume": 0.0,
+   "a": "Frames_Ring_GFRP_Fuselage",
+   "b": "Wing_Pin_Bushing_Pads_G10_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Frames_Ring_GFRP_Fuselage",
+   "b": "VTail_Spar_Root_Plug_6061_VTail_R"
+  },
+  {
+   "volume": 0.0,
+   "a": "Frames_Ring_GFRP_Fuselage",
+   "b": "VTail_Spar_CFRP_VTail_R"
+  },
+  {
+   "volume": 0.0,
+   "a": "Fuselage_Seam_Strips_GFRP_Fuselage",
+   "b": "VTail_AntiRotation_Pin_D3_VTail_L"
+  },
+  {
+   "volume": 0.0,
+   "a": "Fuselage_Seam_Strips_GFRP_Fuselage",
+   "b": "VTail_AntiRotation_Pin_D3_VTail_R"
+  },
+  {
+   "volume": 0.0,
+   "a": "Fuselage_Seam_Strips_GFRP_Fuselage",
+   "b": "VTail_Retention_Inserts_M3_Brass_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Fuselage_Seam_Strips_GFRP_Fuselage",
+   "b": "VTail_Retention_Screws_M3x20_ISO4762_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Frames_Ring_GFRP_Fuselage",
+   "b": "VTail_Root_Block_PA-CF_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Frames_Ring_GFRP_Fuselage",
+   "b": "Wing_Root_Diaphragm_GFRP_Wing_L"
+  },
+  {
+   "volume": 0.0,
+   "a": "Frames_Ring_GFRP_Fuselage",
+   "b": "Wing_Root_Diaphragm_GFRP_Wing_R"
+  },
+  {
+   "volume": 0.0,
+   "a": "Fuselage_Seam_Strips_GFRP_Fuselage",
+   "b": "VTail_Root_Block_PA-CF_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Fuselage_Seam_Strips_GFRP_Fuselage",
+   "b": "VTail_Root_Receivers_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Fuselage_Seam_Strips_GFRP_Fuselage",
+   "b": "VTail_Spar_CFRP_VTail_L"
+  },
+  {
+   "volume": 0.0,
+   "a": "Fuselage_Seam_Strips_GFRP_Fuselage",
+   "b": "VTail_Spar_Root_Plug_6061_VTail_L"
+  },
+  {
+   "volume": 0.0,
+   "a": "Fuselage_Seam_Strips_GFRP_Fuselage",
+   "b": "VTail_Spar_CFRP_VTail_R"
+  },
+  {
+   "volume": 0.0,
+   "a": "Fuselage_Seam_Strips_GFRP_Fuselage",
+   "b": "VTail_Spar_Root_Plug_6061_VTail_R"
+  },
+  {
+   "volume": 0.0,
+   "a": "Fuselage_Seam_Strips_GFRP_Fuselage",
+   "b": "Wing_Pin_Bushing_Pads_G10_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Fuselage_Shell_Left_GFRP_Fuselage",
+   "b": "VTail_AntiRotation_Pin_D3_VTail_L"
+  },
+  {
+   "volume": 0.0,
+   "a": "Fuselage_Shell_Left_GFRP_Fuselage",
+   "b": "VTail_Retention_Inserts_M3_Brass_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Fuselage_Seam_Strips_GFRP_Fuselage",
+   "b": "Wing_Root_Fairings_ASA_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Fuselage_Shell_Left_GFRP_Fuselage",
+   "b": "VTail_Retention_Screws_M3x20_ISO4762_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Fuselage_Seam_Strips_GFRP_Fuselage",
+   "b": "VTail_Root_Fairings_ASA_Fuselage"
+  },
+  {
+   "volume": 0.007,
+   "a": "Fuselage_Shell_Left_GFRP_Fuselage",
+   "b": "VTail_Root_Receivers_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Fuselage_Shell_Left_GFRP_Fuselage",
+   "b": "VTail_Spar_CFRP_VTail_L"
+  },
+  {
+   "volume": 0.0,
+   "a": "Fuselage_Shell_Left_GFRP_Fuselage",
+   "b": "VTail_Spar_Root_Plug_6061_VTail_L"
+  },
+  {
+   "volume": 0.0,
+   "a": "Frames_Ring_GFRP_Fuselage",
+   "b": "Wing_Root_Fairings_ASA_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Fuselage_Shell_Left_GFRP_Fuselage",
+   "b": "Wing_AntiRotation_Pin_D3_Wing_L"
+  },
+  {
+   "volume": 0.0,
+   "a": "Fuselage_Shell_Left_GFRP_Fuselage",
+   "b": "Wing_Pin_Bushing_Pads_G10_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Fuselage_Shell_Left_GFRP_Fuselage",
+   "b": "VTail_Root_Block_PA-CF_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Frames_Ring_GFRP_Fuselage",
+   "b": "VTail_Root_Fairings_ASA_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Fuselage_Shell_Right_GFRP_Fuselage",
+   "b": "VTail_AntiRotation_Pin_D3_VTail_R"
+  },
+  {
+   "volume": 0.0,
+   "a": "Fuselage_Shell_Right_GFRP_Fuselage",
+   "b": "VTail_Retention_Inserts_M3_Brass_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Fuselage_Shell_Right_GFRP_Fuselage",
+   "b": "VTail_Retention_Screws_M3x20_ISO4762_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Fuselage_Shell_Right_GFRP_Fuselage",
+   "b": "VTail_Root_Block_PA-CF_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Fuselage_Shell_Left_GFRP_Fuselage",
+   "b": "Wing_Root_Diaphragm_GFRP_Wing_L"
+  },
+  {
+   "volume": 0.007,
+   "a": "Fuselage_Shell_Right_GFRP_Fuselage",
+   "b": "VTail_Root_Receivers_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Fuselage_Shell_Left_GFRP_Fuselage",
+   "b": "VTail_Root_Diaphragm_GFRP_VTail_L"
+  },
+  {
+   "volume": 0.0,
+   "a": "Fuselage_Shell_Right_GFRP_Fuselage",
+   "b": "VTail_Spar_CFRP_VTail_R"
+  },
+  {
+   "volume": 0.0,
+   "a": "Fuselage_Shell_Right_GFRP_Fuselage",
+   "b": "Wing_AntiRotation_Pin_D3_Wing_R"
+  },
+  {
+   "volume": 0.0,
+   "a": "Fuselage_Shell_Right_GFRP_Fuselage",
+   "b": "VTail_Spar_Root_Plug_6061_VTail_R"
+  },
+  {
+   "volume": 0.0,
+   "a": "Fuselage_Shell_Right_GFRP_Fuselage",
+   "b": "Wing_Pin_Bushing_Pads_G10_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Fuselage_Shell_Right_GFRP_Fuselage",
+   "b": "VTail_Root_Diaphragm_GFRP_VTail_R"
+  },
+  {
+   "volume": 0.0,
+   "a": "Hatch_Rims_GFRP_Fuselage",
+   "b": "VTail_AntiRotation_Pin_D3_VTail_L"
+  },
+  {
+   "volume": 0.0,
+   "a": "Hatch_Rims_GFRP_Fuselage",
+   "b": "VTail_AntiRotation_Pin_D3_VTail_R"
+  },
+  {
+   "volume": 0.0,
+   "a": "Hatch_Rims_GFRP_Fuselage",
+   "b": "VTail_Retention_Screws_M3x20_ISO4762_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Fuselage_Shell_Right_GFRP_Fuselage",
+   "b": "Wing_Root_Diaphragm_GFRP_Wing_R"
+  },
+  {
+   "volume": 0.0,
+   "a": "Fuselage_Shell_Left_GFRP_Fuselage",
+   "b": "Wing_Root_Fairings_ASA_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Hatch_Rims_GFRP_Fuselage",
+   "b": "VTail_Root_Diaphragm_GFRP_VTail_L"
+  },
+  {
+   "volume": 0.0,
+   "a": "Hatch_Rims_GFRP_Fuselage",
+   "b": "VTail_Root_Block_PA-CF_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Hatch_Rims_GFRP_Fuselage",
+   "b": "VTail_Root_Diaphragm_GFRP_VTail_R"
+  },
+  {
+   "volume": 0.402,
+   "a": "Hatch_Rims_GFRP_Fuselage",
+   "b": "VTail_Root_Receivers_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Hatch_Rims_GFRP_Fuselage",
+   "b": "VTail_Spar_CFRP_VTail_L"
+  },
+  {
+   "volume": 0.0,
+   "a": "Hatch_Rims_GFRP_Fuselage",
+   "b": "VTail_Spar_CFRP_VTail_R"
+  },
+  {
+   "volume": 0.0,
+   "a": "Hatch_Tail_GFRP_Fuselage",
+   "b": "VTail_Root_Block_PA-CF_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Hatch_Tail_GFRP_Fuselage",
+   "b": "VTail_Spar_CFRP_VTail_L"
+  },
+  {
+   "volume": 0.0,
+   "a": "Hatch_Rims_GFRP_Fuselage",
+   "b": "Wing_Root_Fairings_ASA_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Hatch_Tail_GFRP_Fuselage",
+   "b": "VTail_Spar_CFRP_VTail_R"
+  },
+  {
+   "volume": 0.0,
+   "a": "Joiner_Axial_Stop_Ring_Fuselage",
+   "b": "Wing_Root_Fairings_ASA_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Pusher_Bonded_Collar_GFRP_Fuselage",
+   "b": "VTail_Spar_CFRP_VTail_L"
+  },
+  {
+   "volume": 0.0,
+   "a": "Pusher_Bonded_Collar_GFRP_Fuselage",
+   "b": "VTail_Spar_CFRP_VTail_R"
+  },
+  {
+   "volume": 0.0,
+   "a": "REF_Battery_Modules_75x68x47_Fuselage",
+   "b": "Wing_Pin_Bushing_Pads_G10_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "REF_Battery_Modules_75x68x47_Fuselage",
+   "b": "Wing_Root_Fairings_ASA_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "REF_M65A_Cells_6S2P_Fuselage",
+   "b": "Wing_Pin_Bushing_Pads_G10_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Joiner_Receiver_Sleeves_GFRP_Fuselage",
+   "b": "Wing_Root_Fairings_ASA_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Hatch_Rims_GFRP_Fuselage",
+   "b": "VTail_Root_Fairings_ASA_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_AntiRotation_Pin_D3_VTail_L",
+   "b": "VTail_Fixed_Core_XPS_VTail_L"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_AntiRotation_Pin_D3_VTail_L",
+   "b": "VTail_Root_Block_PA-CF_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_AntiRotation_Pin_D3_VTail_L",
+   "b": "VTail_Fixed_Skin_GFRP_VTail_L"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_AntiRotation_Pin_D3_VTail_L",
+   "b": "VTail_Root_Diaphragm_GFRP_VTail_L"
+  },
+  {
+   "volume": 0.0,
+   "a": "Fuselage_Shell_Right_GFRP_Fuselage",
+   "b": "Wing_Root_Fairings_ASA_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_AntiRotation_Pin_D3_VTail_L",
+   "b": "VTail_Spar_CFRP_VTail_L"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_AntiRotation_Pin_D3_VTail_R",
+   "b": "VTail_Fixed_Core_XPS_VTail_R"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_AntiRotation_Pin_D3_VTail_L",
+   "b": "VTail_Root_Fairings_ASA_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_AntiRotation_Pin_D3_VTail_R",
+   "b": "VTail_Fixed_Skin_GFRP_VTail_R"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_AntiRotation_Pin_D3_VTail_R",
+   "b": "VTail_Root_Block_PA-CF_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_AntiRotation_Pin_D3_VTail_R",
+   "b": "VTail_Spar_CFRP_VTail_R"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_AntiRotation_Pin_D3_VTail_R",
+   "b": "VTail_Root_Diaphragm_GFRP_VTail_R"
+  },
+  {
+   "volume": 0.0,
+   "a": "REF_M65A_Cells_6S2P_Fuselage",
+   "b": "Wing_Root_Fairings_ASA_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_AntiRotation_Pin_D3_VTail_R",
+   "b": "VTail_Root_Fairings_ASA_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Fuselage_Shell_Left_GFRP_Fuselage",
+   "b": "VTail_Root_Fairings_ASA_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_Fixed_Core_XPS_VTail_L",
+   "b": "VTail_Root_Receivers_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Fuselage_Shell_Right_GFRP_Fuselage",
+   "b": "VTail_Root_Fairings_ASA_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_Fixed_Core_XPS_VTail_L",
+   "b": "VTail_Spar_CFRP_VTail_L"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_Fixed_Core_XPS_VTail_L",
+   "b": "VTail_Root_Block_PA-CF_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_Fixed_Core_XPS_VTail_L",
+   "b": "VTail_Root_Diaphragm_GFRP_VTail_L"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_Fixed_Core_XPS_VTail_R",
+   "b": "VTail_Root_Receivers_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_Fixed_Core_XPS_VTail_R",
+   "b": "VTail_Root_Block_PA-CF_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_Fixed_Core_XPS_VTail_R",
+   "b": "VTail_Spar_CFRP_VTail_R"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_Fixed_Core_XPS_VTail_R",
+   "b": "VTail_Root_Diaphragm_GFRP_VTail_R"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_Fixed_Skin_GFRP_VTail_L",
+   "b": "VTail_Root_Receivers_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_Fixed_Core_XPS_VTail_L",
+   "b": "VTail_Root_Fairings_ASA_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_Fixed_Skin_GFRP_VTail_L",
+   "b": "VTail_Root_Diaphragm_GFRP_VTail_L"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_Fixed_Skin_GFRP_VTail_L",
+   "b": "VTail_Root_Block_PA-CF_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_Fixed_Skin_GFRP_VTail_L",
+   "b": "VTail_Spar_CFRP_VTail_L"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_Fixed_Core_XPS_VTail_R",
+   "b": "VTail_Root_Fairings_ASA_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_Fixed_Skin_GFRP_VTail_R",
+   "b": "VTail_Root_Receivers_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_Hinge_Pins_REF_VTail_L",
+   "b": "VTail_Spar_CFRP_VTail_L"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_Hinge_Pins_REF_VTail_R",
+   "b": "VTail_Spar_CFRP_VTail_R"
+  },
+  {
+   "volume": 17.279,
+   "a": "VTail_Retention_Inserts_M3_Brass_Fuselage",
+   "b": "VTail_Retention_Screws_M3x20_ISO4762_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_Fixed_Skin_GFRP_VTail_L",
+   "b": "VTail_Root_Fairings_ASA_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_Fixed_Skin_GFRP_VTail_R",
+   "b": "VTail_Root_Diaphragm_GFRP_VTail_R"
+  },
+  {
+   "volume": 0.354,
+   "a": "VTail_Retention_Inserts_M3_Brass_Fuselage",
+   "b": "VTail_Root_Receivers_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_Retention_Inserts_M3_Brass_Fuselage",
+   "b": "VTail_Spar_CFRP_VTail_L"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_Retention_Inserts_M3_Brass_Fuselage",
+   "b": "VTail_Spar_CFRP_VTail_R"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_Fixed_Skin_GFRP_VTail_R",
+   "b": "VTail_Root_Block_PA-CF_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_Retention_Inserts_M3_Brass_Fuselage",
+   "b": "VTail_Root_Block_PA-CF_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_Retention_Screws_M3x20_ISO4762_Fuselage",
+   "b": "VTail_Root_Receivers_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_Retention_Screws_M3x20_ISO4762_Fuselage",
+   "b": "VTail_Spar_CFRP_VTail_L"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_Retention_Screws_M3x20_ISO4762_Fuselage",
+   "b": "VTail_Root_Block_PA-CF_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_Retention_Screws_M3x20_ISO4762_Fuselage",
+   "b": "VTail_Spar_Root_Plug_6061_VTail_L"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_Retention_Screws_M3x20_ISO4762_Fuselage",
+   "b": "VTail_Spar_CFRP_VTail_R"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_Retention_Screws_M3x20_ISO4762_Fuselage",
+   "b": "VTail_Spar_Root_Plug_6061_VTail_R"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_Retention_Screws_M3x20_ISO4762_Fuselage",
+   "b": "VTail_Root_Fairings_ASA_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_Root_Block_PA-CF_Fuselage",
+   "b": "VTail_Root_Receivers_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_Fixed_Skin_GFRP_VTail_R",
+   "b": "VTail_Spar_CFRP_VTail_R"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_Root_Block_PA-CF_Fuselage",
+   "b": "VTail_Spar_CFRP_VTail_L"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_Root_Block_PA-CF_Fuselage",
+   "b": "VTail_Spar_Root_Plug_6061_VTail_L"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_Root_Block_PA-CF_Fuselage",
+   "b": "VTail_Spar_Root_Plug_6061_VTail_R"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_Root_Block_PA-CF_Fuselage",
+   "b": "VTail_Spar_CFRP_VTail_R"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_Root_Block_PA-CF_Fuselage",
+   "b": "VTail_Root_Diaphragm_GFRP_VTail_L"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_Root_Block_PA-CF_Fuselage",
+   "b": "VTail_Root_Diaphragm_GFRP_VTail_R"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_Root_Diaphragm_GFRP_VTail_L",
+   "b": "VTail_Root_Receivers_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_Root_Diaphragm_GFRP_VTail_R",
+   "b": "VTail_Root_Receivers_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_Root_Diaphragm_GFRP_VTail_L",
+   "b": "VTail_Spar_CFRP_VTail_L"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_Fixed_Skin_GFRP_VTail_R",
+   "b": "VTail_Root_Fairings_ASA_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_Root_Diaphragm_GFRP_VTail_R",
+   "b": "VTail_Spar_CFRP_VTail_R"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_Root_Fairings_ASA_Fuselage",
+   "b": "VTail_Spar_CFRP_VTail_L"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_Root_Fairings_ASA_Fuselage",
+   "b": "VTail_Root_Receivers_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_Root_Fairings_ASA_Fuselage",
+   "b": "VTail_Spar_Root_Plug_6061_VTail_L"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_Root_Receivers_GFRP_Fuselage",
+   "b": "VTail_Spar_CFRP_VTail_L"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_Root_Fairings_ASA_Fuselage",
+   "b": "VTail_Spar_CFRP_VTail_R"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_Root_Fairings_ASA_Fuselage",
+   "b": "VTail_Spar_Root_Plug_6061_VTail_R"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_Root_Receivers_GFRP_Fuselage",
+   "b": "VTail_Spar_Root_Plug_6061_VTail_R"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_Root_Receivers_GFRP_Fuselage",
+   "b": "VTail_Spar_Root_Plug_6061_VTail_L"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_Root_Receivers_GFRP_Fuselage",
+   "b": "VTail_Spar_CFRP_VTail_R"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_Ruddervator_Core_XPS_VTail_L",
+   "b": "VTail_Spar_CFRP_VTail_L"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_Ruddervator_Core_XPS_VTail_R",
+   "b": "VTail_Spar_CFRP_VTail_R"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_Spar_CFRP_VTail_L",
+   "b": "VTail_Spar_Root_Plug_6061_VTail_L"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_Ruddervator_Skin_GFRP_VTail_L",
+   "b": "VTail_Spar_CFRP_VTail_L"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_Spar_CFRP_VTail_R",
+   "b": "VTail_Spar_Root_Plug_6061_VTail_R"
+  },
+  {
+   "volume": 0.0,
+   "a": "Wing_Aft_Elbow_CFRP_Wing_L",
+   "b": "Wing_AntiRotation_Pin_D3_Wing_L"
+  },
+  {
+   "volume": 0.0,
+   "a": "Wing_Aft_Elbow_CFRP_Wing_L",
+   "b": "Wing_Root_Fairings_ASA_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_Ruddervator_Skin_GFRP_VTail_R",
+   "b": "VTail_Spar_CFRP_VTail_R"
+  },
+  {
+   "volume": 0.0,
+   "a": "Wing_Aft_Elbow_CFRP_Wing_R",
+   "b": "Wing_AntiRotation_Pin_D3_Wing_R"
+  },
+  {
+   "volume": 0.0,
+   "a": "Wing_Aft_Elbow_CFRP_Wing_L",
+   "b": "Wing_Root_Diaphragm_GFRP_Wing_L"
+  },
+  {
+   "volume": 0.0,
+   "a": "Wing_AntiRotation_Pin_D3_Wing_L",
+   "b": "Wing_Pin_Bushing_Pads_G10_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Wing_AntiRotation_Pin_D3_Wing_L",
+   "b": "Wing_Root_Diaphragm_GFRP_Wing_L"
+  },
+  {
+   "volume": 0.0,
+   "a": "Wing_AntiRotation_Pin_D3_Wing_L",
+   "b": "Wing_Root_Fairings_ASA_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Wing_AntiRotation_Pin_D3_Wing_L",
+   "b": "Wing_Root_Side_Rails_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Wing_Aft_Elbow_CFRP_Wing_R",
+   "b": "Wing_Root_Fairings_ASA_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Wing_AntiRotation_Pin_D3_Wing_L",
+   "b": "Wing_Skin_GFRP_Wing_L"
+  },
+  {
+   "volume": 0.0,
+   "a": "Wing_AntiRotation_Pin_D3_Wing_R",
+   "b": "Wing_Pin_Bushing_Pads_G10_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Wing_Aft_Elbow_CFRP_Wing_R",
+   "b": "Wing_Root_Diaphragm_GFRP_Wing_R"
+  },
+  {
+   "volume": 0.0,
+   "a": "Wing_AntiRotation_Pin_D3_Wing_R",
+   "b": "Wing_Root_Diaphragm_GFRP_Wing_R"
+  },
+  {
+   "volume": 0.0,
+   "a": "Wing_AntiRotation_Pin_D3_Wing_R",
+   "b": "Wing_Root_Side_Rails_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Wing_AntiRotation_Pin_D3_Wing_L",
+   "b": "Wing_XPS_Core_Panels_Wing_L"
+  },
+  {
+   "volume": 0.0,
+   "a": "Wing_AntiRotation_Pin_D3_Wing_R",
+   "b": "Wing_Root_Fairings_ASA_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Wing_AntiRotation_Pin_D3_Wing_R",
+   "b": "Wing_Skin_GFRP_Wing_R"
+  },
+  {
+   "volume": 0.0,
+   "a": "Wing_Joiner_CFRP_OD12_Fuselage",
+   "b": "Wing_Root_Diaphragm_GFRP_Wing_L"
+  },
+  {
+   "volume": 0.0,
+   "a": "Wing_AntiRotation_Pin_D3_Wing_R",
+   "b": "Wing_XPS_Core_Panels_Wing_R"
+  },
+  {
+   "volume": 0.0,
+   "a": "Wing_Joiner_CFRP_OD12_Fuselage",
+   "b": "Wing_Root_Diaphragm_GFRP_Wing_R"
+  },
+  {
+   "volume": 0.0,
+   "a": "Wing_Pin_Bushing_Pads_G10_Fuselage",
+   "b": "Wing_Root_Side_Rails_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Wing_Joiner_CFRP_OD12_Fuselage",
+   "b": "Wing_Root_Fairings_ASA_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Wing_Retention_Lug_GFRP_Wing_L",
+   "b": "Wing_Root_Fairings_ASA_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Wing_Pin_Bushing_Pads_G10_Fuselage",
+   "b": "Wing_Root_Fairings_ASA_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Wing_Retention_Lug_GFRP_Wing_R",
+   "b": "Wing_Root_Fairings_ASA_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Wing_Retention_Screw_M3_Wing_R",
+   "b": "Wing_Root_Fairings_ASA_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Wing_Retention_Screw_M3_Wing_L",
+   "b": "Wing_Root_Fairings_ASA_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_Root_Diaphragm_GFRP_VTail_L",
+   "b": "VTail_Root_Fairings_ASA_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Wing_Root_Diaphragm_GFRP_Wing_L",
+   "b": "Wing_Wire_Conduit_PTFE_Wing_L"
+  },
+  {
+   "volume": 0.0,
+   "a": "Wing_Root_Diaphragm_GFRP_Wing_L",
+   "b": "Wing_Root_Elbow_CFRP_Wing_L"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_Root_Diaphragm_GFRP_VTail_R",
+   "b": "VTail_Root_Fairings_ASA_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "VTail_Root_Block_PA-CF_Fuselage",
+   "b": "VTail_Root_Fairings_ASA_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Wing_Root_Diaphragm_GFRP_Wing_R",
+   "b": "Wing_Root_Elbow_CFRP_Wing_R"
+  },
+  {
+   "volume": 0.0,
+   "a": "Wing_Root_Diaphragm_GFRP_Wing_R",
+   "b": "Wing_Wire_Conduit_PTFE_Wing_R"
+  },
+  {
+   "volume": 0.0,
+   "a": "Wing_Root_Diaphragm_GFRP_Wing_L",
+   "b": "Wing_Skin_GFRP_Wing_L"
+  },
+  {
+   "volume": 0.0,
+   "a": "Wing_Root_Elbow_CFRP_Wing_L",
+   "b": "Wing_Root_Fairings_ASA_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Wing_Root_Diaphragm_GFRP_Wing_R",
+   "b": "Wing_Skin_GFRP_Wing_R"
+  },
+  {
+   "volume": 0.0,
+   "a": "Wing_Root_Elbow_CFRP_Wing_R",
+   "b": "Wing_Root_Fairings_ASA_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Wing_Root_Fairings_ASA_Fuselage",
+   "b": "Wing_Root_Side_Rails_GFRP_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Wing_Root_Diaphragm_GFRP_Wing_L",
+   "b": "Wing_Root_Fairings_ASA_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Wing_Root_Fairings_ASA_Fuselage",
+   "b": "Wing_Wire_Conduit_PTFE_Wing_L"
+  },
+  {
+   "volume": 0.0,
+   "a": "Wing_Root_Diaphragm_GFRP_Wing_R",
+   "b": "Wing_Root_Fairings_ASA_Fuselage"
+  },
+  {
+   "volume": 0.0,
+   "a": "Wing_Root_Fairings_ASA_Fuselage",
+   "b": "Wing_Wire_Conduit_PTFE_Wing_R"
+  },
+  {
+   "volume": 0.0,
+   "a": "Wing_Root_Diaphragm_GFRP_Wing_L",
+   "b": "Wing_XPS_Core_Panels_Wing_L"
+  },
+  {
+   "volume": 0.0,
+   "a": "Wing_Root_Diaphragm_GFRP_Wing_R",
+   "b": "Wing_XPS_Core_Panels_Wing_R"
+  },
+  {
+   "volume": 0.0,
+   "a": "Wing_Root_Fairings_ASA_Fuselage",
+   "b": "Wing_XPS_Core_Panels_Wing_L"
+  },
+  {
+   "volume": 0.0,
+   "a": "Wing_Root_Fairings_ASA_Fuselage",
+   "b": "Wing_Skin_GFRP_Wing_L"
+  },
+  {
+   "volume": 0.0,
+   "a": "Wing_Root_Fairings_ASA_Fuselage",
+   "b": "Wing_Skin_GFRP_Wing_R"
+  },
+  {
+   "volume": 0.0,
+   "a": "Wing_Root_Fairings_ASA_Fuselage",
+   "b": "Wing_XPS_Core_Panels_Wing_R"
+  }
+ ],
+ "intended_or_bondline": [
+  "Retention screws/inserts 17.3 mm3 = thread engagement",
+  "Receivers/shells 0.007 mm3 = bond line",
+  "After the check: receivers trimmed clear of hatch rims (was 0.40), inserts trimmed clear of receivers (was 0.35)"
+ ],
+ "motion": {
+  "vtail_slide_out_along_spar_axis_mm": {
+   "0": 0.0,
+   "2": 0.0,
+   "6": 0.0,
+   "15": 0.0,
+   "30": 0.0
+  },
+  "ruddervator_pm25deg_after_LE_bevel_mm3": {
+   "fixed_skin": 0.0,
+   "fuselage_shell": 0.0,
+   "root_fairing": 0.0,
+   "note": "R16.4 had 1.5 mm3 vs fixed skin and 1.5 mm3 vs shell at +-25 deg"
+  },
+  "wing_slide_out_along_y_mm3": {
+   "0": 0.0,
+   "1": 0.0,
+   "2": 0.0,
+   "3": 0.0,
+   "6": 0.0,
+   "15": 0.0,
+   "40": 0.0
+  },
+  "notes": "Raw motion log before the ruddervator bevel and diaphragm trim is motion165_raw.json"
+ },
+ "seated_on_station_min_distance_mm": [
+  {
+   "dist": 0.0,
+   "overlap": 0.0,
+   "aircraft": "Boom_Lower_Half_Boom_L",
+   "station": "Pad_Boom_L_EVA3"
+  },
+  {
+   "dist": 0.0,
+   "overlap": 0.0,
+   "aircraft": "Boom_Lower_Half_Boom_R",
+   "station": "Pad_Boom_R_EVA3"
+  },
+  {
+   "dist": 0.0,
+   "overlap": 0.0,
+   "aircraft": "Fuselage_Shell_Left_GFRP_Fuselage",
+   "station": "Pad_Tail_EVA3"
+  },
+  {
+   "dist": 0.0,
+   "overlap": 0.0,
+   "aircraft": "Fuselage_Shell_Right_GFRP_Fuselage",
+   "station": "Pad_Tail_EVA3"
+  },
+  {
+   "dist": 0.63,
+   "overlap": 0.0,
+   "aircraft": "Frames_Ring_GFRP_Fuselage",
+   "station": "Pad_Tail_EVA3"
+  },
+  {
+   "dist": 2.7,
+   "overlap": 0.0,
+   "aircraft": "Fuselage_Shell_Left_GFRP_Fuselage",
+   "station": "Cradle_Tail_PETG"
+  },
+  {
+   "dist": 2.7,
+   "overlap": 0.0,
+   "aircraft": "Fuselage_Shell_Right_GFRP_Fuselage",
+   "station": "Cradle_Tail_PETG"
+  },
+  {
+   "dist": 3.0,
+   "overlap": 0.0,
+   "aircraft": "Boom_Lower_Half_Boom_L",
+   "station": "Cradle_Boom_L_PETG"
+  },
+  {
+   "dist": 3.0,
+   "overlap": 0.0,
+   "aircraft": "Boom_Lower_Half_Boom_R",
+   "station": "Cradle_Boom_R_PETG"
+  },
+  {
+   "dist": 3.63,
+   "overlap": 0.0,
+   "aircraft": "Frames_Ring_GFRP_Fuselage",
+   "station": "Cradle_Tail_PETG"
+  },
+  {
+   "dist": 4.25,
+   "overlap": 0.0,
+   "aircraft": "VTail_Root_Block_PA-CF_Fuselage",
+   "station": "Pad_Tail_EVA3"
+  },
+  {
+   "dist": 4.36,
+   "overlap": 0.0,
+   "aircraft": "VTail_Root_Block_PA-CF_Fuselage",
+   "station": "Cradle_Tail_PETG"
+  },
+  {
+   "dist": 6.49,
+   "overlap": 0.0,
+   "aircraft": "Fuselage_Seam_Strips_GFRP_Fuselage",
+   "station": "Pad_Tail_EVA3"
+  },
+  {
+   "dist": 7.88,
+   "overlap": 0.0,
+   "aircraft": "Fuselage_Seam_Strips_GFRP_Fuselage",
+   "station": "Cradle_Tail_PETG"
+  },
+  {
+   "dist": 11.0,
+   "overlap": 0.0,
+   "aircraft": "Boom_Lower_Half_Boom_L",
+   "station": "Post_Boom_L_2020_L201"
+  },
+  {
+   "dist": 11.0,
+   "overlap": 0.0,
+   "aircraft": "Boom_Lower_Half_Boom_R",
+   "station": "Post_Boom_R_2020_L201"
+  },
+  {
+   "dist": 11.29,
+   "overlap": 0.0,
+   "aircraft": "Wing_Skin_GFRP_Wing_L",
+   "station": "Cradle_Boom_L_PETG"
+  },
+  {
+   "dist": 11.29,
+   "overlap": 0.0,
+   "aircraft": "Wing_Skin_GFRP_Wing_R",
+   "station": "Cradle_Boom_R_PETG"
+  },
+  {
+   "dist": 11.62,
+   "overlap": 0.0,
+   "aircraft": "Wing_XPS_Core_Panels_Wing_L",
+   "station": "Cradle_Boom_L_PETG"
+  },
+  {
+   "dist": 11.62,
+   "overlap": 0.0,
+   "aircraft": "Wing_XPS_Core_Panels_Wing_R",
+   "station": "Cradle_Boom_R_PETG"
+  },
+  {
+   "dist": 13.26,
+   "overlap": 0.0,
+   "aircraft": "Wing_Main_Spar_CFRP_Wing_L",
+   "station": "Cradle_Boom_L_PETG"
+  },
+  {
+   "dist": 13.26,
+   "overlap": 0.0,
+   "aircraft": "Wing_Main_Spar_CFRP_Wing_R",
+   "station": "Cradle_Boom_R_PETG"
+  },
+  {
+   "dist": 14.86,
+   "overlap": 0.0,
+   "aircraft": "Wing_Aft_Torque_Tube_CFRP_Wing_L",
+   "station": "Cradle_Boom_L_PETG"
+  },
+  {
+   "dist": 14.86,
+   "overlap": 0.0,
+   "aircraft": "Wing_Aft_Torque_Tube_CFRP_Wing_R",
+   "station": "Cradle_Boom_R_PETG"
+  },
+  {
+   "dist": 15.26,
+   "overlap": 0.0,
+   "aircraft": "Wing_Wire_Conduit_PTFE_Wing_L",
+   "station": "Cradle_Boom_L_PETG"
+  }
+ ],
+ "nose_camera_sweep_to_station_mm": 224.3
+}

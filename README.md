@@ -1,9 +1,14 @@
 # RescU Structures — R16 current design + landing station
 
-**R16 is the current design**: R15 full-aircraft CAD, plus wing-root elbow joints, landing feet removed. The committed assembly is **R16.4**: R16.2 (smooth nose, Tarot 4008 pusher bolted to its plate, APC props with prop nuts) plus a nose camera in a recessed cove (R16.3) and a removable nose module (R16.4). The aircraft has no landing gear and lands on a ground [landing station](cad/landing_station/README.md). Geometry candidates; not strength-qualified. R13/R14 below are earlier development.
+**R16 is the current design**: R15 full-aircraft CAD, plus wing-root elbow joints, landing feet removed. The committed assembly is **R16.5**: R16.2 (smooth nose, Tarot 4008 pusher bolted to its plate, APC props with prop nuts) plus a nose camera in a recessed cove (R16.3), a removable nose module (R16.4), and refined wing and V-tail root joints (R16.5). The aircraft has no landing gear and lands on a ground [landing station](cad/landing_station/README.md). Geometry candidates; not strength-qualified. R13/R14 below are earlier development.
 
-## Latest (November 15–17, 2026)
+## Latest (November 15–18, 2026)
 
+- [R16.5](cad/r16/README.md#r165--v-tail-root-block-root-fairings-and-wing-pin-november-18) (Nov 18):
+  - Printed V-tail root block now carries the receivers, the pins (made parallel to the spar so the panels slide in and out) and one M3 retention screw per panel.
+  - Printed root fairings on the wing and V-tail, with 0.5 mm root gaps. Wing anti-rotation pins now seat in G10 pads.
+  - Check results: 0 overlaps; slide-out and ruddervator ±25° clear. About 3768 g, CG x ≈ 382.
+  - New seated assembly on the landing station: `cad/r16/RescU_R16_5_Seated_on_Landing_Station.step.zip`.
 - [R16.4](cad/r16/README.md#r164--removable-nose-module-november-17) (Nov 17):
   - Nose (x 0–179) is now a removable module, held by 4 × M3 button-head screws into nutplates on a joiner band bonded in the fuselage. It is a line-replaceable unit, so it can be serviced or swapped without replacing the fuselage.
   - L/R GFRP shells, a molded cove liner (with the R8 lip; bridges the bottom seam), G10 frames NF1–NF4, a 2 mm camera shelf with a 4 × M3 / Ø32 PCD nutplate mount.
