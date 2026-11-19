@@ -23,6 +23,8 @@ Ground station the R16 aircraft lands on vertically. Two flared printed cradles 
 | `renders/` | Seated, station, cradle close-up, side clearance |
 | `scripts/` | `build_station.py`, `export_station.py`, `check_station.py`, `render_station.py` |
 
+Seated full assembly with the current aircraft (R16.5): [`cad/r16/RescU_R16_5_Seated_on_Landing_Station.step.zip`](../r16/RescU_R16_5_Seated_on_Landing_Station.step.zip). It has 0 overlaps; the nose camera hangs 152–180 mm above the floor, 224 mm clear of the station.
+
 ## Checks (station vs seated R16 CAD)
 
 - 0 overlaps aircraft vs station and station vs station; only the four EVA pads touch the aircraft; no other aircraft part within 2 mm.

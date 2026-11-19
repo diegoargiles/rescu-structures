@@ -26,19 +26,19 @@ Fuselage,REF_M65A_Cells_6S2P_Fuselage,REFERENCE (no structural mass),0.0,315100.
 Fuselage,REF_Payload_Mount_Plate_Fuselage,REFERENCE (no structural mass),0.0,3000.0,0.0,,,,325..375 / -20..20 / -56..-54
 Fuselage,REF_Receiver_Fuselage,REFERENCE (no structural mass),0.0,3800.0,0.0,,,,176..196 / -10..10 / 16..25
 Fuselage,REF_VTail_Servos_Fuselage,REFERENCE (no structural mass),0.0,28800.0,0.0,,,,930..960 / -16..16 / -15..17
-Fuselage,VTail_Root_Receivers_GFRP_Fuselage,GFRP,1.85,1056.7,1.95,992.5,0.0,7.3,985..1000 / -21..21 / -2..16
+Fuselage,VTail_Root_Receivers_GFRP_Fuselage,GFRP,1.85,1325.8,2.45,993.7,0.0,8.9,985..1003 / -25..25 / -2..19
 Fuselage,Wing_Joiner_CFRP_OD12_Fuselage,CFRP,1.6,3179.3,5.09,310.0,-0.0,4.2,304..316 / -46..46 / -2..10
 Fuselage,Wing_Root_Side_Rails_GFRP_Fuselage,GFRP,1.85,6186.4,11.44,346.4,-0.0,2.3,284..402 / -42..42 / -5..10
 Wing_R,Wing_Aft_Collars_GFRP_Wing_R,GFRP,1.85,251.1,0.46,417.7,336.2,3.1,405..431 / 261..414 / 0..6
 Wing_R,Wing_Aft_Elbow_CFRP_Wing_R,CFRP,1.6,1056.0,1.69,385.7,80.0,3.0,382..391 / 46..115 / 0..6
 Wing_R,Wing_Aft_Torque_Tube_CFRP_Wing_R,CFRP,1.6,3180.9,5.09,407.4,257.5,3.1,384..430 / 100..415 / 1..6
-Wing_R,Wing_AntiRotation_Pin_D3_Wing_R,Steel,7.85,183.8,1.44,385.0,50.0,3.0,384..386 / 37..63 / 2..4
+Wing_R,Wing_AntiRotation_Pin_D3_Wing_R,Steel,7.85,187.3,1.47,385.0,49.7,3.0,384..386 / 36..63 / 2..4
 Wing_R,Wing_Main_Spar_CFRP_Wing_R,CFRP,1.6,13656.8,21.85,371.9,358.8,4.0,324..431 / 109..686 / -1..9
 Wing_R,Wing_Motor_Rib_Doublers_GFRP_Wing_R,GFRP,1.85,792.2,1.47,359.3,265.0,4.1,343..374 / 262..268 / -2..10
 Wing_R,Wing_Motor_Rib_Extended_Tab_CFRP_Wing_R,CFRP,1.6,5071.6,8.11,377.3,265.0,-3.4,313..446 / 264..266 / -14..10
 Wing_R,Wing_Retention_Lug_GFRP_Wing_R,GFRP,1.85,229.1,0.42,370.0,51.2,3.2,365..375 / 48..54 / 1..6
 Wing_R,Wing_Retention_Screw_M3_Wing_R,Steel,7.85,103.0,0.81,370.0,50.0,5.3,367..373 / 47..53 / 0..8
-Wing_R,Wing_Root_Diaphragm_GFRP_Wing_R,GFRP,1.85,2117.8,3.92,336.0,45.6,4.5,269..423 / 44..47 / -3..12
+Wing_R,Wing_Root_Diaphragm_GFRP_Wing_R,GFRP,1.85,1589.2,2.94,346.1,45.5,4.4,270..423 / 44..47 / -3..12
 Wing_R,Wing_Root_Elbow_CFRP_Wing_R,CFRP,1.6,6815.2,10.9,319.1,77.2,4.2,304..338 / 20..140 / -2..11
 Wing_R,Wing_Skin_GFRP_Wing_R,GFRP,1.85,56275.8,104.11,414.4,365.9,3.8,269..500 / 43..700 / -3..12
 Wing_R,Wing_Spar_Sleeve_GFRP_Wing_R,GFRP,1.85,705.7,1.31,355.8,265.0,4.0,347..365 / 244..286 / -2..10
@@ -47,13 +47,13 @@ Wing_R,Wing_XPS_Core_Panels_Wing_R,Ravatherm XPS,0.032,563580.8,18.03,386.9,330.
 Wing_L,Wing_Aft_Collars_GFRP_Wing_L,GFRP,1.85,251.1,0.46,417.7,-336.2,3.1,405..431 / -414..-261 / 0..6
 Wing_L,Wing_Aft_Elbow_CFRP_Wing_L,CFRP,1.6,1056.0,1.69,385.7,-80.0,3.0,382..391 / -115..-46 / 0..6
 Wing_L,Wing_Aft_Torque_Tube_CFRP_Wing_L,CFRP,1.6,3180.9,5.09,407.4,-257.5,3.1,384..430 / -415..-100 / 1..6
-Wing_L,Wing_AntiRotation_Pin_D3_Wing_L,Steel,7.85,183.8,1.44,385.0,-50.0,3.0,384..386 / -63..-37 / 2..4
+Wing_L,Wing_AntiRotation_Pin_D3_Wing_L,Steel,7.85,187.3,1.47,385.0,-49.7,3.0,384..386 / -63..-36 / 2..4
 Wing_L,Wing_Main_Spar_CFRP_Wing_L,CFRP,1.6,13656.8,21.85,371.9,-358.8,4.0,324..431 / -686..-109 / -1..9
 Wing_L,Wing_Motor_Rib_Doublers_GFRP_Wing_L,GFRP,1.85,792.2,1.47,359.3,-265.0,4.1,343..374 / -268..-262 / -2..10
 Wing_L,Wing_Motor_Rib_Extended_Tab_CFRP_Wing_L,CFRP,1.6,5071.6,8.11,377.3,-265.0,-3.4,313..446 / -266..-264 / -14..10
 Wing_L,Wing_Retention_Lug_GFRP_Wing_L,GFRP,1.85,229.1,0.42,370.0,-51.2,3.2,365..375 / -54..-48 / 1..6
 Wing_L,Wing_Retention_Screw_M3_Wing_L,Steel,7.85,103.0,0.81,370.0,-50.0,5.3,367..373 / -53..-47 / 0..8
-Wing_L,Wing_Root_Diaphragm_GFRP_Wing_L,GFRP,1.85,2117.7,3.92,336.0,-45.6,4.5,269..423 / -47..-44 / -3..12
+Wing_L,Wing_Root_Diaphragm_GFRP_Wing_L,GFRP,1.85,1589.4,2.94,346.1,-45.5,4.4,270..423 / -47..-44 / -3..12
 Wing_L,Wing_Root_Elbow_CFRP_Wing_L,CFRP,1.6,6815.2,10.9,319.1,-77.2,4.2,304..338 / -140..-20 / -2..11
 Wing_L,Wing_Skin_GFRP_Wing_L,GFRP,1.85,56275.8,104.11,409.1,-352.9,3.8,269..500 / -700..-43 / -3..12
 Wing_L,Wing_Spar_Sleeve_GFRP_Wing_L,GFRP,1.85,705.7,1.31,355.8,-265.0,4.0,347..365 / -286..-244 / -2..10
@@ -77,22 +77,22 @@ Boom_L,Motor_Screws_M3x10_Boom_L,Steel,7.85,1011.3,7.94,385.0,-265.0,-15.7,158..
 Boom_L,Pad_Access_Covers_Boom_L,CFRP,1.5,1101.7,1.65,385.5,-265.0,-33.3,155..615 / -280..-250 / -35..-28
 Boom_L,Saddle_Bolts_M3_and_Barrel_Nuts_Boom_L,Steel,7.85,612.4,4.81,379.7,-265.9,-9.5,321..437 / -278..-253 / -12..-7
 Boom_L,Saddle_U_Channel_Boom_L,CFRP,1.5,4348.7,6.52,381.6,-265.0,-9.9,317..441 / -267..-263 / -16..-1
-VTail_R,VTail_AntiRotation_Pin_D3_VTail_R,Steel,7.85,240.3,1.89,1014.0,18.8,13.2,1012..1016 / 4..34 / 2..24
+VTail_R,VTail_AntiRotation_Pin_D3_VTail_R,Steel,7.85,231.2,1.82,1023.1,17.2,12.0,1015..1031 / 4..30 / 2..22
 VTail_R,VTail_Fixed_Core_XPS_VTail_R,Ravatherm XPS,0.032,41497.7,1.33,1042.0,92.4,64.7,975..1110 / 22..202 / 14..142
 VTail_R,VTail_Fixed_Skin_GFRP_VTail_R,GFRP,1.85,5259.2,9.73,1044.1,94.8,66.3,975..1111 / 21..202 / 13..142
 VTail_R,VTail_Hinge_Pins_REF_VTail_R,Nylon,1.15,162.9,0.19,1069.3,106.5,74.6,1035..1103 / 27..186 / 19..131
-VTail_R,VTail_Root_Diaphragm_GFRP_VTail_R,GFRP,1.85,335.5,0.62,1007.3,24.4,17.0,975..1032 / 21..27 / 13..21
+VTail_R,VTail_Root_Diaphragm_GFRP_VTail_R,GFRP,1.85,286.4,0.53,1007.2,24.8,17.3,975..1032 / 22..27 / 14..21
 VTail_R,VTail_Ruddervator_Core_XPS_VTail_R,Ravatherm XPS,0.032,6845.3,0.22,1069.5,90.9,63.7,1033..1122 / 22..201 / 14..141
 VTail_R,VTail_Ruddervator_Skin_GFRP_VTail_R,GFRP,1.85,2343.4,4.34,1076.8,101.9,71.4,1033..1125 / 22..201 / 14..142
-VTail_R,VTail_Spar_CFRP_VTail_R,CFRP,1.6,2456.5,3.93,1030.7,82.3,57.6,986..1091 / 2..195 / 0..137
-VTail_L,VTail_AntiRotation_Pin_D3_VTail_L,Steel,7.85,240.3,1.89,1014.0,-18.8,13.2,1012..1016 / -34..-4 / 2..24
+VTail_R,VTail_Spar_CFRP_VTail_R,CFRP,1.6,2440.5,3.90,1038.8,98.2,68.5,986..1091 / 2..195 / 0..137
+VTail_L,VTail_AntiRotation_Pin_D3_VTail_L,Steel,7.85,231.2,1.82,1023.1,-17.2,12.0,1015..1031 / -30..-4 / 2..22
 VTail_L,VTail_Fixed_Core_XPS_VTail_L,Ravatherm XPS,0.032,41497.7,1.33,1041.9,-91.9,64.4,975..1110 / -202..-22 / 14..142
 VTail_L,VTail_Fixed_Skin_GFRP_VTail_L,GFRP,1.85,5259.2,9.73,1043.5,-94.0,65.8,975..1111 / -202..-21 / 13..142
 VTail_L,VTail_Hinge_Pins_REF_VTail_L,Nylon,1.15,162.9,0.19,1069.3,-106.5,74.6,1035..1103 / -186..-27 / 19..131
-VTail_L,VTail_Root_Diaphragm_GFRP_VTail_L,GFRP,1.85,335.5,0.62,1007.2,-24.3,17.1,975..1032 / -27..-21 / 13..21
+VTail_L,VTail_Root_Diaphragm_GFRP_VTail_L,GFRP,1.85,287.9,0.53,1007.1,-24.7,17.4,975..1032 / -27..-22 / 14..21
 VTail_L,VTail_Ruddervator_Core_XPS_VTail_L,Ravatherm XPS,0.032,6845.3,0.22,1069.5,-90.9,63.7,1033..1122 / -201..-22 / 14..141
 VTail_L,VTail_Ruddervator_Skin_GFRP_VTail_L,GFRP,1.85,2343.4,4.34,1076.8,-101.9,71.4,1033..1125 / -201..-22 / 14..142
-VTail_L,VTail_Spar_CFRP_VTail_L,CFRP,1.6,2456.5,3.93,1030.7,-82.3,57.6,986..1091 / -195..-2 / 0..137
+VTail_L,VTail_Spar_CFRP_VTail_L,CFRP,1.6,2440.5,3.90,1038.8,-98.2,68.5,986..1091 / -195..-2 / 0..137
 Fuselage,REF_Prop_Adapter_Pusher_Fuselage,"Al 6061-T6 (REF, provisional)",2.7,2413.6,6.52,1130.6,0.0,-0.0,1122..1152 / -10..10 / -10..10
 Fuselage,Motor_Screws_M3x4_SHCS_Pusher_Fuselage,"Alloy steel, ISO 4762 M3x4 (x4)",7.85,365.7,2.87,1101.6,0.0,-0.0,1099..1106 / -11..11 / -11..11
 Fuselage,Prop_Nut_1-4in_Bullet_Pusher_Fuselage,Al 6061 bullet prop nut 1/4 in,2.7,630.9,1.7,1151.0,0.0,0.0,1146..1158 / -6..6 / -6..6
@@ -115,3 +115,11 @@ Fuselage,Nose_Frame_NF4_G10_Fuselage,G10,1.85,3824.4,7.08,163.3,-0.0,-21.1,162..
 Fuselage,Camera_Mount_Nutplates_M3_Fuselage,Steel (M3 2-lug nutplate x4),7.85,473.0,3.71,84.0,-0.0,18.0,67..101 / -17..17 / 16..20
 Fuselage,Nose_Joint_Nutplates_M3_Fuselage,Steel (M3 2-lug nutplate x4),7.85,473.0,3.71,171.5,-0.0,0.0,166..178 / -39..39 / -24..24
 Fuselage,Nose_Joint_Screws_M3x6_ISO7380_Fuselage,Steel A2 (ISO 7380 M3x6 x4),7.85,310.0,2.43,171.5,-0.0,0.0,169..174 / -41..41 / -25..25
+Fuselage,VTail_Root_Block_PA-CF_Fuselage,"PA-CF printed (effective 0.95 g/cm3: 4 walls, 40% gyroid)",0.95,21542.4,20.47,1004.5,0.0,5.9,983..1030 / -29..29 / -14..23
+Fuselage,VTail_Retention_Screws_M3x20_ISO4762_Fuselage,Steel (ISO 4762 M3x20 x2),7.85,403.6,3.17,991.3,0.0,7.5,989..994 / -11..11 / -4..19
+Fuselage,VTail_Retention_Inserts_M3_Brass_Fuselage,Brass (M3 heat-set insert x2),8.5,86.9,0.74,991.3,0.0,-2.8,989..993 / -10..10 / -6..0
+VTail_R,VTail_Spar_Root_Plug_6061_VTail_R,Al 6061-T6,2.7,128.7,0.35,991.2,7.9,5.6,987..995 / 2..14 / 1..10
+VTail_L,VTail_Spar_Root_Plug_6061_VTail_L,Al 6061-T6,2.7,128.7,0.35,991.2,-7.9,5.6,987..995 / -14..-2 / 1..10
+Fuselage,VTail_Root_Fairings_ASA_Fuselage,ASA printed (R3.5 root fillet x2),1.07,231.9,0.25,1001.7,0.0,16.3,972..1031 / -27..27 / 11..22
+Fuselage,Wing_Root_Fairings_ASA_Fuselage,ASA printed (R6 root fillet x2),1.07,2556.2,2.74,343.4,0.0,3.9,264..423 / -51..51 / -8..16
+Fuselage,Wing_Pin_Bushing_Pads_G10_Fuselage,G10 (x2),1.85,1283.6,2.37,385.0,0.0,3.0,378..392 / -40..40 / -3..9

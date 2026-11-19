@@ -1,27 +1,29 @@
-# R16 full-aircraft CAD — current design (R16.4, November 17, 2026)
+# R16 full-aircraft CAD — current design (R16.5, November 18, 2026)
 
 R16 = R15 + elbow joints at the wing root + TPU landing feet removed (November 15). The aircraft has **no landing gear**; it lands on the [landing station](../landing_station/README.md).
 
-The committed assembly is now **R16.4**:
+The committed assembly is now **R16.5**:
 - **[R16.1](#r161--smooth-nose-pusher-motor-and-propellers-november-16)**: smooth nose, Tarot 4008 pusher and APC propellers.
 - **[R16.2](#r162--pusher-mount-and-prop-nuts-november-17)**: motor bolted to the plate, and prop nuts.
 - **[R16.3](#r163--nose-camera-z30-in-a-recessed-cove-november-17)**: nose camera (Z30 geometry, 270 g) in an aerodynamic recessed cove, about 3 in below the belly.
 - **[R16.4](#r164--removable-nose-module-november-17)**: nose becomes a removable module (L/R shells, cove liner, 4 G10 frames, camera shelf with a nutplate mount, 4-screw joint).
+- **[R16.5](#r165--v-tail-root-block-root-fairings-and-wing-pin-november-18)**: printed V-tail root block with retention screws, root fairings and 0.5 mm root gaps, wing anti-rotation pin pads. Also a seated assembly on the landing station.
 
-Earlier STEPs are in git history: R16 base in commit `9d0ae2d` (STEP SHA-256 `b9ea4e59…0851`), and R16.2 in commit `e9517f3` (STEP SHA-256 `30bc1fa9…40de`).
+Earlier STEPs are in git history: R16.4 in commit `3c4a7af` (STEP SHA-256 `c82bbce3…a415`), R16 base in commit `9d0ae2d` (STEP SHA-256 `b9ea4e59…0851`), and R16.2 in commit `e9517f3` (STEP SHA-256 `30bc1fa9…40de`).
 
 | File | Content |
 |---|---|
-| `RescU_R16_Full_Aircraft.step.zip` | **R16.4** full assembly STEP (198.6 MB unzipped; zipped). 126 parts. SHA-256 of the STEP: `c82bbce3684429cf0f957b879e75cf99be00f03befe3d8afe62b353ce173a415` |
-| `RescU_R16_BOM_CAD_masses.csv` | CAD mass BOM (R16.4). Motors, props and the camera stay in the equipment list, as before |
+| `RescU_R16_Full_Aircraft.step.zip` | **R16.5** full assembly STEP (210.1 MB unzipped; zipped). 134 parts. SHA-256 of the STEP: `74344acbcc89112fabb4c9299ae2208b79573d695fb112fe4b84c6a1b4dd79a2` |
+| `RescU_R16_5_Seated_on_Landing_Station.step.zip` | R16.5 seated on the landing station, one assembly with 151 parts (aircraft at Z + 300 + 17 station bodies). SHA-256 of the STEP: `d713170fbee8ad7a1922edd98cae6be86267ee400139b7f70bfe8f1d99eff307` |
+| `RescU_R16_BOM_CAD_masses.csv` | CAD mass BOM (R16.5). Motors, props and the camera stay in the equipment list, as before |
 | `cg.json` | Mass / CG estimate for the R16 base (see [R16.1/R16.2 mass changes](#mass-changes-r161--r162)) |
 | `interference_r16.json` | 268 changed-part pairs (0 overlaps > 0.05 mm³) plus every wing tube vs its skin (all 0.000 mm³) |
 | `R15_vs_R16_root_joints.png` | Root joint comparison |
 | `clearance_r16_1.json`, `clearance_r16_2.json` | R16.1 and R16.2 interference and swept-prop clearance checks |
-| `clearance_r16_3.json`, `clearance_r16_4.json` | R16.3 gimbal-sweep clearances; R16.4 overlaps, gimbal sweep and mass/CG |
-| `renders/` | Nose before and after, lift props, pusher mount (section, exploded, outside), VTOL prop nut; `r16_3_*` camera placement; `r16_4_*` nose module |
+| `clearance_r16_3.json`, `clearance_r16_4.json`, `clearance_r16_5.json` | R16.3 gimbal-sweep clearances; R16.4 overlaps, gimbal sweep and mass/CG; R16.5 overlaps, slide-out/ruddervator motion checks and the seated check |
+| `renders/` | Nose before and after, lift props, pusher mount (section, exploded, outside), VTOL prop nut; `r16_3_*` camera placement; `r16_4_*` nose module; `r16_5_*` root joints and seated views |
 | `scripts/` | R16 base: `wing_r16.py` (wing with elbows), `elbow.py` (elbow paths, clearance), `assemble_r16.py`, `check_r16.py`, `cg_r16.py`, `clear.py`, `readstep.py` |
-| `scripts/r16_3/`, `scripts/r16_4/` | Camera cove and nose module builds, checks, in-place STEP edits and renders (CadQuery/OCP; renders use Blender `bpy`) |
+| `scripts/r16_3/`, `scripts/r16_4/`, `scripts/r16_5/` | Camera cove and nose module builds, checks, in-place STEP edits and renders (CadQuery/OCP; renders use Blender `bpy`) |
 | `scripts/` (R16.1/R16.2) | `nose_r16_1.py` (nose rebuild), `build_props.py` (APC 10x3 / 13x8 models), `place_r16_1.py` / `place_r16_2.py` (motor, props, plate, screws, nuts, shaft extension), `xcaf_r16_1.py` / `xcaf_r16_2.py` (edit the STEP in place: names, colours and sub-assemblies kept), `clearance_r16_1.py` / `clearance_r16_2.py`, `render_r16_2.py`, `vol.py` |
 
 The R16.1/R16.2 scripts use CadQuery/OCP (`pip install cadquery`); the renders also need PyVista. The scripts import the R15 scripts from `../r15/scripts` and the R15 STEP bodies (extracted with `readstep.py`). Paths inside them are the absolute paths of the build machine; adjust before rerunning.
@@ -213,3 +215,56 @@ Manufacturing and assembly, including nutplate installation: [`manufacturing/NOS
 4. **Camera gimbal airspeed rating** at 20–45 m/s; drag numbers to Aero/Controls.
 5. **Landing-station clearance check** with the station STEP.
 6. **Layup zones** (4 plies at the shell opening and aft 20 mm) are in the process notes, not modelled as thickness.
+
+## R16.5 — V-tail root block, root fairings and wing pin (November 18)
+
+![V-tail root block](renders/r16_5_vtail_root_block_3d.png)
+![V-tail root sections](renders/r16_5_vtail_root_sections.png)
+
+**Why.** In R16.4, nothing carried the V-tail loads into the airframe:
+- The V-tail receivers floated: 2.0 mm to F990 and 5.5 mm to the shell.
+- The anti-rotation pins sat only in holes in the 0.33 mm skin.
+- There was no spanwise retention.
+- Each pin was **23.5° off the swept spar axis**, so a panel could not slide in or out.
+
+The wing anti-rotation pin engaged the fuselage only through the 2 mm side rail. Wing and V-tail roots had zero gap and no fairing.
+
+| Part | Change |
+|---|---|
+| `VTail_Root_Block_PA-CF_Fuselage` (new) | Printed CF-nylon, x 983–1030. Receiver and pin bosses, radial webs in each panel plane, front and aft plates, screw bosses, two Ø8 pushrod/cable channels. Bonded to the shell and to F990/F1021 (captured in notches). 20.5 g at 0.95 g/cm³ effective |
+| `VTail_Root_Receivers_GFRP_Fuselage` | Extended to the centreline: 23 mm spar engagement (was 17.5) |
+| `VTail_AntiRotation_Pin_D3_VTail_R/L` | Now **parallel to the spar axis**; about 12 mm engagement in the block. Old shell and core holes filled, new ones drilled |
+| `VTail_Retention_Screws_M3x20_ISO4762` ×2, `VTail_Retention_Inserts_M3_Brass` ×2, `VTail_Spar_Root_Plug_6061_VTail_R/L` (new) | One vertical screw per panel, through block → receiver → spar → plug into a heat-set insert. Reached through the tail hatch |
+| V-tail fixed skin/core, diaphragm, ruddervator | 0.5 mm root gap (1.0 mm at the ruddervator); diaphragm rebuilt 1 mm thick at r + 0.5…1.5; ruddervator LE bevelled 27° about the hinge (R16.4 clashed at ±25°) |
+| `VTail_Root_Fairings_ASA_Fuselage` (new) | Printed R3.5 fillet on the fixed surface only (x ≤ 1031), 0.5 mm reveal, clear of the tail hatch |
+| `Wing_Root_Fairings_ASA_Fuselage` (new) | Printed R6 fillet round the LE to 95 % chord; the wing slides out under its lip |
+| Wing skin, root diaphragms | 0.5 mm root gap; diaphragm edge trimmed so it clears the fairing during slide-out |
+| `Wing_Pin_Bushing_Pads_G10_Fuselage` (new), `Wing_AntiRotation_Pin_D3_Wing_R/L` | 4 mm G10 pad bonded inside each side rail; pins extended to y ±36.5. Fuselage engagement 5.5 mm (was 2 mm) |
+
+R8 (wing) and R6 (V-tail) fairings were planned; R6 and R3.5 are the largest radii the CAD kernel would build on these junctions.
+
+**To remove a V-tail panel:** open the tail hatch, take out 1 M3 screw (2.5 mm hex), and slide the panel out along its spar axis.
+
+### Checks (R16.5)
+
+- **Overlaps:** 201 pairs within 0.5 mm of a new or changed part. All 0.000 mm³ except the intended screw/insert thread engagement and a receiver/shell bond line (`clearance_r16_5.json`).
+- **Motion:**
+  - V-tail panel slid 0–30 mm along the spar axis: 0 overlap.
+  - Ruddervator ±25°: 0.
+  - Wing slid 0–40 mm along +y: 0.
+- **Seated on the landing station** (`RescU_R16_5_Seated_on_Landing_Station.step.zip`, ![seated](renders/r16_5_seated_hero.png)):
+  - 0 overlaps; only the three EVA pads touch.
+  - Boom/cradle gap 3.0 mm, tail shell/cradle 2.7 mm.
+  - Nose camera at 179.5 mm above the floor when level, 152 mm pointing down; its sweep is 224 mm from the nearest station part.
+  - The station body is the 17-body model in `cad/landing_station`. The Rev B STEP (same cradles, pads and heights) is to be added.
+
+### Mass (R16.5)
+
++29 g (block 20.5, fairings 3.0, pads 2.4, screws and inserts 3.9, plugs 0.7, receivers +0.5, diaphragms −1.9). Estimate **about 3768 g, CG x ≈ 382** (target 394.4).
+
+### Open items (R16.5)
+
+1. Proof-load one V-tail panel (about 25 N at the MAC) on the printed block before flight.
+2. Real pushrod routing (the Ø8 channels are placeholders).
+3. Seal tape spec for the root gaps.
+4. Swap in the landing station Rev B STEP for the seated assembly.
