@@ -9,6 +9,8 @@ The committed assembly is now **R16.5**:
 - **[R16.4](#r164--removable-nose-module-november-17)**: nose becomes a removable module (L/R shells, cove liner, 4 G10 frames, camera shelf with a nutplate mount, 4-screw joint).
 - **[R16.5](#r165--v-tail-root-block-root-fairings-and-wing-pin-november-18)**: printed V-tail root block with retention screws, root fairings and 0.5 mm root gaps, wing anti-rotation pin pads. Also a seated assembly on the landing station.
 
+**Proposal: [R16.6 retractable knee landing gear](r16_6_landing_gear/README.md)** (November 21): three folding legs (two in the booms, one in the belly), replacing the landing station. Not yet the current design; see its open items.
+
 Earlier STEPs are in git history: R16.4 in commit `3c4a7af` (STEP SHA-256 `c82bbce3…a415`), R16 base in commit `9d0ae2d` (STEP SHA-256 `b9ea4e59…0851`), and R16.2 in commit `e9517f3` (STEP SHA-256 `30bc1fa9…40de`).
 
 | File | Content |

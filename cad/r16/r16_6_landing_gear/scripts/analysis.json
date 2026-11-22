@@ -1,0 +1,334 @@
+{
+ "deployed": {
+  "mass_g": 3997.859501850179,
+  "cg": [
+   386.14717582163235,
+   -0.0014875438901886533,
+   -11.44241071772053
+  ]
+ },
+ "gear_mass_g": 229.8595018501781,
+ "per_module_g": {
+  "LG_Front_R": 80.8093089681998,
+  "LG_Front_L": 80.80930896814509,
+  "LG_Tail": 83.7968581198441
+ },
+ "by_part_g": {
+  "Knee_Block": 36.187116988259866,
+  "Guide_Pin_1": 2.929786476884777,
+  "Guide_Pin_2": 0.8156791895872372,
+  "Guide_Tab": 1.4738222364320779,
+  "REF_Servo_KST_X08H": 28.5,
+  "Servo_Mount": 4.387294330494225,
+  "Trough": 36.750129880801865,
+  "Knuckle": 20.079566964160282,
+  "Knee_Shaft": 7.959359414710972,
+  "Fork_Pin": 1.1319629569782088,
+  "Leg_Rod": 82.31394982457883,
+  "Foot": 10.974431369005634,
+  "Tendon_Plate": 2.9949123729478515,
+  "Tendon_Bracket": 6.101127393733545,
+  "Servo_Arm": 0.7975346065179821,
+  "Servo_Arm_Pin": 0.46610239404984866,
+  "Belly_Doubler_CFRP": 1.5526996570458287
+ },
+ "removed_g": {
+  "Boom_Lower_Half_Boom_R": -5.295433679344156,
+  "Boom_Lower_Half_Boom_L": -5.295433679357592,
+  "Fuselage_Shell_Left_GFRP_Fuselage": -1.3307879754418264,
+  "Fuselage_Shell_Right_GFRP_Fuselage": -1.3306405644039436,
+  "Fuselage_Seam_Strips_GFRP_Fuselage": -2.3036783074633878
+ },
+ "meta": {
+  "parts": {
+   "Knee_Block_LG_Front_R": [
+    "Boom_R",
+    "LG_Front_R_Fixed"
+   ],
+   "Guide_Pin_1_LG_Front_R": [
+    "Boom_R",
+    "LG_Front_R_Fixed"
+   ],
+   "Guide_Pin_2_LG_Front_R": [
+    "Boom_R",
+    "LG_Front_R_Fixed"
+   ],
+   "Guide_Tab_LG_Front_R": [
+    "Boom_R",
+    "LG_Front_R_Fixed"
+   ],
+   "REF_Servo_KST_X08H_LG_Front_R": [
+    "Boom_R",
+    "LG_Front_R_Fixed"
+   ],
+   "Servo_Mount_LG_Front_R": [
+    "Boom_R",
+    "LG_Front_R_Fixed"
+   ],
+   "Trough_LG_Front_R": [
+    "Boom_R",
+    "LG_Front_R_Fixed"
+   ],
+   "Knuckle_LG_Front_R": [
+    "Boom_R",
+    "LG_Front_R_Leg"
+   ],
+   "Knee_Shaft_LG_Front_R": [
+    "Boom_R",
+    "LG_Front_R_Leg"
+   ],
+   "Fork_Pin_LG_Front_R": [
+    "Boom_R",
+    "LG_Front_R_Leg"
+   ],
+   "Leg_Rod_LG_Front_R": [
+    "Boom_R",
+    "LG_Front_R_Leg"
+   ],
+   "Foot_LG_Front_R": [
+    "Boom_R",
+    "LG_Front_R_Leg"
+   ],
+   "Tendon_Plate_LG_Front_R": [
+    "Boom_R",
+    "LG_Front_R_Tendon"
+   ],
+   "Tendon_Bracket_LG_Front_R": [
+    "Boom_R",
+    "LG_Front_R_Tendon"
+   ],
+   "Servo_Arm_LG_Front_R": [
+    "Boom_R",
+    "LG_Front_R_Servo_Arm"
+   ],
+   "Servo_Arm_Pin_LG_Front_R": [
+    "Boom_R",
+    "LG_Front_R_Servo_Arm"
+   ],
+   "Knee_Block_LG_Front_L": [
+    "Boom_L",
+    "LG_Front_L_Fixed"
+   ],
+   "Guide_Pin_1_LG_Front_L": [
+    "Boom_L",
+    "LG_Front_L_Fixed"
+   ],
+   "Guide_Pin_2_LG_Front_L": [
+    "Boom_L",
+    "LG_Front_L_Fixed"
+   ],
+   "Guide_Tab_LG_Front_L": [
+    "Boom_L",
+    "LG_Front_L_Fixed"
+   ],
+   "REF_Servo_KST_X08H_LG_Front_L": [
+    "Boom_L",
+    "LG_Front_L_Fixed"
+   ],
+   "Servo_Mount_LG_Front_L": [
+    "Boom_L",
+    "LG_Front_L_Fixed"
+   ],
+   "Trough_LG_Front_L": [
+    "Boom_L",
+    "LG_Front_L_Fixed"
+   ],
+   "Knuckle_LG_Front_L": [
+    "Boom_L",
+    "LG_Front_L_Leg"
+   ],
+   "Knee_Shaft_LG_Front_L": [
+    "Boom_L",
+    "LG_Front_L_Leg"
+   ],
+   "Fork_Pin_LG_Front_L": [
+    "Boom_L",
+    "LG_Front_L_Leg"
+   ],
+   "Leg_Rod_LG_Front_L": [
+    "Boom_L",
+    "LG_Front_L_Leg"
+   ],
+   "Foot_LG_Front_L": [
+    "Boom_L",
+    "LG_Front_L_Leg"
+   ],
+   "Tendon_Plate_LG_Front_L": [
+    "Boom_L",
+    "LG_Front_L_Tendon"
+   ],
+   "Tendon_Bracket_LG_Front_L": [
+    "Boom_L",
+    "LG_Front_L_Tendon"
+   ],
+   "Servo_Arm_LG_Front_L": [
+    "Boom_L",
+    "LG_Front_L_Servo_Arm"
+   ],
+   "Servo_Arm_Pin_LG_Front_L": [
+    "Boom_L",
+    "LG_Front_L_Servo_Arm"
+   ],
+   "Belly_Doubler_CFRP_LG_Tail": [
+    "Fuselage",
+    "LG_Tail_Fixed"
+   ],
+   "Knee_Block_LG_Tail": [
+    "Fuselage",
+    "LG_Tail_Fixed"
+   ],
+   "Guide_Pin_1_LG_Tail": [
+    "Fuselage",
+    "LG_Tail_Fixed"
+   ],
+   "Guide_Pin_2_LG_Tail": [
+    "Fuselage",
+    "LG_Tail_Fixed"
+   ],
+   "Guide_Tab_LG_Tail": [
+    "Fuselage",
+    "LG_Tail_Fixed"
+   ],
+   "REF_Servo_KST_X08H_LG_Tail": [
+    "Fuselage",
+    "LG_Tail_Fixed"
+   ],
+   "Servo_Mount_LG_Tail": [
+    "Fuselage",
+    "LG_Tail_Fixed"
+   ],
+   "Trough_LG_Tail": [
+    "Fuselage",
+    "LG_Tail_Fixed"
+   ],
+   "Knuckle_LG_Tail": [
+    "Fuselage",
+    "LG_Tail_Leg"
+   ],
+   "Knee_Shaft_LG_Tail": [
+    "Fuselage",
+    "LG_Tail_Leg"
+   ],
+   "Fork_Pin_LG_Tail": [
+    "Fuselage",
+    "LG_Tail_Leg"
+   ],
+   "Leg_Rod_LG_Tail": [
+    "Fuselage",
+    "LG_Tail_Leg"
+   ],
+   "Foot_LG_Tail": [
+    "Fuselage",
+    "LG_Tail_Leg"
+   ],
+   "Tendon_Plate_LG_Tail": [
+    "Fuselage",
+    "LG_Tail_Tendon"
+   ],
+   "Tendon_Bracket_LG_Tail": [
+    "Fuselage",
+    "LG_Tail_Tendon"
+   ],
+   "Servo_Arm_LG_Tail": [
+    "Fuselage",
+    "LG_Tail_Servo_Arm"
+   ],
+   "Servo_Arm_Pin_LG_Tail": [
+    "Fuselage",
+    "LG_Tail_Servo_Arm"
+   ]
+  },
+  "L_T": 359.49,
+  "TILT": 0.4,
+  "front_foot_low_z": -378.70934804824844,
+  "tail_foot_low_z": -378.7117863675818,
+  "front_foot_centre": [
+   141.57043417190826,
+   265.00000000000006,
+   -370.70934804824844
+  ],
+  "tail_foot_centre": [
+   978.4506481843931,
+   -7.474613872906802e-15,
+   -370.7117863675818
+  ]
+ },
+ "retracted": {
+  "mass_g": 3997.859501850179,
+  "cg": [
+   387.8671413635824,
+   -0.001487543890188312,
+   -6.940491909000508
+  ]
+ },
+ "cg_height_above_ground_mm": 367.2669373305279,
+ "tipover_deg": {
+  "nose-over (front edge)": 33.66112531631498,
+  "side (front-to-tail edge)": 25.95933850458325
+ },
+ "tipover_edge_distance_mm": {
+  "nose-over (front edge)": 244.57674164972408,
+  "side (front-to-tail edge)": 178.80552267784336
+ },
+ "feet": {
+  "front_R": [
+   141.57043417190826,
+   265.00000000000006,
+   -370.70934804824844
+  ],
+  "front_L": [
+   141.57043417190826,
+   -265.00000000000006,
+   -370.70934804824844
+  ],
+  "tail": [
+   978.4506481843931,
+   -7.474613872906802e-15,
+   -370.7117863675818
+  ],
+  "ground_z": -378.70934804824844
+ },
+ "foot_load_share": {
+  "each_front": 0.35387589672058173,
+  "tail": 0.2922482065588366
+ },
+ "knee_loads_front": {
+  "N_5g_limit_N": 69.39329699863539,
+  "drag_0.25_limit_N": 17.348324249658848,
+  "CW_moment_limit_Nm (vertical + forward drag, into heel stop)": 10.37198302886507,
+  "CCW_moment_limit_Nm 5g + 0.25 aft drag (into lock)": 1.7923690977925437,
+  "CCW_moment_limit_Nm 1g sliding mu 0.8 (into lock)": 3.034631287423185
+ },
+ "leg_rod": {
+  "M_ult_Nm": 15.557974543297606,
+  "sigma_MPa": 182.0682759605652,
+  "allow_MPa": 210,
+  "MS": 0.15341345927548988
+ },
+ "lock": {
+  "M_ult_Nm": 4.551946931134777,
+  "fork_pin_force_N": 594.2144704557035,
+  "fork_pin_tau_MPa (dia 3, double shear)": 42.03207565767032,
+  "keeper_bending_MPa (7 x 1.4 7075, fixed-fixed span 7.2 between bosses)": 233.87450003358595,
+  "keeper_MS_vs_7075_yield_503": 1.1507261369998263
+ },
+ "heel_stop": {
+  "force_ult_N": 1672.900488526624,
+  "shaft_tau_MPa (dia 5 double shear)": 42.6000611279774,
+  "wall_bearing_MPa (2 x 2 mm x 5)": 83.6450244263312
+ },
+ "wing_torsion": {
+  "T_limit_Nm": 21.93570019210558,
+  "skin_tau_ult_MPa": 44.98877765712566,
+  "allow_MPa": 21.0,
+  "MS": -0.5332169244506277,
+  "compare_LC6_front_motor_T_limit_Nm": 3.3216000000000006,
+  "with_one_extra_0p33_GFRP_ply_MS": -0.06643384890125537
+ },
+ "aft_fuselage": {
+  "tail_N_5g_limit": 57.308414568480515,
+  "M_x600_limit_Nm": 15.051794489861368,
+  "sigma_ult_MPa (R40.3, t0.33, shell only)": 13.409285398227428,
+  "allow_buckling_MPa (repo screen)": 16.3
+ }
+}
