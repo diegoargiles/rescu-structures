@@ -1,0 +1,181 @@
+item,group,kind,mass_g,x_mm,y_mm,z_mm,source
+"Bond, fillet and finish allowance",Allowance,structure,83.46,494.6,-0.2,-7.1,7.5 % of CAD structure
+Camera/AI allocation (UNRESOLVED),Avionics,equipment,350.0,60.0,0.0,0.0,"inputs.json 350 g, probably the old camera line: confirm or cut"
+4 x AIR40A ESCs + wiring,Avionics,equipment,150.0,505.0,-0.0,-9.9,inputs.json
+Other servo allocation (UNRESOLVED),Avionics,equipment,136.2,800.0,0.0,0.0,inputs.json residual: confirm or cut
+V-tail servos x2 (HS-5085MG),Avionics,equipment,43.8,945.0,0.0,1.2,R13 equipment list
+ELP 5MP IR USB camera,Avionics,equipment,35.0,51.5,-0.0,-2.0,"ASSUMED 35 g, weigh the unit"
+Heat sink,Avionics,equipment,30.0,200.0,0.0,0.0,"inputs.json, position provisional"
+Flight controller (Cube) + receiver,Avionics,equipment,0.0,152.0,0.0,8.0,NO MASS YET - add real values
+Battery 6S module front (half of 6S2P),Battery,equipment,472.0,237.5,0.0,1.3,"M65A 6S2P 944 g (12 x 74.5 + 50), inputs.json"
+Battery 6S module rear (half of 6S2P),Battery,equipment,472.0,397.5,0.0,1.3,"M65A 6S2P 944 g (12 x 74.5 + 50), inputs.json"
+Boom_Upper_Half_Boom_R,Booms,structure,37.1,420.0,265.0,-12.4,"R16 BOM mass, R16.9 position"
+Boom_Upper_Half_Boom_L,Booms,structure,37.1,420.0,-265.0,-12.4,"R16 BOM mass, R16.9 position"
+Boom_Lower_Half_Boom_L,Booms,structure,22.74,432.0,-265.0,-33.3,R16.9 CAD volume x 1.55 g/cm3
+Boom_Lower_Half_Boom_R,Booms,structure,22.74,432.0,265.0,-33.3,R16.9 CAD volume x 1.55 g/cm3
+Motor_Screws_M3x10_Boom_R,Booms,structure,7.94,420.0,265.0,-15.7,"R16 BOM mass, R16.9 position"
+Motor_Screws_M3x10_Boom_L,Booms,structure,7.94,420.0,-265.0,-15.7,"R16 BOM mass, R16.9 position"
+Saddle_U_Channel_Boom_R,Booms,structure,6.52,416.6,265.0,-9.9,"R16 BOM mass, R16.9 position"
+Saddle_U_Channel_Boom_L,Booms,structure,6.52,416.6,-265.0,-9.9,"R16 BOM mass, R16.9 position"
+Motor_Backing_Rings_6061_Boom_R,Booms,structure,5.0,420.0,265.0,-15.8,"R16 BOM mass, R16.9 position"
+Motor_Backing_Rings_6061_Boom_L,Booms,structure,5.0,420.0,-265.0,-15.8,"R16 BOM mass, R16.9 position"
+Saddle_Bolts_M3_and_Barrel_Nuts_Boom_R,Booms,structure,4.81,414.7,264.1,-9.5,"R16 BOM mass, R16.9 position"
+Saddle_Bolts_M3_and_Barrel_Nuts_Boom_L,Booms,structure,4.81,414.7,-265.9,-9.5,"R16 BOM mass, R16.9 position"
+Boom_Junction_Fillets_Boom_R,Booms,structure,3.8,421.4,264.9,-3.6,"R16 BOM mass, R16.9 position"
+Boom_Junction_Fillets_Boom_L,Booms,structure,3.8,421.4,-264.9,-3.6,"R16 BOM mass, R16.9 position"
+Compression_Tubes_Boom_R,Booms,structure,2.12,415.8,264.8,-9.6,"R16 BOM mass, R16.9 position"
+Compression_Tubes_Boom_L,Booms,structure,2.12,415.8,-265.2,-9.6,"R16 BOM mass, R16.9 position"
+Pad_Access_Covers_Boom_R,Booms,structure,1.65,420.5,265.0,-33.3,"R16 BOM mass, R16.9 position"
+Pad_Access_Covers_Boom_L,Booms,structure,1.65,420.5,-265.0,-33.3,"R16 BOM mass, R16.9 position"
+Prop_Nut_M5_Bullet_Front_Boom_R,Booms,structure,0.98,205.0,265.0,24.0,"R16 BOM mass, R16.9 position"
+Prop_Nut_M5_Bullet_Rear_Boom_R,Booms,structure,0.98,635.0,265.0,24.0,"R16 BOM mass, R16.9 position"
+Prop_Nut_M5_Bullet_Front_Boom_L,Booms,structure,0.98,205.0,-265.0,24.0,"R16 BOM mass, R16.9 position"
+Prop_Nut_M5_Bullet_Rear_Boom_L,Booms,structure,0.98,635.0,-265.0,24.0,"R16 BOM mass, R16.9 position"
+Fuselage_Shell_Left_GFRP_Fuselage,Fuselage,structure,62.84,606.0,-25.7,-2.5,"R16 BOM mass, R16.9 surface centroid"
+Fuselage_Shell_Right_GFRP_Fuselage,Fuselage,structure,62.8,605.7,25.7,-2.5,"R16 BOM mass, R16.9 surface centroid"
+Battery_Trays_GFRP_Fuselage,Fuselage,structure,24.88,317.3,-0.0,-24.6,"R16 BOM mass, R16.9 position"
+Pusher_Bonded_Collar_GFRP_Fuselage,Fuselage,structure,22.38,1089.9,0.0,-0.0,"R16 BOM mass, R16.9 position"
+VTail_Root_Block_PA-CF_Fuselage,Fuselage,structure,20.47,1004.5,0.0,5.9,"R16 BOM mass, R16.9 position"
+Frames_Lower_and_Battery_Saddles_GFRP_Fuselage,Fuselage,structure,16.78,372.8,0.0,-31.2,"R16 BOM mass, R16.9 position"
+ESC_Deck_GFRP_Fuselage,Fuselage,structure,13.95,505.0,0.0,-16.5,"R16 BOM mass, R16.9 position"
+Hatch_Rims_GFRP_Fuselage,Fuselage,structure,13.81,478.2,0.0,28.6,"R16 BOM mass, R16.9 position"
+Wing_Root_Side_Rails_GFRP_Fuselage,Fuselage,structure,11.44,381.4,-0.0,2.3,"R16 BOM mass, R16.9 position"
+Frames_Ring_GFRP_Fuselage,Fuselage,structure,10.48,626.2,0.0,-15.6,"R16 BOM mass, R16.9 position"
+Fuselage_Seam_Strips_GFRP_Fuselage,Fuselage,structure,8.58,619.4,-0.0,-4.5,"R16.9 CAD volume x 1.85 g/cm3, surface centroid"
+Battery_End_Stops_GFRP_Fuselage,Fuselage,structure,8.15,316.1,-0.0,-19.8,"R16 BOM mass, R16.9 position"
+Pusher_Removable_Plate_6061_Fuselage,Fuselage,structure,7.04,1102.8,0.0,0.0,"R16 BOM mass, R16.9 position"
+Joiner_Receiver_Sleeves_GFRP_Fuselage,Fuselage,structure,6.14,345.0,0.0,4.2,"R16 BOM mass, R16.9 position"
+Wing_Joiner_CFRP_OD12_Fuselage,Fuselage,structure,5.09,345.0,0.0,4.2,"R16 BOM mass, R16.9 position"
+Wing_Root_Fairings_ASA_Fuselage,Fuselage,structure,4.52,369.0,-30.0,5.3,R16.9 CAD volume x 1.07 g/cm3
+Avionics_Deck_GFRP_Fuselage,Fuselage,structure,4.16,152.5,0.0,-4.5,"R16 BOM mass, R16.9 position"
+Hatch_Front_GFRP_Fuselage,Fuselage,structure,3.88,236.0,0.0,40.0,"R16 BOM mass, R16.9 surface centroid"
+Hatch_Rear_GFRP_Fuselage,Fuselage,structure,3.77,364.2,0.0,40.0,"R16 BOM mass, R16.9 surface centroid"
+VTail_Retention_Screws_M3x20_ISO4762_Fuselage,Fuselage,structure,3.17,991.3,-0.0,9.4,"R16 BOM mass, R16.9 position"
+Motor_Screws_M3x4_SHCS_Pusher_Fuselage,Fuselage,structure,2.87,1101.6,0.0,0.0,"R16 BOM mass, R16.9 position"
+VTail_Root_Receivers_GFRP_Fuselage,Fuselage,structure,2.45,993.8,-0.0,9.0,"R16 BOM mass, R16.9 position"
+Wing_Pin_Bushing_Pads_G10_Fuselage,Fuselage,structure,2.37,420.0,-0.0,3.0,"R16 BOM mass, R16.9 position"
+Battery_Insulating_Pads_Foam_Fuselage,Fuselage,structure,2.28,317.5,0.0,-23.3,"R16 BOM mass, R16.9 position"
+Hatch_Tail_GFRP_Fuselage,Fuselage,structure,1.71,1005.1,0.0,27.4,"R16 BOM mass, R16.9 surface centroid"
+Prop_Nut_1-4in_Bullet_Pusher_Fuselage,Fuselage,structure,1.7,1151.0,-0.0,-0.0,"R16 BOM mass, R16.9 position"
+Avionics_Adjust_Strips_Fuselage,Fuselage,structure,0.91,152.5,0.0,-3.2,"R16 BOM mass, R16.9 position"
+VTail_Retention_Inserts_M3_Brass_Fuselage,Fuselage,structure,0.74,991.4,-0.0,-2.9,"R16 BOM mass, R16.9 position"
+ESC_Pads_Foam_Fuselage,Fuselage,structure,0.28,505.0,-0.0,-15.8,"R16 BOM mass, R16.9 position"
+VTail_Root_Fairings_ASA_Fuselage,Fuselage,structure,0.25,1003.2,4.5,17.7,"R16 BOM mass, R16.9 position"
+Joiner_Axial_Stop_Ring_Fuselage,Fuselage,structure,0.25,345.0,0.0,4.2,"R16 BOM mass, R16.9 position"
+Knee_Block_LG_Tail,Landing gear,structure,13.3,910.5,-0.0,-19.9,R16.9 CAD volume x 2.81 g/cm3
+Knee_Block_LG_Front_R,Landing gear,structure,11.41,241.7,265.0,-24.8,R16.9 CAD volume x 2.81 g/cm3
+Knee_Block_LG_Front_L,Landing gear,structure,11.41,241.7,-265.0,-24.8,R16.9 CAD volume x 2.81 g/cm3
+REF_Servo_KST_X08H_LG_Front_R,Landing gear,equipment,9.5,322.6,263.1,-17.5,KST X08H Plus 9.5 g
+REF_Servo_KST_X08H_LG_Front_L,Landing gear,equipment,9.5,322.6,-263.1,-17.5,KST X08H Plus 9.5 g
+REF_Servo_KST_X08H_LG_Tail,Landing gear,equipment,9.5,829.3,1.9,-15.1,KST X08H Plus 9.5 g
+Leg_Rod_LG_Tail,Landing gear,structure,7.59,931.1,-0.0,-112.5,R16.9 CAD volume x 1.6 g/cm3
+Leg_Rod_LG_Front_R,Landing gear,structure,7.45,221.8,265.0,-114.0,R16.9 CAD volume x 1.6 g/cm3
+Leg_Rod_LG_Front_L,Landing gear,structure,7.45,221.8,-265.0,-114.0,R16.9 CAD volume x 1.6 g/cm3
+Knuckle_LG_Tail,Landing gear,structure,6.69,915.5,0.0,-28.5,R16.9 CAD volume x 2.81 g/cm3
+Knuckle_LG_Front_R,Landing gear,structure,6.69,236.6,265.0,-31.5,R16.9 CAD volume x 2.81 g/cm3
+Knuckle_LG_Front_L,Landing gear,structure,6.69,236.6,-265.0,-31.5,R16.9 CAD volume x 2.81 g/cm3
+Trough_LG_Front_L,Landing gear,structure,6.45,350.1,-265.0,-28.4,R16.9 CAD volume x 1.55 g/cm3
+Trough_LG_Front_R,Landing gear,structure,6.45,350.1,265.0,-28.4,R16.9 CAD volume x 1.55 g/cm3
+Trough_LG_Tail,Landing gear,structure,5.48,800.4,0.0,-24.4,R16.9 CAD volume x 1.55 g/cm3
+Foot_LG_Front_L,Landing gear,structure,3.66,207.6,-265.0,-195.0,R16.9 CAD volume x 1.21 g/cm3
+Foot_LG_Tail,Landing gear,structure,3.66,946.2,0.0,-195.0,R16.9 CAD volume x 1.21 g/cm3
+Foot_LG_Front_R,Landing gear,structure,3.66,207.6,265.0,-195.0,R16.9 CAD volume x 1.21 g/cm3
+Knee_Shaft_LG_Front_L,Landing gear,structure,2.65,237.0,-265.0,-28.0,R16.9 CAD volume x 7.85 g/cm3
+Knee_Shaft_LG_Front_R,Landing gear,structure,2.65,237.0,265.0,-28.0,R16.9 CAD volume x 7.85 g/cm3
+Knee_Shaft_LG_Tail,Landing gear,structure,2.65,915.0,-0.0,-25.0,R16.9 CAD volume x 7.85 g/cm3
+Tendon_Bracket_LG_Front_L,Landing gear,structure,2.03,325.8,-274.2,-23.9,R16.9 CAD volume x 2.81 g/cm3
+Tendon_Bracket_LG_Front_R,Landing gear,structure,2.03,325.8,274.2,-23.9,R16.9 CAD volume x 2.81 g/cm3
+Tendon_Bracket_LG_Tail,Landing gear,structure,2.03,826.2,-9.2,-21.5,R16.9 CAD volume x 2.81 g/cm3
+Belly_Doubler_CFRP_LG_Tail,Landing gear,structure,1.55,909.2,0.0,-28.6,R16.9 CAD volume x 1.55 g/cm3
+Servo_Mount_LG_Tail,Landing gear,structure,1.49,829.2,2.8,-14.1,R16.9 CAD volume x 1.85 g/cm3
+Servo_Mount_LG_Front_R,Landing gear,structure,1.45,322.8,262.5,-16.6,R16.9 CAD volume x 1.85 g/cm3
+Servo_Mount_LG_Front_L,Landing gear,structure,1.45,322.8,-262.5,-16.6,R16.9 CAD volume x 1.85 g/cm3
+Tendon_Plate_LG_Front_L,Landing gear,structure,1.0,268.8,-265.0,-18.4,R16.9 CAD volume x 2.81 g/cm3
+Tendon_Plate_LG_Front_R,Landing gear,structure,1.0,268.8,265.0,-18.4,R16.9 CAD volume x 2.81 g/cm3
+Tendon_Plate_LG_Tail,Landing gear,structure,1.0,883.2,0.0,-15.6,R16.9 CAD volume x 2.81 g/cm3
+Guide_Pin_1_LG_Front_R,Landing gear,structure,0.98,259.0,265.0,-18.0,R16.9 CAD volume x 7.85 g/cm3
+Guide_Pin_1_LG_Front_L,Landing gear,structure,0.98,259.0,-265.0,-18.0,R16.9 CAD volume x 7.85 g/cm3
+Guide_Pin_1_LG_Tail,Landing gear,structure,0.98,892.9,0.0,-15.2,R16.9 CAD volume x 7.85 g/cm3
+Guide_Tab_LG_Front_L,Landing gear,structure,0.51,337.0,-272.6,-30.7,R16.9 CAD volume x 1.85 g/cm3
+Guide_Tab_LG_Front_R,Landing gear,structure,0.51,337.0,272.7,-30.7,R16.9 CAD volume x 1.85 g/cm3
+Guide_Tab_LG_Tail,Landing gear,structure,0.45,815.0,-7.6,-27.6,R16.9 CAD volume x 1.85 g/cm3
+Fork_Pin_LG_Tail,Landing gear,structure,0.38,907.3,0.0,-18.6,R16.9 CAD volume x 7.85 g/cm3
+Fork_Pin_LG_Front_R,Landing gear,structure,0.38,244.7,265.0,-21.6,R16.9 CAD volume x 7.85 g/cm3
+Fork_Pin_LG_Front_L,Landing gear,structure,0.38,244.7,-265.0,-21.6,R16.9 CAD volume x 7.85 g/cm3
+Guide_Pin_2_LG_Tail,Landing gear,structure,0.27,815.0,-8.5,-25.7,R16.9 CAD volume x 7.85 g/cm3
+Guide_Pin_2_LG_Front_R,Landing gear,structure,0.27,337.0,273.5,-28.0,R16.9 CAD volume x 7.85 g/cm3
+Guide_Pin_2_LG_Front_L,Landing gear,structure,0.27,337.0,-273.4,-28.0,R16.9 CAD volume x 7.85 g/cm3
+Servo_Arm_LG_Front_L,Landing gear,structure,0.27,321.5,-273.7,-20.1,R16.9 CAD volume x 2.81 g/cm3
+Servo_Arm_LG_Tail,Landing gear,structure,0.27,830.5,-8.7,-17.7,R16.9 CAD volume x 2.81 g/cm3
+Servo_Arm_LG_Front_R,Landing gear,structure,0.27,321.5,273.7,-20.1,R16.9 CAD volume x 2.81 g/cm3
+Servo_Arm_Pin_LG_Tail,Landing gear,structure,0.16,824.3,-9.5,-21.3,R16.9 CAD volume x 7.85 g/cm3
+Servo_Arm_Pin_LG_Front_R,Landing gear,structure,0.16,327.7,274.5,-23.7,R16.9 CAD volume x 7.85 g/cm3
+Servo_Arm_Pin_LG_Front_L,Landing gear,structure,0.16,327.7,-274.5,-23.7,R16.9 CAD volume x 7.85 g/cm3
+Nose_Shell_Left_GFRP_Fuselage,Nose module,structure,11.68,102.1,-23.3,0.0,"R16.9 CAD volume x 1.85 g/cm3, surface centroid"
+Nose_Shell_Right_GFRP_Fuselage,Nose module,structure,11.68,102.1,23.3,0.0,"R16.9 CAD volume x 1.85 g/cm3, surface centroid"
+Nose_Frame_NF4_G10_Fuselage,Nose module,structure,7.08,163.3,-0.0,-21.1,"R16 BOM mass, R16.9 position"
+Nose_Joiner_Band_GFRP_Fuselage,Nose module,structure,5.78,175.8,0.3,6.0,"R16 BOM mass, R16.9 position"
+Nose_Joint_Nutplates_M3_Fuselage,Nose module,structure,3.71,171.5,-0.0,0.0,"R16 BOM mass, R16.9 position"
+Nose_Frame_NF3_G10_Fuselage,Nose module,structure,3.27,135.8,0.0,-20.0,"R16 BOM mass, R16.9 position"
+Nose_Joint_Screws_M3x6_ISO7380_Fuselage,Nose module,structure,2.43,171.5,-0.0,0.0,"R16 BOM mass, R16.9 position"
+Nose_Seam_Strips_GFRP_Fuselage,Nose module,structure,2.14,82.3,0.0,-0.0,"R16.9 CAD volume x 1.85 g/cm3, surface centroid"
+Buoy (flotation) + beacon,Payload,payload,360.0,350.0,0.0,-55.0,inputs.json; point mass at the release plate
+Payload release magnet,Payload,payload,10.0,350.0,0.0,-55.0,inputs.json
+Tarot 4008 pusher motor + adapter,Propulsion,equipment,99.9,1112.8,0.3,0.0,148.9 g pusher allocation (inputs.json) minus prop
+UM2807_Front_Boom_R,Propulsion,equipment,52.0,205.5,265.5,-1.2,UM2807 52 g with leads (Unusual Machines)
+UM2807_Rear_Boom_R,Propulsion,equipment,52.0,635.5,265.5,-1.2,UM2807 52 g with leads (Unusual Machines)
+UM2807_Front_Boom_L,Propulsion,equipment,52.0,205.5,-264.5,-1.2,UM2807 52 g with leads (Unusual Machines)
+UM2807_Rear_Boom_L,Propulsion,equipment,52.0,635.5,-264.5,-1.2,UM2807 52 g with leads (Unusual Machines)
+APC 13x8 pusher prop,Propulsion,equipment,49.0,1139.0,-0.0,0.0,"APC LP13080, 1.73 oz catalog"
+APC_10x3_LP10030P_Rear_Boom_R,Propulsion,equipment,26.1,635.0,265.0,14.3,"APC 10x3 LP10030, 0.92 oz catalog"
+APC_10x3_LP10030_Front_Boom_R,Propulsion,equipment,26.1,205.0,265.0,14.3,"APC 10x3 LP10030, 0.92 oz catalog"
+APC_10x3_LP10030P_Front_Boom_L,Propulsion,equipment,26.1,205.0,-265.0,14.3,"APC 10x3 LP10030, 0.92 oz catalog"
+APC_10x3_LP10030_Rear_Boom_L,Propulsion,equipment,26.1,635.0,-265.0,14.3,"APC 10x3 LP10030, 0.92 oz catalog"
+VTail_Fixed_Skin_GFRP_VTail_R,V-tail,structure,9.73,1045.1,103.2,72.3,"R16 BOM mass, R16.9 surface centroid"
+VTail_Fixed_Skin_GFRP_VTail_L,V-tail,structure,9.73,1045.1,-103.2,72.3,"R16 BOM mass, R16.9 surface centroid"
+VTail_Ruddervator_Skin_GFRP_VTail_R,V-tail,structure,4.34,1077.1,102.9,72.1,"R16 BOM mass, R16.9 surface centroid"
+VTail_Ruddervator_Skin_GFRP_VTail_L,V-tail,structure,4.34,1077.1,-102.9,72.1,"R16 BOM mass, R16.9 surface centroid"
+VTail_Spar_CFRP_VTail_R,V-tail,structure,3.9,1030.9,82.8,58.0,"R16 BOM mass, R16.9 position"
+VTail_Spar_CFRP_VTail_L,V-tail,structure,3.9,1030.9,-82.8,58.0,"R16 BOM mass, R16.9 position"
+VTail_AntiRotation_Pin_D3_VTail_R,V-tail,structure,1.82,1023.1,17.2,12.0,"R16 BOM mass, R16.9 position"
+VTail_AntiRotation_Pin_D3_VTail_L,V-tail,structure,1.82,1023.1,-17.2,12.0,"R16 BOM mass, R16.9 position"
+VTail_Fixed_Core_XPS_VTail_R,V-tail,structure,1.33,1042.2,92.7,64.9,"R16 BOM mass, R16.9 position"
+VTail_Fixed_Core_XPS_VTail_L,V-tail,structure,1.33,1042.2,-92.2,64.6,"R16 BOM mass, R16.9 position"
+VTail_Root_Diaphragm_GFRP_VTail_R,V-tail,structure,0.53,1007.2,24.8,17.3,"R16 BOM mass, R16.9 position"
+VTail_Root_Diaphragm_GFRP_VTail_L,V-tail,structure,0.53,1007.1,-24.7,17.4,"R16 BOM mass, R16.9 position"
+VTail_Spar_Root_Plug_6061_VTail_R,V-tail,structure,0.35,991.2,7.9,5.6,"R16 BOM mass, R16.9 position"
+VTail_Spar_Root_Plug_6061_VTail_L,V-tail,structure,0.35,991.2,-7.9,5.6,"R16 BOM mass, R16.9 position"
+VTail_Ruddervator_Core_XPS_VTail_R,V-tail,structure,0.22,1069.8,91.6,64.1,"R16 BOM mass, R16.9 position"
+VTail_Ruddervator_Core_XPS_VTail_L,V-tail,structure,0.22,1069.8,-91.6,64.1,"R16 BOM mass, R16.9 position"
+VTail_Hinge_Pins_REF_VTail_R,V-tail,structure,0.19,1069.3,106.5,74.6,"R16 BOM mass, R16.9 position"
+VTail_Hinge_Pins_REF_VTail_L,V-tail,structure,0.19,1069.3,-106.5,74.6,"R16 BOM mass, R16.9 position"
+Wing_Skin_GFRP_Wing_R,Wing,structure,104.11,428.4,346.6,2.9,"R16 BOM mass, R16.9 surface centroid"
+Wing_Skin_GFRP_Wing_L,Wing,structure,104.11,428.5,-346.7,2.9,"R16 BOM mass, R16.9 surface centroid"
+Wing_Main_Spar_CFRP_Wing_R,Wing,structure,21.85,406.9,358.8,4.0,"R16 BOM mass, R16.9 position"
+Wing_Main_Spar_CFRP_Wing_L,Wing,structure,21.85,406.9,-358.8,4.0,"R16 BOM mass, R16.9 position"
+Wing_XPS_Core_Panels_Wing_R,Wing,structure,18.03,421.9,330.5,3.8,"R16 BOM mass, R16.9 position"
+Wing_XPS_Core_Panels_Wing_L,Wing,structure,18.03,421.5,-330.1,3.8,"R16 BOM mass, R16.9 position"
+Wing_Root_Elbow_CFRP_Wing_R,Wing,structure,10.9,354.1,77.2,4.2,"R16 BOM mass, R16.9 position"
+Wing_Root_Elbow_CFRP_Wing_L,Wing,structure,10.9,354.1,-77.2,4.2,"R16 BOM mass, R16.9 position"
+Wing_Motor_Rib_Extended_Tab_CFRP_Wing_R,Wing,structure,8.11,412.3,265.0,-3.4,"R16 BOM mass, R16.9 position"
+Wing_Motor_Rib_Extended_Tab_CFRP_Wing_L,Wing,structure,8.11,412.3,-265.0,-3.4,"R16 BOM mass, R16.9 position"
+Wing_Aft_Torque_Tube_CFRP_Wing_R,Wing,structure,5.09,442.4,257.5,3.1,"R16 BOM mass, R16.9 position"
+Wing_Aft_Torque_Tube_CFRP_Wing_L,Wing,structure,5.09,442.4,-257.5,3.1,"R16 BOM mass, R16.9 position"
+Wing_Wire_Conduit_PTFE_Wing_R,Wing,structure,3.42,395.5,155.3,4.0,"R16 BOM mass, R16.9 position"
+Wing_Wire_Conduit_PTFE_Wing_L,Wing,structure,3.42,395.5,-155.3,4.0,"R16 BOM mass, R16.9 position"
+Wing_Root_Diaphragm_GFRP_Wing_R,Wing,structure,2.94,369.2,45.8,4.9,"R16 BOM mass, R16.9 position"
+Wing_Root_Diaphragm_GFRP_Wing_L,Wing,structure,2.94,369.2,-45.8,4.9,"R16 BOM mass, R16.9 position"
+Wing_Aft_Elbow_CFRP_Wing_R,Wing,structure,1.69,420.7,80.0,3.0,"R16 BOM mass, R16.9 position"
+Wing_Aft_Elbow_CFRP_Wing_L,Wing,structure,1.69,420.7,-80.0,3.0,"R16 BOM mass, R16.9 position"
+Wing_AntiRotation_Pin_D3_Wing_R,Wing,structure,1.47,420.0,49.7,3.0,"R16 BOM mass, R16.9 position"
+Wing_Motor_Rib_Doublers_GFRP_Wing_R,Wing,structure,1.47,394.3,265.0,4.1,"R16 BOM mass, R16.9 position"
+Wing_AntiRotation_Pin_D3_Wing_L,Wing,structure,1.47,420.0,-49.7,3.0,"R16 BOM mass, R16.9 position"
+Wing_Motor_Rib_Doublers_GFRP_Wing_L,Wing,structure,1.47,394.3,-265.0,4.1,"R16 BOM mass, R16.9 position"
+Wing_Spar_Sleeve_GFRP_Wing_R,Wing,structure,1.31,390.8,265.0,4.0,"R16 BOM mass, R16.9 position"
+Wing_Spar_Sleeve_GFRP_Wing_L,Wing,structure,1.31,390.8,-265.0,4.0,"R16 BOM mass, R16.9 position"
+Wing_Retention_Screw_M3_Wing_R,Wing,structure,0.81,405.0,50.0,5.3,"R16 BOM mass, R16.9 position"
+Wing_Retention_Screw_M3_Wing_L,Wing,structure,0.81,405.0,-50.0,5.3,"R16 BOM mass, R16.9 position"
+Wing_Aft_Collars_GFRP_Wing_R,Wing,structure,0.46,452.7,336.2,3.1,"R16 BOM mass, R16.9 position"
+Wing_Aft_Collars_GFRP_Wing_L,Wing,structure,0.46,452.7,-336.2,3.1,"R16 BOM mass, R16.9 position"
+Wing_Retention_Lug_GFRP_Wing_R,Wing,structure,0.42,405.0,51.2,3.3,"R16 BOM mass, R16.9 position"
+Wing_Retention_Lug_GFRP_Wing_L,Wing,structure,0.42,405.0,-51.2,3.3,"R16 BOM mass, R16.9 position"

@@ -1,0 +1,139 @@
+{
+ "A_takeoff_gear_down_buoy_on": {
+  "mass_kg": 3.7451,
+  "cg_mm_cad": [
+   424.0,
+   -0.0,
+   -7.6
+  ],
+  "Ixx": 0.09901,
+  "Iyy": 0.28457,
+  "Izz": 0.37831,
+  "Ixz_product_cad": 0.00317,
+  "Ixy_product_cad": 3e-05,
+  "Iyz_product_cad": 0.0,
+  "Ixz_product_body": 0.00317
+ },
+ "groups_case_A": {
+  "Fuselage": {
+   "mass_g": 330.1,
+   "x_mm": 604.0
+  },
+  "Nose module": {
+   "mass_g": 47.8,
+   "x_mm": 130.4
+  },
+  "Wing": {
+   "mass_g": 364.2,
+   "x_mm": 418.1
+  },
+  "Booms": {
+   "mass_g": 187.3,
+   "x_mm": 422.4
+  },
+  "V-tail": {
+   "mass_g": 44.8,
+   "x_mm": 1045.6
+  },
+  "Landing gear": {
+   "mass_g": 167.1,
+   "x_mm": 481.7
+  },
+  "Propulsion": {
+   "mass_g": 461.3,
+   "x_mm": 646.6
+  },
+  "Battery": {
+   "mass_g": 944.0,
+   "x_mm": 317.5
+  },
+  "Avionics": {
+   "mass_g": 745.0,
+   "x_mm": 342.2
+  },
+  "Payload": {
+   "mass_g": 370.0,
+   "x_mm": 350.0
+  },
+  "Allowance": {
+   "mass_g": 83.5,
+   "x_mm": 494.6
+  }
+ },
+ "structure_g_case_A": 1196.3,
+ "B_cruise_gear_up_buoy_on": {
+  "mass_kg": 3.7451,
+  "cg_mm_cad": [
+   424.4,
+   -0.0,
+   -6.5
+  ],
+  "Ixx": 0.09828,
+  "Iyy": 0.28164,
+  "Izz": 0.37612,
+  "Ixz_product_cad": 0.00328,
+  "Ixy_product_cad": 3e-05,
+  "Iyz_product_cad": 0.0,
+  "Ixz_product_body": 0.00328
+ },
+ "C_after_release_gear_up_buoy_off": {
+  "mass_kg": 3.3751,
+  "cg_mm_cad": [
+   432.6,
+   -0.0,
+   -1.1
+  ],
+  "Ixx": 0.09731,
+  "Iyy": 0.2784,
+  "Izz": 0.37384,
+  "Ixz_product_cad": 0.0018,
+  "Ixy_product_cad": 3e-05,
+  "Iyz_product_cad": 0.0,
+  "Ixz_product_body": 0.0018
+ },
+ "D_landing_gear_down_buoy_off": {
+  "mass_kg": 3.3751,
+  "cg_mm_cad": [
+   432.2,
+   -0.0,
+   -2.4
+  ],
+  "Ixx": 0.09809,
+  "Iyy": 0.2814,
+  "Izz": 0.37606,
+  "Ixz_product_cad": 0.00173,
+  "Ixy_product_cad": 3e-05,
+  "Iyz_product_cad": 0.0,
+  "Ixz_product_body": 0.00173
+ },
+ "E_A_with_structural_fixes": {
+  "mass_kg": 3.8027,
+  "cg_mm_cad": [
+   423.5,
+   -0.0,
+   -7.4
+  ],
+  "Ixx": 0.10031,
+  "Iyy": 0.28465,
+  "Izz": 0.37967,
+  "Ixz_product_cad": 0.00315,
+  "Ixy_product_cad": 3e-05,
+  "Iyz_product_cad": 0.0,
+  "Ixz_product_body": 0.00315
+ },
+ "F_A_without_unresolved_allocations": {
+  "mass_kg": 3.2589,
+  "cg_mm_cad": [
+   447.4,
+   -0.0,
+   -8.7
+  ],
+  "Ixx": 0.09898,
+  "Iyy": 0.21712,
+  "Izz": 0.3109,
+  "Ixz_product_cad": 0.00384,
+  "Ixy_product_cad": 3e-05,
+  "Iyz_product_cad": 0.0,
+  "Ixz_product_body": 0.00384
+ }
+}
