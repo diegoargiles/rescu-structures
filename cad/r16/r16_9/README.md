@@ -65,11 +65,15 @@ The shell holes are filled at the old stations and re-cut at x 345, 380 and 420.
 
 Built bottom-up from this CAD; see `mass_properties/` and the S&C package.
 
+The 350 g "Camera/AI" allocation (the old camera line) was cut on November 22.
+
 | Case | Mass | CG x |
 |---|---|---|
-| Takeoff, gear down, buoy on, no bond allowance | 3.662 kg | 422.4 |
-| Same, with the 7.5 % bond and finish allowance (**baseline**) | **3.745 kg** | **424.0** |
-| After the buoy release, gear up | 3.375 kg | 432.6 (+8.2 mm) |
+| Takeoff, gear down, buoy on, with the 7.5 % bond and finish allowance (**baseline**) | **3.395 kg** | **461.6** (76 % MAC) |
+| After the buoy release, gear up | 3.025 kg | 475.7 (+13.7 mm) |
+| Before the cut, for reference | 3.745 kg | 424.0 |
+
+**The CG is now well aft of any plausible neutral point.** See section 6 of the S&C package for the options.
 
 The structural mass is 1113 g in CAD and 1196 g with the allowance, landing gear included.
 
@@ -114,15 +118,17 @@ Script: `structures/rescu_r16_9_structures.py`. Results are in `structures/resul
 ## Open items
 1. **Neutral point for this wing position.** Aero must compute it (XFLR5). The rough NP of 431 mm puts the post-release CG behind the NP; see the S&C package.
 2. **No ailerons in the CAD.** Roll control in wing-borne flight needs a decision; see the S&C package.
-3. **Buoy plate.** Move it to about x 397–447, near the CG, to cut the 8 mm release shift.
-4. **Equipment list:**
-   - confirm or cut the 350 g "Camera/AI" and 136.2 g "other servo" allocations;
-   - add masses for the flight controller and receiver;
+3. **Buoy plate.** Re-centre it on the empty CG once the CG is fixed, to remove the release shift (13.7 mm now).
+4. **Equipment list** (Luis is checking it in the shared mass list):
+   - the 350 g "Camera/AI" line is cut;
+   - confirm or cut the 136.2 g "other servo" allocation;
+   - add masses for the FC, receiver, pusher ESC and the rest of the missing items;
    - weigh the ELP camera.
-5. **Rear battery access.** The module (x 360–435) runs past the rear hatch (x 322–407).
-6. **Structures:**
+5. **CG far aft after the cut.** Restore the margin with nose mass, a wing move or relocated equipment, once Aero gives the NP.
+6. **Rear battery access.** The module (x 360–435) runs past the rear hatch (x 322–407).
+7. **Structures:**
    - joiner OD14/11;
    - the inner-wing ±45° CF ply;
    - coupon and bend tests;
    - a boom tap test.
-7. **V-tail linkage:** pushrods and horns are not modelled.
+8. **V-tail linkage:** pushrods and horns are not modelled.

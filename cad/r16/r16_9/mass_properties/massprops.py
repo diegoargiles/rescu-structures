@@ -111,8 +111,8 @@ def equipment(buoy=True, unresolved=True):
         c, I = solid_mass(n, 9.5, ''); add(n, 'Landing gear', 'equipment', 9.5, c, I, 'KST X08H Plus 9.5 g')
     add('Heat sink', 'Avionics', 'equipment', 30.0, (200, 0, 0), None, 'inputs.json, position provisional')
     add('Flight controller (Cube) + receiver', 'Avionics', 'equipment', 0.0, (152, 0, 8), None, 'NO MASS YET - add real values')
+    # 350 g "Camera/AI" allocation (old camera line) CUT on 2026-11-22 by the structures lead; the ELP camera is modelled above
     if unresolved:
-        add('Camera/AI allocation (UNRESOLVED)', 'Avionics', 'equipment', 350.0, (60, 0, 0), None, 'inputs.json 350 g, probably the old camera line: confirm or cut')
         add('Other servo allocation (UNRESOLVED)', 'Avionics', 'equipment', 136.2, (800, 0, 0), None, 'inputs.json residual: confirm or cut')
     if buoy:
         add('Buoy (flotation) + beacon', 'Payload', 'payload', 360.0, (350, 0, -55), None, 'inputs.json; point mass at the release plate')
@@ -154,7 +154,7 @@ if __name__ == '__main__':
                                        ('C_after_release_gear_up_buoy_off', 'retracted', False, True, ()),
                                        ('D_landing_gear_down_buoy_off', 'deployed', False, True, ()),
                                        ('E_A_with_structural_fixes', 'deployed', True, True, fixes),
-                                       ('F_A_without_unresolved_allocations', 'deployed', True, False, ())]:
+                                       ('F_A_without_other_servo_allocation', 'deployed', True, False, ())]:
         its, M, C, I = case(gear, buoy, unres, ex)
         res[key] = tensor_report(M, C, I)
         print(key, res[key], flush=True)

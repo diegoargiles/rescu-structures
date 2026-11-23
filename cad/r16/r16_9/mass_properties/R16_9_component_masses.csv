@@ -1,6 +1,5 @@
 item,group,kind,mass_g,x_mm,y_mm,z_mm,source
 "Bond, fillet and finish allowance",Allowance,structure,83.46,494.6,-0.2,-7.1,7.5 % of CAD structure
-Camera/AI allocation (UNRESOLVED),Avionics,equipment,350.0,60.0,0.0,0.0,"inputs.json 350 g, probably the old camera line: confirm or cut"
 4 x AIR40A ESCs + wiring,Avionics,equipment,150.0,505.0,-0.0,-9.9,inputs.json
 Other servo allocation (UNRESOLVED),Avionics,equipment,136.2,800.0,0.0,0.0,inputs.json residual: confirm or cut
 V-tail servos x2 (HS-5085MG),Avionics,equipment,43.8,945.0,0.0,1.2,R13 equipment list

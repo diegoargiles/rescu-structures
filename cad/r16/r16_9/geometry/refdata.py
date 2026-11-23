@@ -48,7 +48,7 @@ pusher=dict(prop='APC 13x8 LP13080P (330 mm)', prop_centroid_mm=pos('APC 13x8 pu
 batt=dict(config='6S2P M65A, two 75 x 68 x 47 mm modules, 472 g each (944 g)',
   front_module=dict(now_x_mm=[200,275], range_x_start_mm=[200,242], limits='fwd: flight controller / receiver (x 199.5); aft: ring frame F317 (x 317)'),
   rear_module=dict(now_x_mm=[360,435], range_x_start_mm=[356.5,365], limits='fwd: ring frame F355 (x 356.5); aft: ESC deck (x 440)'),
-  cg_trim_authority_mm=dict(front_module_full_aft=round(472*42/(mp['A_takeoff_gear_down_buoy_on']['mass_kg']*1000),1), rear_module_range=[round(-472*3.5/3745,2),round(472*5/3745,2)]),
+  cg_trim_authority_mm=dict(front_module_full_aft=round(472*42/(mp['A_takeoff_gear_down_buoy_on']['mass_kg']*1000),1), rear_module_range=[round(-472*3.5/(mp['A_takeoff_gear_down_buoy_on']['mass_kg']*1000),2),round(472*5/(mp['A_takeoff_gear_down_buoy_on']['mass_kg']*1000),2)]),
   note='The saddles are bonded frames, so a new module position must be chosen before step 2 of the build. The battery cannot move the CG forward without moving the flight controller.')
 sensors=dict(flight_controller_imu_box_centre_mm=[152.5,0,6.3], lever_arm_from_cg_case_A_mm=[round(152.5-cg,1),0,round(6.3-mp['A_takeoff_gear_down_buoy_on']['cg_mm_cad'][2],1)],
   camera_ELP=dict(centre_mm=pos('ELP 5MP IR USB camera'), boresight='forward and 45 deg down'), gps_compass='not modelled', airspeed_probe='not modelled')
