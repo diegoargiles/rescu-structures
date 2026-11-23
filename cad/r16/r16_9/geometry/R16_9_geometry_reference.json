@@ -39,7 +39,7 @@
   "mac_s_mm": 99.0,
   "mac_le_x_mm": 1021.3,
   "quarter_mac_x_mm": 1038.0,
-  "tail_arm_from_cg_case_A_mm": 576.4,
+  "tail_arm_from_cg_case_A_mm": 593.6,
   "airfoil": "NACA 0010",
   "ruddervator": {
    "hinge_line_root": [
@@ -60,8 +60,8 @@
    "note": "+-25 deg checked clear in R16.5 (LE bevelled 27 deg). The control throw limit is the S&C choice within this.",
    "mirror": "L panel given; R panel is the mirror in y"
   },
-  "volume_coeff_horizontal_projected": 0.541,
-  "volume_coeff_vertical_projected": 0.0365
+  "volume_coeff_horizontal_projected": 0.557,
+  "volume_coeff_vertical_projected": 0.0376
  },
  "lift_motors": [
   {
@@ -82,7 +82,7 @@
     1
    ],
    "cant_deg": 0,
-   "prop": "APC 10x3 (254 mm)",
+   "prop": "APC 9x4.5MR per W&P (CAD geometry: APC 10x3, 254 mm)",
    "spin": "CCW seen from above (STD prop)"
   },
   {
@@ -103,7 +103,7 @@
     1
    ],
    "cant_deg": 0,
-   "prop": "APC 10x3 (254 mm)",
+   "prop": "APC 9x4.5MR per W&P (CAD geometry: APC 10x3, 254 mm)",
    "spin": "CW seen from above (P prop)"
   },
   {
@@ -124,7 +124,7 @@
     1
    ],
    "cant_deg": 0,
-   "prop": "APC 10x3 (254 mm)",
+   "prop": "APC 9x4.5MR per W&P (CAD geometry: APC 10x3, 254 mm)",
    "spin": "CW seen from above (P prop)"
   },
   {
@@ -145,28 +145,28 @@
     1
    ],
    "cant_deg": 0,
-   "prop": "APC 10x3 (254 mm)",
+   "prop": "APC 9x4.5MR per W&P (CAD geometry: APC 10x3, 254 mm)",
    "spin": "CCW seen from above (STD prop)"
   }
  ],
  "hover_thrust_split": {
   "A_takeoff_gear_down_buoy_on": {
-   "weight_N": 33.31,
-   "front_pair_N": 13.43,
-   "rear_pair_N": 19.88,
-   "per_front_motor_N": 6.72,
-   "per_rear_motor_N": 9.94
+   "weight_N": 34.31,
+   "front_pair_N": 15.21,
+   "rear_pair_N": 19.1,
+   "per_front_motor_N": 7.6,
+   "per_rear_motor_N": 9.55
   },
   "D_landing_gear_down_buoy_off": {
-   "weight_N": 29.68,
-   "front_pair_N": 11.03,
-   "rear_pair_N": 18.65,
-   "per_front_motor_N": 5.51,
-   "per_rear_motor_N": 9.32
+   "weight_N": 30.68,
+   "front_pair_N": 12.81,
+   "rear_pair_N": 17.87,
+   "per_front_motor_N": 6.4,
+   "per_rear_motor_N": 8.94
   }
  },
  "pusher": {
-  "prop": "APC 13x8 LP13080P (330 mm)",
+  "prop": "APC 12x10 per W&P (CAD geometry: 13x8 LP13080P, 330 mm)",
   "prop_centroid_mm": [
    1139.0,
    -0.0,
@@ -183,7 +183,7 @@
    0
   ],
   "thrust_line_z_mm": 0.0,
-  "thrust_line_offset_above_cg_case_B_mm": 7.1
+  "thrust_line_offset_above_cg_case_B_mm": 6.8
  },
  "battery": {
   "config": "6S2P M65A, two 75 x 68 x 47 mm modules, 472 g each (944 g)",
@@ -210,10 +210,10 @@
    "limits": "fwd: ring frame F355 (x 356.5); aft: ESC deck (x 440)"
   },
   "cg_trim_authority_mm": {
-   "front_module_full_aft": 5.8,
+   "front_module_full_aft": 5.7,
    "rear_module_range": [
-    -0.49,
-    0.7
+    -0.47,
+    0.67
    ]
   },
   "note": "The saddles are bonded frames, so a new module position must be chosen before step 2 of the build. The battery cannot move the CG forward without moving the flight controller."
@@ -225,7 +225,7 @@
   ],
   "plate_z_mm": -55,
   "mass_g": 370,
-  "cg_shift_on_release_mm": 13.7
+  "cg_shift_on_release_mm": 11.2
  },
  "servos": {
   "vtail_servos": {
@@ -253,9 +253,9 @@
    6.3
   ],
   "lever_arm_from_cg_case_A_mm": [
-   -309.1,
+   -291.9,
    0,
-   14.6
+   14.3
   ],
   "camera_ELP": {
    "centre_mm": [

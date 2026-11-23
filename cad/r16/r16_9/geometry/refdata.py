@@ -37,13 +37,13 @@ def pos(k): r=rows[k]; return [float(r['x_mm']),float(r['y_mm']),float(r['z_mm']
 lift=[]
 for k,lab,spin in [('APC_10x3_LP10030_Front_Boom_R','front right','CCW seen from above (STD prop)'),('APC_10x3_LP10030P_Rear_Boom_R','rear right','CW seen from above (P prop)'),
                    ('APC_10x3_LP10030P_Front_Boom_L','front left','CW seen from above (P prop)'),('APC_10x3_LP10030_Rear_Boom_L','rear left','CCW seen from above (STD prop)')]:
-    lift.append(dict(motor=lab, prop_hub_centroid_mm=pos(k), motor_centroid_mm=pos('UM2807_'+('Front' if 'Front' in k else 'Rear')+'_Boom_'+k[-1]), thrust_axis=[0,0,1], cant_deg=0, prop='APC 10x3 (254 mm)', spin=spin))
+    lift.append(dict(motor=lab, prop_hub_centroid_mm=pos(k), motor_centroid_mm=pos('UM2807_'+('Front' if 'Front' in k else 'Rear')+'_Boom_'+k[-1]), thrust_axis=[0,0,1], cant_deg=0, prop='APC 9x4.5MR per W&P (CAD geometry: APC 10x3, 254 mm)', spin=spin))
 xf=np.mean([l['prop_hub_centroid_mm'][0] for l in lift if 'front' in l['motor']]); xr=np.mean([l['prop_hub_centroid_mm'][0] for l in lift if 'rear' in l['motor']])
 split={}
 for key in ('A_takeoff_gear_down_buoy_on','D_landing_gear_down_buoy_off'):
     m=mp[key]['mass_kg']; x=mp[key]['cg_mm_cad'][0]; Wn=m*9.81; fr=(xr-x)/(xr-xf)
     split[key]=dict(weight_N=round(Wn,2), front_pair_N=round(Wn*fr,2), rear_pair_N=round(Wn*(1-fr),2), per_front_motor_N=round(Wn*fr/2,2), per_rear_motor_N=round(Wn*(1-fr)/2,2))
-pusher=dict(prop='APC 13x8 LP13080P (330 mm)', prop_centroid_mm=pos('APC 13x8 pusher prop'), motor_centroid_mm=pos('Tarot 4008 pusher motor + adapter'), thrust_axis=[-1,0,0],
+pusher=dict(prop='APC 12x10 per W&P (CAD geometry: 13x8 LP13080P, 330 mm)', prop_centroid_mm=pos('Pusher prop (APC 12x10 per W&P)'), motor_centroid_mm=pos('Pusher motor (MT4008 per W&P)'), thrust_axis=[-1,0,0],
    thrust_line_z_mm=0.0, thrust_line_offset_above_cg_case_B_mm=round(0-mp['B_cruise_gear_up_buoy_on']['cg_mm_cad'][2],1))
 batt=dict(config='6S2P M65A, two 75 x 68 x 47 mm modules, 472 g each (944 g)',
   front_module=dict(now_x_mm=[200,275], range_x_start_mm=[200,242], limits='fwd: flight controller / receiver (x 199.5); aft: ring frame F317 (x 317)'),

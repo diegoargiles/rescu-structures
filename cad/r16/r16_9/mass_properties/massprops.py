@@ -96,21 +96,21 @@ def solid_mass(n, m, src, grp='Equipment', solid=None):
 
 def equipment(buoy=True, unresolved=True):
     for n in [k for k in NAMES if k.startswith('UM2807')]:
-        c, I = solid_mass(n, 52.0, ''); add(n, 'Propulsion', 'equipment', 52.0, c, I, 'UM2807 52 g with leads (Unusual Machines)')
+        c, I = solid_mass(n, 50.8, ''); add(n, 'Propulsion', 'equipment', 50.8, c, I, 'W&P list 22 Nov: UM2807 1300KV incl. leads 50.8 g')
     for n in [k for k in NAMES if k.startswith('APC_10x3')]:
-        c, I = solid_mass(n, 26.1, ''); add(n, 'Propulsion', 'equipment', 26.1, c, I, 'APC 10x3 LP10030, 0.92 oz catalog')
-    c, I = solid_mass('APC_13x8_LP13080P_Pusher_Prop_Fuselage', 49.0, ''); add('APC 13x8 pusher prop', 'Propulsion', 'equipment', 49.0, c, I, 'APC LP13080, 1.73 oz catalog')
-    c, I = solid_mass('Tarot_4008_Pusher_Motor_Fuselage', 99.9, ''); add('Tarot 4008 pusher motor + adapter', 'Propulsion', 'equipment', 99.9, c, I, '148.9 g pusher allocation (inputs.json) minus prop')
+        c, I = solid_mass(n, 11.6, ''); add(n, 'Propulsion', 'equipment', 11.6, c, I, 'W&P list 22 Nov: APC 9x4.5MR 11.6 g (CAD geometry still 10x3)')
+    c, I = solid_mass('APC_13x8_LP13080P_Pusher_Prop_Fuselage', 30.0, ''); add('Pusher prop (APC 12x10 per W&P)', 'Propulsion', 'equipment', 30.0, c, I, 'W&P list 22 Nov: APC 12x10 30 g ESTIMATED, weigh it (CAD geometry still 13x8)')
+    c, I = solid_mass('Tarot_4008_Pusher_Motor_Fuselage', 108.0, ''); add('Pusher motor (MT4008 per W&P)', 'Propulsion', 'equipment', 108.0, c, I, 'W&P list 22 Nov: MT4008 108 g (CAD geometry is a Tarot 4008)')
     s = shape('REF_Battery_Modules_75x68x47_Fuselage').Solids()
     for i, so in enumerate(sorted(s, key=lambda x: x.Center().x)):
-        v, cc, Ii = props_of(so); add(f'Battery 6S module {"front" if i == 0 else "rear"} (half of 6S2P)', 'Battery', 'equipment', 472.0, cc, Ii * 472.0 / v, 'M65A 6S2P 944 g (12 x 74.5 + 50), inputs.json')
+        v, cc, Ii = props_of(so); add(f'Battery 6S module {"front" if i == 0 else "rear"} (half of 6S2P)', 'Battery', 'equipment', 469.5, cc, Ii * 469.5 / v, 'W&P list 22 Nov: pack ~939 g, split in two')
     c, I = solid_mass('REF_ESC_AIR40A_x4_Fuselage', 150.0, ''); add('4 x AIR40A ESCs + wiring', 'Avionics', 'equipment', 150.0, c, I, 'inputs.json')
     c, I = solid_mass('REF_Camera_ELP_5MP_IR_USB_Fuselage', 35.0, ''); add('ELP 5MP IR USB camera', 'Avionics', 'equipment', 35.0, c, I, 'ASSUMED 35 g, weigh the unit')
     c, I = solid_mass('REF_VTail_Servos_Fuselage', 43.8, ''); add('V-tail servos x2 (HS-5085MG)', 'Avionics', 'equipment', 43.8, c, I, 'R13 equipment list')
     for n in [k for k in NAMES if k.startswith('REF_Servo_KST')]:
         c, I = solid_mass(n, 9.5, ''); add(n, 'Landing gear', 'equipment', 9.5, c, I, 'KST X08H Plus 9.5 g')
     add('Heat sink', 'Avionics', 'equipment', 30.0, (200, 0, 0), None, 'inputs.json, position provisional')
-    add('Flight controller (Cube) + receiver', 'Avionics', 'equipment', 0.0, (152, 0, 8), None, 'NO MASS YET - add real values')
+    add('Avionics (W&P allocation 181 g)', 'Avionics', 'equipment', 181.0, (152.5, 0, 6.3), None, 'W&P list 22 Nov: M_AVIONICS 181 g; placed at the FC on the nose avionics deck; contents to confirm')
     # 350 g "Camera/AI" allocation (old camera line) CUT on 2026-11-22 by the structures lead; the ELP camera is modelled above
     if unresolved:
         add('Other servo allocation (UNRESOLVED)', 'Avionics', 'equipment', 136.2, (800, 0, 0), None, 'inputs.json residual: confirm or cut')

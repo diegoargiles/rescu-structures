@@ -65,15 +65,22 @@ The shell holes are filled at the old stations and re-cut at x 345, 380 and 420.
 
 Built bottom-up from this CAD; see `mass_properties/` and the S&C package.
 
-The 350 g "Camera/AI" allocation (the old camera line) was cut on November 22.
+Two changes on November 22:
+- The 350 g "Camera/AI" allocation (the old camera line) was cut.
+- The equipment masses now follow the W&P list:
+  - lift motors and props: 50.8 + 11.6 g each;
+  - pusher motor and prop: 108 + 30 g;
+  - battery: 939 g;
+  - avionics: 181 g;
+  - payload: 360 g.
 
 | Case | Mass | CG x |
 |---|---|---|
-| Takeoff, gear down, buoy on, with the 7.5 % bond and finish allowance (**baseline**) | **3.395 kg** | **461.6** (76 % MAC) |
-| After the buoy release, gear up | 3.025 kg | 475.7 (+13.7 mm) |
-| Before the cut, for reference | 3.745 kg | 424.0 |
+| Takeoff, gear down, buoy on, with the 7.5 % bond and finish allowance (**baseline**) | **3.497 kg** | **444.4** (63 % MAC) |
+| After the buoy release, gear up | 3.127 kg | 456.0 (+11.2 mm) |
+| Before these changes, for reference | 3.745 kg | 424.0 |
 
-**The CG is now well aft of any plausible neutral point.** See section 6 of the S&C package for the options.
+**The CG is behind the rough neutral point.** See section 6 of the S&C package for the options.
 
 The structural mass is 1113 g in CAD and 1196 g with the allowance, landing gear included.
 
@@ -118,11 +125,11 @@ Script: `structures/rescu_r16_9_structures.py`. Results are in `structures/resul
 ## Open items
 1. **Neutral point for this wing position.** Aero must compute it (XFLR5). The rough NP of 431 mm puts the post-release CG behind the NP; see the S&C package.
 2. **No ailerons in the CAD.** Roll control in wing-borne flight needs a decision; see the S&C package.
-3. **Buoy plate.** Re-centre it on the empty CG once the CG is fixed, to remove the release shift (13.7 mm now).
+3. **Buoy plate.** Re-centre it on the empty CG once the CG is fixed, to remove the release shift (11.2 mm now).
 4. **Equipment list** (Luis is checking it in the shared mass list):
    - the 350 g "Camera/AI" line is cut;
    - confirm or cut the 136.2 g "other servo" allocation;
-   - add masses for the FC, receiver, pusher ESC and the rest of the missing items;
+   - list what the 181 g avionics line contains, and add the pusher ESC, wiring and pushrods;
    - weigh the ELP camera.
 5. **CG far aft after the cut.** Restore the margin with nose mass, a wing move or relocated equipment, once Aero gives the NP.
 6. **Rear battery access.** The module (x 360–435) runs past the rear hatch (x 322–407).

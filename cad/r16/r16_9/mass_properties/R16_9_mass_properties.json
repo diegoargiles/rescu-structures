@@ -1,18 +1,18 @@
 {
  "A_takeoff_gear_down_buoy_on": {
-  "mass_kg": 3.3951,
+  "mass_kg": 3.4974,
   "cg_mm_cad": [
-   461.6,
+   444.4,
    -0.0,
-   -8.3
+   -8.0
   ],
-  "Ixx": 0.09899,
-  "Iyy": 0.23338,
-  "Izz": 0.32715,
-  "Ixz_product_cad": 0.00424,
-  "Ixy_product_cad": 3e-05,
+  "Ixx": 0.09448,
+  "Iyy": 0.24106,
+  "Izz": 0.33031,
+  "Ixz_product_cad": 0.00344,
+  "Ixy_product_cad": 4e-05,
   "Iyz_product_cad": 0.0,
-  "Ixz_product_body": 0.00424
+  "Ixz_product_body": 0.00344
  },
  "groups_case_A": {
   "Fuselage": {
@@ -40,16 +40,16 @@
    "x_mm": 481.7
   },
   "Propulsion": {
-   "mass_g": 461.3,
-   "x_mm": 646.6
+   "mass_g": 387.6,
+   "x_mm": 669.0
   },
   "Battery": {
-   "mass_g": 944.0,
+   "mass_g": 939.0,
    "x_mm": 317.5
   },
   "Avionics": {
-   "mass_g": 395.0,
-   "x_mm": 592.2
+   "mass_g": 576.0,
+   "x_mm": 454.0
   },
   "Payload": {
    "mass_g": 370.0,
@@ -62,78 +62,78 @@
  },
  "structure_g_case_A": 1196.3,
  "B_cruise_gear_up_buoy_on": {
-  "mass_kg": 3.3951,
+  "mass_kg": 3.4974,
   "cg_mm_cad": [
-   462.0,
+   444.8,
    -0.0,
-   -7.1
+   -6.8
   ],
-  "Ixx": 0.09826,
-  "Iyy": 0.23035,
-  "Izz": 0.32484,
-  "Ixz_product_cad": 0.00419,
-  "Ixy_product_cad": 3e-05,
-  "Iyz_product_cad": 0.0,
-  "Ixz_product_body": 0.00419
- },
- "C_after_release_gear_up_buoy_off": {
-  "mass_kg": 3.0251,
-  "cg_mm_cad": [
-   475.7,
-   -0.0,
-   -1.3
-  ],
-  "Ixx": 0.09731,
-  "Iyy": 0.22419,
-  "Izz": 0.31963,
-  "Ixz_product_cad": 0.00196,
-  "Ixy_product_cad": 3e-05,
-  "Iyz_product_cad": 0.0,
-  "Ixz_product_body": 0.00196
- },
- "D_landing_gear_down_buoy_off": {
-  "mass_kg": 3.0251,
-  "cg_mm_cad": [
-   475.2,
-   -0.0,
-   -2.6
-  ],
-  "Ixx": 0.09809,
-  "Iyy": 0.22731,
-  "Izz": 0.32198,
-  "Ixz_product_cad": 0.00208,
+  "Ixx": 0.09375,
+  "Iyy": 0.23808,
+  "Izz": 0.32805,
+  "Ixz_product_cad": 0.00346,
   "Ixy_product_cad": 4e-05,
   "Iyz_product_cad": 0.0,
-  "Ixz_product_body": 0.00208
+  "Ixz_product_body": 0.00346
+ },
+ "C_after_release_gear_up_buoy_off": {
+  "mass_kg": 3.1274,
+  "cg_mm_cad": [
+   456.0,
+   -0.0,
+   -1.1
+  ],
+  "Ixx": 0.09279,
+  "Iyy": 0.2334,
+  "Izz": 0.32433,
+  "Ixz_product_cad": 0.00157,
+  "Ixy_product_cad": 4e-05,
+  "Iyz_product_cad": 0.0,
+  "Ixz_product_body": 0.00157
+ },
+ "D_landing_gear_down_buoy_off": {
+  "mass_kg": 3.1274,
+  "cg_mm_cad": [
+   455.5,
+   -0.0,
+   -2.4
+  ],
+  "Ixx": 0.09357,
+  "Iyy": 0.23647,
+  "Izz": 0.32662,
+  "Ixz_product_cad": 0.0016,
+  "Ixy_product_cad": 4e-05,
+  "Iyz_product_cad": 0.0,
+  "Ixz_product_body": 0.0016
  },
  "E_A_with_structural_fixes": {
-  "mass_kg": 3.4527,
+  "mass_kg": 3.555,
   "cg_mm_cad": [
-   460.4,
+   443.5,
    -0.0,
-   -8.1
+   -7.8
   ],
-  "Ixx": 0.10029,
-  "Iyy": 0.23368,
-  "Izz": 0.32872,
-  "Ixz_product_cad": 0.00419,
-  "Ixy_product_cad": 3e-05,
+  "Ixx": 0.09578,
+  "Iyy": 0.24124,
+  "Izz": 0.33176,
+  "Ixz_product_cad": 0.0034,
+  "Ixy_product_cad": 4e-05,
   "Iyz_product_cad": 0.0,
-  "Ixz_product_body": 0.00419
+  "Ixz_product_body": 0.0034
  },
  "F_A_without_other_servo_allocation": {
-  "mass_kg": 3.2589,
+  "mass_kg": 3.3612,
   "cg_mm_cad": [
-   447.4,
+   429.9,
    -0.0,
-   -8.7
+   -8.3
   ],
-  "Ixx": 0.09898,
-  "Iyy": 0.21712,
-  "Izz": 0.3109,
-  "Ixz_product_cad": 0.00384,
-  "Ixy_product_cad": 3e-05,
+  "Ixx": 0.09447,
+  "Iyy": 0.22313,
+  "Izz": 0.31238,
+  "Ixz_product_cad": 0.00303,
+  "Ixy_product_cad": 4e-05,
   "Iyz_product_cad": 0.0,
-  "Ixz_product_body": 0.00384
+  "Ixz_product_body": 0.00303
  }
 }
