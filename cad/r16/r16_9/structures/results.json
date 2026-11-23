@@ -1,0 +1,195 @@
+{
+ "config": {
+  "mass_kg": 3.652,
+  "cg_x": 421.0,
+  "np_x_rough": 431.0,
+  "static_margin_pct": 7.401924500370097
+ },
+ "load_basis": {
+  "gust": {
+   "n_cruise_7p6": 2.9809857612267248,
+   "n_vmax_5": 3.9063146365365764,
+   "n_vmax_7p6": 5.417598247535596
+  },
+  "wing": {
+   "M_root_y45_limit_Nm": 12.175601844221625,
+   "M_centre_limit_Nm": 14.087074345609985,
+   "ratio_vs_R16_5": 0.9603609642127126,
+   "joiner_OD12_10_ult_MPa_beam": 240.5752326946254
+  }
+ },
+ "wing": {
+  "tip_deflection_LC1_mm": 15.557847620245942,
+  "joiner_OD12_10_LC1_MPa": 266.9803480511341,
+  "joiner_OD14_11_LC1_MPa": 140.65269622670053,
+  "spar_y92_MPa": 110.50530220305384,
+  "skin_wrinkling_MPa": 29.57911769775155,
+  "xps_core_shear_MPa": 0.1824685832004154
+ },
+ "wing_torsion_landing": {
+  "T_landing_limit_Nm": 15.435968589867514,
+  "skin_tau_ult_MPa": 31.658226212530398,
+  "T_LC6_limit_Nm": 3.3216000000000006,
+  "with_one_pm45_CF_ply_tau_MPa": 39.27524304562042
+ },
+ "boom": {
+  "M_saddle_front_ult_Nm": 18.04863280293896,
+  "sigma_saddle_MPa": 13.008336154338092,
+  "M_thrust_ult_Nm": 4.106181015037594,
+  "sigma_knee_station_MPa": 11.169417611941293,
+  "saddle_bolt_tension_N": 90.24316401469481
+ },
+ "landing_gear": {
+  "foot_share_front_each": 0.35534676220089223,
+  "foot_share_tail": 0.2893064755982155,
+  "N_front_5g_limit_N": 63.65347872110315,
+  "knee_CW_limit_Nm": 4.612721264451489,
+  "knee_CCW_limit_Nm": 1.3495884278166241,
+  "rod_OD10_8_ult_MPa": 119.37193338903288,
+  "heel_stop_ult_N": 743.987300717982,
+  "shaft_tau_MPa": 18.94548104109812,
+  "fork_pin_N": 264.2797182408533,
+  "fork_pin_tau_MPa": 18.693966007540062,
+  "keeper_MPa": 104.0167987245341,
+  "cg_height_mm": 195.9778181699071,
+  "tip_side_deg": 42.136328240019346,
+  "tip_fwd_deg": 47.51326267228384,
+  "rollover_mu_side": 0.9047217052047696,
+  "rollover_mu_fwd": 1.0918157853956967
+ },
+ "fuselage": {
+  "tail_foot_5g_N": 51.823642557793704,
+  "M_x600_limit_Nm": 11.330644724787078,
+  "sigma_x600_ult_MPa": 10.094201655685067,
+  "flight_aft_shell_MPa": 12.502866242038218
+ },
+ "mounts": {
+  "wing_antirotation_pin_D3_tau_MPa": 43.67485693313152,
+  "wing_pin_pad_G10_bearing_MPa": 25.726614316445858,
+  "boom_saddle_3xM3_bolt_N": 90.24316401469481,
+  "motor_4xM3_per_motor_N": 6.487500000000001,
+  "knee_block_bond_shear_MPa": 0.27456674193163627,
+  "nose_joint_4xM3_shear_N": 1.8393750000000002,
+  "tail_knee_doubler_bond_MPa": 0.07197728133026904,
+  "vtail_root_retention_screw_N": 101.0
+ },
+ "margins": [
+  [
+   "Wing",
+   "Joiner OD12/10, +3 g (LC1)",
+   -0.213
+  ],
+  [
+   "Wing",
+   "Joiner OD14/11 (recommended), +3 g",
+   0.493
+  ],
+  [
+   "Wing",
+   "Spar at y 92, +3 g",
+   0.9
+  ],
+  [
+   "Wing",
+   "Skin wrinkling, +3 g",
+   0.156
+  ],
+  [
+   "Wing",
+   "XPS core shear (conservative screen)",
+   -0.041
+  ],
+  [
+   "Wing",
+   "Tip deflection vs 35 mm screen",
+   1.25
+  ],
+  [
+   "Wing",
+   "Skin torsion, 5 g landing on the legs",
+   -0.337
+  ],
+  [
+   "Wing",
+   "Skin torsion with 1 \u00b145\u00b0 CF ply (inner wing)",
+   0.426
+  ],
+  [
+   "Boom",
+   "Section at the saddle, landing",
+   10.3
+  ],
+  [
+   "Boom",
+   "Section at the knee, landing",
+   12.161
+  ],
+  [
+   "Landing gear",
+   "Leg rod OD10/8",
+   0.759
+  ],
+  [
+   "Landing gear",
+   "Knee shaft \u00d85, double shear",
+   14.835
+  ],
+  [
+   "Landing gear",
+   "Fork (lock) pin \u00d83",
+   15.048
+  ],
+  [
+   "Landing gear",
+   "Lock keeper, 7075",
+   3.836
+  ],
+  [
+   "Fuselage",
+   "Aft shell, +3 g + tail download",
+   0.304
+  ],
+  [
+   "Fuselage",
+   "Aft shell, 5 g on the tail leg",
+   0.615
+  ],
+  [
+   "Mounts",
+   "Wing anti-rotation pin D3 (landing torsion)",
+   5.869
+  ],
+  [
+   "Mounts",
+   "Wing pin pad G10 bearing",
+   4.831
+  ],
+  [
+   "Mounts",
+   "Boom saddle M3 bolts (tension)",
+   14.514
+  ],
+  [
+   "Mounts",
+   "Motor M3 screws",
+   214.8
+  ],
+  [
+   "Mounts",
+   "Knee block bond (epoxy 10 MPa \u00d7 0.5)",
+   17.211
+  ],
+  [
+   "Mounts",
+   "Tail knee doubler bond",
+   68.466
+  ]
+ ],
+ "structural_mass_g": {
+  "Fuselage + nose": 379.5,
+  "Wing (2 panels)": 357,
+  "Booms (2)": 182.2,
+  "V-tail": 45,
+  "Landing gear (3 legs, no servos)": 135.7
+ }
+}

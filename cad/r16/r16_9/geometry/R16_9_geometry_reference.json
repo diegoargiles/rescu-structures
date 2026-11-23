@@ -1,0 +1,281 @@
+{
+ "frame": "CAD frame: origin at the nose tip, X aft, Y right, Z up (fuselage axis at z 0), mm. Body frame for S&C: x_b = -X, y_b = Y, z_b = -Z.",
+ "wing": {
+  "reference": "trapezoid extrapolated to the centreline, from CAD sections of the R16.9 skin (y 46-699)",
+  "span_mm": 1400,
+  "root_chord_y0_mm": 165.0,
+  "tip_chord_mm": 100.0,
+  "taper": 0.606,
+  "area_m2": 0.1855,
+  "aspect_ratio": 10.57,
+  "le_x_at_y0_mm": 295.0,
+  "le_x_at_tip_mm": 435.0,
+  "le_sweep_deg": 11.31,
+  "mac_mm": 135.1,
+  "mac_y_mm": 321.4,
+  "mac_le_x_mm": 359.3,
+  "quarter_mac_x_mm": 393.1,
+  "dihedral_deg": 0.0,
+  "incidence_deg": 0.09,
+  "twist": "none measurable (0.1 deg root and tip)",
+  "airfoil": "SD7037",
+  "exposed_root_y_mm": 44.0,
+  "chord_line_z_mm": 0.0,
+  "ailerons": "NONE in the R16.9 CAD (single-piece wing skin)"
+ },
+ "vtail": {
+  "reference": "each panel measured in its own plane; s = distance along the panel span from the fuselage-side root (s=0 at y -22, z 14)",
+  "dihedral_deg": 35.0,
+  "panel_span_s_mm": 221.0,
+  "root_chord_mm": 85.2,
+  "tip_chord_mm": 44.6,
+  "taper": 0.524,
+  "panel_area_each_m2": 0.01434,
+  "total_true_area_m2": 0.02869,
+  "horizontal_projected_area_m2": 0.0235,
+  "vertical_projected_area_m2": 0.01646,
+  "le_sweep_in_panel_plane_deg": 26.09,
+  "mac_mm": 67.0,
+  "mac_s_mm": 99.0,
+  "mac_le_x_mm": 1021.3,
+  "quarter_mac_x_mm": 1038.0,
+  "tail_arm_from_cg_case_A_mm": 614.0,
+  "airfoil": "NACA 0010",
+  "ruddervator": {
+   "hinge_line_root": [
+    1031.1,
+    -22.0,
+    14.0
+   ],
+   "hinge_line_tip": [
+    1111.3,
+    -203.0,
+    140.8
+   ],
+   "chord_root_mm": 26.9,
+   "chord_tip_mm": 14.7,
+   "chord_fraction": 0.318,
+   "span_s_mm": "about 2 to 221 (1.0 mm root gap)",
+   "deflection_clearance_deg": 25,
+   "note": "+-25 deg checked clear in R16.5 (LE bevelled 27 deg). The control throw limit is the S&C choice within this.",
+   "mirror": "L panel given; R panel is the mirror in y"
+  },
+  "volume_coeff_horizontal_projected": 0.576,
+  "volume_coeff_vertical_projected": 0.0389
+ },
+ "lift_motors": [
+  {
+   "motor": "front right",
+   "prop_hub_centroid_mm": [
+    205.0,
+    265.0,
+    14.3
+   ],
+   "motor_centroid_mm": [
+    205.5,
+    265.5,
+    -1.2
+   ],
+   "thrust_axis": [
+    0,
+    0,
+    1
+   ],
+   "cant_deg": 0,
+   "prop": "APC 10x3 (254 mm)",
+   "spin": "CCW seen from above (STD prop)"
+  },
+  {
+   "motor": "rear right",
+   "prop_hub_centroid_mm": [
+    635.0,
+    265.0,
+    14.3
+   ],
+   "motor_centroid_mm": [
+    635.5,
+    265.5,
+    -1.2
+   ],
+   "thrust_axis": [
+    0,
+    0,
+    1
+   ],
+   "cant_deg": 0,
+   "prop": "APC 10x3 (254 mm)",
+   "spin": "CW seen from above (P prop)"
+  },
+  {
+   "motor": "front left",
+   "prop_hub_centroid_mm": [
+    205.0,
+    -265.0,
+    14.3
+   ],
+   "motor_centroid_mm": [
+    205.5,
+    -264.5,
+    -1.2
+   ],
+   "thrust_axis": [
+    0,
+    0,
+    1
+   ],
+   "cant_deg": 0,
+   "prop": "APC 10x3 (254 mm)",
+   "spin": "CW seen from above (P prop)"
+  },
+  {
+   "motor": "rear left",
+   "prop_hub_centroid_mm": [
+    635.0,
+    -265.0,
+    14.3
+   ],
+   "motor_centroid_mm": [
+    635.5,
+    -264.5,
+    -1.2
+   ],
+   "thrust_axis": [
+    0,
+    0,
+    1
+   ],
+   "cant_deg": 0,
+   "prop": "APC 10x3 (254 mm)",
+   "spin": "CCW seen from above (STD prop)"
+  }
+ ],
+ "hover_thrust_split": {
+  "A_takeoff_gear_down_buoy_on": {
+   "weight_N": 36.74,
+   "front_pair_N": 18.03,
+   "rear_pair_N": 18.71,
+   "per_front_motor_N": 9.01,
+   "per_rear_motor_N": 9.36
+  },
+  "D_landing_gear_down_buoy_off": {
+   "weight_N": 33.11,
+   "front_pair_N": 15.62,
+   "rear_pair_N": 17.49,
+   "per_front_motor_N": 7.81,
+   "per_rear_motor_N": 8.75
+  }
+ },
+ "pusher": {
+  "prop": "APC 13x8 LP13080P (330 mm)",
+  "prop_centroid_mm": [
+   1139.0,
+   -0.0,
+   0.0
+  ],
+  "motor_centroid_mm": [
+   1112.8,
+   0.3,
+   0.0
+  ],
+  "thrust_axis": [
+   -1,
+   0,
+   0
+  ],
+  "thrust_line_z_mm": 0.0,
+  "thrust_line_offset_above_cg_case_B_mm": 6.5
+ },
+ "battery": {
+  "config": "6S2P M65A, two 75 x 68 x 47 mm modules, 472 g each (944 g)",
+  "front_module": {
+   "now_x_mm": [
+    200,
+    275
+   ],
+   "range_x_start_mm": [
+    200,
+    242
+   ],
+   "limits": "fwd: flight controller / receiver (x 199.5); aft: ring frame F317 (x 317)"
+  },
+  "rear_module": {
+   "now_x_mm": [
+    360,
+    435
+   ],
+   "range_x_start_mm": [
+    356.5,
+    365
+   ],
+   "limits": "fwd: ring frame F355 (x 356.5); aft: ESC deck (x 440)"
+  },
+  "cg_trim_authority_mm": {
+   "front_module_full_aft": 5.3,
+   "rear_module_range": [
+    -0.44,
+    0.63
+   ]
+  },
+  "note": "The saddles are bonded frames, so a new module position must be chosen before step 2 of the build. The battery cannot move the CG forward without moving the flight controller."
+ },
+ "buoy": {
+  "release_plate_x_mm": [
+   325,
+   375
+  ],
+  "plate_z_mm": -55,
+  "mass_g": 370,
+  "cg_shift_on_release_mm": 8.2
+ },
+ "servos": {
+  "vtail_servos": {
+   "type": "2 x HS-5085MG (REF envelope)",
+   "box_x_mm": [
+    930,
+    960
+   ],
+   "box_y_mm": [
+    -16,
+    16
+   ],
+   "box_z_mm": [
+    -14.8,
+    17.2
+   ]
+  },
+  "linkage": "NOT MODELLED: pushrods run aft through two dia 8 channels in the V-tail root block at y +-12, z -8; horn positions to be defined",
+  "gear_servos": "3 x KST X08H (one per leg), positions in the component CSV"
+ },
+ "sensors": {
+  "flight_controller_imu_box_centre_mm": [
+   152.5,
+   0,
+   6.3
+  ],
+  "lever_arm_from_cg_case_A_mm": [
+   -271.5,
+   0,
+   13.9
+  ],
+  "camera_ELP": {
+   "centre_mm": [
+    51.5,
+    -0.0,
+    -2.0
+   ],
+   "boresight": "forward and 45 deg down"
+  },
+  "gps_compass": "not modelled",
+  "airspeed_probe": "not modelled"
+ },
+ "landing_gear": {
+  "legs": 3,
+  "ground_z_mm": -206,
+  "clearance_under_buoy_plate_mm": 150,
+  "tip_over_deg": {
+   "sideways": 42,
+   "nose_over": 48
+  },
+  "mass_g": 158.6
+ }
+}
